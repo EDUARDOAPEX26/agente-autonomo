@@ -8,7 +8,7 @@ from datetime import datetime
 
 # ── CHAVES ───────────────────────────────────────────────
 APIS = [
-    {"nome": "Groq-1", "tipo": "groq", "chave": "SUA_CHAVE_GROQ", "modelo": "llama-3.1-8b-instant"},
+    {"nome": "Groq-1", "tipo": "groq", "chave": os.environ.get("GROQ_API_KEY", ""), "modelo": "llama-3.1-8b-instant"},
     {"nome": "Gemini", "tipo": "gemini", "chave": "SUA_CHAVE_GEMINI", "modelo": "gemini-1.5-flash"},
 ]
 
