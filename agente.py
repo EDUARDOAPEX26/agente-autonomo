@@ -65,8 +65,8 @@ def get_memoria_endpoint():
 def executar_tarefa_remota(tarefa: str, objetivo: str = "tarefa remota"):
     try:
         cpu, mem = estado_sistema()
-        executar_tarefa(tarefa, objetivo, contar_registros(), cpu, mem)
-        return {"status": "ok", "tarefa": tarefa, "executada": True}
+        resultado = executar_tarefa_com_retorno(tarefa, objetivo, contar_registros(), cpu, mem)
+        return {"status": "ok", "tarefa": tarefa, "executada": True, "resultado": resultado}
     except Exception as e:
         return {"status": "erro", "tarefa": tarefa, "erro": str(e)}
 
@@ -480,6 +480,69 @@ def planejar_tarefas(objetivo: str) -> list:
     except:
         pass
     return ["monitorar sistema", "registrar atividade", "verificar sistema"]
+
+def executar_tarefa_com_retorno(tarefa: str, objetivo: str, registros: int, cpu: float, mem: float) -> str:
+    """Igual a executar_tarefa mas retorna o resultado para o chamador."""
+    agora    = datetime.now().strftime("%H:%M:%S")
+    contexto = f"Objetivo: {objetivo} | Registros: {registros} | CPU: {cpu}% | Mem: {mem}%"
+    resultado = ""
+
+    if tarefa in ("buscar cotacao dolar", "buscar noticias tech"):
+        queries = {
+            "buscar cotacao dolar": "cotacao dolar hoje brasil real",
+            "buscar noticias tech": "noticias tecnologia inteligencia artificial hoje",
+        }
+        query = queries[tarefa]
+        if precisa_tavily(query):
+            resultado = buscar_tavily(query)
+        else:
+            resultado = chamar_ia(tarefa, f"Execute sem dados da internet: '{tarefa}'.")
+
+    elif tarefa == "mostrar hora":
+        resultado = agora
+
+    elif tarefa == "monitorar sistema":
+        resultado = f"CPU: {cpu}% | Mem: {mem}%"
+
+    elif tarefa == "verificar sistema":
+        resultado = chamar_ia(tarefa, f"CPU: {cpu}%, Memoria: {mem}%, Hora: {agora}. O sistema esta saudavel?")
+
+    elif tarefa == "registrar atividade":
+        resultado = f"Atividade registrada as {agora}"
+
+    elif tarefa == "analisar memoria":
+        try:
+            with open("memoria.txt", "r", encoding="utf-8") as f:
+                linhas = f.readlines()
+            resultado = chamar_ia(tarefa, f"Tenho {len(linhas)} registros. Objetivo: {objetivo}. O que devo fazer?")
+        except FileNotFoundError:
+            resultado = "memoria.txt ainda nao existe"
+
+    elif tarefa == "limpar memoria":
+        try:
+            with open("memoria.txt", "w", encoding="utf-8") as f:
+                f.write("")
+            resultado = "Memoria limpa com sucesso"
+        except Exception as e:
+            resultado = f"Erro ao limpar: {e}"
+
+    elif tarefa == "gerar relatorio":
+        try:
+            with open("memoria.txt", "r", encoding="utf-8") as f:
+                linhas = f.readlines()
+            resultado = chamar_ia(tarefa, f"Gere um resumo tecnico de {len(linhas)} registros do agente em nuvem.")
+        except Exception as e:
+            resultado = f"Erro ao gerar relatorio: {e}"
+
+    else:
+        resultado = chamar_ia(tarefa, f"Execute: '{tarefa}'. Contexto: {contexto}")
+
+    # Salva no log e na memória compartilhada
+    if resultado:
+        salvar_log(tarefa, resultado)
+        registrar_tarefa_na_memoria(tarefa, resultado)
+
+    return resultado or "Tarefa executada sem resultado."
 
 def executar_tarefa(tarefa: str, objetivo: str, registros: int, cpu: float, mem: float):
     agora    = datetime.now().strftime("%H:%M:%S")
