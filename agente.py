@@ -4,7 +4,74 @@ import psutil
 import requests
 import json
 import os
+import threading
 from datetime import datetime
+from fastapi import FastAPI
+from fastapi.responses import JSONResponse
+import uvicorn
+
+# ── FASTAPI ──────────────────────────────────────────────
+app = FastAPI()
+
+# Estado compartilhado entre o loop e a API
+estado = {
+    "ciclo":    0,
+    "objetivo": "iniciando",
+    "cpu":      0.0,
+    "mem":      0.0,
+    "ultima_tarefa": "",
+    "tavily_uso": 0,
+    "online": True,
+}
+
+@app.get("/status")
+def status():
+    """Retorna o estado atual do agente em nuvem."""
+    controle = carregar_controle()
+    return {
+        "ciclo":         estado["ciclo"],
+        "objetivo":      estado["objetivo"],
+        "cpu":           estado["cpu"],
+        "mem":           estado["mem"],
+        "ultima_tarefa": estado["ultima_tarefa"],
+        "tavily_uso":    controle.get("tavily_uso", 0),
+        "tavily_max":    MAX_TAVILY,
+        "online":        True,
+        "timestamp":     datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
+    }
+
+@app.get("/memoria")
+def get_memoria():
+    """Retorna as últimas 50 entradas do log do agente."""
+    try:
+        with open("memoria.txt", "r", encoding="utf-8") as f:
+            linhas = f.readlines()[-50:]
+        entradas = []
+        for linha in linhas:
+            try:
+                entradas.append(json.loads(linha))
+            except:
+                entradas.append({"raw": linha.strip()})
+        return {"total": len(linhas), "ultimas": entradas}
+    except:
+        return {"total": 0, "ultimas": []}
+
+@app.post("/tarefa")
+def executar_tarefa_remota(tarefa: str, objetivo: str = "tarefa remota"):
+    """
+    Permite que o chat.py local solicite execução de uma tarefa no Railway.
+    Ex: POST /tarefa?tarefa=buscar cotacao dolar
+    """
+    try:
+        cpu, mem = estado_sistema()
+        executar_tarefa(tarefa, objetivo, contar_registros(), cpu, mem)
+        return {"status": "ok", "tarefa": tarefa, "executada": True}
+    except Exception as e:
+        return {"status": "erro", "tarefa": tarefa, "erro": str(e)}
+
+@app.get("/ping")
+def ping():
+    return {"pong": True}
 
 # ── CHAVES ───────────────────────────────────────────────
 APIS = [
@@ -24,18 +91,15 @@ except Exception as e:
     print(f"[TAVILY] Erro: {e}")
 
 # ── CONTROLE PERSISTENTE DO TAVILY ──────────────────────
-# Salvo em arquivo para sobreviver a reinicializações do Railway
 CONTROLE_FILE = "controle.json"
-MAX_TAVILY    = 10   # máximo de buscas por dia
-RESET_HORAS   = 24  # reset automático após 24h
+MAX_TAVILY    = 10
+RESET_HORAS   = 24
 
 def carregar_controle() -> dict:
     try:
         with open(CONTROLE_FILE, "r") as f:
             dados = json.load(f)
-        # Reset automático se passaram mais de 24h
-        ultimo = dados.get("timestamp", 0)
-        if time.time() - ultimo > RESET_HORAS * 3600:
+        if time.time() - dados.get("timestamp", 0) > RESET_HORAS * 3600:
             print(f"[CONTROLE] {RESET_HORAS}h passadas — resetando contador Tavily")
             return {"tavily_uso": 0, "timestamp": time.time(), "data": datetime.now().strftime("%Y-%m-%d")}
         return dados
@@ -52,14 +116,14 @@ def salvar_controle(dados: dict):
 def pode_usar_tavily() -> bool:
     dados = carregar_controle()
     if dados["tavily_uso"] >= MAX_TAVILY:
-        print(f"[TAVILY] Limite de {MAX_TAVILY} buscas/dia atingido. Bloqueado.")
+        print(f"[TAVILY] Limite de {MAX_TAVILY} buscas/dia atingido.")
         return False
     dados["tavily_uso"] += 1
     salvar_controle(dados)
     print(f"[TAVILY] Uso {dados['tavily_uso']}/{MAX_TAVILY} hoje")
     return True
 
-# ── CACHE (com limite para não crescer infinito) ─────────
+# ── CACHE ────────────────────────────────────────────────
 CACHE_DECISAO = {}
 CACHE_TAVILY  = {}
 MAX_CACHE     = 500
@@ -67,12 +131,10 @@ MAX_CACHE     = 500
 def limpar_cache_se_cheio():
     if len(CACHE_DECISAO) > MAX_CACHE:
         CACHE_DECISAO.clear()
-        print("[CACHE] CACHE_DECISAO limpo (limite atingido)")
     if len(CACHE_TAVILY) > MAX_CACHE:
         CACHE_TAVILY.clear()
-        print("[CACHE] CACHE_TAVILY limpo (limite atingido)")
 
-# ── PALAVRAS-CHAVE para decisão rápida ──────────────────
+# ── PALAVRAS-CHAVE ────────────────────────────────────────
 PALAVRAS_WEB = [
     "cotacao", "cotação", "preco", "preço", "valor",
     "dolar", "dólar", "bitcoin", "euro", "real",
@@ -88,32 +150,20 @@ PALAVRAS_BLOQUEIO = [
     "código", "me ajude", "explica", "defina",
 ]
 
-# ── ROUTER: decide se usa Tavily ─────────────────────────
+# ── ROUTER ───────────────────────────────────────────────
 def precisa_tavily(pergunta: str) -> bool:
-    """
-    Ordem de decisão (mais rápida → mais lenta):
-    1. Cache — responde na hora se já foi decidido antes
-    2. Palavras de bloqueio — bloqueia sem chamar nenhuma API
-    3. Palavras-chave web — libera sem chamar nenhuma API
-    4. GROQ decide (3 tokens, temperature=0)
-    5. GEMINI decide se GROQ cair
-    6. Bloqueia se ambos caírem
-    """
     p = pergunta.lower().strip()
     limpar_cache_se_cheio()
 
-    # 1. Cache
     if p in CACHE_DECISAO:
         print(f"[ROUTER] Cache: {'SIM' if CACHE_DECISAO[p] else 'NAO'}")
         return CACHE_DECISAO[p]
 
-    # 2. Bloqueio por palavras-chave
     if any(x in p for x in PALAVRAS_BLOQUEIO):
         print("[ROUTER] Palavra de bloqueio — Tavily NAO")
         CACHE_DECISAO[p] = False
         return False
 
-    # 3. Liberação por palavras-chave
     if any(x in p for x in PALAVRAS_WEB):
         print("[ROUTER] Palavra-chave web — Tavily SIM")
         CACHE_DECISAO[p] = True
@@ -126,7 +176,6 @@ def precisa_tavily(pergunta: str) -> bool:
         f"Tarefa: {pergunta}"
     )
 
-    # 4. GROQ decide
     try:
         from groq import Groq
         api = next((a for a in APIS if a["tipo"] == "groq" and a["chave"]), None)
@@ -139,14 +188,13 @@ def precisa_tavily(pergunta: str) -> bool:
             max_tokens=3,
             temperature=0
         )
-        decisao = r.choices[0].message.content.strip().upper() == "SIM"
+        decisao = "SIM" in r.choices[0].message.content.strip().upper()
         print(f"[ROUTER] GROQ decidiu: {'SIM' if decisao else 'NAO'}")
         CACHE_DECISAO[p] = decisao
         return decisao
     except Exception as e:
         print(f"[ROUTER] GROQ falhou: {e}")
 
-    # 5. GEMINI decide
     try:
         api = next((a for a in APIS if a["tipo"] == "gemini" and a["chave"]), None)
         if not api:
@@ -157,21 +205,19 @@ def precisa_tavily(pergunta: str) -> bool:
             json={"contents": [{"parts": [{"text": prompt}]}]},
             timeout=8
         )
-        data = r.json()
-        txt = data.get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "")
-        decisao = txt.strip().upper() == "SIM"
+        txt = r.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "")
+        decisao = "SIM" in txt.strip().upper()
         print(f"[ROUTER] GEMINI decidiu: {'SIM' if decisao else 'NAO'}")
         CACHE_DECISAO[p] = decisao
         return decisao
     except Exception as e:
         print(f"[ROUTER] GEMINI falhou: {e}")
 
-    # 6. Ambos caíram — bloqueia
-    print("[ROUTER] GROQ e GEMINI indisponiveis — Tavily BLOQUEADO")
+    print("[ROUTER] Ambos indisponiveis — Tavily BLOQUEADO")
     CACHE_DECISAO[p] = False
     return False
 
-# ── BUSCA TAVILY (cache 10 min + limite de uso) ──────────
+# ── BUSCA TAVILY ─────────────────────────────────────────
 def buscar_tavily(query: str) -> str:
     if not tavily_client:
         return "Tavily nao configurado."
@@ -179,21 +225,19 @@ def buscar_tavily(query: str) -> str:
     agora = time.time()
     limpar_cache_se_cheio()
 
-    # Cache de 10 minutos
     if query in CACHE_TAVILY:
         if agora - CACHE_TAVILY[query]["t"] < 600:
             print(f"[TAVILY] Cache hit: {query}")
             return CACHE_TAVILY[query]["r"]
 
-    # Verifica limite de uso antes de gastar crédito
     if not pode_usar_tavily():
-        return "Limite de buscas Tavily atingido nesta sessao."
+        return "Limite de buscas Tavily atingido."
 
     try:
         print(f"[TAVILY] Buscando: {query}")
         r = tavily_client.search(
             query=query,
-            max_results=1,
+            max_results=2,
             search_depth="basic",
             include_answer=True
         )
@@ -312,8 +356,7 @@ def _chamar_api(api: dict, user_prompt: str, max_tokens: int) -> str:
             timeout=15
         )
         r.raise_for_status()
-        data = r.json()
-        txt = data.get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "")
+        txt = r.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "")
         if not txt:
             raise Exception("Gemini retornou resposta vazia")
         return txt.strip()
@@ -375,27 +418,20 @@ def executar_tarefa(tarefa: str, objetivo: str, registros: int, cpu: float, mem:
     agora    = datetime.now().strftime("%H:%M:%S")
     contexto = f"Objetivo: {objetivo} | Registros: {registros} | CPU: {cpu}% | Mem: {mem}%"
 
-    # ── Tarefas com Tavily ──
     if tarefa in ("buscar cotacao dolar", "buscar noticias tech"):
         queries = {
             "buscar cotacao dolar": "cotacao dolar hoje brasil real",
             "buscar noticias tech": "noticias tecnologia inteligencia artificial hoje",
         }
         query = queries[tarefa]
-
         if precisa_tavily(query):
             resultado = buscar_tavily(query)
         else:
-            resultado = chamar_ia(
-                tarefa,
-                f"Execute sem dados da internet: '{tarefa}'. "
-                "Se nao souber com certeza, diga que nao tem a informacao atual."
-            )
+            resultado = chamar_ia(tarefa, f"Execute sem dados da internet: '{tarefa}'.")
         print(f"[{tarefa}] {resultado[:120]}")
         salvar_log(tarefa, resultado)
         return
 
-    # ── Tarefas normais ──
     if tarefa == "mostrar hora":
         print(f"[HORA] {agora}")
         salvar_log(tarefa, agora)
@@ -417,7 +453,7 @@ def executar_tarefa(tarefa: str, objetivo: str, registros: int, cpu: float, mem:
         try:
             with open("memoria.txt", "r", encoding="utf-8") as f:
                 linhas = f.readlines()
-            resultado = chamar_ia(tarefa, f"Tenho {len(linhas)} registros. Objetivo: {objetivo}. O que o agente deve fazer?")
+            resultado = chamar_ia(tarefa, f"Tenho {len(linhas)} registros. Objetivo: {objetivo}. O que devo fazer?")
             print(f"[ANALISE] {resultado}")
             salvar_log(tarefa, resultado)
         except FileNotFoundError:
@@ -436,7 +472,7 @@ def executar_tarefa(tarefa: str, objetivo: str, registros: int, cpu: float, mem:
         try:
             with open("memoria.txt", "r", encoding="utf-8") as f:
                 linhas = f.readlines()
-            resultado = chamar_ia(tarefa, f"Gere um resumo tecnico de {len(linhas)} registros de atividade do agente em nuvem.")
+            resultado = chamar_ia(tarefa, f"Gere um resumo tecnico de {len(linhas)} registros do agente em nuvem.")
             with open("relatorio.txt", "w", encoding="utf-8") as rel:
                 rel.write(f"[{datetime.now().strftime('%d/%m/%Y %H:%M:%S')}]\n{resultado}\n")
             print("[RELATORIO] Criado.")
@@ -450,7 +486,6 @@ def executar_tarefa(tarefa: str, objetivo: str, registros: int, cpu: float, mem:
         salvar_log(tarefa, resultado)
 
 def salvar_log(tarefa: str, conteudo: str):
-    """Salva em JSON — permite usar como memória inteligente no futuro."""
     try:
         with open("memoria.txt", "a", encoding="utf-8") as f:
             entrada = json.dumps({
@@ -463,95 +498,43 @@ def salvar_log(tarefa: str, conteudo: str):
         print(f"[LOG] Erro: {e}")
 
 def limitar_memoria():
-    """Mantém memoria.txt com no máximo 2000 linhas — guarda as últimas 1000."""
     try:
         with open("memoria.txt", "r", encoding="utf-8") as f:
             linhas = f.readlines()
         if len(linhas) > 2000:
             with open("memoria.txt", "w", encoding="utf-8") as f:
                 f.writelines(linhas[-1000:])
-            print(f"[MEMORIA] Log reduzido de {len(linhas)} para 1000 linhas")
+            print(f"[MEMORIA] Log reduzido para 1000 linhas")
     except:
         pass
 
 def ler_memoria_decisao() -> dict:
-    """
-    Lê as últimas 100 entradas do memoria.txt e extrai padrões
-    para influenciar decisões do agente — sem custo de API.
-
-    Retorna:
-      - tarefas_frequentes: tarefas que aparecem muito (possível loop)
-      - tarefas_evitar:     tarefas que falharam recentemente
-      - busca_recente:      se já buscou Tavily nas últimas entradas
-    """
-    resultado = {
-        "tarefas_frequentes": [],
-        "tarefas_evitar":     [],
-        "busca_recente":      False,
-    }
+    resultado = {"tarefas_frequentes": [], "tarefas_evitar": [], "busca_recente": False}
     try:
         with open("memoria.txt", "r", encoding="utf-8") as f:
             linhas = f.readlines()[-100:]
-
         contagem = {}
         falhas   = {}
-
         for linha in linhas:
             try:
                 entrada = json.loads(linha)
                 tarefa  = entrada.get("tarefa", "")
                 texto   = entrada.get("resultado", "").lower()
-
-                # Conta frequência por tarefa
                 contagem[tarefa] = contagem.get(tarefa, 0) + 1
-
-                # Detecta falhas no resultado
                 if any(x in texto for x in ["falhou", "erro", "nenhuma api", "indisponivel"]):
                     falhas[tarefa] = falhas.get(tarefa, 0) + 1
-
-                # Detecta busca Tavily recente
                 if tarefa in ("buscar cotacao dolar", "buscar noticias tech"):
                     resultado["busca_recente"] = True
-
             except:
                 continue
-
-        # Tarefas com mais de 30% das entradas = possível loop
         total = len(linhas)
-        resultado["tarefas_frequentes"] = [
-            t for t, n in contagem.items() if total > 0 and n / total > 0.3
-        ]
-
-        # Tarefas com 3+ falhas recentes = evitar por enquanto
-        resultado["tarefas_evitar"] = [
-            t for t, n in falhas.items() if n >= 3
-        ]
-
+        resultado["tarefas_frequentes"] = [t for t, n in contagem.items() if total > 0 and n / total > 0.3]
+        resultado["tarefas_evitar"]     = [t for t, n in falhas.items() if n >= 3]
         if resultado["tarefas_frequentes"] or resultado["tarefas_evitar"]:
             print(f"[MEMORIA] Frequentes: {resultado['tarefas_frequentes']} | Evitar: {resultado['tarefas_evitar']}")
-
     except:
         pass
-
     return resultado
-
-def avaliar_tarefa_com_memoria(tarefa: str, memoria_decisao: dict) -> int:
-    """Ajusta o peso da tarefa com base no que foi aprendido do log."""
-    peso = avaliar_tarefa(tarefa)
-
-    # Penaliza tarefa em loop
-    if tarefa in memoria_decisao.get("tarefas_frequentes", []):
-        peso -= 2
-
-    # Penaliza tarefa que falhou muito
-    if tarefa in memoria_decisao.get("tarefas_evitar", []):
-        peso -= 3
-
-    # Se já buscou Tavily recentemente, reduz prioridade de nova busca
-    if memoria_decisao.get("busca_recente") and tarefa in ("buscar cotacao dolar", "buscar noticias tech"):
-        peso -= 2
-
-    return max(peso, 0)  # nunca negativo
 
 def avaliar_tarefa(tarefa: str) -> int:
     pesos = {
@@ -564,6 +547,16 @@ def avaliar_tarefa(tarefa: str) -> int:
     }
     return pesos.get(tarefa, 0)
 
+def avaliar_tarefa_com_memoria(tarefa: str, memoria_decisao: dict) -> int:
+    peso = avaliar_tarefa(tarefa)
+    if tarefa in memoria_decisao.get("tarefas_frequentes", []):
+        peso -= 2
+    if tarefa in memoria_decisao.get("tarefas_evitar", []):
+        peso -= 3
+    if memoria_decisao.get("busca_recente") and tarefa in ("buscar cotacao dolar", "buscar noticias tech"):
+        peso -= 2
+    return max(peso, 0)
+
 def contar_registros() -> int:
     try:
         with open("memoria.txt", "r", encoding="utf-8") as f:
@@ -571,91 +564,96 @@ def contar_registros() -> int:
     except:
         return 0
 
-# ── LOOP PRINCIPAL ───────────────────────────────────────
-print("=" * 52)
-print("  AGENTE AUTONOMO EM NUVEM — VERSAO FINAL")
-print(f"  Tavily : {'OK' if tavily_client else 'INDISPONIVEL'}")
-print(f"  APIs   : {[a['nome'] for a in APIS]}")
-print(f"  Limite Tavily: {MAX_TAVILY} buscas/dia (persiste entre reinicializacoes)")
-print("=" * 52)
+# ── LOOP PRINCIPAL EM THREAD SEPARADA ────────────────────
+def loop_agente():
+    global estado
+    contador      = 0
+    objetivo      = random.choice(objetivos)
+    tarefas       = []
+    ultima_tarefa = None
 
-contador     = 0
-objetivo     = random.choice(objetivos)
-tarefas      = []
-ultima_tarefa = None
+    print("=" * 52)
+    print("  AGENTE AUTONOMO EM NUVEM")
+    print(f"  Tavily: {'OK' if tavily_client else 'INDISPONIVEL'}")
+    print(f"  APIs  : {[a['nome'] for a in APIS]}")
+    print(f"  FastAPI rodando na porta 8000")
+    print("=" * 52)
+    print(f"[OBJETIVO] Inicial: {objetivo}\n")
 
-print(f"[OBJETIVO] Inicial: {objetivo}\n")
+    while True:
+        try:
+            contador += 1
+            agora     = datetime.now().strftime("%H:%M:%S")
+            registros = contar_registros()
 
-while True:
-    try:
-        contador  += 1
-        agora      = datetime.now().strftime("%H:%M:%S")
-        registros  = contar_registros()
+            if contador % 20 == 0:
+                objetivo = random.choice(objetivos)
+                print(f"\n[OBJETIVO] Novo: {objetivo}")
 
-        # Troca de objetivo a cada 20 ciclos
-        if contador % 20 == 0:
-            objetivo = random.choice(objetivos)
-            print(f"\n[OBJETIVO] Novo: {objetivo}")
+            cpu, mem = estado_sistema()
 
-        print(f"\n----- Ciclo {contador} | {agora} -----")
-        print(f"Objetivo : {objetivo}")
-        controle = carregar_controle()
-        uso_hoje = controle.get("tavily_uso", 0)
-        print(f"Registros: {registros} | Tavily usado: {uso_hoje}/{MAX_TAVILY}")
+            # Atualiza estado compartilhado com a API
+            estado.update({
+                "ciclo":    contador,
+                "objetivo": objetivo,
+                "cpu":      cpu,
+                "mem":      mem,
+            })
 
-        cpu, mem = estado_sistema()
-        print(f"CPU: {cpu}% | Mem: {mem}%")
+            print(f"\n----- Ciclo {contador} | {agora} -----")
+            print(f"Objetivo : {objetivo}")
+            controle = carregar_controle()
+            print(f"Registros: {registros} | Tavily: {controle.get('tavily_uso', 0)}/{MAX_TAVILY}")
+            print(f"CPU: {cpu}% | Mem: {mem}%")
 
-        limitar_memoria()
+            limitar_memoria()
+            memoria_decisao = ler_memoria_decisao()
 
-        # Lê padrões do log para influenciar decisões (sem custo de API)
-        memoria_decisao = ler_memoria_decisao()
+            if not tarefas:
+                tarefas.extend(planejar_tarefas(objetivo))
 
-        # Planeja tarefas se a fila estiver vazia
-        if not tarefas:
-            tarefas.extend(planejar_tarefas(objetivo))
+            if cpu > 70:
+                tarefas.append("analisar memoria")
+            if mem > 70:
+                tarefas.append("limpar memoria")
 
-        # Emergência por recursos
-        if cpu > 70:
-            tarefas.append("analisar memoria")
-        if mem > 70:
-            tarefas.append("limpar memoria")
+            if contador % 30 == 0:
+                tarefas.append("buscar cotacao dolar")
 
-        # Busca cotação a cada 30 ciclos
-        if contador % 30 == 0:
-            tarefas.append("buscar cotacao dolar")
+            tarefas.append(random.choice(tarefas_possiveis))
 
-        # Variedade
-        tarefas.append(random.choice(tarefas_possiveis))
+            melhor = max(tarefas, key=lambda t: avaliar_tarefa_com_memoria(t, memoria_decisao))
 
-        # Executa tarefa de maior prioridade — pesos ajustados pelo log
-        melhor = max(tarefas, key=lambda t: avaliar_tarefa_com_memoria(t, memoria_decisao))
+            if melhor == ultima_tarefa and len(tarefas) > 1:
+                tarefas_sem = [t for t in tarefas if t != melhor]
+                melhor = max(tarefas_sem, key=lambda t: avaliar_tarefa_com_memoria(t, memoria_decisao))
+                print(f"[SKIP] Evitando repeticao — escolhendo: {melhor}")
 
-        # Evita repetir a mesma tarefa duas vezes seguidas
-        if melhor == ultima_tarefa and len(tarefas) > 1:
-            tarefas_sem_repetir = [t for t in tarefas if t != melhor]
-            melhor = max(tarefas_sem_repetir, key=lambda t: avaliar_tarefa_com_memoria(t, memoria_decisao))
-            print(f"[SKIP] Evitando repeticao — escolhendo: {melhor}")
+            print(f"[TAREFA] Executando: {melhor}")
+            executar_tarefa(melhor, objetivo, registros, cpu, mem)
+            tarefas.remove(melhor)
+            ultima_tarefa = melhor
+            estado["ultima_tarefa"] = melhor
 
-        print(f"[TAREFA] Executando: {melhor}")
-        executar_tarefa(melhor, objetivo, registros, cpu, mem)
-        tarefas.remove(melhor)
-        ultima_tarefa = melhor
+            with open("memoria.txt", "a", encoding="utf-8") as f:
+                f.write(json.dumps({
+                    "time": agora, "ciclo": contador, "tarefa": melhor
+                }, ensure_ascii=False) + "\n")
 
-        # Log do ciclo
-        with open("memoria.txt", "a", encoding="utf-8") as f:
-            f.write(json.dumps({
-                "time": agora, "ciclo": contador, "tarefa": melhor
-            }, ensure_ascii=False) + "\n")
+            sleep_time = 30 if cpu > 50 else 15
+            print(f"[CICLO] Aguardando {sleep_time}s...")
+            time.sleep(sleep_time)
 
-        # Sleep adaptativo: 15s normal, 30s se CPU alta
-        sleep_time = 30 if cpu > 50 else 15
-        print(f"[CICLO] Aguardando {sleep_time}s...")
-        time.sleep(sleep_time)
+        except Exception as e:
+            print(f"[ERRO] {e}")
+            time.sleep(15)
 
-    except KeyboardInterrupt:
-        print("\n[AGENTE] Encerrado pelo usuario.")
-        break
-    except Exception as e:
-        print(f"[ERRO] {e}")
-        time.sleep(15)
+# ── INICIALIZAÇÃO ─────────────────────────────────────────
+if __name__ == "__main__":
+    # Loop do agente roda em thread separada
+    thread = threading.Thread(target=loop_agente, daemon=True)
+    thread.start()
+
+    # FastAPI sobe na thread principal — Railway usa a porta da variável PORT
+    porta = int(os.getenv("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=porta)
