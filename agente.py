@@ -5,12 +5,16 @@ import requests
 import json
 import os
 from datetime import datetime
+from tavily import TavilyClient
 
 # ── CHAVES ───────────────────────────────────────────────
 APIS = [
     {"nome": "Groq-1", "tipo": "groq", "chave": os.environ.get("GROQ_API_KEY", ""), "modelo": "llama-3.1-8b-instant"},
     {"nome": "Gemini", "tipo": "gemini", "chave": os.environ.get("GEMINI_API_KEY", ""), "modelo": "gemini-1.5-flash"},
 ]
+
+TAVILY_KEY = os.environ.get("TAVILY_API_KEY", "")
+tavily_client = TavilyClient(api_key=TAVILY_KEY)
 
 # ── APRENDIZADO ───────────────────────────────────────────
 MEMORIA_FILE = "aprendizado.json"
@@ -73,7 +77,6 @@ def chamar_ia(tarefa, system_prompt, user_prompt, max_tokens=200):
         tempo = time.time() - inicio
         registrar_resultado(api["nome"], tarefa, False, tempo)
         print(f"[{api['nome']}] FALHOU: {e}")
-        # tenta próxima api
         for alt in APIS:
             if alt["nome"] != api["nome"]:
                 try:
@@ -101,18 +104,38 @@ def _gemini(api, system_prompt, user_prompt):
     r.raise_for_status()
     return r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
 
+# ── TAVILY ────────────────────────────────────────────────
+def buscar_tavily(query: str) -> str:
+    try:
+        r = tavily_client.search(query=query, max_results=2, include_answer=True)
+        answer = r.get("answer", "")
+        if answer:
+            return answer
+        # fallback: pega primeiro resultado
+        resultados = r.get("results", [])
+        if resultados:
+            return resultados[0].get("content", "Sem resultado")[:300]
+        return "Tavily: nenhum resultado encontrado"
+    except Exception as e:
+        return f"Tavily erro: {e}"
+
 # ── TAREFAS ───────────────────────────────────────────────
 objetivos = [
     "otimizar desempenho do sistema",
     "monitorar recursos e memória",
     "manter o sistema estável",
     "analisar e limpar dados antigos",
-    "gerar relatórios de atividade"
+    "gerar relatórios de atividade",
+    "buscar cotação do dólar hoje",       # ← NOVO
+    "buscar notícias de tecnologia hoje", # ← NOVO
 ]
 
 tarefas_possiveis = [
     "monitorar sistema", "limpar memoria", "gerar relatorio",
-    "verificar sistema", "analisar memoria", "registrar atividade", "mostrar hora"
+    "verificar sistema", "analisar memoria", "registrar atividade",
+    "mostrar hora",
+    "buscar cotacao dolar",   # ← NOVO
+    "buscar noticias tech",   # ← NOVO
 ]
 
 def estado_sistema():
@@ -137,6 +160,23 @@ def planejar_tarefas(objetivo):
 
 def executar_tarefa(tarefa, objetivo, registros, cpu, mem):
     contexto = f"Objetivo: {objetivo} | Registros: {registros} | CPU: {cpu}% | Mem: {mem}%"
+
+    # ── Tarefas com busca real via Tavily ──
+    if tarefa == "buscar cotacao dolar":
+        resultado = buscar_tavily("cotação dólar hoje brasil real")
+        print("Tavily (dólar):", resultado)
+        with open("memoria.txt", "a", encoding="utf-8") as f:
+            f.write(f"[TAVILY] cotação dólar: {resultado}\n")
+        return
+
+    if tarefa == "buscar noticias tech":
+        resultado = buscar_tavily("notícias tecnologia inteligência artificial hoje")
+        print("Tavily (tech):", resultado)
+        with open("memoria.txt", "a", encoding="utf-8") as f:
+            f.write(f"[TAVILY] noticias tech: {resultado}\n")
+        return
+
+    # ── Tarefas normais via IA ──
     resultado = chamar_ia(
         tarefa,
         "Você é um agente autônomo. Responda curto e direto (máximo 2 frases).",
@@ -147,7 +187,10 @@ def executar_tarefa(tarefa, objetivo, registros, cpu, mem):
 def avaliar_tarefa(tarefa):
     pesos = {
         "monitorar sistema": 4, "limpar memoria": 3, "gerar relatorio": 3,
-        "verificar sistema": 3, "analisar memoria": 2, "registrar atividade": 2, "mostrar hora": 1
+        "verificar sistema": 3, "analisar memoria": 2, "registrar atividade": 2,
+        "mostrar hora": 1,
+        "buscar cotacao dolar": 5,  # ← alta prioridade
+        "buscar noticias tech": 4,  # ← alta prioridade
     }
     return pesos.get(tarefa, 0)
 
@@ -187,6 +230,10 @@ while True:
             tarefas.append("analisar memoria")
         if mem > 70:
             tarefas.append("limpar memoria")
+
+        # ← força busca do dólar a cada 30 ciclos
+        if contador % 30 == 0:
+            tarefas.append("buscar cotacao dolar")
 
         tarefas.append(random.choice(tarefas_possiveis))
         melhor = max(tarefas, key=avaliar_tarefa)
