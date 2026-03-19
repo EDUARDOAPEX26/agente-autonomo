@@ -2,66 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "19/03/2026 23:31",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "19/03/2026 23:31",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "O sistema está funcionando dentro dos parâmetros normais, mas a carga de processamento (18.4%) está um pouco elevada e pode afetar o desempenho. A utilização da memória (72.6%) está no limite recomend"
-    },
-    {
-      "data": "19/03/2026 23:32",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Para otimizar o desempenho do sistema com 2 registros, verifique se está sendo aplicada uma consulta eficiente em um índice."
-    },
-    {
-      "data": "19/03/2026 23:32",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 23:32:26"
-    },
-    {
-      "data": "19/03/2026 23:32",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "19/03/2026 23:32",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 19, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
-    },
-    {
-      "data": "19/03/2026 23:33",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Não. Sua CPU está com sobrecarga (30.8%), que pode causar problemas de desempenho. Além disso, sua memória está com 72.6% utilizada."
-    },
-    {
-      "data": "19/03/2026 23:33",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro 1:**\n- Data: 12/02/2023\n- Ação: Verificação de sistema\n- Descrição: Realizou uma verificação geral do sistema, verificando se todas as bibliotecas e serviços essenciais estavam online e fun"
-    },
-    {
-      "data": "19/03/2026 23:33",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "19/03/2026 23:34",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 19, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
-    },
-    {
       "data": "19/03/2026 23:34",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -120,8 +60,68 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 19, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
+    },
+    {
+      "data": "19/03/2026 23:37",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 32.5% | Mem: 73.2%"
+    },
+    {
+      "data": "19/03/2026 23:37",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "19/03/2026 23:37",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "Registro #20230419-001: \nData inicial de funcionamento: 01/01/2022\nÚltima atualização: 19/03/2024\nSistema operacional: Windows Server 2022\nRAM utilizada: 16 GB\nArmazenamento utilizado: 512 GB\nConexão "
+    },
+    {
+      "data": "19/03/2026 23:38",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Utilize o comando `top` ou `htop` no Linux para monitorar os recursos de CPU, memória e disco do sistema em tempo real. Você também pode utilizar o comando `free` para verificar a memória disponível e"
+    },
+    {
+      "data": "19/03/2026 23:38",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 23:38:27"
+    },
+    {
+      "data": "19/03/2026 23:38",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "19/03/2026 23:38",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "O sistema não está sobrecarregado. A porcentagem da CPU está dentro do limite de operação normal, mas a memória está acima do 50%, o que pode indicar que necessita de um ajuste de recursos ou uma atua"
+    },
+    {
+      "data": "19/03/2026 23:39",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Intel e AMD alertam sobre atrasos na China; Big Techs investem US$ 650 bilhões em IA; Nvidia expande parceria com Hyundai para direção autônoma."
+    },
+    {
+      "data": "19/03/2026 23:39",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 23:39:32"
+    },
+    {
+      "data": "19/03/2026 23:39",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     }
   ],
   "total_conversas": 52,
-  "total_tarefas": 30
+  "total_tarefas": 40
 }
