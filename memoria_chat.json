@@ -2,56 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "19/03/2026 18:43",
-      "pergunta": "ola",
-      "resposta": "Olá! Estou aqui para ajudar. Como posso ajudá-lo hoje?"
-    },
-    {
-      "data": "19/03/2026 18:43",
-      "pergunta": "seu status?",
-      "resposta": "Sou um agente autonomo e estou pronto para responder às perguntas. Como posso ajudá-lo?"
-    },
-    {
-      "data": "19/03/2026 18:44",
-      "pergunta": "qual a cotação do euro hoje?",
-      "resposta": "A cotação do euro hoje é aproximadamente 1,16 dólares americanos."
-    },
-    {
-      "data": "19/03/2026 18:44",
-      "pergunta": "qual a cotação do euro hoje? em relação ao Real?",
-      "resposta": "A cotação do euro hoje é aproximadamente 5,50 reais brasileiros."
-    },
-    {
-      "data": "19/03/2026 18:44",
-      "pergunta": "qual meu nome?",
-      "resposta": "Eu não tenho seu nome armazenado em meu acervo de conversas, então não sei seu nome. Você precisa me dar mais informações para lembrar."
-    },
-    {
-      "data": "19/03/2026 18:51",
-      "pergunta": "ola",
-      "resposta": "Olá! Estou aqui para ajudar."
-    },
-    {
-      "data": "19/03/2026 18:51",
-      "pergunta": "meu nome é Eduardo",
-      "resposta": "Prazer em conhecê-lo, Eduardo! Você perguntou por seu nome há pouco."
-    },
-    {
-      "data": "19/03/2026 18:52",
-      "pergunta": "eu estou te treinando e fazendo melhorias",
-      "resposta": "Entendi! Você está me ajudando a melhorar meu desempenho, então estou grato! É um processo importante para um agente como eu."
-    },
-    {
-      "data": "19/03/2026 18:53",
-      "pergunta": "qual seu status?",
-      "resposta": "Sou um agente autonomo, treinado para responder perguntas e ajudar com informações."
-    },
-    {
-      "data": "19/03/2026 18:53",
-      "pergunta": "conta uma piada?",
-      "resposta": "Por que o eletricista foi ao médico? Porque teve um \"CHOQUE\" de adrenalina!"
-    },
-    {
       "data": "19/03/2026 23:28",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -110,8 +60,68 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 19, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
+    },
+    {
+      "data": "19/03/2026 23:31",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "19/03/2026 23:31",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "O sistema está funcionando dentro dos parâmetros normais, mas a carga de processamento (18.4%) está um pouco elevada e pode afetar o desempenho. A utilização da memória (72.6%) está no limite recomend"
+    },
+    {
+      "data": "19/03/2026 23:32",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Para otimizar o desempenho do sistema com 2 registros, verifique se está sendo aplicada uma consulta eficiente em um índice."
+    },
+    {
+      "data": "19/03/2026 23:32",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 23:32:26"
+    },
+    {
+      "data": "19/03/2026 23:32",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "19/03/2026 23:32",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 19, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
+    },
+    {
+      "data": "19/03/2026 23:33",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Não. Sua CPU está com sobrecarga (30.8%), que pode causar problemas de desempenho. Além disso, sua memória está com 72.6% utilizada."
+    },
+    {
+      "data": "19/03/2026 23:33",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "**Registro 1:**\n- Data: 12/02/2023\n- Ação: Verificação de sistema\n- Descrição: Realizou uma verificação geral do sistema, verificando se todas as bibliotecas e serviços essenciais estavam online e fun"
+    },
+    {
+      "data": "19/03/2026 23:33",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "19/03/2026 23:34",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 19, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
     }
   ],
   "total_conversas": 52,
-  "total_tarefas": 10
+  "total_tarefas": 20
 }
