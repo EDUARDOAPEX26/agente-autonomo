@@ -40,7 +40,6 @@ def status():
 
 @app.get("/memoria")
 def get_memoria_endpoint():
-    """Retorna as últimas 50 entradas do log interno + resumo da memória compartilhada."""
     try:
         with open("memoria.txt", "r", encoding="utf-8") as f:
             linhas = f.readlines()[-50:]
@@ -50,13 +49,12 @@ def get_memoria_endpoint():
                 entradas.append(json.loads(linha))
             except:
                 entradas.append({"raw": linha.strip()})
-
         mem_compartilhada = get_memoria_compartilhada()
         return {
-            "total_log":          len(linhas),
-            "ultimas":            entradas,
-            "total_conversas":    mem_compartilhada.get("total_conversas", 0),
-            "total_tarefas":      mem_compartilhada.get("total_tarefas", 0),
+            "total_log":       len(linhas),
+            "ultimas":         entradas,
+            "total_conversas": mem_compartilhada.get("total_conversas", 0),
+            "total_tarefas":   mem_compartilhada.get("total_tarefas", 0),
         }
     except:
         return {"total_log": 0, "ultimas": []}
@@ -80,18 +78,16 @@ GITHUB_REPO    = "EDUARDOAPEX26/agente-autonomo"
 GITHUB_FILE    = "memoria_chat.json"
 GITHUB_HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
+# Nomes corretos das variáveis do Railway
 APIS = [
-    {"nome": "Groq",        "tipo": "groq",   "chave": os.getenv("GROQ_API_KEY"),    "modelo": "llama-3.1-8b-instant"},
-    {"nome": "Gemini",      "tipo": "gemini", "chave": os.getenv("GEMINI_API_KEY"),  "modelo": "gemini-1.5-flash"},
-    {"nome": "HuggingFace", "tipo": "hf",     "chave": os.getenv("HUGGING_API_KEY"), "modelo": "mistralai/Mistral-7B-Instruct-v0.3"},
+    {"nome": "Groq",        "tipo": "groq",   "chave": os.getenv("GROQ_API_KEY"),        "modelo": "llama-3.1-8b-instant"},
+    {"nome": "Gemini",      "tipo": "gemini", "chave": os.getenv("CHAVE_API_DO_GOOGLE"), "modelo": "gemini-1.5-flash"},
+    {"nome": "HuggingFace", "tipo": "hf",     "chave": os.getenv("CHAVE_API_DE_ABRAÇO"), "modelo": "mistralai/Mistral-7B-Instruct-v0.3"},
 ]
 
 # ── MEMÓRIA COMPARTILHADA (GITHUB) ────────────────────────
-# Mesma estrutura do chat.py local:
-# { "resumo": "", "aprendizados": [], "total_conversas": 0, "total_tarefas": 0 }
-
 _memoria_compartilhada = None
-SYNC_A_CADA_CICLOS = 10  # sincroniza GitHub a cada 10 ciclos
+SYNC_A_CADA_CICLOS = 10
 ciclos_desde_sync  = {"n": 0}
 
 def carregar_memoria_github() -> dict:
@@ -115,29 +111,36 @@ def carregar_memoria_github() -> dict:
 def salvar_memoria_github(memoria: dict):
     if not GITHUB_TOKEN:
         return
-    try:
-        url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
-        r = requests.get(url, headers=GITHUB_HEADERS, timeout=8)
-        sha = r.json().get("sha", "") if r.status_code == 200 else ""
-
-        conteudo = base64.b64encode(
-            json.dumps(memoria, ensure_ascii=False, indent=2).encode("utf-8")
-        ).decode("utf-8")
-
-        payload = {
-            "message": f"agente-nuvem: {memoria.get('total_tarefas', 0)} tarefas | {memoria.get('total_conversas', 0)} conversas",
-            "content": conteudo,
-        }
-        if sha:
-            payload["sha"] = sha
-
-        r2 = requests.put(url, headers=GITHUB_HEADERS, json=payload, timeout=10)
-        if r2.status_code in (200, 201):
-            print(f"[GITHUB] Sincronizado — {memoria.get('total_tarefas', 0)} tarefas | {memoria.get('total_conversas', 0)} conversas")
-        else:
-            print(f"[GITHUB] Erro ao salvar: {r2.status_code}")
-    except Exception as e:
-        print(f"[GITHUB] Erro: {e}")
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
+    # Retry para erro 409
+    for tentativa in range(3):
+        try:
+            r = requests.get(url, headers=GITHUB_HEADERS, timeout=8)
+            sha = r.json().get("sha", "") if r.status_code == 200 else ""
+            conteudo = base64.b64encode(
+                json.dumps(memoria, ensure_ascii=False, indent=2).encode("utf-8")
+            ).decode("utf-8")
+            payload = {
+                "message": f"agente-nuvem: {memoria.get('total_tarefas', 0)} tarefas | {memoria.get('total_conversas', 0)} conversas",
+                "content": conteudo,
+            }
+            if sha:
+                payload["sha"] = sha
+            r2 = requests.put(url, headers=GITHUB_HEADERS, json=payload, timeout=10)
+            if r2.status_code in (200, 201):
+                print(f"[GITHUB] Sincronizado — {memoria.get('total_tarefas', 0)} tarefas")
+                return
+            elif r2.status_code == 409:
+                print(f"[GITHUB] Conflito 409 — tentativa {tentativa + 1}/3")
+                time.sleep(1)
+                continue
+            else:
+                print(f"[GITHUB] Erro ao salvar: {r2.status_code}")
+                return
+        except Exception as e:
+            print(f"[GITHUB] Erro: {e}")
+            return
+    print("[GITHUB] Falhou apos 3 tentativas")
 
 def get_memoria_compartilhada() -> dict:
     global _memoria_compartilhada
@@ -146,37 +149,30 @@ def get_memoria_compartilhada() -> dict:
     return _memoria_compartilhada
 
 def registrar_tarefa_na_memoria(tarefa: str, resultado: str):
-    """Registra tarefa executada na memória compartilhada."""
     global _memoria_compartilhada
     mem = get_memoria_compartilhada()
     mem["total_tarefas"] = mem.get("total_tarefas", 0) + 1
     mem["aprendizados"].append({
-        "data":     datetime.now().strftime("%d/%m/%Y %H:%M"),
-        "origem":   "nuvem",
-        "tarefa":   tarefa[:100],
+        "data":      datetime.now().strftime("%d/%m/%Y %H:%M"),
+        "origem":    "nuvem",
+        "tarefa":    tarefa[:100],
         "resultado": resultado[:200],
     })
-    # Mantém só os últimos 20 aprendizados
     if len(mem["aprendizados"]) > 20:
         mem["aprendizados"] = mem["aprendizados"][-20:]
     _memoria_compartilhada = mem
 
 def sincronizar_github_se_necessario():
-    """Sincroniza com GitHub a cada SYNC_A_CADA_CICLOS ciclos."""
     ciclos_desde_sync["n"] += 1
     if ciclos_desde_sync["n"] >= SYNC_A_CADA_CICLOS:
         ciclos_desde_sync["n"] = 0
         mem = get_memoria_compartilhada()
-        threading.Thread(
-            target=salvar_memoria_github,
-            args=(mem,),
-            daemon=True
-        ).start()
+        threading.Thread(target=salvar_memoria_github, args=(mem,), daemon=True).start()
 
 # ── TAVILY ───────────────────────────────────────────────
 try:
     from tavily import TavilyClient
-    TAVILY_KEY    = os.getenv("TAVILY_API_KEY")
+    TAVILY_KEY    = os.getenv("TAVLY_API_KEY")  # nome correto no Railway (sem I)
     tavily_client = TavilyClient(api_key=TAVILY_KEY) if TAVILY_KEY else None
     print(f"[TAVILY] {'Conectado' if tavily_client else 'Chave nao encontrada'}")
 except Exception as e:
@@ -193,8 +189,10 @@ def carregar_controle() -> dict:
         with open(CONTROLE_FILE, "r") as f:
             dados = json.load(f)
         if time.time() - dados.get("timestamp", 0) > RESET_HORAS * 3600:
+            novo = {"tavily_uso": 0, "timestamp": time.time(), "data": datetime.now().strftime("%Y-%m-%d")}
+            salvar_controle(novo)
             print(f"[CONTROLE] {RESET_HORAS}h passadas — resetando Tavily")
-            return {"tavily_uso": 0, "timestamp": time.time(), "data": datetime.now().strftime("%Y-%m-%d")}
+            return novo
         return dados
     except:
         return {"tavily_uso": 0, "timestamp": time.time(), "data": datetime.now().strftime("%Y-%m-%d")}
@@ -247,26 +245,21 @@ PALAVRAS_BLOQUEIO = [
 def precisa_tavily(pergunta: str) -> bool:
     p = pergunta.lower().strip()
     limpar_cache_se_cheio()
-
     if p in CACHE_DECISAO:
         return CACHE_DECISAO[p]
-
     if any(x in p for x in PALAVRAS_BLOQUEIO):
         CACHE_DECISAO[p] = False
         return False
-
     if any(x in p for x in PALAVRAS_WEB):
         print("[ROUTER] Palavra-chave web — Tavily SIM")
         CACHE_DECISAO[p] = True
         return True
-
     prompt = (
         "A tarefa precisa de dados atualizados da internet "
         "(preco, cotacao, noticias, clima, resultados)?\n"
         "Responda APENAS SIM ou NAO.\n\n"
         f"Tarefa: {pergunta}"
     )
-
     try:
         from groq import Groq
         api = next((a for a in APIS if a["tipo"] == "groq" and a["chave"]), None)
@@ -283,7 +276,6 @@ def precisa_tavily(pergunta: str) -> bool:
         return decisao
     except Exception as e:
         print(f"[ROUTER] GROQ falhou: {e}")
-
     CACHE_DECISAO[p] = False
     return False
 
@@ -291,17 +283,13 @@ def precisa_tavily(pergunta: str) -> bool:
 def buscar_tavily(query: str) -> str:
     if not tavily_client:
         return "Tavily nao configurado."
-
     agora = time.time()
     limpar_cache_se_cheio()
-
     if query in CACHE_TAVILY:
         if agora - CACHE_TAVILY[query]["t"] < 600:
             return CACHE_TAVILY[query]["r"]
-
     if not pode_usar_tavily():
         return "Limite de buscas Tavily atingido."
-
     try:
         print(f"[TAVILY] Buscando: {query}")
         r = tavily_client.search(
@@ -482,7 +470,6 @@ def planejar_tarefas(objetivo: str) -> list:
     return ["monitorar sistema", "registrar atividade", "verificar sistema"]
 
 def executar_tarefa_com_retorno(tarefa: str, objetivo: str, registros: int, cpu: float, mem: float) -> str:
-    """Igual a executar_tarefa mas retorna o resultado para o chamador."""
     agora    = datetime.now().strftime("%H:%M:%S")
     contexto = f"Objetivo: {objetivo} | Registros: {registros} | CPU: {cpu}% | Mem: {mem}%"
     resultado = ""
@@ -493,23 +480,15 @@ def executar_tarefa_com_retorno(tarefa: str, objetivo: str, registros: int, cpu:
             "buscar noticias tech": "noticias tecnologia inteligencia artificial hoje",
         }
         query = queries[tarefa]
-        if precisa_tavily(query):
-            resultado = buscar_tavily(query)
-        else:
-            resultado = chamar_ia(tarefa, f"Execute sem dados da internet: '{tarefa}'.")
-
+        resultado = buscar_tavily(query) if precisa_tavily(query) else chamar_ia(tarefa, f"Execute sem dados da internet: '{tarefa}'.")
     elif tarefa == "mostrar hora":
         resultado = agora
-
     elif tarefa == "monitorar sistema":
         resultado = f"CPU: {cpu}% | Mem: {mem}%"
-
     elif tarefa == "verificar sistema":
         resultado = chamar_ia(tarefa, f"CPU: {cpu}%, Memoria: {mem}%, Hora: {agora}. O sistema esta saudavel?")
-
     elif tarefa == "registrar atividade":
         resultado = f"Atividade registrada as {agora}"
-
     elif tarefa == "analisar memoria":
         try:
             with open("memoria.txt", "r", encoding="utf-8") as f:
@@ -517,7 +496,6 @@ def executar_tarefa_com_retorno(tarefa: str, objetivo: str, registros: int, cpu:
             resultado = chamar_ia(tarefa, f"Tenho {len(linhas)} registros. Objetivo: {objetivo}. O que devo fazer?")
         except FileNotFoundError:
             resultado = "memoria.txt ainda nao existe"
-
     elif tarefa == "limpar memoria":
         try:
             with open("memoria.txt", "w", encoding="utf-8") as f:
@@ -525,7 +503,6 @@ def executar_tarefa_com_retorno(tarefa: str, objetivo: str, registros: int, cpu:
             resultado = "Memoria limpa com sucesso"
         except Exception as e:
             resultado = f"Erro ao limpar: {e}"
-
     elif tarefa == "gerar relatorio":
         try:
             with open("memoria.txt", "r", encoding="utf-8") as f:
@@ -533,11 +510,9 @@ def executar_tarefa_com_retorno(tarefa: str, objetivo: str, registros: int, cpu:
             resultado = chamar_ia(tarefa, f"Gere um resumo tecnico de {len(linhas)} registros do agente em nuvem.")
         except Exception as e:
             resultado = f"Erro ao gerar relatorio: {e}"
-
     else:
         resultado = chamar_ia(tarefa, f"Execute: '{tarefa}'. Contexto: {contexto}")
 
-    # Salva no log e na memória compartilhada
     if resultado:
         salvar_log(tarefa, resultado)
         registrar_tarefa_na_memoria(tarefa, resultado)
@@ -545,80 +520,8 @@ def executar_tarefa_com_retorno(tarefa: str, objetivo: str, registros: int, cpu:
     return resultado or "Tarefa executada sem resultado."
 
 def executar_tarefa(tarefa: str, objetivo: str, registros: int, cpu: float, mem: float):
-    agora    = datetime.now().strftime("%H:%M:%S")
-    contexto = f"Objetivo: {objetivo} | Registros: {registros} | CPU: {cpu}% | Mem: {mem}%"
-    resultado = ""
-
-    if tarefa in ("buscar cotacao dolar", "buscar noticias tech"):
-        queries = {
-            "buscar cotacao dolar": "cotacao dolar hoje brasil real",
-            "buscar noticias tech": "noticias tecnologia inteligencia artificial hoje",
-        }
-        query = queries[tarefa]
-        if precisa_tavily(query):
-            resultado = buscar_tavily(query)
-        else:
-            resultado = chamar_ia(tarefa, f"Execute sem dados da internet: '{tarefa}'.")
-        print(f"[{tarefa}] {resultado[:120]}")
-
-    elif tarefa == "mostrar hora":
-        resultado = agora
-        print(f"[HORA] {agora}")
-
-    elif tarefa == "monitorar sistema":
-        resultado = f"CPU: {cpu}% | Mem: {mem}%"
-        print(f"[SISTEMA] {resultado}")
-
-    elif tarefa == "verificar sistema":
-        resultado = chamar_ia(tarefa, f"CPU: {cpu}%, Memoria: {mem}%, Hora: {agora}. O sistema esta saudavel?")
-        print(f"[VERIFICAR] {resultado}")
-
-    elif tarefa == "registrar atividade":
-        resultado = f"Atividade registrada as {agora}"
-        print("[LOG] Atividade registrada")
-
-    elif tarefa == "analisar memoria":
-        try:
-            with open("memoria.txt", "r", encoding="utf-8") as f:
-                linhas = f.readlines()
-            resultado = chamar_ia(tarefa, f"Tenho {len(linhas)} registros. Objetivo: {objetivo}. O que devo fazer?")
-            print(f"[ANALISE] {resultado}")
-        except FileNotFoundError:
-            resultado = "memoria.txt ainda nao existe"
-            print(f"[MEMORIA] {resultado}")
-
-    elif tarefa == "limpar memoria":
-        try:
-            with open("memoria.txt", "w", encoding="utf-8") as f:
-                f.write("")
-            resultado = "Memoria limpa com sucesso"
-            print("[MEMORIA] Limpa com sucesso.")
-        except Exception as e:
-            resultado = f"Erro ao limpar: {e}"
-            print(f"[MEMORIA] Erro: {e}")
-
-    elif tarefa == "gerar relatorio":
-        try:
-            with open("memoria.txt", "r", encoding="utf-8") as f:
-                linhas = f.readlines()
-            resultado = chamar_ia(tarefa, f"Gere um resumo tecnico de {len(linhas)} registros do agente em nuvem.")
-            with open("relatorio.txt", "w", encoding="utf-8") as rel:
-                rel.write(f"[{datetime.now().strftime('%d/%m/%Y %H:%M:%S')}]\n{resultado}\n")
-            print("[RELATORIO] Criado.")
-        except Exception as e:
-            resultado = f"Erro ao gerar relatorio: {e}"
-            print(f"[RELATORIO] Erro: {e}")
-
-    else:
-        resultado = chamar_ia(tarefa, f"Execute: '{tarefa}'. Contexto: {contexto}")
-        print(f"[IA] {resultado}")
-
-    # Salva no log interno
-    salvar_log(tarefa, resultado)
-
-    # Registra na memória compartilhada GitHub
-    if resultado:
-        registrar_tarefa_na_memoria(tarefa, resultado)
+    resultado = executar_tarefa_com_retorno(tarefa, objetivo, registros, cpu, mem)
+    print(f"[{tarefa}] {resultado[:120]}")
 
 def salvar_log(tarefa: str, conteudo: str):
     try:
@@ -713,11 +616,9 @@ def loop_agente():
     print(f"  GitHub : {'configurado' if GITHUB_TOKEN else 'sem token'}")
     print("=" * 52)
 
-    # Carrega memória compartilhada do GitHub ao iniciar
     dados_github = carregar_memoria_github()
     if dados_github:
         _memoria_compartilhada = dados_github
-        # Garante campo total_tarefas existe
         if "total_tarefas" not in _memoria_compartilhada:
             _memoria_compartilhada["total_tarefas"] = 0
     else:
@@ -736,13 +637,7 @@ def loop_agente():
                 print(f"\n[OBJETIVO] Novo: {objetivo}")
 
             cpu, mem = estado_sistema()
-
-            estado.update({
-                "ciclo":    contador,
-                "objetivo": objetivo,
-                "cpu":      cpu,
-                "mem":      mem,
-            })
+            estado.update({"ciclo": contador, "objetivo": objetivo, "cpu": cpu, "mem": mem})
 
             print(f"\n----- Ciclo {contador} | {agora} -----")
             print(f"Objetivo : {objetivo}")
@@ -770,7 +665,7 @@ def loop_agente():
             melhor = max(tarefas, key=lambda t: avaliar_tarefa_com_memoria(t, memoria_decisao))
 
             if melhor == ultima_tarefa and len(tarefas) > 1:
-                tarefas_sem = [t for t in tarefas if t != melhor]
+                tarefas_sem = [t for t for t in tarefas if t != melhor]
                 melhor = max(tarefas_sem, key=lambda t: avaliar_tarefa_com_memoria(t, memoria_decisao))
                 print(f"[SKIP] Evitando repeticao — escolhendo: {melhor}")
 
@@ -780,12 +675,10 @@ def loop_agente():
             ultima_tarefa = melhor
             estado["ultima_tarefa"] = melhor
 
-            # Sincroniza GitHub a cada 10 ciclos
             sincronizar_github_se_necessario()
 
-            sleep_time = 60 if cpu > 50 else 60
-            print(f"[CICLO] Aguardando {sleep_time}s...")
-            time.sleep(sleep_time)
+            print(f"[CICLO] Aguardando 60s...")
+            time.sleep(60)
 
         except Exception as e:
             print(f"[ERRO] {e}")
@@ -795,6 +688,5 @@ def loop_agente():
 if __name__ == "__main__":
     thread = threading.Thread(target=loop_agente, daemon=True)
     thread.start()
-
     porta = int(os.getenv("PORT", 8000))
     uvicorn.run(app, host="0.0.0.0", port=porta)
