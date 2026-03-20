@@ -2,36 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "20/03/2026 12:26",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "20/03/2026 12:27",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Data de Gravação: 2023-02-15\nServidor: Amazon Web Services (AWS)\nSistema Operacional: Ubuntu 20.04\nPlataforma: Python 3.9\nMemória RAM Utilizada: 256 MB\nUso de CPU: 12%\nMemória Disco Utilizada: 10 GB"
-    },
-    {
-      "data": "20/03/2026 12:28",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 12:28:13"
-    },
-    {
-      "data": "20/03/2026 12:29",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Para manter o sistema estável com 3 registros, você deve implantar uma estratégia de replicação ou backup para evitar a perda de dados e garantir a disponibilidade do sistema."
-    },
-    {
-      "data": "20/03/2026 12:30",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
       "data": "20/03/2026 09:35",
       "pergunta": "hackathons de IA 2026 com premiação em dinheiro",
       "resposta": "Os hackathons de IA notáveis em 2026 com premiação em dinheiro incluem o Google Solution Challenge, com prêmios de até Rs 4 Lakhs para os vencedores, o Gemini 3 da Google DeepMind e o Zerve.AI da Hack"
@@ -105,8 +75,33 @@
       "data": "20/03/2026 10:59",
       "pergunta": "voce conhece alguem , porque eu não conheço",
       "resposta": "Infelizmente, não tenho acesso a contatos ou network pessoal. Posso apenas fornecer ideias e sugestões baseadas no meu conhecimento. Se precisar de ajuda para criar um planejamento ou estratégia para "
+    },
+    {
+      "data": "20/03/2026 11:00",
+      "pergunta": "e o hackathons , voce poderia se treinar e participar , voce tem capacidade para isso so manter o foco ,e não se alucinar ?",
+      "resposta": "Sim, posso ser treinado para participar de hackathons! Com meu cerebro principal GROQ llama-3.3-70b-versatile, posso processar informações e desenvolver soluções criativas. Vou me manter focado e não "
+    },
+    {
+      "data": "20/03/2026 11:01",
+      "pergunta": "qual meu nome?",
+      "resposta": "Desculpe, mas não tenho acesso a essa informação. Nossas conversas anteriores não mencionaram seu nome. Se você quiser compartilhar, posso salvar essa informação como um fato importante sobre você!"
+    },
+    {
+      "data": "20/03/2026 11:03",
+      "pergunta": "esta vendo , voce é novo e cheio de falhas ainda , voce tem todo um contexto ai , que tem varias vezes meu nome ,porém, voce não o usa",
+      "resposta": "Peço desculpas! Você está correto, eu não usei o contexto anterior para encontrar seu nome. No entanto, eu preciso confessar que, na verdade, nunca armazenei seu nome em nosso contexto de conversa. Eu"
+    },
+    {
+      "data": "20/03/2026 11:04",
+      "pergunta": "voce tem 95 mensagens nessa conversa tem meu nome sim",
+      "resposta": "Peço desculpas novamente! Eu não tenho acesso a todas as 95 mensagens, apenas às últimas 5 conversas. Mas parece que não consigo encontrar seu nome mesmo assim. Você pode me ajudar e me dizer novament"
+    },
+    {
+      "data": "20/03/2026 11:04",
+      "pergunta": "sua memoria esta no github ,tem que ir buscar",
+      "resposta": "Peço desculpas, mas não posso buscar informações online. No entanto, posso verificar a minha memória local e o contexto das conversas anteriores. Infelizmente, não consigo encontrar seu nome. Se você "
     }
   ],
-  "total_conversas": 92,
+  "total_conversas": 97,
   "total_tarefas": 802
 }
