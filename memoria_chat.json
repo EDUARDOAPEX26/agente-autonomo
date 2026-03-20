@@ -2,66 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "20/03/2026 17:57",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 34.9% | Mem: 72.7%"
-    },
-    {
-      "data": "20/03/2026 17:58",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro ID: 123456**\n\n- **Data/Hora:** 12/02/2023 14:35:00\n- **Status do Servidor:** Online\n- **Plataforma Operacional:** Linux Ubuntu Server 20.04\n- **Processador:** Intel Core i7-10700K\n- **Memór"
-    },
-    {
-      "data": "20/03/2026 17:59",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = 5.28 BRL. This rate is based on the latest commercial data from Wise and dolarhoje.com."
-    },
-    {
-      "data": "20/03/2026 18:00",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "20/03/2026 18:01",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = 5.28 BRL. This rate is based on the latest commercial data from Wise and dolarhoje.com."
-    },
-    {
-      "data": "20/03/2026 18:02",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 43.7% | Mem: 73.3%"
-    },
-    {
-      "data": "20/03/2026 18:03",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Você pode coletar informações de monitoramento de recursos e memória através da API do Linux (sistema operacional) e utilizar comandos como:\n\n- top: exibe informações de uso de CPU, memória e processo"
-    },
-    {
-      "data": "20/03/2026 18:04",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "20/03/2026 18:05",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Inteligência artificial domina investimentos de US$ 650 bilhões das big techs em 2026. OpenAI busca captar US$ 100 bilhões. Meta planeja app de vídeos de IA para competir com TikTok."
-    },
-    {
-      "data": "20/03/2026 18:06",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Sim, o sistema está operando dentro de limites razoáveis. A CPU está ligeiramente sobrecarregada, mas a memória está acima do mínimo recomendado."
-    },
-    {
       "data": "20/03/2026 18:07",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +60,68 @@
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "20/03/2026 18:24",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 5.28 Brazilian Real per US Dollar as of today. This rate reflects the latest commercial value. For the most up-to-date information, check financial news sources."
+    },
+    {
+      "data": "20/03/2026 18:25",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "20/03/2026 18:26",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Inteligência artificial domina investimentos de US$ 650 bilhões das big techs em 2026. OpenAI busca captar US$ 100 bilhões. Meta planeja app de vídeos de IA para competir com TikTok."
+    },
+    {
+      "data": "20/03/2026 18:27",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 27.0% | Mem: 70.6%"
+    },
+    {
+      "data": "20/03/2026 18:28",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Você pode usar APIs de fornecedores de dados financeiros como B3, IBGE ou instituições financeiras para buscar a cotação atual do dólar."
+    },
+    {
+      "data": "20/03/2026 18:29",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "20/03/2026 18:30",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 5.28 Brazilian Real per US Dollar as of today. This rate reflects the latest commercial value. For the most up-to-date information, check financial news sources."
+    },
+    {
+      "data": "20/03/2026 18:31",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 30.3% | Mem: 70.6%"
+    },
+    {
+      "data": "20/03/2026 18:32",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Não há problemas aparentes. A CPU está abaixo do limite de 80% e a memória está abaixo do limite de 90% recomendado para sistema operacional."
+    },
+    {
+      "data": "20/03/2026 18:33",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     }
   ],
   "total_conversas": 97,
-  "total_tarefas": 1042
+  "total_tarefas": 1052
 }
