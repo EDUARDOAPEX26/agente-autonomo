@@ -2,66 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "20/03/2026 11:32",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 39.0% | Mem: 68.2%"
-    },
-    {
-      "data": "20/03/2026 11:33",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "20/03/2026 11:34",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro: 01 de março de 2026, 10:00hs**\n\n- **Sistema Operativo:** Linux Ubuntu 20.04 LTS\n- **Núcleo Virtual:** 4 núcleos, 8 threads\n- **Memória RAM:** 16GB\n- **Armazenamento:** 512GB SSD\n- **Conexã"
-    },
-    {
-      "data": "20/03/2026 11:35",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Para otimizar o desempenho do sistema com 2 registros, é recomendável realizar uma análise de desempenho (benchmarking) para identificar as principais fontes de consumo de recursos. Posteriormente, vo"
-    },
-    {
-      "data": "20/03/2026 11:36",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 20, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
-    },
-    {
-      "data": "20/03/2026 11:37",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 54.5% | Mem: 68.6%"
-    },
-    {
-      "data": "20/03/2026 11:38",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "** Registro 1: **\n\n* Tempo de execução: 3 minutos\n* Memória utilizada: 512 MB\n* CPU utilizada: 20%\n* Eventos gerados: 5\n\n** Registro 2: **\n\n* Tempo de execução: 2 minutos\n* Memória utilizada: 256 MB\n*"
-    },
-    {
-      "data": "20/03/2026 11:39",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "20/03/2026 11:40",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 20, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
-    },
-    {
-      "data": "20/03/2026 11:41",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "- **Registro 1:** \n Data: 20/03/2024\n Status: Conectado\n Uptime: 99,99%\n Custo atual: R$ 0,00 (cobrança diária suspensa)\n Servidor: AWS\n\n- **Registro 2:**\n Data: 15/02/2024\n Status: Reinicializado apó"
-    },
-    {
       "data": "20/03/2026 11:42",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -120,8 +60,68 @@
       "origem": "nuvem",
       "tarefa": "registrar atividade",
       "resultado": "Atividade registrada as 11:51:22"
+    },
+    {
+      "data": "20/03/2026 11:52",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 44.3% | Mem: 72.9%"
+    },
+    {
+      "data": "20/03/2026 11:53",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 20, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
+    },
+    {
+      "data": "20/03/2026 11:54",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "20/03/2026 11:55",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Sim, tudo parece estável, mas a memória está sendo utilizada acima do recomendado."
+    },
+    {
+      "data": "20/03/2026 11:56",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 20, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
+    },
+    {
+      "data": "20/03/2026 11:57",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Para manter o sistema estável com 3 registros, recomendo executar uma atualização de backup regular para garantir a segurança dos dados. Além disso, é importante monitorar o uso de recursos e ajustar "
+    },
+    {
+      "data": "20/03/2026 11:58",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "20/03/2026 11:59",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Intel e AMD alertam sobre atrasos na China; Big Techs investem US$ 650 bilhões em IA; Nvidia expande parceria com Hyundai para direção autônoma."
+    },
+    {
+      "data": "20/03/2026 12:00",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "SIM, o sistema está funcionando dentro de parâmetros normais, com a CPU a 46,4% de uso e a memória a 72,1% de ocupação."
+    },
+    {
+      "data": "20/03/2026 12:01",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 64.3% | Mem: 72.7%"
     }
   ],
   "total_conversas": 77,
-  "total_tarefas": 762
+  "total_tarefas": 772
 }
