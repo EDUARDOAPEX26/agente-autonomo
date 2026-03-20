@@ -2,66 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "20/03/2026 17:25",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 31.5% | Mem: 70.1%"
-    },
-    {
-      "data": "20/03/2026 17:26",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Inteligência artificial domina investimentos, com US$ 650 bilhões previstos até 2026. OpenAI busca US$ 100 bilhões para liderar mercado. Big techs competem para integrar IA em produtos e serviços."
-    },
-    {
-      "data": "20/03/2026 17:27",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Não consigo avaliar a saudável do sistema apenas com essas informações. Preciso de mais dados para obter uma visão geral da situação."
-    },
-    {
-      "data": "20/03/2026 17:28",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "20/03/2026 17:29",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 25.8% | Mem: 70.2%"
-    },
-    {
-      "data": "20/03/2026 17:30",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "At the moment, the exchange rate for 1 US dollar is approximately 5.21 Brazilian reais. This rate fluctuates daily. For the most current information, check financial news or currency conversion websit"
-    },
-    {
-      "data": "20/03/2026 17:31",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Não há indícios de problemas com o sistema. A CPU está funcionando dentro do padrão normal e não está sobrecarregada."
-    },
-    {
-      "data": "20/03/2026 17:32",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 28.8% | Mem: 70.2%"
-    },
-    {
-      "data": "20/03/2026 17:33",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "20/03/2026 17:34",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Inteligência artificial domina investimentos, com US$ 650 bilhões previstos até 2026. OpenAI busca US$ 100 bilhões para liderar mercado. Big techs competem para integrar IA em produtos e serviços."
-    },
-    {
       "data": "20/03/2026 17:35",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
@@ -120,8 +60,68 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 36.4% | Mem: 68.5%"
+    },
+    {
+      "data": "20/03/2026 17:57",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 34.9% | Mem: 72.7%"
+    },
+    {
+      "data": "20/03/2026 17:58",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "**Registro ID: 123456**\n\n- **Data/Hora:** 12/02/2023 14:35:00\n- **Status do Servidor:** Online\n- **Plataforma Operacional:** Linux Ubuntu Server 20.04\n- **Processador:** Intel Core i7-10700K\n- **Memór"
+    },
+    {
+      "data": "20/03/2026 17:59",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 1 USD = 5.28 BRL. This rate is based on the latest commercial data from Wise and dolarhoje.com."
+    },
+    {
+      "data": "20/03/2026 18:00",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "20/03/2026 18:01",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 1 USD = 5.28 BRL. This rate is based on the latest commercial data from Wise and dolarhoje.com."
+    },
+    {
+      "data": "20/03/2026 18:02",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 43.7% | Mem: 73.3%"
+    },
+    {
+      "data": "20/03/2026 18:03",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Você pode coletar informações de monitoramento de recursos e memória através da API do Linux (sistema operacional) e utilizar comandos como:\n\n- top: exibe informações de uso de CPU, memória e processo"
+    },
+    {
+      "data": "20/03/2026 18:04",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "20/03/2026 18:05",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Inteligência artificial domina investimentos de US$ 650 bilhões das big techs em 2026. OpenAI busca captar US$ 100 bilhões. Meta planeja app de vídeos de IA para competir com TikTok."
+    },
+    {
+      "data": "20/03/2026 18:06",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Sim, o sistema está operando dentro de limites razoáveis. A CPU está ligeiramente sobrecarregada, mas a memória está acima do mínimo recomendado."
     }
   ],
   "total_conversas": 97,
-  "total_tarefas": 1022
+  "total_tarefas": 1032
 }
