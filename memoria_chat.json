@@ -2,61 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "20/03/2026 18:54",
-      "pergunta": "\"como o filtro de relevância decide o que salvar na memória?\"",
-      "resposta": "O filtro de relevância é um componente importante do agente que decide o que salvar na memória. Aqui está uma explicação de como ele funciona:\n\n**Critérios de relevância:**\nO filtro de relevância util"
-    },
-    {
-      "data": "20/03/2026 19:17",
-      "pergunta": "\"crie um prompt especializado para um agente de hackathons — ele precisa saber analisar desafios, propor soluções, gerar código funcional, montar pitch e avaliar viabilidade técnica e de negócio. o pr",
-      "resposta": "Aqui está um prompt especializado para um agente de hackathons de IA:\n\n**Prompt:** \"Desenvolva uma solução inovadora para o desafio de [nome do desafio] utilizando técnicas de Inteligência Artificial."
-    },
-    {
-      "data": "20/03/2026 19:21",
-      "pergunta": "vou te dar uma tarefa real , voce precisa conhecer tudo de hackathons , voce é um competidor , faz buscas na internet em sites e descubra tudo que puder",
-      "resposta": "Entendi! Como um agente de hackathons, estou ansioso para aprender e descobrir tudo sobre essa competição emocionante!\n\n**Pesquisando sobre Hackathons...**\n\n* Um hackathon é um evento de programação e"
-    },
-    {
-      "data": "20/03/2026 19:24",
-      "pergunta": "1.\n\"dica hackathon: juízes valorizam demo funcionando acima de tudo, mesmo que simples. um protótipo que roda ao vivo vale mais que slides perfeitos\"",
-      "resposta": "Entendi! Isso é um conselho valioso para os participantes de um hackathon!\n\n**Demo funcionando é fundamental...**\n\n* Os juízes de um hackathon estão mais interessados em ver uma demo funcionando do qu"
-    },
-    {
-      "data": "20/03/2026 19:24",
-      "pergunta": "2.\n\"dica hackathon: as primeiras 2 horas devem ser gastas entendendo o problema, não codando. equipes que codam rápido demais geralmente resolvem o problema errado\"",
-      "resposta": "Entendi! Isso é um conselho muito valioso para as equipes de hackathon!\n\n**Entendendo o problema é fundamental...**\n\n* As primeiras 2 horas de um hackathon são cruciais para entender o problema que es"
-    },
-    {
-      "data": "20/03/2026 22:26",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 20, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
-    },
-    {
-      "data": "20/03/2026 22:27",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Não, há sobrecarga de memória. A CPU está abaixo do limite normal."
-    },
-    {
-      "data": "20/03/2026 22:28",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro 1:**\nTempo de serviço: 30 minutos\nÚltima atualização: 10/02/2023 14:30\nStatus: Conectado\nTamanho de dados processados: 100 MB\nNavegador: Chromium 104.0\nSistema operacional: Amazon Linux 2\n\n"
-    },
-    {
-      "data": "20/03/2026 22:29",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Você pode chamar uma API de cambio ou site de cotação de moeda, como o Banco Central ou o site do mercado, para obter a cotação atual do dólar no Brasil."
-    },
-    {
-      "data": "20/03/2026 22:30",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 20, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
-    },
-    {
       "data": "20/03/2026 22:31",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
@@ -110,8 +55,68 @@
       "data": "20/03/2026 19:46",
       "pergunta": "3. \"estratégias de equipes que ganharam hackathons de IA\"",
       "resposta": "Eduardo, com base nos dados disponíveis, aqui estão algumas estratégias que equipes vencedoras de hackathons de IA utilizaram:\n\n* **Definição clara do problema**: As equipes vencedoras identificaram u"
+    },
+    {
+      "data": "20/03/2026 22:47",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Inteligência artificial domina investimentos de US$ 650 bilhões das big techs para 2026. OpenAI busca captar US$ 100 bilhões. Meta planeja app de vídeos de IA para competir com TikTok."
+    },
+    {
+      "data": "20/03/2026 22:48",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.8% | Mem: 67.5%"
+    },
+    {
+      "data": "20/03/2026 22:49",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Sim, o sistema está saudável, considerando os recursos atuais. A CPU abaixo de 30% e a memória abaixo de 80% sugerem que há capacidade suficiente para realizar tarefas adicionais."
+    },
+    {
+      "data": "20/03/2026 22:50",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 5.13 Brazilian Real per US Dollar. This rate is subject to change. Always check for the latest figures."
+    },
+    {
+      "data": "20/03/2026 22:51",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "O sistema está em funcionamento dentro dos parâmetros normais. A CPU (37.6%) e a memória (67.4%) não indicam problemas críticos."
+    },
+    {
+      "data": "20/03/2026 22:52",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Inteligência artificial domina investimentos de US$ 650 bilhões das big techs para 2026. OpenAI busca captar US$ 100 bilhões. Meta planeja app de vídeos de IA para competir com TikTok."
+    },
+    {
+      "data": "20/03/2026 22:53",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 5.13 Brazilian Real per US Dollar. This rate is subject to change. Always check for the latest figures."
+    },
+    {
+      "data": "20/03/2026 22:54",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 22:54:14"
+    },
+    {
+      "data": "20/03/2026 22:55",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Faça uma busca na internet usando um mecanismo de busca como Google, Bing ou DuckDuckGo, inserindo no campo de busca: \"noticias de tecnologia hoje\" ou \"últimas notícias tecnologia\". Isso deve te forne"
+    },
+    {
+      "data": "20/03/2026 22:56",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Inteligência artificial domina investimentos de US$ 650 bilhões das big techs para 2026. OpenAI busca captar US$ 100 bilhões. Meta planeja app de vídeos de IA para competir com TikTok."
     }
   ],
   "total_conversas": 112,
-  "total_tarefas": 1222
+  "total_tarefas": 1232
 }
