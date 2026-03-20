@@ -2,6 +2,36 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "20/03/2026 21:26",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 21:26:33"
+    },
+    {
+      "data": "20/03/2026 21:27",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "20/03/2026 21:28",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Você pode usar a API do CloudWatch da AWS ou equivalentes em outras plataformas de nuvem para coletar métricas de recursos e memória. Configure fachadas de monitoramento para coletar dados de uso da C"
+    },
+    {
+      "data": "20/03/2026 21:29",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Sim, o sistema está saudável atualmente. As taxas de CPU e memória estão dentro do intervalo considerado normal."
+    },
+    {
+      "data": "20/03/2026 21:30",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 21:30:38"
+    },
+    {
       "data": "20/03/2026 21:31",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
@@ -62,66 +92,31 @@
       "resultado": "Hoje, a cotação do dólar para o real é R$ 5,30. Esta taxa reflete uma variação de +0,78% em relação ao dia anterior. As informações são baseadas em dados atualizados."
     },
     {
-      "data": "20/03/2026 21:41",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Hoje, a cotação do dólar para o real é R$ 5,30. Esta taxa reflete uma variação de +0,78% em relação ao dia anterior. As informações são baseadas em dados atualizados."
+      "data": "20/03/2026 18:50",
+      "pergunta": "\"como funciona o sistema de fallback entre GROQ e Google no agente?\"",
+      "resposta": "O sistema de fallback no agente é implementado para garantir a resposta precisa e eficiente em diferentes situações. Aqui está uma explicação técnica de como funciona:\n\n**Cerebro Principal (GROQ LLaMA"
     },
     {
-      "data": "20/03/2026 21:42",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Sim, o sistema está saudável, pois a CPU está abaixo de 50% de uso e a memória está em um nível razoável."
+      "data": "20/03/2026 18:52",
+      "pergunta": "\"como funciona a compressão automática dos livros temáticos?\"",
+      "resposta": "Não tenho informações sobre a compressão automática dos livros temáticos no contexto do agente. A documentação fornecida apenas descreve a arquitetura do agente, incluindo o cerebro principal (GROQ LL"
     },
     {
-      "data": "20/03/2026 21:43",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "data": "20/03/2026 18:52",
+      "pergunta": "\"qual a diferença entre memória episódica e semântica no agente?\"",
+      "resposta": "No contexto do agente, a memória pode ser dividida em dois tipos principais: memória episódica e memória semântica.\n\n**Memória Episódica:**\nA memória episódica refere-se ao armazenamento de informaçõe"
     },
     {
-      "data": "20/03/2026 21:44",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Intel e AMD alertam sobre atrasos na China; big techs investem US$ 650 bilhões em IA; Meta planeja competir com TikTok usando IA."
+      "data": "20/03/2026 18:53",
+      "pergunta": "\"por que usamos pool de chaves no GROQ?\"",
+      "resposta": "No agente, usamos um pool de chaves no GROQ (LLaMA-3.3-70B-Versatile) para melhorar a performance e a eficiência do modelo de linguagem. Aqui estão os motivos principais para usar um pool de chaves:\n\n"
     },
     {
-      "data": "20/03/2026 21:45",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro 1 - 15/02/2024**\n\n- O agente teve conexão com a nuvem: Sim\n- Estado atual do sistemas: Ativo\n- Uptime total: 98,5%\n- Consumo de recursos: 30,7% do limite de CPU, 15,2% do limite de memória\n"
-    },
-    {
-      "data": "20/03/2026 21:46",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 21:46:10"
-    },
-    {
-      "data": "20/03/2026 21:47",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "20/03/2026 21:48",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Registro 1:\n- Tempo de execução: 00h 00m 30s\n- Memória utilizada: 256 MB\n- CPU utilizada: 20% da potência total\n- Conectividade: Conectado à rede com estabilidade 99,9%\n- Processamento: 1 processador "
-    },
-    {
-      "data": "20/03/2026 21:49",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Você pode acessar APIs de serviços de forex, como a API da B3 (Bolsa Brasileira de Valores) ou de outras fontes de dados financeiros, para busca cotação do dólar ao vivo."
-    },
-    {
-      "data": "20/03/2026 21:50",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 21:50:15"
+      "data": "20/03/2026 18:54",
+      "pergunta": "\"por que usamos pool de chaves no GROQ?\"",
+      "resposta": "No agente, usamos um pool de chaves no GROQ (LLaMA-3.3-70B-Versatile) para melhorar a performance e a eficiência do modelo de linguagem. Aqui estão os motivos principais para usar um pool de chaves:\n\n"
     }
   ],
-  "total_conversas": 97,
-  "total_tarefas": 1222
+  "total_conversas": 102,
+  "total_tarefas": 1212
 }
