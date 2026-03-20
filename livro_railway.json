@@ -11,8 +11,13 @@
       "data": "20/03/2026 15:23",
       "pergunta": "Quero testar seu nível real de autonomia, raciocínio, organização, confiabilidade e capacidade de execução.\n\nVocê deve responder como um agente técnico sênior e seguir estas regras:\n\nComece resumindo ",
       "resposta": "Eduardo, entendi seu pedido. Aqui está um resumo em 5 linhas:\n- Você deseja transformar o agente híbrido de um projeto funcional em uma arquitetura sólida.\n- O agente precisa manter memória, pesquisar"
+    },
+    {
+      "data": "20/03/2026 17:58",
+      "pergunta": "\"Explique como você otimizaria um sistema de agente híbrido (local + nuvem) para minimizar latência percebida pelo usuário, considerando cache, paralelismo e fallback entre múltiplas APIs, mantendo co",
+      "resposta": "Eduardo, para otimizar um sistema de agente híbrido, considerando cache, paralelismo e fallback entre múltiplas APIs, seguirei os seguintes passos:\n\n**1. Cache eficaz:**\n   - Implementar um sistema de"
     }
   ],
-  "total_entradas": 2,
-  "ultima_atualizacao": "20/03/2026 15:23"
+  "total_entradas": 3,
+  "ultima_atualizacao": "20/03/2026 17:58"
 }
