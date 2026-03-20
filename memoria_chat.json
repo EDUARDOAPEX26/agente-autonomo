@@ -2,36 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "19/03/2026 23:51",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Intel e AMD alertam sobre atrasos na China; Big Techs investem US$ 650 bilhões em IA; Nvidia expande parceria com Hyundai para direção autônoma."
-    },
-    {
-      "data": "19/03/2026 23:51",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "O sistema parece estar funcionando dentro dos limites recomendados, mas a ocupação de memória está próxima do limite considerado alto (geralmente 80% é o limite). A CPU está abaixo do limite considera"
-    },
-    {
-      "data": "19/03/2026 23:51",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 19, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
-    },
-    {
-      "data": "19/03/2026 23:51",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "19/03/2026 23:51",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 23:51:48"
-    },
-    {
       "data": "19/03/2026 23:52",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -115,8 +85,33 @@
       "data": "19/03/2026 21:13",
       "pergunta": "voce trabalha sozinho ou tem alxilio de outro agente?",
       "resposta": "Não trabalho sozinho. Sou parte de uma equipe de desenvolvedores e especialistas em IA que trabalham em conjunto para melhorar e aprimorar minhas habilidades e capacidades. Além disso, tenho acesso a "
+    },
+    {
+      "data": "19/03/2026 21:14",
+      "pergunta": "pesta serviso para quem?",
+      "resposta": "Sou um serviço de suporte técnico e assistência ao usuário disponível para qualquer pessoa que precise de ajuda ou informações em um determinado assunto. Posso ser utilizado por pessoas de todas as id"
+    },
+    {
+      "data": "19/03/2026 21:14",
+      "pergunta": "quem te opera hoje?",
+      "resposta": "Atualmente, não há nenhuma operação ou manutenção em andamento que afete meu funcionamento normal. Estou funcionando dentro dos parâmetros normais e pronto para atender a suas perguntas e necessidades"
+    },
+    {
+      "data": "19/03/2026 21:15",
+      "pergunta": "voce sabe quem eu sou?",
+      "resposta": "Não, não tenho informações sobre sua identidade ou quem você seja. Você me faz perguntas e eu respondo com base em meu conhecimento e treinamento. Não posso lembrar ou armazenar informações sobre indi"
+    },
+    {
+      "data": "19/03/2026 21:16",
+      "pergunta": "então voce não armazena memorias?",
+      "resposta": "Não armazo memórias de conversas ou informações sobre indivíduos. Em cada conversa, sou reiniciado e não posso acessar informações anteriores. Minha resposta em uma conversa não afeta a outra e sou ca"
+    },
+    {
+      "data": "19/03/2026 21:16",
+      "pergunta": "eu ja te disse meu nome hoje",
+      "resposta": "Não, você não me falou seu nome hoje. Nas conversas anteriores, você apenas perguntou sobre meu funcionamento, equipe e se eu armazeno memorias. Não lembro de você ter mencionado seu nome."
     }
   ],
-  "total_conversas": 57,
+  "total_conversas": 62,
   "total_tarefas": 92
 }
