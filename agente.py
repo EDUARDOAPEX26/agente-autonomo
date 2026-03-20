@@ -783,7 +783,7 @@ def loop_agente():
             # Sincroniza GitHub a cada 10 ciclos
             sincronizar_github_se_necessario()
 
-            sleep_time = 30 if cpu > 50 else 15
+            sleep_time = 60 if cpu > 50 else 60
             print(f"[CICLO] Aguardando {sleep_time}s...")
             time.sleep(sleep_time)
 
