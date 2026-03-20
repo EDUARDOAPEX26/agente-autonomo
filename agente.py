@@ -665,7 +665,7 @@ def loop_agente():
             melhor = max(tarefas, key=lambda t: avaliar_tarefa_com_memoria(t, memoria_decisao))
 
             if melhor == ultima_tarefa and len(tarefas) > 1:
-                tarefas_sem = [t for t for t in tarefas if t != melhor]
+                tarefas_sem = [t for t in tarefas if t != melhor]
                 melhor = max(tarefas_sem, key=lambda t: avaliar_tarefa_com_memoria(t, memoria_decisao))
                 print(f"[SKIP] Evitando repeticao — escolhendo: {melhor}")
 
