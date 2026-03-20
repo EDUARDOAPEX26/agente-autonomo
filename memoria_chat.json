@@ -2,66 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "20/03/2026 01:51",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 51.3% | Mem: 71.0%"
-    },
-    {
-      "data": "20/03/2026 01:52",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 20, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
-    },
-    {
-      "data": "20/03/2026 01:53",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "20/03/2026 01:54",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Intel e AMD alertam sobre atrasos na China; Big Techs investem US$ 650 bilhões em IA; Nvidia expande parceria com Hyundai para direção autônoma."
-    },
-    {
-      "data": "20/03/2026 01:55",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Para monitorar recursos e memória de seus registros, você pode utilizar as ferramentas de monitoramento nativas da plataforma de nuvem. Por padrão, essas plataformas fornecem métricas como:\n\n- CPU uti"
-    },
-    {
-      "data": "20/03/2026 01:56",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 46.2% | Mem: 70.9%"
-    },
-    {
-      "data": "20/03/2026 01:57",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "20/03/2026 01:58",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro de Monitoramento**\n\n- ID: #001234\n- Data: 01/03/2024 14:00:00 BRST\n- Estado da VM: Ativa\n- Uso de Memória: 45%\n- Uso do Disco: 30%\n- Tempo de Uso Atual: 10 horas"
-    },
-    {
-      "data": "20/03/2026 01:59",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "O CPU está abaixo do ponto de limite normal, o que é um indicativo de bom desempenho. A memória, contudo, está acima do 50% utilizada, o que pode ser um sinal de que o sistema está executando tarefas "
-    },
-    {
-      "data": "20/03/2026 02:00",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Intel e AMD alertam sobre atrasos na China; Big Techs investem US$ 650 bilhões em IA; Nvidia expande parceria com Hyundai para direção autônoma."
-    },
-    {
       "data": "20/03/2026 02:01",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +60,68 @@
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
       "resultado": "**Registro 1 - 01/01/2024 - 08:00**\n\n* Tipo: Monitoramento de rede\n* Descrição: Verificação de conectividade e velocidade de conexão em um servidor local.\n* Resultado: Conectividade estabelecida com b"
+    },
+    {
+      "data": "20/03/2026 02:11",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 38.0% | Mem: 63.3%"
+    },
+    {
+      "data": "20/03/2026 02:12",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Você pode usar a API do sistema operacional para coletar informações sobre recursos e memória. No Windows, você pode usar a API Performance Counter e no Linux, você pode usar a API proc e sys. Além di"
+    },
+    {
+      "data": "20/03/2026 02:13",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 02:13:45"
+    },
+    {
+      "data": "20/03/2026 02:14",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "20/03/2026 02:15",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 33.6% | Mem: 63.5%"
+    },
+    {
+      "data": "20/03/2026 02:16",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Crie uma consulta SQL para coletar o uso de resources e memoria, talvez utilizando o comando: `SELECT TOP(2) * FROM sistema WHERE tipo = 'processo' ORDER BY memoria DESC` e também `SELECT * FROM siste"
+    },
+    {
+      "data": "20/03/2026 02:17",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 02:17:49"
+    },
+    {
+      "data": "20/03/2026 02:18",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 32.1% | Mem: 63.5%"
+    },
+    {
+      "data": "20/03/2026 02:19",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 20, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
+    },
+    {
+      "data": "20/03/2026 02:20",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "**Resumo Técnico do Agente em Nuvem:**\n\n1. **Tempo de Execução**: 3 segundos, referente ao processo de inicialização do sistema.\n2. **Uso de Memória**: 1,2 GB utilizados em 4 GB disponíveis, com uma v"
     }
   ],
   "total_conversas": 72,
-  "total_tarefas": 202
+  "total_tarefas": 212
 }
