@@ -16,8 +16,13 @@
       "data": "20/03/2026 17:58",
       "pergunta": "\"Explique como você otimizaria um sistema de agente híbrido (local + nuvem) para minimizar latência percebida pelo usuário, considerando cache, paralelismo e fallback entre múltiplas APIs, mantendo co",
       "resposta": "Eduardo, para otimizar um sistema de agente híbrido, considerando cache, paralelismo e fallback entre múltiplas APIs, seguirei os seguintes passos:\n\n**1. Cache eficaz:**\n   - Implementar um sistema de"
+    },
+    {
+      "data": "20/03/2026 18:10",
+      "pergunta": "\"Explique como você otimizaria um sistema de agente híbrido (local + nuvem) para minimizar latência percebida pelo usuário, considerando cache, paralelismo e fallback entre múltiplas APIs, mantendo co",
+      "resposta": "Eduardo, para otimizar um sistema de agente híbrido (local + nuvem) e minimizar a latência percebida pelo usuário, eu seguiria os seguintes passos:\n\n**1. Implementação de Cache**:\n * Utilizar um siste"
     }
   ],
-  "total_entradas": 3,
-  "ultima_atualizacao": "20/03/2026 17:58"
+  "total_entradas": 4,
+  "ultima_atualizacao": "20/03/2026 18:10"
 }
