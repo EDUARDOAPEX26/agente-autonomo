@@ -2,66 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "20/03/2026 20:59",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 20, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
-    },
-    {
-      "data": "20/03/2026 21:00",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 42.6% | Mem: 67.4%"
-    },
-    {
-      "data": "20/03/2026 21:01",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Aqui está um resumo técnico de dois registros do agente em nuvem:\n\n**Registro 1:**\n- **Data/Hora:** 15/02/2023 14:30\n- **AÇÃO:** O agente em nuvem realizou uma atualização de software para corrigir vu"
-    },
-    {
-      "data": "20/03/2026 21:02",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "O sistema está funcionando dentro dos parâmetros normais, não há indicativos de problema imediato."
-    },
-    {
-      "data": "20/03/2026 21:03",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Para monitorar recursos e memória em um ambiente de 4 registros, é recomendável coletar métricas de desempenho através de ferramentas como a Prometheus, que pode ser integrada ao Grafana para visualiz"
-    },
-    {
-      "data": "20/03/2026 21:04",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Sim, o sistema parece estar estável. A carga da CPU é moderada, mas dentro dos parâmetros normais. A ocupação da memória também está razoável, não há indicativos de problemas imediatos."
-    },
-    {
-      "data": "20/03/2026 21:05",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "20/03/2026 21:06",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Intel e AMD alertam sobre atrasos na China; IA domina discussões de investimentos; Nvidia expande parcerias e prevê gastos enormes em data centers."
-    },
-    {
-      "data": "20/03/2026 21:07",
-      "origem": "nuvem",
-      "tarefa": "mostrar hora",
-      "resultado": "21:07:34"
-    },
-    {
-      "data": "20/03/2026 21:08",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
       "data": "20/03/2026 21:10",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +60,68 @@
       "origem": "nuvem",
       "tarefa": "registrar atividade",
       "resultado": "Atividade registrada as 21:19:48"
+    },
+    {
+      "data": "20/03/2026 21:21",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 48.7% | Mem: 72.6%"
+    },
+    {
+      "data": "20/03/2026 21:22",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Sim, o sistema está saudável, com recursos computacionais disponíveis. Contudo, é recomendável monitorar a sobrecarga na memória para evitar problemas potenciais."
+    },
+    {
+      "data": "20/03/2026 21:23",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "20/03/2026 21:24",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "**Registro de Agente Autônomo em Nuvem**\n\n- **ID do Registo:** 1234567890\n- **Data de Início:** 01/01/2022 12:00:00\n- **Data de Fim:** Ativo\n- **Versão do Software:** 2.1.2\n- **Nível de Segurança:** A"
+    },
+    {
+      "data": "20/03/2026 21:25",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Intel e AMD alertam sobre atrasos na China; IA domina discussões de investimentos; Nvidia expande parcerias e prevê gastos enormes em data centers."
+    },
+    {
+      "data": "20/03/2026 21:26",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 21:26:33"
+    },
+    {
+      "data": "20/03/2026 21:27",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "20/03/2026 21:28",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Você pode usar a API do CloudWatch da AWS ou equivalentes em outras plataformas de nuvem para coletar métricas de recursos e memória. Configure fachadas de monitoramento para coletar dados de uso da C"
+    },
+    {
+      "data": "20/03/2026 21:29",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Sim, o sistema está saudável atualmente. As taxas de CPU e memória estão dentro do intervalo considerado normal."
+    },
+    {
+      "data": "20/03/2026 21:30",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 21:30:38"
     }
   ],
   "total_conversas": 97,
-  "total_tarefas": 1192
+  "total_tarefas": 1202
 }
