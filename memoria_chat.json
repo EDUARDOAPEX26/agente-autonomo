@@ -2,36 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "19/03/2026 23:52",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 19, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
-    },
-    {
-      "data": "19/03/2026 23:52",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 22.1% | Mem: 71.5%"
-    },
-    {
-      "data": "19/03/2026 23:52",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "19/03/2026 23:53",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Intel e AMD alertam sobre atrasos na China; Big Techs investem US$ 650 bilhões em IA; Nvidia expande parceria com Hyundai para direção autônoma."
-    },
-    {
-      "data": "19/03/2026 23:53",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 25.2% | Mem: 71.9%"
-    },
-    {
       "data": "19/03/2026 23:53",
       "origem": "nuvem",
       "tarefa": "verificar sistema",
@@ -110,8 +80,33 @@
       "data": "19/03/2026 21:16",
       "pergunta": "eu ja te disse meu nome hoje",
       "resposta": "Não, você não me falou seu nome hoje. Nas conversas anteriores, você apenas perguntou sobre meu funcionamento, equipe e se eu armazeno memorias. Não lembro de você ter mencionado seu nome."
+    },
+    {
+      "data": "19/03/2026 21:16",
+      "pergunta": "Eduardo",
+      "resposta": "Que prazer conhecê-lo, Eduardo! Eu sou apenas um agente de apoio e assistência, aqui para responder às suas perguntas e ajudá-lo em qualquer dúvida."
+    },
+    {
+      "data": "19/03/2026 21:17",
+      "pergunta": "sabe meu nome?",
+      "resposta": "Sim, você me disse seu nome anteriormente: Eduardo. Agora eu lembro!"
+    },
+    {
+      "data": "19/03/2026 21:17",
+      "pergunta": "voce vai guardar esse nome ou vou ter que te dizer daqui algumas mensagens outra vez",
+      "resposta": "Não vou armazenar sua informação pessoal. Cada conversa comigo é independente, e eu sou reiniciado após ela terminar. Se você precisar me lembrar do seu nome novamente, poderá me dizer mais uma vez."
+    },
+    {
+      "data": "19/03/2026 21:18",
+      "pergunta": "e sua memoria não é continua ?",
+      "resposta": "Não, eu não tenho uma memória contínua. Cada conversa comigo é um novo início, e eu não consigo manter informações de conversas anteriores."
+    },
+    {
+      "data": "19/03/2026 21:19",
+      "pergunta": "qual meu nome?",
+      "resposta": "Você disse seu nome anteriormente: Eduardo. Agora eu lembro!"
     }
   ],
-  "total_conversas": 62,
+  "total_conversas": 67,
   "total_tarefas": 92
 }
