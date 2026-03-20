@@ -2,6 +2,31 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "20/03/2026 18:54",
+      "pergunta": "\"como o filtro de relevância decide o que salvar na memória?\"",
+      "resposta": "O filtro de relevância é um componente importante do agente que decide o que salvar na memória. Aqui está uma explicação de como ele funciona:\n\n**Critérios de relevância:**\nO filtro de relevância util"
+    },
+    {
+      "data": "20/03/2026 19:17",
+      "pergunta": "\"crie um prompt especializado para um agente de hackathons — ele precisa saber analisar desafios, propor soluções, gerar código funcional, montar pitch e avaliar viabilidade técnica e de negócio. o pr",
+      "resposta": "Aqui está um prompt especializado para um agente de hackathons de IA:\n\n**Prompt:** \"Desenvolva uma solução inovadora para o desafio de [nome do desafio] utilizando técnicas de Inteligência Artificial."
+    },
+    {
+      "data": "20/03/2026 19:21",
+      "pergunta": "vou te dar uma tarefa real , voce precisa conhecer tudo de hackathons , voce é um competidor , faz buscas na internet em sites e descubra tudo que puder",
+      "resposta": "Entendi! Como um agente de hackathons, estou ansioso para aprender e descobrir tudo sobre essa competição emocionante!\n\n**Pesquisando sobre Hackathons...**\n\n* Um hackathon é um evento de programação e"
+    },
+    {
+      "data": "20/03/2026 19:24",
+      "pergunta": "1.\n\"dica hackathon: juízes valorizam demo funcionando acima de tudo, mesmo que simples. um protótipo que roda ao vivo vale mais que slides perfeitos\"",
+      "resposta": "Entendi! Isso é um conselho valioso para os participantes de um hackathon!\n\n**Demo funcionando é fundamental...**\n\n* Os juízes de um hackathon estão mais interessados em ver uma demo funcionando do qu"
+    },
+    {
+      "data": "20/03/2026 19:24",
+      "pergunta": "2.\n\"dica hackathon: as primeiras 2 horas devem ser gastas entendendo o problema, não codando. equipes que codam rápido demais geralmente resolvem o problema errado\"",
+      "resposta": "Entendi! Isso é um conselho muito valioso para as equipes de hackathon!\n\n**Entendendo o problema é fundamental...**\n\n* As primeiras 2 horas de um hackathon são cruciais para entender o problema que es"
+    },
+    {
       "data": "20/03/2026 22:26",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -62,66 +87,31 @@
       "resultado": "Inteligência artificial domina investimentos de US$ 650 bilhões das big techs para 2026. OpenAI busca captar US$ 100 bilhões. Meta planeja app de vídeos de IA para competir com TikTok."
     },
     {
-      "data": "20/03/2026 22:35",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Inteligência artificial domina investimentos de US$ 650 bilhões das big techs para 2026. OpenAI busca captar US$ 100 bilhões. Meta planeja app de vídeos de IA para competir com TikTok."
+      "data": "20/03/2026 19:42",
+      "pergunta": "\"melhores hackathons de IA para participar\"",
+      "resposta": "Eduardo, com base nos dados disponíveis, aqui estão os melhores hackathons de IA para participar:\n\n* HackXplore em junho de 2026\n* GDG AI HACK em maio de 2026\n* Global AI Hackathon organizado pelo MIT"
     },
     {
-      "data": "20/03/2026 22:36",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro ID: 001**\n\n* **Data e Hora:** 2024-02-15 10:45:00\n* **Servidor:** AWS - EC2 ( instance t3.micro )\n* **Sistema Operacional:** Ubuntu Server 20.04 LTS\n* **Memória RAM:** 1 GB\n* **Processador:"
+      "data": "20/03/2026 19:43",
+      "pergunta": "\"pesquise na internet as melhores dicas para ganhar hackathons de IA e salve o que encontrar\"",
+      "resposta": "Eduardo, após realizar uma pesquisa na internet, encontrei as seguintes dicas para ganhar hackathons de IA:\n\n* **Defina objetivos claros**: Estabeleça metas específicas e alcançáveis para o seu projet"
     },
     {
-      "data": "20/03/2026 22:37",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "data": "20/03/2026 19:46",
+      "pergunta": "1. \"hackathons de IA com premiação em dinheiro 2026\"",
+      "resposta": "Eduardo, com base nos dados disponíveis, aqui estão alguns hackathons de IA com premiação em dinheiro programados para 2026:\n\n* **Google Solution Challenge 2026**: Oferece prêmios em dinheiro de Rs. 1"
     },
     {
-      "data": "20/03/2026 22:38",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "O resumo técnico de 1 registro do agente em nuvem é:\n\n- Data de Criação: 23/02/2023 14:30:00\n- Tempo de Execução: 5 segundos\n- Conectado ao Servidor: Sim (IP: 192.168.1.100, Porta: 8080)\n- Plataforma "
+      "data": "20/03/2026 19:46",
+      "pergunta": "2. \"como montar um pitch vencedor em hackathon de IA\"",
+      "resposta": "Eduardo, para montar um pitch vencedor em um hackathon de IA, siga essas dicas:\n\n* **Introdução clara e concisa**: Apresente o problema que você está tentando resolver e a solução que você desenvolveu"
     },
     {
-      "data": "20/03/2026 22:39",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, March 20, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
-    },
-    {
-      "data": "20/03/2026 22:40",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Vou acessar feeds de noticias de tecnologia em tempo real e te mostrar a última atualização dos principais sites de tecnologia. Posso sugerir alguns sites populares para te ajudar a encontrar o que vo"
-    },
-    {
-      "data": "20/03/2026 22:41",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "20/03/2026 22:42",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 28.7% | Mem: 70.1%"
-    },
-    {
-      "data": "20/03/2026 22:43",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Sim, o sistema está dentro da faixa de uso normal. A CPU está abaixo de 50% e a memória está abaixo de 80%."
-    },
-    {
-      "data": "20/03/2026 22:44",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Posso sugerir alguns comandos para você: \n\n- Baixe um agregador de feeds (RSS) de notícias de tecnologia (por exemplo, CNET ou TechCrunch) para ter acesso a artigos mais recentes.\n- Busque artigos na "
+      "data": "20/03/2026 19:46",
+      "pergunta": "3. \"estratégias de equipes que ganharam hackathons de IA\"",
+      "resposta": "Eduardo, com base nos dados disponíveis, aqui estão algumas estratégias que equipes vencedoras de hackathons de IA utilizaram:\n\n* **Definição clara do problema**: As equipes vencedoras identificaram u"
     }
   ],
-  "total_conversas": 107,
-  "total_tarefas": 1232
+  "total_conversas": 112,
+  "total_tarefas": 1222
 }
