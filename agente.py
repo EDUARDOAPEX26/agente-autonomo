@@ -6,11 +6,13 @@ import json
 import os
 import base64
 import threading
+import math
 from datetime import datetime
+from collections import defaultdict
 from fastapi import FastAPI
 import uvicorn
 
-# ── FASTAPI ──────────────────────────────────────────────
+# ── FASTAPI ────────────────────────────────────────────────────────────────────
 app = FastAPI()
 
 estado = {
@@ -72,20 +74,192 @@ def executar_tarefa_remota(tarefa: str, objetivo: str = "tarefa remota"):
 def ping():
     return {"pong": True}
 
-# ── CHAVES ───────────────────────────────────────────────
+# ── ENDPOINT /buscar ── busca semântica TF-IDF nos livros ─────────────────────
+
+_cache_busca: dict = {}          # query → {"resultado": [...], "ts": float}
+_indice_tfidf: dict = {}         # assunto → índice TF-IDF pré-calculado
+_indice_ts: dict = {}            # assunto → timestamp do último rebuild
+
+BUSCA_CACHE_TTL   = 600          # 10 min
+INDICE_REBUILD_TTL = 300         # reconstrói índice a cada 5 min ou quando livro muda
+
+@app.get("/buscar")
+def buscar(query: str, assunto: str = "geral", top_n: int = 5):
+    """
+    Busca semântica leve (TF-IDF) nas entradas de um livro temático.
+    Retorna as top_n entradas mais relevantes para a query.
+    Cache de 10 min por query+assunto.
+    """
+    chave_cache = f"{assunto}:{query}"
+    agora = time.time()
+
+    # Cache hit
+    if chave_cache in _cache_busca:
+        entrada_cache = _cache_busca[chave_cache]
+        if agora - entrada_cache["ts"] < BUSCA_CACHE_TTL:
+            return {"assunto": assunto, "query": query, "resultados": entrada_cache["resultado"], "cache": True}
+
+    # Limpa cache se crescer demais
+    if len(_cache_busca) > 300:
+        _cache_busca.clear()
+
+    livro = _carregar_livro_local(assunto)
+    if not livro or not livro.get("entradas"):
+        return {"assunto": assunto, "query": query, "resultados": [], "cache": False}
+
+    entradas = livro["entradas"]
+    resultados = _buscar_tfidf(query, entradas, top_n)
+
+    _cache_busca[chave_cache] = {"resultado": resultados, "ts": agora}
+    return {"assunto": assunto, "query": query, "resultados": resultados, "cache": False}
+
+@app.get("/livros")
+def listar_livros():
+    """Lista os livros disponíveis e quantas entradas cada um tem."""
+    assuntos = ["railway", "groq", "tavily", "hackathons", "eduardo", "codigo", "memoria", "geral"]
+    resultado = {}
+    for assunto in assuntos:
+        livro = _carregar_livro_local(assunto)
+        if livro:
+            resultado[assunto] = livro.get("total_entradas", 0)
+    return resultado
+
+# ── TF-IDF LEVE ───────────────────────────────────────────────────────────────
+
+def _tokenizar(texto: str) -> list:
+    """Tokeniza e normaliza texto para TF-IDF."""
+    texto = texto.lower()
+    for ch in ".,;:!?()[]{}\"'\n\r":
+        texto = texto.replace(ch, " ")
+    tokens = [t for t in texto.split() if len(t) > 2]
+    return tokens
+
+def _calcular_tf(tokens: list) -> dict:
+    tf = defaultdict(int)
+    for t in tokens:
+        tf[t] += 1
+    total = len(tokens) or 1
+    return {t: c / total for t, c in tf.items()}
+
+def _construir_indice(entradas: list) -> dict:
+    """Constrói índice TF-IDF para uma lista de entradas."""
+    n_docs = len(entradas)
+    if n_docs == 0:
+        return {}
+
+    # TF por documento
+    tfs = []
+    for e in entradas:
+        texto = f"{e.get('texto_indexado', '')} {e.get('pergunta', '')} {e.get('resposta', '')}"
+        tokens = _tokenizar(texto)
+        tfs.append(_calcular_tf(tokens))
+
+    # IDF
+    df = defaultdict(int)
+    for tf in tfs:
+        for termo in tf:
+            df[termo] += 1
+    idf = {t: math.log((n_docs + 1) / (c + 1)) + 1 for t, c in df.items()}
+
+    # TF-IDF vetores
+    vetores = []
+    for tf in tfs:
+        vetor = {t: tf[t] * idf.get(t, 1.0) for t in tf}
+        vetores.append(vetor)
+
+    return {"vetores": vetores, "idf": idf, "n_docs": n_docs}
+
+def _similaridade_cosseno(vetor_a: dict, vetor_b: dict) -> float:
+    """Similaridade cosseno entre dois vetores TF-IDF esparsos."""
+    if not vetor_a or not vetor_b:
+        return 0.0
+    termos_comuns = set(vetor_a) & set(vetor_b)
+    if not termos_comuns:
+        return 0.0
+    dot = sum(vetor_a[t] * vetor_b[t] for t in termos_comuns)
+    norm_a = math.sqrt(sum(v * v for v in vetor_a.values()))
+    norm_b = math.sqrt(sum(v * v for v in vetor_b.values()))
+    if norm_a == 0 or norm_b == 0:
+        return 0.0
+    return dot / (norm_a * norm_b)
+
+def _buscar_tfidf(query: str, entradas: list, top_n: int = 5) -> list:
+    """Ranqueia entradas por similaridade TF-IDF com a query."""
+    if not entradas:
+        return []
+
+    indice = _construir_indice(entradas)
+    if not indice:
+        return entradas[:top_n]
+
+    # Vetor da query
+    tokens_query = _tokenizar(query)
+    tf_query = _calcular_tf(tokens_query)
+    vetor_query = {t: tf_query[t] * indice["idf"].get(t, 1.0) for t in tf_query}
+
+    # Score por entrada
+    scores = []
+    for i, vetor in enumerate(indice["vetores"]):
+        score = _similaridade_cosseno(vetor_query, vetor)
+        # Bonus de confiança
+        bonus = entradas[i].get("confianca", 0.7) * 0.05
+        scores.append((score + bonus, i))
+
+    scores.sort(reverse=True)
+
+    resultado = []
+    for score, i in scores[:top_n]:
+        e = entradas[i]
+        resultado.append({
+            "data":      e.get("data", ""),
+            "pergunta":  e.get("pergunta", "")[:150],
+            "resposta":  e.get("resposta", "")[:150],
+            "confianca": e.get("confianca", 0.7),
+            "origem":    e.get("origem", "local"),
+            "score":     round(score, 4),
+        })
+    return resultado
+
+# ── LIVROS (leitura local no Railway) ─────────────────────────────────────────
+
+_cache_livros_local: dict = {}
+_cache_livros_ts: dict = {}
+LIVRO_CACHE_TTL = 120  # 2 min
+
+def _carregar_livro_local(assunto: str) -> dict:
+    """Carrega livro do GitHub com cache de 2 min."""
+    agora = time.time()
+    if assunto in _cache_livros_local:
+        if agora - _cache_livros_local[assunto].get("_ts", 0) < LIVRO_CACHE_TTL:
+            return _cache_livros_local[assunto]
+
+    if not GITHUB_TOKEN:
+        return {}
+    try:
+        url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/livro_{assunto}.json"
+        r = requests.get(url, headers=GITHUB_HEADERS, timeout=8)
+        if r.status_code == 200:
+            livro = json.loads(base64.b64decode(r.json()["content"]).decode("utf-8"))
+            livro["_ts"] = agora
+            _cache_livros_local[assunto] = livro
+            return livro
+    except Exception as e:
+        print(f"[LIVRO] Erro ao carregar '{assunto}': {e}")
+    return {}
+
+# ── CHAVES ────────────────────────────────────────────────────────────────────
 GITHUB_TOKEN   = os.getenv("GITHUB_TOKEN")
 GITHUB_REPO    = "EDUARDOAPEX26/agente-autonomo"
 GITHUB_FILE    = "memoria_chat.json"
 GITHUB_HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
-# Nomes corretos das variáveis do Railway
 APIS = [
     {"nome": "Groq",        "tipo": "groq",   "chave": os.getenv("GROQ_API_KEY"),        "modelo": "llama-3.1-8b-instant"},
     {"nome": "Gemini",      "tipo": "gemini", "chave": os.getenv("CHAVE_API_DO_GOOGLE"), "modelo": "gemini-1.5-flash"},
     {"nome": "HuggingFace", "tipo": "hf",     "chave": os.getenv("CHAVE_API_DE_ABRAÇO"), "modelo": "mistralai/Mistral-7B-Instruct-v0.3"},
 ]
 
-# ── MEMÓRIA COMPARTILHADA (GITHUB) ────────────────────────
+# ── MEMÓRIA COMPARTILHADA (GITHUB) ────────────────────────────────────────────
 _memoria_compartilhada = None
 SYNC_A_CADA_CICLOS = 10
 ciclos_desde_sync  = {"n": 0}
@@ -112,7 +286,6 @@ def salvar_memoria_github(memoria: dict):
     if not GITHUB_TOKEN:
         return
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
-    # Retry para erro 409
     for tentativa in range(3):
         try:
             r = requests.get(url, headers=GITHUB_HEADERS, timeout=8)
@@ -169,17 +342,17 @@ def sincronizar_github_se_necessario():
         mem = get_memoria_compartilhada()
         threading.Thread(target=salvar_memoria_github, args=(mem,), daemon=True).start()
 
-# ── TAVILY ───────────────────────────────────────────────
+# ── TAVILY ────────────────────────────────────────────────────────────────────
 try:
     from tavily import TavilyClient
-    TAVILY_KEY    = os.getenv("TAVLY_API_KEY")  # nome correto no Railway (sem I)
+    TAVILY_KEY    = os.getenv("TAVLY_API_KEY")
     tavily_client = TavilyClient(api_key=TAVILY_KEY) if TAVILY_KEY else None
     print(f"[TAVILY] {'Conectado' if tavily_client else 'Chave nao encontrada'}")
 except Exception as e:
     tavily_client = None
     print(f"[TAVILY] Erro: {e}")
 
-# ── CONTROLE TAVILY ───────────────────────────────────────
+# ── CONTROLE TAVILY ───────────────────────────────────────────────────────────
 CONTROLE_FILE = "controle.json"
 MAX_TAVILY    = 10
 RESET_HORAS   = 24
@@ -214,7 +387,7 @@ def pode_usar_tavily() -> bool:
     print(f"[TAVILY] Uso {dados['tavily_uso']}/{MAX_TAVILY} hoje")
     return True
 
-# ── CACHE ─────────────────────────────────────────────────
+# ── CACHE ─────────────────────────────────────────────────────────────────────
 CACHE_DECISAO = {}
 CACHE_TAVILY  = {}
 MAX_CACHE     = 500
@@ -225,7 +398,7 @@ def limpar_cache_se_cheio():
     if len(CACHE_TAVILY) > MAX_CACHE:
         CACHE_TAVILY.clear()
 
-# ── PALAVRAS-CHAVE ────────────────────────────────────────
+# ── PALAVRAS-CHAVE ────────────────────────────────────────────────────────────
 PALAVRAS_WEB = [
     "cotacao", "cotação", "preco", "preço", "valor",
     "dolar", "dólar", "bitcoin", "euro", "real",
@@ -241,7 +414,7 @@ PALAVRAS_BLOQUEIO = [
     "código", "me ajude", "explica", "defina",
 ]
 
-# ── ROUTER ───────────────────────────────────────────────
+# ── ROUTER ────────────────────────────────────────────────────────────────────
 def precisa_tavily(pergunta: str) -> bool:
     p = pergunta.lower().strip()
     limpar_cache_se_cheio()
@@ -279,7 +452,7 @@ def precisa_tavily(pergunta: str) -> bool:
     CACHE_DECISAO[p] = False
     return False
 
-# ── BUSCA TAVILY ──────────────────────────────────────────
+# ── BUSCA TAVILY ──────────────────────────────────────────────────────────────
 def buscar_tavily(query: str) -> str:
     if not tavily_client:
         return "Tavily nao configurado."
@@ -307,7 +480,7 @@ def buscar_tavily(query: str) -> str:
         print(f"[TAVILY] Erro: {e}")
         return f"Tavily erro: {e}"
 
-# ── APRENDIZADO DE APIs ───────────────────────────────────
+# ── APRENDIZADO DE APIs ───────────────────────────────────────────────────────
 APRENDIZADO_FILE = "aprendizado.json"
 
 def carregar_aprendizado() -> dict:
@@ -354,7 +527,7 @@ def melhor_api_para(tarefa: str) -> dict:
                     melhor = api
     return melhor or APIS[0]
 
-# ── CHAMADA IA ───────────────────────────────────────────
+# ── CHAMADA IA ────────────────────────────────────────────────────────────────
 SYSTEM_PROMPT = (
     "Voce e um agente autonomo rodando em nuvem. "
     "Responda sempre em portugues brasileiro. "
@@ -389,7 +562,6 @@ def chamar_ia(tarefa: str, user_prompt: str, max_tokens: int = 200) -> str:
 def _chamar_api(api: dict, user_prompt: str, max_tokens: int) -> str:
     if not api.get("chave"):
         raise Exception(f"{api['nome']} sem chave")
-
     if api["tipo"] == "groq":
         from groq import Groq
         client = Groq(api_key=api["chave"])
@@ -402,7 +574,6 @@ def _chamar_api(api: dict, user_prompt: str, max_tokens: int) -> str:
             max_tokens=max_tokens
         )
         return r.choices[0].message.content.strip()
-
     elif api["tipo"] == "gemini":
         r = requests.post(
             f"https://generativelanguage.googleapis.com/v1beta/models/"
@@ -415,7 +586,6 @@ def _chamar_api(api: dict, user_prompt: str, max_tokens: int) -> str:
         if not txt:
             raise Exception("Gemini retornou resposta vazia")
         return txt.strip()
-
     elif api["tipo"] == "hf":
         from huggingface_hub import InferenceClient
         client = InferenceClient(token=api["chave"])
@@ -428,10 +598,9 @@ def _chamar_api(api: dict, user_prompt: str, max_tokens: int) -> str:
             max_tokens=max_tokens
         )
         return r.choices[0].message.content.strip()
-
     raise ValueError(f"Tipo desconhecido: {api['tipo']}")
 
-# ── TAREFAS ──────────────────────────────────────────────
+# ── TAREFAS ───────────────────────────────────────────────────────────────────
 objetivos = [
     "otimizar desempenho do sistema",
     "monitorar recursos e memoria",
@@ -600,7 +769,7 @@ def contar_registros() -> int:
     except:
         return 0
 
-# ── LOOP PRINCIPAL ───────────────────────────────────────
+# ── LOOP PRINCIPAL ────────────────────────────────────────────────────────────
 def loop_agente():
     global estado, _memoria_compartilhada
 
@@ -610,10 +779,11 @@ def loop_agente():
     ultima_tarefa = None
 
     print("=" * 52)
-    print("  AGENTE AUTONOMO EM NUVEM")
+    print("  AGENTE AUTONOMO EM NUVEM — Fase 7")
     print(f"  Tavily : {'OK' if tavily_client else 'INDISPONIVEL'}")
     print(f"  APIs   : {[a['nome'] for a in APIS]}")
     print(f"  GitHub : {'configurado' if GITHUB_TOKEN else 'sem token'}")
+    print(f"  TF-IDF : ativo — endpoint /buscar disponivel")
     print("=" * 52)
 
     dados_github = carregar_memoria_github()
@@ -684,9 +854,10 @@ def loop_agente():
             print(f"[ERRO] {e}")
             time.sleep(15)
 
-# ── INICIALIZAÇÃO ─────────────────────────────────────────
+# ── INICIALIZAÇÃO ─────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     thread = threading.Thread(target=loop_agente, daemon=True)
     thread.start()
     porta = int(os.getenv("PORT", 8000))
     uvicorn.run(app, host="0.0.0.0", port=porta)
+
