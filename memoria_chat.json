@@ -2,56 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "20/03/2026 22:50",
-      "pergunta": "como a memória do Railway é sincronizada com o GitHub?",
-      "resposta": "Estou com instabilidade nas APIs agora. Tente novamente em alguns segundos."
-    },
-    {
-      "data": "20/03/2026 23:00",
-      "pergunta": "ta sem apis?",
-      "resposta": "Eduardo, é que sometimes as coisas não funcionam como esperado, mas vou tentar de novo! A memória do Railway é sincronizada com o GitHub a cada 5 conversas, é como uma rotina que eu sigo para manter t"
-    },
-    {
-      "data": "20/03/2026 23:01",
-      "pergunta": "consegue saber qual api voce esta usando agora?",
-      "resposta": "Eduardo, como estou operando no momento, não estou utilizando nenhuma API externa para buscar dados em tempo real. Minha resposta é baseada no conhecimento prévio armazenado na minha memória persisten"
-    },
-    {
-      "data": "20/03/2026 23:02",
-      "pergunta": "pode testa a groq para mim?",
-      "resposta": "Eduardo, vou tentar responder algo para testar a GROQ, minha memória principal. Qual é o tema ou pergunta que você gostaria que eu respondesse? Vou fazer o meu melhor para mostrar como a GROQ está fun"
-    },
-    {
-      "data": "20/03/2026 23:02",
-      "pergunta": "porcure algo por conta",
-      "resposta": "Eduardo, descobri que porcino é um termo relacionado a porcos! Mas parece que você quer que eu procure algo por conta, então vou tentar novamente. Você gostaria que eu procurasse algo específico, como"
-    },
-    {
-      "data": "20/03/2026 23:03",
-      "pergunta": "o que voce precisa saber ? que ainda não sabe",
-      "resposta": "Eduardo, isso é uma pergunta interessante! Como um agente de linguagem, sempre estou aprendendo e melhorando, então há muitas coisas que eu ainda não sei. Aqui estão algumas áreas onde eu poderia melh"
-    },
-    {
-      "data": "20/03/2026 23:04",
-      "pergunta": "pode ver se tem algum jogo de futebol agora para mim",
-      "resposta": "Eduardo, infelizmente não há jogos de futebol agendados para agora. Você pode verificar os horários dos jogos em sites como o UOL Esporte para saber sobre os jogos ao redor do mundo. Eu não tenho aces"
-    },
-    {
-      "data": "20/03/2026 23:20",
-      "pergunta": "ola",
-      "resposta": "Olá Eduardo! É um prazer conversar com você novamente! Como posso ajudá-lo hoje? Quer conversar sobre algo específico ou apenas bater um papo?"
-    },
-    {
-      "data": "20/03/2026 23:21",
-      "pergunta": "\"como funciona o classificador de tom e relevância no agente?\"",
-      "resposta": "Eduardo, o classificador de tom e relevância no agente é um componente importante que ajuda a determinar a resposta mais apropriada para uma pergunta ou comando. Aqui está uma visão geral de como func"
-    },
-    {
-      "data": "20/03/2026 23:29",
-      "pergunta": "Desafio difícil\n\nVocê tem 24 horas para criar uma solução que reduza fake news em tempo real no WhatsApp, sem acessar o conteúdo privado das mensagens e respeitando leis de privacidade.\n\nRequisitos:\nN",
-      "resposta": "Eduardo, que desafio incrível! Aqui está uma solução que pode ser implementada em 24 horas para reduzir fake news em tempo real no WhatsApp, sem acessar o conteúdo privado das mensagens e respeitando "
-    },
-    {
       "data": "20/03/2026 23:38",
       "pergunta": "Você está em treinamento para hackathons.\n\nTAREFA:\nCrie uma solução para reduzir fake news em apps de mensagem.\n\nREGRAS:\n- Não invente APIs\n- Não acesse mensagens privadas\n- Solução deve funcionar em ",
       "resposta": "Eduardo, aqui está a minha solução para reduzir fake news em apps de mensagem:\n\n**1. Problema:**\nO problema das fake news em apps de mensagem é que elas podem se espalhar rapidamente e alcançar um gra"
@@ -100,8 +50,68 @@
       "data": "21/03/2026 00:22",
       "pergunta": "Boa — agora vou ser direto contigo (nível “treinar agente de verdade”, sem passar pano):\n\n👉 Ele não copiou\n👉 Mas ele ainda está genérico demais\n👉 Isso aqui é exatamente onde você evolui ele\n\nVou te en",
       "resposta": "Eduardo, entendi perfeitamente. Aqui está a resposta reformulada:\n\n**1. WOW em um hackathon**\nWOW não é apenas algo \"legal\" ou \"inovador\". É o momento em que o jurado para o que está fazendo e presta "
+    },
+    {
+      "data": "21/03/2026 03:22",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily nao configurado."
+    },
+    {
+      "data": "21/03/2026 03:23",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 59.8% | Mem: 70.0%"
+    },
+    {
+      "data": "21/03/2026 03:24",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "O sistema está operacional. O uso de CPU e memória está dentro dos limites considerados saudáveis."
+    },
+    {
+      "data": "21/03/2026 03:25",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "21/03/2026 03:26",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily nao configurado."
+    },
+    {
+      "data": "21/03/2026 03:27",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "O sistema não está sobrecarregado considerando as estatísticas de recursos, mas uma carga de CPU em 56,5% é alta para atividades normais e pode indicar um processo de longa execução ou consumo excessi"
+    },
+    {
+      "data": "21/03/2026 03:28",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 51.3% | Mem: 70.3%"
+    },
+    {
+      "data": "21/03/2026 03:29",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "21/03/2026 03:30",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily nao configurado."
+    },
+    {
+      "data": "21/03/2026 03:31",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Sim, o sistema está saudável. O CPU está em 52,0% de uso, o que é dentro das normas, e a memória está em 70,4%, o que é aceitável."
     }
   ],
   "total_conversas": 132,
-  "total_tarefas": 1392
+  "total_tarefas": 1402
 }
