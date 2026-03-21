@@ -2,66 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "21/03/2026 15:08",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 16.9% | Mem: 70.8%"
-    },
-    {
-      "data": "21/03/2026 15:09",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily nao configurado."
-    },
-    {
-      "data": "21/03/2026 15:10",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Sim, o sistema apresenta indicadores de performance dentro da faixa normal. A CPU está sobrecarregada ligeiramente, mas a memória disponível parece estar em um patamar razoável."
-    },
-    {
-      "data": "21/03/2026 15:11",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "21/03/2026 15:12",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily nao configurado."
-    },
-    {
-      "data": "21/03/2026 15:13",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 36.2% | Mem: 75.4%"
-    },
-    {
-      "data": "21/03/2026 15:14",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Sim, o sistema parece estar saudável, pois a taxa de uso da CPU é baixa e a ocupação de memória RAM é razoável."
-    },
-    {
-      "data": "21/03/2026 15:16",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "21/03/2026 15:17",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro de Serviço**\n\n- Data: 2023-12-31\n- Serviço: Consulta de APIs de Cotação de Moedas\n- Status: Executado com sucesso\n- Tempo de Execução: 23ms\n- Resultado: Cotação de EUR/USD disponível."
-    },
-    {
-      "data": "21/03/2026 15:18",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 15:18:02"
-    },
-    {
       "data": "21/03/2026 15:18",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +60,68 @@
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "21/03/2026 15:28",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 14.4% | Mem: 66.6%"
+    },
+    {
+      "data": "21/03/2026 15:29",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "21/03/2026 15:30",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 19.0% | Mem: 66.5%"
+    },
+    {
+      "data": "21/03/2026 15:31",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily nao configurado."
+    },
+    {
+      "data": "21/03/2026 15:32",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "A CPU está ligeiramente sobrecarregada (acima de 20%), mas a memória está dentro dos parâmetros normais. Não posso avaliar o sistema como saudável sem mais informações, como logs de erro ou outras mét"
+    },
+    {
+      "data": "21/03/2026 15:33",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "21/03/2026 15:34",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Sim, o sistema está saudável, com uso baixo da CPU e memória abaixo de 75%."
+    },
+    {
+      "data": "21/03/2026 15:35",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 24.5% | Mem: 66.2%"
+    },
+    {
+      "data": "21/03/2026 15:36",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Para monitorar recursos e memória de seus 3 registros, você pode utilizar o comando `docker stats` para monitorar os recursos (CPU, memória, etc.) e o comando `docker inspect` para visualizar a config"
+    },
+    {
+      "data": "21/03/2026 15:37",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily nao configurado."
     }
   ],
   "total_conversas": 132,
-  "total_tarefas": 2142
+  "total_tarefas": 2152
 }
