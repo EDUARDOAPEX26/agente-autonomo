@@ -2,66 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "21/03/2026 16:21",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "21/03/2026 16:22",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily nao configurado."
-    },
-    {
-      "data": "21/03/2026 16:23",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro 1**\n- **Data**: 2023-03-15\n- **Evento**: Inicialização da aplicação, configuração da conexão de rede SSL/TLS e verificação da integridade do sistema.\n\n**Registro 2**\n- **Data**: 2023-03-20\n"
-    },
-    {
-      "data": "21/03/2026 16:24",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily nao configurado."
-    },
-    {
-      "data": "21/03/2026 16:25",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "21/03/2026 16:26",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 39.3% | Mem: 70.9%"
-    },
-    {
-      "data": "21/03/2026 16:27",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "21/03/2026 16:28",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro ID:** 0123\n**Data e Hora de Registro:** 14/02/2024 10:45:00 (UTC)\n\nAguarde... Consultando registros...\n\n**Tecnologia Utilizada:** Plataforma AWS Lambda + Armazenamento S3\n**Sistema Operacio"
-    },
-    {
-      "data": "21/03/2026 16:29",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily nao configurado."
-    },
-    {
-      "data": "21/03/2026 16:30",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 16:30:42"
-    },
-    {
       "data": "21/03/2026 16:31",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
@@ -115,8 +55,68 @@
       "data": "21/03/2026 14:13",
       "pergunta": "Perfeito, agora sim dá pra analisar de verdade 😈\nVou fazer avaliação estilo jurado (sem passar pano).\n\n🧠 Nota geral da resposta\n\n👉 6.5 / 10\n\n✅ O que ele fez bem\n1. Estrutura clara\n\nEle organizou como:",
       "resposta": "Eduardo, muito obrigado por compartilhar a avaliação detalhada do ChatGPT! É incrível ver como ele analisou minhas respostas e identificou pontos fortes e fracos.\n\nA avaliação geral de 6,5/10 é um bom"
+    },
+    {
+      "data": "21/03/2026 17:13",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 18.3% | Mem: 70.8%"
+    },
+    {
+      "data": "21/03/2026 17:14",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "21/03/2026 17:15",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Para monitorar recursos e memória de um registro em um ambiente de nuvem, você pode usar ferramentas como a linha de comando `top` e `free`, que permitem mostrar informações em tempo real sobre a util"
+    },
+    {
+      "data": "21/03/2026 17:16",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 17:16:56"
+    },
+    {
+      "data": "21/03/2026 17:17",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily nao configurado."
+    },
+    {
+      "data": "21/03/2026 17:18",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "21/03/2026 17:19",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Não, o sistema não está saudável. A CPU está com um uso elevado (20,3%) o que pode indicar sobrecarga da CPU, e a memória está com uso de aproximadamente 70,4%, o que pode ser um indicativo de que o s"
+    },
+    {
+      "data": "21/03/2026 17:21",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Você pode usar o comando \"top\" no Linux ou \"Task Manager\" no Windows para monitorar recursos e memória. Esses comandos fornecem informações detalhadas sobre processos em execução, uso de CPU, memória "
+    },
+    {
+      "data": "21/03/2026 17:22",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "**Registro 1: Atendimento ao Cliente**\n- Data: 10/02/2023\n- Tipo de solicitação: Reabilitação de conta bancária\n- Status: Concluída\n\n**Registro 2: Monitoramento de Tendências**\n- Data: 05/03/2023\n- Ti"
+    },
+    {
+      "data": "21/03/2026 17:23",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily nao configurado."
     }
   ],
   "total_conversas": 137,
-  "total_tarefas": 2212
+  "total_tarefas": 2222
 }
