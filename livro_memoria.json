@@ -1,0 +1,16 @@
+{
+  "assunto": "memoria",
+  "resumo": "",
+  "entradas": [
+    {
+      "data": "21/03/2026 20:33",
+      "pergunta": "\"como funciona o sync do GitHub no agente?\" e tambem \"explica o sistema de livros temáticos\".",
+      "resposta": "Olá Eduardo! Vou explicar como funciona o sincronismo com o GitHub e o sistema de livros temáticos.\n\n**Sincronismo com o GitHub:**\nO agente tem uma thread separada que sincroniza a memória local com o",
+      "texto_indexado": "como funciona o sync do github no agente e tambem explica o sistema de livros temáticos olá eduardo vou explicar como funciona o sincronismo com o github e o sistema de livros temáticos **sincronismo com o github ** o agente tem uma thread separada que sincroniza a memória local com o",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica"
+    }
+  ],
+  "total_entradas": 1,
+  "ultima_atualizacao": "21/03/2026 20:33"
+}
