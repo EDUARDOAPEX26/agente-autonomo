@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "21/03/2026 22:07",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro do Agente em Nuvem**\n\n* **Data e Hora:** 12/03/2024 14:30:00\n* **Estado do Sistema:** Online\n* **Conexão com o Servidor:** Estável (ping: 10ms)\n* **Memória Alocada:** 512 MB (50% utilizada)"
-    },
-    {
       "data": "21/03/2026 22:08",
       "origem": "nuvem",
       "tarefa": "registrar atividade",
@@ -118,8 +112,13 @@
       "data": "21/03/2026 19:32",
       "pergunta": "\"quais são suas limitações reais?\"",
       "resposta": "Olá Eduardo! Minhas limitações reais incluem:\n\n* Acesso limitado a dados em tempo real, pois não posso buscar informações em tempo real sem a configuração correta do Tavily ou outras fontes de dados.\n"
+    },
+    {
+      "data": "21/03/2026 19:40",
+      "pergunta": "\"quais são suas limitações reais?\"",
+      "resposta": "Olá Eduardo! Minhas limitações reais incluem:\n\n* Acesso limitado a dados em tempo real, pois não posso buscar informações atualizadas sobre cotizações, preços, clima, notícias e outros dados que mudam"
     }
   ],
-  "total_conversas": 144,
+  "total_conversas": 145,
   "total_tarefas": 2522
 }
