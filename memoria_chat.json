@@ -2,66 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "21/03/2026 09:50",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Erro ao gerar relatorio: [Errno 2] No such file or directory: 'memoria.txt'"
-    },
-    {
-      "data": "21/03/2026 09:51",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "21/03/2026 09:52",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily nao configurado."
-    },
-    {
-      "data": "21/03/2026 09:53",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro 1:**\n- **Data:** 10/02/2023\n- **Ação:** Verificação de integridade do sistema de back-end\n- **Resultado:** Passado\n\n**Registro 2:**\n- **Data:** 15/02/2023\n- **Ação:** Atualização do pacote "
-    },
-    {
-      "data": "21/03/2026 09:54",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 09:54:12"
-    },
-    {
-      "data": "21/03/2026 09:55",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 57.2% | Mem: 69.5%"
-    },
-    {
-      "data": "21/03/2026 09:56",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily nao configurado."
-    },
-    {
-      "data": "21/03/2026 09:57",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro 1: 2024-02-10**\n- Data: 10/02/2024\n- Tempo de Uso: 23:45 horas\n- Memória Uso: 45,6% (3,2 GB/7 GB)\n- Processador Uso: 21,1% (1,1 CPU/5,1 CPU)\n\n**Registro 2: 2024-02-16**\n- Data: 16/02/2024\n-"
-    },
-    {
-      "data": "21/03/2026 09:58",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily nao configurado."
-    },
-    {
-      "data": "21/03/2026 09:59",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 09:59:18"
-    },
-    {
       "data": "21/03/2026 09:59",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
@@ -120,8 +60,68 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily nao configurado."
+    },
+    {
+      "data": "21/03/2026 10:09",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 30.0% | Mem: 72.3%"
+    },
+    {
+      "data": "21/03/2026 10:10",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily nao configurado."
+    },
+    {
+      "data": "21/03/2026 10:11",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "21/03/2026 10:12",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Sim, o sistema parece saudável. As taxas de CPU e memória estãodentro dos parâmetros normais."
+    },
+    {
+      "data": "21/03/2026 10:13",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 10:13:23"
+    },
+    {
+      "data": "21/03/2026 10:14",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 38.9% | Mem: 72.8%"
+    },
+    {
+      "data": "21/03/2026 10:15",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "21/03/2026 10:16",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 10:16:26"
+    },
+    {
+      "data": "21/03/2026 10:17",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Não, o sistema está ligeiramente sobrecarregado. Os indicadores de CPU e memória estão acima do normal."
+    },
+    {
+      "data": "21/03/2026 10:18",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Para manter o sistema estável com 3 registros, é recomendável realizar backup e monitorar a infraestrutura. Se necessário, considere distribuir os registros para evitar sobrecarga em um único ponto."
     }
   ],
   "total_conversas": 132,
-  "total_tarefas": 1812
+  "total_tarefas": 1822
 }
