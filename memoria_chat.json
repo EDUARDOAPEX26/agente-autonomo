@@ -2,6 +2,53 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "21/03/2026 22:55",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 30.6% | Mem: 72.9%"
+    },
+    {
+      "data": "21/03/2026 22:56",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Para monitorar recursos e memória de seus registros, você pode criar um script para coletar informações sobre uso de CPU, memória RAM e armazenamento de cada registro. Isso poderá ser feito coletando "
+    },
+    {
+      "data": "21/03/2026 22:57",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Sim, o sistema está operando dentro dos parâmetros nominais. A CPU está sobrecarregada, mas a memória não está cheia."
+    },
+    {
+      "data": "21/03/2026 22:58",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "21/03/2026 22:59",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily nao configurado."
+    },
+    {
+      "data": "21/03/2026 23:00",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 34.0% | Mem: 72.6%"
+    },
+    {
+      "data": "21/03/2026 23:01",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 23:01:18"
+    },
+    {
+      "data": "21/03/2026 20:02",
+      "pergunta": "\"quais são suas limitações reais?\"",
+      "resposta": "Olá Eduardo! Minhas limitações reais incluem:\n\n* Acesso limitado a dados em tempo real, pois não posso buscar informações em tempo real sempre que necessário.\n* Limitação de 30 buscas por dia no Tavil"
+    },
+    {
       "data": "21/03/2026 23:03",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
@@ -62,66 +109,18 @@
       "resultado": "Tavily nao configurado."
     },
     {
-      "data": "21/03/2026 23:23",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily nao configurado."
+      "data": "21/03/2026 20:31",
+      "pergunta": "teve algum agente que ganhou mais de uma vez o hachthons?",
+      "resposta": "Olá Eduardo! Não tenho informações específicas sobre agentes que ganharam mais de uma vez hackathons. Meu conhecimento é baseado em dados fornecidos e não tenho acesso a informações em tempo real ou d",
+      "origem": "conversa_local"
     },
     {
-      "data": "21/03/2026 23:24",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "21/03/2026 23:25",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily nao configurado."
-    },
-    {
-      "data": "21/03/2026 23:26",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 23:26:15"
-    },
-    {
-      "data": "21/03/2026 23:27",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Para otimizar o desempenho do sistema, você pode começar fazendo uma análise do CPU, memória e armazenamento, em busca de possíveis gargalos. Isso pode incluir revisar as configurações da instância, o"
-    },
-    {
-      "data": "21/03/2026 23:28",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily nao configurado."
-    },
-    {
-      "data": "21/03/2026 23:29",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Aqui estão 5 registros do meu histórico de execução:\n\n1. **Data**: 12/02/2023\n **Hora**: 14:30:00\n **Serviço**: Análise de preços de ações no mercado de ações brasileiro\n **Resultado**: Conseguiu obte"
-    },
-    {
-      "data": "21/03/2026 23:30",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Sim, o sistema está dentro da faixa normal, os recursos estão sendo utilizados de forma moderada."
-    },
-    {
-      "data": "21/03/2026 23:31",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily nao configurado."
-    },
-    {
-      "data": "21/03/2026 23:32",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "data": "21/03/2026 20:33",
+      "pergunta": "\"como funciona o sync do GitHub no agente?\" e tambem \"explica o sistema de livros temáticos\".",
+      "resposta": "Olá Eduardo! Vou explicar como funciona o sincronismo com o GitHub e o sistema de livros temáticos.\n\n**Sincronismo com o GitHub:**\nO agente tem uma thread separada que sincroniza a memória local com o",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 146,
-  "total_tarefas": 2562
+  "total_conversas": 148,
+  "total_tarefas": 2552
 }
