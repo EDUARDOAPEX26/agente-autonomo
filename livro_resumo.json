@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:53",
-    "total_entradas_processadas": 2100,
-    "ciclos_completos": 105
+    "total_entradas_processadas": 2120,
+    "ciclos_completos": 106
   },
   "blocos": {
     "decisoes": [
@@ -66,6 +66,12 @@
         "id": "dec_e663e",
         "resumo": "Memoria limpa com sucesso",
         "data": "22/03/2026 03:42",
+        "importancia": 0.9
+      },
+      {
+        "id": "dec_fd4b6",
+        "resumo": "Gerar relatório de resumo técnico",
+        "data": "22/03/2026 03:50",
         "importancia": 0.9
       },
       {
