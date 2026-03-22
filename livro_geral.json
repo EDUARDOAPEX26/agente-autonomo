@@ -5,34 +5,68 @@
     {
       "data": "20/03/2026 14:56",
       "pergunta": "voce é um agente normal?",
-      "resposta": "Eduardo, não sou um agente comum! Eu fui criado por você, com uma arquitetura única que inclui:\n\n* Cerebro principal: GROQ llama-3.3-70b-versatile (2 chaves em pool)\n* Fallback: Google Gemini 2.0 Flas"
+      "resposta": "Eduardo, não sou um agente comum! Eu fui criado por você, com uma arquitetura única que inclui:\n\n* Cerebro principal: GROQ llama-3.3-70b-versatile (2 chaves em pool)\n* Fallback: Google Gemini 2.0 Flas",
+      "status": "normal"
     },
     {
       "data": "20/03/2026 15:39",
       "pergunta": "ola",
-      "resposta": "Olá Eduardo! É um prazer conversar com você novamente. Como posso ajudá-lo hoje? Quer conversar sobre algum tópico específico ou apenas bater um papo?"
+      "resposta": "Olá Eduardo! É um prazer conversar com você novamente. Como posso ajudá-lo hoje? Quer conversar sobre algum tópico específico ou apenas bater um papo?",
+      "status": "normal"
     },
     {
       "data": "20/03/2026 15:58",
       "pergunta": "ola",
-      "resposta": "Olá Eduardo! É um prazer conversar com você novamente. Como posso ajudá-lo hoje? Quer conversar sobre algo específico ou apenas bater um papo? Estou aqui para ajudar e aprender mais sobre você e suas "
+      "resposta": "Olá Eduardo! É um prazer conversar com você novamente. Como posso ajudá-lo hoje? Quer conversar sobre algo específico ou apenas bater um papo? Estou aqui para ajudar e aprender mais sobre você e suas ",
+      "status": "normal"
     },
     {
       "data": "20/03/2026 16:02",
       "pergunta": "ola",
-      "resposta": "Olá Eduardo! É um prazer conversar com você novamente. Como posso ajudá-lo hoje? Quer conversar sobre algum tópico específico ou apenas bater um papo? Estou aqui para ajudar e aprender mais sobre suas"
+      "resposta": "Olá Eduardo! É um prazer conversar com você novamente. Como posso ajudá-lo hoje? Quer conversar sobre algum tópico específico ou apenas bater um papo? Estou aqui para ajudar e aprender mais sobre suas",
+      "status": "normal"
     },
     {
       "data": "20/03/2026 16:18",
       "pergunta": "ola",
-      "resposta": "Olá Eduardo! É um prazer conversar com você novamente. Como posso ajudá-lo hoje? Quer conversar sobre algo específico ou apenas bater um papo? Estou aqui para ajudar e aprender com você!"
+      "resposta": "Olá Eduardo! É um prazer conversar com você novamente. Como posso ajudá-lo hoje? Quer conversar sobre algo específico ou apenas bater um papo? Estou aqui para ajudar e aprender com você!",
+      "status": "normal"
     },
     {
       "data": "21/03/2026 19:27",
       "pergunta": "\"quais são suas limitações reais?\"",
-      "resposta": "Olá Eduardo! Minhas limitações reais incluem:\n\n* Acesso limitado a dados em tempo real, pois não posso buscar informações online em tempo real.\n* Capacidade de processamento limitada, pois dependo da "
+      "resposta": "Olá Eduardo! Minhas limitações reais incluem:\n\n* Acesso limitado a dados em tempo real, pois não posso buscar informações online em tempo real.\n* Capacidade de processamento limitada, pois dependo da ",
+      "status": "normal"
+    },
+    {
+      "data": "21/03/2026 23:33",
+      "pergunta": "o que é hachathns?",
+      "resposta": "Eduardo, os hackathons são eventos em que desenvolvedores, designers, especialistas em negócios e outros profissionais se reúnem para criar soluções inovadoras e técnicas para desafios específicos. Es",
+      "texto_indexado": "o que é hachathns eduardo os hackathons são eventos em que desenvolvedores designers especialistas em negócios e outros profissionais se reúnem para criar soluções inovadoras e técnicas para desafios específicos es",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica",
+      "status": "promovido"
+    },
+    {
+      "data": "21/03/2026 23:33",
+      "pergunta": "achathons",
+      "resposta": "Parece que houve um pequeno erro de digitação, Eduardo! Você queria saber sobre \"hackathons\", não \"achathons\". Como mencionei anteriormente, os hackathons são eventos em que desenvolvedores, designers",
+      "texto_indexado": "achathons parece que houve um pequeno erro de digitação eduardo você queria saber sobre hackathons não achathons como mencionei anteriormente os hackathons são eventos em que desenvolvedores designers",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica",
+      "status": "promovido"
+    },
+    {
+      "data": "21/03/2026 23:34",
+      "pergunta": "o que é hackathns?",
+      "resposta": "Eduardo, os hackathons são eventos em que desenvolvedores, designers, especialistas em negócios e outros profissionais se reúnem para criar soluções inovadoras e técnicas para desafios específicos. Es",
+      "texto_indexado": "o que é hackathns eduardo os hackathons são eventos em que desenvolvedores designers especialistas em negócios e outros profissionais se reúnem para criar soluções inovadoras e técnicas para desafios específicos es",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica",
+      "status": "promovido"
     }
   ],
-  "total_entradas": 6,
-  "ultima_atualizacao": "21/03/2026 19:27"
+  "total_entradas": 9,
+  "ultima_atualizacao": "21/03/2026 23:34",
+  "contradicoes": []
 }
