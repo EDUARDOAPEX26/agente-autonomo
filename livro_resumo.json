@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:16",
-    "total_entradas_processadas": 200,
-    "ciclos_completos": 10
+    "total_entradas_processadas": 220,
+    "ciclos_completos": 11
   },
   "blocos": {
     "decisoes": [
@@ -33,6 +33,18 @@
         "resumo": "Cotação do dólar não disponível por falta de configuração de Tavily",
         "data": "22/03/2026 03:10",
         "importancia": 0.9
+      },
+      {
+        "id": "bug_b761a",
+        "resumo": "Tavily nao configurado, não permitindo busca de cotacao do dolar.",
+        "data": "22/03/2026 02:58",
+        "importancia": 0.85
+      },
+      {
+        "id": "bug_9623a",
+        "resumo": "Tavily nao configurado, não permitindo busca de cotacao do dolar.",
+        "data": "22/03/2026 03:04",
+        "importancia": 0.85
       },
       {
         "id": "bug_fae71",
@@ -213,6 +225,12 @@
         "importancia": 0.6
       },
       {
+        "id": "lim_51e19",
+        "resumo": "sistema parece saudável, porém a utilizacao da memoria é um pouco alta.",
+        "data": "22/03/2026 03:07",
+        "importancia": 0.55
+      },
+      {
         "id": "lim_80c3c",
         "resumo": "análise e limpeza dos dados antigos",
         "data": "22/03/2026 02:57",
@@ -283,12 +301,6 @@
         "resumo": "Tarifário não configurado",
         "data": "22/03/2026 03:10",
         "importancia": 0.4
-      },
-      {
-        "id": "lim_4e1b6",
-        "resumo": "Tavily não configurado para buscar cotação do dolar",
-        "data": "22/03/2026 03:04",
-        "importancia": 0.3
       }
     ],
     "insights": [
@@ -377,6 +389,18 @@
         "importancia": 0.8
       },
       {
+        "id": "ins_a5117",
+        "resumo": "Registro 1: dados de inicializacao de sistema",
+        "data": "22/03/2026 03:03",
+        "importancia": 0.75
+      },
+      {
+        "id": "ins_debca",
+        "resumo": "Registro de sessão com dados de plataforma e duração da sessão",
+        "data": "22/03/2026 03:06",
+        "importancia": 0.75
+      },
+      {
         "id": "ins_11ded",
         "resumo": "CPU: 36.8% | Mem: 70.3%",
         "data": "22/03/2026 02:52",
@@ -398,18 +422,6 @@
         "id": "ins_7c044",
         "resumo": "Relatório atualizado com informações de servidor",
         "data": "22/03/2026 03:00",
-        "importancia": 0.7
-      },
-      {
-        "id": "ins_7d5cd",
-        "resumo": "Análise e limpeza de dados antigos sugerida",
-        "data": "22/03/2026 02:57",
-        "importancia": 0.7
-      },
-      {
-        "id": "ins_e0c32",
-        "resumo": "Sistema saudável, porém utilização da memória é alta",
-        "data": "22/03/2026 03:07",
         "importancia": 0.7
       }
     ]
