@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 04:04",
-    "total_entradas_processadas": 2680,
-    "ciclos_completos": 134
+    "total_entradas_processadas": 2700,
+    "ciclos_completos": 135
   },
   "blocos": {
     "decisoes": [
@@ -87,6 +87,24 @@
         "importancia": 0.9
       },
       {
+        "id": "dec_7cdc5",
+        "resumo": "configurar plataforma Azure",
+        "data": "22/03/2026 04:00",
+        "importancia": 0.9
+      },
+      {
+        "id": "dec_72757",
+        "resumo": "configurar plataforma Azure resumo",
+        "data": "22/03/2026 04:03",
+        "importancia": 0.9
+      },
+      {
+        "id": "dec_29bb3",
+        "resumo": "configurar plataforma Azure registrado",
+        "data": "22/03/2026 04:03",
+        "importancia": 0.9
+      },
+      {
         "id": "dec_5a9fe",
         "resumo": "Taxa de câmbio entre dólar e real definida",
         "data": "22/03/2026 03:16",
@@ -108,24 +126,6 @@
         "id": "dec_9a9d7",
         "resumo": "Monitorar sistema de CPU e memória",
         "data": "22/03/2026 03:31",
-        "importancia": 0.5
-      },
-      {
-        "id": "dec_9a306",
-        "resumo": "Monitorar sistema de CPU e memória",
-        "data": "22/03/2026 03:31",
-        "importancia": 0.5
-      },
-      {
-        "id": "dec_7a4da",
-        "resumo": "Monitorar sistema de CPU e memória",
-        "data": "22/03/2026 03:33",
-        "importancia": 0.5
-      },
-      {
-        "id": "dec_1faac",
-        "resumo": "Monitorar sistema de CPU e memória",
-        "data": "22/03/2026 03:33",
         "importancia": 0.5
       }
     ],
