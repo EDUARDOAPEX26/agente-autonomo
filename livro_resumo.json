@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 04:05",
-    "total_entradas_processadas": 2760,
-    "ciclos_completos": 138
+    "total_entradas_processadas": 2780,
+    "ciclos_completos": 139
   },
   "blocos": {
     "decisoes": [
@@ -111,6 +111,12 @@
         "importancia": 0.8
       },
       {
+        "id": "dec_52691",
+        "resumo": "Início do agente autonomo em nuvem",
+        "data": "22/03/2026 03:58",
+        "importancia": 0.8
+      },
+      {
         "id": "dec_e1ec9",
         "resumo": "Registro criado para relatorio",
         "data": "22/03/2026 03:00",
@@ -121,12 +127,6 @@
         "resumo": "Monitorar sistema: CPU 38.6%, Mem 69.4%",
         "data": "22/03/2026 03:31",
         "importancia": 0.7
-      },
-      {
-        "id": "dec_9a9d7",
-        "resumo": "Monitorar sistema de CPU e memória",
-        "data": "22/03/2026 03:31",
-        "importancia": 0.5
       }
     ],
     "bugs": [
@@ -209,6 +209,24 @@
         "importancia": 0.9
       },
       {
+        "id": "bug_f829c",
+        "resumo": "Nova notícia de Inteligência Artificial",
+        "data": "22/03/2026 03:59",
+        "importancia": 0.9
+      },
+      {
+        "id": "bug_4b1ec",
+        "resumo": "Nova notícia de Inteligência Artificial",
+        "data": "22/03/2026 04:00",
+        "importancia": 0.9
+      },
+      {
+        "id": "bug_da21b",
+        "resumo": "Nova notícia de Inteligência Artificial",
+        "data": "22/03/2026 04:01",
+        "importancia": 0.9
+      },
+      {
         "id": "bug_b761a",
         "resumo": "Tavily nao configurado, não permitindo busca de cotacao do dolar.",
         "data": "22/03/2026 02:58",
@@ -230,24 +248,6 @@
         "id": "bug_48b3a",
         "resumo": "CPU: 29,3% | Mem: 72,2%",
         "data": "22/03/2026 03:25",
-        "importancia": 0.8
-      },
-      {
-        "id": "bug_ac77a",
-        "resumo": "gerenciamento de atividade com sucesso",
-        "data": "22/03/2026 03:30",
-        "importancia": 0.8
-      },
-      {
-        "id": "bug_b2cdd",
-        "resumo": "Problema de repetição da busca de cotação do dólar.",
-        "data": "22/03/2026 03:32",
-        "importancia": 0.8
-      },
-      {
-        "id": "bug_3b86a",
-        "resumo": "Problema de repetição da busca de cotação do dólar.",
-        "data": "22/03/2026 03:32",
         "importancia": 0.8
       }
     ],
