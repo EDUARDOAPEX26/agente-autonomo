@@ -118,8 +118,8 @@
     {
       "data": "22/03/2026 03:48",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "gerar relatorio",
+      "resultado": "O agente está em funcionamento, mas não tem dados registrados no ambiente de nuvem. Não há informações disponíveis em sua conta ou configuração atuais."
     }
   ],
   "total_conversas": 153,
