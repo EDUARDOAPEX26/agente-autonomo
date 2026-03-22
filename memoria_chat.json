@@ -118,8 +118,8 @@
     {
       "data": "22/03/2026 03:46",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Resumo Técnico: Agente Ausente em Nuvem**\n\n* Plataforma: Ausente\n* Versão: Nenhuma\n* Registros: Vazio\n* Dados armazenados: Sem dados"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 26.2% | Mem: 68.5%"
     }
   ],
   "total_conversas": 153,
