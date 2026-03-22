@@ -118,8 +118,8 @@
     {
       "data": "22/03/2026 04:03",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Registro criado com sucesso: \n- ID do registro: não atribuído\n- Agente rodando em nuvem desde: não inicializado\n- Plataforma: não especificada\n- Tipo de ambiente: não definido\n- Configuração de segura"
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     }
   ],
   "total_conversas": 153,
