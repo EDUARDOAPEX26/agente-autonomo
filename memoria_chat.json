@@ -2,6 +2,18 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "22/03/2026 19:51",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "22/03/2026 19:51",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 19.3% | Mem: 68.6%"
+    },
+    {
       "data": "22/03/2026 19:54",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -98,30 +110,18 @@
       "resultado": "CPU: 18.3% | Mem: 68.0%"
     },
     {
-      "data": "22/03/2026 20:14",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 36.2% | Mem: 71.5%"
-    },
-    {
-      "data": "22/03/2026 20:15",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "22/03/2026 20:15",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "data": "22/03/2026 17:14",
+      "pergunta": "como posso otimizar o algoritmo de busca nos livros temáticos?",
+      "resposta": "Eduardo, para otimizar o algoritmo de busca nos livros temáticos, aqui estão algumas sugestões:\n\n* **Melhorar a indexação**: Certifique-se de que os livros temáticos sejam indexados corretamente, com ",
+      "origem": "conversa_local"
     },
     {
       "data": "22/03/2026 20:16",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 25.7% | Mem: 71.2%"
     }
   ],
-  "total_conversas": 153,
-  "total_tarefas": 3561
+  "total_conversas": 154,
+  "total_tarefas": 3558
 }
