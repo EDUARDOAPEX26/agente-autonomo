@@ -4,12 +4,6 @@
     {
       "data": "22/03/2026 03:50",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Resumo Técnico**\n\n- **Nível de Registro**: 0\n- **Status do Agente**: Iniciado\n- **Tempo de Execução**: 0 segundos\n- **Última Atualização**: Não definido\n- **Dados Disponíveis**: Não existem registro"
-    },
-    {
-      "data": "22/03/2026 03:50",
-      "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 21.0% | Mem: 71.3%"
     },
@@ -118,10 +112,16 @@
     {
       "data": "22/03/2026 03:56",
       "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Sim, o sistema está saudável e dentro dos parâmetros normais de utilização. A cpu está executando atividades ao redor de 25%, o que é um uso baixo."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 30.0% | Mem: 71.8%"
+    },
+    {
+      "data": "22/03/2026 03:56",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "O agente está configurado e pronto para uso, com os seguintes dados técnicos:\n\n- Plataforma: Nuvem AWS\n- Sistema Operacional: Linux Ubuntu\n- Linguagem de Programação: Python 3.9\n- Banco de Dados: Nenh"
     }
   ],
   "total_conversas": 153,
-  "total_tarefas": 2841
+  "total_tarefas": 2842
 }
