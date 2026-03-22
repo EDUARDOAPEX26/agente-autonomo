@@ -2,7 +2,7 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "22/03/2026 03:36",
+    "ultima_geracao": "22/03/2026 03:37",
     "total_entradas_processadas": 1160,
     "ciclos_completos": 58
   },
@@ -45,6 +45,12 @@
         "importancia": 0.9
       },
       {
+        "id": "dec_456df",
+        "resumo": "O agente está inicializado na nuvem",
+        "data": "22/03/2026 03:35",
+        "importancia": 0.9
+      },
+      {
         "id": "dec_5a9fe",
         "resumo": "Taxa de câmbio entre dólar e real definida",
         "data": "22/03/2026 03:16",
@@ -64,6 +70,12 @@
       }
     ],
     "bugs": [
+      {
+        "id": "bug_a6a0f",
+        "resumo": "Memória limpa com sucesso",
+        "data": "22/03/2026 03:33",
+        "importancia": 1.0
+      },
       {
         "id": "bug_5fa14",
         "resumo": "Cotação do dólar não disponível por falta de configuração de Tavily",
@@ -177,12 +189,6 @@
         "resumo": "Problema de repetição da busca de cotação do dólar.",
         "data": "22/03/2026 03:35",
         "importancia": 0.8
-      },
-      {
-        "id": "bug_f0244",
-        "resumo": "Sistema saudável, porém Memória alta",
-        "data": "22/03/2026 03:07",
-        "importancia": 0.7
       }
     ],
     "correcoes": [
@@ -202,6 +208,12 @@
         "id": "cor_e9924",
         "resumo": "Memoria limpa com sucesso",
         "data": "22/03/2026 03:05",
+        "importancia": 1.0
+      },
+      {
+        "id": "cor_2570c",
+        "resumo": "Memória limpa com sucesso",
+        "data": "22/03/2026 03:35",
         "importancia": 1.0
       },
       {
@@ -298,12 +310,6 @@
         "id": "cor_bb881",
         "resumo": "Memoria limpa com sucesso",
         "data": "22/03/2026 02:59",
-        "importancia": 0.9
-      },
-      {
-        "id": "cor_9a149",
-        "resumo": "Memoria limpa com sucesso",
-        "data": "22/03/2026 03:01",
         "importancia": 0.9
       }
     ],
