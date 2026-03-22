@@ -113,13 +113,13 @@
       "data": "22/03/2026 05:02",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 63.9% | Mem: 66.0%"
+      "resultado": "CPU: 20.2% | Mem: 71.3%"
     },
     {
-      "data": "22/03/2026 05:03",
+      "data": "22/03/2026 05:02",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 47.2% | Mem: 70.8%"
+      "tarefa": "buscar noticias tech",
+      "resultado": "Inteligência Artificial está em alta com novos avanços; empresas como Nvidia expandem parcerias; OpenAI lança NextGenAI para educação."
     }
   ],
   "total_conversas": 153,
