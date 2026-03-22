@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "22/03/2026 03:15",
-    "total_entradas_processadas": 180,
-    "ciclos_completos": 9
+    "ultima_geracao": "22/03/2026 03:16",
+    "total_entradas_processadas": 200,
+    "ciclos_completos": 10
   },
   "blocos": {
     "decisoes": [
@@ -151,22 +151,22 @@
         "importancia": 0.9
       },
       {
-        "id": "cor_22264",
-        "resumo": "Limpar Memória com sucesso",
-        "data": "22/03/2026 03:05",
-        "importancia": 0.8
-      },
-      {
-        "id": "cor_473ab",
-        "resumo": "Registro 1: verifica conectividade iniciada em 10 fev 2023",
-        "data": "22/03/2026 03:03",
-        "importancia": 0.8
-      },
-      {
-        "id": "cor_3bd55",
+        "id": "cor_9950f",
         "resumo": "Memoria limpa com sucesso",
-        "data": "22/03/2026 03:05",
-        "importancia": 0.8
+        "data": "22/03/2026 02:55",
+        "importancia": 0.9
+      },
+      {
+        "id": "cor_bb881",
+        "resumo": "Memoria limpa com sucesso",
+        "data": "22/03/2026 02:59",
+        "importancia": 0.9
+      },
+      {
+        "id": "cor_9a149",
+        "resumo": "Memoria limpa com sucesso",
+        "data": "22/03/2026 03:01",
+        "importancia": 0.9
       }
     ],
     "limitacoes": [
@@ -261,6 +261,12 @@
         "importancia": 0.5
       },
       {
+        "id": "lim_7978d",
+        "resumo": "histórico dos dois últimos registros para limpeza",
+        "data": "22/03/2026 02:57",
+        "importancia": 0.5
+      },
+      {
         "id": "lim_858af",
         "resumo": "Tarifário não configurado",
         "data": "22/03/2026 03:04",
@@ -282,12 +288,6 @@
         "id": "lim_4e1b6",
         "resumo": "Tavily não configurado para buscar cotação do dolar",
         "data": "22/03/2026 03:04",
-        "importancia": 0.3
-      },
-      {
-        "id": "lim_8ca5a",
-        "resumo": "Tavily não configurado para buscar cotação do dolar",
-        "data": "22/03/2026 03:08",
         "importancia": 0.3
       }
     ],
@@ -341,6 +341,12 @@
         "importancia": 0.9
       },
       {
+        "id": "ins_e8f5c",
+        "resumo": "CPU e memória sobrecarregadas em 48.6% e 67.5%",
+        "data": "22/03/2026 03:02",
+        "importancia": 0.9
+      },
+      {
         "id": "ins_c2076",
         "resumo": "Registro de inicialização em 10/02/2023 com verificação de conectividade",
         "data": "22/03/2026 03:03",
@@ -356,6 +362,18 @@
         "id": "ins_f8115",
         "resumo": "Registro de operação com servidor e região",
         "data": "22/03/2026 03:00",
+        "importancia": 0.8
+      },
+      {
+        "id": "ins_69330",
+        "resumo": "registo de inicialização e ações efetuadas",
+        "data": "22/03/2026 03:00",
+        "importancia": 0.8
+      },
+      {
+        "id": "ins_cd983",
+        "resumo": "registo de inicialização, ações efetuadas e conectividade",
+        "data": "22/03/2026 03:03",
         "importancia": 0.8
       },
       {
@@ -393,24 +411,6 @@
         "resumo": "Sistema saudável, porém utilização da memória é alta",
         "data": "22/03/2026 03:07",
         "importancia": 0.7
-      },
-      {
-        "id": "ins_1eea3",
-        "resumo": "Tavily não configurado",
-        "data": "22/03/2026 02:58",
-        "importancia": 0.7
-      },
-      {
-        "id": "ins_040fd",
-        "resumo": "sistema saudável, porém utilização da memória alta",
-        "data": "22/03/2026 03:07",
-        "importancia": 0.7
-      },
-      {
-        "id": "ins_ea9ec",
-        "resumo": "Geração de relatório com informações do servidor",
-        "data": "22/03/2026 03:00",
-        "importancia": 0.6
       }
     ]
   }
