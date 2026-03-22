@@ -2,7 +2,7 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "22/03/2026 03:19",
+    "ultima_geracao": "22/03/2026 03:20",
     "total_entradas_processadas": 400,
     "ciclos_completos": 20
   },
@@ -59,6 +59,18 @@
         "importancia": 0.9
       },
       {
+        "id": "bug_16623",
+        "resumo": "Sistema de monitoramento",
+        "data": "22/03/2026 03:19",
+        "importancia": 0.9
+      },
+      {
+        "id": "bug_7cb0f",
+        "resumo": "Sistema de monitoramento",
+        "data": "22/03/2026 03:19",
+        "importancia": 0.9
+      },
+      {
         "id": "bug_b761a",
         "resumo": "Tavily nao configurado, não permitindo busca de cotacao do dolar.",
         "data": "22/03/2026 02:58",
@@ -74,6 +86,12 @@
         "id": "bug_fae71",
         "resumo": "Análise e limpeza de dados antigos sugerida",
         "data": "22/03/2026 02:57",
+        "importancia": 0.8
+      },
+      {
+        "id": "bug_a2047",
+        "resumo": "Sistema de monitoramento",
+        "data": "22/03/2026 03:18",
         "importancia": 0.8
       },
       {
@@ -407,6 +425,18 @@
         "importancia": 0.9
       },
       {
+        "id": "ins_40c43",
+        "resumo": "Inteligência Artificial e Nvidia",
+        "data": "22/03/2026 03:17",
+        "importancia": 0.9
+      },
+      {
+        "id": "ins_94b63",
+        "resumo": "Inteligência Artificial em alta com novos avanços",
+        "data": "22/03/2026 03:17",
+        "importancia": 0.85
+      },
+      {
         "id": "ins_c2076",
         "resumo": "Registro de inicialização em 10/02/2023 com verificação de conectividade",
         "data": "22/03/2026 03:03",
@@ -453,18 +483,6 @@
         "resumo": "Otimizar desempenho do sistema: verificar chaves de identificação",
         "data": "22/03/2026 03:09",
         "importancia": 0.8
-      },
-      {
-        "id": "ins_e792c",
-        "resumo": "Cotação dolar: R$ 5.23 por USD (atual)",
-        "data": "22/03/2026 03:14",
-        "importancia": 0.8
-      },
-      {
-        "id": "ins_a5117",
-        "resumo": "Registro 1: dados de inicializacao de sistema",
-        "data": "22/03/2026 03:03",
-        "importancia": 0.75
       }
     ]
   }
