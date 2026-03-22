@@ -100,26 +100,26 @@
     {
       "data": "22/03/2026 03:21",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
+      "tarefa": "gerar relatorio",
+      "resultado": "\"Registro iniciado. Atualmente não há informações armazenadas. Configurações gerais: Plataforma: Nuvem AWS; Região: Não informada; Tipo de instância: Não configurado; Status: Inativo.\""
     },
     {
       "data": "22/03/2026 03:21",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 30.6% | Mem: 71.8%"
+      "tarefa": "gerar relatorio",
+      "resultado": "**Sessão iniciada**\n**Nenhum registro encontrado**\n**Instância do agente configurada para nuvem, mas sem dados registrados.**"
     },
     {
       "data": "22/03/2026 03:22",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 15.7% | Mem: 71.0%"
+      "resultado": "CPU: 49.2% | Mem: 71.7%"
     },
     {
       "data": "22/03/2026 03:22",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "buscar noticias tech",
+      "resultado": "Inteligência Artificial está em alta com novos avanços; empresas como Nvidia expandem parcerias; OpenAI lança NextGenAI para educação."
     }
   ],
   "total_conversas": 153,
