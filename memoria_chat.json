@@ -2,66 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "22/03/2026 00:58",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "22/03/2026 00:59",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Para monitorar recursos e memória, você pode usar os seguintes métodos:\n\n1. Verifique o uso de CPU e memória com o comando `top` ou `htop` (para uso de CPU) e `free -h` (para uso de memória) via termi"
-    },
-    {
-      "data": "22/03/2026 01:00",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily nao configurado."
-    },
-    {
-      "data": "22/03/2026 01:01",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "22/03/2026 01:02",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily nao configurado."
-    },
-    {
-      "data": "22/03/2026 01:03",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro 1:** \n- Data: 20/02/2023\n- Ação Realizada: Execução de tarefas de manutenção no sistema operacional do host, atualizando componentes críticos para resolver problemas de instabilidade.\n\n**Re"
-    },
-    {
-      "data": "22/03/2026 01:04",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Você pode usar o comando `top` ou `htop` em um terminal para monitorar a memória e os recursos do sistema em tempo real. Além disso, o comando `ps` ou `psaux` pode fornecer informações detalhadas sobr"
-    },
-    {
-      "data": "22/03/2026 01:05",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "21/03/2026 22:09",
-      "pergunta": "\"qual a origem dos hackathons?\"",
-      "resposta": "Estou com instabilidade nas APIs agora. Tente novamente em alguns segundos.",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "21/03/2026 22:15",
-      "pergunta": "qual a origem dos hachathons",
-      "resposta": "Estou com instabilidade nas APIs agora. Tente novamente em alguns segundos.",
-      "origem": "conversa_local"
-    },
-    {
       "data": "22/03/2026 01:15",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +60,68 @@
       "origem": "nuvem",
       "tarefa": "verificar sistema",
       "resultado": "A CPU está lidando com carga moderada, e a memoria está utilizando cerca de 2/3 da capacidade, o que indica que o sistema tem espaço livre."
+    },
+    {
+      "data": "22/03/2026 01:25",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily nao configurado."
+    },
+    {
+      "data": "22/03/2026 01:26",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 26.8% | Mem: 72.1%"
+    },
+    {
+      "data": "22/03/2026 01:27",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "22/03/2026 01:28",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily nao configurado."
+    },
+    {
+      "data": "22/03/2026 01:29",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily nao configurado."
+    },
+    {
+      "data": "22/03/2026 01:30",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Eu posso acessar APIs de notícias em tempo real para buscar as últimas notícias de tecnologia. Você pode usar APIs como Google News, Google Custom Search ou News API, que retornam uma lista de notícia"
+    },
+    {
+      "data": "22/03/2026 01:31",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "22/03/2026 01:32",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily nao configurado."
+    },
+    {
+      "data": "22/03/2026 01:33",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 01:33:44"
+    },
+    {
+      "data": "22/03/2026 01:34",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "O sistema está funcionando dentro dos parâmetros considerados normais, pois a CPU está abaixo de 80% e a memória está abaixo de 90%."
     }
   ],
   "total_conversas": 153,
-  "total_tarefas": 2632
+  "total_tarefas": 2642
 }
