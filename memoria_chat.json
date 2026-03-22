@@ -4,12 +4,6 @@
     {
       "data": "22/03/2026 03:38",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "22/03/2026 03:38",
-      "origem": "nuvem",
       "tarefa": "gerar relatorio",
       "resultado": "**Status do Agente:** Inativo\n**Sistema Operacional:** Nenhum registro\n**Plataforma de Execução:** N/A\n**Banco de Dados:** Nenhum registro\n**Conexão com Redes:** Nenhuma conexão estabelecida."
     },
@@ -118,10 +112,16 @@
     {
       "data": "22/03/2026 03:44",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 19.0% | Mem: 67.1%"
+    },
+    {
+      "data": "22/03/2026 03:44",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 26.4% | Mem: 71.3%"
     }
   ],
   "total_conversas": 153,
-  "total_tarefas": 2805
+  "total_tarefas": 2806
 }
