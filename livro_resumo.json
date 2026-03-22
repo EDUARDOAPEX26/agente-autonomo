@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "22/03/2026 04:06",
-    "total_entradas_processadas": 2840,
-    "ciclos_completos": 142
+    "ultima_geracao": "22/03/2026 04:07",
+    "total_entradas_processadas": 2860,
+    "ciclos_completos": 143
   },
   "blocos": {
     "decisoes": [
@@ -105,6 +105,12 @@
         "importancia": 0.9
       },
       {
+        "id": "dec_20eca",
+        "resumo": "relatório gerado com sucesso",
+        "data": "22/03/2026 04:03",
+        "importancia": 0.9
+      },
+      {
         "id": "dec_5a9fe",
         "resumo": "Taxa de câmbio entre dólar e real definida",
         "data": "22/03/2026 03:16",
@@ -121,12 +127,6 @@
         "resumo": "Monitorar sistema: CPU 38.6%, Mem 69.4%",
         "data": "22/03/2026 03:31",
         "importancia": 0.7
-      },
-      {
-        "id": "dec_9a9d7",
-        "resumo": "Monitorar sistema de CPU e memória",
-        "data": "22/03/2026 03:31",
-        "importancia": 0.5
       }
     ],
     "bugs": [
@@ -209,6 +209,30 @@
         "importancia": 0.9
       },
       {
+        "id": "bug_b2531",
+        "resumo": "erro na busca de cotação do dólar",
+        "data": "22/03/2026 04:03",
+        "importancia": 0.9
+      },
+      {
+        "id": "bug_54eb4",
+        "resumo": "erro na busca de cotação do dólar",
+        "data": "22/03/2026 04:04",
+        "importancia": 0.9
+      },
+      {
+        "id": "bug_8dbdd",
+        "resumo": "erro na busca de cotação do dólar",
+        "data": "22/03/2026 04:05",
+        "importancia": 0.9
+      },
+      {
+        "id": "bug_d9632",
+        "resumo": "erro na busca de cotação do dólar",
+        "data": "22/03/2026 04:05",
+        "importancia": 0.9
+      },
+      {
         "id": "bug_b761a",
         "resumo": "Tavily nao configurado, não permitindo busca de cotacao do dolar.",
         "data": "22/03/2026 02:58",
@@ -224,30 +248,6 @@
         "id": "bug_fae71",
         "resumo": "Análise e limpeza de dados antigos sugerida",
         "data": "22/03/2026 02:57",
-        "importancia": 0.8
-      },
-      {
-        "id": "bug_48b3a",
-        "resumo": "CPU: 29,3% | Mem: 72,2%",
-        "data": "22/03/2026 03:25",
-        "importancia": 0.8
-      },
-      {
-        "id": "bug_ac77a",
-        "resumo": "gerenciamento de atividade com sucesso",
-        "data": "22/03/2026 03:30",
-        "importancia": 0.8
-      },
-      {
-        "id": "bug_b2cdd",
-        "resumo": "Problema de repetição da busca de cotação do dólar.",
-        "data": "22/03/2026 03:32",
-        "importancia": 0.8
-      },
-      {
-        "id": "bug_3b86a",
-        "resumo": "Problema de repetição da busca de cotação do dólar.",
-        "data": "22/03/2026 03:32",
         "importancia": 0.8
       }
     ],
