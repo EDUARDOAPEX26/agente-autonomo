@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "22/03/2026 03:54",
-    "total_entradas_processadas": 2160,
-    "ciclos_completos": 108
+    "ultima_geracao": "22/03/2026 03:55",
+    "total_entradas_processadas": 2180,
+    "ciclos_completos": 109
   },
   "blocos": {
     "decisoes": [
@@ -605,10 +605,10 @@
         "importancia": 0.9
       },
       {
-        "id": "ins_c2076",
-        "resumo": "Registro de inicialização em 10/02/2023 com verificação de conectividade",
-        "data": "22/03/2026 03:03",
-        "importancia": 0.8
+        "id": "ins_949ca",
+        "resumo": "Tecnologia em alta com novos avanços",
+        "data": "22/03/2026 03:50",
+        "importancia": 0.9
       }
     ]
   }
