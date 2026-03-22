@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "22/03/2026 22:43",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 13.0% | Mem: 72.1%"
-    },
-    {
       "data": "22/03/2026 22:45",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
       "resultado": "**Registro inicial**\n\n- Agente: Criado em [Data de criação] com ID único: [ID do agente]\n- Plataforma: Serviços de nuvem [Nome do provedor de serviços de nuvem] (AWS, Google Cloud, Azure, etc.)\n- Regi"
+    },
+    {
+      "data": "22/03/2026 23:05",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     }
   ],
   "total_conversas": 158,
-  "total_tarefas": 3672
+  "total_tarefas": 3673
 }
