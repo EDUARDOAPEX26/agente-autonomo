@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:43",
-    "total_entradas_processadas": 1520,
-    "ciclos_completos": 76
+    "total_entradas_processadas": 1540,
+    "ciclos_completos": 77
   },
   "blocos": {
     "decisoes": [
@@ -48,6 +48,12 @@
         "id": "dec_456df",
         "resumo": "O agente está inicializado na nuvem",
         "data": "22/03/2026 03:35",
+        "importancia": 0.9
+      },
+      {
+        "id": "dec_f4eda",
+        "resumo": "cotacao dolar atual",
+        "data": "22/03/2026 03:36",
         "importancia": 0.9
       },
       {
@@ -441,6 +447,18 @@
         "importancia": 0.6
       },
       {
+        "id": "lim_76f90",
+        "resumo": "CPU 25.4%, Mem 72.9%",
+        "data": "22/03/2026 03:43",
+        "importancia": 0.6
+      },
+      {
+        "id": "lim_d0436",
+        "resumo": "CPU 18.6%, Mem 72.5%",
+        "data": "22/03/2026 03:43",
+        "importancia": 0.6
+      },
+      {
         "id": "lim_51e19",
         "resumo": "sistema parece saudável, porém a utilizacao da memoria é um pouco alta.",
         "data": "22/03/2026 03:07",
@@ -450,18 +468,6 @@
         "id": "lim_80c3c",
         "resumo": "análise e limpeza dos dados antigos",
         "data": "22/03/2026 02:57",
-        "importancia": 0.5
-      },
-      {
-        "id": "lim_e8486",
-        "resumo": "Sistema estável, porém com carga média de CPU e uso de memória alto",
-        "data": "22/03/2026 02:54",
-        "importancia": 0.5
-      },
-      {
-        "id": "lim_5638e",
-        "resumo": "Sistema saudável com CPU sobrecarregada",
-        "data": "22/03/2026 02:56",
         "importancia": 0.5
       }
     ],
