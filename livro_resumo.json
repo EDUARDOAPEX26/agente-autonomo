@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:35",
-    "total_entradas_processadas": 1080,
-    "ciclos_completos": 54
+    "total_entradas_processadas": 1100,
+    "ciclos_completos": 55
   },
   "blocos": {
     "decisoes": [
@@ -30,6 +30,18 @@
         "id": "dec_5002f",
         "resumo": "Novos avanços em IA",
         "data": "22/03/2026 03:22",
+        "importancia": 0.9
+      },
+      {
+        "id": "dec_e873f",
+        "resumo": "Monitorar sistema (CPU: 30.7%, Mem: 72.1%)",
+        "data": "22/03/2026 03:31",
+        "importancia": 0.9
+      },
+      {
+        "id": "dec_819bc",
+        "resumo": "Monitorar sistema (CPU: 33.2%, Mem: 71.9%).",
+        "data": "22/03/2026 03:33",
         "importancia": 0.9
       },
       {
@@ -137,39 +149,39 @@
         "importancia": 0.8
       },
       {
+        "id": "bug_b2cdd",
+        "resumo": "Problema de repetição da busca de cotação do dólar.",
+        "data": "22/03/2026 03:32",
+        "importancia": 0.8
+      },
+      {
+        "id": "bug_3b86a",
+        "resumo": "Problema de repetição da busca de cotação do dólar.",
+        "data": "22/03/2026 03:32",
+        "importancia": 0.8
+      },
+      {
+        "id": "bug_1f369",
+        "resumo": "Problema de repetição da busca de cotação do dólar.",
+        "data": "22/03/2026 03:33",
+        "importancia": 0.8
+      },
+      {
+        "id": "bug_c9fea",
+        "resumo": "Problema de repetição da busca de cotação do dólar.",
+        "data": "22/03/2026 03:34",
+        "importancia": 0.8
+      },
+      {
+        "id": "bug_bd36d",
+        "resumo": "Problema de repetição da busca de cotação do dólar.",
+        "data": "22/03/2026 03:35",
+        "importancia": 0.8
+      },
+      {
         "id": "bug_f0244",
         "resumo": "Sistema saudável, porém Memória alta",
         "data": "22/03/2026 03:07",
-        "importancia": 0.7
-      },
-      {
-        "id": "bug_c1204",
-        "resumo": "Tavily nao configurado",
-        "data": "22/03/2026 03:08",
-        "importancia": 0.7
-      },
-      {
-        "id": "bug_9449d",
-        "resumo": "Tavily nao configurado",
-        "data": "22/03/2026 03:10",
-        "importancia": 0.7
-      },
-      {
-        "id": "bug_55b1e",
-        "resumo": "Registro vazio, histórico está vazio",
-        "data": "22/03/2026 03:15",
-        "importancia": 0.7
-      },
-      {
-        "id": "bug_a8155",
-        "resumo": "Nenhum registro encontrado",
-        "data": "22/03/2026 03:21",
-        "importancia": 0.7
-      },
-      {
-        "id": "bug_d49a2",
-        "resumo": "configuração de monitoramento de logs e atividade do sistema",
-        "data": "22/03/2026 03:30",
         "importancia": 0.7
       }
     ],
