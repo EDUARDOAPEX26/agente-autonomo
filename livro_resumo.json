@@ -2,13 +2,26 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "22/03/2026 03:14",
-    "total_entradas_processadas": 120,
-    "ciclos_completos": 6
+    "ultima_geracao": "22/03/2026 03:15",
+    "total_entradas_processadas": 140,
+    "ciclos_completos": 7
   },
   "blocos": {
-    "decisoes": [],
+    "decisoes": [
+      {
+        "id": "dec_6747c",
+        "resumo": "Conexão bem-sucedida com sistema CRIS",
+        "data": "22/03/2026 02:53",
+        "importancia": 0.9
+      }
+    ],
     "bugs": [
+      {
+        "id": "bug_fae71",
+        "resumo": "Análise e limpeza de dados antigos sugerida",
+        "data": "22/03/2026 02:57",
+        "importancia": 0.8
+      },
       {
         "id": "bug_f0244",
         "resumo": "Sistema saudável, porém Memória alta",
@@ -90,9 +103,33 @@
         "importancia": 0.9
       },
       {
+        "id": "cor_2f879",
+        "resumo": "Memoria limpa com sucesso",
+        "data": "22/03/2026 02:55",
+        "importancia": 0.9
+      },
+      {
+        "id": "cor_56a8e",
+        "resumo": "Memoria limpa com sucesso",
+        "data": "22/03/2026 02:59",
+        "importancia": 0.9
+      },
+      {
+        "id": "cor_d0b22",
+        "resumo": "Memoria limpa com sucesso",
+        "data": "22/03/2026 03:01",
+        "importancia": 0.9
+      },
+      {
         "id": "cor_22264",
         "resumo": "Limpar Memória com sucesso",
         "data": "22/03/2026 03:05",
+        "importancia": 0.8
+      },
+      {
+        "id": "cor_473ab",
+        "resumo": "Registro 1: verifica conectividade iniciada em 10 fev 2023",
+        "data": "22/03/2026 03:03",
         "importancia": 0.8
       },
       {
@@ -102,10 +139,16 @@
         "importancia": 0.7
       },
       {
-        "id": "cor_2402c",
-        "resumo": "Registro 1: data e ações efetuadas",
-        "data": "22/03/2026 03:03",
-        "importancia": 0.3
+        "id": "cor_d0062",
+        "resumo": "Memória limpa com sucesso",
+        "data": "22/03/2026 03:05",
+        "importancia": 0.5
+      },
+      {
+        "id": "cor_aaadb",
+        "resumo": "Análise de memória para otimizar desempenho do sistema",
+        "data": "22/03/2026 03:09",
+        "importancia": 0.4
       }
     ],
     "limitacoes": [
@@ -140,6 +183,12 @@
         "importancia": 0.6
       },
       {
+        "id": "lim_5d11c",
+        "resumo": "Sistema saudável, mas utilização da memória é alta",
+        "data": "22/03/2026 03:07",
+        "importancia": 0.6
+      },
+      {
         "id": "lim_80c3c",
         "resumo": "análise e limpeza dos dados antigos",
         "data": "22/03/2026 02:57",
@@ -161,6 +210,18 @@
         "id": "lim_0d0cf",
         "resumo": "Identificação de registros de otimização do desempenho",
         "data": "22/03/2026 03:09",
+        "importancia": 0.5
+      },
+      {
+        "id": "lim_df79a",
+        "resumo": "Sistema estável, mas carga média de CPU e uso de memória alto",
+        "data": "22/03/2026 02:54",
+        "importancia": 0.5
+      },
+      {
+        "id": "lim_e8746",
+        "resumo": "Sistema está saudável, mas CPU sobrecarregada",
+        "data": "22/03/2026 02:56",
         "importancia": 0.5
       },
       {
@@ -310,21 +371,21 @@
         "importancia": 0.7
       },
       {
+        "id": "ins_1eea3",
+        "resumo": "Tavily não configurado",
+        "data": "22/03/2026 02:58",
+        "importancia": 0.7
+      },
+      {
+        "id": "ins_ea9ec",
+        "resumo": "Geração de relatório com informações do servidor",
+        "data": "22/03/2026 03:00",
+        "importancia": 0.6
+      },
+      {
         "id": "ins_76cd0",
         "resumo": "Conexão bem-sucedida com sistema CRIS",
         "data": "22/03/2026 02:53",
-        "importancia": 0.5
-      },
-      {
-        "id": "ins_af2ab",
-        "resumo": "Informações de performance do sistema",
-        "data": "22/03/2026 02:52",
-        "importancia": 0.5
-      },
-      {
-        "id": "ins_d6285",
-        "resumo": "Sistema está sobrecarregado, porém dentro do esperado",
-        "data": "22/03/2026 02:56",
         "importancia": 0.5
       }
     ]
