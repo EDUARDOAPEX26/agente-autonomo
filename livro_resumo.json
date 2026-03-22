@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "22/03/2026 03:12",
-    "total_entradas_processadas": 20,
-    "ciclos_completos": 1
+    "ultima_geracao": "22/03/2026 03:13",
+    "total_entradas_processadas": 40,
+    "ciclos_completos": 2
   },
   "blocos": {
     "decisoes": [],
@@ -39,6 +39,18 @@
         "resumo": "Memoria limpa com sucesso",
         "data": "22/03/2026 02:59",
         "importancia": 0.9
+      },
+      {
+        "id": "cor_71ab4",
+        "resumo": "Recomendação para análise e limpeza de dados antigos",
+        "data": "22/03/2026 02:57",
+        "importancia": 0.7
+      },
+      {
+        "id": "cor_2402c",
+        "resumo": "Registro 1: data e ações efetuadas",
+        "data": "22/03/2026 03:03",
+        "importancia": 0.3
       }
     ],
     "limitacoes": [
@@ -65,6 +77,30 @@
         "resumo": "análise e limpeza dos dados antigos",
         "data": "22/03/2026 02:57",
         "importancia": 0.5
+      },
+      {
+        "id": "lim_e8486",
+        "resumo": "Sistema estável, porém com carga média de CPU e uso de memória alto",
+        "data": "22/03/2026 02:54",
+        "importancia": 0.5
+      },
+      {
+        "id": "lim_858af",
+        "resumo": "Tarifário não configurado",
+        "data": "22/03/2026 03:04",
+        "importancia": 0.4
+      },
+      {
+        "id": "lim_7b145",
+        "resumo": "Tarifário não configurado",
+        "data": "22/03/2026 03:08",
+        "importancia": 0.4
+      },
+      {
+        "id": "lim_8a65c",
+        "resumo": "Tarifário não configurado",
+        "data": "22/03/2026 03:10",
+        "importancia": 0.4
       },
       {
         "id": "lim_4e1b6",
@@ -99,6 +135,24 @@
         "importancia": 0.9
       },
       {
+        "id": "ins_ae21c",
+        "resumo": "Memoria limpa com sucesso",
+        "data": "22/03/2026 02:51",
+        "importancia": 0.9
+      },
+      {
+        "id": "ins_c767f",
+        "resumo": "Memoria limpa com sucesso",
+        "data": "22/03/2026 02:55",
+        "importancia": 0.9
+      },
+      {
+        "id": "ins_4bc30",
+        "resumo": "Memoria limpa com sucesso",
+        "data": "22/03/2026 02:59",
+        "importancia": 0.9
+      },
+      {
         "id": "ins_c2076",
         "resumo": "Registro de inicialização em 10/02/2023 com verificação de conectividade",
         "data": "22/03/2026 03:03",
@@ -111,9 +165,39 @@
         "importancia": 0.7
       },
       {
+        "id": "ins_5110a",
+        "resumo": "Relatório de operação bem-sucedida com o sistema CRIS",
+        "data": "22/03/2026 02:53",
+        "importancia": 0.7
+      },
+      {
+        "id": "ins_87127",
+        "resumo": "Servidor Tavily não configurado",
+        "data": "22/03/2026 02:58",
+        "importancia": 0.7
+      },
+      {
+        "id": "ins_7c044",
+        "resumo": "Relatório atualizado com informações de servidor",
+        "data": "22/03/2026 03:00",
+        "importancia": 0.7
+      },
+      {
         "id": "ins_76cd0",
         "resumo": "Conexão bem-sucedida com sistema CRIS",
         "data": "22/03/2026 02:53",
+        "importancia": 0.5
+      },
+      {
+        "id": "ins_af2ab",
+        "resumo": "Informações de performance do sistema",
+        "data": "22/03/2026 02:52",
+        "importancia": 0.5
+      },
+      {
+        "id": "ins_d6285",
+        "resumo": "Sistema está sobrecarregado, porém dentro do esperado",
+        "data": "22/03/2026 02:56",
         "importancia": 0.5
       },
       {
@@ -121,6 +205,30 @@
         "resumo": "Registro de sessão em 21/03/2024 às 14:30 com duração de 30 minutos em AWS",
         "data": "22/03/2026 03:06",
         "importancia": 0.4
+      },
+      {
+        "id": "ins_b253d",
+        "resumo": "Otimização do desempenho sugerida",
+        "data": "22/03/2026 03:09",
+        "importancia": 0.3
+      },
+      {
+        "id": "ins_1273c",
+        "resumo": "CPU: 48.6% | Mem: 67.5%",
+        "data": "22/03/2026 03:02",
+        "importancia": 0.2
+      },
+      {
+        "id": "ins_66bf3",
+        "resumo": "Sessão registrada: data, duração e plataforma",
+        "data": "22/03/2026 03:06",
+        "importancia": 0.2
+      },
+      {
+        "id": "ins_1bd2d",
+        "resumo": "Sistema saudável, uso de memória alto",
+        "data": "22/03/2026 03:07",
+        "importancia": 0.2
       }
     ]
   }
