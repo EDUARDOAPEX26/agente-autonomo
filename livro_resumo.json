@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "22/03/2026 03:37",
-    "total_entradas_processadas": 1220,
-    "ciclos_completos": 61
+    "ultima_geracao": "22/03/2026 03:38",
+    "total_entradas_processadas": 1240,
+    "ciclos_completos": 62
   },
   "blocos": {
     "decisoes": [
@@ -387,6 +387,18 @@
         "importancia": 0.6
       },
       {
+        "id": "lim_d9815",
+        "resumo": "Sistema está funcionando dentro dos limites",
+        "data": "22/03/2026 03:31",
+        "importancia": 0.6
+      },
+      {
+        "id": "lim_d8d8c",
+        "resumo": "Sistema está funcionando dentro dos limites",
+        "data": "22/03/2026 03:33",
+        "importancia": 0.6
+      },
+      {
         "id": "lim_51e19",
         "resumo": "sistema parece saudável, porém a utilizacao da memoria é um pouco alta.",
         "data": "22/03/2026 03:07",
@@ -420,18 +432,6 @@
         "id": "lim_df79a",
         "resumo": "Sistema estável, mas carga média de CPU e uso de memória alto",
         "data": "22/03/2026 02:54",
-        "importancia": 0.5
-      },
-      {
-        "id": "lim_e8746",
-        "resumo": "Sistema está saudável, mas CPU sobrecarregada",
-        "data": "22/03/2026 02:56",
-        "importancia": 0.5
-      },
-      {
-        "id": "lim_3bdf2",
-        "resumo": "cpu e mem 27,6% e 71,8%",
-        "data": "22/03/2026 03:13",
         "importancia": 0.5
       }
     ],
