@@ -5,12 +5,6 @@
       "data": "22/03/2026 03:39",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 22.0% | Mem: 71.6%"
-    },
-    {
-      "data": "22/03/2026 03:39",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
       "resultado": "CPU: 24.0% | Mem: 71.0%"
     },
     {
@@ -112,16 +106,22 @@
     {
       "data": "22/03/2026 03:45",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 25.9% | Mem: 71.9%"
+      "tarefa": "gerar relatorio",
+      "resultado": "**Resumo Tecnico de 0 Registros:**\n\n- **Estado da Credencial**: Não há credenciais registradas.\n- **Armazenamento de Dados**: Não há dados de clientes ou históricos armazenados."
     },
     {
       "data": "22/03/2026 03:45",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 16.4% | Mem: 65.2%"
+      "tarefa": "gerar relatorio",
+      "resultado": "Registro 1: Configuração Inicial\n- Data de início: N/A\n- Estado do agente: Desligado\n- Conexão com a nuvem: N/A\n\nRegistro 2: Status Geral\n- Status do agente: Nuvem não configurada\n- Conexão de rede: N"
+    },
+    {
+      "data": "22/03/2026 03:46",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "**Resumo Técnico: Agente Ausente em Nuvem**\n\n* Plataforma: Ausente\n* Versão: Nenhuma\n* Registros: Vazio\n* Dados armazenados: Sem dados"
     }
   ],
   "total_conversas": 153,
-  "total_tarefas": 2809
+  "total_tarefas": 2810
 }
