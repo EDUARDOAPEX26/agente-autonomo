@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:19",
-    "total_entradas_processadas": 360,
-    "ciclos_completos": 18
+    "total_entradas_processadas": 380,
+    "ciclos_completos": 19
   },
   "blocos": {
     "decisoes": [
@@ -12,12 +12,6 @@
         "id": "dec_6747c",
         "resumo": "Conexão bem-sucedida com sistema CRIS",
         "data": "22/03/2026 02:53",
-        "importancia": 0.9
-      },
-      {
-        "id": "dec_2f5cb",
-        "resumo": "Limpar memória",
-        "data": "22/03/2026 03:05",
         "importancia": 0.9
       },
       {
@@ -43,18 +37,6 @@
       {
         "id": "bug_bf5c9",
         "resumo": "Cotação do dólar não disponível por falta de configuração de Tavily",
-        "data": "22/03/2026 03:10",
-        "importancia": 0.9
-      },
-      {
-        "id": "bug_55e5a",
-        "resumo": "Tavily não configurado (cotacao dolar)",
-        "data": "22/03/2026 03:08",
-        "importancia": 0.9
-      },
-      {
-        "id": "bug_dcc4d",
-        "resumo": "Tavily não configurado (cotacao dolar)",
         "data": "22/03/2026 03:10",
         "importancia": 0.9
       },
@@ -92,12 +74,6 @@
         "id": "bug_9449d",
         "resumo": "Tavily nao configurado",
         "data": "22/03/2026 03:10",
-        "importancia": 0.7
-      },
-      {
-        "id": "bug_55b1e",
-        "resumo": "Registro vazio, histórico está vazio",
-        "data": "22/03/2026 03:15",
         "importancia": 0.7
       }
     ],
@@ -273,12 +249,6 @@
         "importancia": 0.6
       },
       {
-        "id": "lim_f73a1",
-        "resumo": "Sistema saudável, mas alta utilização de memória",
-        "data": "22/03/2026 03:07",
-        "importancia": 0.6
-      },
-      {
         "id": "lim_51e19",
         "resumo": "sistema parece saudável, porém a utilizacao da memoria é um pouco alta.",
         "data": "22/03/2026 03:07",
@@ -342,6 +312,12 @@
         "id": "lim_a0fea",
         "resumo": "Relatório inicialmente não possível pois histórico está vazio",
         "data": "22/03/2026 03:15",
+        "importancia": 0.5
+      },
+      {
+        "id": "lim_e84e8",
+        "resumo": "**Registro de Sessão**",
+        "data": "22/03/2026 03:06",
         "importancia": 0.5
       }
     ],
@@ -443,28 +419,28 @@
         "importancia": 0.8
       },
       {
-        "id": "ins_e359b",
-        "resumo": "Registro de sessão: 00h30, AWS, saudável mas alta utilização de memória",
-        "data": "22/03/2026 03:06",
-        "importancia": 0.8
-      },
-      {
-        "id": "ins_27733",
-        "resumo": "Otimizar desempenho do sistema: verificar chaves de identificação",
-        "data": "22/03/2026 03:09",
-        "importancia": 0.8
-      },
-      {
-        "id": "ins_e792c",
-        "resumo": "Cotação dolar: R$ 5.23 por USD (atual)",
-        "data": "22/03/2026 03:14",
-        "importancia": 0.8
-      },
-      {
         "id": "ins_a5117",
         "resumo": "Registro 1: dados de inicializacao de sistema",
         "data": "22/03/2026 03:03",
         "importancia": 0.75
+      },
+      {
+        "id": "ins_debca",
+        "resumo": "Registro de sessão com dados de plataforma e duração da sessão",
+        "data": "22/03/2026 03:06",
+        "importancia": 0.75
+      },
+      {
+        "id": "ins_11ded",
+        "resumo": "CPU: 36.8% | Mem: 70.3%",
+        "data": "22/03/2026 02:52",
+        "importancia": 0.7
+      },
+      {
+        "id": "ins_5110a",
+        "resumo": "Relatório de operação bem-sucedida com o sistema CRIS",
+        "data": "22/03/2026 02:53",
+        "importancia": 0.7
       }
     ]
   }
