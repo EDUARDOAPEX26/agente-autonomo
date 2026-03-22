@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:21",
-    "total_entradas_processadas": 460,
-    "ciclos_completos": 23
+    "total_entradas_processadas": 480,
+    "ciclos_completos": 24
   },
   "blocos": {
     "decisoes": [
@@ -19,6 +19,12 @@
         "resumo": "Limpar memória",
         "data": "22/03/2026 03:05",
         "importancia": 0.9
+      },
+      {
+        "id": "dec_5a9fe",
+        "resumo": "Taxa de câmbio entre dólar e real definida",
+        "data": "22/03/2026 03:16",
+        "importancia": 0.8
       },
       {
         "id": "dec_e1ec9",
@@ -279,6 +285,12 @@
         "importancia": 0.6
       },
       {
+        "id": "lim_81ade",
+        "resumo": "Agente autonomo inicialmente sem registros históricos",
+        "data": "22/03/2026 03:15",
+        "importancia": 0.6
+      },
+      {
         "id": "lim_51e19",
         "resumo": "sistema parece saudável, porém a utilizacao da memoria é um pouco alta.",
         "data": "22/03/2026 03:07",
@@ -336,12 +348,6 @@
         "id": "lim_7978d",
         "resumo": "histórico dos dois últimos registros para limpeza",
         "data": "22/03/2026 02:57",
-        "importancia": 0.5
-      },
-      {
-        "id": "lim_a0fea",
-        "resumo": "Relatório inicialmente não possível pois histórico está vazio",
-        "data": "22/03/2026 03:15",
         "importancia": 0.5
       }
     ],
