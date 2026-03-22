@@ -118,8 +118,8 @@
     {
       "data": "22/03/2026 04:07",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 20.8% | Mem: 72.2%"
+      "tarefa": "gerar relatorio",
+      "resultado": "**Configurações Básicas**\n- Plataforma: Nuvem pública AWS\n- Região do servidor: São Paulo, Brasil\n- Sistema Operacional: Linux Ubuntu 20.04\n- Núcleos Processadores: 4 núcleos virtuais\n- Memória RAM: 8"
     }
   ],
   "total_conversas": 153,
