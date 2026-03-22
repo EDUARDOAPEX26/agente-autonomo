@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:50",
-    "total_entradas_processadas": 1920,
-    "ciclos_completos": 96
+    "total_entradas_processadas": 1940,
+    "ciclos_completos": 97
   },
   "blocos": {
     "decisoes": [
@@ -179,6 +179,12 @@
         "importancia": 0.9
       },
       {
+        "id": "bug_a7457",
+        "resumo": "Taxa de câmbio atualizada",
+        "data": "22/03/2026 03:45",
+        "importancia": 0.9
+      },
+      {
         "id": "bug_b761a",
         "resumo": "Tavily nao configurado, não permitindo busca de cotacao do dolar.",
         "data": "22/03/2026 02:58",
@@ -230,12 +236,6 @@
         "id": "bug_c9fea",
         "resumo": "Problema de repetição da busca de cotação do dólar.",
         "data": "22/03/2026 03:34",
-        "importancia": 0.8
-      },
-      {
-        "id": "bug_bd36d",
-        "resumo": "Problema de repetição da busca de cotação do dólar.",
-        "data": "22/03/2026 03:35",
         "importancia": 0.8
       }
     ],
@@ -593,15 +593,15 @@
         "importancia": 0.9
       },
       {
+        "id": "ins_8c567",
+        "resumo": "Resumo Técnico de Configuração Inicial",
+        "data": "22/03/2026 03:43",
+        "importancia": 0.9
+      },
+      {
         "id": "ins_c2076",
         "resumo": "Registro de inicialização em 10/02/2023 com verificação de conectividade",
         "data": "22/03/2026 03:03",
-        "importancia": 0.8
-      },
-      {
-        "id": "ins_b370e",
-        "resumo": "Relatório com registro de operação bem-sucedida com sistema CRIS",
-        "data": "22/03/2026 02:53",
         "importancia": 0.8
       }
     ]
