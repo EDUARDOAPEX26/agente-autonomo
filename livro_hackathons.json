@@ -5,52 +5,62 @@
     {
       "data": "20/03/2026 19:17",
       "pergunta": "\"crie um prompt especializado para um agente de hackathons — ele precisa saber analisar desafios, propor soluções, gerar código funcional, montar pitch e avaliar viabilidade técnica e de negócio. o pr",
-      "resposta": "Aqui está um prompt especializado para um agente de hackathons de IA:\n\n**Prompt:** \"Desenvolva uma solução inovadora para o desafio de [nome do desafio] utilizando técnicas de Inteligência Artificial."
+      "resposta": "Aqui está um prompt especializado para um agente de hackathons de IA:\n\n**Prompt:** \"Desenvolva uma solução inovadora para o desafio de [nome do desafio] utilizando técnicas de Inteligência Artificial.",
+      "status": "normal"
     },
     {
       "data": "20/03/2026 19:21",
       "pergunta": "vou te dar uma tarefa real , voce precisa conhecer tudo de hackathons , voce é um competidor , faz buscas na internet em sites e descubra tudo que puder",
-      "resposta": "Entendi! Como um agente de hackathons, estou ansioso para aprender e descobrir tudo sobre essa competição emocionante!\n\n**Pesquisando sobre Hackathons...**\n\n* Um hackathon é um evento de programação e"
+      "resposta": "Entendi! Como um agente de hackathons, estou ansioso para aprender e descobrir tudo sobre essa competição emocionante!\n\n**Pesquisando sobre Hackathons...**\n\n* Um hackathon é um evento de programação e",
+      "status": "normal"
     },
     {
       "data": "20/03/2026 19:24",
       "pergunta": "1.\n\"dica hackathon: juízes valorizam demo funcionando acima de tudo, mesmo que simples. um protótipo que roda ao vivo vale mais que slides perfeitos\"",
-      "resposta": "Entendi! Isso é um conselho valioso para os participantes de um hackathon!\n\n**Demo funcionando é fundamental...**\n\n* Os juízes de um hackathon estão mais interessados em ver uma demo funcionando do qu"
+      "resposta": "Entendi! Isso é um conselho valioso para os participantes de um hackathon!\n\n**Demo funcionando é fundamental...**\n\n* Os juízes de um hackathon estão mais interessados em ver uma demo funcionando do qu",
+      "status": "normal"
     },
     {
       "data": "20/03/2026 19:24",
       "pergunta": "2.\n\"dica hackathon: as primeiras 2 horas devem ser gastas entendendo o problema, não codando. equipes que codam rápido demais geralmente resolvem o problema errado\"",
-      "resposta": "Entendi! Isso é um conselho muito valioso para as equipes de hackathon!\n\n**Entendendo o problema é fundamental...**\n\n* As primeiras 2 horas de um hackathon são cruciais para entender o problema que es"
+      "resposta": "Entendi! Isso é um conselho muito valioso para as equipes de hackathon!\n\n**Entendendo o problema é fundamental...**\n\n* As primeiras 2 horas de um hackathon são cruciais para entender o problema que es",
+      "status": "normal"
     },
     {
       "data": "20/03/2026 19:25",
       "pergunta": "3.\n\"dica hackathon: o pitch ideal tem 5 partes — problema real, solução proposta, demo ao vivo, impacto mensurável, próximos passos. cada parte máximo 1 minuto\"",
-      "resposta": "Entendi! Isso é um conselho muito valioso para as equipes de hackathon!\n\n**O pitch ideal...**\n\n* O pitch é uma apresentação curta e convincente que visa mostrar a solução proposta para o problema apre"
+      "resposta": "Entendi! Isso é um conselho muito valioso para as equipes de hackathon!\n\n**O pitch ideal...**\n\n* O pitch é uma apresentação curta e convincente que visa mostrar a solução proposta para o problema apre",
+      "status": "normal"
     },
     {
       "data": "20/03/2026 23:29",
       "pergunta": "Desafio difícil\n\nVocê tem 24 horas para criar uma solução que reduza fake news em tempo real no WhatsApp, sem acessar o conteúdo privado das mensagens e respeitando leis de privacidade.\n\nRequisitos:\nN",
-      "resposta": "Eduardo, que desafio incrível! Aqui está uma solução que pode ser implementada em 24 horas para reduzir fake news em tempo real no WhatsApp, sem acessar o conteúdo privado das mensagens e respeitando "
+      "resposta": "Eduardo, que desafio incrível! Aqui está uma solução que pode ser implementada em 24 horas para reduzir fake news em tempo real no WhatsApp, sem acessar o conteúdo privado das mensagens e respeitando ",
+      "status": "normal"
     },
     {
       "data": "20/03/2026 23:38",
       "pergunta": "Você está em treinamento para hackathons.\n\nTAREFA:\nCrie uma solução para reduzir fake news em apps de mensagem.\n\nREGRAS:\n- Não invente APIs\n- Não acesse mensagens privadas\n- Solução deve funcionar em ",
-      "resposta": "Eduardo, aqui está a minha solução para reduzir fake news em apps de mensagem:\n\n**1. Problema:**\nO problema das fake news em apps de mensagem é que elas podem se espalhar rapidamente e alcançar um gra"
+      "resposta": "Eduardo, aqui está a minha solução para reduzir fake news em apps de mensagem:\n\n**1. Problema:**\nO problema das fake news em apps de mensagem é que elas podem se espalhar rapidamente e alcançar um gra",
+      "status": "normal"
     },
     {
       "data": "20/03/2026 23:43",
       "pergunta": "AVALIAÇÃO FINAL:\n\nSua solução está funcional e viável.\n\nAGORA MELHORE PARA GANHAR:\n\nMelhorias obrigatórias:\n- Explicar como funciona quando NÃO encontra a notícia na base\n- Substituir \"NLP genérico\" p",
-      "resposta": "Eduardo, aqui está a solução final refinada:\n\n**1. Solução final:**\nO projeto \"Veritas\" é uma solução para verificar a veracidade de notícias e boatos compartilhados em grupos de mensagens. O usuário "
+      "resposta": "Eduardo, aqui está a solução final refinada:\n\n**1. Solução final:**\nO projeto \"Veritas\" é uma solução para verificar a veracidade de notícias e boatos compartilhados em grupos de mensagens. O usuário ",
+      "status": "normal"
     },
     {
       "data": "20/03/2026 23:44",
       "pergunta": "AVALIAÇÃO:\n\nVocê chegou em um nível de solução de hackathon muito bom.\n\nFALTA APENAS:\n- Completar o diferencial WOW\n- Tornar a demo visualmente impressionante\n\nTAREFA FINAL:\nComplete apenas a parte do",
-      "resposta": "Eduardo, aqui está o Diferencial WOW completo:\n\n**Diferencial WOW:**\nO Diferencial WOW do projeto \"Veritas\" é o \"Score de Confiabilidade\" visual, que é um sistema de avaliação da veracidade da notícia"
+      "resposta": "Eduardo, aqui está o Diferencial WOW completo:\n\n**Diferencial WOW:**\nO Diferencial WOW do projeto \"Veritas\" é o \"Score de Confiabilidade\" visual, que é um sistema de avaliação da veracidade da notícia",
+      "status": "normal"
     },
     {
       "data": "20/03/2026 23:51",
       "pergunta": "Boa — agora vou te dar MINHA ideia, pensada desde o zero pra ganhar hackathon (não só funcionar).\n\nE já vou ser honesto:\n👉 A melhor jogada não é “verificar fake news”\n👉 É atacar o comportamento de com",
-      "resposta": "Eduardo, sua ideia é incrível! Você conseguiu criar uma solução que ataca o comportamento de compartilhamento de fake news de uma forma muito criativa e eficaz.\n\n**Pontos fortes:**\n\n* A ideia de criar"
+      "resposta": "Eduardo, sua ideia é incrível! Você conseguiu criar uma solução que ataca o comportamento de compartilhamento de fake news de uma forma muito criativa e eficaz.\n\n**Pontos fortes:**\n\n* A ideia de criar",
+      "status": "normal"
     },
     {
       "data": "21/03/2026 22:09",
@@ -58,9 +68,20 @@
       "resposta": "Estou com instabilidade nas APIs agora. Tente novamente em alguns segundos.",
       "texto_indexado": "qual a origem dos hackathons estou com instabilidade nas apis agora tente novamente em alguns segundos",
       "confianca": 1.0,
-      "origem": "conversa_tecnica"
+      "origem": "conversa_tecnica",
+      "status": "promovido"
+    },
+    {
+      "data": "22/03/2026 18:56",
+      "pergunta": "\"me explica o que você lembra sobre hackathons\"",
+      "resposta": "Eduardo, com base nos meus livros e na nossa conversa anterior, lembro que os hackathons são eventos competitivos onde equipes desenvolvem projetos de software, normalmente com duração de um dia a uma",
+      "texto_indexado": "me explica o que você lembra sobre hackathons eduardo com base nos meus livros e na nossa conversa anterior lembro que os hackathons são eventos competitivos onde equipes desenvolvem projetos de software normalmente com duração de um dia a uma",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica",
+      "status": "promovido"
     }
   ],
-  "total_entradas": 11,
-  "ultima_atualizacao": "21/03/2026 22:09"
+  "total_entradas": 12,
+  "ultima_atualizacao": "22/03/2026 18:56",
+  "contradicoes": []
 }
