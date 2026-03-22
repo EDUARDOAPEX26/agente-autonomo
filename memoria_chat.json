@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "22/03/2026 22:42",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
       "data": "22/03/2026 22:43",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
-      "data": "22/03/2026 23:24",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Configurações de Acesso: Não criadas.\nRegistros de Atividades: Vazio.\nCredenciais de Autenticação: Não cadastradas."
     }
   ],
   "total_conversas": 159,
-  "total_tarefas": 3671
+  "total_tarefas": 3670
 }
