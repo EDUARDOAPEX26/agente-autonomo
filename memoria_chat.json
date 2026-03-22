@@ -116,10 +116,10 @@
       "resultado": "CPU: 31.6% | Mem: 70.4%"
     },
     {
-      "data": "22/03/2026 08:02",
+      "data": "22/03/2026 08:03",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 10.7% | Mem: 67.8%"
     }
   ],
   "total_conversas": 153,
