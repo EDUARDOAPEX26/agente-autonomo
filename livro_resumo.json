@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:58",
-    "total_entradas_processadas": 2340,
-    "ciclos_completos": 117
+    "total_entradas_processadas": 2360,
+    "ciclos_completos": 118
   },
   "blocos": {
     "decisoes": [
@@ -295,6 +295,30 @@
         "importancia": 1.0
       },
       {
+        "id": "cor_7aecd",
+        "resumo": "memoria limpa com sucesso",
+        "data": "22/03/2026 03:51",
+        "importancia": 1.0
+      },
+      {
+        "id": "cor_553b3",
+        "resumo": "memoria limpa com sucesso",
+        "data": "22/03/2026 03:53",
+        "importancia": 1.0
+      },
+      {
+        "id": "cor_22801",
+        "resumo": "memoria limpa com sucesso",
+        "data": "22/03/2026 03:54",
+        "importancia": 1.0
+      },
+      {
+        "id": "cor_2ed6c",
+        "resumo": "memoria limpa com sucesso",
+        "data": "22/03/2026 03:55",
+        "importancia": 1.0
+      },
+      {
         "id": "cor_a0eac",
         "resumo": "Memoria limpa com sucesso",
         "data": "22/03/2026 02:51",
@@ -346,30 +370,6 @@
         "id": "cor_567f4",
         "resumo": "Limpeza de memória bem-sucedida",
         "data": "22/03/2026 03:01",
-        "importancia": 0.9
-      },
-      {
-        "id": "cor_2f879",
-        "resumo": "Memoria limpa com sucesso",
-        "data": "22/03/2026 02:55",
-        "importancia": 0.9
-      },
-      {
-        "id": "cor_56a8e",
-        "resumo": "Memoria limpa com sucesso",
-        "data": "22/03/2026 02:59",
-        "importancia": 0.9
-      },
-      {
-        "id": "cor_d0b22",
-        "resumo": "Memoria limpa com sucesso",
-        "data": "22/03/2026 03:01",
-        "importancia": 0.9
-      },
-      {
-        "id": "cor_07a38",
-        "resumo": "Registro de Sessão",
-        "data": "22/03/2026 03:06",
         "importancia": 0.9
       }
     ],
