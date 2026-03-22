@@ -119,7 +119,7 @@
       "data": "22/03/2026 03:15",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
-      "resultado": "Ao inicializar, o agente em nuvem não possui nenhuma registro disponível. O historico de execucoes e logs está vazio. Não há informações armazenadas até o momento."
+      "resultado": "Inicialmente, o agente autonomo rodando em nuvem não possui registros. O histórico está vazio, e não há informações sobre atividades, logs ou configurações aplicadas."
     }
   ],
   "total_conversas": 153,
