@@ -106,20 +106,20 @@
     {
       "data": "22/03/2026 03:37",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 19.9% | Mem: 71.6%"
-    },
-    {
-      "data": "22/03/2026 03:37",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 22.9% | Mem: 69.9%"
-    },
-    {
-      "data": "22/03/2026 03:37",
-      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
+    },
+    {
+      "data": "22/03/2026 03:37",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "O agente autonomo em nuvem está configurado e pronto para uso, com informações iniciais:\n\n- Nenhum registro é armazenado devido à configuração inicial.\n- As configurações iniciais incluem as opções de"
+    },
+    {
+      "data": "22/03/2026 03:37",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     }
   ],
   "total_conversas": 153,
