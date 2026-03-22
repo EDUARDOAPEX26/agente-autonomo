@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:17",
-    "total_entradas_processadas": 240,
-    "ciclos_completos": 12
+    "total_entradas_processadas": 260,
+    "ciclos_completos": 13
   },
   "blocos": {
     "decisoes": [
@@ -365,6 +365,12 @@
         "importancia": 0.9
       },
       {
+        "id": "ins_f515a",
+        "resumo": "Para otimizar o desempenho do sistema...",
+        "data": "22/03/2026 03:09",
+        "importancia": 0.9
+      },
+      {
         "id": "ins_c2076",
         "resumo": "Registro de inicialização em 10/02/2023 com verificação de conectividade",
         "data": "22/03/2026 03:03",
@@ -422,12 +428,6 @@
         "id": "ins_87127",
         "resumo": "Servidor Tavily não configurado",
         "data": "22/03/2026 02:58",
-        "importancia": 0.7
-      },
-      {
-        "id": "ins_7c044",
-        "resumo": "Relatório atualizado com informações de servidor",
-        "data": "22/03/2026 03:00",
         "importancia": 0.7
       }
     ]
