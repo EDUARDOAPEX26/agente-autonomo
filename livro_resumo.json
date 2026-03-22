@@ -77,6 +77,30 @@
         "importancia": 0.9
       },
       {
+        "id": "bug_c399c",
+        "resumo": "Falha em buscar cotação do dolar",
+        "data": "22/03/2026 03:23",
+        "importancia": 0.9
+      },
+      {
+        "id": "bug_27092",
+        "resumo": "Falha em buscar cotação do dolar",
+        "data": "22/03/2026 03:24",
+        "importancia": 0.9
+      },
+      {
+        "id": "bug_ec021",
+        "resumo": "Falha em buscar cotação do dolar",
+        "data": "22/03/2026 03:24",
+        "importancia": 0.9
+      },
+      {
+        "id": "bug_9e9fa",
+        "resumo": "Falha em buscar cotação do dolar",
+        "data": "22/03/2026 03:25",
+        "importancia": 0.9
+      },
+      {
         "id": "bug_b761a",
         "resumo": "Tavily nao configurado, não permitindo busca de cotacao do dolar.",
         "data": "22/03/2026 02:58",
@@ -128,12 +152,6 @@
         "id": "bug_a8155",
         "resumo": "Nenhum registro encontrado",
         "data": "22/03/2026 03:21",
-        "importancia": 0.7
-      },
-      {
-        "id": "bug_f94d8",
-        "resumo": "Memoria limpa",
-        "data": "22/03/2026 03:25",
         "importancia": 0.7
       },
       {
@@ -485,12 +503,6 @@
         "importancia": 0.9
       },
       {
-        "id": "ins_4bf49",
-        "resumo": "Inteligência Artificial em alta",
-        "data": "22/03/2026 03:22",
-        "importancia": 0.9
-      },
-      {
         "id": "ins_c2076",
         "resumo": "Registro de inicialização em 10/02/2023 com verificação de conectividade",
         "data": "22/03/2026 03:03",
@@ -512,6 +524,12 @@
         "id": "ins_69330",
         "resumo": "registo de inicialização e ações efetuadas",
         "data": "22/03/2026 03:00",
+        "importancia": 0.8
+      },
+      {
+        "id": "ins_cd983",
+        "resumo": "registo de inicialização, ações efetuadas e conectividade",
+        "data": "22/03/2026 03:03",
         "importancia": 0.8
       }
     ]
