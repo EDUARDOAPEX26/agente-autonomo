@@ -4,12 +4,6 @@
     {
       "data": "22/03/2026 03:29",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Agente em Nuvem - Registros Iniciais**\n\n**ID do Agente:** Não disponível\n**Configuração da Plataforma:** Desconhecida\n**Requisitos do Sistema:** Não definidos\n**Conexão com Base de Dados:** Não esta"
-    },
-    {
-      "data": "22/03/2026 03:29",
-      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
     },
@@ -118,10 +112,16 @@
     {
       "data": "22/03/2026 03:36",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.6% | Mem: 73.1%"
+    },
+    {
+      "data": "22/03/2026 03:36",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "Aqui está um resumo técnico inicial:\n\n- Estado de registro: 0\n- Contagem de registros: Não há nenhuma informação registrada no sistema."
     }
   ],
   "total_conversas": 153,
-  "total_tarefas": 2781
+  "total_tarefas": 2782
 }
