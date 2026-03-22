@@ -4,12 +4,6 @@
     {
       "data": "22/03/2026 03:53",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "22/03/2026 03:53",
-      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
     },
@@ -107,21 +101,27 @@
       "data": "22/03/2026 03:59",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 11.9% | Mem: 71.3%"
+      "resultado": "CPU: 16.6% | Mem: 72.3%"
     },
     {
       "data": "22/03/2026 03:59",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 34.6% | Mem: 72.2%"
+      "tarefa": "buscar noticias tech",
+      "resultado": "Inteligência Artificial está em alta com novos avanços; empresas como Nvidia expandem parcerias; OpenAI lança NextGenAI para educação."
     },
     {
       "data": "22/03/2026 04:00",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
-      "resultado": "**Resumo Técnico**\n\n- **Status do Agente**: Não ativado\n- **Conexão**: Não conectado à nuvem"
+      "resultado": "O agente em nuvem está configurado com as seguintes informações: \n\n- Plataforma: Microsoft Azure\n- Região: Brasil Sul\n- Nível de serviço: Basic\n- Uptime garantida: 99.9%\n- Memória RAM: 1GB\n- Disco ríg"
+    },
+    {
+      "data": "22/03/2026 04:00",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 21.7% | Mem: 69.8%"
     }
   ],
   "total_conversas": 153,
-  "total_tarefas": 2851
+  "total_tarefas": 2852
 }
