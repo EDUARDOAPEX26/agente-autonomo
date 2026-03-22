@@ -118,8 +118,8 @@
     {
       "data": "22/03/2026 03:58",
       "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Para monitorar recursos e memória, você deve configurar e instalar ferramentas de monitoramento, como o New Relic ou o Datadog. Essas ferramentas permitem que você visualize e analise métricas de dese"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 15.1% | Mem: 66.8%"
     }
   ],
   "total_conversas": 153,
