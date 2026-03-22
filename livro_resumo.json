@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:14",
-    "total_entradas_processadas": 60,
-    "ciclos_completos": 3
+    "total_entradas_processadas": 80,
+    "ciclos_completos": 4
   },
   "blocos": {
     "decisoes": [],
@@ -41,6 +41,24 @@
         "importancia": 0.9
       },
       {
+        "id": "cor_f55c1",
+        "resumo": "Memória limpa com sucesso",
+        "data": "22/03/2026 02:55",
+        "importancia": 0.9
+      },
+      {
+        "id": "cor_b0f14",
+        "resumo": "Memória limpa com sucesso",
+        "data": "22/03/2026 02:59",
+        "importancia": 0.9
+      },
+      {
+        "id": "cor_89d34",
+        "resumo": "Memória limpa com sucesso",
+        "data": "22/03/2026 03:01",
+        "importancia": 0.9
+      },
+      {
         "id": "cor_71ab4",
         "resumo": "Recomendação para análise e limpeza de dados antigos",
         "data": "22/03/2026 02:57",
@@ -73,6 +91,18 @@
         "importancia": 0.6
       },
       {
+        "id": "lim_a49f8",
+        "resumo": "Monitorar sistema com CPU e memória monitorados",
+        "data": "22/03/2026 02:52",
+        "importancia": 0.6
+      },
+      {
+        "id": "lim_e6c6d",
+        "resumo": "Sistema estável com carga média de CPU, uso de memória alto",
+        "data": "22/03/2026 02:54",
+        "importancia": 0.6
+      },
+      {
         "id": "lim_80c3c",
         "resumo": "análise e limpeza dos dados antigos",
         "data": "22/03/2026 02:57",
@@ -82,6 +112,12 @@
         "id": "lim_e8486",
         "resumo": "Sistema estável, porém com carga média de CPU e uso de memória alto",
         "data": "22/03/2026 02:54",
+        "importancia": 0.5
+      },
+      {
+        "id": "lim_5638e",
+        "resumo": "Sistema saudável com CPU sobrecarregada",
+        "data": "22/03/2026 02:56",
         "importancia": 0.5
       },
       {
@@ -159,6 +195,18 @@
         "importancia": 0.8
       },
       {
+        "id": "ins_b370e",
+        "resumo": "Relatório com registro de operação bem-sucedida com sistema CRIS",
+        "data": "22/03/2026 02:53",
+        "importancia": 0.8
+      },
+      {
+        "id": "ins_f8115",
+        "resumo": "Registro de operação com servidor e região",
+        "data": "22/03/2026 03:00",
+        "importancia": 0.8
+      },
+      {
         "id": "ins_11ded",
         "resumo": "CPU: 36.8% | Mem: 70.3%",
         "data": "22/03/2026 02:52",
@@ -180,6 +228,12 @@
         "id": "ins_7c044",
         "resumo": "Relatório atualizado com informações de servidor",
         "data": "22/03/2026 03:00",
+        "importancia": 0.7
+      },
+      {
+        "id": "ins_7d5cd",
+        "resumo": "Análise e limpeza de dados antigos sugerida",
+        "data": "22/03/2026 02:57",
         "importancia": 0.7
       },
       {
