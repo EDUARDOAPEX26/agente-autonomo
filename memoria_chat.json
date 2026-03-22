@@ -112,14 +112,14 @@
     {
       "data": "22/03/2026 03:48",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "gerar relatorio",
+      "resultado": "O agente está em funcionamento, mas não tem dados registrados no ambiente de nuvem. Não há informações disponíveis em sua conta ou configuração atuais."
     },
     {
       "data": "22/03/2026 03:48",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Configuração inicializada com 0 registros, sem atividades ou operações realizadas. Estado atual do agente é de inatividade."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 19.5% | Mem: 72.7%"
     }
   ],
   "total_conversas": 153,
