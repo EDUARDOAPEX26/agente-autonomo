@@ -3,12 +3,19 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:14",
-    "total_entradas_processadas": 80,
-    "ciclos_completos": 4
+    "total_entradas_processadas": 100,
+    "ciclos_completos": 5
   },
   "blocos": {
     "decisoes": [],
-    "bugs": [],
+    "bugs": [
+      {
+        "id": "bug_f0244",
+        "resumo": "Sistema saudável, porém Memória alta",
+        "data": "22/03/2026 03:07",
+        "importancia": 0.7
+      }
+    ],
     "correcoes": [
       {
         "id": "cor_3a905",
@@ -57,6 +64,30 @@
         "resumo": "Memória limpa com sucesso",
         "data": "22/03/2026 03:01",
         "importancia": 0.9
+      },
+      {
+        "id": "cor_b671b",
+        "resumo": "Limpeza de memória bem-sucedida",
+        "data": "22/03/2026 02:55",
+        "importancia": 0.9
+      },
+      {
+        "id": "cor_354e2",
+        "resumo": "Limpeza de memória bem-sucedida",
+        "data": "22/03/2026 02:59",
+        "importancia": 0.9
+      },
+      {
+        "id": "cor_567f4",
+        "resumo": "Limpeza de memória bem-sucedida",
+        "data": "22/03/2026 03:01",
+        "importancia": 0.9
+      },
+      {
+        "id": "cor_22264",
+        "resumo": "Limpar Memória com sucesso",
+        "data": "22/03/2026 03:05",
+        "importancia": 0.8
       },
       {
         "id": "cor_71ab4",
@@ -189,6 +220,12 @@
         "importancia": 0.9
       },
       {
+        "id": "ins_56a18",
+        "resumo": "Para otimizar o desempenho do sistema, verifique os registros",
+        "data": "22/03/2026 03:09",
+        "importancia": 0.9
+      },
+      {
         "id": "ins_c2076",
         "resumo": "Registro de inicialização em 10/02/2023 com verificação de conectividade",
         "data": "22/03/2026 03:03",
@@ -276,12 +313,6 @@
         "id": "ins_66bf3",
         "resumo": "Sessão registrada: data, duração e plataforma",
         "data": "22/03/2026 03:06",
-        "importancia": 0.2
-      },
-      {
-        "id": "ins_1bd2d",
-        "resumo": "Sistema saudável, uso de memória alto",
-        "data": "22/03/2026 03:07",
         "importancia": 0.2
       }
     ]
