@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "22/03/2026 07:44",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 41.5% | Mem: 66.2%"
+    },
+    {
       "data": "22/03/2026 07:45",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 49.9% | Mem: 72.3%"
-    },
-    {
-      "data": "22/03/2026 08:15",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Aqui está um resumo técnico inicial com zero registros do agente em nuvem:\n\n**Informações Iniciais**\n\n- **ID do Agente**: Não configurado\n- **Nome do Agente**: Não configurado\n- **Estado do Agente**: "
     }
   ],
   "total_conversas": 153,
-  "total_tarefas": 3045
+  "total_tarefas": 3044
 }
