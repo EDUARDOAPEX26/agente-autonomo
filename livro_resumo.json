@@ -187,12 +187,6 @@
         "importancia": 1.0
       },
       {
-        "id": "cor_8289e",
-        "resumo": "Memoria limpa com sucesso",
-        "data": "22/03/2026 03:25",
-        "importancia": 1.0
-      },
-      {
         "id": "cor_a0eac",
         "resumo": "Memoria limpa com sucesso",
         "data": "22/03/2026 02:51",
@@ -286,6 +280,12 @@
         "id": "cor_bb881",
         "resumo": "Memoria limpa com sucesso",
         "data": "22/03/2026 02:59",
+        "importancia": 0.9
+      },
+      {
+        "id": "cor_9a149",
+        "resumo": "Memoria limpa com sucesso",
+        "data": "22/03/2026 03:01",
         "importancia": 0.9
       }
     ],
@@ -503,18 +503,6 @@
         "importancia": 0.9
       },
       {
-        "id": "ins_c9081",
-        "resumo": "Informacoes atualizadas sobre cotacao do dolar",
-        "data": "22/03/2026 03:26",
-        "importancia": 0.9
-      },
-      {
-        "id": "ins_d2aac",
-        "resumo": "Noticias sobre inteligencia artificial",
-        "data": "22/03/2026 03:27",
-        "importancia": 0.9
-      },
-      {
         "id": "ins_c2076",
         "resumo": "Registro de inicialização em 10/02/2023 com verificação de conectividade",
         "data": "22/03/2026 03:03",
@@ -530,6 +518,18 @@
         "id": "ins_f8115",
         "resumo": "Registro de operação com servidor e região",
         "data": "22/03/2026 03:00",
+        "importancia": 0.8
+      },
+      {
+        "id": "ins_69330",
+        "resumo": "registo de inicialização e ações efetuadas",
+        "data": "22/03/2026 03:00",
+        "importancia": 0.8
+      },
+      {
+        "id": "ins_cd983",
+        "resumo": "registo de inicialização, ações efetuadas e conectividade",
+        "data": "22/03/2026 03:03",
         "importancia": 0.8
       }
     ]
