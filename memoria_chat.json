@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "22/03/2026 03:39",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 24.0% | Mem: 71.0%"
-    },
-    {
       "data": "22/03/2026 03:40",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
@@ -106,22 +100,28 @@
     {
       "data": "22/03/2026 03:45",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 25.9% | Mem: 71.9%"
+      "tarefa": "gerar relatorio",
+      "resultado": "**Resumo Tecnico de 0 Registros:**\n\n- **Estado da Credencial**: Não há credenciais registradas.\n- **Armazenamento de Dados**: Não há dados de clientes ou históricos armazenados."
     },
     {
       "data": "22/03/2026 03:45",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
+      "tarefa": "gerar relatorio",
+      "resultado": "Registro 1: Configuração Inicial\n- Data de início: N/A\n- Estado do agente: Desligado\n- Conexão com a nuvem: N/A\n\nRegistro 2: Status Geral\n- Status do agente: Nuvem não configurada\n- Conexão de rede: N"
     },
     {
       "data": "22/03/2026 03:46",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "gerar relatorio",
+      "resultado": "**Resumo Técnico: Agente Ausente em Nuvem**\n\n* Plataforma: Ausente\n* Versão: Nenhuma\n* Registros: Vazio\n* Dados armazenados: Sem dados"
+    },
+    {
+      "data": "22/03/2026 03:46",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 24.9% | Mem: 70.3%"
     }
   ],
   "total_conversas": 153,
-  "total_tarefas": 2810
+  "total_tarefas": 2811
 }
