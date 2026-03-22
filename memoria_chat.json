@@ -4,12 +4,6 @@
     {
       "data": "22/03/2026 03:50",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Resumo Técnico**\n\n- **Nível de Registro**: 0\n- **Status do Agente**: Iniciado\n- **Tempo de Execução**: 0 segundos\n- **Última Atualização**: Não definido\n- **Dados Disponíveis**: Não existem registro"
-    },
-    {
-      "data": "22/03/2026 03:50",
-      "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 21.0% | Mem: 71.3%"
     },
@@ -112,16 +106,22 @@
     {
       "data": "22/03/2026 03:56",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 19.5% | Mem: 69.7%"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
     },
     {
       "data": "22/03/2026 03:56",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 12.0% | Mem: 71.9%"
+      "resultado": "CPU: 30.0% | Mem: 71.8%"
+    },
+    {
+      "data": "22/03/2026 03:56",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "O sistema está com carga moderada de CPU e baixo uso da RAM, indicando que está em um estado estável."
     }
   ],
   "total_conversas": 153,
-  "total_tarefas": 2841
+  "total_tarefas": 2842
 }
