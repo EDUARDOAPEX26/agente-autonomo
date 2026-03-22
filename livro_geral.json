@@ -64,9 +64,18 @@
       "confianca": 1.0,
       "origem": "conversa_tecnica",
       "status": "promovido"
+    },
+    {
+      "data": "22/03/2026 17:14",
+      "pergunta": "como posso otimizar o algoritmo de busca nos livros temáticos?",
+      "resposta": "Eduardo, para otimizar o algoritmo de busca nos livros temáticos, aqui estão algumas sugestões:\n\n* **Melhorar a indexação**: Certifique-se de que os livros temáticos sejam indexados corretamente, com ",
+      "texto_indexado": "como posso otimizar o algoritmo de busca nos livros temáticos eduardo para otimizar o algoritmo de busca nos livros temáticos aqui estão algumas sugestões * **melhorar a indexação** certifique-se de que os livros temáticos sejam indexados corretamente com",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica",
+      "status": "promovido"
     }
   ],
-  "total_entradas": 9,
-  "ultima_atualizacao": "21/03/2026 23:34",
+  "total_entradas": 10,
+  "ultima_atualizacao": "22/03/2026 17:14",
   "contradicoes": []
 }
