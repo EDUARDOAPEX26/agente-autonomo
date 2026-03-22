@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "22/03/2026 03:42",
-    "total_entradas_processadas": 1480,
-    "ciclos_completos": 74
+    "ultima_geracao": "22/03/2026 03:43",
+    "total_entradas_processadas": 1500,
+    "ciclos_completos": 75
   },
   "blocos": {
     "decisoes": [
@@ -91,6 +91,12 @@
         "resumo": "Monitorar sistema de CPU e memória",
         "data": "22/03/2026 03:33",
         "importancia": 0.5
+      },
+      {
+        "id": "dec_642bf",
+        "resumo": "Monitorar sistema",
+        "data": "22/03/2026 03:39",
+        "importancia": 0.0
       }
     ],
     "bugs": [
