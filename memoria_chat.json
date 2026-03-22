@@ -116,10 +116,10 @@
       "origem": "conversa_local"
     },
     {
-      "data": "22/03/2026 20:51",
+      "data": "22/03/2026 20:50",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 22.2% | Mem: 69.7%"
     }
   ],
   "total_conversas": 158,
