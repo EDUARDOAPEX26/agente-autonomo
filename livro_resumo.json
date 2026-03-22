@@ -2,7 +2,7 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "22/03/2026 04:02",
+    "ultima_geracao": "22/03/2026 04:03",
     "total_entradas_processadas": 2600,
     "ciclos_completos": 130
   },
@@ -81,6 +81,12 @@
         "importancia": 0.9
       },
       {
+        "id": "dec_2e44b",
+        "resumo": "configurações do agente em nuvem resumidas em relatório",
+        "data": "22/03/2026 04:02",
+        "importancia": 0.9
+      },
+      {
         "id": "dec_5a9fe",
         "resumo": "Taxa de câmbio entre dólar e real definida",
         "data": "22/03/2026 03:16",
@@ -121,12 +127,6 @@
         "resumo": "Monitorar sistema de CPU e memória",
         "data": "22/03/2026 03:33",
         "importancia": 0.5
-      },
-      {
-        "id": "dec_642bf",
-        "resumo": "Monitorar sistema",
-        "data": "22/03/2026 03:39",
-        "importancia": 0.0
       }
     ],
     "bugs": [
