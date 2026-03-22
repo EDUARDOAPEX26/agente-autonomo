@@ -118,8 +118,8 @@
     {
       "data": "22/03/2026 04:10",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "O agente em nuvem está configurado inicialmente, com base nos parâmetros padrão. Nenhuma ação foi realizada e nenhum dado foi processado."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 47.8% | Mem: 64.7%"
     }
   ],
   "total_conversas": 153,
