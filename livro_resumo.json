@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:35",
-    "total_entradas_processadas": 1060,
-    "ciclos_completos": 53
+    "total_entradas_processadas": 1080,
+    "ciclos_completos": 54
   },
   "blocos": {
     "decisoes": [
@@ -42,6 +42,12 @@
         "id": "dec_e1ec9",
         "resumo": "Registro criado para relatorio",
         "data": "22/03/2026 03:00",
+        "importancia": 0.7
+      },
+      {
+        "id": "dec_ad994",
+        "resumo": "Monitorar sistema: CPU 38.6%, Mem 69.4%",
+        "data": "22/03/2026 03:31",
         "importancia": 0.7
       }
     ],
