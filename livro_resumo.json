@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:46",
-    "total_entradas_processadas": 1680,
-    "ciclos_completos": 84
+    "total_entradas_processadas": 1700,
+    "ciclos_completos": 85
   },
   "blocos": {
     "decisoes": [
@@ -593,16 +593,16 @@
         "importancia": 0.9
       },
       {
-        "id": "ins_fb5b8",
-        "resumo": "Taxa de câmbio atual",
-        "data": "22/03/2026 03:41",
-        "importancia": 0.9
+        "id": "ins_c2076",
+        "resumo": "Registro de inicialização em 10/02/2023 com verificação de conectividade",
+        "data": "22/03/2026 03:03",
+        "importancia": 0.8
       },
       {
-        "id": "ins_18da4",
-        "resumo": "Taxa de câmbio atual",
-        "data": "22/03/2026 03:41",
-        "importancia": 0.9
+        "id": "ins_b370e",
+        "resumo": "Relatório com registro de operação bem-sucedida com sistema CRIS",
+        "data": "22/03/2026 02:53",
+        "importancia": 0.8
       }
     ]
   }
