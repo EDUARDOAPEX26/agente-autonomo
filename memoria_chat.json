@@ -118,8 +118,8 @@
     {
       "data": "22/03/2026 04:11",
       "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Sim, o sistema parece estar saudável devido ao uso moderado da CPU e da memória. Há ainda 27,3% de disponibilidade da memória."
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     }
   ],
   "total_conversas": 153,
