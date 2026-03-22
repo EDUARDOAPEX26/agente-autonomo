@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:34",
-    "total_entradas_processadas": 1020,
-    "ciclos_completos": 51
+    "total_entradas_processadas": 1040,
+    "ciclos_completos": 52
   },
   "blocos": {
     "decisoes": [
@@ -357,6 +357,12 @@
         "importancia": 0.6
       },
       {
+        "id": "lim_af0c7",
+        "resumo": "taxa de cambio dolar",
+        "data": "22/03/2026 03:28",
+        "importancia": 0.6
+      },
+      {
         "id": "lim_51e19",
         "resumo": "sistema parece saudável, porém a utilizacao da memoria é um pouco alta.",
         "data": "22/03/2026 03:07",
@@ -402,12 +408,6 @@
         "id": "lim_3bdf2",
         "resumo": "cpu e mem 27,6% e 71,8%",
         "data": "22/03/2026 03:13",
-        "importancia": 0.5
-      },
-      {
-        "id": "lim_88efc",
-        "resumo": "cpu e mem 25,4% e 71,5%",
-        "data": "22/03/2026 03:14",
         "importancia": 0.5
       }
     ],
