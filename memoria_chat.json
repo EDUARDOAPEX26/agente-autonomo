@@ -113,13 +113,13 @@
       "data": "22/03/2026 03:51",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 51.5% | Mem: 65.3%"
+      "resultado": "CPU: 29.3% | Mem: 70.4%"
     },
     {
       "data": "22/03/2026 03:51",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
+      "tarefa": "gerar relatorio",
+      "resultado": "**Resumo de Inicialização**\n\n* Data de Inicialização: desconhecida\n* Plataforma de Extenção: desconhecida\n* Navegador Web: desconhecida\n* Sessão Atual: não iniciada\n* Registros Cadastrados: 0 (nenhum)"
     }
   ],
   "total_conversas": 153,
