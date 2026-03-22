@@ -118,8 +118,8 @@
     {
       "data": "22/03/2026 04:03",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "gerar relatorio",
+      "resultado": "\"Ao iniciar o processo de criação do agente em nuvem, os seguintes passos foram realizados: \n\n * Inicialização do ambiente virtual com recursos mínimos de armazenamento e processamento. \n\n * Verificaç"
     }
   ],
   "total_conversas": 153,
