@@ -112,14 +112,14 @@
     {
       "data": "22/03/2026 04:10",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "O agente em nuvem está configurado inicialmente, com base nos parâmetros padrão. Nenhuma ação foi realizada e nenhum dado foi processado."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 47.8% | Mem: 64.7%"
     },
     {
       "data": "22/03/2026 04:10",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 44.3% | Mem: 72.6%"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
     }
   ],
   "total_conversas": 153,
