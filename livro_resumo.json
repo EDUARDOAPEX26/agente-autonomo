@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "22/03/2026 03:17",
-    "total_entradas_processadas": 280,
-    "ciclos_completos": 14
+    "ultima_geracao": "22/03/2026 03:18",
+    "total_entradas_processadas": 300,
+    "ciclos_completos": 15
   },
   "blocos": {
     "decisoes": [
@@ -291,6 +291,12 @@
         "importancia": 0.5
       },
       {
+        "id": "lim_a0fea",
+        "resumo": "Relatório inicialmente não possível pois histórico está vazio",
+        "data": "22/03/2026 03:15",
+        "importancia": 0.5
+      },
+      {
         "id": "lim_858af",
         "resumo": "Tarifário não configurado",
         "data": "22/03/2026 03:04",
@@ -300,12 +306,6 @@
         "id": "lim_7b145",
         "resumo": "Tarifário não configurado",
         "data": "22/03/2026 03:08",
-        "importancia": 0.4
-      },
-      {
-        "id": "lim_8a65c",
-        "resumo": "Tarifário não configurado",
-        "data": "22/03/2026 03:10",
         "importancia": 0.4
       }
     ],
@@ -401,6 +401,12 @@
         "importancia": 0.8
       },
       {
+        "id": "ins_ea530",
+        "resumo": "Sistema está saudável, carga de CPU baixa e memória disponível",
+        "data": "22/03/2026 03:17",
+        "importancia": 0.8
+      },
+      {
         "id": "ins_a5117",
         "resumo": "Registro 1: dados de inicializacao de sistema",
         "data": "22/03/2026 03:03",
@@ -422,12 +428,6 @@
         "id": "ins_5110a",
         "resumo": "Relatório de operação bem-sucedida com o sistema CRIS",
         "data": "22/03/2026 02:53",
-        "importancia": 0.7
-      },
-      {
-        "id": "ins_87127",
-        "resumo": "Servidor Tavily não configurado",
-        "data": "22/03/2026 02:58",
         "importancia": 0.7
       }
     ]
