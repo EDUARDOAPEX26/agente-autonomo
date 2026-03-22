@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:30",
-    "total_entradas_processadas": 820,
-    "ciclos_completos": 41
+    "total_entradas_processadas": 840,
+    "ciclos_completos": 42
   },
   "blocos": {
     "decisoes": [
@@ -155,15 +155,15 @@
         "importancia": 0.7
       },
       {
+        "id": "bug_d49a2",
+        "resumo": "configuração de monitoramento de logs e atividade do sistema",
+        "data": "22/03/2026 03:30",
+        "importancia": 0.7
+      },
+      {
         "id": "bug_0a08e",
         "resumo": "Limpou memória",
         "data": "22/03/2026 03:25",
-        "importancia": 0.5
-      },
-      {
-        "id": "bug_e5ed9",
-        "resumo": "Nenhum registro encontrado em relatório",
-        "data": "22/03/2026 03:21",
         "importancia": 0.5
       }
     ],
