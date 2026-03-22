@@ -112,14 +112,14 @@
     {
       "data": "22/03/2026 03:59",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
+      "tarefa": "buscar noticias tech",
+      "resultado": "Inteligência Artificial está em alta com novos avanços; empresas como Nvidia expandem parcerias; OpenAI lança NextGenAI para educação."
     },
     {
-      "data": "22/03/2026 03:59",
+      "data": "22/03/2026 04:00",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
+      "tarefa": "gerar relatorio",
+      "resultado": "O agente em nuvem está configurado com as seguintes informações: \n\n- Plataforma: Microsoft Azure\n- Região: Brasil Sul\n- Nível de serviço: Basic\n- Uptime garantida: 99.9%\n- Memória RAM: 1GB\n- Disco ríg"
     }
   ],
   "total_conversas": 153,
