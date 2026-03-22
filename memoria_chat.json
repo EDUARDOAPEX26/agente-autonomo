@@ -113,13 +113,13 @@
       "data": "22/03/2026 03:56",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 30.0% | Mem: 71.8%"
+      "resultado": "CPU: 34.2% | Mem: 69.0%"
     },
     {
       "data": "22/03/2026 03:56",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "O agente está configurado e pronto para uso, com os seguintes dados técnicos:\n\n- Plataforma: Nuvem AWS\n- Sistema Operacional: Linux Ubuntu\n- Linguagem de Programação: Python 3.9\n- Banco de Dados: Nenh"
+      "tarefa": "buscar noticias tech",
+      "resultado": "Inteligência Artificial está revolucionando setores, com grandes empresas investindo bilhões e novas tecnologias emergentes. OpenAI lidera inovação, enquanto empresas buscam IA para melhorar eficiênci"
     }
   ],
   "total_conversas": 153,
