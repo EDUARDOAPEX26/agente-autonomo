@@ -112,14 +112,14 @@
     {
       "data": "22/03/2026 03:29",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 36.8% | Mem: 70.8%"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
     },
     {
       "data": "22/03/2026 03:30",
       "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Configure o monitoramento de logs e atividade do sistema para coletar informações sobre a execução do seu aplicativo. Isso pode ser feito via APIs ou frameworks de monitoramento como Prometheus e Graf"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 27.6% | Mem: 71.6%"
     }
   ],
   "total_conversas": 153,
