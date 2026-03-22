@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "22/03/2026 22:49",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 14.6% | Mem: 72.8%"
+    },
+    {
       "data": "22/03/2026 19:54",
       "pergunta": "me responda essas tres perguntas uma por uma \"o que você sabe sobre o livro_licoes?\"\n\"quais são os 5 blocos do seu resumo?\"\n\"quem você é no sistema?\"",
       "resposta": "Estou com instabilidade nas APIs agora. Tente novamente em alguns segundos.",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
-      "data": "22/03/2026 23:32",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Status atual:** 0 registros, inicializacao concluida. \n\n**Detalhes tecnologicos:** Servidor: desconhecido, Plataforma: desconhecida."
     }
   ],
   "total_conversas": 159,
-  "total_tarefas": 3678
+  "total_tarefas": 3677
 }
