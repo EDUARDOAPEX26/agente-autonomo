@@ -4,12 +4,6 @@
     {
       "data": "22/03/2026 03:38",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "22/03/2026 03:38",
-      "origem": "nuvem",
       "tarefa": "gerar relatorio",
       "resultado": "**Status do Agente:** Inativo\n**Sistema Operacional:** Nenhum registro\n**Plataforma de Execução:** N/A\n**Banco de Dados:** Nenhum registro\n**Conexão com Redes:** Nenhuma conexão estabelecida."
     },
@@ -112,16 +106,22 @@
     {
       "data": "22/03/2026 03:44",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Inteligência Artificial está em alta com novos avanços; empresas como Nvidia expandem parcerias; OpenAI lança NextGenAI para educação."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 33.4% | Mem: 71.7%"
     },
     {
       "data": "22/03/2026 03:44",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Inteligência Artificial está em alta com novos avanços; empresas como Nvidia expandem parcerias; OpenAI lança NextGenAI para educação."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 19.0% | Mem: 67.1%"
+    },
+    {
+      "data": "22/03/2026 03:44",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "Registro criado. Dados iniciantes:\n\n- Plataforma utilizada: Azure Cloud Computing\n- Servidor: Windows Server 2022\n- Sistema de gerenciamento: Microsoft Azure Monitor\n- Conexão de rede: Conectado à red"
     }
   ],
   "total_conversas": 153,
-  "total_tarefas": 2805
+  "total_tarefas": 2806
 }
