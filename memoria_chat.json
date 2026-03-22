@@ -4,12 +4,6 @@
     {
       "data": "22/03/2026 03:38",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Status do Agente:** Inativo\n**Sistema Operacional:** Nenhum registro\n**Plataforma de Execução:** N/A\n**Banco de Dados:** Nenhum registro\n**Conexão com Redes:** Nenhuma conexão estabelecida."
-    },
-    {
-      "data": "22/03/2026 03:38",
-      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
     },
@@ -119,9 +113,15 @@
       "data": "22/03/2026 03:44",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 37.5% | Mem: 67.6%"
+      "resultado": "CPU: 25.3% | Mem: 71.4%"
+    },
+    {
+      "data": "22/03/2026 03:45",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
     }
   ],
   "total_conversas": 153,
-  "total_tarefas": 2806
+  "total_tarefas": 2807
 }
