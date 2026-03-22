@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:59",
-    "total_entradas_processadas": 2380,
-    "ciclos_completos": 119
+    "total_entradas_processadas": 2400,
+    "ciclos_completos": 120
   },
   "blocos": {
     "decisoes": [
@@ -319,6 +319,24 @@
         "importancia": 1.0
       },
       {
+        "id": "cor_b88e3",
+        "resumo": "Memória limpa com sucesso",
+        "data": "22/03/2026 03:53",
+        "importancia": 0.95
+      },
+      {
+        "id": "cor_5dfae",
+        "resumo": "Memória limpa com sucesso",
+        "data": "22/03/2026 03:54",
+        "importancia": 0.95
+      },
+      {
+        "id": "cor_104b0",
+        "resumo": "Memória limpa com sucesso",
+        "data": "22/03/2026 03:55",
+        "importancia": 0.95
+      },
+      {
         "id": "cor_a0eac",
         "resumo": "Memoria limpa com sucesso",
         "data": "22/03/2026 02:51",
@@ -351,24 +369,6 @@
       {
         "id": "cor_89d34",
         "resumo": "Memória limpa com sucesso",
-        "data": "22/03/2026 03:01",
-        "importancia": 0.9
-      },
-      {
-        "id": "cor_b671b",
-        "resumo": "Limpeza de memória bem-sucedida",
-        "data": "22/03/2026 02:55",
-        "importancia": 0.9
-      },
-      {
-        "id": "cor_354e2",
-        "resumo": "Limpeza de memória bem-sucedida",
-        "data": "22/03/2026 02:59",
-        "importancia": 0.9
-      },
-      {
-        "id": "cor_567f4",
-        "resumo": "Limpeza de memória bem-sucedida",
         "data": "22/03/2026 03:01",
         "importancia": 0.9
       }
@@ -611,10 +611,10 @@
         "importancia": 0.9
       },
       {
-        "id": "ins_c2076",
-        "resumo": "Registro de inicialização em 10/02/2023 com verificação de conectividade",
-        "data": "22/03/2026 03:03",
-        "importancia": 0.8
+        "id": "ins_14a97",
+        "resumo": "Cotação do dólar (0.19 USD = 1 R$)",
+        "data": "22/03/2026 03:56",
+        "importancia": 0.9
       }
     ]
   }
