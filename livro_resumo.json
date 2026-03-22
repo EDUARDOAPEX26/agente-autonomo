@@ -155,12 +155,6 @@
         "importancia": 0.9
       },
       {
-        "id": "bug_4d7d7",
-        "resumo": "Erro na conversão de cotacao dolar",
-        "data": "22/03/2026 03:33",
-        "importancia": 0.9
-      },
-      {
         "id": "bug_b761a",
         "resumo": "Tavily nao configurado, não permitindo busca de cotacao do dolar.",
         "data": "22/03/2026 02:58",
@@ -212,6 +206,12 @@
         "id": "bug_c9fea",
         "resumo": "Problema de repetição da busca de cotação do dólar.",
         "data": "22/03/2026 03:34",
+        "importancia": 0.8
+      },
+      {
+        "id": "bug_bd36d",
+        "resumo": "Problema de repetição da busca de cotação do dólar.",
+        "data": "22/03/2026 03:35",
         "importancia": 0.8
       }
     ],
