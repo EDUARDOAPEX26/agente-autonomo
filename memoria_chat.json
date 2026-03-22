@@ -106,20 +106,20 @@
     {
       "data": "22/03/2026 03:49",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
-    },
-    {
-      "data": "22/03/2026 03:49",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
-    },
-    {
-      "data": "22/03/2026 03:49",
-      "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 16.0% | Mem: 72.3%"
+      "resultado": "CPU: 29.9% | Mem: 71.8%"
+    },
+    {
+      "data": "22/03/2026 03:49",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "O sistema está estável e executando normalmente, pois a CPU está abaixo do patamar de sobrecarga. A utilização da memória é alta, mas isso não é uma condição crítica por si só, desde que o sistema est"
+    },
+    {
+      "data": "22/03/2026 03:50",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 0.19 USD to 1 Brazilian Real. As of today, the dollar is trading at approximately R$5.20. This rate is subject to change throughout the day."
     }
   ],
   "total_conversas": 153,
