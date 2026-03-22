@@ -2,126 +2,126 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "22/03/2026 17:37",
+      "data": "22/03/2026 16:55",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "22/03/2026 16:55",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 17.2% | Mem: 73.1%"
+    },
+    {
+      "data": "22/03/2026 16:56",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 25.1% | Mem: 71.5%"
+    },
+    {
+      "data": "22/03/2026 16:57",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "22/03/2026 17:38",
+      "data": "22/03/2026 16:58",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "22/03/2026 16:59",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "22/03/2026 17:38",
+      "data": "22/03/2026 17:00",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "22/03/2026 17:39",
+      "data": "22/03/2026 17:01",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 35.8% | Mem: 71.4%"
+      "resultado": "CPU: 25.2% | Mem: 69.8%"
     },
     {
-      "data": "22/03/2026 17:40",
+      "data": "22/03/2026 17:03",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 37.7% | Mem: 71.7%"
+      "resultado": "CPU: 22.7% | Mem: 72.6%"
     },
     {
-      "data": "22/03/2026 17:41",
+      "data": "22/03/2026 17:05",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "22/03/2026 17:05",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 34.1% | Mem: 72.5%"
+    },
+    {
+      "data": "22/03/2026 17:06",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 9.5% | Mem: 72.0%"
+    },
+    {
+      "data": "22/03/2026 17:07",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "22/03/2026 17:43",
+      "data": "22/03/2026 17:08",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 27.3% | Mem: 71.0%"
+      "resultado": "CPU: 14.1% | Mem: 68.6%"
     },
     {
-      "data": "22/03/2026 17:44",
+      "data": "22/03/2026 17:08",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 54.6% | Mem: 62.9%"
+      "resultado": "CPU: 18.3% | Mem: 65.7%"
     },
     {
-      "data": "22/03/2026 17:46",
+      "data": "22/03/2026 17:09",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 41.0% | Mem: 71.8%"
+    },
+    {
+      "data": "22/03/2026 17:10",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "22/03/2026 17:46",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "data": "22/03/2026 14:13",
+      "pergunta": "\"quantas chaves GROQ você tem?\"",
+      "resposta": "Eduardo, de acordo com a minha identidade oficial, possuo 3 chaves independentes do GROQ, com um total de 300k tokens por dia. Isso significa que, se uma das chaves esgotar, posso automaticamente migr",
+      "origem": "conversa_local"
     },
     {
-      "data": "22/03/2026 17:47",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "data": "22/03/2026 14:15",
+      "pergunta": "\"qual o limite de entradas dos seus livros temáticos?\"",
+      "resposta": "Eduardo, de acordo com a minha arquitetura, os livros temáticos têm um número limitado de entradas. Especificamente, quando um livro temático atinge mais de 20 entradas, ele é automaticamente comprimi",
+      "origem": "conversa_local"
     },
     {
-      "data": "22/03/2026 17:48",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
-      "data": "22/03/2026 17:49",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
-      "data": "22/03/2026 17:50",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
-      "data": "22/03/2026 17:50",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
-      "data": "22/03/2026 17:50",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 28.3% | Mem: 71.5%"
-    },
-    {
-      "data": "22/03/2026 17:53",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 19.0% | Mem: 73.1%"
-    },
-    {
-      "data": "22/03/2026 17:55",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 33.7% | Mem: 67.3%"
-    },
-    {
-      "data": "22/03/2026 17:58",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 41.6% | Mem: 67.2%"
-    },
-    {
-      "data": "22/03/2026 17:58",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "data": "22/03/2026 14:15",
+      "pergunta": "\"o que é o pipeline de contexto?\"",
+      "resposta": "Eduardo, o pipeline de contexto é um processo de 6 etapas que utilizo para gerar respostas relevantes e precisas às suas perguntas. Aqui está uma visão geral de cada etapa:\n\n1. **Query Rewriting**: Ne",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 153,
-  "total_tarefas": 3465
+  "total_conversas": 156,
+  "total_tarefas": 3425
 }
