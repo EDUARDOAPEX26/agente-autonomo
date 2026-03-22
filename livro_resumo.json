@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 04:07",
-    "total_entradas_processadas": 2880,
-    "ciclos_completos": 144
+    "total_entradas_processadas": 2900,
+    "ciclos_completos": 145
   },
   "blocos": {
     "decisoes": [
@@ -233,6 +233,12 @@
         "importancia": 0.9
       },
       {
+        "id": "bug_95600",
+        "resumo": "geracao do relatorio",
+        "data": "22/03/2026 04:06",
+        "importancia": 0.9
+      },
+      {
         "id": "bug_b761a",
         "resumo": "Tavily nao configurado, não permitindo busca de cotacao do dolar.",
         "data": "22/03/2026 02:58",
@@ -243,12 +249,6 @@
         "resumo": "Tavily nao configurado, não permitindo busca de cotacao do dolar.",
         "data": "22/03/2026 03:04",
         "importancia": 0.85
-      },
-      {
-        "id": "bug_fae71",
-        "resumo": "Análise e limpeza de dados antigos sugerida",
-        "data": "22/03/2026 02:57",
-        "importancia": 0.8
       }
     ],
     "correcoes": [
