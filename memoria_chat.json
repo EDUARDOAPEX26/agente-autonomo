@@ -118,8 +118,8 @@
     {
       "data": "22/03/2026 03:50",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Resumo Técnico**\n\n- **Nível de Registro**: 0\n- **Status do Agente**: Iniciado\n- **Tempo de Execução**: 0 segundos\n- **Última Atualização**: Não definido\n- **Dados Disponíveis**: Não existem registro"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 22.8% | Mem: 67.9%"
     }
   ],
   "total_conversas": 153,
