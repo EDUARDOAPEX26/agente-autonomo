@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:27",
-    "total_entradas_processadas": 660,
-    "ciclos_completos": 33
+    "total_entradas_processadas": 680,
+    "ciclos_completos": 34
   },
   "blocos": {
     "decisoes": [
@@ -18,6 +18,18 @@
         "id": "dec_2f5cb",
         "resumo": "Limpar memória",
         "data": "22/03/2026 03:05",
+        "importancia": 0.9
+      },
+      {
+        "id": "dec_fcf74",
+        "resumo": "Novos avanços em IA",
+        "data": "22/03/2026 03:21",
+        "importancia": 0.9
+      },
+      {
+        "id": "dec_5002f",
+        "resumo": "Novos avanços em IA",
+        "data": "22/03/2026 03:22",
         "importancia": 0.9
       },
       {
