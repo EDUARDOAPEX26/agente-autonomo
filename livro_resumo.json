@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "22/03/2026 03:20",
-    "total_entradas_processadas": 440,
-    "ciclos_completos": 22
+    "ultima_geracao": "22/03/2026 03:21",
+    "total_entradas_processadas": 460,
+    "ciclos_completos": 23
   },
   "blocos": {
     "decisoes": [
@@ -347,6 +347,12 @@
     ],
     "insights": [
       {
+        "id": "ins_5564d",
+        "resumo": "Intel Igência Artificial está em alta com novos avanços",
+        "data": "22/03/2026 03:17",
+        "importancia": 0.95
+      },
+      {
         "id": "ins_022f2",
         "resumo": "Otimizar o desempenho do sistema para registro com chave de identificação",
         "data": "22/03/2026 03:09",
@@ -459,12 +465,6 @@
         "resumo": "Cotação dolar: R$ 5.23 por USD (atual)",
         "data": "22/03/2026 03:14",
         "importancia": 0.8
-      },
-      {
-        "id": "ins_a5117",
-        "resumo": "Registro 1: dados de inicializacao de sistema",
-        "data": "22/03/2026 03:03",
-        "importancia": 0.75
       }
     ]
   }
