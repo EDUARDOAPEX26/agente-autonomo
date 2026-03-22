@@ -116,10 +116,10 @@
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "22/03/2026 23:03",
+      "data": "22/03/2026 23:05",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "gerar relatorio",
+      "resultado": "**Registro inicial**\n\n- Agente: Criado em [Data de criação] com ID único: [ID do agente]\n- Plataforma: Serviços de nuvem [Nome do provedor de serviços de nuvem] (AWS, Google Cloud, Azure, etc.)\n- Regi"
     }
   ],
   "total_conversas": 158,
