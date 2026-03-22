@@ -2,7 +2,7 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "22/03/2026 03:56",
+    "ultima_geracao": "22/03/2026 03:57",
     "total_entradas_processadas": 2260,
     "ciclos_completos": 113
   },
@@ -71,12 +71,6 @@
       {
         "id": "dec_fd4b6",
         "resumo": "Gerar relatório de resumo técnico",
-        "data": "22/03/2026 03:50",
-        "importancia": 0.9
-      },
-      {
-        "id": "dec_c7d72",
-        "resumo": "gerar relatorio Resumo Técnico",
         "data": "22/03/2026 03:50",
         "importancia": 0.9
       },
@@ -197,6 +191,12 @@
         "importancia": 0.9
       },
       {
+        "id": "bug_02d7f",
+        "resumo": "Limpando memória",
+        "data": "22/03/2026 03:51",
+        "importancia": 0.9
+      },
+      {
         "id": "bug_b761a",
         "resumo": "Tavily nao configurado, não permitindo busca de cotacao do dolar.",
         "data": "22/03/2026 02:58",
@@ -242,12 +242,6 @@
         "id": "bug_1f369",
         "resumo": "Problema de repetição da busca de cotação do dólar.",
         "data": "22/03/2026 03:33",
-        "importancia": 0.8
-      },
-      {
-        "id": "bug_c9fea",
-        "resumo": "Problema de repetição da busca de cotação do dólar.",
-        "data": "22/03/2026 03:34",
         "importancia": 0.8
       }
     ],
@@ -611,10 +605,10 @@
         "importancia": 0.9
       },
       {
-        "id": "ins_c2076",
-        "resumo": "Registro de inicialização em 10/02/2023 com verificação de conectividade",
-        "data": "22/03/2026 03:03",
-        "importancia": 0.8
+        "id": "ins_9cc3c",
+        "resumo": "Buscar cotação do dólar atual (0.19 USD por R$",
+        "data": "22/03/2026 03:51",
+        "importancia": 0.9
       }
     ]
   }
