@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:15",
-    "total_entradas_processadas": 140,
-    "ciclos_completos": 7
+    "total_entradas_processadas": 160,
+    "ciclos_completos": 8
   },
   "blocos": {
     "decisoes": [
@@ -121,6 +121,12 @@
         "importancia": 0.9
       },
       {
+        "id": "cor_07a38",
+        "resumo": "Registro de Sessão",
+        "data": "22/03/2026 03:06",
+        "importancia": 0.9
+      },
+      {
         "id": "cor_22264",
         "resumo": "Limpar Memória com sucesso",
         "data": "22/03/2026 03:05",
@@ -133,22 +139,16 @@
         "importancia": 0.8
       },
       {
+        "id": "cor_3bd55",
+        "resumo": "Memoria limpa com sucesso",
+        "data": "22/03/2026 03:05",
+        "importancia": 0.8
+      },
+      {
         "id": "cor_71ab4",
         "resumo": "Recomendação para análise e limpeza de dados antigos",
         "data": "22/03/2026 02:57",
         "importancia": 0.7
-      },
-      {
-        "id": "cor_d0062",
-        "resumo": "Memória limpa com sucesso",
-        "data": "22/03/2026 03:05",
-        "importancia": 0.5
-      },
-      {
-        "id": "cor_aaadb",
-        "resumo": "Análise de memória para otimizar desempenho do sistema",
-        "data": "22/03/2026 03:09",
-        "importancia": 0.4
       }
     ],
     "limitacoes": [
@@ -189,6 +189,12 @@
         "importancia": 0.6
       },
       {
+        "id": "lim_ad7b4",
+        "resumo": "otimizar desempenho, registrar identificacao",
+        "data": "22/03/2026 03:09",
+        "importancia": 0.6
+      },
+      {
         "id": "lim_80c3c",
         "resumo": "análise e limpeza dos dados antigos",
         "data": "22/03/2026 02:57",
@@ -225,6 +231,18 @@
         "importancia": 0.5
       },
       {
+        "id": "lim_3bdf2",
+        "resumo": "cpu e mem 27,6% e 71,8%",
+        "data": "22/03/2026 03:13",
+        "importancia": 0.5
+      },
+      {
+        "id": "lim_88efc",
+        "resumo": "cpu e mem 25,4% e 71,5%",
+        "data": "22/03/2026 03:14",
+        "importancia": 0.5
+      },
+      {
         "id": "lim_858af",
         "resumo": "Tarifário não configurado",
         "data": "22/03/2026 03:04",
@@ -253,18 +271,6 @@
         "resumo": "Tavily não configurado para buscar cotação do dolar",
         "data": "22/03/2026 03:08",
         "importancia": 0.3
-      },
-      {
-        "id": "lim_fef3f",
-        "resumo": "Tavily não configurado para buscar cotação do dolar",
-        "data": "22/03/2026 03:10",
-        "importancia": 0.3
-      },
-      {
-        "id": "lim_4982f",
-        "resumo": "Tavily nao configurado.",
-        "data": "22/03/2026 02:58",
-        "importancia": 0.2
       }
     ],
     "insights": [
@@ -377,16 +383,16 @@
         "importancia": 0.7
       },
       {
+        "id": "ins_040fd",
+        "resumo": "sistema saudável, porém utilização da memória alta",
+        "data": "22/03/2026 03:07",
+        "importancia": 0.7
+      },
+      {
         "id": "ins_ea9ec",
         "resumo": "Geração de relatório com informações do servidor",
         "data": "22/03/2026 03:00",
         "importancia": 0.6
-      },
-      {
-        "id": "ins_76cd0",
-        "resumo": "Conexão bem-sucedida com sistema CRIS",
-        "data": "22/03/2026 02:53",
-        "importancia": 0.5
       }
     ]
   }
