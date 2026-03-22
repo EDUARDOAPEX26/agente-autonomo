@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:26",
-    "total_entradas_processadas": 620,
-    "ciclos_completos": 31
+    "total_entradas_processadas": 640,
+    "ciclos_completos": 32
   },
   "blocos": {
     "decisoes": [
@@ -104,6 +104,12 @@
         "id": "bug_55b1e",
         "resumo": "Registro vazio, histórico está vazio",
         "data": "22/03/2026 03:15",
+        "importancia": 0.7
+      },
+      {
+        "id": "bug_a8155",
+        "resumo": "Nenhum registro encontrado",
+        "data": "22/03/2026 03:21",
         "importancia": 0.7
       }
     ],
