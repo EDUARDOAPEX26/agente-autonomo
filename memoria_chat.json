@@ -116,10 +116,10 @@
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "22/03/2026 10:39",
+      "data": "22/03/2026 10:40",
       "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 10:39:45"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     }
   ],
   "total_conversas": 153,
