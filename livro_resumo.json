@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:32",
-    "total_entradas_processadas": 940,
-    "ciclos_completos": 47
+    "total_entradas_processadas": 960,
+    "ciclos_completos": 48
   },
   "blocos": {
     "decisoes": [
@@ -503,6 +503,18 @@
         "importancia": 0.9
       },
       {
+        "id": "ins_e997b",
+        "resumo": "Cotação do dólar",
+        "data": "22/03/2026 03:29",
+        "importancia": 0.9
+      },
+      {
+        "id": "ins_15c81",
+        "resumo": "Cotação do dólar",
+        "data": "22/03/2026 03:32",
+        "importancia": 0.9
+      },
+      {
         "id": "ins_c2076",
         "resumo": "Registro de inicialização em 10/02/2023 com verificação de conectividade",
         "data": "22/03/2026 03:03",
@@ -518,18 +530,6 @@
         "id": "ins_f8115",
         "resumo": "Registro de operação com servidor e região",
         "data": "22/03/2026 03:00",
-        "importancia": 0.8
-      },
-      {
-        "id": "ins_69330",
-        "resumo": "registo de inicialização e ações efetuadas",
-        "data": "22/03/2026 03:00",
-        "importancia": 0.8
-      },
-      {
-        "id": "ins_cd983",
-        "resumo": "registo de inicialização, ações efetuadas e conectividade",
-        "data": "22/03/2026 03:03",
         "importancia": 0.8
       }
     ]
