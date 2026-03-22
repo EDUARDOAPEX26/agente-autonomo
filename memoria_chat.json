@@ -116,10 +116,10 @@
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "22/03/2026 22:18",
+      "data": "22/03/2026 22:17",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Resumo Técnico**\n\n- **Agentes:** 0\n- **Registros:** Não existe nenhum registro no sistema\n\nNenhuma informação disponível."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 13.5% | Mem: 72.8%"
     }
   ],
   "total_conversas": 158,
