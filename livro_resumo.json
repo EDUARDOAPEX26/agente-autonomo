@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:44",
-    "total_entradas_processadas": 1560,
-    "ciclos_completos": 78
+    "total_entradas_processadas": 1580,
+    "ciclos_completos": 79
   },
   "blocos": {
     "decisoes": [
@@ -59,6 +59,12 @@
       {
         "id": "dec_d8de5",
         "resumo": "Configuracao inicial da nuvem AWS com banco de dados Amazon",
+        "data": "22/03/2026 03:41",
+        "importancia": 0.9
+      },
+      {
+        "id": "dec_37e92",
+        "resumo": "Configuração inicial de nuvem AWS e banco de dados",
         "data": "22/03/2026 03:41",
         "importancia": 0.9
       },
@@ -587,15 +593,15 @@
         "importancia": 0.9
       },
       {
+        "id": "ins_15a38",
+        "resumo": "Novos avanços em inteligência artificial",
+        "data": "22/03/2026 03:43",
+        "importancia": 0.9
+      },
+      {
         "id": "ins_c2076",
         "resumo": "Registro de inicialização em 10/02/2023 com verificação de conectividade",
         "data": "22/03/2026 03:03",
-        "importancia": 0.8
-      },
-      {
-        "id": "ins_b370e",
-        "resumo": "Relatório com registro de operação bem-sucedida com sistema CRIS",
-        "data": "22/03/2026 02:53",
         "importancia": 0.8
       }
     ]
