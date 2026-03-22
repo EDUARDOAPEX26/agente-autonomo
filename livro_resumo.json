@@ -51,12 +51,6 @@
         "importancia": 0.9
       },
       {
-        "id": "dec_e96b2",
-        "resumo": "Mensagem de sucesso ao limpar memoria",
-        "data": "22/03/2026 03:38",
-        "importancia": 0.9
-      },
-      {
         "id": "dec_5a9fe",
         "resumo": "Taxa de câmbio entre dólar e real definida",
         "data": "22/03/2026 03:16",
@@ -161,24 +155,6 @@
         "importancia": 0.9
       },
       {
-        "id": "bug_f00b5",
-        "resumo": "Tentei buscar cotacao dolar e retornou um texto incompleto.",
-        "data": "22/03/2026 03:36",
-        "importancia": 0.9
-      },
-      {
-        "id": "bug_9b122",
-        "resumo": "Tentei buscar cotacao dolar e retornou um texto incompleto.",
-        "data": "22/03/2026 03:37",
-        "importancia": 0.9
-      },
-      {
-        "id": "bug_05051",
-        "resumo": "Tentei buscar cotacao dolar e retornou um texto incompleto.",
-        "data": "22/03/2026 03:38",
-        "importancia": 0.9
-      },
-      {
         "id": "bug_b761a",
         "resumo": "Tavily nao configurado, não permitindo busca de cotacao do dolar.",
         "data": "22/03/2026 02:58",
@@ -218,6 +194,24 @@
         "id": "bug_3b86a",
         "resumo": "Problema de repetição da busca de cotação do dólar.",
         "data": "22/03/2026 03:32",
+        "importancia": 0.8
+      },
+      {
+        "id": "bug_1f369",
+        "resumo": "Problema de repetição da busca de cotação do dólar.",
+        "data": "22/03/2026 03:33",
+        "importancia": 0.8
+      },
+      {
+        "id": "bug_c9fea",
+        "resumo": "Problema de repetição da busca de cotação do dólar.",
+        "data": "22/03/2026 03:34",
+        "importancia": 0.8
+      },
+      {
+        "id": "bug_bd36d",
+        "resumo": "Problema de repetição da busca de cotação do dólar.",
+        "data": "22/03/2026 03:35",
         "importancia": 0.8
       }
     ],
@@ -351,12 +345,6 @@
         "importancia": 0.7
       },
       {
-        "id": "lim_057a0",
-        "resumo": "Status do agente e sistema operacional inativo",
-        "data": "22/03/2026 03:38",
-        "importancia": 0.7
-      },
-      {
         "id": "lim_60df5",
         "resumo": "sistema está estável, porém com carga média de CPU",
         "data": "22/03/2026 02:54",
@@ -462,6 +450,12 @@
         "id": "lim_e8486",
         "resumo": "Sistema estável, porém com carga média de CPU e uso de memória alto",
         "data": "22/03/2026 02:54",
+        "importancia": 0.5
+      },
+      {
+        "id": "lim_5638e",
+        "resumo": "Sistema saudável com CPU sobrecarregada",
+        "data": "22/03/2026 02:56",
         "importancia": 0.5
       }
     ],
