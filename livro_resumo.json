@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 04:02",
-    "total_entradas_processadas": 2560,
-    "ciclos_completos": 128
+    "total_entradas_processadas": 2580,
+    "ciclos_completos": 129
   },
   "blocos": {
     "decisoes": [
@@ -197,6 +197,18 @@
         "importancia": 0.9
       },
       {
+        "id": "bug_88f7d",
+        "resumo": "Erros de configuração",
+        "data": "22/03/2026 04:00",
+        "importancia": 0.9
+      },
+      {
+        "id": "bug_fee69",
+        "resumo": "Erros de configuração",
+        "data": "22/03/2026 04:02",
+        "importancia": 0.9
+      },
+      {
         "id": "bug_b761a",
         "resumo": "Tavily nao configurado, não permitindo busca de cotacao do dolar.",
         "data": "22/03/2026 02:58",
@@ -236,18 +248,6 @@
         "id": "bug_3b86a",
         "resumo": "Problema de repetição da busca de cotação do dólar.",
         "data": "22/03/2026 03:32",
-        "importancia": 0.8
-      },
-      {
-        "id": "bug_1f369",
-        "resumo": "Problema de repetição da busca de cotação do dólar.",
-        "data": "22/03/2026 03:33",
-        "importancia": 0.8
-      },
-      {
-        "id": "bug_c9fea",
-        "resumo": "Problema de repetição da busca de cotação do dólar.",
-        "data": "22/03/2026 03:34",
         "importancia": 0.8
       }
     ],
@@ -319,6 +319,12 @@
         "importancia": 1.0
       },
       {
+        "id": "cor_b11a2",
+        "resumo": "Memoria limpa com sucesso",
+        "data": "22/03/2026 03:58",
+        "importancia": 1.0
+      },
+      {
         "id": "cor_b88e3",
         "resumo": "Memória limpa com sucesso",
         "data": "22/03/2026 03:53",
@@ -364,12 +370,6 @@
         "id": "cor_b0f14",
         "resumo": "Memória limpa com sucesso",
         "data": "22/03/2026 02:59",
-        "importancia": 0.9
-      },
-      {
-        "id": "cor_89d34",
-        "resumo": "Memória limpa com sucesso",
-        "data": "22/03/2026 03:01",
         "importancia": 0.9
       }
     ],
