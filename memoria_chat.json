@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "22/03/2026 18:06",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 28.0% | Mem: 72.3%"
-    },
-    {
       "data": "22/03/2026 18:07",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 19.8% | Mem: 71.3%"
+    },
+    {
+      "data": "22/03/2026 18:42",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "**Início de Instância**: Não há dados disponíveis para relatar.\n\n**Configurações**\n- Plataforma: Nuvem Pública\n- Modelos: Não configurados\n- Linguagem de Programação: Não definida\n\n**Status**: Inativo"
     }
   ],
   "total_conversas": 153,
-  "total_tarefas": 3490
+  "total_tarefas": 3491
 }
