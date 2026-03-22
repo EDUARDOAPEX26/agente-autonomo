@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "22/03/2026 03:15",
-    "total_entradas_processadas": 160,
-    "ciclos_completos": 8
+    "total_entradas_processadas": 180,
+    "ciclos_completos": 9
   },
   "blocos": {
     "decisoes": [
@@ -16,6 +16,24 @@
       }
     ],
     "bugs": [
+      {
+        "id": "bug_5fa14",
+        "resumo": "Cotação do dólar não disponível por falta de configuração de Tavily",
+        "data": "22/03/2026 03:04",
+        "importancia": 0.9
+      },
+      {
+        "id": "bug_27a1f",
+        "resumo": "Cotação do dólar não disponível por falta de configuração de Tavily",
+        "data": "22/03/2026 03:08",
+        "importancia": 0.9
+      },
+      {
+        "id": "bug_bf5c9",
+        "resumo": "Cotação do dólar não disponível por falta de configuração de Tavily",
+        "data": "22/03/2026 03:10",
+        "importancia": 0.9
+      },
       {
         "id": "bug_fae71",
         "resumo": "Análise e limpeza de dados antigos sugerida",
@@ -127,6 +145,12 @@
         "importancia": 0.9
       },
       {
+        "id": "cor_41fa1",
+        "resumo": "Memória limpa com sucesso",
+        "data": "22/03/2026 03:05",
+        "importancia": 0.9
+      },
+      {
         "id": "cor_22264",
         "resumo": "Limpar Memória com sucesso",
         "data": "22/03/2026 03:05",
@@ -143,12 +167,6 @@
         "resumo": "Memoria limpa com sucesso",
         "data": "22/03/2026 03:05",
         "importancia": 0.8
-      },
-      {
-        "id": "cor_71ab4",
-        "resumo": "Recomendação para análise e limpeza de dados antigos",
-        "data": "22/03/2026 02:57",
-        "importancia": 0.7
       }
     ],
     "limitacoes": [
