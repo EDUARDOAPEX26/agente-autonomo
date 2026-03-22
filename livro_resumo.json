@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "22/03/2026 03:26",
-    "total_entradas_processadas": 640,
-    "ciclos_completos": 32
+    "ultima_geracao": "22/03/2026 03:27",
+    "total_entradas_processadas": 660,
+    "ciclos_completos": 33
   },
   "blocos": {
     "decisoes": [
@@ -83,6 +83,12 @@
         "importancia": 0.8
       },
       {
+        "id": "bug_48b3a",
+        "resumo": "CPU: 29,3% | Mem: 72,2%",
+        "data": "22/03/2026 03:25",
+        "importancia": 0.8
+      },
+      {
         "id": "bug_f0244",
         "resumo": "Sistema saudável, porém Memória alta",
         "data": "22/03/2026 03:07",
@@ -111,6 +117,12 @@
         "resumo": "Nenhum registro encontrado",
         "data": "22/03/2026 03:21",
         "importancia": 0.7
+      },
+      {
+        "id": "bug_0a08e",
+        "resumo": "Limpou memória",
+        "data": "22/03/2026 03:25",
+        "importancia": 0.5
       }
     ],
     "correcoes": [
