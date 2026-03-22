@@ -118,8 +118,8 @@
     {
       "data": "22/03/2026 09:46",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Configuração de Borda:** O agente autonomo está em nuvem, mas não há registros históricos de execução ou configuração. **Estatísticas:** Nenhuma informação disponível sobre desempenho, uso de recurs"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 22.8% | Mem: 72.2%"
     }
   ],
   "total_conversas": 153,
