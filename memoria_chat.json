@@ -4,12 +4,6 @@
     {
       "data": "22/03/2026 03:56",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 30.0% | Mem: 71.8%"
-    },
-    {
-      "data": "22/03/2026 03:56",
-      "origem": "nuvem",
       "tarefa": "verificar sistema",
       "resultado": "O sistema está com carga moderada de CPU e baixo uso da RAM, indicando que está em um estado estável."
     },
@@ -119,9 +113,15 @@
       "data": "22/03/2026 04:03",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
-      "resultado": "\"Ao iniciar o processo de criação do agente em nuvem, os seguintes passos foram realizados: \n\n * Inicialização do ambiente virtual com recursos mínimos de armazenamento e processamento. \n\n * Verificaç"
+      "resultado": "Registro criado com sucesso: \n- ID do registro: não atribuído\n- Agente rodando em nuvem desde: não inicializado\n- Plataforma: não especificada\n- Tipo de ambiente: não definido\n- Configuração de segura"
+    },
+    {
+      "data": "22/03/2026 04:04",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 28.3% | Mem: 69.8%"
     }
   ],
   "total_conversas": 153,
-  "total_tarefas": 2860
+  "total_tarefas": 2861
 }
