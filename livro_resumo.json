@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "22/03/2026 03:34",
-    "total_entradas_processadas": 1040,
-    "ciclos_completos": 52
+    "ultima_geracao": "22/03/2026 03:35",
+    "total_entradas_processadas": 1060,
+    "ciclos_completos": 53
   },
   "blocos": {
     "decisoes": [
@@ -515,6 +515,12 @@
         "importancia": 0.9
       },
       {
+        "id": "ins_723db",
+        "resumo": "Taxa de câmbio atual: R$ 1 = US$ 0,19",
+        "data": "22/03/2026 03:32",
+        "importancia": 0.9
+      },
+      {
         "id": "ins_c2076",
         "resumo": "Registro de inicialização em 10/02/2023 com verificação de conectividade",
         "data": "22/03/2026 03:03",
@@ -524,12 +530,6 @@
         "id": "ins_b370e",
         "resumo": "Relatório com registro de operação bem-sucedida com sistema CRIS",
         "data": "22/03/2026 02:53",
-        "importancia": 0.8
-      },
-      {
-        "id": "ins_f8115",
-        "resumo": "Registro de operação com servidor e região",
-        "data": "22/03/2026 03:00",
         "importancia": 0.8
       }
     ]
