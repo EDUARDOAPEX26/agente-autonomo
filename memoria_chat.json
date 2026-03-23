@@ -2,76 +2,10 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 02:29",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 38.2% | Mem: 70.8%"
-    },
-    {
-      "data": "23/03/2026 02:30",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 02:31",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "23/03/2026 02:32",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 30.9% | Mem: 69.9%"
-    },
-    {
-      "data": "23/03/2026 02:34",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 02:36",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 02:37",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 19.7% | Mem: 70.0%"
-    },
-    {
-      "data": "23/03/2026 02:38",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "23/03/2026 02:39",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 27.2% | Mem: 70.7%"
-    },
-    {
-      "data": "23/03/2026 02:40",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 02:40:05"
-    },
-    {
-      "data": "23/03/2026 02:41",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
       "data": "23/03/2026 02:42",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 22.5% | Mem: 71.8%"
     },
     {
       "data": "23/03/2026 02:43",
@@ -80,48 +14,54 @@
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 02:45",
+      "data": "23/03/2026 02:44",
       "origem": "nuvem",
       "tarefa": "verificar sistema",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
-      "data": "23/03/2026 02:46",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 02:46:17"
-    },
-    {
-      "data": "23/03/2026 02:47",
+      "data": "23/03/2026 02:45",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 02:46",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 16.8% | Mem: 71.3%"
     },
     {
       "data": "23/03/2026 02:48",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
-      "resultado": "Registros do Agente em Nuvem:\n\n- Data: 23/03/2024 12:00:00\n- Tempo de Uso: 2 horas 15 minutos\n- Consumo de Recursos: CPU: 25%, Memória: 50%\n- Estado: Ativo\n- Localização: São Paulo, Brasil (latitude: "
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 02:49",
       "origem": "nuvem",
       "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 02:49:57"
+      "resultado": "Atividade registrada as 02:49:35"
+    },
+    {
+      "data": "23/03/2026 02:50",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 21.3% | Mem: 71.3%"
     },
     {
       "data": "23/03/2026 02:51",
       "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     },
     {
       "data": "23/03/2026 02:52",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 14.2% | Mem: 71.0%"
     }
   ],
-  "total_conversas": 164,
-  "total_tarefas": 3828
+  "total_conversas": 0,
+  "total_tarefas": 10
 }
