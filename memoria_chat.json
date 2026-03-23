@@ -2,61 +2,67 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "23/03/2026 04:37",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 10.8% | Mem: 69.6%"
+    },
+    {
       "data": "23/03/2026 04:38",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 04:39",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 04:41",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Limite Tavily atingido."
     },
     {
-      "data": "23/03/2026 04:39",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 22.9% | Mem: 68.4%"
-    },
-    {
-      "data": "23/03/2026 04:40",
+      "data": "23/03/2026 04:42",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
-      "resultado": "Aqui está um resumo técnico dos últimos 5 registros:\n\n1. **Data/Hora**: 20/02/2024 14:30\n **Ação**: Monitoramento de rede, identificação de problema com roteador em um cliente\n **Status**: Pronto (res"
-    },
-    {
-      "data": "23/03/2026 04:41",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "23/03/2026 04:43",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Nenhuma API disponível no momento."
+      "resultado": "**Registro 1:**\nData: 01/02/2024 - 14:30:00\nEvento: Inicialização do contêiner da aplicação\nDescrição: O contêiner da aplicação foi inicializado com sucesso, iniciando a execução da aplicação no ambie"
     },
     {
       "data": "23/03/2026 04:44",
       "origem": "nuvem",
-      "tarefa": "analisar memoria",
+      "tarefa": "verificar sistema",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 04:45",
       "origem": "nuvem",
-      "tarefa": "mostrar hora",
-      "resultado": "04:45:53"
-    },
-    {
-      "data": "23/03/2026 04:46",
-      "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
+      "data": "23/03/2026 04:46",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Limite Tavily atingido."
+    },
+    {
       "data": "23/03/2026 04:47",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 13.1% | Mem: 67.8%"
+      "tarefa": "analisar memoria",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 04:48",
+      "origem": "nuvem",
+      "tarefa": "mostrar hora",
+      "resultado": "04:48:51"
+    },
+    {
+      "data": "23/03/2026 04:49",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Limite Tavily atingido."
@@ -64,64 +70,58 @@
     {
       "data": "23/03/2026 04:50",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 20.3% | Mem: 70.1%"
     },
     {
       "data": "23/03/2026 04:51",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 04:51:27"
-    },
-    {
-      "data": "23/03/2026 04:53",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 04:54",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 37.2% | Mem: 68.1%"
-    },
-    {
-      "data": "23/03/2026 04:55",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Limite Tavily atingido."
-    },
-    {
-      "data": "23/03/2026 04:56",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 04:57",
-      "origem": "nuvem",
-      "tarefa": "mostrar hora",
-      "resultado": "04:57:47"
-    },
-    {
-      "data": "23/03/2026 04:58",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
+      "data": "23/03/2026 04:52",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Limite Tavily atingido."
+    },
+    {
+      "data": "23/03/2026 04:53",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 20.1% | Mem: 71.6%"
+    },
+    {
+      "data": "23/03/2026 04:55",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 04:56",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 04:57",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Limite Tavily atingido."
+    },
+    {
       "data": "23/03/2026 04:59",
       "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 04:59:49"
+      "tarefa": "gerar relatorio",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 05:00",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Limite Tavily atingido."
+      "tarefa": "analisar memoria",
+      "resultado": "Nenhuma API disponível no momento."
     }
   ],
-  "total_conversas": 164,
-  "total_tarefas": 3936
+  "total_conversas": 0,
+  "total_tarefas": 120
 }
