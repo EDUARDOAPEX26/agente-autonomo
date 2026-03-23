@@ -45,10 +45,29 @@
       "texto_indexado": "seu treinamento é melhor que o da llama de acordo com as informações disponíveis nos meus livros especificamente em uma conversa técnica ocorrida em 23/03/2026 10 08 há uma menção de que o llama 3 3 70b é considerado o modelo mais capaz d",
       "confianca": 0.7,
       "origem": "conversa_tecnica",
-      "status": "normal"
+      "status": "ambiguo"
+    },
+    {
+      "data": "23/03/2026 20:00",
+      "pergunta": "Seu treinamento é melhor que o da Llama?",
+      "resposta": "De acordo com minhas informações, o GROQ llama-3.3-70b é considerado um modelo muito capaz. No entanto, não tenho informações suficientes para fazer uma comparação direta com o Llama em todos os aspec",
+      "texto_indexado": "seu treinamento é melhor que o da llama de acordo com minhas informações o groq llama-3 3-70b é considerado um modelo muito capaz no entanto não tenho informações suficientes para fazer uma comparação direta com o llama em todos os aspec",
+      "confianca": 0.7,
+      "origem": "conversa_tecnica",
+      "status": "ambiguo"
     }
   ],
-  "total_entradas": 5,
-  "ultima_atualizacao": "23/03/2026 19:35",
-  "contradicoes": []
+  "total_entradas": 6,
+  "ultima_atualizacao": "23/03/2026 20:00",
+  "contradicoes": [
+    {
+      "data": "23/03/2026 20:00",
+      "pergunta_comum": "Seu treinamento é melhor que o da Llama?",
+      "resposta_nova": "De acordo com minhas informações, o GROQ llama-3.3-70b é considerado um modelo muito capaz. No entan",
+      "resposta_anterior": "De acordo com as informações disponíveis nos meus livros, especificamente em uma conversa técnica oc",
+      "confianca_nova": 0.7,
+      "confianca_anterior": 0.7,
+      "resolucao": "ambiguo"
+    }
+  ]
 }
