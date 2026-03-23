@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "23/03/2026 13:21",
-    "total_entradas_processadas": 81255,
-    "ciclos_completos": 4063
+    "ultima_geracao": "23/03/2026 13:31",
+    "total_entradas_processadas": 81275,
+    "ciclos_completos": 4064
   },
   "blocos": {
     "decisoes": [
@@ -381,6 +381,12 @@
         "importancia": 0.7
       },
       {
+        "id": "lim_43c71",
+        "resumo": "System sob carregamento pesado pode afetar a performance",
+        "data": "23/03/2026 13:30",
+        "importancia": 0.7
+      },
+      {
         "id": "lim_60df5",
         "resumo": "sistema está estável, porém com carga média de CPU",
         "data": "22/03/2026 02:54",
@@ -486,12 +492,6 @@
         "id": "lim_0dbc5",
         "resumo": "Sistema com 19.1% de CPU e 71.6% de Memoria",
         "data": "22/03/2026 03:41",
-        "importancia": 0.6
-      },
-      {
-        "id": "lim_707b9",
-        "resumo": "Sistema com 25.4% de CPU e 72.9% de Memoria",
-        "data": "22/03/2026 03:43",
         "importancia": 0.6
       }
     ],
