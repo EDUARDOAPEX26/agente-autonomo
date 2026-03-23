@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "23/03/2026 18:02",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Não, o sistema não está saudável, pois a CPU está a 21,5%, que pode indicar sobrecarga e consumo de processamento elevado."
+    },
+    {
       "data": "23/03/2026 18:03",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
@@ -110,18 +116,12 @@
       "resultado": "CPU: 32.9% | Mem: 67.5%"
     },
     {
-      "data": "23/03/2026 18:28",
+      "data": "23/03/2026 18:29",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "23/03/2026 18:30",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro #001**\n\n* **Data/Hora**: 23/03/2026 14:30:00\n* **Status**: Conectado\n* **Endereço IP**: 192.0.2.1\n* **Sistema Operacional**: Linux 5.15.0-46-generic\n* **Versão do Agente**: 1.0.0"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 26.4% | Mem: 73.0%"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4559
+  "total_tarefas": 4558
 }
