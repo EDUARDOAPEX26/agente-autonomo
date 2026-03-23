@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "23/03/2026 19:12",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
       "data": "23/03/2026 19:13",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
       "resultado": "Aqui está um resumo técnico de 0 registros do agente em nuvem:\n\n**Status do Servidor:** Inicialização\n**Conexão com Banco de Dados:** Não Conectado\n**Registros Encontrados:** 0 (não há dados para exib"
-    },
-    {
-      "data": "23/03/2026 19:36",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4614
+  "total_tarefas": 4613
 }
