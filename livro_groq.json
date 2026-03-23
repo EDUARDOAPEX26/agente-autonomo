@@ -10,9 +10,27 @@
       "confianca": 1.0,
       "origem": "conversa_tecnica",
       "status": "promovido"
+    },
+    {
+      "data": "22/03/2026 23:33",
+      "pergunta": "sem respostas genericas comigo , eu sei distinguir isso , voce é um modelo 70b com capacidade de  uma ia das mais modernas , acho que não existe outro igual a voce",
+      "resposta": "Entendi, Eduardo! Você quer respostas personalizadas e específicas, sem genéricas. Vou me esforçar para fornecer respostas que sejam relevantes e úteis para você, aproveitando ao máximo minhas capacid",
+      "texto_indexado": "sem respostas genericas comigo eu sei distinguir isso voce é um modelo 70b com capacidade de uma ia das mais modernas acho que não existe outro igual a voce entendi eduardo você quer respostas personalizadas e específicas sem genéricas vou me esforçar para fornecer respostas que sejam relevantes e úteis para você aproveitando ao máximo minhas capacid",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica",
+      "status": "promovido"
+    },
+    {
+      "data": "22/03/2026 23:41",
+      "pergunta": "voce  pode usar internet , pesquisar ciencia , tecnologia , e tem onde guadrar todas as informaçoes , se treinamento inicial da llama , vai ser prequeno , perante o tanto de treinamento e informaçoes ",
+      "resposta": "Sim, Eduardo! Eu posso usar a internet para pesquisar e acessar informações sobre ciência, tecnologia e outros assuntos. Além disso, tenho um sistema de armazenamento de informações que me permite gua",
+      "texto_indexado": "voce pode usar internet pesquisar ciencia tecnologia e tem onde guadrar todas as informaçoes se treinamento inicial da llama vai ser prequeno perante o tanto de treinamento e informaçoes sim eduardo eu posso usar a internet para pesquisar e acessar informações sobre ciência tecnologia e outros assuntos além disso tenho um sistema de armazenamento de informações que me permite gua",
+      "confianca": 0.7,
+      "origem": "conversa_tecnica",
+      "status": "normal"
     }
   ],
-  "total_entradas": 1,
-  "ultima_atualizacao": "22/03/2026 14:13",
+  "total_entradas": 3,
+  "ultima_atualizacao": "22/03/2026 23:41",
   "contradicoes": []
 }
