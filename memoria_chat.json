@@ -107,19 +107,19 @@
       "data": "23/03/2026 18:01",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 42.7% | Mem: 71.9%"
+      "resultado": "CPU: 22.6% | Mem: 70.5%"
     },
     {
       "data": "23/03/2026 18:02",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "verificar sistema",
+      "resultado": "Não, o sistema não está saudável, pois a CPU está a 21,5%, que pode indicar sobrecarga e consumo de processamento elevado."
     },
     {
       "data": "23/03/2026 18:03",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 25.2% | Mem: 72.1%"
+      "resultado": "CPU: 24.7% | Mem: 70.8%"
     }
   ],
   "total_conversas": 164,
