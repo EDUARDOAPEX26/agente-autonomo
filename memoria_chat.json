@@ -118,8 +118,8 @@
     {
       "data": "23/03/2026 22:12",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 23.1% | Mem: 71.2%"
+      "tarefa": "gerar relatorio",
+      "resultado": "Inicie com as configurações básicas:\n\n- Plataforma: Nuvem (infraestrutura base para execução)\n- Ambiente: Desenvolvimento (configurações de teste)\n- Sessão: Inicial (primeira execução)\n- Registros: 0 "
     }
   ],
   "total_conversas": 164,
