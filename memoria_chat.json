@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 00:14",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 34.7% | Mem: 68.7%"
-    },
-    {
       "data": "23/03/2026 00:15",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
@@ -120,8 +114,14 @@
       "pergunta": "qual o preço atual da ação da Nvidia na bolsa agora?",
       "resposta": "Eduardo, não tenho acesso a dados em tempo real no momento. Meus livros estão limitados às informações disponíveis até 2026 e não incluem informações em tempo real sobre o mercado de ações. Além disso",
       "origem": "conversa_local"
+    },
+    {
+      "data": "23/03/2026 00:52",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 3727
+  "total_tarefas": 3728
 }
