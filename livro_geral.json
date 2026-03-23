@@ -153,11 +153,20 @@
       "texto_indexado": "quais são suas limitações tenho algumas limitações importantes não consigo acessar dados em tempo real sem buscar na internet o que significa que não posso fornecer informações atualizadas sobre coisas como cotações clima o",
       "confianca": 1.0,
       "origem": "conversa_tecnica",
-      "status": "promovido"
+      "status": "ambiguo"
+    },
+    {
+      "data": "23/03/2026 20:23",
+      "pergunta": "Quais são suas limitações?",
+      "resposta": "Minhas limitações incluem não acessar dados em tempo real sem busca ativa, como cotacoes, clima ou noticias. Além disso, cada livro de memoria recupera no maximo as 20 entradas mais relevantes por con",
+      "texto_indexado": "quais são suas limitações minhas limitações incluem não acessar dados em tempo real sem busca ativa como cotacoes clima ou noticias além disso cada livro de memoria recupera no maximo as 20 entradas mais relevantes por con",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica",
+      "status": "ambiguo"
     }
   ],
-  "total_entradas": 19,
-  "ultima_atualizacao": "23/03/2026 20:00",
+  "total_entradas": 20,
+  "ultima_atualizacao": "23/03/2026 20:23",
   "contradicoes": [
     {
       "data": "23/03/2026 19:50",
@@ -185,6 +194,15 @@
       "confianca_nova": 1.0,
       "confianca_anterior": 0.7,
       "resolucao": "nova_vence"
+    },
+    {
+      "data": "23/03/2026 20:23",
+      "pergunta_comum": "Quais são suas limitações?",
+      "resposta_nova": "Minhas limitações incluem não acessar dados em tempo real sem busca ativa, como cotacoes, clima ou n",
+      "resposta_anterior": "Tenho algumas limitações importantes. Não consigo acessar dados em tempo real sem buscar na internet",
+      "confianca_nova": 1.0,
+      "confianca_anterior": 1.0,
+      "resolucao": "ambiguo"
     }
   ]
 }
