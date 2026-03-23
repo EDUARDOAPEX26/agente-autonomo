@@ -65,7 +65,7 @@
       "data": "23/03/2026 01:18",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 20.3% | Mem: 71.0%"
+      "resultado": "CPU: 21.6% | Mem: 71.6%"
     },
     {
       "data": "23/03/2026 01:20",
@@ -83,7 +83,7 @@
       "data": "23/03/2026 01:22",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
-      "resultado": "Registro: 2023-02-15 14:30:00\n\n- IP da requisição: 192.168.1.100\n- Tipo de navegador: Google Chrome\n- Versão do navegador: 96.0.4664.110\n- Plataforma: Windows 10\n- Linguagem da página: Português\n- Dur"
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 01:24",
@@ -95,31 +95,31 @@
       "data": "23/03/2026 01:25",
       "origem": "nuvem",
       "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 01:25:31"
+      "resultado": "Atividade registrada as 01:25:32"
     },
     {
       "data": "23/03/2026 01:26",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "23/03/2026 01:27",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "23/03/2026 01:27",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 01:27:33"
-    },
-    {
       "data": "23/03/2026 01:28",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 10.6% | Mem: 72.3%"
     },
     {
       "data": "23/03/2026 01:29",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 22.5% | Mem: 70.9%"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     }
   ],
   "total_conversas": 164,
