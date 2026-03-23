@@ -3,12 +3,6 @@
   "aprendizados": [
     {
       "data": "22/03/2026 21:43",
-      "pergunta": "quais são todas as APIs configuradas no seu sistema e seus limites?",
-      "resposta": "Eduardo, de acordo com as informações disponíveis nos meus livros, as APIs configuradas no meu sistema são:\n\n1. **Tavily**: utilizada para buscar informações em tempo real na internet. O limite é de 3",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "22/03/2026 21:43",
       "pergunta": "explique detalhadamente como funciona o pipeline de busca em 6 etapas",
       "resposta": "Eduardo, o pipeline de busca em 6 etapas é um processo fundamental para permitir que eu forneça respostas precisas e relevantes às suas perguntas. Aqui está uma explicação detalhada de cada etapa:\n\n**",
       "origem": "conversa_local"
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "23/03/2026 01:08",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 24.3% | Mem: 68.0%"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 3742
+  "total_tarefas": 3743
 }
