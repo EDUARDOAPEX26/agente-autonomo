@@ -4,32 +4,38 @@
     {
       "data": "23/03/2026 01:22",
       "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 01:24",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 01:25",
+      "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 01:23",
+      "data": "23/03/2026 01:26",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "23/03/2026 01:25",
+      "data": "23/03/2026 01:27",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
-      "resultado": "**Registro Nº 1:**\n- **Data**: 12/02/2023\n- **Evento**: Realização de backup de dados no servidor do Azure.\n- **Descrição**: Foi realizado um backup completo dos dados armazenados no servidor do Azure"
-    },
-    {
-      "data": "23/03/2026 01:26",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 01:26:36"
+      "resultado": "Registro nº: 001\n\n- Data: 01/01/2024\n- Hora: 14:30:00\n- Status: Conectado\n- Servidor: AWS EC2\n- Region: Grão-Pará\n- Tamanho da memória: 8GB\n- Utilização da CPU: 23%\n- Uso de armazenamento: 60%\n- Conex"
     },
     {
       "data": "23/03/2026 01:28",
       "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 01:28:49"
     },
     {
       "data": "23/03/2026 01:29",
@@ -41,31 +47,25 @@
       "data": "23/03/2026 01:30",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 55.5% | Mem: 71.6%"
+      "resultado": "CPU: 21.2% | Mem: 71.9%"
     },
     {
-      "data": "23/03/2026 01:31",
+      "data": "23/03/2026 01:32",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
-      "data": "23/03/2026 01:32",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 01:32:54"
-    },
-    {
       "data": "23/03/2026 01:33",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 01:34",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 46.6% | Mem: 65.5%"
+      "resultado": "CPU: 33.8% | Mem: 69.6%"
     },
     {
       "data": "23/03/2026 01:35",
@@ -88,8 +88,8 @@
     {
       "data": "23/03/2026 01:39",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 43.1% | Mem: 69.8%"
     },
     {
       "data": "23/03/2026 01:41",
@@ -100,25 +100,25 @@
     {
       "data": "23/03/2026 01:42",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 41.2% | Mem: 65.9%"
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 01:42:13"
     },
     {
       "data": "23/03/2026 01:43",
       "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 36.7% | Mem: 68.9%"
     },
     {
       "data": "23/03/2026 01:44",
       "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 01:44:48"
+      "tarefa": "gerar relatorio",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 01:46",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
+      "tarefa": "verificar sistema",
       "resultado": "Nenhuma API disponível no momento."
     }
   ],
