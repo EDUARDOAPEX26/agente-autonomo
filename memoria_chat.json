@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "22/03/2026 21:43",
-      "pergunta": "quais são os 10 mentores e seus princípios mestres?",
-      "resposta": "Eduardo, não encontrei informações suficientes nos meus livros sobre isso. Os dados disponíveis nos meus livros são limitados e não incluem informações sobre os 10 mentores e seus princípios mestres. ",
-      "origem": "conversa_local"
-    },
-    {
       "data": "22/03/2026 21:47",
       "pergunta": "quem ganhou o Oscar de melhor filme em 2026?",
       "resposta": "Eduardo, não encontrei informações suficientes nos meus livros sobre isso. Meus livros estão limitados às informações disponíveis até 2026 e não incluem informações sobre eventos futuros, como o Oscar",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "23/03/2026 01:14",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 42.9% | Mem: 65.6%"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 3744
+  "total_tarefas": 3745
 }
