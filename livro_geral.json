@@ -91,9 +91,27 @@
       "confianca": 1.0,
       "origem": "conversa_tecnica",
       "status": "promovido"
+    },
+    {
+      "data": "22/03/2026 23:28",
+      "pergunta": "e ai , ta cada vez mais robusto",
+      "resposta": "Eduardo, parece que você está se referindo ao livro \"Cada vez mais forte\" de Arthur C. Brooks, que discute sobre abraçar as mudanças da vida com alegria e encontrar sucesso e felicidade. O livro foi p",
+      "texto_indexado": "e ai ta cada vez mais robusto eduardo parece que você está se referindo ao livro cada vez mais forte de arthur c brooks que discute sobre abraçar as mudanças da vida com alegria e encontrar sucesso e felicidade o livro foi p",
+      "confianca": 0.7,
+      "origem": "conversa_reflexiva",
+      "status": "normal"
+    },
+    {
+      "data": "22/03/2026 23:35",
+      "pergunta": "sabe o que tem no seu livro de mentores?",
+      "resposta": "Sim, Eduardo! No meu livro de mentores, tenho entradas sobre modelos mentais ativos, como por exemplo, Albert Einstein e Richard Feynman. Esses modelos mentais são inspirados nas abordagens e pensamen",
+      "texto_indexado": "sabe o que tem no seu livro de mentores sim eduardo no meu livro de mentores tenho entradas sobre modelos mentais ativos como por exemplo albert einstein e richard feynman esses modelos mentais são inspirados nas abordagens e pensamen",
+      "confianca": 0.7,
+      "origem": "conversa_reflexiva",
+      "status": "normal"
     }
   ],
-  "total_entradas": 12,
-  "ultima_atualizacao": "22/03/2026 21:43",
+  "total_entradas": 14,
+  "ultima_atualizacao": "22/03/2026 23:35",
   "contradicoes": []
 }
