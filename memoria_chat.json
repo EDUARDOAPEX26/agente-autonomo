@@ -38,22 +38,22 @@
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 01:15",
+      "data": "23/03/2026 01:14",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 34.5% | Mem: 67.9%"
-    },
-    {
-      "data": "23/03/2026 01:15",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 17.1% | Mem: 72.9%"
+      "resultado": "CPU: 40.4% | Mem: 72.4%"
     },
     {
       "data": "23/03/2026 01:16",
       "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "23/03/2026 01:17",
+      "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 16.9% | Mem: 66.9%"
+      "resultado": "CPU: 25.8% | Mem: 72.0%"
     },
     {
       "data": "23/03/2026 01:18",
@@ -62,64 +62,64 @@
       "resultado": "Nenhuma API disponível no momento."
     },
     {
-      "data": "23/03/2026 01:19",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro 1**\n- **Data/Hora**: 23/02/2023 14:30horas\n- **Ação**: Realização de manutenção preventiva no servidor, com atualização do sistema operacional e das ferramentas necessárias.\n\n**Registro 2**"
-    },
-    {
       "data": "23/03/2026 01:20",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 36.7% | Mem: 72.7%"
     },
     {
       "data": "23/03/2026 01:21",
       "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 01:21:40"
-    },
-    {
-      "data": "23/03/2026 01:22",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
+      "tarefa": "buscar noticias tech",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 01:24",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 01:25",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 16.3% | Mem: 66.8%"
-    },
-    {
-      "data": "23/03/2026 01:26",
+      "data": "23/03/2026 01:23",
       "origem": "nuvem",
       "tarefa": "verificar sistema",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
+      "data": "23/03/2026 01:24",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 01:25",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 30.7% | Mem: 72.8%"
+    },
+    {
+      "data": "23/03/2026 01:26",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
       "data": "23/03/2026 01:27",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 01:27:05"
     },
     {
       "data": "23/03/2026 01:28",
       "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 01:28:46"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 25.1% | Mem: 72.6%"
+    },
+    {
+      "data": "23/03/2026 01:29",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     },
     {
       "data": "23/03/2026 01:30",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Aqui está um resumo técnico de 8 registros do agente em nuvem:\n\n1. **Data/Hora do Registro**: 2023-02-15 14:30:00\n **Eventos**: Conexão bem-sucedida com banco de dados remoto via MySQL.\n **Detalhes**:"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 29.0% | Mem: 72.4%"
     }
   ],
   "total_conversas": 164,
