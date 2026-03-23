@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "23/03/2026 16:29",
-    "total_entradas_processadas": 87215,
-    "ciclos_completos": 4361
+    "ultima_geracao": "23/03/2026 16:42",
+    "total_entradas_processadas": 87235,
+    "ciclos_completos": 4362
   },
   "blocos": {
     "decisoes": [
@@ -111,22 +111,22 @@
         "importancia": 0.9
       },
       {
+        "id": "dec_a8148",
+        "resumo": "gerar relatorio com acesso registrado",
+        "data": "23/03/2026 16:30",
+        "importancia": 0.9
+      },
+      {
+        "id": "dec_c19ea",
+        "resumo": "gerar relatorio com registro de sessão",
+        "data": "23/03/2026 16:35",
+        "importancia": 0.9
+      },
+      {
         "id": "dec_5a9fe",
         "resumo": "Taxa de câmbio entre dólar e real definida",
         "data": "22/03/2026 03:16",
         "importancia": 0.8
-      },
-      {
-        "id": "dec_e1ec9",
-        "resumo": "Registro criado para relatorio",
-        "data": "22/03/2026 03:00",
-        "importancia": 0.7
-      },
-      {
-        "id": "dec_ad994",
-        "resumo": "Monitorar sistema: CPU 38.6%, Mem 69.4%",
-        "data": "22/03/2026 03:31",
-        "importancia": 0.7
       }
     ],
     "bugs": [
