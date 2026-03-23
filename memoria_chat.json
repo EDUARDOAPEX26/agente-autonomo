@@ -2,126 +2,126 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 03:51",
+      "data": "23/03/2026 03:52",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "23/03/2026 03:52",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 03:53",
       "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 03:53:59"
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 03:55",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 03:56",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 23.5% | Mem: 71.8%"
-    },
-    {
-      "data": "23/03/2026 03:57",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "23/03/2026 03:59",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 04:00",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 04:00:17"
-    },
-    {
-      "data": "23/03/2026 04:01",
+      "data": "23/03/2026 03:54",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
-      "data": "23/03/2026 04:02",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Limite Tavily atingido."
-    },
-    {
-      "data": "23/03/2026 04:03",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "23/03/2026 04:04",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Limite Tavily atingido."
-    },
-    {
-      "data": "23/03/2026 04:05",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 36.7% | Mem: 71.8%"
-    },
-    {
-      "data": "23/03/2026 04:07",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 04:08",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 18.9% | Mem: 72.0%"
-    },
-    {
-      "data": "23/03/2026 04:09",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "23/03/2026 04:10",
+      "data": "23/03/2026 03:55",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Limite Tavily atingido."
     },
     {
-      "data": "23/03/2026 04:11",
+      "data": "23/03/2026 03:56",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 03:57",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Limite Tavily atingido."
+    },
+    {
+      "data": "23/03/2026 03:58",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 03:58:51"
+    },
+    {
+      "data": "23/03/2026 04:00",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 04:01",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 29.4% | Mem: 72.1%"
+      "resultado": "CPU: 30.4% | Mem: 70.9%"
+    },
+    {
+      "data": "23/03/2026 04:02",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 04:03",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Limite Tavily atingido."
+    },
+    {
+      "data": "23/03/2026 04:05",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 04:06",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 04:06:10"
+    },
+    {
+      "data": "23/03/2026 04:07",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 04:08",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Limite Tavily atingido."
+    },
+    {
+      "data": "23/03/2026 04:09",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 04:10",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 14.5% | Mem: 70.4%"
+    },
+    {
+      "data": "23/03/2026 04:11",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     },
     {
       "data": "23/03/2026 04:12",
       "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Limite Tavily atingido."
     },
     {
-      "data": "23/03/2026 04:14",
+      "data": "23/03/2026 04:13",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 43.8% | Mem: 72.1%"
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 04:13:40"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 3893
+  "total_tarefas": 3895
 }
