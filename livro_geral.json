@@ -115,18 +115,18 @@
       "pergunta": "Quem você é?",
       "resposta": "Eu sou um agente de inteligência artificial criado por Eduardo Conceição, que mora em Atibaia-SP. Eu fui projetado para fornecer respostas e informações com base nos dados disponíveis nos meus livros,",
       "texto_indexado": "quem você é eu sou um agente de inteligência artificial criado por eduardo conceição que mora em atibaia-sp eu fui projetado para fornecer respostas e informações com base nos dados disponíveis nos meus livros",
-      "confianca": 0.7,
+      "confianca": 0.6,
       "origem": "conversa_tecnica",
-      "status": "normal"
+      "status": "arquivado"
     },
     {
       "data": "23/03/2026 19:37",
       "pergunta": "Quais são suas limitações?",
       "resposta": "De acordo com as informações disponíveis nos meus livros, minhas limitações incluem:\n\n1. Conhecimento limitado: Meu conhecimento está restrito aos dados disponíveis nos meus livros, e não posso acessa",
       "texto_indexado": "quais são suas limitações de acordo com as informações disponíveis nos meus livros minhas limitações incluem 1 conhecimento limitado meu conhecimento está restrito aos dados disponíveis nos meus livros e não posso acessa",
-      "confianca": 0.7,
+      "confianca": 0.6,
       "origem": "conversa_tecnica",
-      "status": "normal"
+      "status": "arquivado"
     },
     {
       "data": "23/03/2026 19:50",
@@ -136,10 +136,28 @@
       "confianca": 0.7,
       "origem": "conversa_tecnica",
       "status": "ambiguo"
+    },
+    {
+      "data": "23/03/2026 19:59",
+      "pergunta": "Quem você é?",
+      "resposta": "Sou um agente híbrido, criado por Eduardo Conceição, com capacidades de processamento de linguagem natural e aprendizado contínuo. Posso lembrar de conversas anteriores organizadas por assunto e busca",
+      "texto_indexado": "quem você é sou um agente híbrido criado por eduardo conceição com capacidades de processamento de linguagem natural e aprendizado contínuo posso lembrar de conversas anteriores organizadas por assunto e busca",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica",
+      "status": "promovido"
+    },
+    {
+      "data": "23/03/2026 20:00",
+      "pergunta": "Quais são suas limitações?",
+      "resposta": "Tenho algumas limitações importantes. Não consigo acessar dados em tempo real sem buscar na internet, o que significa que não posso fornecer informações atualizadas sobre coisas como cotações, clima o",
+      "texto_indexado": "quais são suas limitações tenho algumas limitações importantes não consigo acessar dados em tempo real sem buscar na internet o que significa que não posso fornecer informações atualizadas sobre coisas como cotações clima o",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica",
+      "status": "promovido"
     }
   ],
-  "total_entradas": 17,
-  "ultima_atualizacao": "23/03/2026 19:50",
+  "total_entradas": 19,
+  "ultima_atualizacao": "23/03/2026 20:00",
   "contradicoes": [
     {
       "data": "23/03/2026 19:50",
@@ -149,6 +167,24 @@
       "confianca_nova": 0.7,
       "confianca_anterior": 0.7,
       "resolucao": "ambiguo"
+    },
+    {
+      "data": "23/03/2026 19:59",
+      "pergunta_comum": "Quem você é?",
+      "resposta_nova": "Sou um agente híbrido, criado por Eduardo Conceição, com capacidades de processamento de linguagem n",
+      "resposta_anterior": "Eu sou um agente de inteligência artificial criado por Eduardo Conceição, que mora em Atibaia-SP. Eu",
+      "confianca_nova": 1.0,
+      "confianca_anterior": 0.7,
+      "resolucao": "nova_vence"
+    },
+    {
+      "data": "23/03/2026 20:00",
+      "pergunta_comum": "Quais são suas limitações?",
+      "resposta_nova": "Tenho algumas limitações importantes. Não consigo acessar dados em tempo real sem buscar na internet",
+      "resposta_anterior": "De acordo com as informações disponíveis nos meus livros, minhas limitações incluem:\n\n1. Conheciment",
+      "confianca_nova": 1.0,
+      "confianca_anterior": 0.7,
+      "resolucao": "nova_vence"
     }
   ]
 }
