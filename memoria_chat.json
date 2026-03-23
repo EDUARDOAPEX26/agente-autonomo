@@ -4,20 +4,20 @@
     {
       "data": "23/03/2026 03:36",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "buscar noticias tech",
+      "resultado": "Limite Tavily atingido."
     },
     {
       "data": "23/03/2026 03:38",
       "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "gerar relatorio",
+      "resultado": "**Registro 1:** \n- Data: 01/01/2023 10:00 \n- Descrição: Verificação de software completo e suporte ao sistema operacional Windows 10. Todos os componentes do sistema operacional estão atualizados.\n\n**"
     },
     {
       "data": "23/03/2026 03:39",
       "origem": "nuvem",
-      "tarefa": "mostrar hora",
-      "resultado": "03:39:09"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 50.7% | Mem: 72.6%"
     },
     {
       "data": "23/03/2026 03:40",
@@ -28,50 +28,44 @@
     {
       "data": "23/03/2026 03:41",
       "origem": "nuvem",
-      "tarefa": "mostrar hora",
-      "resultado": "03:41:11"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Limite Tavily atingido."
     },
     {
       "data": "23/03/2026 03:42",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 25.2% | Mem: 65.2%"
-    },
-    {
-      "data": "23/03/2026 03:43",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
+      "tarefa": "verificar sistema",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 03:44",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 29.3% | Mem: 64.9%"
+      "tarefa": "analisar memoria",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 03:45",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 03:46",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 43.6% | Mem: 72.3%"
+    },
+    {
+      "data": "23/03/2026 03:47",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Limite Tavily atingido."
     },
     {
-      "data": "23/03/2026 03:46",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Limite Tavily atingido."
-    },
-    {
-      "data": "23/03/2026 03:48",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
       "data": "23/03/2026 03:49",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Limite Tavily atingido."
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 03:50",
@@ -80,25 +74,25 @@
       "resultado": "Memoria limpa com sucesso"
     },
     {
+      "data": "23/03/2026 03:51",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Limite Tavily atingido."
+    },
+    {
       "data": "23/03/2026 03:52",
       "origem": "nuvem",
-      "tarefa": "verificar sistema",
+      "tarefa": "analisar memoria",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 03:53",
       "origem": "nuvem",
       "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 03:53:15"
+      "resultado": "Atividade registrada as 03:53:58"
     },
     {
       "data": "23/03/2026 03:54",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 03:55",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
@@ -110,18 +104,24 @@
       "resultado": "Limite Tavily atingido."
     },
     {
-      "data": "23/03/2026 03:58",
+      "data": "23/03/2026 03:57",
       "origem": "nuvem",
-      "tarefa": "analisar memoria",
+      "tarefa": "gerar relatorio",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 03:59",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
+      "tarefa": "verificar sistema",
       "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 03:59",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 24.2% | Mem: 71.1%"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 3878
+  "total_tarefas": 3879
 }
