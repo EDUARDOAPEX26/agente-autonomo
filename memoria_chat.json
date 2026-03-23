@@ -104,22 +104,22 @@
       "resultado": "CPU: 41.5% | Mem: 65.6%"
     },
     {
-      "data": "23/03/2026 20:11",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
       "data": "23/03/2026 20:12",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 43.1% | Mem: 72.4%"
     },
     {
       "data": "23/03/2026 20:13",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "23/03/2026 20:14",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "**Registro 2026-03-23**\n\n- **ID do Registro:** AGL-001\n- **Hora:** 14h30:45\n- **Informações da Conexão:** Conectado à rede pública da AWS em São Paulo, Brasil, utilizando recurso EC2 t3.micro."
     }
   ],
   "total_conversas": 164,
