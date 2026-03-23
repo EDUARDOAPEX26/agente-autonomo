@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 22:03",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
       "data": "23/03/2026 22:04",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 28.6% | Mem: 72.0%"
+    },
+    {
+      "data": "23/03/2026 22:26",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 22.0% | Mem: 69.9%"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4758
+  "total_tarefas": 4759
 }
