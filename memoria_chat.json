@@ -92,19 +92,19 @@
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "23/03/2026 13:10",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 19.1% | Mem: 72.5%"
-    },
-    {
       "data": "23/03/2026 13:11",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "gerar relatorio",
+      "resultado": "O agente está em uma instância inicial, sem registros ou dados. A conexão com a nuvem está estabelecida e a configuração básica está concluída."
     },
     {
       "data": "23/03/2026 13:12",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.6% | Mem: 71.5%"
+    },
+    {
+      "data": "23/03/2026 13:13",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
@@ -113,13 +113,13 @@
       "data": "23/03/2026 13:13",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 18.1% | Mem: 70.4%"
+      "resultado": "CPU: 12.3% | Mem: 70.9%"
     },
     {
       "data": "23/03/2026 13:14",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro Inicial:**\n\n- Nenhum registro ou dados foram armazenados na contabilidade do agente.\n- As configurações padrão estão ativas, incluindo o sistema de segurança e backup."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 25.1% | Mem: 70.0%"
     }
   ],
   "total_conversas": 164,
