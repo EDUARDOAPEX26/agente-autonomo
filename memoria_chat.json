@@ -116,10 +116,10 @@
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "23/03/2026 06:09",
+      "data": "23/03/2026 06:08",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 32.6% | Mem: 71.2%"
     }
   ],
   "total_conversas": 164,
