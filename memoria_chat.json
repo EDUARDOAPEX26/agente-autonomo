@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 13:26",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Para otimizar o desempenho do sistema com 5 registros, analise o uso de recursos, como CPU e memória, e considere a troca de banco de dados relacionais para modelos NoSQL, como MongoDB ou Cassandra, q"
-    },
-    {
       "data": "23/03/2026 13:28",
       "origem": "nuvem",
       "tarefa": "mostrar hora",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 13:48",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.2% | Mem: 71.3%"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4328
+  "total_tarefas": 4329
 }
