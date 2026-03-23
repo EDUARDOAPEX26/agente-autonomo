@@ -10,8 +10,8 @@
     {
       "data": "23/03/2026 03:51",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 37.7% | Mem: 72.1%"
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 03:51:32"
     },
     {
       "data": "23/03/2026 03:53",
@@ -22,17 +22,11 @@
     {
       "data": "23/03/2026 03:54",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 41.6% | Mem: 72.0%"
-    },
-    {
-      "data": "23/03/2026 03:55",
-      "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "23/03/2026 03:56",
+      "data": "23/03/2026 03:55",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Limite Tavily atingido."
@@ -40,14 +34,14 @@
     {
       "data": "23/03/2026 03:57",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 32.5% | Mem: 71.6%"
+      "tarefa": "analisar memoria",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 03:58",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 31.3% | Mem: 72.6%"
     },
     {
       "data": "23/03/2026 03:59",
@@ -64,14 +58,14 @@
     {
       "data": "23/03/2026 04:01",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 38.2% | Mem: 72.1%"
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 04:02",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro 1:** Serviço de Armazenamento - 10 GB atualizados em 23/02/2023\n\n- Tipo de serviço: Armazenamento padrão\n- Estado atual do serviço: Ativo\n\n**Registro 2:** Aplicação Web - 1 instância ativa "
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 04:02:53"
     },
     {
       "data": "23/03/2026 04:03",
@@ -80,7 +74,13 @@
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "23/03/2026 04:05",
+      "data": "23/03/2026 04:04",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Limite Tavily atingido."
+    },
+    {
+      "data": "23/03/2026 04:06",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
       "resultado": "Nenhuma API disponível no momento."
@@ -88,40 +88,40 @@
     {
       "data": "23/03/2026 04:07",
       "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 18.4% | Mem: 72.5%"
     },
     {
       "data": "23/03/2026 04:08",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 04:09",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Limite Tavily atingido."
-    },
-    {
-      "data": "23/03/2026 04:10",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "23/03/2026 04:12",
+      "data": "23/03/2026 04:09",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Limite Tavily atingido."
+    },
+    {
+      "data": "23/03/2026 04:11",
       "origem": "nuvem",
       "tarefa": "analisar memoria",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
-      "data": "23/03/2026 04:13",
+      "data": "23/03/2026 04:12",
       "origem": "nuvem",
       "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 04:13:14"
+      "resultado": "Atividade registrada as 04:12:07"
+    },
+    {
+      "data": "23/03/2026 04:13",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     }
   ],
-  "total_conversas": 0,
-  "total_tarefas": 79
+  "total_conversas": 164,
+  "total_tarefas": 3895
 }
