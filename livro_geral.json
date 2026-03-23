@@ -109,9 +109,27 @@
       "confianca": 0.7,
       "origem": "conversa_reflexiva",
       "status": "normal"
+    },
+    {
+      "data": "23/03/2026 19:34",
+      "pergunta": "Quem você é?",
+      "resposta": "Eu sou um agente de inteligência artificial criado por Eduardo Conceição, que mora em Atibaia-SP. Eu fui projetado para fornecer respostas e informações com base nos dados disponíveis nos meus livros,",
+      "texto_indexado": "quem você é eu sou um agente de inteligência artificial criado por eduardo conceição que mora em atibaia-sp eu fui projetado para fornecer respostas e informações com base nos dados disponíveis nos meus livros",
+      "confianca": 0.7,
+      "origem": "conversa_tecnica",
+      "status": "normal"
+    },
+    {
+      "data": "23/03/2026 19:37",
+      "pergunta": "Quais são suas limitações?",
+      "resposta": "De acordo com as informações disponíveis nos meus livros, minhas limitações incluem:\n\n1. Conhecimento limitado: Meu conhecimento está restrito aos dados disponíveis nos meus livros, e não posso acessa",
+      "texto_indexado": "quais são suas limitações de acordo com as informações disponíveis nos meus livros minhas limitações incluem 1 conhecimento limitado meu conhecimento está restrito aos dados disponíveis nos meus livros e não posso acessa",
+      "confianca": 0.7,
+      "origem": "conversa_tecnica",
+      "status": "normal"
     }
   ],
-  "total_entradas": 14,
-  "ultima_atualizacao": "22/03/2026 23:35",
+  "total_entradas": 16,
+  "ultima_atualizacao": "23/03/2026 19:37",
   "contradicoes": []
 }
