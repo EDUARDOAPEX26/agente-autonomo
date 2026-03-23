@@ -65,37 +65,43 @@
       "data": "23/03/2026 21:01",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 32.6% | Mem: 71.8%"
+      "resultado": "CPU: 25.2% | Mem: 70.5%"
     },
     {
-      "data": "23/03/2026 21:03",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 21:04",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "23/03/2026 21:05",
+      "data": "23/03/2026 21:02",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
+      "data": "23/03/2026 21:04",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 21:05",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
       "data": "23/03/2026 21:06",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
+      "tarefa": "verificar sistema",
       "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 21:07",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
       "data": "23/03/2026 21:08",
       "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 21:08:00"
+      "tarefa": "gerar relatorio",
+      "resultado": "**Registro 1: 10/02/2023 - Atualização do Sistema de Segurança**\n\n- Tipo de Registro: Atualização\n- Descrição: Realizada atualização do sistema de segurança do ambiente de nuvem com o objetivo de melh"
     },
     {
       "data": "23/03/2026 21:09",
@@ -104,22 +110,16 @@
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "23/03/2026 21:10",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
       "data": "23/03/2026 21:11",
       "origem": "nuvem",
-      "tarefa": "analisar memoria",
+      "tarefa": "verificar sistema",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 21:12",
       "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 21:12:29"
+      "tarefa": "gerar relatorio",
+      "resultado": "**Registro 1:**\n- Tipo de evento: Acesso remoto\n- Data e hora: 12/02/2023 14:30:00\n- IP de origem: 185.130.42.23\n- Status: Conectado\n\n**Registro 2:**\n- Tipo de evento: Atualização de software\n- Data e"
     }
   ],
   "total_conversas": 164,
