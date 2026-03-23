@@ -110,13 +110,13 @@
       "resultado": "CPU: 18.3% | Mem: 70.8%"
     },
     {
-      "data": "23/03/2026 05:21",
+      "data": "23/03/2026 05:22",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: Your request has been blocked due to excessive requests. Please reduce the rate of requests. Verify you are using production API keys."
     },
     {
-      "data": "23/03/2026 05:21",
+      "data": "23/03/2026 05:23",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
