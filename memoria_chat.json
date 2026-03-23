@@ -110,16 +110,16 @@
       "resultado": "CPU: 47.7% | Mem: 70.4%"
     },
     {
-      "data": "23/03/2026 18:41",
+      "data": "23/03/2026 18:40",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 18:42",
+      "data": "23/03/2026 18:41",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Aqui está um resumo técnico de 0 registros do agente em nuvem:\n\nO agente em nuvem registrou 0 transações, 0 contatos e 0 atividades, com zero dados salvos na memória."
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     }
   ],
   "total_conversas": 164,
