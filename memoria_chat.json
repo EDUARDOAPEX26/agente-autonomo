@@ -116,10 +116,10 @@
       "resultado": "CPU: 27.6% | Mem: 70.3%"
     },
     {
-      "data": "23/03/2026 15:01",
+      "data": "23/03/2026 15:00",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Aqui está um resumo técnico de 0 registros do agente em nuvem:\n\n\"Registro: Não encontrado. Não há dados a serem apresentados, pois esta é a criação inicial do agente em nuvem.\""
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     }
   ],
   "total_conversas": 164,
