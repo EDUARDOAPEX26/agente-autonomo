@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "23/03/2026 22:33",
-    "total_entradas_processadas": 97795,
-    "ciclos_completos": 4890
+    "ultima_geracao": "23/03/2026 22:42",
+    "total_entradas_processadas": 97815,
+    "ciclos_completos": 4891
   },
   "blocos": {
     "decisoes": [
@@ -337,6 +337,12 @@
         "importancia": 1.0
       },
       {
+        "id": "cor_3511e",
+        "resumo": "Memoria limpa com sucesso",
+        "data": "23/03/2026 22:18",
+        "importancia": 1.0
+      },
+      {
         "id": "cor_b88e3",
         "resumo": "Memória limpa com sucesso",
         "data": "22/03/2026 03:53",
@@ -364,12 +370,6 @@
         "id": "cor_29d4c",
         "resumo": "Memoria limpa com sucesso",
         "data": "22/03/2026 02:55",
-        "importancia": 0.9
-      },
-      {
-        "id": "cor_6d7d5",
-        "resumo": "Memoria limpa com sucesso",
-        "data": "22/03/2026 02:59",
         "importancia": 0.9
       }
     ],
