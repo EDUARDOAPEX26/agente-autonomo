@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "22/03/2026 21:47",
+      "pergunta": "quem ganhou o Oscar de melhor filme em 2026?",
+      "resposta": "Eduardo, não encontrei informações suficientes nos meus livros sobre isso. Meus livros estão limitados às informações disponíveis até 2026 e não incluem informações sobre eventos futuros, como o Oscar",
+      "origem": "conversa_local"
+    },
+    {
       "data": "22/03/2026 21:50",
       "pergunta": "qual o preço atual da ação da Nvidia na bolsa agora?",
       "resposta": "Eduardo, não tenho acesso a dados em tempo real no momento. Meus livros estão limitados às informações disponíveis até 2026 e não incluem informações em tempo real sobre o mercado de ações. Além disso",
@@ -113,15 +119,9 @@
       "data": "23/03/2026 01:14",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 42.9% | Mem: 65.6%"
-    },
-    {
-      "data": "23/03/2026 01:15",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 50.7% | Mem: 72.1%"
+      "resultado": "CPU: 40.4% | Mem: 72.4%"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 3746
+  "total_tarefas": 3745
 }
