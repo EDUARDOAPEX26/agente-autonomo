@@ -2,18 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 19:45",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "23/03/2026 19:46",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Registros do agente em nuvem:\n\n- **ID do registro**: 001\n- **Data de início**: 01/01/2022\n- **Data de fim:** Em execução\n- **Tecnologia utilizado:** Linux e Python 3.9\n- **Plataforma em uso:** Azure K"
-    },
-    {
       "data": "23/03/2026 19:47",
       "origem": "nuvem",
       "tarefa": "verificar sistema",
@@ -112,16 +100,28 @@
     {
       "data": "23/03/2026 20:13",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 19.9% | Mem: 72.4%"
     },
     {
       "data": "23/03/2026 20:14",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro 2026-03-23**\n\n- **ID do Registro:** AGL-001\n- **Hora:** 14h30:45\n- **Informações da Conexão:** Conectado à rede pública da AWS em São Paulo, Brasil, utilizando recurso EC2 t3.micro."
+      "tarefa": "verificar sistema",
+      "resultado": "Sim, o sistema está normal. A CPU está ocupada em cerca de 27%, que é considerada uma carga moderate, mas não crítica."
+    },
+    {
+      "data": "23/03/2026 20:15",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 20:16",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.8% | Mem: 72.6%"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4641
+  "total_tarefas": 4643
 }
