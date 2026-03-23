@@ -28,9 +28,18 @@
       "confianca": 0.7,
       "origem": "conversa_tecnica",
       "status": "normal"
+    },
+    {
+      "data": "23/03/2026 10:08",
+      "pergunta": "Faz sentido dizer que o Llama 3.3 70b é o modelo mais capaz disponível hoje, sem nenhum ajuste fino superando ele?",
+      "resposta": "Eduardo, de acordo com a minha identidade oficial e as informações disponíveis, o GROQ llama-3.3-70b é uma das opções líderes em inteligência artificial. No entanto, é importante notar que a capacidad",
+      "texto_indexado": "faz sentido dizer que o llama 3 3 70b é o modelo mais capaz disponível hoje sem nenhum ajuste fino superando ele eduardo de acordo com a minha identidade oficial e as informações disponíveis o groq llama-3 3-70b é uma das opções líderes em inteligência artificial no entanto é importante notar que a capacidad",
+      "confianca": 0.7,
+      "origem": "conversa_tecnica",
+      "status": "normal"
     }
   ],
-  "total_entradas": 3,
-  "ultima_atualizacao": "22/03/2026 23:41",
+  "total_entradas": 4,
+  "ultima_atualizacao": "23/03/2026 10:08",
   "contradicoes": []
 }
