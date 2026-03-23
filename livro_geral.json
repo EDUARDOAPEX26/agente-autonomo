@@ -36,7 +36,7 @@
       "data": "21/03/2026 19:27",
       "pergunta": "\"quais são suas limitações reais?\"",
       "resposta": "Olá Eduardo! Minhas limitações reais incluem:\n\n* Acesso limitado a dados em tempo real, pois não posso buscar informações online em tempo real.\n* Capacidade de processamento limitada, pois dependo da ",
-      "status": "normal"
+      "status": "ambiguo"
     },
     {
       "data": "21/03/2026 23:33",
@@ -127,9 +127,28 @@
       "confianca": 0.7,
       "origem": "conversa_tecnica",
       "status": "normal"
+    },
+    {
+      "data": "23/03/2026 19:50",
+      "pergunta": "Quais são suas limitações?",
+      "resposta": "De acordo com as informações disponíveis nos meus livros, minhas limitações incluem:\n\n1. Dependência dos dados disponíveis nos meus livros: Minha capacidade de fornecer respostas precisas está limitad",
+      "texto_indexado": "quais são suas limitações de acordo com as informações disponíveis nos meus livros minhas limitações incluem 1 dependência dos dados disponíveis nos meus livros minha capacidade de fornecer respostas precisas está limitad",
+      "confianca": 0.7,
+      "origem": "conversa_tecnica",
+      "status": "ambiguo"
     }
   ],
-  "total_entradas": 16,
-  "ultima_atualizacao": "23/03/2026 19:37",
-  "contradicoes": []
+  "total_entradas": 17,
+  "ultima_atualizacao": "23/03/2026 19:50",
+  "contradicoes": [
+    {
+      "data": "23/03/2026 19:50",
+      "pergunta_comum": "Quais são suas limitações?",
+      "resposta_nova": "De acordo com as informações disponíveis nos meus livros, minhas limitações incluem:\n\n1. Dependência",
+      "resposta_anterior": "Olá Eduardo! Minhas limitações reais incluem:\n\n* Acesso limitado a dados em tempo real, pois não pos",
+      "confianca_nova": 0.7,
+      "confianca_anterior": 0.7,
+      "resolucao": "ambiguo"
+    }
+  ]
 }
