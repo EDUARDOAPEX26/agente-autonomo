@@ -112,14 +112,14 @@
     {
       "data": "23/03/2026 17:01",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.2% | Mem: 72.2%"
     },
     {
       "data": "23/03/2026 17:02",
       "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 33.2% | Mem: 70.9%"
     }
   ],
   "total_conversas": 164,
