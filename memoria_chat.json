@@ -116,10 +116,10 @@
       "resultado": "CPU: 35.7% | Mem: 68.9%"
     },
     {
-      "data": "23/03/2026 20:08",
+      "data": "23/03/2026 20:09",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Não há registros de atividades no agente em nuvem, pois ainda não foi configurado ou executado nenhum trabalho. O ambiente está em estado de inicialização."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 24.0% | Mem: 72.2%"
     }
   ],
   "total_conversas": 164,
