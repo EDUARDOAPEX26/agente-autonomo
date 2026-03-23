@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "23/03/2026 18:43",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
       "data": "23/03/2026 18:45",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
       "resultado": "**Registro 1: 15 de março de 2024**\n\n- Servidor: Amazon Web Services (AWS)\n- Região: São Paulo (São Paulo)\n- Estado do servidor: Ativo\n\n**Registro 2 (última consulta): 23 de março de 2024 às 08:37**\n\n"
-    },
-    {
-      "data": "23/03/2026 19:07",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Iniciando operação com ambiente vazio. Atualmente não há registros ou dados armazenados no agente em nuvem."
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4593
+  "total_tarefas": 4592
 }
