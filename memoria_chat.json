@@ -68,58 +68,58 @@
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
+      "data": "23/03/2026 20:59",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
       "data": "23/03/2026 21:01",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 33.5% | Mem: 72.2%"
+      "tarefa": "gerar relatorio",
+      "resultado": "Registo:\n\n - Data: 22/03/2024 14:45:00\n - Status: Operacional\n - Memória Usada: 85.62%\n - Disco Usado: 92.15%\n - Processos em Execução: 34 (entre eles, 2 de baixo nível, 14 de aplicação e 18 de sistem"
     },
     {
       "data": "23/03/2026 21:02",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 10.2% | Mem: 72.1%"
     },
     {
       "data": "23/03/2026 21:03",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 34.6% | Mem: 73.0%"
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 21:04",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro 1 - 22/02/2024**\n\n- Tipo de operação: Criação de conta.\n- Serviços utilizados: Plano Básico (R$ 0,99 por hora), Armazenamento de dados (50 GB).\n\n**Registro 2 - 15/03/2024**\n\n- Tipo de opera"
-    },
-    {
-      "data": "23/03/2026 21:05",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
-      "data": "23/03/2026 21:06",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
+      "data": "23/03/2026 21:06",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "**Registro N° 001**\n\nData: 23/03/2026 14:30:00 (UTC-2)\nStatus do Agente: Ativado e Online"
+    },
+    {
       "data": "23/03/2026 21:07",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 35.1% | Mem: 72.1%"
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 21:08",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 21:08:47"
     },
     {
       "data": "23/03/2026 21:09",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     }
   ],
   "total_conversas": 164,
