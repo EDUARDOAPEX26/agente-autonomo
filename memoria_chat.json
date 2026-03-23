@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 19:42",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "O sistema estÃ em funcionamento normal, com carga de CPU baixa e memÃ³ria em uso razoÃvel."
-    },
-    {
       "data": "23/03/2026 19:43",
       "origem": "nuvem",
       "tarefa": "analisar memoria",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 41.5% | Mem: 65.6%"
+    },
+    {
+      "data": "23/03/2026 20:12",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 43.1% | Mem: 72.4%"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4638
+  "total_tarefas": 4639
 }
