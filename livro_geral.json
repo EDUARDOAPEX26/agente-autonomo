@@ -73,9 +73,27 @@
       "confianca": 1.0,
       "origem": "conversa_tecnica",
       "status": "promovido"
+    },
+    {
+      "data": "22/03/2026 21:43",
+      "pergunta": "quais são todas as APIs configuradas no seu sistema e seus limites?",
+      "resposta": "Eduardo, de acordo com as informações disponíveis nos meus livros, as APIs configuradas no meu sistema são:\n\n1. **Tavily**: utilizada para buscar informações em tempo real na internet. O limite é de 3",
+      "texto_indexado": "quais são todas as apis configuradas no seu sistema e seus limites eduardo de acordo com as informações disponíveis nos meus livros as apis configuradas no meu sistema são 1 **tavily** utilizada para buscar informações em tempo real na internet o limite é de 3",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica",
+      "status": "promovido"
+    },
+    {
+      "data": "22/03/2026 21:43",
+      "pergunta": "explique detalhadamente como funciona o pipeline de busca em 6 etapas",
+      "resposta": "Eduardo, o pipeline de busca em 6 etapas é um processo fundamental para permitir que eu forneça respostas precisas e relevantes às suas perguntas. Aqui está uma explicação detalhada de cada etapa:\n\n**",
+      "texto_indexado": "explique detalhadamente como funciona o pipeline de busca em 6 etapas eduardo o pipeline de busca em 6 etapas é um processo fundamental para permitir que eu forneça respostas precisas e relevantes às suas perguntas aqui está uma explicação detalhada de cada etapa **",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica",
+      "status": "promovido"
     }
   ],
-  "total_entradas": 10,
-  "ultima_atualizacao": "22/03/2026 17:14",
+  "total_entradas": 12,
+  "ultima_atualizacao": "22/03/2026 21:43",
   "contradicoes": []
 }
