@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 21:56",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
       "data": "23/03/2026 21:57",
       "origem": "nuvem",
       "tarefa": "registrar atividade",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 15.6% | Mem: 71.8%"
+    },
+    {
+      "data": "23/03/2026 22:20",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 25.0% | Mem: 71.6%"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4752
+  "total_tarefas": 4753
 }
