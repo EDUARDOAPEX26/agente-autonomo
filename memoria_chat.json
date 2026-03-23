@@ -112,14 +112,14 @@
     {
       "data": "23/03/2026 18:11",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 45.9% | Mem: 70.6%"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 18:12",
+      "data": "23/03/2026 18:13",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 27.0% | Mem: 72.4%"
+      "tarefa": "gerar relatorio",
+      "resultado": "Registro iniciado. Agente online desde as 08:00 hs e está rodando na plataforma AWS EC2 com instância t2.micro. Nenhuma sessão ou tarefa associada a conta em nuvem."
     }
   ],
   "total_conversas": 164,
