@@ -10,32 +10,32 @@
     {
       "data": "23/03/2026 21:14",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 18.7% | Mem: 72.1%"
-    },
-    {
-      "data": "23/03/2026 21:16",
-      "origem": "nuvem",
       "tarefa": "verificar sistema",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
-      "data": "23/03/2026 21:17",
+      "data": "23/03/2026 21:15",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "23/03/2026 21:18",
+      "data": "23/03/2026 21:16",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
+      "tarefa": "buscar noticias tech",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 21:20",
+      "data": "23/03/2026 21:18",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro 1:**\n\n- Data/Hora: 12/03/2023 14:45\n- Evento: Conectado com sucesso no ambiente de nuvem AWS.\n\n**Registro 2:**\n\n- Data/Hora: 15/03/2023 09:10\n- Evento: Realização de atualização de código c"
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 21:19",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
       "data": "23/03/2026 21:21",
@@ -46,17 +46,17 @@
     {
       "data": "23/03/2026 21:22",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 24.4% | Mem: 72.2%"
-    },
-    {
-      "data": "23/03/2026 21:23",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "analisar memoria",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 21:24",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "**Registro 1: Monitoramento do Sistema**\n- Data: 10/02/2023\n- Status: Funcionando normalmente\n- Observações: Nenhuma alteração registrada.\n\n**Registro 2: Atualização de Software**\n- Data: 25/01/2023\n-"
+    },
+    {
+      "data": "23/03/2026 21:25",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
@@ -64,38 +64,38 @@
     {
       "data": "23/03/2026 21:26",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 21:26:08"
     },
     {
       "data": "23/03/2026 21:27",
       "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 21:27:21"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 19.8% | Mem: 69.5%"
     },
     {
       "data": "23/03/2026 21:28",
+      "origem": "nuvem",
+      "tarefa": "analisar memoria",
+      "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 21:29",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "23/03/2026 21:29",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
       "data": "23/03/2026 21:30",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Aquí estão 2 registros do agente em nuvem:\n\n**Registro 1 - 23/03/2024 08:00**\n- Tarefa: Verificação de conexão com provedor de serviços de nuvem AWS.\n- Resultado: Conexão estabelecida com sucesso.\n\n**"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
       "data": "23/03/2026 21:31",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 21.2% | Mem: 72.8%"
+      "tarefa": "mostrar hora",
+      "resultado": "21:31:38"
     },
     {
       "data": "23/03/2026 21:32",
@@ -106,7 +106,7 @@
     {
       "data": "23/03/2026 21:33",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
+      "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
@@ -118,8 +118,8 @@
     {
       "data": "23/03/2026 21:36",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "mostrar hora",
+      "resultado": "21:36:16"
     }
   ],
   "total_conversas": 164,
