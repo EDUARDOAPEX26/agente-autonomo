@@ -4,110 +4,110 @@
     {
       "data": "23/03/2026 02:37",
       "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 31.1% | Mem: 73.6%"
     },
     {
       "data": "23/03/2026 02:38",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "23/03/2026 02:39",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
-      "data": "23/03/2026 02:40",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 02:42",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 02:43",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "23/03/2026 02:44",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
-      "data": "23/03/2026 02:45",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro 1:**\nData: 10/02/2023 14:30\nDescrição: Consulta de preços de Hardware para uma empresa cliente; busca realizada na plataforma do fabricante; preço atualizado na base em nuvem.\n\n**Registro 2"
-    },
-    {
-      "data": "23/03/2026 02:46",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 02:47",
+      "data": "23/03/2026 02:40",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 02:41",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "23/03/2026 02:49",
+      "data": "23/03/2026 02:42",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Registro Número: 2023-01-001\nData e Hora: 01/15/2023 14:30:00\nDescrição do Evento: Automação de resposta de FAQ concluída com sucesso. O usuário solicitou apoio técnico para resolver um problema com o"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 37.7% | Mem: 72.8%"
     },
     {
-      "data": "23/03/2026 02:50",
+      "data": "23/03/2026 02:43",
       "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 02:51",
+      "data": "23/03/2026 02:44",
       "origem": "nuvem",
       "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 02:51:49"
+      "resultado": "Atividade registrada as 02:44:33"
     },
     {
-      "data": "23/03/2026 02:52",
+      "data": "23/03/2026 02:45",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 02:46",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 02:53",
+      "data": "23/03/2026 02:48",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
-      "data": "23/03/2026 02:55",
+      "data": "23/03/2026 02:49",
       "origem": "nuvem",
       "tarefa": "analisar memoria",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
+      "data": "23/03/2026 02:50",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 02:52",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 02:53",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 02:54",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "23/03/2026 02:55",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 52.4% | Mem: 73.3%"
+    },
+    {
       "data": "23/03/2026 02:56",
       "origem": "nuvem",
-      "tarefa": "mostrar hora",
-      "resultado": "02:56:38"
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     },
     {
       "data": "23/03/2026 02:57",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 28.2% | Mem: 74.1%"
     },
     {
       "data": "23/03/2026 02:59",
@@ -118,10 +118,10 @@
     {
       "data": "23/03/2026 03:00",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 03:00:20"
     }
   ],
-  "total_conversas": 164,
-  "total_tarefas": 3836
+  "total_conversas": 0,
+  "total_tarefas": 20
 }
