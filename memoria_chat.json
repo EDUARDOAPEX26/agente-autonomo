@@ -118,8 +118,8 @@
     {
       "data": "23/03/2026 22:42",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "gerar relatorio",
+      "resultado": "Ao iniciar, o ambiente de nuvem não registra nenhum dado ou configuração. As configurações iniciais são as seguintes: \n- Plataforma: Sem seleção.\n- Região: Não definida.\n- Registros: 0."
     }
   ],
   "total_conversas": 164,
