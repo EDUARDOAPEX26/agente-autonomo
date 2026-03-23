@@ -118,8 +118,8 @@
     {
       "data": "23/03/2026 23:32",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 15.5% | Mem: 72.7%"
     }
   ],
   "total_conversas": 167,
