@@ -36,11 +36,12 @@ GITHUB_REPO    = "EDUARDOAPEX26/agente-autonomo"
 GITHUB_FILE    = "memoria_chat.json"
 GITHUB_HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"} if GITHUB_TOKEN else {}
 
-GROQ_KEY_1  = os.getenv("GROQ_API_KEY")
-GROQ_KEY_2  = os.getenv("GROQ_API_KEY_2")
-GOOGLE_KEY  = os.getenv("GOOGLE_API_KEY") or os.getenv("CHAVE_API_DO_GOOGLE")
-MODELO_GROQ = "llama-3.1-8b-instant"
-MODELO_GEM  = "gemini-2.0-flash"
+GROQ_KEY_1   = os.getenv("GROQ_API_KEY")
+GROQ_KEY_2   = os.getenv("GROQ_API_KEY_2")
+GOOGLE_KEY   = os.getenv("GOOGLE_API_KEY") or os.getenv("CHAVE_API_DO_GOOGLE")
+CEREBRAS_KEY = os.getenv("CEREBRAS_API_KEY")
+MODELO_GROQ  = "llama-3.1-8b-instant"
+MODELO_GEM   = "gemini-2.0-flash"
 
 MAX_TAVILY       = 10
 RESET_HORAS      = 24
@@ -129,7 +130,6 @@ def executar_tarefa_endpoint(payload: TarefaPayload):
     tarefa = payload.tarefa
     dados  = payload.dados
 
-    # ── Sub-tarefas da Fase 11 e 12 ───────────────────────────────────────────
     if tarefa == "registrar_licao":
         msg_usuario   = dados.get("mensagem_usuario", "")
         ultima_resp   = dados.get("ultima_resposta", "")
@@ -167,7 +167,6 @@ def executar_tarefa_endpoint(payload: TarefaPayload):
             "itens_por_bloco":       {b: len(v) for b, v in blocos.items()},
         }
 
-    # ── Tarefa genérica (legado) ───────────────────────────────────────────────
     try:
         cpu, mem = estado_sistema()
         resultado = executar_tarefa_com_retorno(tarefa, "tarefa remota", contar_registros(), cpu, mem)
@@ -252,7 +251,7 @@ def _similaridade_cosseno(a: dict, b: dict) -> float:
     comuns = set(a) & set(b)
     if not comuns:
         return 0.0
-    dot   = sum(a[t] * b[t] for t in comuns)
+    dot    = sum(a[t] * b[t] for t in comuns)
     norm_a = math.sqrt(sum(v * v for v in a.values()))
     norm_b = math.sqrt(sum(v * v for v in b.values()))
     return dot / (norm_a * norm_b) if norm_a and norm_b else 0.0
@@ -279,7 +278,7 @@ def _buscar_tfidf(query: str, entradas: list, top_n: int = 5) -> list:
         "score":     round(score, 4),
     } for score, i in scores[:top_n]]
 
-# ── LIVROS (leitura local no Railway) ─────────────────────────────────────────
+# ── LIVROS ────────────────────────────────────────────────────────────────────
 _cache_livros_local: dict = {}
 LIVRO_CACHE_TTL = 120
 
@@ -303,7 +302,6 @@ def _carregar_livro_local(assunto: str) -> dict:
     return {}
 
 def _salvar_livro_github(assunto: str, livro: dict):
-    """Salva qualquer livro no GitHub com retry 409."""
     if not GITHUB_TOKEN:
         return
     livro_sem_ts = {k: v for k, v in livro.items() if k != "_ts"}
@@ -319,7 +317,6 @@ def _salvar_livro_github(assunto: str, livro: dict):
             r2 = requests.put(url, headers=GITHUB_HEADERS, json=payload, timeout=10)
             if r2.status_code in (200, 201):
                 log("LIVRO", f"'{assunto}' salvo no GitHub")
-                # Invalida cache local
                 _cache_livros_local.pop(assunto, None)
                 return
             elif r2.status_code == 409:
@@ -408,15 +405,13 @@ def sincronizar_github_se_necessario():
         mem = get_memoria_compartilhada()
         threading.Thread(target=salvar_memoria_github, args=(mem,), daemon=True).start()
 
-# ── LLM (GROQ chave1 → chave2 → Gemini) ──────────────────────────────────────
+# ── LLM (GROQ ch1 → ch2 → Gemini → Cerebras) ────────────────────────────────
 _groq_chave_ativa = {"k": 1}
 
 def chamar_llm(prompt: str, max_tokens: int = 300, system: str = "") -> str:
-    """Chama GROQ com fallback automático chave1 → chave2 → Gemini."""
     chaves = [k for k in [GROQ_KEY_1, GROQ_KEY_2] if k]
-
-    # Tenta GROQ (chave ativa primeiro)
     chaves_ordem = chaves[_groq_chave_ativa["k"] - 1:] + chaves[:_groq_chave_ativa["k"] - 1]
+
     for i, chave in enumerate(chaves_ordem):
         try:
             from groq import Groq
@@ -450,6 +445,23 @@ def chamar_llm(prompt: str, max_tokens: int = 300, system: str = "") -> str:
                 return txt.strip()
         except Exception as e:
             erro("LLM", f"Gemini falhou: {e}")
+
+    # Fallback Cerebras
+    if CEREBRAS_KEY:
+        try:
+            from openai import OpenAI
+            client = OpenAI(api_key=CEREBRAS_KEY, base_url="https://api.cerebras.ai/v1")
+            msgs = []
+            if system:
+                msgs.append({"role": "system", "content": system})
+            msgs.append({"role": "user", "content": prompt})
+            r = client.chat.completions.create(
+                model="llama3.1-8b", messages=msgs, max_tokens=max_tokens
+            )
+            warn("LLM", "Usando Cerebras (llama3.1-8b) como fallback de emergência")
+            return r.choices[0].message.content.strip()
+        except Exception as e:
+            erro("LLM", f"Cerebras falhou: {e}")
 
     return "Nenhuma API disponível no momento."
 
@@ -510,7 +522,6 @@ def buscar_tavily(query: str) -> str:
         return f"Tavily erro: {e}"
 
 # ── FASE 11: MEMÓRIA NEGATIVA ─────────────────────────────────────────────────
-
 PADROES_CORRECAO = [
     "não é assim", "isso está errado", "você errou", "errou de novo",
     "já falei isso", "já disse isso", "não faça isso", "não faça mais isso",
@@ -536,7 +547,6 @@ def detectar_ensino(msg: str) -> bool:
     return any(p in m for p in PADROES_ENSINO)
 
 def _extrair_licao_via_llm(msg_usuario: str, resposta_errada: str) -> dict | None:
-    """Usa o GROQ para estruturar a correção em campos da lição."""
     prompt = (
         f"O usuário fez uma correção. Extraia as informações em JSON.\n"
         f"Mensagem do usuário: \"{msg_usuario[:300]}\"\n"
@@ -558,7 +568,6 @@ def _extrair_licao_via_llm(msg_usuario: str, resposta_errada: str) -> dict | Non
     return None
 
 def _verificar_promocao_licao(licao: dict) -> bool:
-    """Verifica se lição deve ser promovida para identidade_agente.json."""
     if licao.get("promovida_para_identidade"):
         return False
     if licao.get("confirmacoes", 1) >= 2:
@@ -575,7 +584,6 @@ def _verificar_promocao_licao(licao: dict) -> bool:
     return False
 
 def registrar_licao(gatilho: str, resposta_errada: str, dados_llm: dict | None = None) -> None:
-    """Registra ou reforça uma lição no livro_licoes.json."""
     livro = _carregar_livro_local("licoes")
     if not livro:
         livro = {"assunto": "licoes", "licoes": [], "total_licoes": 0, "ultima_atualizacao": ""}
@@ -583,7 +591,6 @@ def registrar_licao(gatilho: str, resposta_errada: str, dados_llm: dict | None =
     tipo_licao = (dados_llm or {}).get("tipo", "correcao")
     confianca  = 0.98 if tipo_licao == "anti_padrao" else (0.92 if tipo_licao == "ensino" else 0.95)
 
-    # Verifica reforço (sim >= 0.85 no gatilho)
     for licao in livro.get("licoes", []):
         if licao.get("status") != "ativo":
             continue
@@ -599,7 +606,6 @@ def registrar_licao(gatilho: str, resposta_errada: str, dados_llm: dict | None =
             threading.Thread(target=_salvar_livro_github, args=("licoes", livro), daemon=True).start()
             return
 
-    # Nova lição
     nova = {
         "data":                     datetime.now().strftime("%d/%m/%Y %H:%M"),
         "gatilho":                  gatilho[:120],
@@ -619,7 +625,6 @@ def registrar_licao(gatilho: str, resposta_errada: str, dados_llm: dict | None =
     livro["total_licoes"]       = livro.get("total_licoes", 0) + 1
     livro["ultima_atualizacao"] = datetime.now().strftime("%d/%m/%Y %H:%M")
 
-    # Rotação: mantém top 100 por confiança
     if len(livro["licoes"]) > 100:
         livro["licoes"].sort(key=lambda x: (x.get("confianca", 0), x.get("ultima_ocorrencia", "")), reverse=True)
         livro["licoes"] = livro["licoes"][:100]
@@ -658,10 +663,9 @@ def formatar_licoes_para_prompt(licoes: list) -> str:
     return "\n".join(linhas)
 
 # ── FASE 12: RESUMO POR IMPORTÂNCIA ──────────────────────────────────────────
-
-GATILHO_ENTRADAS = 30    # a cada 30 novas entradas
-GATILHO_HORAS    = 24    # ou a cada 24 horas
-MAX_ITENS_BLOCO  = 20    # top 20 por bloco
+GATILHO_ENTRADAS = 30
+GATILHO_HORAS    = 24
+MAX_ITENS_BLOCO  = 20
 
 _estado_resumo = {
     "ultima_sumarizacao_ts": 0.0,
@@ -718,7 +722,6 @@ Regras de importância (distribua realisticamente — máx 20% pode ser >= 0.9):
 """
 
 def _classificar_lote(entradas_texto: list) -> list:
-    """Classifica um lote de até 10 entradas em uma única chamada GROQ."""
     if not entradas_texto:
         return []
     texto_formatado = "\n".join([f"{i}: {t[:200]}" for i, t in enumerate(entradas_texto)])
@@ -734,29 +737,19 @@ def _classificar_lote(entradas_texto: list) -> list:
     return []
 
 def executar_sumarizacao():
-    """Pipeline completo de sumarização — roda em background no Railway."""
     log("RESUMO", "Iniciando ciclo de sumarização...")
-
-    # Carrega memória do GitHub
     memoria = carregar_memoria_github() or {}
     aprendizados = memoria.get("aprendizados", [])
-
     if len(aprendizados) < 5:
         log("RESUMO", "Poucas entradas — pulando ciclo")
         return
-
-    # Carrega resumo existente (acumula, não sobrescreve)
     resumo = _carregar_livro_local("resumo")
     if not resumo or "blocos" not in resumo:
         resumo = _resumo_vazio()
-
-    # Processa em lotes de 10 (economiza tokens GROQ)
     lote_tamanho      = 10
     novas_por_bloco   = {b: [] for b in resumo["blocos"]}
     total_processadas = 0
-
-    entradas_para_processar = aprendizados[-50:]  # últimas 50
-
+    entradas_para_processar = aprendizados[-50:]
     for i in range(0, len(entradas_para_processar), lote_tamanho):
         lote = entradas_para_processar[i:i + lote_tamanho]
         textos = [
@@ -764,7 +757,6 @@ def executar_sumarizacao():
             for e in lote
         ]
         classificacoes = _classificar_lote(textos)
-
         for clf in classificacoes:
             if not clf.get("manter", False):
                 continue
@@ -783,30 +775,20 @@ def executar_sumarizacao():
             }
             novas_por_bloco[bloco].append(item)
         total_processadas += len(lote)
-
-    # Mescla com resumo existente, mantém top 20 por bloco
     for bloco, novos in novas_por_bloco.items():
         todos = resumo["blocos"][bloco] + novos
         todos.sort(key=lambda x: x.get("importancia", 0), reverse=True)
         resumo["blocos"][bloco] = todos[:MAX_ITENS_BLOCO]
-
-    # Atualiza meta
     resumo["meta"]["ultima_geracao"]            = datetime.now().strftime("%d/%m/%Y %H:%M")
     resumo["meta"]["total_entradas_processadas"] = resumo["meta"].get("total_entradas_processadas", 0) + total_processadas
     resumo["meta"]["ciclos_completos"]           = resumo["meta"].get("ciclos_completos", 0) + 1
-
-    # Salva no GitHub
     _salvar_livro_github("resumo", resumo)
-
-    # Atualiza estado
     _estado_resumo["ultima_sumarizacao_ts"]  = time.time()
     _estado_resumo["entradas_desde_ultimo"]  = 0
-
     total_itens = sum(len(v) for v in resumo["blocos"].values())
-    log("RESUMO", f"Ciclo {resumo['meta']['ciclos_completos']} completo — {total_processadas} entradas → {total_itens} itens nos blocos")
+    log("RESUMO", f"Ciclo {resumo['meta']['ciclos_completos']} completo — {total_processadas} entradas → {total_itens} itens")
 
 def buscar_resumo_relevante(pergunta: str, top_n: int = 5) -> str:
-    """Retorna itens do resumo relevantes à pergunta — injeta no contexto."""
     resumo = _carregar_livro_local("resumo")
     if not resumo:
         return ""
@@ -820,7 +802,7 @@ def buscar_resumo_relevante(pergunta: str, top_n: int = 5) -> str:
     linhas = linhas[:top_n]
     return ("RESUMO DO HISTÓRICO RELEVANTE:\n" + "\n".join(linhas)) if linhas else ""
 
-# ── SIMILARIDADE JACCARD (leve, sem dependências) ─────────────────────────────
+# ── SIMILARIDADE JACCARD ──────────────────────────────────────────────────────
 def _sim_jaccard(a: str, b: str) -> float:
     wa = set(w for w in a.lower().split() if len(w) >= 3)
     wb = set(w for w in b.lower().split() if len(w) >= 3)
@@ -1056,11 +1038,12 @@ def loop_agente():
 
     log("MAIN", "=" * 52)
     log("MAIN", "  AGENTE AUTÔNOMO EM NUVEM — v4.1")
-    log("MAIN", f"  Tavily : {'OK' if tavily_client else 'INDISPONÍVEL'}")
-    log("MAIN", f"  GitHub : {'configurado' if GITHUB_TOKEN else 'sem token'}")
-    log("MAIN", f"  TF-IDF : ativo — endpoint /buscar disponível")
-    log("MAIN", f"  Fase11 : memória negativa ativa")
-    log("MAIN", f"  Fase12 : resumo por importância ativo")
+    log("MAIN", f"  Tavily   : {'OK' if tavily_client else 'INDISPONÍVEL'}")
+    log("MAIN", f"  GitHub   : {'configurado' if GITHUB_TOKEN else 'sem token'}")
+    log("MAIN", f"  Cerebras : {'configurado' if CEREBRAS_KEY else 'sem chave'}")
+    log("MAIN", f"  TF-IDF   : ativo — endpoint /buscar disponível")
+    log("MAIN", f"  Fase11   : memória negativa ativa")
+    log("MAIN", f"  Fase12   : resumo por importância ativo")
     log("MAIN", "=" * 52)
 
     dados_github = carregar_memoria_github()
@@ -1102,19 +1085,18 @@ def loop_agente():
 
             melhor = max(tarefas, key=lambda t: avaliar_tarefa_com_memoria(t, memoria_decisao))
             if melhor == ultima_tarefa and len(tarefas) > 1:
-                outros  = [t for t in tarefas if t != melhor]
-                melhor  = max(outros, key=lambda t: avaliar_tarefa_com_memoria(t, memoria_decisao))
+                outros = [t for t in tarefas if t != melhor]
+                melhor = max(outros, key=lambda t: avaliar_tarefa_com_memoria(t, memoria_decisao))
 
             log("TAREFA", f"Executando: {melhor}")
             resultado = executar_tarefa_com_retorno(melhor, objetivo, registros, cpu, mem)
             log("TAREFA", resultado[:120])
             tarefas.remove(melhor)
-            ultima_tarefa        = melhor
+            ultima_tarefa           = melhor
             estado["ultima_tarefa"] = melhor
 
             sincronizar_github_se_necessario()
 
-            # ── Fase 12: verifica se deve sumarizar ───────────────────────────
             if _deve_sumarizar():
                 log("RESUMO", "Gatilho atingido — iniciando sumarização em background")
                 threading.Thread(target=executar_sumarizacao, daemon=True).start()
