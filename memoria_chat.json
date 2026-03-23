@@ -65,12 +65,12 @@
       "data": "23/03/2026 21:19",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 34.6% | Mem: 71.6%"
+      "resultado": "CPU: 23.2% | Mem: 70.0%"
     },
     {
       "data": "23/03/2026 21:20",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
+      "tarefa": "buscar noticias tech",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
@@ -88,29 +88,29 @@
     {
       "data": "23/03/2026 21:24",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
-      "data": "23/03/2026 21:26",
-      "origem": "nuvem",
       "tarefa": "verificar sistema",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
-      "data": "23/03/2026 21:27",
+      "data": "23/03/2026 21:25",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 21:25:54"
     },
     {
-      "data": "23/03/2026 21:28",
+      "data": "23/03/2026 21:26",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "23/03/2026 21:27",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "23/03/2026 21:29",
+      "data": "23/03/2026 21:28",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
@@ -118,8 +118,8 @@
     {
       "data": "23/03/2026 21:30",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 54.6% | Mem: 71.7%"
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
     }
   ],
   "total_conversas": 164,
