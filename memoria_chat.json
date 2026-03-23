@@ -4,62 +4,62 @@
     {
       "data": "23/03/2026 03:53",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "analisar memoria",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 03:54",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
-      "resultado": "Limite Tavily atingido."
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
       "data": "23/03/2026 03:55",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 03:57",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 03:58",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
+      "data": "23/03/2026 03:56",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Limite Tavily atingido."
+    },
+    {
+      "data": "23/03/2026 03:57",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 45.6% | Mem: 71.8%"
+    },
+    {
       "data": "23/03/2026 03:59",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Limite Tavily atingido."
+      "tarefa": "gerar relatorio",
+      "resultado": "Aqui está um resumo de 3 registros do agente em nuvem:\n\n**Registro 1: Atualização de Software**\n* Data: 15/02/2023\n* Ação: Atualização do Framework de Linguagem de Programação\n* Detalhes: Foi realizad"
     },
     {
       "data": "23/03/2026 04:00",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 18.4% | Mem: 72.3%"
+      "resultado": "CPU: 42.6% | Mem: 71.8%"
     },
     {
-      "data": "23/03/2026 04:02",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 04:03",
+      "data": "23/03/2026 04:01",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
+      "data": "23/03/2026 04:02",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "Nenhuma API disponível no momento."
+    },
+    {
       "data": "23/03/2026 04:04",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Limite Tavily atingido."
+      "tarefa": "analisar memoria",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 04:05",
@@ -68,58 +68,58 @@
       "resultado": "Nenhuma API disponível no momento."
     },
     {
-      "data": "23/03/2026 04:07",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "23/03/2026 04:08",
+      "data": "23/03/2026 04:06",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "23/03/2026 04:09",
+      "data": "23/03/2026 04:07",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 41.1% | Mem: 71.8%"
+    },
+    {
+      "data": "23/03/2026 04:08",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
       "resultado": "Limite Tavily atingido."
     },
     {
       "data": "23/03/2026 04:10",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 19.2% | Mem: 71.8%"
-    },
-    {
-      "data": "23/03/2026 04:12",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
+      "tarefa": "gerar relatorio",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
-      "data": "23/03/2026 04:13",
+      "data": "23/03/2026 04:11",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "23/03/2026 04:14",
+      "data": "23/03/2026 04:12",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Limite Tavily atingido."
     },
     {
-      "data": "23/03/2026 04:15",
+      "data": "23/03/2026 04:14",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
-      "resultado": "**Registro 1: 22/02/2024 às 14h30**\n\n- **Status do sistema:** Ativo e conectado à nuvem\n- **Consumo de recursos:** Memória RAM utilizada: 2,5 GB / 16 GB disponíveis, Uso de CPU: 35%\n\n**Registro 2: 23/"
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
-      "data": "23/03/2026 04:17",
+      "data": "23/03/2026 04:15",
       "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 04:15:26"
+    },
+    {
+      "data": "23/03/2026 04:16",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     }
   ],
   "total_conversas": 164,
