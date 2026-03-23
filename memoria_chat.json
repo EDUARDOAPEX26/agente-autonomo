@@ -116,10 +116,10 @@
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "23/03/2026 13:10",
+      "data": "23/03/2026 13:11",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 19.1% | Mem: 72.5%"
+      "tarefa": "gerar relatorio",
+      "resultado": "O agente está em uma instância inicial, sem registros ou dados. A conexão com a nuvem está estabelecida e a configuração básica está concluída."
     }
   ],
   "total_conversas": 164,
