@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "23/03/2026 13:25",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Sim, o sistema está saudável. As taxas de uso da CPU e da memória estão dentro de padrões normais."
+    },
+    {
       "data": "23/03/2026 13:26",
       "origem": "nuvem",
       "tarefa": "analisar memoria",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 37.2% | Mem: 70.9%"
-    },
-    {
-      "data": "23/03/2026 13:47",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Resumo Técnico**\n\n- Plataforma: Nuvem\n- Status do registro: 0\n- Tipo de registro: Nenhum registro disponível\n- Tempo de processamento: 0 segundos"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4328
+  "total_tarefas": 4327
 }
