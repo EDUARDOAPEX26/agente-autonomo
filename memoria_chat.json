@@ -4,12 +4,6 @@
     {
       "data": "23/03/2026 20:13",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro de Inicialização**\n- Data: (não fornecida)\n- Hora: (não fornecida)\n- Status: Inicializado\n- Versão do Agente: Não informada\n- Tipo de Plataforma: (não especificado)"
-    },
-    {
-      "data": "23/03/2026 20:13",
-      "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 29.5% | Mem: 72.7%"
     },
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 20:33",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 35.5% | Mem: 70.7%"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4659
+  "total_tarefas": 4660
 }
