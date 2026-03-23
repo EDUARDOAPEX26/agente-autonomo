@@ -2,18 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 16:31",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
-      "data": "23/03/2026 16:32",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Para analisar e limpar dados antigos, você deve criar um relatório com estatísticas e insights dos registros existentes para entender quais dados são relevantes e quais podem ser excluídos. Em seguida"
-    },
-    {
       "data": "23/03/2026 16:33",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
@@ -120,8 +108,20 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "23/03/2026 17:01",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.2% | Mem: 72.2%"
+    },
+    {
+      "data": "23/03/2026 17:02",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 33.2% | Mem: 70.9%"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4480
+  "total_tarefas": 4482
 }
