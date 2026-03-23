@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "23/03/2026 16:08",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
       "data": "23/03/2026 16:09",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -110,18 +116,12 @@
       "resultado": "Aqui está um resumo tecnico de 3 registros do agente em nuvem:\n\n**Registro 1: 2024-02-20 14:30:00**\n- Tipo de evento: Conexão estabelecida\n- Dados de conexão: IP: 192.168.1.100, Browser: Google Chrome"
     },
     {
-      "data": "23/03/2026 16:28",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
       "data": "23/03/2026 16:29",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Registros do meu ciclo de vida em nuvem:\n\n- Data e Hora de Criação: 12:04:00 UTC 01-01-2023\n- Plataforma de Hospedagem: Amazon Web Services (AWS)\n- Arquitetura da Aplicação: Microserviço com Container"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 16.3% | Mem: 71.7%"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4459
+  "total_tarefas": 4458
 }
