@@ -110,13 +110,13 @@
       "resultado": "Aqui está um resumo tecnico de 3 registros do agente em nuvem:\n\n**Registro 1: 2024-02-20 14:30:00**\n- Tipo de evento: Conexão estabelecida\n- Dados de conexão: IP: 192.168.1.100, Browser: Google Chrome"
     },
     {
-      "data": "23/03/2026 16:29",
+      "data": "23/03/2026 16:28",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 16.0% | Mem: 73.1%"
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 16:30",
+      "data": "23/03/2026 16:29",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
