@@ -116,10 +116,10 @@
       "resultado": "CPU: 28.0% | Mem: 69.6%"
     },
     {
-      "data": "23/03/2026 10:50",
+      "data": "23/03/2026 10:51",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "\"O agente em nuvem foi criado com o objetivo de coletar e processar informações de forma eficiente. Atualmente, não há registros ou dados associados ao agente.\""
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 46.9% | Mem: 72.0%"
     }
   ],
   "total_conversas": 164,
