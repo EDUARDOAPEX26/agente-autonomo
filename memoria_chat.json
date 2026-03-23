@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 05:12",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Aqui estão 3 registros do agente em nuvem:\n\n**Registro 1:**\n- Data: 01/02/2023\n- Ação: Monitoramento de rede\n- Descrição: Identificada falha na conexão Wi-Fi da sede da empresa.\n\n**Registro 2:**\n- Dat"
-    },
-    {
       "data": "23/03/2026 05:13",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "23/03/2026 05:40",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 3963
+  "total_tarefas": 3964
 }
