@@ -68,28 +68,22 @@
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 21:01",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 30.9% | Mem: 70.5%"
-    },
-    {
-      "data": "23/03/2026 21:02",
+      "data": "23/03/2026 20:59",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 21:03",
+      "data": "23/03/2026 21:01",
       "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "gerar relatorio",
+      "resultado": "Registo:\n\n - Data: 22/03/2024 14:45:00\n - Status: Operacional\n - Memória Usada: 85.62%\n - Disco Usado: 92.15%\n - Processos em Execução: 34 (entre eles, 2 de baixo nível, 14 de aplicação e 18 de sistem"
     },
     {
       "data": "23/03/2026 21:04",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 36.0% | Mem: 69.8%"
     },
     {
       "data": "23/03/2026 21:06",
@@ -100,14 +94,20 @@
     {
       "data": "23/03/2026 21:07",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Registro 1:\n- Tempo de execução atual: 0.23 segundos\n- Memória utilizada: 145 MB\n\nRegistro 2:\n- Tempo de execução atual: 0.18 segundos\n- Memória utilizada: 120 MB"
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 21:08",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 21:09",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 13.3% | Mem: 72.2%"
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 21:09:54"
     },
     {
       "data": "23/03/2026 21:10",
@@ -118,8 +118,8 @@
     {
       "data": "23/03/2026 21:11",
       "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     }
   ],
   "total_conversas": 164,
