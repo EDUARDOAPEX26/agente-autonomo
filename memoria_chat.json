@@ -62,49 +62,49 @@
       "resultado": "Nenhuma API disponível no momento."
     },
     {
-      "data": "23/03/2026 01:24",
+      "data": "23/03/2026 01:23",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 33.0% | Mem: 69.8%"
+      "resultado": "CPU: 26.4% | Mem: 72.5%"
     },
     {
       "data": "23/03/2026 01:25",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
-      "data": "23/03/2026 01:26",
       "origem": "nuvem",
       "tarefa": "verificar sistema",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
-      "data": "23/03/2026 01:27",
+      "data": "23/03/2026 01:26",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     },
     {
+      "data": "23/03/2026 01:27",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
+    },
+    {
+      "data": "23/03/2026 01:28",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 01:28:52"
+    },
+    {
       "data": "23/03/2026 01:29",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro**: 2023-02-15 14:00:00\n**Status**: Online\n**Posição**: São Paulo, SP, Brasil (latitude: -23.5512, longitude: -46.6333)\n**Conexão**: Internet banda larga ( upload: 100 Mbps, download: 1000 M"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
       "data": "23/03/2026 01:30",
       "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 01:30:18"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 28.5% | Mem: 72.4%"
     },
     {
       "data": "23/03/2026 01:31",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 33.0% | Mem: 71.3%"
-    },
-    {
-      "data": "23/03/2026 01:32",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
@@ -112,14 +112,14 @@
     {
       "data": "23/03/2026 01:33",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Aqui está um resumo técnico de um registro do agente em nuvem:\n\n* ID: 00123456\n* Data e Hora: 14/03/2024 13:45:10\n* Tipo de Registo: Verificação de Conectividade\n* Status: OK\n* Localização: São Paulo,"
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 01:34",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 41.9% | Mem: 71.4%"
+      "tarefa": "gerar relatorio",
+      "resultado": "Nenhuma API disponível no momento."
     }
   ],
   "total_conversas": 164,
