@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "23/03/2026 18:31",
-    "total_entradas_processadas": 90715,
-    "ciclos_completos": 4536
+    "ultima_geracao": "23/03/2026 18:33",
+    "total_entradas_processadas": 90735,
+    "ciclos_completos": 4537
   },
   "blocos": {
     "decisoes": [
@@ -387,6 +387,30 @@
         "importancia": 0.7
       },
       {
+        "id": "lim_54437",
+        "resumo": "Tavily erro: This request exceeds your plan's set usage limit",
+        "data": "23/03/2026 18:05",
+        "importancia": 0.7
+      },
+      {
+        "id": "lim_673bd",
+        "resumo": "Tavily erro: This request exceeds your plan's set usage limit",
+        "data": "23/03/2026 18:07",
+        "importancia": 0.7
+      },
+      {
+        "id": "lim_ad5af",
+        "resumo": "Tavily erro: This request exceeds your plan's set usage limit",
+        "data": "23/03/2026 18:14",
+        "importancia": 0.7
+      },
+      {
+        "id": "lim_264f1",
+        "resumo": "Tavily erro: This request exceeds your plan's set usage limit",
+        "data": "23/03/2026 18:15",
+        "importancia": 0.7
+      },
+      {
         "id": "lim_60df5",
         "resumo": "sistema está estável, porém com carga média de CPU",
         "data": "22/03/2026 02:54",
@@ -468,30 +492,6 @@
         "id": "lim_99419",
         "resumo": "Limpar memoria",
         "data": "22/03/2026 03:35",
-        "importancia": 0.6
-      },
-      {
-        "id": "lim_32e1d",
-        "resumo": "Limpar memoria",
-        "data": "22/03/2026 03:38",
-        "importancia": 0.6
-      },
-      {
-        "id": "lim_76f90",
-        "resumo": "CPU 25.4%, Mem 72.9%",
-        "data": "22/03/2026 03:43",
-        "importancia": 0.6
-      },
-      {
-        "id": "lim_d0436",
-        "resumo": "CPU 18.6%, Mem 72.5%",
-        "data": "22/03/2026 03:43",
-        "importancia": 0.6
-      },
-      {
-        "id": "lim_0dbc5",
-        "resumo": "Sistema com 19.1% de CPU e 71.6% de Memoria",
-        "data": "22/03/2026 03:41",
         "importancia": 0.6
       }
     ],
