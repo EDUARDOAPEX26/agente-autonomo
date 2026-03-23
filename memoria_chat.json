@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "23/03/2026 09:21",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: Your request has been blocked due to excessive requests. Please reduce the rate of requests. Verify you are using production API keys."
+    },
+    {
       "data": "23/03/2026 09:25",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 12.9% | Mem: 70.1%"
-    },
-    {
-      "data": "23/03/2026 09:52",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 18.4% | Mem: 69.9%"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4162
+  "total_tarefas": 4161
 }
