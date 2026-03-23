@@ -119,7 +119,7 @@
       "data": "23/03/2026 20:02",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
-      "resultado": "Configuração inicial realizada com sucesso. As informações abaixo são consideradas base para execução do ambiente:\n\n- Plataforma: CLOUD.\n- Sistema Operacional: Não especificado.\n- Memória Ram: Não esp"
+      "resultado": "**Iniciando Agente em Nuvem**\n\n* Status: Ativo\n* Carga Inicial: 0 registros\n* Conexão Internet: Conectado\n* Arquitetura: N/A"
     }
   ],
   "total_conversas": 164,
