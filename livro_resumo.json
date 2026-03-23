@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "23/03/2026 19:40",
-    "total_entradas_processadas": 92375,
-    "ciclos_completos": 4619
+    "ultima_geracao": "23/03/2026 19:50",
+    "total_entradas_processadas": 92395,
+    "ciclos_completos": 4620
   },
   "blocos": {
     "decisoes": [
@@ -245,10 +245,10 @@
         "importancia": 0.9
       },
       {
-        "id": "bug_b761a",
-        "resumo": "Tavily nao configurado, não permitindo busca de cotacao do dolar.",
-        "data": "22/03/2026 02:58",
-        "importancia": 0.85
+        "id": "bug_a98b1",
+        "resumo": "Erro ao buscar notícias tech",
+        "data": "23/03/2026 19:40",
+        "importancia": 0.9
       }
     ],
     "correcoes": [
