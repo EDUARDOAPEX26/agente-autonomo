@@ -37,9 +37,18 @@
       "confianca": 0.7,
       "origem": "conversa_tecnica",
       "status": "normal"
+    },
+    {
+      "data": "23/03/2026 19:35",
+      "pergunta": "Seu treinamento é melhor que o da Llama?",
+      "resposta": "De acordo com as informações disponíveis nos meus livros, especificamente em uma conversa técnica ocorrida em 23/03/2026 10:08, há uma menção de que o Llama 3.3 70b é considerado o modelo mais capaz d",
+      "texto_indexado": "seu treinamento é melhor que o da llama de acordo com as informações disponíveis nos meus livros especificamente em uma conversa técnica ocorrida em 23/03/2026 10 08 há uma menção de que o llama 3 3 70b é considerado o modelo mais capaz d",
+      "confianca": 0.7,
+      "origem": "conversa_tecnica",
+      "status": "normal"
     }
   ],
-  "total_entradas": 4,
-  "ultima_atualizacao": "23/03/2026 10:08",
+  "total_entradas": 5,
+  "ultima_atualizacao": "23/03/2026 19:35",
   "contradicoes": []
 }
