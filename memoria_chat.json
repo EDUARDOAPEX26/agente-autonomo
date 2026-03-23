@@ -116,10 +116,10 @@
       "resultado": "O agente autonomo rodando em nuvem está inicializado com zeros, pois não há registros ou dados armazenados no momento. O agente está configurado para iniciar os serviços básicos, mas nenhum dado é ace"
     },
     {
-      "data": "23/03/2026 15:33",
+      "data": "23/03/2026 15:34",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 16.4% | Mem: 71.5%"
+      "resultado": "CPU: 27.5% | Mem: 71.6%"
     }
   ],
   "total_conversas": 164,
