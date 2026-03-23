@@ -2,24 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 16:28",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Aqui está um resumo tecnico de 3 registros do agente em nuvem:\n\n**Registro 1: 2024-02-20 14:30:00**\n- Tipo de evento: Conexão estabelecida\n- Dados de conexão: IP: 192.168.1.100, Browser: Google Chrome"
-    },
-    {
-      "data": "23/03/2026 16:28",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Estado do Sistema:** Não Registado\n**Informações do Agente:** Nenhuma informação disponível."
-    },
-    {
-      "data": "23/03/2026 16:29",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
       "data": "23/03/2026 16:30",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
@@ -120,8 +102,26 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 34.5% | Mem: 71.9%"
+    },
+    {
+      "data": "23/03/2026 16:54",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 16:55",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.8% | Mem: 70.6%"
+    },
+    {
+      "data": "23/03/2026 16:55",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 39.4% | Mem: 68.1%"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4476
+  "total_tarefas": 4479
 }
