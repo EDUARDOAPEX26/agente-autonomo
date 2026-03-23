@@ -4,6 +4,12 @@
     {
       "data": "23/03/2026 20:44",
       "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "23/03/2026 20:44",
+      "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 11.8% | Mem: 70.5%"
     },
@@ -86,16 +92,10 @@
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 21:00",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
       "data": "23/03/2026 21:01",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.8% | Mem: 68.8%"
     },
     {
       "data": "23/03/2026 21:02",
@@ -106,22 +106,22 @@
     {
       "data": "23/03/2026 21:04",
       "origem": "nuvem",
-      "tarefa": "analisar memoria",
+      "tarefa": "verificar sistema",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 21:05",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 21:05:02"
     },
     {
       "data": "23/03/2026 21:06",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4691
+  "total_tarefas": 4690
 }
