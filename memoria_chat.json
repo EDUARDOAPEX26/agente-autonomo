@@ -4,8 +4,8 @@
     {
       "data": "23/03/2026 03:37",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 24.8% | Mem: 68.9%"
+      "tarefa": "gerar relatorio",
+      "resultado": "Nenhuma API disponível no momento."
     },
     {
       "data": "23/03/2026 03:38",
@@ -16,19 +16,19 @@
     {
       "data": "23/03/2026 03:39",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
+      "tarefa": "buscar noticias tech",
       "resultado": "Limite Tavily atingido."
     },
     {
-      "data": "23/03/2026 03:41",
+      "data": "23/03/2026 03:40",
       "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 03:40:48"
     },
     {
       "data": "23/03/2026 03:42",
       "origem": "nuvem",
-      "tarefa": "analisar memoria",
+      "tarefa": "gerar relatorio",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
@@ -40,20 +40,20 @@
     {
       "data": "23/03/2026 03:44",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
+      "tarefa": "buscar noticias tech",
       "resultado": "Limite Tavily atingido."
     },
     {
       "data": "23/03/2026 03:46",
       "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 03:46:00"
+      "tarefa": "gerar relatorio",
+      "resultado": "**Relatório de Registro**\n\n1. **Data e Hora:** 10/03/2024 14:30:00\n **Evento:** Atualização de software do sistema operacional para a versão mais recente, garantindo melhorias de segurança e eficiênci"
     },
     {
       "data": "23/03/2026 03:47",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Registros:\n\n1. Data: 02/02/2023, Hora: 14:30:00, Ação: Conclusão de missão de monitoramento de sistema de rede corporativa.\n\n2. Data: 12/10/2022, Hora: 10:40:00, Ação: Atualização de software do servi"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Limite Tavily atingido."
     },
     {
       "data": "23/03/2026 03:48",
@@ -70,58 +70,58 @@
     {
       "data": "23/03/2026 03:50",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Limite Tavily atingido."
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 03:50:19"
     },
     {
       "data": "23/03/2026 03:51",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 03:51:26"
-    },
-    {
-      "data": "23/03/2026 03:52",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 31.6% | Mem: 69.2%"
-    },
-    {
-      "data": "23/03/2026 03:53",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "23/03/2026 03:54",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Limite Tavily atingido."
-    },
-    {
-      "data": "23/03/2026 03:55",
       "origem": "nuvem",
       "tarefa": "analisar memoria",
       "resultado": "Nenhuma API disponível no momento."
     },
     {
-      "data": "23/03/2026 03:56",
+      "data": "23/03/2026 03:52",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "23/03/2026 03:53",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Limite Tavily atingido."
     },
     {
-      "data": "23/03/2026 03:57",
+      "data": "23/03/2026 03:54",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 53.4% | Mem: 67.5%"
+      "resultado": "CPU: 23.6% | Mem: 73.6%"
+    },
+    {
+      "data": "23/03/2026 03:55",
+      "origem": "nuvem",
+      "tarefa": "registrar atividade",
+      "resultado": "Atividade registrada as 03:55:55"
+    },
+    {
+      "data": "23/03/2026 03:56",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 26.8% | Mem: 73.8%"
+    },
+    {
+      "data": "23/03/2026 03:57",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     },
     {
       "data": "23/03/2026 03:58",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
+      "tarefa": "buscar noticias tech",
       "resultado": "Limite Tavily atingido."
     }
   ],
-  "total_conversas": 164,
-  "total_tarefas": 3886
+  "total_conversas": 0,
+  "total_tarefas": 70
 }
