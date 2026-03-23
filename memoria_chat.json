@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 16:42",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Aqui está um resumo técnico de zero registros do agente em nuvem:\n\n**Estado:** Zero registros ativos.\n**Armazenamento:** 0 GB utilizados em 0 GB total configurado.\n**Contagem de solicitações:** 0 requ"
-    },
-    {
       "data": "23/03/2026 16:43",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
       "resultado": "**Registro de Acesso**\n\n- **Id do Registro**: RD-001\n- **Data do Registro**: 2023-02-10 10:45:00\n- **Ação Realizada**: Realização de pesquisa sobre preços de componentes eletrônicos."
+    },
+    {
+      "data": "23/03/2026 17:07",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     }
   ],
   "total_conversas": 164,
-  "total_tarefas": 4487
+  "total_tarefas": 4488
 }
