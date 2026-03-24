@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "23/03/2026 23:24",
+      "pergunta": "lembra meu nome?",
+      "resposta": "Sim, lembro! Você se chama Eduardo Conceicao. Além disso, você também é o criador deste agente. Você mora em Atibaia, São Paulo.",
+      "origem": "conversa_local"
+    },
+    {
       "data": "23/03/2026 23:25",
       "pergunta": "eu sou o criador desse agente?",
       "resposta": "Sim, de acordo com as informações que tenho, você, Eduardo Conceicao, é o criador deste agente. Isso está registrado nas minhas fontes de dados e é algo que eu lembro sobre você.",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "24/03/2026 02:55",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 32.4% | Mem: 70.6%"
     }
   ],
   "total_conversas": 15,
-  "total_tarefas": 78
+  "total_tarefas": 77
 }
