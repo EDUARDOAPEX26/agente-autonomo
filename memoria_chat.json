@@ -116,12 +116,12 @@
       "resultado": "CPU: 34.3% | Mem: 70.9%"
     },
     {
-      "data": "24/03/2026 20:56",
-      "pergunta": "Qual é a cotação do dólar hoje?",
-      "resposta": "Precisaria buscar esse dado — não tenho agora.",
-      "origem": "conversa_local"
+      "data": "24/03/2026 23:56",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     }
   ],
-  "total_conversas": 2,
-  "total_tarefas": 740
+  "total_conversas": 1,
+  "total_tarefas": 741
 }
