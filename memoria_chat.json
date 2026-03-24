@@ -101,25 +101,25 @@
       "data": "24/03/2026 18:17",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 18.0% | Mem: 70.4%"
+      "resultado": "CPU: 15.8% | Mem: 72.6%"
     },
     {
       "data": "24/03/2026 18:18",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 31.6% | Mem: 69.2%"
+      "resultado": "CPU: 18.9% | Mem: 70.4%"
     },
     {
       "data": "24/03/2026 18:19",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Resumo Técnico de Inicialização**\n\n- **Plataforma de Orquestração:** Não configurada.\n- **Nuvem**: Desconhecida.\n- **Armazenamento em Disco:** Não disponível.\n- **Memória RAM:** Desconhecida.\n- **Co"
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     },
     {
       "data": "24/03/2026 18:20",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 13.0% | Mem: 72.7%"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     }
   ],
   "total_conversas": 0,
