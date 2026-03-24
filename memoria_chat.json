@@ -118,8 +118,8 @@
     {
       "data": "24/03/2026 19:17",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Configuração Inicial**\n\n- Plataforma: Nuvem AWS (Cloud)\n- Ambiente: Sandbox para teste e desenvolvimento\n- Registros: 0 (nenhuma ação foi realizada no agente)\n- Dados Armazenados: Nenhum\n- Conexões "
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 39.2% | Mem: 66.0%"
     }
   ],
   "total_conversas": 0,
