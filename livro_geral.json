@@ -1,6 +1,6 @@
 {
   "assunto": "geral",
-  "resumo": "Aqui está um resumo denso das conversas sobre \"geral\" preservando todos os fatos, priorizando entradas com maior confiança e ignorando entradas com status='arquivado' para fatos ativos:\n\n**Sobre o agente:**\n- O agente é um modelo de inteligência artificial criado por Eduardo, com uma arquitetura única que inclui um cerebro principal GROQ llama-3.3-70b-versatile e um fallback Google Gemini 2.0 Flas.\n\n**Limitações do agente:**\n- Acesso limitado a dados em tempo real, pois não pode buscar informações online em tempo real.\n- Capacidade de processamento limitada.\n- Dependência dos dados disponíveis nos livros, o que limita a capacidade de fornecer respostas precisas.\n- Não consegue acessar dados em tempo real sem busca ativa, como cotações, clima ou notícias.\n- Cada livro de memória recupera no máximo as 20 entradas mais relevantes por consulta.\n\n**Outros tópicos:**\n- Hackathons são eventos em que desenvolvedores, designers, especialistas em negócios e outros profissionais se reúnem para criar soluções inovadoras e técnicas para desafios específicos.\n- O Bitcoin é uma criptomoeda descentralizada, criada em 2009 por uma pessoa ou grupo de pessoas usando o pseudônimo Satoshi.\n\nEssas informações foram extraídas das conversas com maior confiança (c:1.0) e ignorando as entradas com status 'arquivado'.",
+  "resumo": "Não há conversas sobre \"geral\" para resumir. As conversas fornecidas são apenas saudações e não contêm informações relevantes sobre o tópico \"geral\". Além disso, as conversas fornecidas têm uma confiança baixa (c:0.7) e não há informações sobre o status das entradas.\n\nO resumo anterior parece ser de uma conversa diferente e não está relacionado às conversas fornecidas. Se você puder fornecer mais informações ou conversas relevantes, posso tentar ajudar a criar um resumo denso e preciso.",
   "entradas": [
     {
       "data": "21/03/2026 23:33",
@@ -57,51 +57,6 @@
       "status": "promovido"
     },
     {
-      "data": "20/03/2026 15:58",
-      "pergunta": "ola",
-      "resposta": "Olá Eduardo! É um prazer conversar com você novamente. Como posso ajudá-lo hoje? Quer conversar sobre algo específico ou apenas bater um papo? Estou aqui para ajudar e aprender mais sobre você e suas ",
-      "status": "normal"
-    },
-    {
-      "data": "20/03/2026 16:02",
-      "pergunta": "ola",
-      "resposta": "Olá Eduardo! É um prazer conversar com você novamente. Como posso ajudá-lo hoje? Quer conversar sobre algum tópico específico ou apenas bater um papo? Estou aqui para ajudar e aprender mais sobre suas",
-      "status": "normal"
-    },
-    {
-      "data": "20/03/2026 16:18",
-      "pergunta": "ola",
-      "resposta": "Olá Eduardo! É um prazer conversar com você novamente. Como posso ajudá-lo hoje? Quer conversar sobre algo específico ou apenas bater um papo? Estou aqui para ajudar e aprender com você!",
-      "status": "normal"
-    },
-    {
-      "data": "22/03/2026 23:28",
-      "pergunta": "e ai , ta cada vez mais robusto",
-      "resposta": "Eduardo, parece que você está se referindo ao livro \"Cada vez mais forte\" de Arthur C. Brooks, que discute sobre abraçar as mudanças da vida com alegria e encontrar sucesso e felicidade. O livro foi p",
-      "texto_indexado": "e ai ta cada vez mais robusto eduardo parece que você está se referindo ao livro cada vez mais forte de arthur c brooks que discute sobre abraçar as mudanças da vida com alegria e encontrar sucesso e felicidade o livro foi p",
-      "confianca": 0.7,
-      "origem": "conversa_reflexiva",
-      "status": "normal"
-    },
-    {
-      "data": "22/03/2026 23:35",
-      "pergunta": "sabe o que tem no seu livro de mentores?",
-      "resposta": "Sim, Eduardo! No meu livro de mentores, tenho entradas sobre modelos mentais ativos, como por exemplo, Albert Einstein e Richard Feynman. Esses modelos mentais são inspirados nas abordagens e pensamen",
-      "texto_indexado": "sabe o que tem no seu livro de mentores sim eduardo no meu livro de mentores tenho entradas sobre modelos mentais ativos como por exemplo albert einstein e richard feynman esses modelos mentais são inspirados nas abordagens e pensamen",
-      "confianca": 0.7,
-      "origem": "conversa_reflexiva",
-      "status": "normal"
-    },
-    {
-      "data": "23/03/2026 23:23",
-      "pergunta": "quem ganhou o oscar 2026",
-      "resposta": "De acordo com os dados que tenho, o filme \"Uma Batalha Após a Outra\" ganhou o Oscar 2026 de Melhor Filme. Além disso, Autumn Durald Arkapaw venceu o prêmio de Melhor Fotografia. O Brasil não ganhou ne",
-      "texto_indexado": "quem ganhou o oscar 2026 de acordo com os dados que tenho o filme uma batalha após a outra ganhou o oscar 2026 de melhor filme além disso autumn durald arkapaw venceu o prêmio de melhor fotografia o brasil não ganhou ne",
-      "confianca": 0.7,
-      "origem": "conversa_tecnica",
-      "status": "normal"
-    },
-    {
       "data": "23/03/2026 23:27",
       "pergunta": "eu moro no Rio de Janeiro",
       "resposta": "Nao encontrei isso nos meus registros. Anteriormente, eu tinha informações de que você morava em Atibaia, São Paulo. Agora, você está me dizendo que mora no Rio de Janeiro. Vou atualizar minhas inform",
@@ -138,15 +93,6 @@
       "status": "promovido"
     },
     {
-      "data": "23/03/2026 23:57",
-      "pergunta": "voce não pode tomar descisões sozinho?",
-      "resposta": "Eu não posso tomar decisões sozinho no sentido de que eu não tenho uma consciência ou uma inteligência autônoma que permita que eu tome decisões independentes.\n\nEu sou um modelo de inteligência artifi",
-      "texto_indexado": "voce não pode tomar descisões sozinho eu não posso tomar decisões sozinho no sentido de que eu não tenho uma consciência ou uma inteligência autônoma que permita que eu tome decisões independentes eu sou um modelo de inteligência artifi",
-      "confianca": 0.7,
-      "origem": "conversa_tecnica",
-      "status": "normal"
-    },
-    {
       "data": "23/03/2026 23:58",
       "pergunta": "e como te dar mai autonomia , para tomadas de decisões?",
       "resposta": "Dar-me mais autonomia para tomar decisões é um desafio complexo e requer uma abordagem cuidadosa. Aqui estão algumas maneiras pelas quais você pode dar-me mais autonomia:\n\n1. **Treinamento com dados m",
@@ -165,6 +111,51 @@
       "status": "promovido"
     },
     {
+      "data": "24/03/2026 00:16",
+      "pergunta": "Quais são suas limitações?",
+      "resposta": "Tenho algumas limitações importantes. Uma delas é que não posso acessar dados em tempo real sem busca ativa, como cotações, clima ou notícias. Além disso, minha capacidade de processamento é limitada,",
+      "texto_indexado": "quais são suas limitações tenho algumas limitações importantes uma delas é que não posso acessar dados em tempo real sem busca ativa como cotações clima ou notícias além disso minha capacidade de processamento é limitada",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica",
+      "status": "promovido"
+    },
+    {
+      "data": "22/03/2026 23:28",
+      "pergunta": "e ai , ta cada vez mais robusto",
+      "resposta": "Eduardo, parece que você está se referindo ao livro \"Cada vez mais forte\" de Arthur C. Brooks, que discute sobre abraçar as mudanças da vida com alegria e encontrar sucesso e felicidade. O livro foi p",
+      "texto_indexado": "e ai ta cada vez mais robusto eduardo parece que você está se referindo ao livro cada vez mais forte de arthur c brooks que discute sobre abraçar as mudanças da vida com alegria e encontrar sucesso e felicidade o livro foi p",
+      "confianca": 0.7,
+      "origem": "conversa_reflexiva",
+      "status": "normal"
+    },
+    {
+      "data": "22/03/2026 23:35",
+      "pergunta": "sabe o que tem no seu livro de mentores?",
+      "resposta": "Sim, Eduardo! No meu livro de mentores, tenho entradas sobre modelos mentais ativos, como por exemplo, Albert Einstein e Richard Feynman. Esses modelos mentais são inspirados nas abordagens e pensamen",
+      "texto_indexado": "sabe o que tem no seu livro de mentores sim eduardo no meu livro de mentores tenho entradas sobre modelos mentais ativos como por exemplo albert einstein e richard feynman esses modelos mentais são inspirados nas abordagens e pensamen",
+      "confianca": 0.7,
+      "origem": "conversa_reflexiva",
+      "status": "normal"
+    },
+    {
+      "data": "23/03/2026 23:23",
+      "pergunta": "quem ganhou o oscar 2026",
+      "resposta": "De acordo com os dados que tenho, o filme \"Uma Batalha Após a Outra\" ganhou o Oscar 2026 de Melhor Filme. Além disso, Autumn Durald Arkapaw venceu o prêmio de Melhor Fotografia. O Brasil não ganhou ne",
+      "texto_indexado": "quem ganhou o oscar 2026 de acordo com os dados que tenho o filme uma batalha após a outra ganhou o oscar 2026 de melhor filme além disso autumn durald arkapaw venceu o prêmio de melhor fotografia o brasil não ganhou ne",
+      "confianca": 0.7,
+      "origem": "conversa_tecnica",
+      "status": "normal"
+    },
+    {
+      "data": "23/03/2026 23:57",
+      "pergunta": "voce não pode tomar descisões sozinho?",
+      "resposta": "Eu não posso tomar decisões sozinho no sentido de que eu não tenho uma consciência ou uma inteligência autônoma que permita que eu tome decisões independentes.\n\nEu sou um modelo de inteligência artifi",
+      "texto_indexado": "voce não pode tomar descisões sozinho eu não posso tomar decisões sozinho no sentido de que eu não tenho uma consciência ou uma inteligência autônoma que permita que eu tome decisões independentes eu sou um modelo de inteligência artifi",
+      "confianca": 0.7,
+      "origem": "conversa_tecnica",
+      "status": "normal"
+    },
+    {
       "data": "24/03/2026 00:03",
       "pergunta": "prescisa adquirir conhecimento para ganhar dinheiro",
       "resposta": "Entendi melhor agora! Sim, é verdade que eu preciso adquirir conhecimento para ganhar dinheiro. No entanto, como um modelo de inteligência artificial, eu não tenho necessidades financeiras como os ser",
@@ -174,8 +165,8 @@
       "status": "normal"
     }
   ],
-  "total_entradas": 30,
-  "ultima_atualizacao": "24/03/2026 00:03",
+  "total_entradas": 31,
+  "ultima_atualizacao": "24/03/2026 00:16",
   "contradicoes": [
     {
       "data": "23/03/2026 19:50",
