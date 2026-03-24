@@ -343,19 +343,19 @@
         "importancia": 1.0
       },
       {
-        "id": "cor_046aa",
+        "id": "cor_e8669",
         "resumo": "Memoria limpa com sucesso",
         "data": "24/03/2026 19:03",
         "importancia": 1.0
       },
       {
-        "id": "cor_33244",
+        "id": "cor_8c7b9",
         "resumo": "Memoria limpa com sucesso",
         "data": "24/03/2026 19:07",
         "importancia": 1.0
       },
       {
-        "id": "cor_4e1a8",
+        "id": "cor_126df",
         "resumo": "Memoria limpa com sucesso",
         "data": "24/03/2026 19:12",
         "importancia": 1.0
@@ -459,6 +459,12 @@
         "importancia": 0.7
       },
       {
+        "id": "lim_39223",
+        "resumo": "Para limpar dados antigos, utilize técnicas de ETL.",
+        "data": "24/03/2026 18:57",
+        "importancia": 0.65
+      },
+      {
         "id": "lim_60df5",
         "resumo": "sistema está estável, porém com carga média de CPU",
         "data": "22/03/2026 02:54",
@@ -487,21 +493,9 @@
         "resumo": "Sistema estável com carga média de CPU, uso de memória alto",
         "data": "22/03/2026 02:54",
         "importancia": 0.6
-      },
-      {
-        "id": "lim_5d11c",
-        "resumo": "Sistema saudável, mas utilização da memória é alta",
-        "data": "22/03/2026 03:07",
-        "importancia": 0.6
       }
     ],
     "insights": [
-      {
-        "id": "ins_e9cf7",
-        "resumo": "Sistema estável, variacoes de CPU e memoria dentro dos limites",
-        "data": "24/03/2026 19:04",
-        "importancia": 1.0
-      },
       {
         "id": "ins_5564d",
         "resumo": "Intel Igência Artificial está em alta com novos avanços",
@@ -614,6 +608,12 @@
         "id": "ins_8c567",
         "resumo": "Resumo Técnico de Configuração Inicial",
         "data": "22/03/2026 03:43",
+        "importancia": 0.9
+      },
+      {
+        "id": "ins_14a97",
+        "resumo": "Cotação do dólar (0.19 USD = 1 R$)",
+        "data": "22/03/2026 03:56",
         "importancia": 0.9
       }
     ]
