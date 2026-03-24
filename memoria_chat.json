@@ -118,8 +118,8 @@
     {
       "data": "24/03/2026 16:30",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Status:** 0 registros criados.\n**Acesso:** Não autenticado."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 25.7% | Mem: 72.1%"
     }
   ],
   "total_conversas": 0,
