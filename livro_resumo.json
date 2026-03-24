@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "24/03/2026 19:03",
-    "total_entradas_processadas": 142502,
-    "ciclos_completos": 7149
+    "ultima_geracao": "24/03/2026 19:17",
+    "total_entradas_processadas": 142522,
+    "ciclos_completos": 7150
   },
   "blocos": {
     "decisoes": [
@@ -343,6 +343,24 @@
         "importancia": 1.0
       },
       {
+        "id": "cor_046aa",
+        "resumo": "Memoria limpa com sucesso",
+        "data": "24/03/2026 19:03",
+        "importancia": 1.0
+      },
+      {
+        "id": "cor_33244",
+        "resumo": "Memoria limpa com sucesso",
+        "data": "24/03/2026 19:07",
+        "importancia": 1.0
+      },
+      {
+        "id": "cor_4e1a8",
+        "resumo": "Memoria limpa com sucesso",
+        "data": "24/03/2026 19:12",
+        "importancia": 1.0
+      },
+      {
         "id": "cor_b88e3",
         "resumo": "Memória limpa com sucesso",
         "data": "22/03/2026 03:53",
@@ -353,24 +371,6 @@
         "resumo": "Memória limpa com sucesso",
         "data": "22/03/2026 03:54",
         "importancia": 0.95
-      },
-      {
-        "id": "cor_104b0",
-        "resumo": "Memória limpa com sucesso",
-        "data": "22/03/2026 03:55",
-        "importancia": 0.95
-      },
-      {
-        "id": "cor_a0eac",
-        "resumo": "Memoria limpa com sucesso",
-        "data": "22/03/2026 02:51",
-        "importancia": 0.9
-      },
-      {
-        "id": "cor_29d4c",
-        "resumo": "Memoria limpa com sucesso",
-        "data": "22/03/2026 02:55",
-        "importancia": 0.9
       }
     ],
     "limitacoes": [
@@ -497,6 +497,12 @@
     ],
     "insights": [
       {
+        "id": "ins_e9cf7",
+        "resumo": "Sistema estável, variacoes de CPU e memoria dentro dos limites",
+        "data": "24/03/2026 19:04",
+        "importancia": 1.0
+      },
+      {
         "id": "ins_5564d",
         "resumo": "Intel Igência Artificial está em alta com novos avanços",
         "data": "22/03/2026 03:17",
@@ -608,12 +614,6 @@
         "id": "ins_8c567",
         "resumo": "Resumo Técnico de Configuração Inicial",
         "data": "22/03/2026 03:43",
-        "importancia": 0.9
-      },
-      {
-        "id": "ins_14a97",
-        "resumo": "Cotação do dólar (0.19 USD = 1 R$)",
-        "data": "22/03/2026 03:56",
         "importancia": 0.9
       }
     ]
