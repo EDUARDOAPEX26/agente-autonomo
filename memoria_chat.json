@@ -116,10 +116,10 @@
       "resultado": "CPU: 19.9% | Mem: 71.0%"
     },
     {
-      "data": "24/03/2026 00:19",
+      "data": "24/03/2026 00:20",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 41.1% | Mem: 72.1%"
     }
   ],
   "total_conversas": 167,
