@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 23:30",
-      "pergunta": "me explique computação quântica em detalhes",
-      "resposta": "A computação quântica é um ramo da informática que se baseia nas leis da física quântica para processar informações. Diferentemente dos computadores clássicos, que usam bits para processar informações",
-      "origem": "conversa_local"
-    },
-    {
       "data": "23/03/2026 23:31",
       "pergunta": "qual a temperatura em Atibaia agora?",
       "resposta": "Anteriormente, eu sabia que a temperatura em Atibaia era de 22 graus com sensação térmica de 22°C e previsão de aumento para 29 graus ao longo do dia. No entanto, não tenho acesso a dados em tempo rea",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "24/03/2026 03:05",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 27.8% | Mem: 71.4%"
     }
   ],
   "total_conversas": 15,
-  "total_tarefas": 83
+  "total_tarefas": 84
 }
