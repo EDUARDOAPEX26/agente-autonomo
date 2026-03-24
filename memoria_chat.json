@@ -2,6 +2,18 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "23/03/2026 23:19",
+      "pergunta": "qual o preço do bitcoin",
+      "resposta": "Eu não tenho acesso a informações em tempo real, como cotações de bitcoins. Para saber o preço atual do bitcoin, você precisaria buscar essas informações em fontes atualizadas, como sites especializad",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "23/03/2026 23:20",
+      "pergunta": "cotação do bitcoin",
+      "resposta": "Nao encontrei isso nos meus registros. Precisaria buscar esse dado — nao tenho agora.",
+      "origem": "conversa_local"
+    },
+    {
       "data": "23/03/2026 23:21",
       "pergunta": "preço do bitcoin agora",
       "resposta": "Nao tenho acesso a dados em tempo real. Para saber o preço atual do bitcoin, você precisaria buscar essas informações em fontes atualizadas, como sites especializados em criptomoedas ou aplicativos de",
@@ -92,18 +104,6 @@
       "resultado": "CPU: 9.2% | Mem: 70.9%"
     },
     {
-      "data": "24/03/2026 02:47",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 31.7% | Mem: 72.2%"
-    },
-    {
-      "data": "24/03/2026 02:48",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
       "data": "24/03/2026 02:48",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
@@ -112,16 +112,16 @@
     {
       "data": "24/03/2026 02:49",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "24/03/2026 02:49",
+      "data": "24/03/2026 02:50",
       "origem": "nuvem",
-      "tarefa": "mostrar hora",
-      "resultado": "02:49:56"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 42.2% | Mem: 72.0%"
     }
   ],
   "total_conversas": 15,
-  "total_tarefas": 73
+  "total_tarefas": 71
 }
