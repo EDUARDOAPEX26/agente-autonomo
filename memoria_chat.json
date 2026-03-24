@@ -112,14 +112,14 @@
     {
       "data": "24/03/2026 16:30",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Status:** 0 registros criados.\n**Acesso:** Não autenticado."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 25.7% | Mem: 72.1%"
     },
     {
       "data": "24/03/2026 16:31",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 30.1% | Mem: 72.9%"
     }
   ],
   "total_conversas": 0,
