@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "24/03/2026 20:18",
-      "pergunta": "quem ganhou a libertadores em 25?",
-      "resposta": "Nao encontrei essa informacao nos meus registros. Posso buscar isso na internet para voce.",
-      "origem": "conversa_local"
-    },
-    {
       "data": "24/03/2026 23:21",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "24/03/2026 23:44",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 22.6% | Mem: 71.0%"
     }
   ],
   "total_conversas": 1,
-  "total_tarefas": 732
+  "total_tarefas": 733
 }
