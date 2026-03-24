@@ -118,8 +118,8 @@
     {
       "data": "24/03/2026 16:03",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Resumo Técnico**\n\n- **ID do Registros:** Nenhum\n- **Quantidade de Registros:** Zero\n- **Dados Salvos:** Não há dados armazenados.\n- **Sistema Pronto para uso:** Sim, configurado e pronto para inicia"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 37.6% | Mem: 69.1%"
     }
   ],
   "total_conversas": 0,
