@@ -3,6 +3,12 @@
   "aprendizados": [
     {
       "data": "23/03/2026 23:28",
+      "pergunta": "como você funciona internamente?",
+      "resposta": "Funciono como um modelo de inteligência artificial híbrido, com parte do processamento rodando no seu computador e outra parte na nuvem. Tenho uma arquitetura que inclui um cerebro principal baseado n",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "23/03/2026 23:28",
       "pergunta": "qual sua arquitetura técnica?",
       "resposta": "Minha arquitetura técnica é baseada em uma combinação de tecnologias de processamento de linguagem natural e modelos de inteligência artificial. \n\nEspecificamente, meu cerebro principal é baseado no m",
       "origem": "conversa_local"
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "24/03/2026 03:03",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 42.5% | Mem: 67.9%"
     }
   ],
   "total_conversas": 15,
-  "total_tarefas": 82
+  "total_tarefas": 81
 }
