@@ -96,8 +96,14 @@
       "origem": "nuvem",
       "tarefa": "registrar atividade",
       "resultado": "Atividade registrada as 08:20:47"
+    },
+    {
+      "data": "24/03/2026 08:21",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 16
+  "total_tarefas": 17
 }
