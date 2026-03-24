@@ -8,12 +8,6 @@
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "24/03/2026 14:05",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
       "data": "24/03/2026 14:06",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "24/03/2026 14:30",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "Registro criado. O agente está funcionando normalmente, mas não há informações armazenadas. A lista de registros está vazia."
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 281
+  "total_tarefas": 282
 }
