@@ -4,12 +4,6 @@
     {
       "data": "24/03/2026 17:20",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
-      "data": "24/03/2026 17:20",
-      "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
@@ -112,16 +106,22 @@
     {
       "data": "24/03/2026 17:43",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 24.5% | Mem: 70.9%"
+    },
+    {
+      "data": "24/03/2026 17:43",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 39.2% | Mem: 71.0%"
     },
     {
       "data": "24/03/2026 17:44",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
+      "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 449
+  "total_tarefas": 450
 }
