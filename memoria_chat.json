@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "24/03/2026 02:48",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
       "data": "24/03/2026 02:49",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
@@ -113,15 +119,9 @@
       "data": "24/03/2026 03:15",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 41.8% | Mem: 71.4%"
-    },
-    {
-      "data": "24/03/2026 03:16",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 47.1% | Mem: 69.8%"
+      "resultado": "CPU: 24.8% | Mem: 72.6%"
     }
   ],
   "total_conversas": 15,
-  "total_tarefas": 91
+  "total_tarefas": 90
 }
