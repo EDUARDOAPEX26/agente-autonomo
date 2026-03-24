@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "24/03/2026 16:57",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "O sistema está com uso moderado da CPU e ocupação alta da memória, o que pode sugerir uma situação de uso intenso ou aplicativos em execução ao fundo. É recomendável monitorar a situação para evitar s"
-    },
-    {
       "data": "24/03/2026 16:58",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 20.4% | Mem: 70.5%"
+    },
+    {
+      "data": "24/03/2026 17:17",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 27.1% | Mem: 70.2%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 426
+  "total_tarefas": 427
 }
