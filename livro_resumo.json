@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "24/03/2026 22:43",
-    "total_entradas_processadas": 150382,
-    "ciclos_completos": 7543
+    "ultima_geracao": "24/03/2026 22:57",
+    "total_entradas_processadas": 150402,
+    "ciclos_completos": 7544
   },
   "blocos": {
     "decisoes": [
@@ -417,6 +417,36 @@
         "importancia": 0.9
       },
       {
+        "id": "lim_2d03c",
+        "resumo": "Limite de plano excedido, recomendar atualização",
+        "data": "24/03/2026 22:18",
+        "importancia": 0.9
+      },
+      {
+        "id": "lim_64546",
+        "resumo": "Limite de plano excedido, recomendar atualização",
+        "data": "24/03/2026 22:19",
+        "importancia": 0.9
+      },
+      {
+        "id": "lim_3c4c7",
+        "resumo": "Limite de plano excedido, recomendar atualização",
+        "data": "24/03/2026 22:23",
+        "importancia": 0.9
+      },
+      {
+        "id": "lim_9c698",
+        "resumo": "Limite de plano excedido, recomendar atualização",
+        "data": "24/03/2026 22:23",
+        "importancia": 0.9
+      },
+      {
+        "id": "lim_5c31a",
+        "resumo": "Limite de plano excedido, recomendar atualização",
+        "data": "24/03/2026 22:30",
+        "importancia": 0.9
+      },
+      {
         "id": "lim_483cc",
         "resumo": "Uso excessivo de CPU e memória",
         "data": "22/03/2026 03:13",
@@ -463,36 +493,6 @@
         "resumo": "Para limpar dados antigos, utilize técnicas de ETL.",
         "data": "24/03/2026 18:57",
         "importancia": 0.65
-      },
-      {
-        "id": "lim_60df5",
-        "resumo": "sistema está estável, porém com carga média de CPU",
-        "data": "22/03/2026 02:54",
-        "importancia": 0.6
-      },
-      {
-        "id": "lim_d0f8c",
-        "resumo": "sistema parece estar saudável",
-        "data": "22/03/2026 02:56",
-        "importancia": 0.6
-      },
-      {
-        "id": "lim_3b65d",
-        "resumo": "Sistema funcionando com 48,6% de uso da CPU e 67,5% de uso da memória",
-        "data": "22/03/2026 03:02",
-        "importancia": 0.6
-      },
-      {
-        "id": "lim_a49f8",
-        "resumo": "Monitorar sistema com CPU e memória monitorados",
-        "data": "22/03/2026 02:52",
-        "importancia": 0.6
-      },
-      {
-        "id": "lim_e6c6d",
-        "resumo": "Sistema estável com carga média de CPU, uso de memória alto",
-        "data": "22/03/2026 02:54",
-        "importancia": 0.6
       }
     ],
     "insights": [
