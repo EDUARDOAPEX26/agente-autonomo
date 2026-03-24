@@ -118,8 +118,8 @@
     {
       "data": "24/03/2026 18:31",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Nesse caso, não há informações registradas em meu sistemas, portanto não há dados para serem apresentados."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 40.0% | Mem: 68.7%"
     }
   ],
   "total_conversas": 0,
