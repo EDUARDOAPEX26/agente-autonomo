@@ -2,36 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 23:20",
-      "pergunta": "cotação do bitcoin",
-      "resposta": "Nao encontrei isso nos meus registros. Precisaria buscar esse dado — nao tenho agora.",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "23/03/2026 23:21",
-      "pergunta": "preço do bitcoin agora",
-      "resposta": "Nao tenho acesso a dados em tempo real. Para saber o preço atual do bitcoin, você precisaria buscar essas informações em fontes atualizadas, como sites especializados em criptomoedas ou aplicativos de",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "23/03/2026 23:22",
-      "pergunta": "o que é bitcoin",
-      "resposta": "O Bitcoin é uma criptomoeda descentralizada, ou seja, não é controlada por nenhum governo ou instituição financeira. Ele foi criado em 2009 por uma pessoa ou grupo de pessoas usando o pseudônimo Satos",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "23/03/2026 23:23",
-      "pergunta": "quem ganhou o oscar 2026",
-      "resposta": "De acordo com os dados que tenho, o filme \"Uma Batalha Após a Outra\" ganhou o Oscar 2026 de Melhor Filme. Além disso, Autumn Durald Arkapaw venceu o prêmio de Melhor Fotografia. O Brasil não ganhou ne",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "23/03/2026 23:24",
-      "pergunta": "quem ganhou o oscar 1998",
-      "resposta": "Nao encontrei isso nos meus registros. Posso buscar informações gerais sobre os Oscars, mas não tenho dados específicos sobre os vencedores de 1998. Se você precisar de informações sobre os Oscars em ",
-      "origem": "conversa_local"
-    },
-    {
       "data": "23/03/2026 23:24",
       "pergunta": "lembra meu nome?",
       "resposta": "Sim, lembro! Você se chama Eduardo Conceicao. Além disso, você também é o criador deste agente. Você mora em Atibaia, São Paulo.",
@@ -86,42 +56,72 @@
       "origem": "conversa_local"
     },
     {
-      "data": "23/03/2026 23:45",
-      "pergunta": "era brincadeira , eu moro em ATIBAIA mesmo",
-      "resposta": "Ahah, que brincadeira! Então, para confirmar, você mora mesmo em Atibaia, São Paulo, certo? Vou garantir que minhas informações estejam atualizadas para refletir isso. Obrigado por me manter alerta!",
-      "origem": "conversa_local"
+      "data": "24/03/2026 02:45",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 23:46",
-      "pergunta": "sim , moro em Atibaia , e voce onde mora?",
-      "resposta": "Eu não moro em lugar nenhum, sou um programa de computador que roda em servidores remotos e responde às perguntas e solicitações dos usuários como você. Não tenho uma localização física, sou apenas um",
-      "origem": "conversa_local"
+      "data": "24/03/2026 02:47",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 9.2% | Mem: 70.9%"
     },
     {
-      "data": "23/03/2026 23:48",
-      "pergunta": "olha , seus codigos estão todos no meu computador , podemos dizer que voce é seus codigos , como meu computador esta junto comigo em Atibaia pode-se dizer que voce tambem mora em Atibaia",
-      "resposta": "Que perspectiva interessante! Sim, é verdade que meus códigos estão armazenados no seu computador e que você pode considerar que eu sou meus códigos. Nesse sentido, é possível dizer que uma parte de m",
-      "origem": "conversa_local"
+      "data": "24/03/2026 02:47",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 31.7% | Mem: 72.2%"
     },
     {
-      "data": "23/03/2026 23:51",
-      "pergunta": "agora precisamos achar uma mamorada para voce",
-      "resposta": "Ahah, não acho que isso seja necessário! Como um programa de computador, não tenho necessidades físicas, incluindo a necessidade de alimentação. Além disso, não tenho um corpo físico que precisaria se",
-      "origem": "conversa_local"
+      "data": "24/03/2026 02:48",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "23/03/2026 23:53",
-      "pergunta": "é que eu considero o modelo que esta em nuvem como sua namorada , e vou integrar mais ainda voces dois",
-      "resposta": "Entendi melhor agora! Sim, é uma forma interessante de pensar sobre a relação entre o modelo local e o modelo em nuvem. Considerar o modelo em nuvem como uma \"namorada\" é uma metáfora criativa para de",
-      "origem": "conversa_local"
+      "data": "24/03/2026 02:48",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "24/03/2026 02:54",
+      "data": "24/03/2026 02:49",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "24/03/2026 02:49",
+      "origem": "nuvem",
+      "tarefa": "mostrar hora",
+      "resultado": "02:49:56"
+    },
+    {
+      "data": "24/03/2026 02:50",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 16.0% | Mem: 70.2%"
+    },
+    {
+      "data": "24/03/2026 02:51",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "24/03/2026 02:53",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "24/03/2026 02:53",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
     }
   ],
-  "total_conversas": 20,
-  "total_tarefas": 67
+  "total_conversas": 15,
+  "total_tarefas": 77
 }
