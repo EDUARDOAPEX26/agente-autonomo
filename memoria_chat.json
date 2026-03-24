@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "24/03/2026 22:51",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro 01**\n\n* Tipo de registro: Registro de inicialização do sistema\n* Data e hora de registro: 24/03/2024, 10:05:02\n* Descrição: O sistema foi inicializado com sucesso, iniciando os serviços de "
-    },
-    {
       "data": "24/03/2026 22:52",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "registrar atividade",
       "resultado": "Atividade registrada as 23:10:20"
+    },
+    {
+      "data": "24/03/2026 23:10",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "**Inicialização do Agente**: Não há registros ou informações disponíveis em nuvem."
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 706
+  "total_tarefas": 707
 }
