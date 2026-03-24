@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "24/03/2026 13:57",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 26.4% | Mem: 73.3%"
+    },
+    {
       "data": "24/03/2026 13:58",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
       "resultado": "**Início de Operação:**\n\n- Data de Início: Não registrada\n- Estado da Conta: Vazio\n- Plataforma Utilizada: Não registrada\n- Nível de Segurança: Não configurado\n- Configurações Iniciais: Não realizadas"
-    },
-    {
-      "data": "24/03/2026 14:19",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 40.4% | Mem: 68.6%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 274
+  "total_tarefas": 273
 }
