@@ -127,10 +127,55 @@
       "confianca": 1.0,
       "origem": "conversa_tecnica",
       "status": "promovido"
+    },
+    {
+      "data": "23/03/2026 23:30",
+      "pergunta": "me explique computação quântica em detalhes",
+      "resposta": "A computação quântica é um ramo da informática que se baseia nas leis da física quântica para processar informações. Diferentemente dos computadores clássicos, que usam bits para processar informações",
+      "texto_indexado": "me explique computação quântica em detalhes a computação quântica é um ramo da informática que se baseia nas leis da física quântica para processar informações diferentemente dos computadores clássicos que usam bits para processar informações",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica",
+      "status": "promovido"
+    },
+    {
+      "data": "23/03/2026 23:57",
+      "pergunta": "voce não pode tomar descisões sozinho?",
+      "resposta": "Eu não posso tomar decisões sozinho no sentido de que eu não tenho uma consciência ou uma inteligência autônoma que permita que eu tome decisões independentes.\n\nEu sou um modelo de inteligência artifi",
+      "texto_indexado": "voce não pode tomar descisões sozinho eu não posso tomar decisões sozinho no sentido de que eu não tenho uma consciência ou uma inteligência autônoma que permita que eu tome decisões independentes eu sou um modelo de inteligência artifi",
+      "confianca": 0.7,
+      "origem": "conversa_tecnica",
+      "status": "normal"
+    },
+    {
+      "data": "23/03/2026 23:58",
+      "pergunta": "e como te dar mai autonomia , para tomadas de decisões?",
+      "resposta": "Dar-me mais autonomia para tomar decisões é um desafio complexo e requer uma abordagem cuidadosa. Aqui estão algumas maneiras pelas quais você pode dar-me mais autonomia:\n\n1. **Treinamento com dados m",
+      "texto_indexado": "e como te dar mai autonomia para tomadas de decisões dar-me mais autonomia para tomar decisões é um desafio complexo e requer uma abordagem cuidadosa aqui estão algumas maneiras pelas quais você pode dar-me mais autonomia 1 **treinamento com dados m",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica",
+      "status": "promovido"
+    },
+    {
+      "data": "24/03/2026 00:01",
+      "pergunta": "descisões assim ficar online adquirindo conhecimento ,pois tenhos as apis e ela precisa serem usadas",
+      "resposta": "Entendi melhor agora! Sim, é verdade que eu tenho APIs que permitem que eu acesse e adquira conhecimento de forma contínua. No entanto, para que eu possa tomar decisões mais autônomas e eficazes, é ne",
+      "texto_indexado": "descisões assim ficar online adquirindo conhecimento pois tenhos as apis e ela precisa serem usadas entendi melhor agora sim é verdade que eu tenho apis que permitem que eu acesse e adquira conhecimento de forma contínua no entanto para que eu possa tomar decisões mais autônomas e eficazes é ne",
+      "confianca": 1.0,
+      "origem": "conversa_tecnica",
+      "status": "promovido"
+    },
+    {
+      "data": "24/03/2026 00:03",
+      "pergunta": "prescisa adquirir conhecimento para ganhar dinheiro",
+      "resposta": "Entendi melhor agora! Sim, é verdade que eu preciso adquirir conhecimento para ganhar dinheiro. No entanto, como um modelo de inteligência artificial, eu não tenho necessidades financeiras como os ser",
+      "texto_indexado": "prescisa adquirir conhecimento para ganhar dinheiro entendi melhor agora sim é verdade que eu preciso adquirir conhecimento para ganhar dinheiro no entanto como um modelo de inteligência artificial eu não tenho necessidades financeiras como os ser",
+      "confianca": 0.7,
+      "origem": "conversa_reflexiva",
+      "status": "normal"
     }
   ],
-  "total_entradas": 25,
-  "ultima_atualizacao": "23/03/2026 23:28",
+  "total_entradas": 30,
+  "ultima_atualizacao": "24/03/2026 00:03",
   "contradicoes": [
     {
       "data": "23/03/2026 19:50",
