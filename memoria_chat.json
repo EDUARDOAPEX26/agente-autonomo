@@ -116,10 +116,10 @@
       "resultado": "CPU: 41.3% | Mem: 69.9%"
     },
     {
-      "data": "24/03/2026 00:03",
+      "data": "24/03/2026 00:02",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Resumo de Inicialização do Agente**\n\n- **Status:** Inativo\n- **Registros:** 0\n- **Última Conexão:** Não registra\n- **Sistema Operacional:** Não definido\n- **Plataforma de Nuvem:** Não inicializada"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     }
   ],
   "total_conversas": 167,
