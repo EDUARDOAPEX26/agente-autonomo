@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "23/03/2026 23:20",
+      "pergunta": "cotação do bitcoin",
+      "resposta": "Nao encontrei isso nos meus registros. Precisaria buscar esse dado — nao tenho agora.",
+      "origem": "conversa_local"
+    },
+    {
       "data": "23/03/2026 23:21",
       "pergunta": "preço do bitcoin agora",
       "resposta": "Nao tenho acesso a dados em tempo real. Para saber o preço atual do bitcoin, você precisaria buscar essas informações em fontes atualizadas, como sites especializados em criptomoedas ou aplicativos de",
@@ -110,18 +116,12 @@
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "24/03/2026 02:39",
+      "data": "24/03/2026 02:40",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 38.0% | Mem: 71.0%"
-    },
-    {
-      "data": "24/03/2026 02:39",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 02:39:38"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     }
   ],
   "total_conversas": 10,
-  "total_tarefas": 78
+  "total_tarefas": 77
 }
