@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 23:46",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
       "data": "23/03/2026 23:48",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
       "resultado": "Ao verificar os dados iniciais do agente em nuvem, verifiquei que:\n\n- Não há registros de configurações ou inicialização;\n- Não há dados de senhas ou autenticações;\n- O sistema operacional é desconhec"
+    },
+    {
+      "data": "24/03/2026 00:09",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 10.3% | Mem: 71.6%"
     }
   ],
   "total_conversas": 167,
-  "total_tarefas": 4832
+  "total_tarefas": 4833
 }
