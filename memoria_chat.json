@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "23/03/2026 23:21",
+      "pergunta": "preço do bitcoin agora",
+      "resposta": "Nao tenho acesso a dados em tempo real. Para saber o preço atual do bitcoin, você precisaria buscar essas informações em fontes atualizadas, como sites especializados em criptomoedas ou aplicativos de",
+      "origem": "conversa_local"
+    },
+    {
       "data": "23/03/2026 23:22",
       "pergunta": "o que é bitcoin",
       "resposta": "O Bitcoin é uma criptomoeda descentralizada, ou seja, não é controlada por nenhum governo ou instituição financeira. Ele foi criado em 2009 por uma pessoa ou grupo de pessoas usando o pseudônimo Satos",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "mostrar hora",
       "resultado": "02:49:56"
-    },
-    {
-      "data": "24/03/2026 02:50",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 16.0% | Mem: 70.2%"
     }
   ],
   "total_conversas": 15,
-  "total_tarefas": 74
+  "total_tarefas": 73
 }
