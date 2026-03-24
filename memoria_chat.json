@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "24/03/2026 11:52",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Se você tem 2 registros e busca manter o sistema estável, recomendo rodar uma manutenção de integridade de dados, como o checksum, para verificar a consistência entre os registros. Além disso, é impor"
-    },
-    {
       "data": "24/03/2026 11:54",
       "origem": "nuvem",
       "tarefa": "mostrar hora",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "24/03/2026 12:23",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 13.5% | Mem: 72.1%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 184
+  "total_tarefas": 185
 }
