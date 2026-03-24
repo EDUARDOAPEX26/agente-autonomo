@@ -2,6 +2,42 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "24/03/2026 22:18",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "24/03/2026 22:19",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "24/03/2026 22:20",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 22.0% | Mem: 71.7%"
+    },
+    {
+      "data": "24/03/2026 22:21",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 34.2% | Mem: 65.8%"
+    },
+    {
+      "data": "24/03/2026 22:23",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "24/03/2026 22:23",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
       "data": "24/03/2026 22:25",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -50,78 +86,42 @@
       "resultado": "CPU: 15.3% | Mem: 71.4%"
     },
     {
-      "data": "24/03/2026 22:40",
+      "data": "24/03/2026 22:41",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 24.3% | Mem: 72.2%"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
       "data": "24/03/2026 22:41",
       "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 22:41:30"
-    },
-    {
-      "data": "24/03/2026 22:43",
-      "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 30.2% | Mem: 70.5%"
+      "resultado": "CPU: 25.1% | Mem: 71.3%"
     },
     {
-      "data": "24/03/2026 22:44",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "24/03/2026 22:45",
+      "data": "24/03/2026 22:42",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
-      "resultado": "**Registro #12456**\n\n- **Data e Hora**: 24/03/2026 14:47:12\n- **Servidor**: AWS EC2 (t2.micro)\n- **Sistema Operacional**: Ubuntu 20.04\n- **Processador**: Intel Core i3\n- **Memória**: 4 GB RAM\n- **Cone"
+      "resultado": "Aqui está um resumo técnico do agente em nuvem:\n- Plataforma: Nuvem pública.\n- Servidor: Não está ativo.\n- Tempo de inação: Desconhecido.\n- Uptime: 0%."
     },
     {
-      "data": "24/03/2026 22:46",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Para monitorar recursos e memória de seus registros, você pode utilizar as seguintes APIs:\n\n- A API `sys.getsizeof()` para obter o tamanho em bytes de cada registro.\n- A API `psutil.virtual_memory()` "
+      "data": "24/03/2026 19:53",
+      "pergunta": "o treinamento do modelo llama 3.3,70B  é razoavel?",
+      "resposta": "O treinamento de um modelo como o LLaMA 3.3-70B é um processo complexo e exigente em termos de recursos computacionais e tempo. Ele requer infraestrutura especializada, tanto em hardware quanto em sof",
+      "origem": "conversa_local"
     },
     {
-      "data": "24/03/2026 22:47",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "data": "24/03/2026 19:53",
+      "pergunta": "qual a cotação do dolar hoje?",
+      "resposta": "Precisaria buscar esse dado — não tenho agora.",
+      "origem": "conversa_local"
     },
     {
-      "data": "24/03/2026 22:48",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 29.0% | Mem: 70.6%"
-    },
-    {
-      "data": "24/03/2026 22:49",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "24/03/2026 22:50",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 33.2% | Mem: 70.4%"
-    },
-    {
-      "data": "24/03/2026 22:51",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Registro 01**\n\n* Tipo de registro: Registro de inicialização do sistema\n* Data e hora de registro: 24/03/2024, 10:05:02\n* Descrição: O sistema foi inicializado com sucesso, iniciando os serviços de "
-    },
-    {
-      "data": "24/03/2026 22:52",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "data": "24/03/2026 19:54",
+      "pergunta": "quem ganhou a copa libertadores da america em 25?",
+      "resposta": "Nao encontrei isso nos meus registros.",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 0,
-  "total_tarefas": 688
+  "total_conversas": 3,
+  "total_tarefas": 679
 }
