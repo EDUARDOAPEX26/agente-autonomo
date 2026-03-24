@@ -8,6 +8,12 @@
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
+      "data": "24/03/2026 01:14",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
       "data": "24/03/2026 01:17",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "verificar sistema",
       "resultado": "O sistema apresenta cargas moderadas, mas consideradas dentro de parâmetros normalizados para a execução de tarefas."
-    },
-    {
-      "data": "24/03/2026 01:36",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 33.2% | Mem: 71.0%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 28
+  "total_tarefas": 27
 }
