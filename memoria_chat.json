@@ -5,12 +5,6 @@
       "data": "24/03/2026 02:14",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 29.3% | Mem: 70.2%"
-    },
-    {
-      "data": "24/03/2026 02:14",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
       "resultado": "CPU: 50.0% | Mem: 69.5%"
     },
     {
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 12.6% | Mem: 72.1%"
+    },
+    {
+      "data": "24/03/2026 02:36",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     }
   ],
   "total_conversas": 10,
-  "total_tarefas": 73
+  "total_tarefas": 74
 }
