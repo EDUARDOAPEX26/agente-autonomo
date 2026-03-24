@@ -381,6 +381,42 @@
         "importancia": 0.9
       },
       {
+        "id": "lim_147fe",
+        "resumo": "excedeu uso limite planos Tavily requer atualizaÇöo",
+        "data": "24/03/2026 11:32",
+        "importancia": 0.9
+      },
+      {
+        "id": "lim_73c4e",
+        "resumo": "excedeu uso limite planos Tavily requer atualizaÇöo",
+        "data": "24/03/2026 11:33",
+        "importancia": 0.9
+      },
+      {
+        "id": "lim_bedf6",
+        "resumo": "excedeu uso limite planos Tavily requer atualizaÇöo",
+        "data": "24/03/2026 11:34",
+        "importancia": 0.9
+      },
+      {
+        "id": "lim_cc80b",
+        "resumo": "excedeu uso limite planos Tavily requer atualizaÇöo",
+        "data": "24/03/2026 11:39",
+        "importancia": 0.9
+      },
+      {
+        "id": "lim_56501",
+        "resumo": "excedeu uso limite planos Tavily requer atualizaÇöo",
+        "data": "24/03/2026 11:41",
+        "importancia": 0.9
+      },
+      {
+        "id": "lim_b64ba",
+        "resumo": "excedeu uso limite planos Tavily requer atualizaÇöo",
+        "data": "24/03/2026 11:43",
+        "importancia": 0.9
+      },
+      {
         "id": "lim_483cc",
         "resumo": "Uso excessivo de CPU e memória",
         "data": "22/03/2026 03:13",
@@ -456,42 +492,6 @@
         "id": "lim_ad7b4",
         "resumo": "otimizar desempenho, registrar identificacao",
         "data": "22/03/2026 03:09",
-        "importancia": 0.6
-      },
-      {
-        "id": "lim_f73a1",
-        "resumo": "Sistema saudável, mas alta utilização de memória",
-        "data": "22/03/2026 03:07",
-        "importancia": 0.6
-      },
-      {
-        "id": "lim_81ade",
-        "resumo": "Agente autonomo inicialmente sem registros históricos",
-        "data": "22/03/2026 03:15",
-        "importancia": 0.6
-      },
-      {
-        "id": "lim_2d57c",
-        "resumo": "Duplicidade de registros sobre taxa de câmbio",
-        "data": "22/03/2026 03:23",
-        "importancia": 0.6
-      },
-      {
-        "id": "lim_af0c7",
-        "resumo": "taxa de cambio dolar",
-        "data": "22/03/2026 03:28",
-        "importancia": 0.6
-      },
-      {
-        "id": "lim_d9815",
-        "resumo": "Sistema está funcionando dentro dos limites",
-        "data": "22/03/2026 03:31",
-        "importancia": 0.6
-      },
-      {
-        "id": "lim_d8d8c",
-        "resumo": "Sistema está funcionando dentro dos limites",
-        "data": "22/03/2026 03:33",
         "importancia": 0.6
       }
     ],
