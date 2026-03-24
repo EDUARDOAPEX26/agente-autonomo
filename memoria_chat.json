@@ -116,10 +116,10 @@
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "24/03/2026 17:01",
+      "data": "24/03/2026 17:03",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 34.5% | Mem: 68.4%"
+      "tarefa": "gerar relatorio",
+      "resultado": "**Início do Agente Autonomo**\n\n- **Status**: Inativo\n- **Registro**: Nenhum\n- **Informações Adicionais**: Sem registros históricos ou metadados disponíveis."
     }
   ],
   "total_conversas": 0,
