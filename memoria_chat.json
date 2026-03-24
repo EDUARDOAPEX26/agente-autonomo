@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/03/2026 23:19",
-      "pergunta": "qual o preço do bitcoin",
-      "resposta": "Eu não tenho acesso a informações em tempo real, como cotações de bitcoins. Para saber o preço atual do bitcoin, você precisaria buscar essas informações em fontes atualizadas, como sites especializad",
-      "origem": "conversa_local"
-    },
-    {
       "data": "23/03/2026 23:20",
       "pergunta": "cotação do bitcoin",
       "resposta": "Nao encontrei isso nos meus registros. Precisaria buscar esse dado — nao tenho agora.",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "24/03/2026 02:39",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 38.0% | Mem: 71.0%"
     }
   ],
   "total_conversas": 10,
-  "total_tarefas": 76
+  "total_tarefas": 77
 }
