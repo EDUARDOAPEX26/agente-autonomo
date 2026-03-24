@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "23/03/2026 23:44",
+      "pergunta": "onde eu moro?",
+      "resposta": "Lembra que você me disse anteriormente que mora no Rio de Janeiro. Eu atualizei minhas informações para refletir isso, então agora tenho registro de que você mora no Rio de Janeiro, e não em Atibaia c",
+      "origem": "conversa_local"
+    },
+    {
       "data": "24/03/2026 02:45",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 30.7% | Mem: 72.5%"
-    },
-    {
-      "data": "24/03/2026 03:08",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "**Resumo Tecnico:**\n\n- **Plataforma:** Nenhuma instância provisionada.\n- **Databases:** Nenhum banco de dados configurado ou conectado."
     }
   ],
   "total_conversas": 15,
-  "total_tarefas": 86
+  "total_tarefas": 85
 }
