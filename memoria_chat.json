@@ -116,10 +116,10 @@
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "24/03/2026 00:51",
+      "data": "24/03/2026 00:52",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "gerar relatorio",
+      "resultado": "**Status do Agente:**\n- **Inicializado:** Não\n- **Conectado:** Não\n- **Banco de Dados:** Não configurado\n- **Senhas e Autenticação:** Não configurado\n- **Configurações Iniciais:** Não realizadas"
     }
   ],
   "total_conversas": 167,
