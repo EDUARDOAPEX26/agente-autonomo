@@ -92,36 +92,36 @@
       "resultado": "CPU: 35.2% | Mem: 69.2%"
     },
     {
-      "data": "25/03/2026 05:56",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 28.0% | Mem: 72.4%"
+      "data": "25/03/2026 02:56",
+      "pergunta": "VOCE PODE VER OS LOGS DO AGENTE EM NUVEM?",
+      "resposta": "Sim, posso acessar informações sobre o estado atual do agente em nuvem. De acordo com os dados disponíveis, o ciclo está em 1, com uso de CPU em 35,0% e memória em 72,5%. O objetivo atual é gerar rela",
+      "origem": "conversa_local"
     },
     {
-      "data": "25/03/2026 05:56",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 27.2% | Mem: 69.5%"
+      "data": "25/03/2026 02:56",
+      "pergunta": "PODE ME DIZER AS APIS QUE ESTÃO NELE?",
+      "resposta": "De acordo com as informações que tenho, o agente em nuvem utiliza as seguintes APIs:\n1. Tavily: para busca de informações na internet e obtenção de dados em tempo real.\n2. SerpAPI: como API de fallbac",
+      "origem": "conversa_local"
     },
     {
-      "data": "25/03/2026 05:58",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "data": "25/03/2026 03:00",
+      "pergunta": "ENTÃO VOCE NÃO SABE AS APIS QUE O AGENTE EM NUVEM USA?",
+      "resposta": "Nao tenho informações sobre as APIs específicas utilizadas pelo agente em nuvem. Minha resposta anterior foi um erro, pois não tenho acesso a essas informações. O agente em nuvem pode utilizar várias ",
+      "origem": "conversa_local"
     },
     {
-      "data": "25/03/2026 05:59",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 25.5% | Mem: 68.4%"
+      "data": "25/03/2026 03:01",
+      "pergunta": "PODE VER PARA MIM?",
+      "resposta": "Peço desculpas, mas não posso acessar ou visualizar as APIs utilizadas pelo agente em nuvem em tempo real. No entanto, posso tentar encontrar informações sobre as APIs que o agente em nuvem pode utili",
+      "origem": "conversa_local"
     },
     {
-      "data": "25/03/2026 06:00",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 25.1% | Mem: 66.5%"
+      "data": "25/03/2026 03:02",
+      "pergunta": "ENTÃO VOCE NÃO SABE O MODELO DO AGENTE EM NUVEM?",
+      "resposta": "Sim, eu sei que o agente em nuvem utiliza o modelo LLaMA 3.1-8b. Essa informação está disponível em minha memória e posso confirmar que o agente em nuvem está utilizando esse modelo específico.",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 5,
-  "total_tarefas": 112
+  "total_conversas": 10,
+  "total_tarefas": 107
 }
