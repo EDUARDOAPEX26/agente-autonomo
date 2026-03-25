@@ -2,18 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "25/03/2026 03:42",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 47.1% | Mem: 73.5%"
-    },
-    {
-      "data": "25/03/2026 03:44",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
-    },
-    {
       "data": "25/03/2026 03:45",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -120,8 +108,20 @@
       "pergunta": "capacidade dos livros?",
       "resposta": "Cada livro tem até 400 entradas.",
       "origem": "conversa_local"
+    },
+    {
+      "data": "25/03/2026 04:08",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
+      "data": "25/03/2026 04:08",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 25.7% | Mem: 72.4%"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 29
+  "total_tarefas": 31
 }
