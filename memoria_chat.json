@@ -116,10 +116,10 @@
       "resultado": "CPU: 28.8% | Mem: 72.0%"
     },
     {
-      "data": "25/03/2026 02:39",
+      "data": "25/03/2026 02:38",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 24.2% | Mem: 69.4%"
     }
   ],
   "total_conversas": 1,
