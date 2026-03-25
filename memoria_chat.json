@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "25/03/2026 11:11",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+    },
+    {
       "data": "25/03/2026 11:12",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -98,30 +104,24 @@
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "25/03/2026 11:32",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 25.7% | Mem: 72.3%"
-    },
-    {
       "data": "25/03/2026 11:33",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 32.2% | Mem: 69.7%"
+      "tarefa": "gerar relatorio",
+      "resultado": "Aqui está um resumo técnico dos meus dados iniciais:\n\n * Plataforma de hospedagem: Nenhuma informação disponível\n * Tipo de instância: Nenhuma informação disponível\n * Regiões de disponibilidade: Nenh"
     },
     {
       "data": "25/03/2026 11:34",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 27.8% | Mem: 67.9%"
+      "resultado": "CPU: 38.4% | Mem: 69.9%"
     },
     {
       "data": "25/03/2026 11:34",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 20.0% | Mem: 71.3%"
+      "resultado": "CPU: 39.3% | Mem: 69.5%"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 334
+  "total_tarefas": 333
 }
