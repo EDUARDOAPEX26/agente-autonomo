@@ -1,7 +1,8 @@
 """
-AGENTE AUTÔNOMO — Railway Cloud Agent v4.1
+AGENTE AUTÔNOMO — Railway Cloud Agent v4.2
 Fases implementadas: 1 (graceful shutdown), 11 (memória negativa), 12 (resumo por importância)
 TF-IDF nativo no endpoint /buscar
+v4.2: EXA como fallback do Tavily + HuggingFace como fallback de LLM
 """
 
 import time
@@ -40,6 +41,9 @@ GROQ_KEY_1 = os.getenv("GROQ_API_KEY")
 GROQ_KEY_2 = os.getenv("GROQ_API_KEY_2")
 GOOGLE_KEY = os.getenv("GOOGLE_API_KEY") or os.getenv("CHAVE_API_DO_GOOGLE")
 CEREBRAS_KEY = os.getenv("CEREBRAS_API_KEY")
+HUGGING_KEY = os.getenv("HUGGING_API_KEY")
+EXA_KEY = os.getenv("EXA_API_KEY")
+
 MODELO_GROQ = "llama-3.1-8b-instant"
 MODELO_GEM = "gemini-2.0-flash"
 
@@ -304,7 +308,7 @@ def _carregar_livro_local(assunto: str) -> dict:
 def _salvar_livro_github(assunto: str, livro: dict):
     if not GITHUB_TOKEN:
         return
-    livro_sem_ts = {k: v for k, v in livro.items() if k!= "_ts"}
+    livro_sem_ts = {k: v for k, v in livro.items() if k != "_ts"}
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/livro_{assunto}.json"
     for tentativa in range(3):
         try:
@@ -405,7 +409,7 @@ def sincronizar_github_se_necessario():
         mem = get_memoria_compartilhada()
         threading.Thread(target=salvar_memoria_github, args=(mem,), daemon=True).start()
 
-# ── LLM (GROQ ch1 → ch2 → Gemini → Cerebras) ────────────────────────────────
+# ── LLM (GROQ ch1 → ch2 → Gemini → Cerebras → HuggingFace) ──────────────────
 _groq_chave_ativa = {"k": 1}
 
 def chamar_llm(prompt: str, max_tokens: int = 300, system: str = "") -> str:
@@ -442,6 +446,7 @@ def chamar_llm(prompt: str, max_tokens: int = 300, system: str = "") -> str:
             r.raise_for_status()
             txt = r.json().get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "")
             if txt:
+                warn("LLM", "Usando Gemini como fallback")
                 return txt.strip()
         except Exception as e:
             erro("LLM", f"Gemini falhou: {e}")
@@ -458,14 +463,34 @@ def chamar_llm(prompt: str, max_tokens: int = 300, system: str = "") -> str:
             r = client.chat.completions.create(
                 model="llama3.1-8b", messages=msgs, max_tokens=max_tokens
             )
-            warn("LLM", "Usando Cerebras (llama3.1-8b) como fallback de emergência")
+            warn("LLM", "Usando Cerebras como fallback")
             return r.choices[0].message.content.strip()
         except Exception as e:
             erro("LLM", f"Cerebras falhou: {e}")
 
+    # Fallback HuggingFace
+    if HUGGING_KEY:
+        try:
+            headers = {"Authorization": f"Bearer {HUGGING_KEY}"}
+            texto_completo = f"{system}\n\n{prompt}" if system else prompt
+            payload = {"inputs": texto_completo, "parameters": {"max_new_tokens": max_tokens, "return_full_text": False}}
+            r = requests.post(
+                "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1",
+                headers=headers, json=payload, timeout=20
+            )
+            r.raise_for_status()
+            resultado = r.json()
+            if isinstance(resultado, list) and resultado:
+                txt = resultado[0].get("generated_text", "").strip()
+                if txt:
+                    warn("LLM", "Usando HuggingFace (Mistral-7B) como fallback de emergência")
+                    return txt
+        except Exception as e:
+            erro("LLM", f"HuggingFace falhou: {e}")
+
     return "Nenhuma API disponível no momento."
 
-# ── TAVILY ────────────────────────────────────────────────────────────────────
+# ── TAVILY + EXA ──────────────────────────────────────────────────────────────
 try:
     from tavily import TavilyClient
     TAVILY_KEY = os.getenv("TAVILY_API_KEY") or os.getenv("TAVLY_API_KEY")
@@ -505,21 +530,48 @@ def pode_usar_tavily() -> bool:
 
 CACHE_TAVILY: dict = {}
 
+def buscar_exa(query: str) -> str:
+    if not EXA_KEY:
+        return ""
+    try:
+        headers = {"x-api-key": EXA_KEY, "Content-Type": "application/json"}
+        payload = {"query": query, "numResults": 2, "useAutoprompt": True, "type": "neural"}
+        r = requests.post("https://api.exa.ai/search", headers=headers, json=payload, timeout=15)
+        r.raise_for_status()
+        resultados = r.json().get("results", [])
+        if resultados:
+            texto = resultados[0].get("text", "") or resultados[0].get("title", "")
+            if texto:
+                warn("EXA", f"Resultado obtido para: {query[:50]}")
+                return texto[:400]
+    except Exception as e:
+        erro("EXA", f"Falhou: {e}")
+    return ""
+
 def buscar_tavily(query: str) -> str:
-    if not tavily_client:
-        return "Tavily não configurado."
     agora = time.time()
     if query in CACHE_TAVILY and agora - CACHE_TAVILY[query]["t"] < 600:
         return CACHE_TAVILY[query]["r"]
-    if not pode_usar_tavily():
-        return "Limite Tavily atingido."
-    try:
-        r = tavily_client.search(query=query, max_results=2, search_depth="basic", include_answer=True)
-        resposta = r.get("answer") or (r.get("results", [{"content": "Sem resultado"}])[0].get("content", "")[:300])
-        CACHE_TAVILY[query] = {"r": resposta, "t": agora}
-        return resposta
-    except Exception as e:
-        return f"Tavily erro: {e}"
+
+    # Tenta Tavily primeiro
+    if tavily_client and pode_usar_tavily():
+        try:
+            r = tavily_client.search(query=query, max_results=2, search_depth="basic", include_answer=True)
+            resposta = r.get("answer") or (r.get("results", [{"content": ""}])[0].get("content", "")[:300])
+            if resposta:
+                CACHE_TAVILY[query] = {"r": resposta, "t": agora}
+                return resposta
+        except Exception as e:
+            warn("TAVILY", f"Erro: {e} — tentando EXA")
+
+    # Fallback EXA quando Tavily falha ou cota esgotada
+    warn("TAVILY", "Cota atingida ou falha — usando EXA como fallback")
+    resposta_exa = buscar_exa(query)
+    if resposta_exa:
+        CACHE_TAVILY[query] = {"r": resposta_exa, "t": agora}
+        return resposta_exa
+
+    return "Limite de buscas atingido e EXA indisponível."
 
 # ── FASE 11: MEMÓRIA NEGATIVA ─────────────────────────────────────────────────
 PADROES_CORRECAO = [
@@ -592,7 +644,7 @@ def registrar_licao(gatilho: str, resposta_errada: str, dados_llm: dict | None =
     confianca = 0.98 if tipo_licao == "anti_padrao" else (0.92 if tipo_licao == "ensino" else 0.95)
 
     for licao in livro.get("licoes", []):
-        if licao.get("status")!= "ativo":
+        if licao.get("status") != "ativo":
             continue
         sim = _sim_jaccard(gatilho, licao.get("gatilho", ""))
         if sim >= 0.85:
@@ -879,29 +931,22 @@ PALAVRAS_BLOQUEIO = [
 
 CACHE_DECISAO: dict = {}
 
-# FUNÇÃO precisa_tavily CORRIGIDA
 def precisa_tavily(pergunta: str) -> bool:
     p = pergunta.lower().strip()
 
-    # Cache para evitar reprocessamento
     if p in CACHE_DECISAO:
         return CACHE_DECISAO[p]
 
-    # REGRA 1: Assuntos que SEMPRE precisam de busca web (ex: "cotação hoje")
-    # PRIORIDADE ALTA para garantir atualização
     if any(x in p for x in PALAVRAS_WEB) and any(x in p for x in ["hoje", "agora", "atual", "tempo real", "neste momento"]):
         CACHE_DECISAO[p] = True
-        log("ROUTER", "Assunto importante + contexto atual — Tavily SIM")
+        log("ROUTER", "Assunto importante + contexto atual — busca web SIM")
         return True
 
-    # REGRA 2: Palavras de BLOQUEIO (perguntas conceituais, de explicação)
-    # Essas perguntas NÃO devem usar busca web
     if any(x in p for x in PALAVRAS_BLOQUEIO):
         CACHE_DECISAO[p] = False
-        log("ROUTER", "Palavra de bloqueio — Tavily NAO")
+        log("ROUTER", "Palavra de bloqueio — busca web NAO")
         return False
 
-    # REGRA 3: Se não caiu nas regras acima, pergunta para o LLM
     try:
         r = chamar_llm(
             f"A tarefa precisa de dados atualizados da internet? Responda APENAS SIM ou NAO.\nTarefa: {pergunta}",
@@ -912,8 +957,8 @@ def precisa_tavily(pergunta: str) -> bool:
         log("ROUTER", f"LLM decidiu: {'SIM' if decisao else 'NAO'}")
         return decisao
     except Exception as e:
-        erro("ROUTER", f"Falha ao consultar LLM para Tavily: {e}")
-        CACHE_DECISAO[p] = False # Em caso de erro, assume que não precisa
+        erro("ROUTER", f"Falha ao consultar LLM: {e}")
+        CACHE_DECISAO[p] = False
         return False
 
 def estado_sistema():
@@ -1054,13 +1099,15 @@ def loop_agente():
     ultima_tarefa = None
 
     log("MAIN", "=" * 52)
-    log("MAIN", " AGENTE AUTÔNOMO EM NUVEM — v4.1")
-    log("MAIN", f" Tavily : {'OK' if tavily_client else 'INDISPONÍVEL'}")
-    log("MAIN", f" GitHub : {'configurado' if GITHUB_TOKEN else 'sem token'}")
+    log("MAIN", " AGENTE AUTÔNOMO EM NUVEM — v4.2")
+    log("MAIN", f" Tavily   : {'OK' if tavily_client else 'INDISPONÍVEL'}")
+    log("MAIN", f" EXA      : {'configurado' if EXA_KEY else 'sem chave'}")
+    log("MAIN", f" GitHub   : {'configurado' if GITHUB_TOKEN else 'sem token'}")
     log("MAIN", f" Cerebras : {'configurado' if CEREBRAS_KEY else 'sem chave'}")
-    log("MAIN", f" TF-IDF : ativo — endpoint /buscar disponível")
-    log("MAIN", f" Fase11 : memória negativa ativa")
-    log("MAIN", f" Fase12 : resumo por importância ativo")
+    log("MAIN", f" HuggingFace : {'configurado' if HUGGING_KEY else 'sem chave'}")
+    log("MAIN", f" TF-IDF   : ativo — endpoint /buscar disponível")
+    log("MAIN", f" Fase11   : memória negativa ativa")
+    log("MAIN", f" Fase12   : resumo por importância ativo")
     log("MAIN", "=" * 52)
 
     dados_github = carregar_memoria_github()
@@ -1102,7 +1149,7 @@ def loop_agente():
 
             melhor = max(tarefas, key=lambda t: avaliar_tarefa_com_memoria(t, memoria_decisao))
             if melhor == ultima_tarefa and len(tarefas) > 1:
-                outros = [t for t in tarefas if t!= melhor]
+                outros = [t for t in tarefas if t != melhor]
                 melhor = max(outros, key=lambda t: avaliar_tarefa_com_memoria(t, memoria_decisao))
 
             log("TAREFA", f"Executando: {melhor}")
@@ -1130,6 +1177,6 @@ def loop_agente():
 if __name__ == "__main__":
     thread = threading.Thread(target=loop_agente, daemon=True)
     thread.start()
-    porta = int(os.getenv("PORT", 8080)) # Corrigido para default 8080
+    porta = int(os.getenv("PORT", 8080))
     log("MAIN", f"Servidor iniciando na porta {porta}")
     uvicorn.run(app, host="0.0.0.0", port=porta)
