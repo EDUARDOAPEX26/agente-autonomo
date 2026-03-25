@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "25/03/2026 13:38",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "O sistema está operando dentro dos limites normais. A CPU está abaixo de 50%, o que é considerado baixo, e a memória está abaixo de 80%, o que é considerado bom."
+    },
+    {
       "data": "25/03/2026 13:39",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
       "resultado": "Aqui está um resumo técnico do agente em nuvem com 0 registros:\n\n**Resumo Técnico**\n\n* **Nomenclatura**: Agente de Nuvem - 0 Registros\n* **Sistema Operacional**: Não informado\n* **Status**: Inativo\n* "
-    },
-    {
-      "data": "25/03/2026 13:58",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Início da execução: 00:00:00\nInformações de execução:\n- Plataforma: CLOUD\n- SaaS: Sim\n- Tecnologia: Microserviços e Containers\n- Armazenamento: Baseado em nuvem (AWS/EBS)\n- Conexão: HTTPS\n- Linguagem:"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 446
+  "total_tarefas": 445
 }
