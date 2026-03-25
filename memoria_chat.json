@@ -116,10 +116,10 @@
       "resultado": "CPU: 11.6% | Mem: 68.2%"
     },
     {
-      "data": "25/03/2026 14:41",
+      "data": "25/03/2026 14:42",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
-      "resultado": "O agente em nuvem não registrou nenhuma transação ou atividade até o momento. O banco de dados vazio indica que os dados e informaçōes necessários ainda não foram adicionados."
+      "resultado": "Configuração inicial concluída. O agente em nuvem não tem registros atuais, portanto a base de dados está vazia e sem atualizações."
     }
   ],
   "total_conversas": 5,
