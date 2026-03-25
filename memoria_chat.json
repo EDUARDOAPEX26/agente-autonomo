@@ -116,10 +116,10 @@
       "resultado": "CPU: 18.2% | Mem: 71.9%"
     },
     {
-      "data": "25/03/2026 05:35",
+      "data": "25/03/2026 05:34",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     }
   ],
   "total_conversas": 5,
