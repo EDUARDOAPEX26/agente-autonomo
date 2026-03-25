@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "25/03/2026 16:19",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "OpenAI planeja dobrar equipe e acelerar corrida por liderança em IA - JORNAL DA TARDE"
+    },
+    {
       "data": "25/03/2026 16:22",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "25/03/2026 16:50",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 565
+  "total_tarefas": 564
 }
