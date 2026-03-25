@@ -110,16 +110,16 @@
       "resultado": "CPU: 28.8% | Mem: 69.5%"
     },
     {
-      "data": "25/03/2026 18:26",
+      "data": "25/03/2026 18:28",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 49.5% | Mem: 70.7%"
     },
     {
-      "data": "25/03/2026 18:27",
+      "data": "25/03/2026 18:28",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Nova aposta de Mark Zuckerberg: empresário cria IA secreta para substituir tarefas humanas"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 18.3% | Mem: 71.6%"
     }
   ],
   "total_conversas": 5,
