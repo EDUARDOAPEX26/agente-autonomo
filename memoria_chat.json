@@ -118,8 +118,8 @@
     {
       "data": "25/03/2026 06:00",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "\"Sem registros históricos, não há dados disponíveis para análise. A configuração padrão estará aplicada, com parâmetros de segurança e desempenho de nível básico.\""
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 46.1% | Mem: 67.6%"
     }
   ],
   "total_conversas": 5,
