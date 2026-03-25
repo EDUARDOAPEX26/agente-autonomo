@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "25/03/2026 13:43",
+      "origem": "nuvem",
+      "tarefa": "verificar sistema",
+      "resultado": "O sistema não está sob carga pesada, mas a ocupação da memória é alta (70.4%). Além disso, a CPU está sob uso moderado (43.1%), mas não apresenta sinais de problemas. É necessário verificar as ativida"
+    },
+    {
       "data": "25/03/2026 13:44",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
@@ -113,15 +119,9 @@
       "data": "25/03/2026 14:00",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 34.6% | Mem: 71.7%"
-    },
-    {
-      "data": "25/03/2026 14:00",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 29.9% | Mem: 72.8%"
+      "resultado": "CPU: 36.6% | Mem: 70.7%"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 451
+  "total_tarefas": 450
 }
