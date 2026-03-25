@@ -4,6 +4,12 @@
     {
       "data": "25/03/2026 20:14",
       "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 33.4% | Mem: 73.2%"
+    },
+    {
+      "data": "25/03/2026 20:14",
+      "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Nova aposta de Mark Zuckerberg: empresário cria IA secreta para substituir tarefas humanas"
     },
@@ -104,24 +110,18 @@
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     },
     {
-      "data": "25/03/2026 20:40",
+      "data": "25/03/2026 20:41",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 11.2% | Mem: 72.6%"
+    },
+    {
+      "data": "25/03/2026 20:42",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "25/03/2026 20:41",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 10.6% | Mem: 72.5%"
-    },
-    {
-      "data": "25/03/2026 20:41",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 39.2% | Mem: 72.3%"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 710
+  "total_tarefas": 709
 }
