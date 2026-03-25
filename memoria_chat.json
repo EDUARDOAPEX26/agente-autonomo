@@ -118,8 +118,8 @@
     {
       "data": "25/03/2026 13:58",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "gerar relatorio",
+      "resultado": "Início da execução: 00:00:00\nInformações de execução:\n- Plataforma: CLOUD\n- SaaS: Sim\n- Tecnologia: Microserviços e Containers\n- Armazenamento: Baseado em nuvem (AWS/EBS)\n- Conexão: HTTPS\n- Linguagem:"
     }
   ],
   "total_conversas": 5,
