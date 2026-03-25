@@ -4,6 +4,12 @@
     {
       "data": "25/03/2026 13:58",
       "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "Início da execução: 00:00:00\nInformações de execução:\n- Plataforma: CLOUD\n- SaaS: Sim\n- Tecnologia: Microserviços e Containers\n- Armazenamento: Baseado em nuvem (AWS/EBS)\n- Conexão: HTTPS\n- Linguagem:"
+    },
+    {
+      "data": "25/03/2026 13:58",
+      "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 46.9% | Mem: 72.3%"
     },
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "OpenAI planeja dobrar equipe e acelerar corrida por liderança em IA - JORNAL DA TARDE"
-    },
-    {
-      "data": "25/03/2026 14:20",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 23.2% | Mem: 71.8%"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 466
+  "total_tarefas": 465
 }
