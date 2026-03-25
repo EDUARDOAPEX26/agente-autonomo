@@ -4,8 +4,8 @@
     {
       "data": "25/03/2026 03:09",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "O sistema informático está em uma situação de \"zero pontos\"/\"zero transações\", significando que o agente autonomo rodando em nuvem não possuem nenhuma informação registrada."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 43.2% | Mem: 70.2%"
     }
   ],
   "total_conversas": 0,
