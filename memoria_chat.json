@@ -116,10 +116,10 @@
       "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
     },
     {
-      "data": "25/03/2026 01:33",
+      "data": "25/03/2026 01:34",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Tavily erro: This request exceeds your plan's set usage limit. Please upgrade your plan or contact support@tavily.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 49.7% | Mem: 71.4%"
     }
   ],
   "total_conversas": 1,
