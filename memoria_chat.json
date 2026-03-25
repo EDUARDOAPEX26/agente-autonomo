@@ -1,6 +1,13 @@
 {
   "resumo": "",
-  "aprendizados": [],
+  "aprendizados": [
+    {
+      "data": "25/03/2026 03:09",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "O sistema informático está em uma situação de \"zero pontos\"/\"zero transações\", significando que o agente autonomo rodando em nuvem não possuem nenhuma informação registrada."
+    }
+  ],
   "total_conversas": 0,
-  "total_tarefas": 0
+  "total_tarefas": 1
 }
