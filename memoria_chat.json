@@ -118,8 +118,8 @@
     {
       "data": "25/03/2026 21:00",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 20.8% | Mem: 68.0%"
+      "tarefa": "gerar relatorio",
+      "resultado": "**Resumo da inicialização do Agente Autônomo em Nuvem**\n\n- **Plataforma de execução:** Executando em ambiente de nuvem utilizando tecnologia [AWS/Google Cloud/Azure], versão [X.X].\n- **Código de fonte"
     }
   ],
   "total_conversas": 5,
