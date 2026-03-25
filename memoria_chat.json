@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "25/03/2026 11:44",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "O sistema está operando dentro dos limites razoáveis, considerando os indicadores de CPU e memória. Além disso, a carga de processos não parece ser excessiva."
-    },
-    {
       "data": "25/03/2026 11:45",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 26.7% | Mem: 72.4%"
+    },
+    {
+      "data": "25/03/2026 12:09",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 362
+  "total_tarefas": 363
 }
