@@ -2,24 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "26/03/2026 15:23",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
-    },
-    {
-      "data": "26/03/2026 15:24",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
-    },
-    {
-      "data": "26/03/2026 15:24",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Nova aposta de Mark Zuckerberg: empresário cria IA secreta para substituir tarefas humanas"
-    },
-    {
       "data": "26/03/2026 15:25",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -120,8 +102,26 @@
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
       "resultado": "**Registro Nº 001**\n-\n- Data de Início: 2023-01-01\n- Data de Finalização: 2023-12-31\n- Status do Serviço: Ativo\n- Uso de CPU: 12%\n- Uso de Memória: 75%\n- Conexões Internet: 100 Mbps\n- Disco Rígido: 50"
+    },
+    {
+      "data": "26/03/2026 15:50",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 21.3% | Mem: 72.7%"
+    },
+    {
+      "data": "26/03/2026 15:50",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Nova aposta de Mark Zuckerberg: empresário cria IA secreta para substituir tarefas humanas"
+    },
+    {
+      "data": "26/03/2026 15:51",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Nova aposta de Mark Zuckerberg: empresário cria IA secreta para substituir tarefas humanas"
     }
   ],
   "total_conversas": 3,
-  "total_tarefas": 326
+  "total_tarefas": 329
 }
