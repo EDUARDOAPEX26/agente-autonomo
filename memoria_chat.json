@@ -4,12 +4,6 @@
     {
       "data": "26/03/2026 10:13",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
-    },
-    {
-      "data": "26/03/2026 10:13",
-      "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 20.0% | Mem: 73.4%"
     },
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 26.5% | Mem: 72.6%"
+    },
+    {
+      "data": "26/03/2026 10:34",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 32.4% | Mem: 71.3%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 95
+  "total_tarefas": 96
 }
