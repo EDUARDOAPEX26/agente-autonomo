@@ -2,6 +2,18 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "26/03/2026 03:45",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
+    },
+    {
+      "data": "26/03/2026 03:47",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 38.7% | Mem: 69.0%"
+    },
+    {
       "data": "26/03/2026 03:48",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -108,20 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
-    },
-    {
-      "data": "26/03/2026 04:21",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Nova aposta de Mark Zuckerberg: empresário cria IA secreta para substituir tarefas humanas"
-    },
-    {
-      "data": "26/03/2026 04:21",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 15.2% | Mem: 72.1%"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 1010
+  "total_tarefas": 1008
 }
