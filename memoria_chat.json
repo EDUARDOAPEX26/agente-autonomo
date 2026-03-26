@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "26/03/2026 10:10",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
+    },
+    {
       "data": "26/03/2026 10:11",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 19.9% | Mem: 73.4%"
-    },
-    {
-      "data": "26/03/2026 10:31",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 32.2% | Mem: 72.0%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 94
+  "total_tarefas": 93
 }
