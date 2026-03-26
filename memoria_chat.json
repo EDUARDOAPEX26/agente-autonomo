@@ -116,10 +116,10 @@
       "resultado": "Memoria limpa com sucesso"
     },
     {
-      "data": "26/03/2026 01:31",
+      "data": "26/03/2026 01:32",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 32.7% | Mem: 68.6%"
     }
   ],
   "total_conversas": 5,
