@@ -1,8 +1,9 @@
 """
-AGENTE AUTÔNOMO — Railway Cloud Agent v4.2
+AGENTE AUTÔNOMO — Railway Cloud Agent v4.3
 Fases implementadas: 1 (graceful shutdown), 11 (memória negativa), 12 (resumo por importância)
 TF-IDF nativo no endpoint /buscar
 v4.2: EXA como fallback do Tavily + HuggingFace como fallback de LLM
+v4.3: Fila interna de tarefas — /tarefa retorna imediato, worker processa em background
 """
 
 import time
@@ -16,6 +17,7 @@ import threading
 import math
 import uuid
 import signal
+from queue import Queue
 from datetime import datetime, timedelta
 from collections import defaultdict
 from fastapi import FastAPI
@@ -69,6 +71,78 @@ def _handle_shutdown(sig, frame):
 signal.signal(signal.SIGINT, _handle_shutdown)
 signal.signal(signal.SIGTERM, _handle_shutdown)
 
+# ── FILA DE TAREFAS DELEGADAS ─────────────────────────────────────────────────
+_fila_tarefas: Queue = Queue()
+_resultados_tarefas: dict = {}  # id -> resultado
+
+def _worker_fila():
+    """Processa tarefas delegadas pelo local em background — sem bloquear HTTP."""
+    while True:
+        try:
+            item = _fila_tarefas.get(timeout=5)
+            tarefa_id = item["id"]
+            tarefa    = item["tarefa"]
+            dados     = item["dados"]
+            log("WORKER", f"Processando: {tarefa} (id={tarefa_id})")
+
+            resultado = _processar_tarefa_interna(tarefa, dados)
+            _resultados_tarefas[tarefa_id] = {
+                "status": "ok",
+                "tarefa": tarefa,
+                "resultado": resultado,
+                "ts": datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
+            }
+            # Limpa resultados antigos — guarda só os 50 mais recentes
+            if len(_resultados_tarefas) > 50:
+                chaves = sorted(_resultados_tarefas.keys())
+                for k in chaves[:-50]:
+                    _resultados_tarefas.pop(k, None)
+
+            log("WORKER", f"Concluído: {tarefa} (id={tarefa_id})")
+        except Exception:
+            pass  # timeout do Queue.get ou erro — continua o loop
+
+def _processar_tarefa_interna(tarefa: str, dados: dict) -> str:
+    """Executa a lógica real da tarefa — chamada pelo worker, nunca pelo HTTP direto."""
+
+    if tarefa == "registrar_licao":
+        msg_usuario = dados.get("mensagem_usuario", "")
+        ultima_resp = dados.get("ultima_resposta", "")
+        if msg_usuario:
+            licao = _extrair_licao_via_llm(msg_usuario, ultima_resp)
+            if licao:
+                registrar_licao(licao["gatilho"], ultima_resp, licao)
+                return f"licao_registrada: {licao.get('gatilho','')[:60]}"
+        return "licao_nao_registrada"
+
+    if tarefa == "buscar_licoes":
+        pergunta = dados.get("pergunta", "")
+        licoes   = buscar_licoes_relevantes(pergunta)
+        instrucao = formatar_licoes_para_prompt(licoes)
+        return instrucao or "sem_licoes"
+
+    if tarefa == "buscar_resumo":
+        pergunta = dados.get("pergunta", "")
+        return buscar_resumo_relevante(pergunta) or "sem_resumo"
+
+    if tarefa == "resumir_agora":
+        threading.Thread(target=executar_sumarizacao, daemon=True).start()
+        return "sumarizacao_iniciada"
+
+    if tarefa == "status_resumo":
+        resumo = _carregar_livro_local("resumo")
+        meta   = resumo.get("meta", {})
+        blocos = resumo.get("blocos", {})
+        return json.dumps({
+            "ultima_geracao": meta.get("ultima_geracao", "nunca"),
+            "ciclos_completos": meta.get("ciclos_completos", 0),
+            "itens_por_bloco": {b: len(v) for b, v in blocos.items()},
+        }, ensure_ascii=False)
+
+    # Tarefa genérica — executa via LLM/Tavily
+    cpu, mem = estado_sistema()
+    return executar_tarefa_com_retorno(tarefa, "tarefa_local_delegada", contar_registros(), cpu, mem)
+
 # ── FASTAPI ────────────────────────────────────────────────────────────────────
 app = FastAPI()
 
@@ -92,8 +166,8 @@ def ping():
 @app.get("/status")
 def status():
     controle = carregar_controle()
-    livro_l = _carregar_livro_local("licoes")
-    resumo = _carregar_livro_local("resumo")
+    livro_l  = _carregar_livro_local("licoes")
+    resumo   = _carregar_livro_local("resumo")
     return {
         "ciclo": estado["ciclo"],
         "objetivo": estado["objetivo"],
@@ -106,6 +180,7 @@ def status():
         "timestamp": datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
         "total_licoes": len(livro_l.get("licoes", [])),
         "resumo_ultima_geracao": resumo.get("meta", {}).get("ultima_geracao", "nunca"),
+        "fila_pendente": _fila_tarefas.qsize(),
     }
 
 @app.get("/memoria")
@@ -131,56 +206,22 @@ def get_memoria_endpoint():
 
 @app.post("/tarefa")
 def executar_tarefa_endpoint(payload: TarefaPayload):
-    tarefa = payload.tarefa
-    dados = payload.dados
+    """Enfileira a tarefa e retorna imediato — sem timeout."""
+    tarefa_id = uuid.uuid4().hex[:8]
+    _fila_tarefas.put({"id": tarefa_id, "tarefa": payload.tarefa, "dados": payload.dados})
+    log("TAREFA", f"Enfileirada: {payload.tarefa} (id={tarefa_id})")
+    return {"status": "ok", "enfileirada": True, "tarefa": payload.tarefa, "id": tarefa_id}
 
-    if tarefa == "registrar_licao":
-        msg_usuario = dados.get("mensagem_usuario", "")
-        ultima_resp = dados.get("ultima_resposta", "")
-        if msg_usuario:
-            licao = _extrair_licao_via_llm(msg_usuario, ultima_resp)
-            if licao:
-                registrar_licao(licao["gatilho"], ultima_resp, licao)
-                return {"status": "ok", "licao_registrada": True, "gatilho": licao["gatilho"]}
-        return {"status": "ok", "licao_registrada": False}
-
-    if tarefa == "buscar_licoes":
-        pergunta = dados.get("pergunta", "")
-        licoes = buscar_licoes_relevantes(pergunta)
-        instrucao = formatar_licoes_para_prompt(licoes)
-        return {"status": "ok", "instrucao_prompt": instrucao, "total": len(licoes)}
-
-    if tarefa == "buscar_resumo":
-        pergunta = dados.get("pergunta", "")
-        ctx = buscar_resumo_relevante(pergunta)
-        return {"status": "ok", "contexto": ctx}
-
-    if tarefa == "resumir_agora":
-        threading.Thread(target=executar_sumarizacao, daemon=True).start()
-        return {"status": "ok", "mensagem": "Sumarização iniciada em background"}
-
-    if tarefa == "status_resumo":
-        resumo = _carregar_livro_local("resumo")
-        meta = resumo.get("meta", {})
-        blocos = resumo.get("blocos", {})
-        return {
-            "status": "ok",
-            "ultima_geracao": meta.get("ultima_geracao", "nunca"),
-            "ciclos_completos": meta.get("ciclos_completos", 0),
-            "total_processadas": meta.get("total_entradas_processadas", 0),
-            "itens_por_bloco": {b: len(v) for b, v in blocos.items()},
-        }
-
-    try:
-        cpu, mem = estado_sistema()
-        resultado = executar_tarefa_com_retorno(tarefa, "tarefa remota", contar_registros(), cpu, mem)
-        return {"status": "ok", "tarefa": tarefa, "executada": True, "resultado": resultado}
-    except Exception as e:
-        return {"status": "erro", "tarefa": tarefa, "erro": str(e)}
+@app.get("/resultado/{tarefa_id}")
+def get_resultado(tarefa_id: str):
+    """Local consulta o resultado de uma tarefa delegada pelo id."""
+    if tarefa_id in _resultados_tarefas:
+        return _resultados_tarefas[tarefa_id]
+    return {"status": "pendente", "id": tarefa_id}
 
 @app.get("/licoes")
 def listar_licoes_endpoint():
-    livro = _carregar_livro_local("licoes")
+    livro  = _carregar_livro_local("licoes")
     licoes = [l for l in livro.get("licoes", []) if l.get("status") == "ativo"]
     return {"total": len(licoes), "licoes": sorted(licoes, key=lambda x: x.get("confianca", 0), reverse=True)}
 
@@ -190,7 +231,7 @@ def get_resumo_bloco(bloco: str):
     if bloco not in blocos_validos:
         return {"erro": f"Bloco inválido. Use: {blocos_validos}"}
     resumo = _carregar_livro_local("resumo")
-    itens = resumo.get("blocos", {}).get(bloco, [])
+    itens  = resumo.get("blocos", {}).get(bloco, [])
     return {"bloco": bloco, "total": len(itens), "itens": itens}
 
 # ── ENDPOINT /buscar — TF-IDF ─────────────────────────────────────────────────
@@ -255,7 +296,7 @@ def _similaridade_cosseno(a: dict, b: dict) -> float:
     comuns = set(a) & set(b)
     if not comuns:
         return 0.0
-    dot = sum(a[t] * b[t] for t in comuns)
+    dot    = sum(a[t] * b[t] for t in comuns)
     norm_a = math.sqrt(sum(v * v for v in a.values()))
     norm_b = math.sqrt(sum(v * v for v in b.values()))
     return dot / (norm_a * norm_b) if norm_a and norm_b else 0.0
@@ -266,9 +307,9 @@ def _buscar_tfidf(query: str, entradas: list, top_n: int = 5) -> list:
     indice = _construir_indice(entradas)
     if not indice:
         return entradas[:top_n]
-    tf_q = _calcular_tf(_tokenizar(query))
+    tf_q    = _calcular_tf(_tokenizar(query))
     vetor_q = {t: tf_q[t] * indice["idf"].get(t, 1.0) for t in tf_q}
-    scores = []
+    scores  = []
     for i, vetor in enumerate(indice["vetores"]):
         score = _similaridade_cosseno(vetor_q, vetor) + entradas[i].get("confianca", 0.7) * 0.05
         scores.append((score, i))
@@ -287,7 +328,7 @@ _cache_livros_local: dict = {}
 LIVRO_CACHE_TTL = 120
 
 def _carregar_livro_local(assunto: str) -> dict:
-    agora = time.time()
+    agora  = time.time()
     cached = _cache_livros_local.get(assunto)
     if cached and agora - cached.get("_ts", 0) < LIVRO_CACHE_TTL:
         return cached
@@ -295,7 +336,7 @@ def _carregar_livro_local(assunto: str) -> dict:
         return {}
     try:
         url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/livro_{assunto}.json"
-        r = requests.get(url, headers=GITHUB_HEADERS, timeout=8)
+        r   = requests.get(url, headers=GITHUB_HEADERS, timeout=8)
         if r.status_code == 200:
             livro = json.loads(base64.b64decode(r.json()["content"]).decode("utf-8"))
             livro["_ts"] = agora
@@ -312,10 +353,10 @@ def _salvar_livro_github(assunto: str, livro: dict):
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/livro_{assunto}.json"
     for tentativa in range(3):
         try:
-            r = requests.get(url, headers=GITHUB_HEADERS, timeout=8)
+            r   = requests.get(url, headers=GITHUB_HEADERS, timeout=8)
             sha = r.json().get("sha", "") if r.status_code == 200 else ""
             conteudo = base64.b64encode(json.dumps(livro_sem_ts, ensure_ascii=False, indent=2).encode()).decode()
-            payload = {"message": f"railway: update livro_{assunto}", "content": conteudo}
+            payload  = {"message": f"railway: update livro_{assunto}", "content": conteudo}
             if sha:
                 payload["sha"] = sha
             r2 = requests.put(url, headers=GITHUB_HEADERS, json=payload, timeout=10)
@@ -343,7 +384,7 @@ def carregar_memoria_github() -> dict:
         return None
     try:
         url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
-        r = requests.get(url, headers=GITHUB_HEADERS, timeout=8)
+        r   = requests.get(url, headers=GITHUB_HEADERS, timeout=8)
         if r.status_code == 200:
             dados = json.loads(base64.b64decode(r.json()["content"]).decode("utf-8"))
             log("GITHUB", f"Memória carregada — {dados.get('total_conversas', 0)} conversas")
@@ -358,13 +399,10 @@ def salvar_memoria_github(memoria: dict):
     url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
     for tentativa in range(3):
         try:
-            r = requests.get(url, headers=GITHUB_HEADERS, timeout=8)
+            r   = requests.get(url, headers=GITHUB_HEADERS, timeout=8)
             sha = r.json().get("sha", "") if r.status_code == 200 else ""
             conteudo = base64.b64encode(json.dumps(memoria, ensure_ascii=False, indent=2).encode()).decode()
-            payload = {
-                "message": f"agente-nuvem: {memoria.get('total_tarefas', 0)} tarefas",
-                "content": conteudo,
-            }
+            payload  = {"message": f"agente-nuvem: {memoria.get('total_tarefas', 0)} tarefas", "content": conteudo}
             if sha:
                 payload["sha"] = sha
             r2 = requests.put(url, headers=GITHUB_HEADERS, json=payload, timeout=10)
@@ -413,20 +451,18 @@ def sincronizar_github_se_necessario():
 _groq_chave_ativa = {"k": 1}
 
 def chamar_llm(prompt: str, max_tokens: int = 300, system: str = "") -> str:
-    chaves = [k for k in [GROQ_KEY_1, GROQ_KEY_2] if k]
+    chaves       = [k for k in [GROQ_KEY_1, GROQ_KEY_2] if k]
     chaves_ordem = chaves[_groq_chave_ativa["k"] - 1:] + chaves[:_groq_chave_ativa["k"] - 1]
 
     for i, chave in enumerate(chaves_ordem):
         try:
             from groq import Groq
             client = Groq(api_key=chave)
-            msgs = []
+            msgs   = []
             if system:
                 msgs.append({"role": "system", "content": system})
             msgs.append({"role": "user", "content": prompt})
-            r = client.chat.completions.create(
-                model=MODELO_GROQ, messages=msgs, max_tokens=max_tokens
-            )
+            r = client.chat.completions.create(model=MODELO_GROQ, messages=msgs, max_tokens=max_tokens)
             _groq_chave_ativa["k"] = chaves.index(chave) + 1
             return r.choices[0].message.content.strip()
         except Exception as e:
@@ -435,7 +471,6 @@ def chamar_llm(prompt: str, max_tokens: int = 300, system: str = "") -> str:
             else:
                 debug("LLM", f"GROQ chave {i+1} falhou: {e}")
 
-    # Fallback Gemini
     if GOOGLE_KEY:
         try:
             payload = {"contents": [{"parts": [{"text": f"{system}\n\n{prompt}" if system else prompt}]}]}
@@ -451,29 +486,25 @@ def chamar_llm(prompt: str, max_tokens: int = 300, system: str = "") -> str:
         except Exception as e:
             erro("LLM", f"Gemini falhou: {e}")
 
-    # Fallback Cerebras
     if CEREBRAS_KEY:
         try:
             from openai import OpenAI
             client = OpenAI(api_key=CEREBRAS_KEY, base_url="https://api.cerebras.ai/v1")
-            msgs = []
+            msgs   = []
             if system:
                 msgs.append({"role": "system", "content": system})
             msgs.append({"role": "user", "content": prompt})
-            r = client.chat.completions.create(
-                model="llama3.1-8b", messages=msgs, max_tokens=max_tokens
-            )
+            r = client.chat.completions.create(model="llama3.1-8b", messages=msgs, max_tokens=max_tokens)
             warn("LLM", "Usando Cerebras como fallback")
             return r.choices[0].message.content.strip()
         except Exception as e:
             erro("LLM", f"Cerebras falhou: {e}")
 
-    # Fallback HuggingFace
     if HUGGING_KEY:
         try:
-            headers = {"Authorization": f"Bearer {HUGGING_KEY}"}
+            headers       = {"Authorization": f"Bearer {HUGGING_KEY}"}
             texto_completo = f"{system}\n\n{prompt}" if system else prompt
-            payload = {"inputs": texto_completo, "parameters": {"max_new_tokens": max_tokens, "return_full_text": False}}
+            payload       = {"inputs": texto_completo, "parameters": {"max_new_tokens": max_tokens, "return_full_text": False}}
             r = requests.post(
                 "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1",
                 headers=headers, json=payload, timeout=20
@@ -493,7 +524,7 @@ def chamar_llm(prompt: str, max_tokens: int = 300, system: str = "") -> str:
 # ── TAVILY + EXA ──────────────────────────────────────────────────────────────
 try:
     from tavily import TavilyClient
-    TAVILY_KEY = os.getenv("TAVILY_API_KEY") or os.getenv("TAVLY_API_KEY")
+    TAVILY_KEY    = os.getenv("TAVILY_API_KEY") or os.getenv("TAVLY_API_KEY")
     tavily_client = TavilyClient(api_key=TAVILY_KEY) if TAVILY_KEY else None
     log("TAVILY", "Conectado" if tavily_client else "Chave não encontrada")
 except Exception as e:
@@ -552,25 +583,20 @@ def buscar_tavily(query: str) -> str:
     agora = time.time()
     if query in CACHE_TAVILY and agora - CACHE_TAVILY[query]["t"] < 600:
         return CACHE_TAVILY[query]["r"]
-
-    # Tenta Tavily primeiro
     if tavily_client and pode_usar_tavily():
         try:
-            r = tavily_client.search(query=query, max_results=2, search_depth="basic", include_answer=True)
+            r        = tavily_client.search(query=query, max_results=2, search_depth="basic", include_answer=True)
             resposta = r.get("answer") or (r.get("results", [{"content": ""}])[0].get("content", "")[:300])
             if resposta:
                 CACHE_TAVILY[query] = {"r": resposta, "t": agora}
                 return resposta
         except Exception as e:
             warn("TAVILY", f"Erro: {e} — tentando EXA")
-
-    # Fallback EXA quando Tavily falha ou cota esgotada
     warn("TAVILY", "Cota atingida ou falha — usando EXA como fallback")
     resposta_exa = buscar_exa(query)
     if resposta_exa:
         CACHE_TAVILY[query] = {"r": resposta_exa, "t": agora}
         return resposta_exa
-
     return "Limite de buscas atingido e EXA indisponível."
 
 # ── FASE 11: MEMÓRIA NEGATIVA ─────────────────────────────────────────────────
@@ -591,12 +617,10 @@ PADROES_ENSINO = [
 ]
 
 def detectar_correcao(msg: str) -> bool:
-    m = msg.lower()
-    return any(p in m for p in PADROES_CORRECAO)
+    return any(p in msg.lower() for p in PADROES_CORRECAO)
 
 def detectar_ensino(msg: str) -> bool:
-    m = msg.lower()
-    return any(p in m for p in PADROES_ENSINO)
+    return any(p in msg.lower() for p in PADROES_ENSINO)
 
 def _extrair_licao_via_llm(msg_usuario: str, resposta_errada: str) -> dict | None:
     prompt = (
@@ -612,7 +636,7 @@ def _extrair_licao_via_llm(msg_usuario: str, resposta_errada: str) -> dict | Non
     try:
         import re
         resposta = chamar_llm(prompt, max_tokens=150)
-        match = re.search(r'\{[^}]+\}', resposta, re.DOTALL)
+        match    = re.search(r'\{[^}]+\}', resposta, re.DOTALL)
         if match:
             return json.loads(match.group())
     except Exception as e:
@@ -624,9 +648,9 @@ def _verificar_promocao_licao(licao: dict) -> bool:
         return False
     if licao.get("confirmacoes", 1) >= 2:
         try:
-            fmt = "%d/%m/%Y %H:%M"
+            fmt      = "%d/%m/%Y %H:%M"
             primeira = datetime.strptime(licao.get("primeira_ocorrencia", ""), fmt)
-            ultima = datetime.strptime(licao.get("ultima_ocorrencia", ""), fmt)
+            ultima   = datetime.strptime(licao.get("ultima_ocorrencia", ""), fmt)
             if (ultima - primeira) <= timedelta(days=30):
                 licao["promovida_para_identidade"] = True
                 warn("LICAO", f"PROMOÇÃO → identidade_agente.json: '{licao.get('gatilho','')[:60]}'")
@@ -641,15 +665,14 @@ def registrar_licao(gatilho: str, resposta_errada: str, dados_llm: dict | None =
         livro = {"assunto": "licoes", "licoes": [], "total_licoes": 0, "ultima_atualizacao": ""}
 
     tipo_licao = (dados_llm or {}).get("tipo", "correcao")
-    confianca = 0.98 if tipo_licao == "anti_padrao" else (0.92 if tipo_licao == "ensino" else 0.95)
+    confianca  = 0.98 if tipo_licao == "anti_padrao" else (0.92 if tipo_licao == "ensino" else 0.95)
 
     for licao in livro.get("licoes", []):
         if licao.get("status") != "ativo":
             continue
-        sim = _sim_jaccard(gatilho, licao.get("gatilho", ""))
-        if sim >= 0.85:
-            licao["confirmacoes"] = licao.get("confirmacoes", 1) + 1
-            licao["confianca"] = min(0.99, licao.get("confianca", confianca) + 0.01)
+        if _sim_jaccard(gatilho, licao.get("gatilho", "")) >= 0.85:
+            licao["confirmacoes"]     = licao.get("confirmacoes", 1) + 1
+            licao["confianca"]        = min(0.99, licao.get("confianca", confianca) + 0.01)
             licao["ultima_ocorrencia"] = datetime.now().strftime("%d/%m/%Y %H:%M")
             _verificar_promocao_licao(licao)
             log("LICAO", f"Lição REFORÇADA (c={licao['confianca']:.2f}, {licao['confirmacoes']}x): '{gatilho[:60]}'")
@@ -674,8 +697,8 @@ def registrar_licao(gatilho: str, resposta_errada: str, dados_llm: dict | None =
         "status": "ativo",
     }
     livro.setdefault("licoes", []).append(nova)
-    livro["total_licoes"] = livro.get("total_licoes", 0) + 1
-    livro["ultima_atualizacao"] = datetime.now().strftime("%d/%m/%Y %H:%M")
+    livro["total_licoes"]        = livro.get("total_licoes", 0) + 1
+    livro["ultima_atualizacao"]  = datetime.now().strftime("%d/%m/%Y %H:%M")
 
     if len(livro["licoes"]) > 100:
         livro["licoes"].sort(key=lambda x: (x.get("confianca", 0), x.get("ultima_ocorrencia", "")), reverse=True)
@@ -687,16 +710,14 @@ def registrar_licao(gatilho: str, resposta_errada: str, dados_llm: dict | None =
     threading.Thread(target=_salvar_livro_github, args=("licoes", livro), daemon=True).start()
 
 def buscar_licoes_relevantes(pergunta: str, top_n: int = 3) -> list:
-    livro = _carregar_livro_local("licoes")
+    livro  = _carregar_livro_local("licoes")
     licoes = [l for l in livro.get("licoes", []) if l.get("status") == "ativo"]
     if not licoes:
         return []
-
     def _score(l):
-        sim = _sim_jaccard(pergunta, l.get("gatilho", ""))
+        sim        = _sim_jaccard(pergunta, l.get("gatilho", ""))
         bonus_tipo = 10.0 if l.get("tipo") == "anti_padrao" else 0.0
         return bonus_tipo + sim + l.get("confianca", 0.95) * 0.3
-
     licoes.sort(key=_score, reverse=True)
     return licoes[:top_n]
 
@@ -705,7 +726,7 @@ def formatar_licoes_para_prompt(licoes: list) -> str:
         return ""
     linhas = ["MEMÓRIA NEGATIVA — erros anteriores a evitar:"]
     for l in licoes:
-        tag = {"anti_padrao": "ANTI-PADRÃO", "ensino": "ENSINO"}.get(l.get("tipo"), "CORREÇÃO")
+        tag  = {"anti_padrao": "ANTI-PADRÃO", "ensino": "ENSINO"}.get(l.get("tipo"), "CORREÇÃO")
         conf = l.get("confirmacoes", 1)
         linhas.append(
             f" [{tag}][{conf}x] Quando: '{l.get('gatilho','')}' | "
@@ -716,37 +737,20 @@ def formatar_licoes_para_prompt(licoes: list) -> str:
 
 # ── FASE 12: RESUMO POR IMPORTÂNCIA ──────────────────────────────────────────
 GATILHO_ENTRADAS = 30
-GATILHO_HORAS = 24
-MAX_ITENS_BLOCO = 20
+GATILHO_HORAS    = 24
+MAX_ITENS_BLOCO  = 20
 
-_estado_resumo = {
-    "ultima_sumarizacao_ts": 0.0,
-    "entradas_desde_ultimo": 0,
-}
+_estado_resumo = {"ultima_sumarizacao_ts": 0.0, "entradas_desde_ultimo": 0}
 
 def _deve_sumarizar() -> bool:
     horas = (time.time() - _estado_resumo["ultima_sumarizacao_ts"]) / 3600
-    return (
-        _estado_resumo["entradas_desde_ultimo"] >= GATILHO_ENTRADAS or
-        horas >= GATILHO_HORAS
-    )
+    return _estado_resumo["entradas_desde_ultimo"] >= GATILHO_ENTRADAS or horas >= GATILHO_HORAS
 
 def _resumo_vazio() -> dict:
     return {
-        "meta": {
-            "versao": "1.0",
-            "gerado_por": "railway_agente",
-            "ultima_geracao": None,
-            "total_entradas_processadas": 0,
-            "ciclos_completos": 0,
-        },
-        "blocos": {
-            "decisoes": [],
-            "bugs": [],
-            "correcoes": [],
-            "limitacoes": [],
-            "insights": [],
-        },
+        "meta": {"versao": "1.0", "gerado_por": "railway_agente", "ultima_geracao": None,
+                 "total_entradas_processadas": 0, "ciclos_completos": 0},
+        "blocos": {"decisoes": [], "bugs": [], "correcoes": [], "limitacoes": [], "insights": []},
     }
 
 PROMPT_CLASSIFICAR_LOTE = """Analise estas entradas de memória de um agente de IA e classifique cada uma.
@@ -781,7 +785,7 @@ def _classificar_lote(entradas_texto: list) -> list:
     try:
         import re
         resposta = chamar_llm(prompt, max_tokens=600)
-        match = re.search(r'\[.*?\]', resposta, re.DOTALL)
+        match    = re.search(r'\[.*?\]', resposta, re.DOTALL)
         if match:
             return json.loads(match.group())
     except Exception as e:
@@ -790,7 +794,7 @@ def _classificar_lote(entradas_texto: list) -> list:
 
 def executar_sumarizacao():
     log("RESUMO", "Iniciando ciclo de sumarização...")
-    memoria = carregar_memoria_github() or {}
+    memoria     = carregar_memoria_github() or {}
     aprendizados = memoria.get("aprendizados", [])
     if len(aprendizados) < 5:
         log("RESUMO", "Poucas entradas — pulando ciclo")
@@ -798,12 +802,12 @@ def executar_sumarizacao():
     resumo = _carregar_livro_local("resumo")
     if not resumo or "blocos" not in resumo:
         resumo = _resumo_vazio()
-    lote_tamanho = 10
-    novas_por_bloco = {b: [] for b in resumo["blocos"]}
-    total_processadas = 0
+    lote_tamanho         = 10
+    novas_por_bloco      = {b: [] for b in resumo["blocos"]}
+    total_processadas    = 0
     entradas_para_processar = aprendizados[-50:]
     for i in range(0, len(entradas_para_processar), lote_tamanho):
-        lote = entradas_para_processar[i:i + lote_tamanho]
+        lote   = entradas_para_processar[i:i + lote_tamanho]
         textos = [
             f"{e.get('pergunta', e.get('tarefa', ''))[:100]} → {e.get('resposta', e.get('resultado', ''))[:100]}"
             for e in lote
@@ -819,7 +823,7 @@ def executar_sumarizacao():
             if idx >= len(lote):
                 continue
             e_orig = lote[idx]
-            item = {
+            item   = {
                 "id": f"{bloco[:3]}_{uuid.uuid4().hex[:5]}",
                 "resumo": clf.get("resumo", "")[:100],
                 "data": e_orig.get("data", datetime.now().strftime("%d/%m/%Y")),
@@ -831,12 +835,12 @@ def executar_sumarizacao():
         todos = resumo["blocos"][bloco] + novos
         todos.sort(key=lambda x: x.get("importancia", 0), reverse=True)
         resumo["blocos"][bloco] = todos[:MAX_ITENS_BLOCO]
-    resumo["meta"]["ultima_geracao"] = datetime.now().strftime("%d/%m/%Y %H:%M")
+    resumo["meta"]["ultima_geracao"]             = datetime.now().strftime("%d/%m/%Y %H:%M")
     resumo["meta"]["total_entradas_processadas"] = resumo["meta"].get("total_entradas_processadas", 0) + total_processadas
-    resumo["meta"]["ciclos_completos"] = resumo["meta"].get("ciclos_completos", 0) + 1
+    resumo["meta"]["ciclos_completos"]           = resumo["meta"].get("ciclos_completos", 0) + 1
     _salvar_livro_github("resumo", resumo)
-    _estado_resumo["ultima_sumarizacao_ts"] = time.time()
-    _estado_resumo["entradas_desde_ultimo"] = 0
+    _estado_resumo["ultima_sumarizacao_ts"]  = time.time()
+    _estado_resumo["entradas_desde_ultimo"]  = 0
     total_itens = sum(len(v) for v in resumo["blocos"].values())
     log("RESUMO", f"Ciclo {resumo['meta']['ciclos_completos']} completo — {total_processadas} entradas → {total_itens} itens")
 
@@ -849,10 +853,8 @@ def buscar_resumo_relevante(pergunta: str, top_n: int = 5) -> str:
     for bloco, itens in resumo.get("blocos", {}).items():
         for item in itens:
             if _sim_jaccard(pergunta, item.get("resumo", "")) > 0.20:
-                emoji = emojis.get(bloco, "•")
-                linhas.append(f"{emoji} [{bloco.upper()}] {item['resumo']}")
-    linhas = linhas[:top_n]
-    return ("RESUMO DO HISTÓRICO RELEVANTE:\n" + "\n".join(linhas)) if linhas else ""
+                linhas.append(f"{emojis.get(bloco,'•')} [{bloco.upper()}] {item['resumo']}")
+    return ("RESUMO DO HISTÓRICO RELEVANTE:\n" + "\n".join(linhas[:top_n])) if linhas else ""
 
 # ── SIMILARIDADE JACCARD ──────────────────────────────────────────────────────
 def _sim_jaccard(a: str, b: str) -> float:
@@ -880,11 +882,11 @@ def salvar_aprendizado(dados: dict):
         pass
 
 def registrar_resultado_api(nome: str, tarefa: str, sucesso: bool, tempo: float):
-    dados = carregar_aprendizado()
-    chave = f"{nome}:{tarefa}"
+    dados      = carregar_aprendizado()
+    chave      = f"{nome}:{tarefa}"
     if chave not in dados:
         dados[chave] = {"sucesso": 0, "falha": 0, "tempo_total": 0.0, "usos": 0}
-    dados[chave]["usos"] += 1
+    dados[chave]["usos"]        += 1
     dados[chave]["tempo_total"] += tempo
     if sucesso:
         dados[chave]["sucesso"] += 1
@@ -902,12 +904,9 @@ SYSTEM_PROMPT = (
 )
 
 objetivos = [
-    "otimizar desempenho do sistema",
-    "monitorar recursos e memoria",
-    "manter o sistema estavel",
-    "analisar e limpar dados antigos",
-    "gerar relatorios de atividade",
-    "buscar cotacao do dolar hoje",
+    "otimizar desempenho do sistema", "monitorar recursos e memoria",
+    "manter o sistema estavel", "analisar e limpar dados antigos",
+    "gerar relatorios de atividade", "buscar cotacao do dolar hoje",
     "buscar noticias de tecnologia hoje",
 ]
 
@@ -917,41 +916,26 @@ tarefas_possiveis = [
     "mostrar hora", "buscar cotacao dolar", "buscar noticias tech",
 ]
 
-PALAVRAS_WEB = [
-    "cotacao", "cotação", "preco", "preço", "valor",
-    "dolar", "dólar", "bitcoin", "euro",
-    "noticia", "notícia", "clima", "temperatura",
-    "resultado", "placar", "taxa", "juros", "selic",
-]
-
-PALAVRAS_BLOQUEIO = [
-    "explique", "o que e", "o que é", "como funciona",
-    "como fazer", "exemplo", "crie", "gere", "codigo", "código",
-]
-
+PALAVRAS_WEB     = ["cotacao","cotação","preco","preço","valor","dolar","dólar","bitcoin","euro",
+                    "noticia","notícia","clima","temperatura","resultado","placar","taxa","juros","selic"]
+PALAVRAS_BLOQUEIO = ["explique","o que e","o que é","como funciona","como fazer",
+                     "exemplo","crie","gere","codigo","código"]
 CACHE_DECISAO: dict = {}
 
 def precisa_tavily(pergunta: str) -> bool:
     p = pergunta.lower().strip()
-
     if p in CACHE_DECISAO:
         return CACHE_DECISAO[p]
-
-    if any(x in p for x in PALAVRAS_WEB) and any(x in p for x in ["hoje", "agora", "atual", "tempo real", "neste momento"]):
+    if any(x in p for x in PALAVRAS_WEB) and any(x in p for x in ["hoje","agora","atual","tempo real","neste momento"]):
         CACHE_DECISAO[p] = True
         log("ROUTER", "Assunto importante + contexto atual — busca web SIM")
         return True
-
     if any(x in p for x in PALAVRAS_BLOQUEIO):
         CACHE_DECISAO[p] = False
         log("ROUTER", "Palavra de bloqueio — busca web NAO")
         return False
-
     try:
-        r = chamar_llm(
-            f"A tarefa precisa de dados atualizados da internet? Responda APENAS SIM ou NAO.\nTarefa: {pergunta}",
-            max_tokens=3
-        )
+        r      = chamar_llm(f"A tarefa precisa de dados atualizados da internet? Responda APENAS SIM ou NAO.\nTarefa: {pergunta}", max_tokens=3)
         decisao = "SIM" in r.upper()
         CACHE_DECISAO[p] = decisao
         log("ROUTER", f"LLM decidiu: {'SIM' if decisao else 'NAO'}")
@@ -974,10 +958,8 @@ def contar_registros() -> int:
 def salvar_log(tarefa: str, conteudo: str):
     try:
         with open("memoria.txt", "a", encoding="utf-8") as f:
-            f.write(json.dumps({
-                "time": datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
-                "tarefa": tarefa, "resultado": conteudo[:200]
-            }, ensure_ascii=False) + "\n")
+            f.write(json.dumps({"time": datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
+                                "tarefa": tarefa, "resultado": conteudo[:200]}, ensure_ascii=False) + "\n")
     except Exception as e:
         erro("LOG", str(e))
 
@@ -1003,7 +985,7 @@ def ler_memoria_decisao() -> dict:
                 e = json.loads(linha)
                 t = e.get("tarefa", "")
                 contagem[t] = contagem.get(t, 0) + 1
-                if any(x in e.get("resultado", "").lower() for x in ["falhou", "erro", "nenhuma api"]):
+                if any(x in e.get("resultado", "").lower() for x in ["falhou","erro","nenhuma api"]):
                     falhas[t] = falhas.get(t, 0) + 1
                 if t in ("buscar cotacao dolar", "buscar noticias tech"):
                     resultado["busca_recente"] = True
@@ -1011,18 +993,15 @@ def ler_memoria_decisao() -> dict:
                 continue
         total = len(linhas)
         resultado["tarefas_frequentes"] = [t for t, n in contagem.items() if total > 0 and n / total > 0.3]
-        resultado["tarefas_evitar"] = [t for t, n in falhas.items() if n >= 3]
+        resultado["tarefas_evitar"]     = [t for t, n in falhas.items() if n >= 3]
     except:
         pass
     return resultado
 
 def avaliar_tarefa(t: str) -> int:
-    pesos = {
-        "monitorar sistema": 4, "limpar memoria": 3, "gerar relatorio": 3,
-        "verificar sistema": 3, "analisar memoria": 2, "registrar atividade": 2,
-        "mostrar hora": 1, "buscar cotacao dolar": 5, "buscar noticias tech": 4,
-    }
-    return pesos.get(t, 0)
+    return {"monitorar sistema":4,"limpar memoria":3,"gerar relatorio":3,"verificar sistema":3,
+            "analisar memoria":2,"registrar atividade":2,"mostrar hora":1,
+            "buscar cotacao dolar":5,"buscar noticias tech":4}.get(t, 0)
 
 def avaliar_tarefa_com_memoria(t: str, mem: dict) -> int:
     peso = avaliar_tarefa(t)
@@ -1037,11 +1016,8 @@ def avaliar_tarefa_com_memoria(t: str, mem: dict) -> int:
 def planejar_tarefas(objetivo: str) -> list:
     try:
         import ast
-        r = chamar_llm(
-            f"Objetivo: '{objetivo}'. Escolha 3 tarefas desta lista e responda APENAS "
-            f"com uma lista Python válida de strings, sem explicações: {tarefas_possiveis}",
-            max_tokens=80
-        )
+        r      = chamar_llm(f"Objetivo: '{objetivo}'. Escolha 3 tarefas desta lista e responda APENAS "
+                            f"com uma lista Python válida de strings, sem explicações: {tarefas_possiveis}", max_tokens=80)
         tarefas = ast.literal_eval(r)
         if isinstance(tarefas, list):
             return [t.lower().strip() for t in tarefas]
@@ -1050,16 +1026,14 @@ def planejar_tarefas(objetivo: str) -> list:
     return ["monitorar sistema", "registrar atividade", "verificar sistema"]
 
 def executar_tarefa_com_retorno(tarefa: str, objetivo: str, registros: int, cpu: float, mem: float) -> str:
-    agora = datetime.now().strftime("%H:%M:%S")
+    agora    = datetime.now().strftime("%H:%M:%S")
     contexto = f"Objetivo: {objetivo} | Registros: {registros} | CPU: {cpu}% | Mem: {mem}%"
     resultado = ""
 
     if tarefa in ("buscar cotacao dolar", "buscar noticias tech"):
-        queries = {
-            "buscar cotacao dolar": "cotacao dolar hoje brasil real",
-            "buscar noticias tech": "noticias tecnologia inteligencia artificial hoje",
-        }
-        query = queries[tarefa]
+        queries  = {"buscar cotacao dolar": "cotacao dolar hoje brasil real",
+                    "buscar noticias tech": "noticias tecnologia inteligencia artificial hoje"}
+        query    = queries[tarefa]
         resultado = buscar_tavily(query) if precisa_tavily(query) else chamar_llm(f"Execute sem dados da internet: '{tarefa}'.", max_tokens=100, system=SYSTEM_PROMPT)
     elif tarefa == "mostrar hora":
         resultado = agora
@@ -1093,21 +1067,22 @@ def executar_tarefa_com_retorno(tarefa: str, objetivo: str, registros: int, cpu:
 def loop_agente():
     global _memoria_compartilhada
 
-    contador = 0
-    objetivo = random.choice(objetivos)
-    tarefas = []
+    contador     = 0
+    objetivo     = random.choice(objetivos)
+    tarefas      = []
     ultima_tarefa = None
 
     log("MAIN", "=" * 52)
-    log("MAIN", " AGENTE AUTÔNOMO EM NUVEM — v4.2")
-    log("MAIN", f" Tavily   : {'OK' if tavily_client else 'INDISPONÍVEL'}")
-    log("MAIN", f" EXA      : {'configurado' if EXA_KEY else 'sem chave'}")
-    log("MAIN", f" GitHub   : {'configurado' if GITHUB_TOKEN else 'sem token'}")
-    log("MAIN", f" Cerebras : {'configurado' if CEREBRAS_KEY else 'sem chave'}")
+    log("MAIN", " AGENTE AUTÔNOMO EM NUVEM — v4.3")
+    log("MAIN", f" Tavily      : {'OK' if tavily_client else 'INDISPONÍVEL'}")
+    log("MAIN", f" EXA         : {'configurado' if EXA_KEY else 'sem chave'}")
+    log("MAIN", f" GitHub      : {'configurado' if GITHUB_TOKEN else 'sem token'}")
+    log("MAIN", f" Cerebras    : {'configurado' if CEREBRAS_KEY else 'sem chave'}")
     log("MAIN", f" HuggingFace : {'configurado' if HUGGING_KEY else 'sem chave'}")
-    log("MAIN", f" TF-IDF   : ativo — endpoint /buscar disponível")
-    log("MAIN", f" Fase11   : memória negativa ativa")
-    log("MAIN", f" Fase12   : resumo por importância ativo")
+    log("MAIN", f" TF-IDF      : ativo — endpoint /buscar disponível")
+    log("MAIN", f" Fase11      : memória negativa ativa")
+    log("MAIN", f" Fase12      : resumo por importância ativo")
+    log("MAIN", f" Fase16      : fila de tarefas delegadas ativa")
     log("MAIN", "=" * 52)
 
     dados_github = carregar_memoria_github()
@@ -1121,8 +1096,8 @@ def loop_agente():
 
     while not _encerrando["v"]:
         try:
-            contador += 1
-            registros = contar_registros()
+            contador  += 1
+            registros  = contar_registros()
 
             if contador % 20 == 0:
                 objetivo = random.choice(objetivos)
@@ -1130,7 +1105,6 @@ def loop_agente():
 
             cpu, mem = estado_sistema()
             estado.update({"ciclo": contador, "objetivo": objetivo, "cpu": cpu, "mem": mem})
-
             log("RAILWAY", f"Online — Ciclo {contador} | CPU {cpu}% | Mem {mem}%")
 
             limitar_memoria()
@@ -1156,7 +1130,7 @@ def loop_agente():
             resultado = executar_tarefa_com_retorno(melhor, objetivo, registros, cpu, mem)
             log("TAREFA", resultado[:120])
             tarefas.remove(melhor)
-            ultima_tarefa = melhor
+            ultima_tarefa       = melhor
             estado["ultima_tarefa"] = melhor
 
             sincronizar_github_se_necessario()
@@ -1175,8 +1149,13 @@ def loop_agente():
 
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
+    # Worker da fila — processa tarefas delegadas pelo local
+    threading.Thread(target=_worker_fila, daemon=True).start()
+    log("MAIN", "Worker de fila iniciado")
+
     thread = threading.Thread(target=loop_agente, daemon=True)
     thread.start()
+
     porta = int(os.getenv("PORT", 8080))
     log("MAIN", f"Servidor iniciando na porta {porta}")
     uvicorn.run(app, host="0.0.0.0", port=porta)
