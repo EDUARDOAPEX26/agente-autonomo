@@ -110,16 +110,16 @@
       "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
     },
     {
-      "data": "26/03/2026 17:06",
+      "data": "26/03/2026 17:08",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
+      "tarefa": "gerar relatorio",
+      "resultado": "Instância do agente em nuvem criada, sem registros ativos. Nenhum dado processado ou armazenado."
     },
     {
-      "data": "26/03/2026 17:07",
+      "data": "26/03/2026 17:08",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 44.6% | Mem: 70.8%"
     }
   ],
   "total_conversas": 0,
