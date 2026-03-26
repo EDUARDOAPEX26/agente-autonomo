@@ -112,14 +112,14 @@
     {
       "data": "26/03/2026 05:33",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 20.5% | Mem: 71.3%"
     },
     {
       "data": "26/03/2026 05:34",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Nova aposta de Mark Zuckerberg: empresário cria IA secreta para substituir tarefas humanas"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
     }
   ],
   "total_conversas": 5,
