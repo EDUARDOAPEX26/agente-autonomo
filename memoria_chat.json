@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "26/03/2026 08:21",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
       "data": "26/03/2026 08:24",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
@@ -110,18 +116,12 @@
       "resultado": "CPU: 17.7% | Mem: 71.3%"
     },
     {
-      "data": "26/03/2026 08:49",
+      "data": "26/03/2026 08:50",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
-    },
-    {
-      "data": "26/03/2026 08:50",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Nova aposta de Mark Zuckerberg: empresário cria IA secreta para substituir tarefas humanas"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 23
+  "total_tarefas": 22
 }
