@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "26/03/2026 08:45",
-      "pergunta": "busque informações atualizadas sobre a guerra USA X RÃ",
-      "resposta": "Estou buscando informações atualizadas sobre a situação entre os EUA e o Irã...\nDe acordo com as últimas notícias, as opções dos EUA e do Irã para encerrar a guerra estão diminuindo com o tempo. O Irã",
-      "origem": "conversa_local"
-    },
-    {
       "data": "26/03/2026 11:48",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -118,10 +112,16 @@
     {
       "data": "26/03/2026 12:14",
       "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 47.7% | Mem: 70.6%"
+    },
+    {
+      "data": "26/03/2026 12:15",
+      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
     }
   ],
   "total_conversas": 3,
-  "total_tarefas": 162
+  "total_tarefas": 163
 }
