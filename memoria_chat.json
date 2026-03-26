@@ -6,8 +6,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 50.8% | Mem: 71.6%"
+    },
+    {
+      "data": "26/03/2026 08:19",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 12.9% | Mem: 71.4%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 1
+  "total_tarefas": 2
 }
