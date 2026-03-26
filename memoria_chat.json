@@ -4,6 +4,12 @@
     {
       "data": "26/03/2026 14:40",
       "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "Nenhuma atividade foi registrada. Nenhum dado ou arquivo foi criado."
+    },
+    {
+      "data": "26/03/2026 14:40",
+      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
     },
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
-    },
-    {
-      "data": "26/03/2026 15:06",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
     }
   ],
   "total_conversas": 3,
-  "total_tarefas": 294
+  "total_tarefas": 293
 }
