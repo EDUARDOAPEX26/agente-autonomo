@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "26/03/2026 20:05",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 12.2% | Mem: 71.3%"
-    },
-    {
       "data": "26/03/2026 20:06",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -116,12 +110,18 @@
       "resultado": "CPU: 43.1% | Mem: 69.2%"
     },
     {
-      "data": "26/03/2026 20:28",
+      "data": "26/03/2026 20:27",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Duas em cada três empresas confiam em IA para reduzir custos"
+    },
+    {
+      "data": "26/03/2026 20:27",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 26.3% | Mem: 71.3%"
+      "resultado": "CPU: 37.1% | Mem: 71.4%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 198
+  "total_tarefas": 199
 }
