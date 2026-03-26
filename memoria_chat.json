@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "26/03/2026 17:08",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
+    },
+    {
       "data": "26/03/2026 17:10",
       "origem": "nuvem",
       "tarefa": "analisar memoria",
@@ -110,18 +116,12 @@
       "resultado": "CPU: 44.5% | Mem: 69.4%"
     },
     {
-      "data": "26/03/2026 17:39",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
       "data": "26/03/2026 17:40",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
+      "tarefa": "buscar noticias tech",
+      "resultado": "Duas em cada três empresas confiam em IA para reduzir custos"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 73
+  "total_tarefas": 72
 }
