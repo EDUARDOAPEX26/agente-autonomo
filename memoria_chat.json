@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "26/03/2026 11:29",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 32.7% | Mem: 71.4%"
-    },
-    {
       "data": "26/03/2026 11:30",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 52.5% | Mem: 73.1%"
+    },
+    {
+      "data": "26/03/2026 12:02",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Nova aposta de Mark Zuckerberg: empresário cria IA secreta para substituir tarefas humanas"
     }
   ],
   "total_conversas": 3,
-  "total_tarefas": 153
+  "total_tarefas": 154
 }
