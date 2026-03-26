@@ -12,14 +12,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 12.9% | Mem: 71.4%"
-    },
-    {
-      "data": "26/03/2026 08:21",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 3
+  "total_tarefas": 2
 }
