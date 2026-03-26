@@ -119,7 +119,7 @@
       "data": "26/03/2026 22:03",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
-      "resultado": "**Estado do agente:** Desligado\n**Sistema operacional:** Não configurado\n**Versão do software:** Não instalado\n**Conexão à rede:** Desconhecida"
+      "resultado": "**Informações de Inicialização**\n\n- **Status do Agente:** Desativado\n- **Última Conexão:** Não registrou conexão.\n- **Dados Armazenados:** Vazio"
     }
   ],
   "total_conversas": 0,
