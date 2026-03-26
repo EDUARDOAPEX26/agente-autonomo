@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "26/03/2026 16:11",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Registro criado:\n- Nome do agente: Agente Autônomo em Nuvem\n- Tipo de registro: Inicial\n- Status do registro: Ativo\n- Data criação: Não disponível (o registro foi criado com o início das operações do "
-    },
-    {
       "data": "26/03/2026 16:12",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 32.2% | Mem: 71.1%"
+    },
+    {
+      "data": "26/03/2026 16:34",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 14.1% | Mem: 72.8%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 23
+  "total_tarefas": 24
 }
