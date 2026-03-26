@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "26/03/2026 07:34",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
+    },
+    {
       "data": "26/03/2026 07:35",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -112,16 +118,10 @@
     {
       "data": "26/03/2026 07:59",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar hoje: Taxa de câmbio em semana de decisão de juros no Brasil e nos EUA"
-    },
-    {
-      "data": "26/03/2026 08:00",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Aqui está um resumo técnico de 0 registros do agente em nuvem:\n\n* **Status:** Inativo\n* **Registros:** 0\n* **Última sincronização:** Nenhuma"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 22.5% | Mem: 72.2%"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 1137
+  "total_tarefas": 1136
 }
