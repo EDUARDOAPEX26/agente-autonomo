@@ -118,8 +118,8 @@
     {
       "data": "26/03/2026 20:01",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Configuração inicial realizada. Nenhuma informação armazenada. Clique em \"Iniciar\" para começar a configurar o agente autonomo rodando em nuvem."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 37.1% | Mem: 71.4%"
     }
   ],
   "total_conversas": 0,
