@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "27/03/2026 03:53",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 26.0% | Mem: 71.9%"
-    },
-    {
       "data": "27/03/2026 03:54",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -98,30 +92,36 @@
       "resultado": "Einstein fecha parceria federal para acelerar uso de IA na saúde"
     },
     {
-      "data": "27/03/2026 04:20",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 54.4% | Mem: 70.7%"
+      "data": "27/03/2026 01:21",
+      "pergunta": "status seu e nuvem?",
+      "resposta": "Meu status: Estou funcionando normalmente, pronto para responder às suas perguntas.\nStatus do Railway (agente em nuvem): De acordo com os dados disponíveis, o ciclo está em 1, com uso de CPU em 34.9% ",
+      "origem": "conversa_local"
     },
     {
-      "data": "27/03/2026 04:23",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 25.1% | Mem: 73.3%"
+      "data": "27/03/2026 01:22",
+      "pergunta": "status apis?",
+      "resposta": "Estou utilizando as seguintes APIs:\n- Tavily (3 chaves disponíveis, 30 buscas por dia) para busca web.\n- SerpAPI como reserva para busca web.\n- GROQ (llama-3.3-70b) como modelo principal de linguagem.",
+      "origem": "conversa_local"
     },
     {
-      "data": "27/03/2026 04:25",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 30.4% | Mem: 67.2%"
+      "data": "27/03/2026 01:24",
+      "pergunta": "qual modelo de agente em nuvem?",
+      "resposta": "O agente em nuvem utiliza o modelo Cerebras (llama3.1-8b) como fallback e o Google Gemini 2.0 Flash como principal, além do Railway com loop de 60s utilizando o llama-3.1-8b-instant.",
+      "origem": "conversa_local"
     },
     {
-      "data": "27/03/2026 04:26",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+      "data": "27/03/2026 01:24",
+      "pergunta": "cerebras ,e api não modelo",
+      "resposta": "Peço desculpas pelo erro! O agente em nuvem utiliza o modelo llama-3.1-8b-instant, com o Cerebras sendo a empresa que fornece a API de processamento, não o modelo em si. A API utilizada é a Tavily, co",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "27/03/2026 01:26",
+      "pergunta": "negativo informação falsa , em nuvem modelo é mistral 3.1.7b",
+      "resposta": "O agente em nuvem utiliza o modelo Mistral 3.1-7b, não o modelo que eu havia mencionado anteriormente. Vou me certificar de ter as informações atualizadas para fornecer respostas precisas no futuro. M",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 0,
-  "total_tarefas": 514
+  "total_conversas": 5,
+  "total_tarefas": 510
 }
