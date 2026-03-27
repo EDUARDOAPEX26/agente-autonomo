@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "27/03/2026 18:37",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 5.7% | Mem: 8.6%"
-    },
-    {
       "data": "27/03/2026 18:38",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -120,8 +114,14 @@
       "pergunta": "quando terminou a segunda guerra mundial?",
       "resposta": "A Segunda Guerra Mundial terminou oficialmente em 2 de setembro de 1945, com a rendição do Japão, após a capitulação da Alemanha em maio de 1945. Na Europa, a guerra terminou em maio de 1945, com a re",
       "origem": "conversa_local"
+    },
+    {
+      "data": "27/03/2026 19:08",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 1.5% | Mem: 8.1%"
     }
   ],
   "total_conversas": 14,
-  "total_tarefas": 332
+  "total_tarefas": 333
 }
