@@ -116,10 +116,10 @@
       "resultado": "Sim, o sistema está funcionando dentro do esperado. Todos os recursos estão a baixo da capacidade máxima e não há alertas de problema."
     },
     {
-      "data": "27/03/2026 03:08",
+      "data": "27/03/2026 03:09",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 33.1% | Mem: 70.7%"
     }
   ],
   "total_conversas": 0,
