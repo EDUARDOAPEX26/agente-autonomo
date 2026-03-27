@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "27/03/2026 15:55",
-      "pergunta": "exeste algum site chamado nevua teer?",
-      "resposta": "Não encontrei informações sobre um site chamado \"Nevua Teer\". Pode ser um site novo, obscuro ou até mesmo inexistente. Se você tiver mais detalhes ou contexto sobre o site, posso tentar ajudar a encon",
-      "origem": "conversa_local"
-    },
-    {
       "data": "27/03/2026 15:56",
       "pergunta": "procura na web",
       "resposta": "Precisaria buscar esse dado — não tenho agora.",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 13.9% | Mem: 72.8%"
+    },
+    {
+      "data": "27/03/2026 19:18",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.5% | Mem: 73.1%"
     }
   ],
   "total_conversas": 14,
-  "total_tarefas": 343
+  "total_tarefas": 344
 }
