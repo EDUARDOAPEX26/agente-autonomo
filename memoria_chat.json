@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "27/03/2026 13:21",
+      "pergunta": "voce sabia disso ?",
+      "resposta": "Sim, eu sabia que o agente em nuvem utilizava o modelo llama-3.1-8b-instant, mas não tinha certeza do modelo completo. A confirmação do agente em nuvem foi necessária para garantir a precisão da infor",
+      "origem": "conversa_local"
+    },
+    {
       "data": "27/03/2026 13:22",
       "pergunta": "então mudou ?",
       "resposta": "Sim, parece que houve uma mudança. Anteriormente, eu entendia que o modelo do agente em nuvem era llama-3.1-8b-instant, mas agora o agente em nuvem confirmou que o modelo completo é Mistral 3.1-7b. Es",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "27/03/2026 16:48",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 248
+  "total_tarefas": 247
 }
