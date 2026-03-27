@@ -2,24 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "27/03/2026 15:51",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "27/03/2026 15:53",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 21.4% | Mem: 72.8%"
-    },
-    {
-      "data": "27/03/2026 15:54",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
       "data": "27/03/2026 15:56",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
@@ -92,36 +74,54 @@
       "origem": "conversa_local"
     },
     {
-      "data": "27/03/2026 13:24",
-      "pergunta": "vai direto online e pega manchete do jornal \"oglobo\"",
-      "resposta": "Vou buscar a manchete do jornal \"O Globo\" online...\nA manchete do jornal \"O Globo\" é: \"Delinquentes travestidos de policiais\": procurador-geral de Justiça diz que a cooptação de agentes pelo crime com",
-      "origem": "conversa_local"
+      "data": "27/03/2026 16:23",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 37.1% | Mem: 70.5%"
     },
     {
-      "data": "27/03/2026 13:26",
-      "pergunta": "agora faz pede para o agente em nuvem fazer a mesma pesqua e trazer a manchete do jormal \"o globo\"",
-      "resposta": "Vou consultar o agente em nuvem e pedir que ele busque a manchete do jornal \"O Globo\" online...\nAguarde um momento...\nO agente em nuvem respondeu: \"A manchete do jornal 'O Globo' é: 'Crise política: g",
-      "origem": "conversa_local"
+      "data": "27/03/2026 16:24",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 26.5% | Mem: 68.4%"
     },
     {
-      "data": "27/03/2026 13:27",
-      "pergunta": "qual a data da sua pesquisa?",
-      "resposta": "Minha pesquisa anterior foi feita em 27/03/2026, às 13:24. Já a pesquisa do agente em nuvem foi feita agora, e como não tenho informações sobre a data e hora exata, posso apenas dizer que foi feita ap",
-      "origem": "conversa_local"
+      "data": "27/03/2026 16:25",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "BNDES aprova R$300 mi para plataforma de IA da Valid"
     },
     {
-      "data": "27/03/2026 13:27",
-      "pergunta": "e a data da pesquisa de nuvem?",
-      "resposta": "A pesquisa do agente em nuvem foi feita em 27/03/2026, às 13:27. Ele me forneceu a data e hora exata da sua pesquisa, que é apenas 3 minutos após a minha pesquisa. Isso explica a diferença na manchete",
-      "origem": "conversa_local"
+      "data": "27/03/2026 16:26",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     },
     {
-      "data": "27/03/2026 13:33",
-      "pergunta": "valeu , esta tudo certo",
-      "resposta": "De nada! Fico feliz em ter podido ajudar e que tudo esteja certo agora. Se tiver mais alguma coisa, não hesite em perguntar! Estou aqui para ajudar. Tchau!",
-      "origem": "conversa_local"
+      "data": "27/03/2026 16:28",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+    },
+    {
+      "data": "27/03/2026 16:29",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 30.0% | Mem: 71.6%"
+    },
+    {
+      "data": "27/03/2026 16:30",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+    },
+    {
+      "data": "27/03/2026 16:31",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "BNDES aprova R$300 mi para plataforma de IA da Valid"
     }
   ],
-  "total_conversas": 10,
-  "total_tarefas": 230
+  "total_conversas": 5,
+  "total_tarefas": 238
 }
