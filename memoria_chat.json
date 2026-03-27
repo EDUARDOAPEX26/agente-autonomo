@@ -4,6 +4,12 @@
     {
       "data": "27/03/2026 07:44",
       "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 40.2% | Mem: 72.2%"
+    },
+    {
+      "data": "27/03/2026 07:44",
+      "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "BNDES aprova R$300 mi para plataforma de IA da Valid"
     },
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 61.0% | Mem: 72.4%"
-    },
-    {
-      "data": "27/03/2026 08:11",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "BNDES aprova R$300 mi para plataforma de IA da Valid"
     }
   ],
   "total_conversas": 10,
-  "total_tarefas": 665
+  "total_tarefas": 664
 }
