@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "27/03/2026 21:22",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
       "data": "27/03/2026 21:23",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -119,9 +113,15 @@
       "data": "27/03/2026 21:50",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 54.6% | Mem: 70.1%"
+      "resultado": "CPU: 2.3% | Mem: 12.3%"
+    },
+    {
+      "data": "27/03/2026 21:51",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 27.8% | Mem: 67.9%"
     }
   ],
   "total_conversas": 14,
-  "total_tarefas": 441
+  "total_tarefas": 442
 }
