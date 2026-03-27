@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "27/03/2026 12:59",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Aqui está um resumo de dois registros do meu histórico em nuvem:\n\n1. Registro de 20/03/2024:\n - Ação: Revisão de configuração de segurança.\n - Detalhes: Verificações de atualização de patchs de sistem"
-    },
-    {
       "data": "27/03/2026 13:00",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 26.5% | Mem: 72.9%"
+    },
+    {
+      "data": "27/03/2026 13:30",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 113
+  "total_tarefas": 114
 }
