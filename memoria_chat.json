@@ -3,6 +3,12 @@
   "aprendizados": [
     {
       "data": "27/03/2026 15:55",
+      "pergunta": "valor dorar atual?",
+      "resposta": "O valor do dólar atual é de aproximadamente R$ 5,24, com uma variação de +0,23% em relação ao dia anterior.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "27/03/2026 15:55",
       "pergunta": "exeste algum site chamado nevua teer?",
       "resposta": "Não encontrei informações sobre um site chamado \"Nevua Teer\". Pode ser um site novo, obscuro ou até mesmo inexistente. Se você tiver mais detalhes ou contexto sobre o site, posso tentar ajudar a encon",
       "origem": "conversa_local"
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "27/03/2026 19:18",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 13.9% | Mem: 72.8%"
     }
   ],
   "total_conversas": 14,
-  "total_tarefas": 343
+  "total_tarefas": 342
 }
