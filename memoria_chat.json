@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "27/03/2026 17:23",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Os dados do agente em nuvem ainda não foram configurados. Por enquanto, não há informações disponíveis sobre registros, configurações ou histórico de atividades."
-    },
-    {
       "data": "27/03/2026 17:24",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 11.7% | Mem: 71.1%"
+    },
+    {
+      "data": "27/03/2026 17:43",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "BNDES aprova R$300 mi para plataforma de IA da Valid"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 292
+  "total_tarefas": 293
 }
