@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "27/03/2026 01:24",
+      "pergunta": "cerebras ,e api não modelo",
+      "resposta": "Peço desculpas pelo erro! O agente em nuvem utiliza o modelo llama-3.1-8b-instant, com o Cerebras sendo a empresa que fornece a API de processamento, não o modelo em si. A API utilizada é a Tavily, co",
+      "origem": "conversa_local"
+    },
+    {
       "data": "27/03/2026 01:26",
       "pergunta": "negativo informação falsa , em nuvem modelo é mistral 3.1.7b",
       "resposta": "O agente em nuvem utiliza o modelo Mistral 3.1-7b, não o modelo que eu havia mencionado anteriormente. Vou me certificar de ter as informações atualizadas para fornecer respostas precisas no futuro. M",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Einstein fecha parceria federal para acelerar uso de IA na saúde"
-    },
-    {
-      "data": "27/03/2026 04:48",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Einstein fecha parceria federal para acelerar uso de IA na saúde"
     }
   ],
   "total_conversas": 10,
-  "total_tarefas": 524
+  "total_tarefas": 523
 }
