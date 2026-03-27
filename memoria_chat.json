@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "27/03/2026 16:01",
+      "pergunta": "preço do petroleo hoje?",
+      "resposta": "O preço do petróleo WTI hoje é de aproximadamente US$ 64,51 por barril. Já o preço do petróleo Brent hoje está em torno de US$ 103,83 por barril, após uma alta de 3,89%, superando a marca de US$ 100. ",
+      "origem": "conversa_local"
+    },
+    {
       "data": "27/03/2026 16:02",
       "pergunta": "como voce se sente hoje?",
       "resposta": "Sou um agente de inteligência artificial, então não tenho sentimentos como os humanos. Estou funcionando corretamente e pronto para ajudar com qualquer pergunta ou tarefa que você precise. Não tenho d",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "27/03/2026 19:28",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "BNDES aprova R$300 mi para plataforma de IA da Valid"
     }
   ],
   "total_conversas": 14,
-  "total_tarefas": 350
+  "total_tarefas": 349
 }
