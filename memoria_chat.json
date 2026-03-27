@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "27/03/2026 16:55",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 34.2% | Mem: 69.4%"
+    },
+    {
       "data": "27/03/2026 16:56",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 7.8% | Mem: 7.0%"
-    },
-    {
-      "data": "27/03/2026 17:23",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Os dados do agente em nuvem ainda não foram configurados. Por enquanto, não há informações disponíveis sobre registros, configurações ou histórico de atividades."
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 273
+  "total_tarefas": 272
 }
