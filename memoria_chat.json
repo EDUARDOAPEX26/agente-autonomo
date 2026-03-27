@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "27/03/2026 01:27",
-      "pergunta": "voce tem acesso a ele?",
-      "resposta": "Sim, tenho acesso ao agente em nuvem que utiliza o modelo Mistral 3.1-7b. Posso consultar o estado atual do agente em nuvem e receber informações em tempo real sobre seu status e operações. Isso me pe",
-      "origem": "conversa_local"
-    },
-    {
       "data": "27/03/2026 01:28",
       "pergunta": "porque não sabia o modelo que estava lá em nuvem?",
       "resposta": "Eu não sabia o modelo exato que estava em nuvem porque minha informação estava desatualizada. Eu dependo de atualizações e correções para manter minhas informações precisas, e sometimes essas atualiza",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 21.5% | Mem: 72.7%"
+    },
+    {
+      "data": "27/03/2026 04:54",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 36.9% | Mem: 70.8%"
     }
   ],
   "total_conversas": 10,
-  "total_tarefas": 526
+  "total_tarefas": 527
 }
