@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "27/03/2026 15:54",
+      "pergunta": "status dos agentes",
+      "resposta": "Os agentes estão funcionando corretamente. O agente local está pronto para responder às suas perguntas, e o agente em nuvem está online e sincronizado. Se precisar de informações em tempo real ou busc",
+      "origem": "conversa_local"
+    },
+    {
       "data": "27/03/2026 15:55",
       "pergunta": "valor dorar atual?",
       "resposta": "O valor do dólar atual é de aproximadamente R$ 5,24, com uma variação de +0,23% em relação ao dia anterior.",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "27/03/2026 19:17",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     }
   ],
   "total_conversas": 14,
-  "total_tarefas": 342
+  "total_tarefas": 341
 }
