@@ -2,18 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "27/03/2026 22:59",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 3.0% | Mem: 9.7%"
-    },
-    {
-      "data": "27/03/2026 23:00",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 8.2% | Mem: 10.0%"
-    },
-    {
       "data": "27/03/2026 23:05",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -120,8 +108,20 @@
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa com sucesso"
+    },
+    {
+      "data": "27/03/2026 23:27",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 30.3% | Mem: 71.8%"
+    },
+    {
+      "data": "27/03/2026 23:28",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 28.2% | Mem: 71.2%"
     }
   ],
   "total_conversas": 14,
-  "total_tarefas": 501
+  "total_tarefas": 503
 }
