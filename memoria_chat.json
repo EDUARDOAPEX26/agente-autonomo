@@ -100,26 +100,26 @@
     {
       "data": "27/03/2026 23:34",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 5.7% | Mem: 13.7%"
-    },
-    {
-      "data": "27/03/2026 23:36",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Sim, o sistema está saudável. As condições de CPU e de memória estão dentro dos parâmetros considerados normais."
-    },
-    {
-      "data": "27/03/2026 23:37",
-      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     },
     {
-      "data": "27/03/2026 23:38",
+      "data": "27/03/2026 23:36",
       "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 23:38:03"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 24.7% | Mem: 68.0%"
+    },
+    {
+      "data": "27/03/2026 23:36",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 27.9% | Mem: 68.6%"
+    },
+    {
+      "data": "27/03/2026 23:39",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     }
   ],
   "total_conversas": 14,
