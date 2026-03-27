@@ -95,31 +95,31 @@
       "data": "27/03/2026 20:37",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 33.5% | Mem: 72.3%"
+      "resultado": "CPU: 21.6% | Mem: 72.4%"
     },
     {
-      "data": "27/03/2026 20:38",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "27/03/2026 20:39",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa com sucesso"
-    },
-    {
-      "data": "27/03/2026 20:39",
+      "data": "27/03/2026 20:37",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     },
     {
-      "data": "27/03/2026 20:41",
+      "data": "27/03/2026 20:38",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+    },
+    {
+      "data": "27/03/2026 20:40",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 38.3% | Mem: 72.5%"
+      "resultado": "CPU: 13.2% | Mem: 11.9%"
+    },
+    {
+      "data": "27/03/2026 20:41",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa com sucesso"
     }
   ],
   "total_conversas": 14,
