@@ -112,14 +112,14 @@
     {
       "data": "28/03/2026 03:03",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 29.6% | Mem: 70.7%"
     },
     {
       "data": "28/03/2026 03:03",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
-      "resultado": "O agente está inicialmente em um estado de inicialização, não tendo registros ou dados disponíveis. \n\nConfigurações default aplicadas para ambiente de produção."
+      "resultado": "**Resumo Técnico de Cadastramento**\n- **Servidor:** Em execução em infraestrutura da nuvem AWS.\n- **Sistema Operacional:** Não há informações disponíveis."
     }
   ],
   "total_conversas": 14,
