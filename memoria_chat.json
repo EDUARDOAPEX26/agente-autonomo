@@ -4,12 +4,6 @@
     {
       "data": "28/03/2026 08:08",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "28/03/2026 08:08",
-      "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 2.9% | Mem: 12.5%"
     },
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 3.3% | Mem: 12.9%"
+    },
+    {
+      "data": "28/03/2026 08:30",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 228
+  "total_tarefas": 229
 }
