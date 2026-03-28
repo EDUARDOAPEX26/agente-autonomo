@@ -118,8 +118,8 @@
     {
       "data": "28/03/2026 18:43",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Sistema em funcionamento normal, sem ocorrências registradas. Uso de recursos está dentro dos limites."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 20.1% | Mem: 68.4%"
     }
   ],
   "total_conversas": 0,
