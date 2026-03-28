@@ -3,8 +3,8 @@
     "versao": "1.0",
     "gerado_por": "railway_agente",
     "ultima_geracao": "28/03/2026 18:43",
-    "total_entradas_processadas": 332925,
-    "ciclos_completos": 16725
+    "total_entradas_processadas": 332945,
+    "ciclos_completos": 16726
   },
   "blocos": {
     "decisoes": [
@@ -24,6 +24,12 @@
         "id": "dec_db097",
         "resumo": "Gerar relatorio",
         "data": "28/03/2026 18:35",
+        "importancia": 1.0
+      },
+      {
+        "id": "dec_3f5b4",
+        "resumo": "sistema funcionando normalmente",
+        "data": "28/03/2026 18:20",
         "importancia": 1.0
       },
       {
@@ -119,12 +125,6 @@
       {
         "id": "dec_29bb3",
         "resumo": "configurar plataforma Azure registrado",
-        "data": "22/03/2026 04:03",
-        "importancia": 0.9
-      },
-      {
-        "id": "dec_20eca",
-        "resumo": "relatório gerado com sucesso",
         "data": "22/03/2026 04:03",
         "importancia": 0.9
       }
