@@ -116,10 +116,10 @@
       "resultado": "CPU: 2.9% | Mem: 19.6%"
     },
     {
-      "data": "28/03/2026 22:03",
+      "data": "28/03/2026 22:04",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Tudo está funcionando normalmente, nenhuma atividade registered. Utilização da CPU e memória está dentro do padrão."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 7.9% | Mem: 17.6%"
     }
   ],
   "total_conversas": 0,
