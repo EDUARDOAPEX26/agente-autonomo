@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "28/03/2026 06:30",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+    },
+    {
       "data": "28/03/2026 06:37",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
@@ -112,16 +118,10 @@
     {
       "data": "28/03/2026 07:06",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "28/03/2026 07:07",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "BNDES aprova R$300 mi para plataforma de IA da Valid"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 75.4% | Mem: 11.6%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 166
+  "total_tarefas": 165
 }
