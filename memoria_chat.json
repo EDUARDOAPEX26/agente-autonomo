@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "28/03/2026 10:14",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "Não há atividades atuais, recursos computacionais estão abaixo de 20% e a memória ocupa 69,5% do espaço disponível."
+    },
+    {
       "data": "28/03/2026 10:15",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 33.6% | Mem: 68.8%"
-    },
-    {
-      "data": "28/03/2026 10:40",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 2.3% | Mem: 13.1%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 326
+  "total_tarefas": 325
 }
