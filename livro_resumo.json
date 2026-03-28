@@ -9,6 +9,24 @@
   "blocos": {
     "decisoes": [
       {
+        "id": "dec_a368b",
+        "resumo": "Buscar cotacao dolar",
+        "data": "28/03/2026 18:29",
+        "importancia": 1.0
+      },
+      {
+        "id": "dec_43d3f",
+        "resumo": "Gerar relatorio",
+        "data": "28/03/2026 18:31",
+        "importancia": 1.0
+      },
+      {
+        "id": "dec_db097",
+        "resumo": "Gerar relatorio",
+        "data": "28/03/2026 18:35",
+        "importancia": 1.0
+      },
+      {
         "id": "dec_6747c",
         "resumo": "Conexão bem-sucedida com sistema CRIS",
         "data": "22/03/2026 02:53",
@@ -108,24 +126,6 @@
         "id": "dec_20eca",
         "resumo": "relatório gerado com sucesso",
         "data": "22/03/2026 04:03",
-        "importancia": 0.9
-      },
-      {
-        "id": "dec_a8148",
-        "resumo": "gerar relatorio com acesso registrado",
-        "data": "23/03/2026 16:30",
-        "importancia": 0.9
-      },
-      {
-        "id": "dec_c19ea",
-        "resumo": "gerar relatorio com registro de sessão",
-        "data": "23/03/2026 16:35",
-        "importancia": 0.9
-      },
-      {
-        "id": "dec_926ff",
-        "resumo": "Inicializou sistema em nuvem",
-        "data": "24/03/2026 16:51",
         "importancia": 0.9
       }
     ],
