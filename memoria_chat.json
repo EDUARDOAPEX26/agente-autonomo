@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "28/03/2026 19:20",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.5% | Mem: 67.7%"
+    },
+    {
       "data": "28/03/2026 19:21",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 2.3% | Mem: 15.1%"
-    },
-    {
-      "data": "28/03/2026 19:45",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 27.3% | Mem: 71.9%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 757
+  "total_tarefas": 756
 }
