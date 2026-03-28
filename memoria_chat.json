@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "28/03/2026 10:13",
+      "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "O sistema está inoperante, aguardando instruções para iniciar as atividades. As respostas serão ligeiramente demoradas."
+    },
+    {
       "data": "28/03/2026 10:14",
       "origem": "nuvem",
       "tarefa": "gerar relatorio",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 23.9% | Mem: 70.9%"
-    },
-    {
-      "data": "28/03/2026 10:38",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 35.5% | Mem: 68.3%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 325
+  "total_tarefas": 324
 }
