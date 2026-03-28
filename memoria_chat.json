@@ -2,6 +2,18 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "28/03/2026 17:01",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 36.4% | Mem: 71.4%"
+    },
+    {
+      "data": "28/03/2026 17:04",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa"
+    },
+    {
       "data": "28/03/2026 17:05",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -108,20 +120,8 @@
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa"
-    },
-    {
-      "data": "28/03/2026 17:28",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 1.6% | Mem: 17.4%"
-    },
-    {
-      "data": "28/03/2026 17:29",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "BNDES aprova R$300 mi para plataforma de IA da Valid"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 650
+  "total_tarefas": 648
 }
