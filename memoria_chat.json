@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "28/03/2026 11:50",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
       "data": "28/03/2026 11:52",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 34.3% | Mem: 68.8%"
+    },
+    {
+      "data": "28/03/2026 12:21",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 30.7% | Mem: 66.8%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 396
+  "total_tarefas": 397
 }
