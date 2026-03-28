@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "28/03/2026 03:45",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "BNDES aprova R$300 mi para plataforma de IA da Valid"
+    },
+    {
       "data": "28/03/2026 03:46",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -112,16 +118,10 @@
     {
       "data": "28/03/2026 04:14",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "BNDES aprova R$300 mi para plataforma de IA da Valid"
-    },
-    {
-      "data": "28/03/2026 04:15",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "BNDES aprova R$300 mi para plataforma de IA da Valid"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 16.4% | Mem: 72.5%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 31
+  "total_tarefas": 30
 }
