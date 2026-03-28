@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "28/03/2026 18:26",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa"
-    },
-    {
       "data": "28/03/2026 18:27",
       "origem": "nuvem",
       "tarefa": "registrar atividade",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 32.4% | Mem: 70.5%"
+    },
+    {
+      "data": "28/03/2026 18:47",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 30.3% | Mem: 71.4%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 711
+  "total_tarefas": 712
 }
