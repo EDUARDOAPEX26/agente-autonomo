@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "28/03/2026 18:31",
-      "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "Os recursos do sistema estão dentro dos limites considerados saudáveis. Sem alterações significativas a relatar."
-    },
-    {
       "data": "28/03/2026 18:32",
       "origem": "nuvem",
       "tarefa": "registrar atividade",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 17.8% | Mem: 19.7%"
+    },
+    {
+      "data": "28/03/2026 18:54",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 4.2% | Mem: 16.8%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 716
+  "total_tarefas": 717
 }
