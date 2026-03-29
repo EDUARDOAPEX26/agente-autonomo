@@ -6,8 +6,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 21.8% | Mem: 72.3%"
+    },
+    {
+      "data": "29/03/2026 20:19",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "'Metamáquinas': robôs 'diferentões' criados com IA operam após danos | G1"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 1
+  "total_tarefas": 2
 }
