@@ -116,12 +116,12 @@
       "resultado": "CPU: 44.1% | Mem: 72.8%"
     },
     {
-      "data": "29/03/2026 20:50",
-      "pergunta": "qual o preço do Bitcoin agora?",
-      "resposta": "Nao tenho esse dado agora. Precisaria buscar.",
-      "origem": "conversa_local"
+      "data": "29/03/2026 23:52",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 3.6% | Mem: 20.6%"
     }
   ],
-  "total_conversas": 1,
-  "total_tarefas": 161
+  "total_conversas": 0,
+  "total_tarefas": 162
 }
