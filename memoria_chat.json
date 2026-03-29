@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "29/03/2026 19:41",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 6.8% | Mem: 20.6%"
-    },
-    {
       "data": "29/03/2026 16:41",
       "pergunta": "\"o que é um erro 500?\"",
       "resposta": "Um erro 500 é um código de erro HTTP que indica um problema interno no servidor. Quando um servidor web recebe uma requisição, ele pode retornar um código de erro para informar o cliente sobre o resul",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa"
+    },
+    {
+      "data": "29/03/2026 20:04",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 3.9% | Mem: 21.8%"
     }
   ],
   "total_conversas": 18,
-  "total_tarefas": 686
+  "total_tarefas": 687
 }
