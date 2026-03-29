@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "29/03/2026 14:43",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+    },
+    {
       "data": "29/03/2026 14:45",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 6.9% | Mem: 20.5%"
-    },
-    {
-      "data": "29/03/2026 15:11",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Piauí lançará seu LLM próprio em 29 de abril, o SoberanIA"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 586
+  "total_tarefas": 585
 }
