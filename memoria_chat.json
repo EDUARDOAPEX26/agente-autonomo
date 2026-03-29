@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "29/03/2026 16:41",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 20.6% | Mem: 22.8%"
+    },
+    {
       "data": "29/03/2026 16:42",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa"
-    },
-    {
-      "data": "29/03/2026 17:08",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 27.2% | Mem: 71.0%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 666
+  "total_tarefas": 665
 }
