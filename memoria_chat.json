@@ -4,6 +4,12 @@
     {
       "data": "29/03/2026 06:21",
       "origem": "nuvem",
+      "tarefa": "gerar relatorio",
+      "resultado": "O sistema está com carga de trabalho baixa, utilizando apenas uma pequena porcentagem da sua capacidade."
+    },
+    {
+      "data": "29/03/2026 06:21",
+      "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 27.1% | Mem: 72.3%"
     },
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "29/03/2026 06:46",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 20.4% | Mem: 71.3%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 194
+  "total_tarefas": 193
 }
