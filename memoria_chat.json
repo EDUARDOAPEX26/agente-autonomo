@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "29/03/2026 16:41",
+      "pergunta": "\"o que é um erro 500?\"",
+      "resposta": "Um erro 500 é um código de erro HTTP que indica um problema interno no servidor. Quando um servidor web recebe uma requisição, ele pode retornar um código de erro para informar o cliente sobre o resul",
+      "origem": "conversa_local"
+    },
+    {
       "data": "29/03/2026 16:43",
       "pergunta": "\"qual o preço do bitcoin hoje?\"",
       "resposta": "O preço do Bitcoin hoje é US$ 66,429.55, com uma queda de -0,39% nas últimas 24 horas. Outras fontes também indicam um preço variado, com um valor de US$ 66.556,72 também reportado.",
@@ -110,18 +116,12 @@
       "resultado": "Memoria limpa"
     },
     {
-      "data": "29/03/2026 20:04",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 27.7% | Mem: 69.3%"
-    },
-    {
       "data": "29/03/2026 20:05",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 34.4% | Mem: 71.6%"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     }
   ],
   "total_conversas": 18,
-  "total_tarefas": 688
+  "total_tarefas": 687
 }
