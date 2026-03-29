@@ -118,8 +118,8 @@
     {
       "data": "29/03/2026 06:21",
       "origem": "nuvem",
-      "tarefa": "gerar relatorio",
-      "resultado": "O sistema está com carga de trabalho baixa, utilizando apenas uma pequena porcentagem da sua capacidade."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 35.1% | Mem: 71.6%"
     }
   ],
   "total_conversas": 0,
