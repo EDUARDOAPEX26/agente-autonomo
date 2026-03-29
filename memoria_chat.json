@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "29/03/2026 19:45",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 40.0% | Mem: 67.2%"
-    },
-    {
       "data": "29/03/2026 19:46",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "'Metamáquinas': robôs 'diferentões' criados com IA operam após danos | G1"
+    },
+    {
+      "data": "29/03/2026 20:13",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 56.9% | Mem: 71.4%"
     }
   ],
   "total_conversas": 18,
-  "total_tarefas": 691
+  "total_tarefas": 692
 }
