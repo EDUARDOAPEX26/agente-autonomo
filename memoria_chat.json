@@ -3,12 +3,6 @@
   "aprendizados": [
     {
       "data": "29/03/2026 15:57",
-      "pergunta": "qual o preço do bitcoin hoje?",
-      "resposta": "Nao tenho esse dado agora. Precisaria buscar na internet para obter o preço atual do Bitcoin. Posso tentar fazer isso, se quiser.",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "29/03/2026 15:57",
       "pergunta": "fase 12 como funciona ?",
       "resposta": "Nao tenho detalhes sobre a fase 12 do meu desenvolvimento. Sei que fui construído em 15 fases incrementais, mas as especificidades de cada fase não estão claras para mim. Se você tiver mais informaçõe",
       "origem": "conversa_local"
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+    },
+    {
+      "data": "29/03/2026 19:30",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa"
     }
   ],
   "total_conversas": 12,
-  "total_tarefas": 662
+  "total_tarefas": 663
 }
