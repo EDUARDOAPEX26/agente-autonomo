@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "29/03/2026 15:59",
+      "pergunta": "como fazer um loop em python ?",
+      "resposta": "Em Python, existem várias maneiras de criar um loop, dependendo do que você deseja fazer. Aqui estão alguns exemplos:\n1. **Loop For**:\nUm loop for é usado para iterar sobre uma sequência (como uma lis",
+      "origem": "conversa_local"
+    },
+    {
       "data": "29/03/2026 19:10",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "29/03/2026 19:35",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 21.7% | Mem: 69.3%"
     }
   ],
   "total_conversas": 12,
-  "total_tarefas": 667
+  "total_tarefas": 666
 }
