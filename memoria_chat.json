@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "29/03/2026 23:27",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 68.7% | Mem: 65.4%"
-    },
-    {
       "data": "29/03/2026 23:28",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Quase metade dos paulistas já usa inteligência artificial, aponta pesquisa | CNN Brasil"
+    },
+    {
+      "data": "29/03/2026 23:53",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 18.5% | Mem: 70.7%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 163
+  "total_tarefas": 164
 }
