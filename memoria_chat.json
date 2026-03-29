@@ -4,12 +4,6 @@
     {
       "data": "29/03/2026 20:46",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "29/03/2026 20:46",
-      "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 19.1% | Mem: 26.1%"
     },
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Quase metade dos paulistas já usa inteligência artificial, aponta pesquisa | CNN Brasil"
+    },
+    {
+      "data": "29/03/2026 21:18",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 46
+  "total_tarefas": 47
 }
