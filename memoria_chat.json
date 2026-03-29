@@ -2,6 +2,18 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "29/03/2026 16:33",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 32.3% | Mem: 70.8%"
+    },
+    {
+      "data": "29/03/2026 13:34",
+      "pergunta": "bom dia!",
+      "resposta": "Bom dia! Como posso ajudar você hoje?",
+      "origem": "conversa_local"
+    },
+    {
       "data": "29/03/2026 13:35",
       "pergunta": "qual seu status",
       "resposta": "Nao tenho acesso a meu proprio status em tempo real. Se precisar de informações sobre mim, posso dizer que sou um agente hibrido, parte do qual roda no seu PC e parte na nuvem, com memoria por assunto",
@@ -108,20 +120,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 56.9% | Mem: 72.5%"
-    },
-    {
-      "data": "29/03/2026 19:02",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa"
-    },
-    {
-      "data": "29/03/2026 19:02",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 11.1% | Mem: 22.1%"
     }
   ],
   "total_conversas": 7,
-  "total_tarefas": 652
+  "total_tarefas": 650
 }
