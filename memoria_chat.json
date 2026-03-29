@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "29/03/2026 15:37",
-      "pergunta": "queria uma estimativa e o suposto resultado",
-      "resposta": "Peço desculpas, mas não posso fornecer uma estimativa ou suposto resultado para o jogo entre Brasil e Croácia. Minha capacidade de previsão é limitada e não tenho acesso a informações em tempo real so",
-      "origem": "conversa_local"
-    },
-    {
       "data": "29/03/2026 18:39",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 23.4% | Mem: 71.5%"
+    },
+    {
+      "data": "29/03/2026 19:18",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 31.3% | Mem: 68.8%"
     }
   ],
   "total_conversas": 12,
-  "total_tarefas": 652
+  "total_tarefas": 653
 }
