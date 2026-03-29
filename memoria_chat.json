@@ -35,9 +35,15 @@
       "data": "29/03/2026 20:25",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 30.9% | Mem: 71.7%"
+      "resultado": "CPU: 2.4% | Mem: 19.6%"
+    },
+    {
+      "data": "29/03/2026 20:26",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 6
+  "total_tarefas": 7
 }
