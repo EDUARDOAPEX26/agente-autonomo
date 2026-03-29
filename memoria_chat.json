@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "29/03/2026 18:03",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Piauí lançará seu LLM próprio em 29 de abril, o SoberanIA"
+    },
+    {
       "data": "29/03/2026 18:04",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "'Metamáquinas': robôs 'diferentões' criados com IA operam após danos | G1"
-    },
-    {
-      "data": "29/03/2026 18:26",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "'Metamáquinas': robôs 'diferentões' criados com IA operam após danos | G1"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 724
+  "total_tarefas": 723
 }
