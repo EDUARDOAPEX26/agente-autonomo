@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "29/03/2026 13:34",
+      "pergunta": "bom dia!",
+      "resposta": "Bom dia! Como posso ajudar você hoje?",
+      "origem": "conversa_local"
+    },
+    {
       "data": "29/03/2026 13:35",
       "pergunta": "qual seu status",
       "resposta": "Nao tenho acesso a meu proprio status em tempo real. Se precisar de informações sobre mim, posso dizer que sou um agente hibrido, parte do qual roda no seu PC e parte na nuvem, com memoria por assunto",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "29/03/2026 19:05",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 27.1% | Mem: 70.9%"
     }
   ],
   "total_conversas": 7,
-  "total_tarefas": 652
+  "total_tarefas": 651
 }
