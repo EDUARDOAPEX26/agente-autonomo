@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "29/03/2026 15:33",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Piauí lançará seu LLM próprio em 29 de abril, o SoberanIA"
+    },
+    {
       "data": "29/03/2026 15:34",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 4.0% | Mem: 17.1%"
-    },
-    {
-      "data": "29/03/2026 16:09",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 13.7% | Mem: 70.9%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 623
+  "total_tarefas": 622
 }
