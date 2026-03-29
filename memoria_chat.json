@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "29/03/2026 18:55",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 25.1% | Mem: 67.4%"
+    },
+    {
       "data": "29/03/2026 15:57",
       "pergunta": "qual o preço do bitcoin hoje?",
       "resposta": "Nao tenho esse dado agora. Precisaria buscar na internet para obter o preço atual do Bitcoin. Posso tentar fazer isso, se quiser.",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 40.3% | Mem: 71.8%"
-    },
-    {
-      "data": "29/03/2026 19:29",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     }
   ],
   "total_conversas": 12,
-  "total_tarefas": 662
+  "total_tarefas": 661
 }
