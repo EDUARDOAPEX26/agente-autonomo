@@ -118,8 +118,8 @@
     {
       "data": "30/03/2026 15:59",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 10.2% | Mem: 71.8%"
     }
   ],
   "total_conversas": 5,
