@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "29/03/2026 21:45",
+      "pergunta": "quanto custa celular samsung na Kabum?",
+      "resposta": "Nao tenho esse dado agora. Precisaria buscar.",
+      "origem": "conversa_local"
+    },
+    {
       "data": "29/03/2026 21:46",
       "pergunta": "\"preço do PS5 na Ponto Frio?",
       "resposta": "O preço do PlayStation 5 pode variar dependendo do modelo e das ofertas disponíveis. De acordo com os dados disponíveis, o PS5 Pro com 2TB SSD e controle sem fio DualSense branco é vendido por R$ 7.99",
@@ -107,21 +113,15 @@
       "data": "30/03/2026 01:04",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 2.5% | Mem: 19.8%"
-    },
-    {
-      "data": "30/03/2026 01:04",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 18.6% | Mem: 66.2%"
+      "resultado": "CPU: 21.8% | Mem: 72.4%"
     },
     {
       "data": "30/03/2026 01:05",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 38.9% | Mem: 71.6%"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 223
+  "total_tarefas": 222
 }
