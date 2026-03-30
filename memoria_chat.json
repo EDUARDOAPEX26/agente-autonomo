@@ -2,24 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "30/03/2026 00:39",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 31.2% | Mem: 70.7%"
-    },
-    {
-      "data": "30/03/2026 00:39",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "'Metamáquinas': robôs 'diferentões' criados com IA operam após danos | G1"
-    },
-    {
-      "data": "30/03/2026 00:40",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 2.6% | Mem: 23.0%"
-    },
-    {
       "data": "30/03/2026 00:40",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -92,36 +74,54 @@
       "resultado": "'Metamáquinas': robôs 'diferentões' criados com IA operam após danos | G1"
     },
     {
-      "data": "29/03/2026 21:56",
-      "pergunta": "qual o preço do dipirona na droga são paulo",
-      "resposta": "De acordo com as informações disponíveis, o preço da dipirona na Drogaria São Paulo varia dependendo da apresentação e do fabricante. Algumas opções incluem:\n* Dipirona monoidratada 500mg/ml genérico ",
-      "origem": "conversa_local"
+      "data": "30/03/2026 00:55",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 9.5% | Mem: 22.4%"
     },
     {
-      "data": "29/03/2026 21:57",
-      "pergunta": "quanto custa um violão gianini nas casas bahia?",
-      "resposta": "Infelizmente, não tenho acesso a informações em tempo real sobre os preços de violões Giannini nas Casas Bahia. No entanto, posso sugerir algumas opções para você encontrar o preço:\n1. Verifique o sit",
-      "origem": "conversa_local"
+      "data": "30/03/2026 00:55",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 19.3% | Mem: 67.6%"
     },
     {
-      "data": "29/03/2026 21:58",
-      "pergunta": "encontre outras opçoes para mim?",
-      "resposta": "Claro! Aqui estão algumas outras opções para você encontrar o preço de um violão Giannini:\n1. **Site oficial da Giannini**: Você pode visitar o site oficial da Giannini e procurar por revendedores aut",
-      "origem": "conversa_local"
+      "data": "30/03/2026 00:56",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 2.4% | Mem: 21.4%"
     },
     {
-      "data": "29/03/2026 21:58",
-      "pergunta": "de preço",
-      "resposta": "Nao tenho esse dado agora. Precisaria buscar.",
-      "origem": "conversa_local"
+      "data": "30/03/2026 00:56",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa"
     },
     {
-      "data": "29/03/2026 21:59",
-      "pergunta": "shopp, ou mercado livre?",
-      "resposta": "Nao tenho esse dado agora. Precisaria buscar.",
-      "origem": "conversa_local"
+      "data": "30/03/2026 00:57",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "'Metamáquinas': robôs 'diferentões' criados com IA operam após danos | G1"
+    },
+    {
+      "data": "30/03/2026 00:57",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 36.5% | Mem: 71.0%"
+    },
+    {
+      "data": "30/03/2026 00:59",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 26.3% | Mem: 72.2%"
+    },
+    {
+      "data": "30/03/2026 00:59",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "'Metamáquinas': robôs 'diferentões' criados com IA operam após danos | G1"
     }
   ],
-  "total_conversas": 10,
-  "total_tarefas": 211
+  "total_conversas": 5,
+  "total_tarefas": 219
 }
