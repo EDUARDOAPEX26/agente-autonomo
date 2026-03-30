@@ -2,9 +2,9 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "30/03/2026 22:09",
-    "total_entradas_processadas": 447251,
-    "ciclos_completos": 22450
+    "ultima_geracao": "30/03/2026 22:11",
+    "total_entradas_processadas": 447271,
+    "ciclos_completos": 22451
   },
   "blocos": {
     "decisoes": [
@@ -30,6 +30,36 @@
         "id": "dec_3f5b4",
         "resumo": "sistema funcionando normalmente",
         "data": "28/03/2026 18:20",
+        "importancia": 1.0
+      },
+      {
+        "id": "dec_13bf3",
+        "resumo": "pesquisa cotao dolar",
+        "data": "30/03/2026 21:42",
+        "importancia": 1.0
+      },
+      {
+        "id": "dec_406bb",
+        "resumo": "pesquisa cotao dolar",
+        "data": "30/03/2026 21:42",
+        "importancia": 1.0
+      },
+      {
+        "id": "dec_52650",
+        "resumo": "noticias tecnologia",
+        "data": "30/03/2026 21:45",
+        "importancia": 1.0
+      },
+      {
+        "id": "dec_613d6",
+        "resumo": "pesquisa cotao dolar",
+        "data": "30/03/2026 21:48",
+        "importancia": 1.0
+      },
+      {
+        "id": "dec_28450",
+        "resumo": "pesquisa cotao dolar",
+        "data": "30/03/2026 21:48",
         "importancia": 1.0
       },
       {
@@ -96,36 +126,6 @@
         "id": "dec_fd4b6",
         "resumo": "Gerar relatório de resumo técnico",
         "data": "22/03/2026 03:50",
-        "importancia": 0.9
-      },
-      {
-        "id": "dec_c7d72",
-        "resumo": "gerar relatorio Resumo Técnico",
-        "data": "22/03/2026 03:50",
-        "importancia": 0.9
-      },
-      {
-        "id": "dec_2e44b",
-        "resumo": "configurações do agente em nuvem resumidas em relatório",
-        "data": "22/03/2026 04:02",
-        "importancia": 0.9
-      },
-      {
-        "id": "dec_7cdc5",
-        "resumo": "configurar plataforma Azure",
-        "data": "22/03/2026 04:00",
-        "importancia": 0.9
-      },
-      {
-        "id": "dec_72757",
-        "resumo": "configurar plataforma Azure resumo",
-        "data": "22/03/2026 04:03",
-        "importancia": 0.9
-      },
-      {
-        "id": "dec_29bb3",
-        "resumo": "configurar plataforma Azure registrado",
-        "data": "22/03/2026 04:03",
         "importancia": 0.9
       }
     ],
