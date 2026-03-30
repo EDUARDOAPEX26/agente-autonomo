@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "30/03/2026 21:52",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
       "data": "30/03/2026 21:56",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +114,14 @@
       "pergunta": "preço de um violão mais barato no mercado livre",
       "resposta": "O preço de um violão mais barato no Mercado Livre pode variar dependendo da marca, modelo e condições do instrumento. No entanto, com base nas ofertas atuais, é possível encontrar violões acústicos po",
       "origem": "conversa_local"
+    },
+    {
+      "data": "30/03/2026 22:57",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 22.2% | Mem: 68.1%"
     }
   ],
   "total_conversas": 7,
-  "total_tarefas": 1170
+  "total_tarefas": 1171
 }
