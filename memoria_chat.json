@@ -2,18 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "30/03/2026 03:09",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "'Metamáquinas': robôs 'diferentões' criados com IA operam após danos | G1"
-    },
-    {
-      "data": "30/03/2026 03:11",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "'Metamáquinas': robôs 'diferentões' criados com IA operam após danos | G1"
-    },
-    {
       "data": "30/03/2026 03:12",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +108,20 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 22.3% | Mem: 70.3%"
+    },
+    {
+      "data": "30/03/2026 03:43",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "'Metamáquinas': robôs 'diferentões' criados com IA operam após danos | G1"
+    },
+    {
+      "data": "30/03/2026 03:43",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 8.7% | Mem: 21.1%"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 333
+  "total_tarefas": 335
 }
