@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "30/03/2026 17:27",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa"
+    },
+    {
       "data": "30/03/2026 17:29",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "30/03/2026 17:55",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 970
+  "total_tarefas": 969
 }
