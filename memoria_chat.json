@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "30/03/2026 19:21",
-      "pergunta": "qual o preço do dipirona na farma mais?",
-      "resposta": "Com base nos dados disponíveis, o preço da Dipirona Monoidratada 500mg/ml (10ml) é de R$ 2,09, oferecido pela Drogaria Nova Esperança. Já o preço da Dipirona Sódica 500mg/ml Belfar (20ml) é de R$ 3,30",
-      "origem": "conversa_local"
-    },
-    {
       "data": "30/03/2026 19:23",
       "pergunta": "preço de um violão mais barato no mercado livre",
       "resposta": "O preço de um violão mais barato no Mercado Livre pode variar dependendo da marca, modelo e condições do instrumento. No entanto, com base nas ofertas atuais, é possível encontrar violões acústicos po",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+    },
+    {
+      "data": "30/03/2026 23:24",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 39.7% | Mem: 71.4%"
     }
   ],
   "total_conversas": 7,
-  "total_tarefas": 1188
+  "total_tarefas": 1189
 }
