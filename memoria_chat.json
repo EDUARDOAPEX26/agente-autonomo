@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "30/03/2026 21:01",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+    },
+    {
       "data": "30/03/2026 21:02",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
@@ -112,16 +118,10 @@
     {
       "data": "30/03/2026 21:25",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Demissão em massa por causa de IA: empresas admitem cortes - 30/03/2026 - Economia - Folha"
-    },
-    {
-      "data": "30/03/2026 21:26",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 11.1% | Mem: 71.6%"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 1132
+  "total_tarefas": 1131
 }
