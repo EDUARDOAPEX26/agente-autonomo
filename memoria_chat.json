@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "29/03/2026 21:48",
-      "pergunta": "\"quanto vale uma geladeira  na Magazine Luiza?\"",
-      "resposta": "Nao tenho esse dado agora. Precisaria buscar.",
-      "origem": "conversa_local"
-    },
-    {
       "data": "29/03/2026 21:49",
       "pergunta": "\"quanto vale na Magazine Luiza?\" ✅",
       "resposta": "Nao tenho esse dado agora. Precisaria buscar.",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+    },
+    {
+      "data": "30/03/2026 01:07",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 224
+  "total_tarefas": 225
 }
