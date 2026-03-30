@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "29/03/2026 21:45",
+      "pergunta": "quanto custa celular samsung na Kabum?",
+      "resposta": "Nao tenho esse dado agora. Precisaria buscar.",
+      "origem": "conversa_local"
+    },
+    {
       "data": "29/03/2026 21:46",
       "pergunta": "\"preço do PS5 na Ponto Frio?",
       "resposta": "O preço do PlayStation 5 pode variar dependendo do modelo e das ofertas disponíveis. De acordo com os dados disponíveis, o PS5 Pro com 2TB SSD e controle sem fio DualSense branco é vendido por R$ 7.99",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 38.9% | Mem: 71.6%"
-    },
-    {
-      "data": "30/03/2026 01:06",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 41.2% | Mem: 71.5%"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 223
+  "total_tarefas": 222
 }
