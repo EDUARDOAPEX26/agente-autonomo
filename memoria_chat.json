@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "30/03/2026 11:32",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 14.0% | Mem: 66.4%"
+    },
+    {
       "data": "30/03/2026 11:33",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "IA avança rápido e especialistas admitem: 'Dá desespero'"
-    },
-    {
-      "data": "30/03/2026 11:52",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 691
+  "total_tarefas": 690
 }
