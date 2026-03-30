@@ -4,6 +4,12 @@
     {
       "data": "30/03/2026 20:32",
       "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 24.3% | Mem: 66.6%"
+    },
+    {
+      "data": "30/03/2026 20:32",
+      "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Demissão em massa por causa de IA: empresas admitem cortes - 30/03/2026 - Economia - Folha"
     },
@@ -112,16 +118,10 @@
     {
       "data": "30/03/2026 20:56",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "30/03/2026 20:57",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 47.6% | Mem: 34.7%"
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 1110
+  "total_tarefas": 1109
 }
