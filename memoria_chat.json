@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "30/03/2026 23:27",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Por que CEOs de tecnologia estão culpando a IA por demissões em massa? | G1"
+    },
+    {
       "data": "30/03/2026 23:28",
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Por que CEOs de tecnologia estão culpando a IA por demissões em massa? | G1"
-    },
-    {
-      "data": "30/03/2026 23:51",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 11.2% | Mem: 72.1%"
     }
   ],
   "total_conversas": 7,
-  "total_tarefas": 1211
+  "total_tarefas": 1210
 }
