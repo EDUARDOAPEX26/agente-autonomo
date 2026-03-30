@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "30/03/2026 18:22",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Demissão em massa por causa de IA: empresas admitem cortes - 30/03/2026 - Economia - Folha"
+    },
+    {
       "data": "30/03/2026 18:24",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -110,18 +116,12 @@
       "resultado": "Demissão em massa por causa de IA: empresas admitem cortes - 30/03/2026 - Economia - Folha"
     },
     {
-      "data": "30/03/2026 18:42",
+      "data": "30/03/2026 18:41",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 27.8% | Mem: 30.0%"
-    },
-    {
-      "data": "30/03/2026 18:42",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 3.6% | Mem: 25.3%"
+      "tarefa": "buscar noticias tech",
+      "resultado": "Demissão em massa por causa de IA: empresas admitem cortes - 30/03/2026 - Economia - Folha"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 1011
+  "total_tarefas": 1010
 }
