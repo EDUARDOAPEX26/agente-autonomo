@@ -2,18 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "30/03/2026 11:49",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "30/03/2026 11:51",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "IA avança rápido e especialistas admitem: 'Dá desespero'"
-    },
-    {
       "data": "30/03/2026 11:52",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
@@ -120,8 +108,20 @@
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "IA avança rápido e especialistas admitem: 'Dá desespero'"
+    },
+    {
+      "data": "30/03/2026 12:18",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 41.1% | Mem: 70.3%"
+    },
+    {
+      "data": "30/03/2026 12:19",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 50.7% | Mem: 72.6%"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 708
+  "total_tarefas": 710
 }
