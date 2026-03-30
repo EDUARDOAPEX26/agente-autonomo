@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "30/03/2026 17:19",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 20.7% | Mem: 69.5%"
-    },
-    {
       "data": "30/03/2026 17:23",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -118,10 +112,16 @@
     {
       "data": "30/03/2026 17:49",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Demissão em massa por causa de IA: empresas admitem cortes - 30/03/2026 - Economia - Folha"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 16.9% | Mem: 66.0%"
+    },
+    {
+      "data": "30/03/2026 17:50",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 36.9% | Mem: 70.7%"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 965
+  "total_tarefas": 966
 }
