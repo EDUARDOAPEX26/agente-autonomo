@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "30/03/2026 13:53",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "IA avança rápido e especialistas admitem: 'Dá desespero'"
+    },
+    {
       "data": "30/03/2026 13:54",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -112,16 +118,10 @@
     {
       "data": "30/03/2026 14:24",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "IA avança rápido e especialistas admitem: 'Dá desespero'"
-    },
-    {
-      "data": "30/03/2026 14:24",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "IA avança rápido e especialistas admitem: 'Dá desespero'"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 800
+  "total_tarefas": 799
 }
