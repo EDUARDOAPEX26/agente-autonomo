@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "30/03/2026 05:19",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "IA avança rápido e especialistas admitem: 'Dá desespero'"
-    },
-    {
       "data": "30/03/2026 05:22",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -119,9 +113,15 @@
       "data": "30/03/2026 05:48",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 30.8% | Mem: 54.2%"
+      "resultado": "CPU: 14.4% | Mem: 71.4%"
+    },
+    {
+      "data": "30/03/2026 05:49",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 7.1% | Mem: 20.4%"
     }
   ],
   "total_conversas": 5,
-  "total_tarefas": 424
+  "total_tarefas": 425
 }
