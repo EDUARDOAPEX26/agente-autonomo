@@ -2,18 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "30/03/2026 00:26",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "30/03/2026 00:31",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 5.4% | Mem: 21.5%"
-    },
-    {
       "data": "30/03/2026 00:31",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -104,24 +92,36 @@
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     },
     {
-      "data": "30/03/2026 00:47",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa"
+      "data": "29/03/2026 21:45",
+      "pergunta": "quanto custa celular samsung na Kabum?",
+      "resposta": "Nao tenho esse dado agora. Precisaria buscar.",
+      "origem": "conversa_local"
     },
     {
-      "data": "30/03/2026 00:48",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 40.1% | Mem: 70.7%"
+      "data": "29/03/2026 21:46",
+      "pergunta": "\"preço do PS5 na Ponto Frio?",
+      "resposta": "O preço do PlayStation 5 pode variar dependendo do modelo e das ofertas disponíveis. De acordo com os dados disponíveis, o PS5 Pro com 2TB SSD e controle sem fio DualSense branco é vendido por R$ 7.99",
+      "origem": "conversa_local"
     },
     {
-      "data": "30/03/2026 00:50",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+      "data": "29/03/2026 21:48",
+      "pergunta": "\"quanto vale uma geladeira  na Magazine Luiza?\"",
+      "resposta": "Nao tenho esse dado agora. Precisaria buscar.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "29/03/2026 21:49",
+      "pergunta": "\"quanto vale na Magazine Luiza?\" ✅",
+      "resposta": "Nao tenho esse dado agora. Precisaria buscar.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "29/03/2026 21:51",
+      "pergunta": "quanto custa um violão nas casas bahia",
+      "resposta": "Nao tenho esse dado agora. Precisaria buscar.",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 0,
-  "total_tarefas": 210
+  "total_conversas": 5,
+  "total_tarefas": 207
 }
