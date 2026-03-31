@@ -4,6 +4,12 @@
     {
       "data": "31/03/2026 02:02",
       "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 34.6% | Mem: 69.6%"
+    },
+    {
+      "data": "31/03/2026 02:02",
+      "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Por que CEOs de tecnologia estão culpando a IA por demissões em massa? | G1"
     },
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Por que CEOs de tecnologia estão culpando a IA por demissões em massa? | G1"
-    },
-    {
-      "data": "31/03/2026 02:24",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 4.9% | Mem: 26.6%"
     }
   ],
   "total_conversas": 7,
-  "total_tarefas": 1339
+  "total_tarefas": 1338
 }
