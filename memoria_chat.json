@@ -2,6 +2,18 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "31/03/2026 02:23",
+      "origem": "nuvem",
+      "tarefa": "buscar noticias tech",
+      "resultado": "Por que CEOs de tecnologia estão culpando a IA por demissões em massa? | G1"
+    },
+    {
+      "data": "31/03/2026 02:24",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 4.9% | Mem: 26.6%"
+    },
+    {
       "data": "31/03/2026 02:26",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -104,24 +116,12 @@
       "resultado": "CPU: 20.3% | Mem: 26.5%"
     },
     {
-      "data": "31/03/2026 02:49",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Por que CEOs de tecnologia estão culpando a IA por demissões em massa? | G1"
-    },
-    {
-      "data": "31/03/2026 02:49",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 29.4% | Mem: 71.6%"
-    },
-    {
       "data": "31/03/2026 02:50",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 18.8% | Mem: 68.7%"
     }
   ],
   "total_conversas": 7,
-  "total_tarefas": 1359
+  "total_tarefas": 1357
 }
