@@ -2,15 +2,78 @@
   "meta": {
     "versao": "1.0",
     "gerado_por": "railway_agente",
-    "ultima_geracao": "31/03/2026 09:52",
-    "total_entradas_processadas": 2920,
-    "ciclos_completos": 146
+    "ultima_geracao": "31/03/2026 09:55",
+    "total_entradas_processadas": 2940,
+    "ciclos_completos": 147
   },
   "blocos": {
     "decisoes": [],
-    "bugs": [],
-    "correcoes": [],
+    "bugs": [
+      {
+        "id": "bug_18fb1",
+        "resumo": "buscar cotação do dólar",
+        "data": "31/03/2026 09:39",
+        "importancia": 0.6
+      }
+    ],
+    "correcoes": [
+      {
+        "id": "cor_6bf36",
+        "resumo": "monitorar sistema",
+        "data": "31/03/2026 09:28",
+        "importancia": 0.0
+      },
+      {
+        "id": "cor_8015d",
+        "resumo": "monitorar sistema",
+        "data": "31/03/2026 09:28",
+        "importancia": 0.0
+      },
+      {
+        "id": "cor_9f77e",
+        "resumo": "monitorar sistema",
+        "data": "31/03/2026 09:33",
+        "importancia": 0.0
+      },
+      {
+        "id": "cor_2dc34",
+        "resumo": "monitorar sistema",
+        "data": "31/03/2026 09:35",
+        "importancia": 0.0
+      },
+      {
+        "id": "cor_76c48",
+        "resumo": "monitorar sistema",
+        "data": "31/03/2026 09:35",
+        "importancia": 0.0
+      },
+      {
+        "id": "cor_904ff",
+        "resumo": "monitorar sistema",
+        "data": "31/03/2026 09:37",
+        "importancia": 0.0
+      },
+      {
+        "id": "cor_3fb3a",
+        "resumo": "monitorar sistema",
+        "data": "31/03/2026 09:38",
+        "importancia": 0.0
+      },
+      {
+        "id": "cor_5ba48",
+        "resumo": "monitorar sistema",
+        "data": "31/03/2026 09:41",
+        "importancia": 0.0
+      }
+    ],
     "limitacoes": [],
-    "insights": []
+    "insights": [
+      {
+        "id": "ins_9fbcc",
+        "resumo": "nota sobre patrocínio da Copa do Mundo",
+        "data": "31/03/2026 09:32",
+        "importancia": 0.8
+      }
+    ]
   }
 }
