@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "31/03/2026 01:49",
+      "origem": "nuvem",
+      "tarefa": "limpar memoria",
+      "resultado": "Memoria limpa"
+    },
+    {
       "data": "31/03/2026 01:50",
       "origem": "nuvem",
       "tarefa": "verificar sistema",
@@ -112,16 +118,10 @@
     {
       "data": "31/03/2026 02:08",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Por que CEOs de tecnologia estão culpando a IA por demissões em massa? | G1"
-    },
-    {
-      "data": "31/03/2026 02:08",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Por que CEOs de tecnologia estão culpando a IA por demissões em massa? | G1"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 22.4% | Mem: 66.5%"
     }
   ],
   "total_conversas": 7,
-  "total_tarefas": 1329
+  "total_tarefas": 1328
 }
