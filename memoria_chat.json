@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "31/03/2026 19:54",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.3% | Mem: 72.4%"
+    },
+    {
       "data": "31/03/2026 19:57",
       "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "Esther Dweck defende desenvolvimento da inteligência artificial com regulação, inclusão e soberania digital — Ministério da Gestão e da Inovação em Serviços Públicos"
-    },
-    {
-      "data": "31/03/2026 20:21",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 10.1% | Mem: 70.8%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 223
+  "total_tarefas": 222
 }
