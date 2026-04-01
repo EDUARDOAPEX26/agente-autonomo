@@ -118,8 +118,8 @@
     {
       "data": "01/04/2026 18:10",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 0.19 USD to 1 BRL. As of April 1, 2026, the dollar is in a recovery phase from a downward channel, aiming for R$5.65. Historical data shows fluctuations over the past five"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 17.6% | Mem: 67.5%"
     }
   ],
   "total_conversas": 0,
