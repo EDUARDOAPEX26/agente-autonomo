@@ -118,8 +118,8 @@
     {
       "data": "01/04/2026 06:46",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Hoje, a cotação do dólar para o real é R$ 5,18. Esta taxa é atualizada diariamente e pode variar. Consulte fontes financeiras para obter a cotação mais recente."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 43.6% | Mem: 71.7%"
     }
   ],
   "total_conversas": 0,
