@@ -2,6 +2,12 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "01/04/2026 10:28",
+      "origem": "nuvem",
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, April 1, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
+    },
+    {
       "data": "01/04/2026 10:29",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "limpar memoria",
       "resultado": "Memoria limpa"
-    },
-    {
-      "data": "01/04/2026 10:57",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Em 2026, a Inteligência Artificial está revolucionando a educação e pesquisa. A OpenAI lançou o NextGenAI para impulsionar essas áreas. A adoção da IA está acelerando em Portugal, com projetos governa"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 887
+  "total_tarefas": 886
 }
