@@ -4,12 +4,6 @@
     {
       "data": "01/04/2026 06:26",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 42.0% | Mem: 69.5%"
-    },
-    {
-      "data": "01/04/2026 06:26",
-      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "The current exchange rate is 1 USD = 5.18 BRL. This rate is slightly lower than the previous day's rate. For the most up-to-date information, check financial websites like Wise."
     },
@@ -118,10 +112,16 @@
     {
       "data": "01/04/2026 06:46",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Hoje, a cotação do dólar para o real é R$ 5,18. Esta taxa é atualizada diariamente e pode variar. Consulte fontes financeiras para obter a cotação mais recente."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 43.6% | Mem: 71.7%"
+    },
+    {
+      "data": "01/04/2026 06:47",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.2% | Mem: 71.8%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 704
+  "total_tarefas": 705
 }
