@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "01/04/2026 13:52",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 0.19 USD to 1 BRL. As of today, the dollar is valued at approximately R$5.15. This rate is subject to daily fluctuations."
-    },
-    {
       "data": "01/04/2026 13:53",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -118,10 +112,16 @@
     {
       "data": "01/04/2026 14:18",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Inteligência artificial está crescendo rapidamente; empresas como Apple e Meta investem pesadamente; OpenAI e Nvidia lideram o mercado."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 37.1% | Mem: 67.5%"
+    },
+    {
+      "data": "01/04/2026 14:18",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 31.5% | Mem: 71.9%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 1041
+  "total_tarefas": 1042
 }
