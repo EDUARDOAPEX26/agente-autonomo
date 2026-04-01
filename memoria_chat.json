@@ -112,14 +112,14 @@
     {
       "data": "01/04/2026 06:34",
       "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 44.2% | Mem: 68.3%"
     },
     {
       "data": "01/04/2026 06:35",
       "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Inteligência Artificial está revolucionando setores, com empresas como Apple e Meta investindo pesadamente; OpenAI lidera discussões sobre IA; tendências apontam para uso crescente em tomada de decisã"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 38.6% | Mem: 68.6%"
     }
   ],
   "total_conversas": 0,
