@@ -4,12 +4,6 @@
     {
       "data": "01/04/2026 23:50",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 29.5% | Mem: 68.5%"
-    },
-    {
-      "data": "01/04/2026 23:50",
-      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "The current exchange rate is 0.19 USD per Brazilian Real. As of today, the dollar stands at approximately 5.41 BRL. For the most accurate and up-to-date rates, check financial services like Travelex C"
     },
@@ -113,15 +107,21 @@
       "data": "01/04/2026 23:56",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 28.1% | Mem: 71.1%"
+      "resultado": "CPU: 49.3% | Mem: 69.9%"
     },
     {
       "data": "01/04/2026 23:57",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 5.7% | Mem: 31.0%"
+      "resultado": "CPU: 21.8% | Mem: 28.5%"
+    },
+    {
+      "data": "01/04/2026 23:58",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 41.4% | Mem: 69.4%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 2342
+  "total_tarefas": 2343
 }
