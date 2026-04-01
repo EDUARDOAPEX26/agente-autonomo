@@ -5,6 +5,12 @@
       "data": "01/04/2026 22:29",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
+      "resultado": "CPU: 34.7% | Mem: 64.2%"
+    },
+    {
+      "data": "01/04/2026 22:29",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
       "resultado": "CPU: 27.5% | Mem: 69.2%"
     },
     {
@@ -82,46 +88,40 @@
     {
       "data": "01/04/2026 22:33",
       "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 25.1% | Mem: 68.3%"
+    },
+    {
+      "data": "01/04/2026 22:34",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 15.7% | Mem: 69.2%"
+    },
+    {
+      "data": "01/04/2026 22:34",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 33.0% | Mem: 65.0%"
+    },
+    {
+      "data": "01/04/2026 22:34",
+      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, April 1, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
-    },
-    {
-      "data": "01/04/2026 22:34",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 41.9% | Mem: 70.4%"
-    },
-    {
-      "data": "01/04/2026 22:34",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, April 1, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
-    },
-    {
-      "data": "01/04/2026 22:34",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 28.4% | Mem: 72.0%"
-    },
-    {
-      "data": "01/04/2026 22:34",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 25.2% | Mem: 61.9%"
     },
     {
       "data": "01/04/2026 22:35",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 26.5% | Mem: 71.6%"
+      "resultado": "CPU: 8.8% | Mem: 53.4%"
     },
     {
       "data": "01/04/2026 22:35",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 21.7% | Mem: 70.5%"
+      "resultado": "CPU: 30.0% | Mem: 69.6%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 2104
+  "total_tarefas": 2103
 }
