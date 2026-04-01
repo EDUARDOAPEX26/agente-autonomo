@@ -83,43 +83,43 @@
       "data": "01/04/2026 23:24",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 33.1% | Mem: 67.5%"
+      "resultado": "CPU: 21.7% | Mem: 66.5%"
     },
     {
-      "data": "01/04/2026 23:24",
+      "data": "01/04/2026 23:25",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 27.0% | Mem: 70.2%"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 0.19 USD per Brazilian Real. As of today, the dollar stands at approximately 5.41 BRL. For the most accurate and up-to-date rates, check financial services like Travelex C"
     },
     {
       "data": "01/04/2026 23:25",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 36.9% | Mem: 71.5%"
+      "resultado": "CPU: 14.3% | Mem: 39.1%"
     },
     {
       "data": "01/04/2026 23:25",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 4.7% | Mem: 33.0%"
-    },
-    {
-      "data": "01/04/2026 23:25",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 78.1% | Mem: 70.6%"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 0.19 USD per Brazilian Real. As of today, the dollar stands at approximately 5.41 BRL. For the most accurate and up-to-date rates, check financial services like Travelex C"
     },
     {
       "data": "01/04/2026 23:26",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 3.5% | Mem: 33.0%"
+      "resultado": "CPU: 18.4% | Mem: 70.9%"
     },
     {
       "data": "01/04/2026 23:26",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 36.6% | Mem: 71.0%"
+      "resultado": "CPU: 18.7% | Mem: 71.0%"
+    },
+    {
+      "data": "01/04/2026 23:27",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 21.7% | Mem: 65.7%"
     }
   ],
   "total_conversas": 0,
