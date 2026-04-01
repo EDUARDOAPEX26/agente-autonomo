@@ -71,55 +71,55 @@
       "data": "01/04/2026 22:00",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 34.8% | Mem: 68.3%"
-    },
-    {
-      "data": "01/04/2026 22:00",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 7.1% | Mem: 32.1%"
+      "resultado": "CPU: 47.2% | Mem: 64.8%"
     },
     {
       "data": "01/04/2026 22:01",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 14.6% | Mem: 68.6%"
+      "resultado": "CPU: 46.9% | Mem: 65.0%"
     },
     {
-      "data": "01/04/2026 22:02",
+      "data": "01/04/2026 22:01",
       "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 33.3% | Mem: 69.6%"
     },
     {
       "data": "01/04/2026 22:02",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 24.9% | Mem: 72.1%"
+      "resultado": "CPU: 47.3% | Mem: 71.1%"
     },
     {
       "data": "01/04/2026 22:02",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 79.2% | Mem: 68.1%"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate for 1 USD to BRL is R$ 5.22. The latest data from Bloomberg Linea confirms the dollar has fallen to this rate. Confidence Cambio also reports the dollar at R$ 5.408276."
     },
     {
       "data": "01/04/2026 22:03",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 26.9% | Mem: 34.3%"
+      "resultado": "CPU: 3.9% | Mem: 33.1%"
     },
     {
       "data": "01/04/2026 22:03",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 13.8% | Mem: 66.7%"
+      "resultado": "CPU: 21.5% | Mem: 70.9%"
+    },
+    {
+      "data": "01/04/2026 22:03",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 30.4% | Mem: 69.0%"
     },
     {
       "data": "01/04/2026 22:04",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 20.6% | Mem: 68.9%"
+      "resultado": "CPU: 12.0% | Mem: 38.0%"
     }
   ],
   "total_conversas": 0,
