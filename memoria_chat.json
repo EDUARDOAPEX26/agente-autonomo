@@ -5,12 +5,6 @@
       "data": "01/04/2026 15:24",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 23.3% | Mem: 65.8%"
-    },
-    {
-      "data": "01/04/2026 15:24",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
       "resultado": "CPU: 98.4% | Mem: 64.0%"
     },
     {
@@ -112,16 +106,22 @@
     {
       "data": "01/04/2026 15:30",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "At the moment, the dollar to Brazilian real exchange rate is 5.16. This rate reflects a slight decrease from the previous day. This information is current as of April 1, 2026."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 36.6% | Mem: 71.7%"
+    },
+    {
+      "data": "01/04/2026 15:30",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 17.8% | Mem: 65.8%"
     },
     {
       "data": "01/04/2026 15:31",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 39.9% | Mem: 67.9%"
+      "resultado": "CPU: 55.1% | Mem: 71.2%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 1178
+  "total_tarefas": 1179
 }
