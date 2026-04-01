@@ -5,12 +5,6 @@
       "data": "01/04/2026 15:27",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 23.0% | Mem: 71.8%"
-    },
-    {
-      "data": "01/04/2026 15:27",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
       "resultado": "CPU: 19.3% | Mem: 67.8%"
     },
     {
@@ -101,27 +95,33 @@
       "data": "01/04/2026 15:33",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 30.5% | Mem: 65.9%"
+      "resultado": "CPU: 32.3% | Mem: 61.5%"
     },
     {
       "data": "01/04/2026 15:33",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 25.3% | Mem: 68.9%"
+      "resultado": "CPU: 30.3% | Mem: 71.3%"
     },
     {
       "data": "01/04/2026 15:34",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "At the moment, the dollar to Brazilian real exchange rate is 5.16. This rate reflects a slight decrease from the previous day. This information is current as of April 1, 2026."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 9.4% | Mem: 26.4%"
     },
     {
       "data": "01/04/2026 15:34",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "At the moment, the dollar to Brazilian real exchange rate is 5.16. This rate reflects a slight decrease from the previous day. This information is current as of April 1, 2026."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 20.1% | Mem: 68.3%"
+    },
+    {
+      "data": "01/04/2026 15:34",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.8% | Mem: 32.4%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 1187
+  "total_tarefas": 1188
 }
