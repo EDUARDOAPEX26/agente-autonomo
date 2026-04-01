@@ -118,8 +118,8 @@
     {
       "data": "01/04/2026 17:06",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = 5.16 BRL. This rate is based on the latest commercial data. For the most up-to-date information, check Wise or dolarhoje.com."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 34.0% | Mem: 71.5%"
     }
   ],
   "total_conversas": 0,
