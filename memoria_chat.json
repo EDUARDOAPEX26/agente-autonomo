@@ -5,12 +5,6 @@
       "data": "01/04/2026 19:39",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 13.6% | Mem: 34.3%"
-    },
-    {
-      "data": "01/04/2026 19:39",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
       "resultado": "CPU: 14.3% | Mem: 71.4%"
     },
     {
@@ -112,16 +106,22 @@
     {
       "data": "01/04/2026 19:46",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Hoje, 1 dólar equivale a 5,16 reais brasileiros. Esta taxa pode variar levemente dependendo da fonte. Para mais detalhes, consulte sites de análise técnica ou conversores de moedas em tempo real."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 14.0% | Mem: 28.4%"
     },
     {
       "data": "01/04/2026 19:46",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 38.9% | Mem: 69.6%"
+      "resultado": "CPU: 27.8% | Mem: 65.5%"
+    },
+    {
+      "data": "01/04/2026 19:47",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 31.0% | Mem: 60.7%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 1760
+  "total_tarefas": 1761
 }
