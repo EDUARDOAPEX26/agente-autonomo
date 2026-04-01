@@ -4,12 +4,6 @@
     {
       "data": "01/04/2026 22:52",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 33.4% | Mem: 64.6%"
-    },
-    {
-      "data": "01/04/2026 22:52",
-      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "The current exchange rate is 1 USD = 5.13 BRL. This rate is based on the commercial exchange rate as of today, April 1, 2026. For the most up-to-date information, check Wise or dolarhoje.com."
     },
@@ -119,9 +113,15 @@
       "data": "01/04/2026 22:59",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 15.1% | Mem: 32.1%"
+      "resultado": "CPU: 21.7% | Mem: 66.3%"
+    },
+    {
+      "data": "01/04/2026 22:59",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 9.4% | Mem: 28.4%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 2171
+  "total_tarefas": 2172
 }
