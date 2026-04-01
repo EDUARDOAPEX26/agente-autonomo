@@ -5,12 +5,6 @@
       "data": "01/04/2026 17:53",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 30.1% | Mem: 66.9%"
-    },
-    {
-      "data": "01/04/2026 17:53",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
       "resultado": "CPU: 31.0% | Mem: 65.3%"
     },
     {
@@ -94,34 +88,40 @@
     {
       "data": "01/04/2026 17:59",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 15.0% | Mem: 69.6%"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "The current exchange rate is 0.19 USD to 1 BRL. As of April 1, 2026, the dollar is in a recovery phase from a downward channel, aiming for R$5.65. Historical data shows fluctuations over the past five"
     },
     {
       "data": "01/04/2026 18:00",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 18.3% | Mem: 33.6%"
-    },
-    {
-      "data": "01/04/2026 18:00",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 25.6% | Mem: 34.9%"
+      "resultado": "CPU: 19.4% | Mem: 31.4%"
     },
     {
       "data": "01/04/2026 18:01",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 5.8% | Mem: 29.8%"
+      "resultado": "CPU: 44.7% | Mem: 69.7%"
     },
     {
       "data": "01/04/2026 18:01",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 18.4% | Mem: 33.4%"
+      "resultado": "CPU: 24.2% | Mem: 54.0%"
+    },
+    {
+      "data": "01/04/2026 18:01",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 35.2% | Mem: 70.8%"
+    },
+    {
+      "data": "01/04/2026 18:01",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.7% | Mem: 70.6%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 1551
+  "total_tarefas": 1552
 }
