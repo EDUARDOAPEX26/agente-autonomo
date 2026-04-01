@@ -118,8 +118,8 @@
     {
       "data": "01/04/2026 20:47",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "The current exchange rate is 1 USD = R$ 5.15, reflecting a slight decrease from the previous day. This rate is based on the latest data from reliable financial sources."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 3.5% | Mem: 32.6%"
     }
   ],
   "total_conversas": 0,
