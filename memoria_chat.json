@@ -88,6 +88,12 @@
     {
       "data": "02/04/2026 22:51",
       "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 26.9% | Mem: 65.2%"
+    },
+    {
+      "data": "02/04/2026 22:51",
+      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     },
@@ -95,31 +101,25 @@
       "data": "02/04/2026 22:52",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 40.8% | Mem: 66.3%"
+      "resultado": "CPU: 9.0% | Mem: 36.6%"
     },
     {
       "data": "02/04/2026 22:52",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 40.6% | Mem: 68.3%"
+      "resultado": "CPU: 33.3% | Mem: 68.0%"
     },
     {
       "data": "02/04/2026 22:52",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 32.0% | Mem: 72.2%"
+      "resultado": "CPU: 11.3% | Mem: 67.5%"
     },
     {
       "data": "02/04/2026 22:52",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 26.0% | Mem: 69.9%"
-    },
-    {
-      "data": "02/04/2026 22:52",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+      "resultado": "CPU: 13.1% | Mem: 68.9%"
     }
   ],
   "total_conversas": 0,
