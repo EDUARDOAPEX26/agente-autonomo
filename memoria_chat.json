@@ -5,12 +5,6 @@
       "data": "02/04/2026 09:46",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 14.7% | Mem: 35.8%"
-    },
-    {
-      "data": "02/04/2026 09:46",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
       "resultado": "CPU: 35.0% | Mem: 71.2%"
     },
     {
@@ -95,33 +89,39 @@
       "data": "02/04/2026 09:51",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 13.4% | Mem: 33.6%"
+      "resultado": "CPU: 25.3% | Mem: 37.5%"
+    },
+    {
+      "data": "02/04/2026 09:51",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 9.0% | Mem: 54.3%"
     },
     {
       "data": "02/04/2026 09:52",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 24.9% | Mem: 27.9%"
+      "resultado": "CPU: 5.8% | Mem: 35.3%"
     },
     {
       "data": "02/04/2026 09:52",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 12.0% | Mem: 67.0%"
+      "resultado": "CPU: 20.3% | Mem: 68.1%"
     },
     {
       "data": "02/04/2026 09:53",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 41.6% | Mem: 68.6%"
+      "resultado": "CPU: 19.7% | Mem: 71.2%"
     },
     {
       "data": "02/04/2026 09:53",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 49.7% | Mem: 67.6%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 20
+  "total_tarefas": 21
 }
