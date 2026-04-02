@@ -110,16 +110,16 @@
       "resultado": "CPU: 6.0% | Mem: 32.5%"
     },
     {
-      "data": "02/04/2026 15:29",
+      "data": "02/04/2026 15:30",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 33.9% | Mem: 72.2%"
+      "tarefa": "buscar cotacao dolar",
+      "resultado": "Limite de buscas atingido e EXA indisponível."
     },
     {
       "data": "02/04/2026 15:30",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 32.9% | Mem: 66.8%"
+      "resultado": "CPU: 16.1% | Mem: 67.3%"
     }
   ],
   "total_conversas": 0,
