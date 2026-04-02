@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "02/04/2026 04:36",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "OpenAI capta US$ 122 bilhões em rodada de financiamento"
-    },
-    {
       "data": "02/04/2026 04:37",
       "origem": "nuvem",
       "tarefa": "verificar sistema",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 18.8% | Mem: 66.5%"
+    },
+    {
+      "data": "02/04/2026 04:58",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 10.0% | Mem: 54.6%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 162
+  "total_tarefas": 163
 }
