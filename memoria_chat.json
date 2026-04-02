@@ -4,6 +4,12 @@
     {
       "data": "02/04/2026 23:17",
       "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 26.1% | Mem: 38.0%"
+    },
+    {
+      "data": "02/04/2026 23:17",
+      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     },
@@ -114,14 +120,8 @@
       "origem": "nuvem",
       "tarefa": "buscar noticias tech",
       "resultado": "OpenAI, criadora do ChatGPT, capta US$ 122 bilhões em financiamento | G1"
-    },
-    {
-      "data": "02/04/2026 23:30",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 413
+  "total_tarefas": 412
 }
