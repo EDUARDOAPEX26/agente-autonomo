@@ -113,13 +113,13 @@
       "data": "02/04/2026 15:29",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 6.0% | Mem: 32.5%"
+      "resultado": "CPU: 23.8% | Mem: 66.5%"
     },
     {
       "data": "02/04/2026 15:30",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Limite de buscas atingido e EXA indisponível."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 16.8% | Mem: 32.0%"
     }
   ],
   "total_conversas": 0,
