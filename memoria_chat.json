@@ -5,18 +5,6 @@
       "data": "02/04/2026 07:41",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 37.1% | Mem: 68.3%"
-    },
-    {
-      "data": "02/04/2026 07:41",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 32.0% | Mem: 72.1%"
-    },
-    {
-      "data": "02/04/2026 07:41",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
       "resultado": "CPU: 22.0% | Mem: 65.3%"
     },
     {
@@ -94,34 +82,46 @@
     {
       "data": "02/04/2026 07:46",
       "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 24.9% | Mem: 65.2%"
+    },
+    {
+      "data": "02/04/2026 07:46",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 25.5% | Mem: 70.5%"
+    },
+    {
+      "data": "02/04/2026 07:46",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 13.2% | Mem: 68.1%"
+    },
+    {
+      "data": "02/04/2026 07:46",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 32.3% | Mem: 56.1%"
+    },
+    {
+      "data": "02/04/2026 07:47",
+      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
-    },
-    {
-      "data": "02/04/2026 07:46",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 19.1% | Mem: 64.6%"
-    },
-    {
-      "data": "02/04/2026 07:46",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 29.7% | Mem: 64.9%"
     },
     {
       "data": "02/04/2026 07:47",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 26.2% | Mem: 66.9%"
+      "resultado": "CPU: 29.2% | Mem: 71.2%"
     },
     {
       "data": "02/04/2026 07:48",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 20.5% | Mem: 71.7%"
+      "resultado": "CPU: 45.1% | Mem: 62.2%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 666
+  "total_tarefas": 668
 }
