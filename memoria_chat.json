@@ -5,12 +5,6 @@
       "data": "02/04/2026 21:39",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 24.1% | Mem: 70.4%"
-    },
-    {
-      "data": "02/04/2026 21:39",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
       "resultado": "CPU: 20.4% | Mem: 36.5%"
     },
     {
@@ -77,51 +71,57 @@
       "data": "02/04/2026 21:45",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 24.8% | Mem: 64.0%"
+      "resultado": "CPU: 23.2% | Mem: 36.6%"
+    },
+    {
+      "data": "02/04/2026 21:45",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 38.4% | Mem: 37.4%"
     },
     {
       "data": "02/04/2026 21:46",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 39.5% | Mem: 65.5%"
+      "resultado": "CPU: 24.3% | Mem: 71.6%"
     },
     {
       "data": "02/04/2026 21:46",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 31.2% | Mem: 68.0%"
+      "resultado": "CPU: 36.4% | Mem: 72.1%"
     },
     {
       "data": "02/04/2026 21:47",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 27.9% | Mem: 71.9%"
     },
     {
       "data": "02/04/2026 21:47",
       "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 68.6% | Mem: 26.5%"
     },
     {
       "data": "02/04/2026 21:48",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 33.4% | Mem: 72.1%"
-    },
-    {
-      "data": "02/04/2026 21:48",
-      "origem": "nuvem",
-      "tarefa": "buscar cotacao dolar",
-      "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
+      "resultado": "CPU: 23.5% | Mem: 66.7%"
     },
     {
       "data": "02/04/2026 21:49",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 8.3% | Mem: 38.6%"
+      "resultado": "CPU: 32.6% | Mem: 70.0%"
+    },
+    {
+      "data": "02/04/2026 21:49",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 22.0% | Mem: 68.8%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 178
+  "total_tarefas": 179
 }
