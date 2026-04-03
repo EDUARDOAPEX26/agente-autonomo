@@ -4,6 +4,18 @@
     {
       "data": "03/04/2026 01:47",
       "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 18.7% | Mem: 39.2%"
+    },
+    {
+      "data": "03/04/2026 01:47",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 28.9% | Mem: 71.6%"
+    },
+    {
+      "data": "03/04/2026 01:47",
+      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     },
@@ -95,33 +107,21 @@
       "data": "03/04/2026 01:54",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 31.4% | Mem: 40.5%"
-    },
-    {
-      "data": "03/04/2026 01:54",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 37.1% | Mem: 69.6%"
+      "resultado": "CPU: 21.5% | Mem: 68.8%"
     },
     {
       "data": "03/04/2026 01:55",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 18.7% | Mem: 68.4%"
-    },
-    {
-      "data": "03/04/2026 01:55",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 33.1% | Mem: 66.1%"
+      "tarefa": "buscar noticias tech",
+      "resultado": "OpenAI, criadora do ChatGPT, capta US$ 122 bilhões em financiamento | G1"
     },
     {
       "data": "03/04/2026 01:56",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 25.4% | Mem: 67.2%"
+      "tarefa": "verificar sistema",
+      "resultado": "Nenhuma API disponível no momento."
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 650
+  "total_tarefas": 648
 }
