@@ -2,6 +2,30 @@
   "resumo": "",
   "aprendizados": [
     {
+      "data": "03/04/2026 15:15",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 25.9% | Mem: 69.2%"
+    },
+    {
+      "data": "03/04/2026 15:15",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 38.3% | Mem: 68.1%"
+    },
+    {
+      "data": "03/04/2026 15:15",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 14.9% | Mem: 63.5%"
+    },
+    {
+      "data": "03/04/2026 15:16",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 23.5% | Mem: 70.4%"
+    },
+    {
       "data": "03/04/2026 15:16",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -80,48 +104,24 @@
       "resultado": "CPU: 12.7% | Mem: 32.7%"
     },
     {
-      "data": "03/04/2026 15:27",
+      "data": "03/04/2026 15:32",
       "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "03/04/2026 15:28",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "03/04/2026 15:29",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 15:29:21"
-    },
-    {
-      "data": "03/04/2026 15:30",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
-      "data": "03/04/2026 15:31",
-      "origem": "nuvem",
-      "tarefa": "analisar memoria",
-      "resultado": "Nenhuma API disponível no momento."
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 56.2% | Mem: 71.1%"
     },
     {
       "data": "03/04/2026 15:32",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 35.7% | Mem: 69.8%"
+      "resultado": "CPU: 10.0% | Mem: 63.8%"
     },
     {
       "data": "03/04/2026 15:32",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 32.6% | Mem: 72.1%"
+      "resultado": "CPU: 20.3% | Mem: 68.4%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 111
+  "total_tarefas": 107
 }
