@@ -5,6 +5,12 @@
       "data": "04/04/2026 05:44",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
+      "resultado": "CPU: 36.9% | Mem: 64.5%"
+    },
+    {
+      "data": "04/04/2026 05:44",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
       "resultado": "CPU: 19.3% | Mem: 71.7%"
     },
     {
@@ -101,27 +107,21 @@
       "data": "04/04/2026 05:50",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 23.6% | Mem: 65.6%"
+      "resultado": "CPU: 30.6% | Mem: 72.5%"
     },
     {
       "data": "04/04/2026 05:50",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 30.5% | Mem: 65.4%"
+      "resultado": "CPU: 19.4% | Mem: 66.3%"
     },
     {
       "data": "04/04/2026 05:51",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 21.7% | Mem: 64.7%"
-    },
-    {
-      "data": "04/04/2026 05:51",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 8.5% | Mem: 67.9%"
+      "resultado": "CPU: 31.0% | Mem: 71.0%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 2384
+  "total_tarefas": 2383
 }
