@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "04/04/2026 07:29",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 26.5% | Mem: 71.5%"
-    },
-    {
       "data": "04/04/2026 07:30",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +114,14 @@
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
       "resultado": "CPU: 11.2% | Mem: 65.3%"
+    },
+    {
+      "data": "04/04/2026 07:35",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 19.0% | Mem: 39.0%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 2695
+  "total_tarefas": 2696
 }
