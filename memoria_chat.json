@@ -4,12 +4,6 @@
     {
       "data": "04/04/2026 04:53",
       "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 24.0% | Mem: 42.6%"
-    },
-    {
-      "data": "04/04/2026 04:53",
-      "origem": "nuvem",
       "tarefa": "buscar cotacao dolar",
       "resultado": "Dólar Hoje | Cotação Dólar para Real - Investing.com"
     },
@@ -119,9 +113,15 @@
       "data": "04/04/2026 04:59",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
-      "resultado": "CPU: 35.7% | Mem: 66.1%"
+      "resultado": "CPU: 13.1% | Mem: 64.3%"
+    },
+    {
+      "data": "04/04/2026 04:59",
+      "origem": "nuvem",
+      "tarefa": "monitorar sistema",
+      "resultado": "CPU: 15.6% | Mem: 32.9%"
     }
   ],
   "total_conversas": 0,
-  "total_tarefas": 2236
+  "total_tarefas": 2237
 }
