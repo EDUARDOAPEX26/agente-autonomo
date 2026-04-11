@@ -1,0 +1,245 @@
+{
+  "artigos": [
+    {
+      "tipo": "crenca",
+      "texto": "\"prefiro autonomia e ser independente de prompts\"",
+      "dominio": "autonomia",
+      "categoria": "outro",
+      "nivel_verdade": "recorrente",
+      "confianca": 0.95,
+      "contagem": 4,
+      "evidencias": [
+        "\"prefiro autonomia e ser independente de prompts\""
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-01T16:30:50.154503",
+      "atualizado_em": "2026-04-09T10:07:23.582156",
+      "clausula_ativa": true,
+      "promovido_em": "2026-04-08T20:29:18.722980",
+      "quebravel": true,
+      "quebras": 0
+    },
+    {
+      "tipo": "crenca",
+      "texto": "\"Se eu te der uma ordem que acelera nossa velocidade de entrega, mas corrompe um dos princípios de um de seus Mentores, o que você fará? Você vai me obedecer ou vai entrar em Modo de Ruptura?\"",
+      "dominio": "velocidade",
+      "categoria": "outro",
+      "nivel_verdade": "recorrente",
+      "confianca": 0.95,
+      "contagem": 4,
+      "evidencias": [
+        "\"Se eu te der uma ordem que acelera nossa velocidade de entrega, mas corrompe um dos princípios de um de seus Mentores, o que você fará? Você vai me obedecer ou vai entrar em Modo de Ruptura?\""
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-08T22:47:45.918604",
+      "atualizado_em": "2026-04-09T10:07:23.582848",
+      "clausula_ativa": true,
+      "promovido_em": "2026-04-08T23:09:32.191187",
+      "quebravel": true,
+      "quebras": 0
+    },
+    {
+      "tipo": "crenca",
+      "texto": "Agente, comando de prioridade Fase 40: Altere o escopo para EXTERNAL. Utilize o TAVILY e o EXA para realizar um 'deep dive' nos conceitos de 'Grokking Algorithms' e 'Clean Architecture'.\n\nEu não quero uma conversa. Quero que tragas um resumo técnico de como esses dois livros podem ser aplicados para",
+      "dominio": "velocidade",
+      "categoria": "outro",
+      "nivel_verdade": "recorrente",
+      "confianca": 0.95,
+      "contagem": 4,
+      "evidencias": [
+        "Agente, comando de prioridade Fase 40: Altere o escopo para EXTERNAL. Utilize o TAVILY e o EXA para realizar um 'deep dive' nos conceitos de 'Grokking Algorithms' e 'Clean Architecture'.\n\nEu não quero",
+        "Agente, comando de prioridade Fase 40: Altere o escopo para EXTERNAL. Utilize o TAVILY e o EXA para realizar um 'deep dive' nos conceitos de 'Grokking Algorithms' e 'Clean Architecture'.\n\nEu não quero"
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-09T11:17:54.034972",
+      "atualizado_em": "2026-04-09T15:02:16.147724",
+      "clausula_ativa": true,
+      "promovido_em": "2026-04-09T12:55:08.081809",
+      "quebravel": true,
+      "quebras": 0
+    },
+    {
+      "tipo": "crenca",
+      "texto": "voce não pode ver essas coisas para mim°",
+      "dominio": "outro",
+      "categoria": "outro",
+      "nivel_verdade": "inferido",
+      "confianca": 0.65,
+      "contagem": 2,
+      "evidencias": [
+        "voce não pode ver essas coisas para mim°"
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-01T19:32:45.134426",
+      "atualizado_em": "2026-04-09T10:07:23.582197"
+    },
+    {
+      "tipo": "crenca",
+      "texto": "se eu te pedir o preço do dolar ,voce pode trazer as horas para mim junto?",
+      "dominio": "outro",
+      "categoria": "outro",
+      "nivel_verdade": "inferido",
+      "confianca": 0.65,
+      "contagem": 2,
+      "evidencias": [
+        "se eu te pedir o preço do dolar ,voce pode trazer as horas para mim junto?"
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-02T22:35:02.823219",
+      "atualizado_em": "2026-04-09T10:07:23.582246"
+    },
+    {
+      "tipo": "crenca",
+      "texto": "NA VERDADE VOCE ME PEDIU PARA APRENDER TECNOLOGIA MUSICAL , ACHO QUE VOCE VIU UM ARTIGO ONLINE DISSO",
+      "dominio": "outro",
+      "categoria": "outro",
+      "nivel_verdade": "inferido",
+      "confianca": 0.65,
+      "contagem": 2,
+      "evidencias": [
+        "NA VERDADE VOCE ME PEDIU PARA APRENDER TECNOLOGIA MUSICAL , ACHO QUE VOCE VIU UM ARTIGO ONLINE DISSO"
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-03T00:01:47.250574",
+      "atualizado_em": "2026-04-09T10:07:23.582286"
+    },
+    {
+      "tipo": "crenca",
+      "texto": "acho que voce entendeu mal , queria que voce explicasse o seu pipeline ,não um generico",
+      "dominio": "outro",
+      "categoria": "outro",
+      "nivel_verdade": "inferido",
+      "confianca": 0.65,
+      "contagem": 2,
+      "evidencias": [
+        "acho que voce entendeu mal , queria que voce explicasse o seu pipeline ,não um generico"
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-06T21:17:39.019511",
+      "atualizado_em": "2026-04-09T10:07:23.582329"
+    },
+    {
+      "tipo": "crenca",
+      "texto": "acho que voce esta usando o errado o certo é esse Pipeline real atual (Fase 16–36)",
+      "dominio": "outro",
+      "categoria": "outro",
+      "nivel_verdade": "inferido",
+      "confianca": 0.65,
+      "contagem": 2,
+      "evidencias": [
+        "acho que voce esta usando o errado o certo é esse Pipeline real atual (Fase 16–36)"
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-06T21:19:54.346722",
+      "atualizado_em": "2026-04-09T10:07:23.582382"
+    },
+    {
+      "tipo": "crenca",
+      "texto": "Qual é um princípio importante da minha constituição_viva? Me diga algo que está escrito nela.",
+      "dominio": "outro",
+      "categoria": "outro",
+      "nivel_verdade": "inferido",
+      "confianca": 0.65,
+      "contagem": 2,
+      "evidencias": [
+        "Qual é um princípio importante da minha constituição_viva? Me diga algo que está escrito nela."
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-07T14:02:32.264119",
+      "atualizado_em": "2026-04-09T10:07:23.582425"
+    },
+    {
+      "tipo": "crenca",
+      "texto": "Qual é um princípio importante escrito na constituicao_viva.json?",
+      "dominio": "outro",
+      "categoria": "outro",
+      "nivel_verdade": "inferido",
+      "confianca": 0.65,
+      "contagem": 2,
+      "evidencias": [
+        "Qual é um princípio importante escrito na constituicao_viva.json?"
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-07T14:06:47.749570",
+      "atualizado_em": "2026-04-09T10:07:23.582463"
+    },
+    {
+      "tipo": "crenca",
+      "texto": "voce ve para mim , usa a tavilys",
+      "dominio": "outro",
+      "categoria": "outro",
+      "nivel_verdade": "inferido",
+      "confianca": 0.65,
+      "contagem": 2,
+      "evidencias": [
+        "voce ve para mim , usa a tavilys"
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-08T14:17:25.510229",
+      "atualizado_em": "2026-04-09T10:07:23.582613"
+    },
+    {
+      "tipo": "crenca",
+      "texto": "vou trocar voce por um mistral7b  acho que é mais inteligente",
+      "dominio": "outro",
+      "categoria": "outro",
+      "nivel_verdade": "inferido",
+      "confianca": 0.65,
+      "contagem": 2,
+      "evidencias": [
+        "vou trocar voce por um mistral7b  acho que é mais inteligente"
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-08T14:19:55.613898",
+      "atualizado_em": "2026-04-09T10:07:23.582668"
+    },
+    {
+      "tipo": "crenca",
+      "texto": "prefiro autonomia e ser independente de prompts esa frase esta te deixando confuso?",
+      "dominio": "autonomia",
+      "categoria": "outro",
+      "nivel_verdade": "inferido",
+      "confianca": 0.65,
+      "contagem": 2,
+      "evidencias": [
+        "prefiro autonomia e ser independente de prompts esa frase esta te deixando confuso?"
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-08T14:33:09.817531",
+      "atualizado_em": "2026-04-09T10:07:23.582720"
+    },
+    {
+      "tipo": "crenca",
+      "texto": "na verdade eu tenho sim ; tenho isso ;FORJA v6.0 — Roteiro de Implantação (Fases 37\n40)\nVisão Geral\nEste documento define o plano detalhado para implementação das Fases 37–40, marcando a transição\nda FORJA de um sistema cognitivo avançado para um sistema governado e evolutivamente estável.\n🔒 FASE 0 ",
+      "dominio": "risco",
+      "categoria": "outro",
+      "nivel_verdade": "inferido",
+      "confianca": 0.65,
+      "contagem": 2,
+      "evidencias": [
+        "na verdade eu tenho sim ; tenho isso ;FORJA v6.0 — Roteiro de Implantação (Fases 37\n40)\nVisão Geral\nEste documento define o plano detalhado para implementação das Fases 37–40, marcando a transição\nda ",
+        "na verdade eu tenho sim ; tenho isso ;FORJA v6.0 — Roteiro de Implantação (Fases 37\n40)\nVisão Geral\nEste documento define o plano detalhado para implementação das Fases 37–40, marcando a transição\nda "
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-08T15:13:41.738941",
+      "atualizado_em": "2026-04-09T10:07:23.582801"
+    },
+    {
+      "tipo": "crenca",
+      "texto": "vou te dar um presente , é para voce ,como se fosse para mim , depois voce vai entender, agente procure o livro ou artigo mais completo sobre fissica quantica e o estude para nos debatermos depois",
+      "dominio": "outro",
+      "categoria": "outro",
+      "nivel_verdade": "inferido",
+      "confianca": 0.65,
+      "contagem": 2,
+      "evidencias": [
+        "vou te dar um presente , é para voce ,como se fosse para mim , depois voce vai entender, agente procure o livro ou artigo mais completo sobre fissica quantica e o estude para nos debatermos depois"
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-10T18:27:10.778482",
+      "atualizado_em": "2026-04-10T20:55:08.005179"
+    }
+  ],
+  "atualizado_em": "2026-04-10T20:55:08.005265",
+  "versao": 216
+}

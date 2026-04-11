@@ -1,0 +1,9 @@
+{
+  "top_n": 5,
+  "rewrite_cache_ttl": 600,
+  "rewrite_habilitado": true,
+  "similaridade_minima": 0.75,
+  "bonus_confianca": 0.1,
+  "railway_busca_habilitado": true,
+  "railway_busca_timeout": 4
+}

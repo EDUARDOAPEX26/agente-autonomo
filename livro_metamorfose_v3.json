@@ -1,0 +1,196 @@
+[
+  {
+    "timestamp": "2026-04-06T08:29:32.624801",
+    "fase": 36,
+    "score_modulos": 1.0,
+    "score_evolucao": 0.24,
+    "modulos": {
+      "ativos": 16,
+      "total": 16,
+      "status": {
+        "cognitive_genealogy": true,
+        "self_amendment": true,
+        "parliament_memory": true,
+        "metamorphosis_tracker": true,
+        "belief_tracker": true,
+        "principle_registry": true,
+        "constitution_builder": true,
+        "friction_chamber": true,
+        "ppd_tracker": true,
+        "gravity_detector": true,
+        "internal_parliament": true,
+        "organ_factory": true,
+        "tissue_memory": true,
+        "transmutation_engine": true,
+        "experiment_forge": true,
+        "metabolism_controller": true
+      }
+    },
+    "genealogia": {
+      "nos": 0,
+      "relacoes": 0
+    },
+    "amendments": {
+      "total": 0,
+      "ultimas": []
+    },
+    "metamorphosis": {
+      "total": 8,
+      "estaveis": 1,
+      "frageis": 0
+    },
+    "parlamento": {
+      "total_votos": 0,
+      "ultimo": {}
+    }
+  },
+  {
+    "timestamp": "2026-04-06T08:29:32.706563",
+    "fase": 36,
+    "score_modulos": 1.0,
+    "score_evolucao": 0.24,
+    "modulos": {
+      "ativos": 16,
+      "total": 16,
+      "status": {
+        "cognitive_genealogy": true,
+        "self_amendment": true,
+        "parliament_memory": true,
+        "metamorphosis_tracker": true,
+        "belief_tracker": true,
+        "principle_registry": true,
+        "constitution_builder": true,
+        "friction_chamber": true,
+        "ppd_tracker": true,
+        "gravity_detector": true,
+        "internal_parliament": true,
+        "organ_factory": true,
+        "tissue_memory": true,
+        "transmutation_engine": true,
+        "experiment_forge": true,
+        "metabolism_controller": true
+      }
+    },
+    "genealogia": {
+      "nos": 0,
+      "relacoes": 0
+    },
+    "amendments": {
+      "total": 0,
+      "ultimas": []
+    },
+    "metamorphosis": {
+      "total": 8,
+      "estaveis": 1,
+      "frageis": 0
+    },
+    "parlamento": {
+      "total_votos": 0,
+      "ultimo": {}
+    }
+  },
+  {
+    "timestamp": "2026-04-06T19:17:52.467348",
+    "fase": 36,
+    "score_modulos": 1.0,
+    "score_evolucao": 0.9,
+    "modulos": {
+      "ativos": 16,
+      "total": 16,
+      "status": {
+        "cognitive_genealogy": true,
+        "self_amendment": true,
+        "parliament_memory": true,
+        "metamorphosis_tracker": true,
+        "belief_tracker": true,
+        "principle_registry": true,
+        "constitution_builder": true,
+        "friction_chamber": true,
+        "ppd_tracker": true,
+        "gravity_detector": true,
+        "internal_parliament": true,
+        "organ_factory": true,
+        "tissue_memory": true,
+        "transmutation_engine": true,
+        "experiment_forge": true,
+        "metabolism_controller": true
+      }
+    },
+    "genealogia": {
+      "nos": 5,
+      "relacoes": 3,
+      "orfaos": 0
+    },
+    "amendments": {
+      "pendentes": 0,
+      "aplicadas": 0,
+      "rejeitadas": 0
+    },
+    "metamorphosis": {
+      "total": 8,
+      "estaveis": 1,
+      "frageis": 0
+    },
+    "parlamento": {
+      "total_votos": 28,
+      "ultimo": {
+        "query": "query_atual",
+        "timestamp": "2026-04-06T09:11:39.378238",
+        "vencedor": "Guardião",
+        "regime": "cautela"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-06T19:17:52.828817",
+    "fase": 36,
+    "score_modulos": 1.0,
+    "score_evolucao": 0.9,
+    "modulos": {
+      "ativos": 16,
+      "total": 16,
+      "status": {
+        "cognitive_genealogy": true,
+        "self_amendment": true,
+        "parliament_memory": true,
+        "metamorphosis_tracker": true,
+        "belief_tracker": true,
+        "principle_registry": true,
+        "constitution_builder": true,
+        "friction_chamber": true,
+        "ppd_tracker": true,
+        "gravity_detector": true,
+        "internal_parliament": true,
+        "organ_factory": true,
+        "tissue_memory": true,
+        "transmutation_engine": true,
+        "experiment_forge": true,
+        "metabolism_controller": true
+      }
+    },
+    "genealogia": {
+      "nos": 5,
+      "relacoes": 3,
+      "orfaos": 0
+    },
+    "amendments": {
+      "pendentes": 0,
+      "aplicadas": 0,
+      "rejeitadas": 0
+    },
+    "metamorphosis": {
+      "total": 8,
+      "estaveis": 1,
+      "frageis": 0
+    },
+    "parlamento": {
+      "total_votos": 28,
+      "ultimo": {
+        "query": "query_atual",
+        "timestamp": "2026-04-06T09:11:39.378238",
+        "vencedor": "Guardião",
+        "regime": "cautela"
+      }
+    }
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "Guardião": {
+    "peso": 0.0641,
+    "vitorias": 0,
+    "ultima_vitoria": null
+  },
+  "Visionário": {
+    "peso": 0.3056,
+    "vitorias": 7,
+    "ultima_vitoria": "2026-04-10T15:57:43.319025"
+  },
+  "Herético": {
+    "peso": 0.1182,
+    "vitorias": 0,
+    "ultima_vitoria": null
+  },
+  "Predador": {
+    "peso": 0.0946,
+    "vitorias": 0,
+    "ultima_vitoria": null
+  },
+  "Coruja": {
+    "peso": 0.1575,
+    "vitorias": 0,
+    "ultima_vitoria": null
+  },
+  "impulso": {
+    "peso": 0.063,
+    "vitorias": 0,
+    "ultima_vitoria": null
+  },
+  "continuidade": {
+    "peso": 0.1969,
+    "vitorias": 3,
+    "ultima_vitoria": "2026-04-07T01:17:38.559877"
+  }
+}

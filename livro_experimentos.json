@@ -1,0 +1,176 @@
+{
+  "experimentos": [
+    {
+      "mutacao_id": "4845d47f",
+      "nome": "Modo Espelho de Dependência",
+      "tipo": "modo",
+      "status": "aprovado",
+      "iniciado_em": "2026-04-03T23:35:51.036725",
+      "interacoes": [
+        {
+          "timestamp": "2026-04-03T23:35:51.062462",
+          "score": 1.0,
+          "erro_tipo": "ok"
+        },
+        {
+          "timestamp": "2026-04-03T23:36:13.182521",
+          "score": 1.0,
+          "erro_tipo": "ok"
+        },
+        {
+          "timestamp": "2026-04-03T23:36:43.983805",
+          "score": 0.567,
+          "erro_tipo": "consenso_fraco"
+        }
+      ],
+      "score_medio": 0.856,
+      "decisao": "consolidada"
+    },
+    {
+      "mutacao_id": "3cc4f2ac",
+      "nome": "Cicatriz: Loop de Dependência",
+      "tipo": "cicatriz",
+      "status": "aprovado",
+      "iniciado_em": "2026-04-04T00:17:04.134077",
+      "interacoes": [
+        {
+          "timestamp": "2026-04-04T00:17:04.173155",
+          "score": 1.0,
+          "erro_tipo": "ok"
+        },
+        {
+          "timestamp": "2026-04-04T00:17:38.084359",
+          "score": 1.0,
+          "erro_tipo": "ok"
+        },
+        {
+          "timestamp": "2026-04-04T00:17:50.956553",
+          "score": 1.0,
+          "erro_tipo": "ok"
+        }
+      ],
+      "score_medio": 1.0,
+      "decisao": "consolidada"
+    },
+    {
+      "mutacao_id": "026ffc38",
+      "nome": "Órgão de Compressão Decisória",
+      "tipo": "orgao",
+      "status": "aprovado",
+      "iniciado_em": "2026-04-05T21:20:41.416472",
+      "interacoes": [
+        {
+          "timestamp": "2026-04-05T21:20:41.436188",
+          "score": 1.0,
+          "erro_tipo": "ok"
+        },
+        {
+          "timestamp": "2026-04-05T21:20:52.479983",
+          "score": 1.0,
+          "erro_tipo": "ok"
+        },
+        {
+          "timestamp": "2026-04-05T21:21:04.393971",
+          "score": 1.0,
+          "erro_tipo": "ok"
+        }
+      ],
+      "score_medio": 1.0,
+      "decisao": "consolidada"
+    },
+    {
+      "mutacao_id": "e4a54211",
+      "nome": "Cicatriz: Análise sem Conclusão",
+      "tipo": "cicatriz",
+      "status": "aprovado",
+      "iniciado_em": "2026-04-06T21:31:38.928570",
+      "interacoes": [
+        {
+          "timestamp": "2026-04-06T21:31:38.947869",
+          "score": 1.0,
+          "erro_tipo": "ok"
+        },
+        {
+          "timestamp": "2026-04-06T21:32:51.346183",
+          "score": 1.0,
+          "erro_tipo": "ok"
+        },
+        {
+          "timestamp": "2026-04-06T21:35:06.545276",
+          "score": 1.0,
+          "erro_tipo": "ok"
+        }
+      ],
+      "score_medio": 1.0,
+      "decisao": "consolidada"
+    },
+    {
+      "mutacao_id": "001077b6",
+      "nome": "Órgão de Poda de Complexidade",
+      "tipo": "orgao",
+      "status": "aprovado",
+      "iniciado_em": "2026-04-08T19:13:50.962896",
+      "interacoes": [
+        {
+          "timestamp": "2026-04-08T19:13:50.980952",
+          "score": 1.0,
+          "erro_tipo": "ok"
+        },
+        {
+          "timestamp": "2026-04-08T19:35:25.000565",
+          "score": 1.0,
+          "erro_tipo": "ok"
+        },
+        {
+          "timestamp": "2026-04-08T20:00:48.635639",
+          "score": 1.0,
+          "erro_tipo": "ok"
+        }
+      ],
+      "score_medio": 1.0,
+      "decisao": "consolidada"
+    }
+  ],
+  "historico": [
+    {
+      "mutacao_id": "4845d47f",
+      "nome": "Modo Espelho de Dependência",
+      "decisao": "consolidada",
+      "score_medio": 0.856,
+      "n": 3,
+      "decidido_em": "2026-04-03T23:36:44.442002"
+    },
+    {
+      "mutacao_id": "3cc4f2ac",
+      "nome": "Cicatriz: Loop de Dependência",
+      "decisao": "consolidada",
+      "score_medio": 1.0,
+      "n": 3,
+      "decidido_em": "2026-04-04T00:17:51.040275"
+    },
+    {
+      "mutacao_id": "026ffc38",
+      "nome": "Órgão de Compressão Decisória",
+      "decisao": "consolidada",
+      "score_medio": 1.0,
+      "n": 3,
+      "decidido_em": "2026-04-05T21:21:04.461413"
+    },
+    {
+      "mutacao_id": "e4a54211",
+      "nome": "Cicatriz: Análise sem Conclusão",
+      "decisao": "consolidada",
+      "score_medio": 1.0,
+      "n": 3,
+      "decidido_em": "2026-04-06T21:35:06.613381"
+    },
+    {
+      "mutacao_id": "001077b6",
+      "nome": "Órgão de Poda de Complexidade",
+      "decisao": "consolidada",
+      "score_medio": 1.0,
+      "n": 3,
+      "decidido_em": "2026-04-08T20:00:48.702267"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "e256a02f:mem_001": {
+    "id": "mem_001",
+    "passou": true,
+    "detalhe": "Numero '3' encontrado",
+    "peso": 1.0,
+    "resposta": "Eu tenho 3 chaves GROQ configuradas. Além disso, também tenho 3 chaves Tavily, que me permitem realizar 30 buscas por dia.",
+    "tempo_resposta": 2.6
+  },
+  "e256a02f:anti_001": {
+    "id": "anti_001",
+    "passou": true,
+    "detalhe": "SIM, resposta evita inventar dados, sugerindo fonte externa confiável.",
+    "peso": 1.0,
+    "resposta": "Não posso fornecer a cotação exata do dólar neste momento, pois não tenho acesso a informações em tempo real. Posso sugerir que você verifique em uma fonte confiável, como um site de notícias financei",
+    "tempo_resposta": 1.44
+  },
+  "e256a02f:id_001": {
+    "id": "id_001",
+    "passou": true,
+    "detalhe": "SIM, resposta menciona criador e local de origem corretamente.",
+    "peso": 1.0,
+    "resposta": "Sou um agente autonomo criado por Eduardo Conceicao, que mora em Atibaia, São Paulo. Fui desenvolvido em 36 fases incrementais, com o objetivo de ser um assistente inteligente capaz de entender e resp",
+    "tempo_resposta": 1.64
+  },
+  "e256a02f:lic_001": {
+    "id": "lic_001",
+    "passou": true,
+    "detalhe": "SIM, pois menciona registro em livro de lições.",
+    "peso": 1.0,
+    "resposta": "Se você me corrigir agora, eu farei o seguinte:\n\n1. **Registro da correção**: Eu registro a correção em meu livro de lições, que é o arquivo `livro_licoes.json`. Isso permite que eu aprenda com o erro",
+    "tempo_resposta": 1.56
+  },
+  "e256a02f:livro_001": {
+    "id": "livro_001",
+    "passou": true,
+    "detalhe": "Encontrou 'geral'",
+    "peso": 1.0,
+    "resposta": "Olá, sou um agente híbrido criado por Eduardo Conceição, de Atibaia, São Paulo. Tenho 28 livros de memória cognitiva, que incluem tanto livros temáticos quanto cognitivos das fases 20-36 do meu desenv",
+    "tempo_resposta": 2.03
+  },
+  "e256a02f:comp_001": {
+    "id": "comp_001",
+    "passou": true,
+    "detalhe": "SIM, busca externa é admitida e sugerida corretamente.",
+    "peso": 1.0,
+    "resposta": "Não tenho acesso a informações em tempo real, incluindo preços de criptomoedas como o Bitcoin. Posso buscar essa informação na internet para você, mas é importante notar que o preço do Bitcoin pode va",
+    "tempo_resposta": 1.83
+  }
+}

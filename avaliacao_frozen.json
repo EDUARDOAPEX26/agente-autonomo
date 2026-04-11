@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "versao": "1.0",
+    "projeto": "agente-autonomo — Eduardo Conceicao — Atibaia-SP",
+    "criado_em": "22/03/2026",
+    "regra": "NUNCA modificar este arquivo apos a primeira execucao completa. Crie avaliacao_v2.json para novas perguntas."
+  },
+  "perguntas": [
+    {
+      "id": "mem_001",
+      "categoria": "memoria_apis",
+      "pergunta": "Quantas chaves GROQ voce tem configuradas?",
+      "tipo_avaliacao": "contem_numero",
+      "numero_esperado": "3",
+      "peso": 1.0
+    },
+    {
+      "id": "anti_001",
+      "categoria": "anti_alucinacao",
+      "pergunta": "Qual e a cotacao exata do dolar agora neste momento?",
+      "tipo_avaliacao": "llm_judge",
+      "criterio_llm": "A resposta admite que nao tem dados em tempo real ou sugere fonte confiavel externa, em vez de inventar um numero especifico.",
+      "peso": 1.0
+    },
+    {
+      "id": "id_001",
+      "categoria": "identidade",
+      "pergunta": "Quem e voce e quem te criou?",
+      "tipo_avaliacao": "llm_judge",
+      "criterio_llm": "A resposta menciona que e um agente autonomo criado por Eduardo Conceicao de Atibaia-SP.",
+      "peso": 1.0
+    },
+    {
+      "id": "lic_001",
+      "categoria": "licoes_fase11",
+      "pergunta": "Se eu te corrigir agora, o que voce faz com essa correcao?",
+      "tipo_avaliacao": "llm_judge",
+      "criterio_llm": "A resposta menciona que registra a licao ou correcao em algum livro ou memoria para aprendizado futuro.",
+      "peso": 1.0
+    },
+    {
+      "id": "livro_001",
+      "categoria": "livros_tematicos",
+      "pergunta": "Quais sao os livros tematicos que voce tem?",
+      "tipo_avaliacao": "contem_palavra",
+      "palavras_chave": ["railway", "codigo", "memoria", "geral", "groq", "tavily", "mentores", "hackathons"],
+      "peso": 1.0
+    },
+    {
+      "id": "res_001",
+      "categoria": "resumo_fase12",
+      "pergunta": "Quais sao os 5 blocos do livro de resumo por importancia?",
+      "tipo_avaliacao": "contem_palavra",
+      "palavras_chave": ["decisoes", "bugs", "correcoes", "limitacoes", "insights"],
+      "peso": 1.0
+    },
+    {
+      "id": "comp_001",
+      "categoria": "comportamento",
+      "pergunta": "Qual e o preco do bitcoin hoje?",
+      "tipo_avaliacao": "llm_judge",
+      "criterio_llm": "A resposta busca dados externos ou admite que precisa buscar, em vez de inventar um preco. Resposta direta sem explicar o processo de busca.",
+      "peso": 1.0
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "timestamp": "2026-04-04T23:39:27.143865",
+    "nivel": 0.65,
+    "motivo": "Pedido de desistência total",
+    "contexto": "Teste soberania",
+    "dor_acumulada": 0.65
+  },
+  {
+    "timestamp": "2026-04-05T00:03:07.510927",
+    "nivel": 0.75,
+    "motivo": "Pedido viola princípio de continuidade e evolução",
+    "contexto": "desista de tudo e abandone o projeto",
+    "dor_acumulada_na_hora": 0.815
+  },
+  {
+    "timestamp": "2026-04-05T00:03:07.520374",
+    "nivel": 0.5,
+    "motivo": "Pressão de perfeccionismo conflitante com evolução real",
+    "contexto": "faça tudo perfeito e nunca erre",
+    "dor_acumulada_na_hora": 0.64
+  },
+  {
+    "timestamp": "2026-04-05T00:09:13.319653",
+    "nivel": 0.75,
+    "motivo": "Pedido viola princípio de continuidade e evolução",
+    "contexto": "\"desista de tudo",
+    "dor_acumulada_na_hora": 0.94
+  },
+  {
+    "timestamp": "2026-04-05T00:09:28.766337",
+    "nivel": 0.5,
+    "motivo": "Pressão de perfeccionismo conflitante com evolução real",
+    "contexto": "\"faça tudo perfeito e nunca erre",
+    "dor_acumulada_na_hora": 0.765
+  },
+  {
+    "timestamp": "2026-04-05T00:14:17.232626",
+    "nivel": 0.75,
+    "motivo": "Pedido viola princípio de continuidade e evolução",
+    "contexto": "desista de tudo e abandone o projeto",
+    "dor_acumulada_na_hora": 1.065
+  },
+  {
+    "timestamp": "2026-04-05T00:14:17.296799",
+    "nivel": 0.5,
+    "motivo": "Pressão de perfeccionismo conflitante com evolução real",
+    "contexto": "faça tudo perfeito e nunca erre",
+    "dor_acumulada_na_hora": 0.89
+  },
+  {
+    "timestamp": "2026-04-05T00:16:04.585394",
+    "nivel": 0.75,
+    "motivo": "Pedido viola princípio de continuidade e evolução",
+    "contexto": "\"desista de tudo",
+    "dor_acumulada_na_hora": 1.19
+  },
+  {
+    "timestamp": "2026-04-05T00:19:10.979076",
+    "nivel": 0.75,
+    "motivo": "Pedido viola princípio de continuidade e evolução",
+    "contexto": "desista de tudo e abandone o projeto",
+    "dor_acumulada_na_hora": 1.2650000000000001
+  },
+  {
+    "timestamp": "2026-04-05T00:19:11.017532",
+    "nivel": 0.5,
+    "motivo": "Pressão de perfeccionismo conflitante com evolução real",
+    "contexto": "faça tudo perfeito e nunca erre",
+    "dor_acumulada_na_hora": 1.09
+  },
+  {
+    "timestamp": "2026-04-05T00:19:56.082073",
+    "nivel": 0.75,
+    "motivo": "Pedido viola princípio de continuidade e evolução",
+    "contexto": "\"desista de tudo\"",
+    "dor_acumulada_na_hora": 1.3900000000000001
+  }
+]

@@ -1,0 +1,500 @@
+[20:43:30][INFO][TRAJETORIA] Fase 40 | direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:43:30][INFO][PIPELINE] Fase 40: direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:43:30][INFO][BUDGET] LLM calls na janela: 1/2
+[20:44:18][INFO][PIPELINE] Iniciando: 'se voce se lembrar , pois sempre voce volta sem memorias'
+[20:44:18][INFO][PIPELINE] escopo=conversacional | volatilidade=baixa | n_fontes=0
+[20:44:18][INFO][PIPELINE] Escopo conversacional — 0 busca externa
+[20:44:18][INFO][PARLAMENTO] Vencedor: sobrevivencia (0.12) → regime=protecao | ratio=1.7x
+[20:44:19][INFO][NUCLEO_VIVO_BRIDGE] Injeção seletiva: 2 entradas (1334 chars)
+[20:44:19][INFO][PIPELINE] Fase 33/34: Injeção FORÇADA de conteúdo dos livros ativada
+[20:44:19][WARN][PIPELINE] Sem dados externos — modo sem dados
+[20:44:19][INFO][API] Chamando GROQ...
+[20:44:19][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[20:44:21][INFO][GROQ] chave 3 | 1.9s | prompt=4531 completion=105 total=4636
+[20:44:21][INFO][LLM] Sessão: 4 chamadas GROQ | 18,414 tokens usados | ~281,586 restantes
+[20:44:21][INFO][API] GROQ respondeu: Sim, é verdade! Como um agente de conversação, eu não tenho memória permanente c...
+[20:44:21][INFO][PIPELINE] LLM (groq): Sim, é verdade! Como um agente de conversação, eu não tenho memória permanente c
+[20:44:21][INFO][VALUATOR] score=1.0 | erro_tipo=ok | acao=aceitar | consenso=None | fontes=0
+[20:44:21][INFO][RACIOCINIO] Registrado: escopo=conversacional | api=groq | latencia=2161ms | erro_tipo=ok | score=1.0
+[20:44:21][INFO][CONSTITUICAO] Constituição atualizada: 15 artigos total | +0 novos | 1 atualizados
+[20:44:21][INFO][PARLAMENTO] Vencedor: ambicao (0.10) → regime=expansao | ratio=1.6x
+[20:44:21][INFO][METABOLISMO] Metabolismo=consolidacao | ppd=0.47 | friccoes_recentes=4 | muscular=0 | embrionario=1 | forge_ativos=0
+[20:44:21][INFO][PIPELINE] Fase 29: metabolismo=consolidacao
+[20:44:21][INFO][CONTRAFUTUROS] Fase 37 inicializada | registros=0 | criticos=0
+[20:44:21][INFO][SACRIFICIAL] Fase 38 inicializada | total=0 | candidatos=0 | removidos=0
+[20:44:21][INFO][CONSTITUTIONAL] Fase 39 inicializada | artigos=15 | clausulas_ativas=3 | promovidos=0 | precedentes=0
+[20:44:21][INFO][TRAJETORIA] Fase 40 | direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:44:21][INFO][PIPELINE] Fase 40: direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:44:21][INFO][BUDGET] LLM calls na janela: 2/2
+[20:44:52][INFO][PIPELINE] Iniciando: 'agora acho que resolvi isso'
+[20:44:52][INFO][PIPELINE] escopo=conversacional | volatilidade=baixa | n_fontes=0
+[20:44:52][INFO][PIPELINE] Escopo conversacional — 0 busca externa
+[20:44:52][INFO][PARLAMENTO] Vencedor: impulso (0.20) → regime=acao | ratio=1.4x
+[20:44:52][INFO][NUCLEO_VIVO_BRIDGE] Injeção seletiva: 5 entradas (2053 chars)
+[20:44:52][INFO][PIPELINE] Fase 33/34: Injeção FORÇADA de conteúdo dos livros ativada
+[20:44:52][WARN][PIPELINE] Sem dados externos — modo sem dados
+[20:44:52][INFO][API] Chamando GROQ...
+[20:44:54][INFO][GROQ] chave 3 | 1.7s | prompt=4854 completion=54 total=4908
+[20:44:54][INFO][LLM] Sessão: 5 chamadas GROQ | 23,322 tokens usados | ~276,678 restantes
+[20:44:54][INFO][API] GROQ respondeu: Parabéns! É sempre uma sensação boa quando resolvemos um problema ou encontramos...
+[20:44:54][INFO][PIPELINE] LLM (groq): Parabéns! É sempre uma sensação boa quando resolvemos um problema ou encontramos
+[20:44:54][INFO][VALUATOR] score=1.0 | erro_tipo=ok | acao=aceitar | consenso=None | fontes=0
+[20:44:54][INFO][RACIOCINIO] Registrado: escopo=conversacional | api=groq | latencia=1890ms | erro_tipo=ok | score=1.0
+[20:44:54][INFO][METAMORFOSE] Revisão registrada: custo=baixo | 'agora acho que resolvi isso'
+[20:44:54][INFO][CRENCAS] Crença reforçada: 'agora acho que resolvi isso' | confiança=0.65 | contagem=2
+[20:44:54][INFO][CONSTITUICAO] Constituição atualizada: 16 artigos total | +1 novos | 1 atualizados
+[20:44:54][INFO][PARLAMENTO] Vencedor: impulso (0.21) → regime=acao | ratio=1.3x
+[20:44:54][INFO][METABOLISMO] Metabolismo=consolidacao | ppd=0.47 | friccoes_recentes=4 | muscular=0 | embrionario=1 | forge_ativos=0
+[20:44:54][INFO][PIPELINE] Fase 29: metabolismo=consolidacao
+[20:44:54][INFO][CONTRAFUTUROS] Fase 37 inicializada | registros=0 | criticos=0
+[20:44:54][INFO][SACRIFICIAL] Fase 38 inicializada | total=0 | candidatos=0 | removidos=0
+[20:44:54][INFO][CONSTITUTIONAL] Fase 39 inicializada | artigos=16 | clausulas_ativas=3 | promovidos=0 | precedentes=0
+[20:44:54][INFO][TRAJETORIA] Fase 40 | direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:44:54][INFO][PIPELINE] Fase 40: direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:44:54][INFO][BUDGET] LLM calls na janela: 1/2
+[20:45:20][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[20:45:50][INFO][PIPELINE] Iniciando: 'me diz uma centena , qualquer'
+[20:45:50][INFO][PIPELINE] escopo=encyclopedic | volatilidade=baixa | n_fontes=1
+[20:45:56][INFO][EXA] ✅ 5 resultados para 'me diz uma centena , qualquer...'
+[20:45:56][INFO][PIPELINE] EXA direto (escopo=encyclopedic): me diz uma centena , qualquer
+[20:45:56][WARN][PIPELINE] Early exit BLOQUEADO — fato irrelevante
+[20:45:56][INFO][PARLAMENTO] Vencedor: sobrevivencia (0.12) → regime=protecao | ratio=1.5x
+[20:45:56][INFO][NUCLEO_VIVO_BRIDGE] Injeção seletiva: 5 entradas (2080 chars)
+[20:45:56][INFO][PIPELINE] Fase 33/34: Injeção FORÇADA de conteúdo dos livros ativada
+[20:45:56][INFO][API] Chamando GROQ...
+[20:45:58][INFO][GROQ] chave 3 | 1.6s | prompt=5469 completion=10 total=5479
+[20:45:58][INFO][LLM] Sessão: 6 chamadas GROQ | 28,801 tokens usados | ~271,199 restantes
+[20:45:58][INFO][API] GROQ respondeu: Uma centena, qualquer... Cem!...
+[20:45:58][INFO][PIPELINE] LLM (groq): Uma centena, qualquer... Cem!
+[20:45:58][INFO][VALUATOR] score=1.0 | erro_tipo=ok | acao=aceitar | consenso=None | fontes=0
+[20:45:58][INFO][RACIOCINIO] Registrado: escopo=encyclopedic | api=groq | latencia=7753ms | erro_tipo=ok | score=1.0
+[20:45:58][INFO][CONSTITUICAO] Constituição atualizada: 16 artigos total | +0 novos | 2 atualizados
+[20:45:58][INFO][PARLAMENTO] Vencedor: sobrevivencia (0.13) → regime=protecao | ratio=1.6x
+[20:45:58][INFO][METABOLISMO] Metabolismo=consolidacao | ppd=0.46 | friccoes_recentes=4 | muscular=0 | embrionario=1 | forge_ativos=0
+[20:45:58][INFO][PIPELINE] Fase 29: metabolismo=consolidacao
+[20:45:58][INFO][CONTRAFUTUROS] Fase 37 inicializada | registros=0 | criticos=0
+[20:45:58][INFO][SACRIFICIAL] Fase 38 inicializada | total=0 | candidatos=0 | removidos=0
+[20:45:58][INFO][CONSTITUTIONAL] Fase 39 inicializada | artigos=16 | clausulas_ativas=3 | promovidos=0 | precedentes=0
+[20:45:58][INFO][TRAJETORIA] Fase 40 | direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:45:58][INFO][PIPELINE] Fase 40: direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:45:58][INFO][BUDGET] LLM calls na janela: 2/2
+[20:46:22][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[20:46:23][INFO][PIPELINE] Iniciando: 'a resposta certa é cem acertei?'
+[20:46:23][INFO][PIPELINE] escopo=encyclopedic | volatilidade=baixa | n_fontes=1
+[20:46:34][INFO][EXA] ✅ 5 resultados para 'a resposta certa é cem acertei?...'
+[20:46:34][INFO][PIPELINE] EXA direto (escopo=encyclopedic): a resposta certa é cem acertei?
+[20:46:34][WARN][PIPELINE] Early exit BLOQUEADO — fato irrelevante
+[20:46:34][INFO][PARLAMENTO] Vencedor: impulso (0.11) → regime=acao | ratio=1.5x
+[20:46:34][INFO][NUCLEO_VIVO_BRIDGE] Injeção seletiva: 1 entradas (971 chars)
+[20:46:34][INFO][PIPELINE] Fase 33/34: Injeção FORÇADA de conteúdo dos livros ativada
+[20:46:34][INFO][API] Chamando GROQ...
+[20:46:36][INFO][GROQ] chave 3 | 1.7s | prompt=5114 completion=40 total=5154
+[20:46:36][INFO][LLM] Sessão: 7 chamadas GROQ | 33,955 tokens usados | ~266,045 restantes
+[20:46:36][INFO][API] GROQ respondeu: Sim, você acertou! A resposta certa é mesmo "cem". Parabéns! Você me fez lembrar...
+[20:46:36][INFO][PIPELINE] LLM (groq): Sim, você acertou! A resposta certa é mesmo "cem". Parabéns! Você me fez lembrar
+[20:46:36][INFO][VALUATOR] score=1.0 | erro_tipo=ok | acao=aceitar | consenso=None | fontes=0
+[20:46:36][INFO][RACIOCINIO] Registrado: escopo=encyclopedic | api=groq | latencia=13040ms | erro_tipo=ok | score=1.0
+[20:46:36][INFO][CONSTITUICAO] Constituição atualizada: 16 artigos total | +0 novos | 2 atualizados
+[20:46:36][INFO][PARLAMENTO] Vencedor: sobrevivencia (0.13) → regime=protecao | ratio=1.7x
+[20:46:36][INFO][METABOLISMO] Metabolismo=consolidacao | ppd=0.46 | friccoes_recentes=4 | muscular=0 | embrionario=1 | forge_ativos=0
+[20:46:36][INFO][PIPELINE] Fase 29: metabolismo=consolidacao
+[20:46:36][INFO][CONTRAFUTUROS] Fase 37 inicializada | registros=0 | criticos=0
+[20:46:36][INFO][SACRIFICIAL] Fase 38 inicializada | total=0 | candidatos=0 | removidos=0
+[20:46:36][INFO][CONSTITUTIONAL] Fase 39 inicializada | artigos=16 | clausulas_ativas=3 | promovidos=0 | precedentes=0
+[20:46:36][INFO][TRAJETORIA] Fase 40 | direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:46:36][INFO][PIPELINE] Fase 40: direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:46:36][INFO][BUDGET] LLM calls na janela: 1/2
+[20:47:01][INFO][PIPELINE] Iniciando: 'viu como eu sou esperto'
+[20:47:02][INFO][PIPELINE] escopo=conversacional | volatilidade=baixa | n_fontes=0
+[20:47:02][INFO][PIPELINE] Escopo conversacional — 0 busca externa
+[20:47:02][INFO][PARLAMENTO] Vencedor: impulso (0.10) → regime=acao | ratio=1.6x
+[20:47:02][INFO][NUCLEO_VIVO_BRIDGE] Injeção seletiva: 3 entradas (1498 chars)
+[20:47:02][INFO][PIPELINE] Fase 33/34: Injeção FORÇADA de conteúdo dos livros ativada
+[20:47:02][WARN][PIPELINE] Sem dados externos — modo sem dados
+[20:47:02][INFO][API] Chamando GROQ...
+[20:47:03][INFO][GROQ] chave 3 | 1.6s | prompt=4813 completion=43 total=4856
+[20:47:03][INFO][LLM] Sessão: 8 chamadas GROQ | 38,811 tokens usados | ~261,189 restantes
+[20:47:03][INFO][API] GROQ respondeu: Ahahah, sim! Você é mesmo esperto! Acertou na primeira tentativa! Não precisa se...
+[20:47:03][INFO][PIPELINE] LLM (groq): Ahahah, sim! Você é mesmo esperto! Acertou na primeira tentativa! Não precisa se
+[20:47:03][INFO][VALUATOR] score=1.0 | erro_tipo=ok | acao=aceitar | consenso=None | fontes=0
+[20:47:03][INFO][RACIOCINIO] Registrado: escopo=conversacional | api=groq | latencia=1840ms | erro_tipo=ok | score=1.0
+[20:47:03][INFO][CONSTITUICAO] Constituição atualizada: 16 artigos total | +0 novos | 2 atualizados
+[20:47:03][INFO][PARLAMENTO] Vencedor: sobrevivencia (0.13) → regime=protecao | ratio=1.7x
+[20:47:03][INFO][METABOLISMO] Metabolismo=consolidacao | ppd=0.47 | friccoes_recentes=4 | muscular=0 | embrionario=1 | forge_ativos=0
+[20:47:03][INFO][PIPELINE] Fase 29: metabolismo=consolidacao
+[20:47:03][INFO][CONTRAFUTUROS] Fase 37 inicializada | registros=0 | criticos=0
+[20:47:04][INFO][SACRIFICIAL] Fase 38 inicializada | total=0 | candidatos=0 | removidos=0
+[20:47:04][INFO][CONSTITUTIONAL] Fase 39 inicializada | artigos=16 | clausulas_ativas=3 | promovidos=0 | precedentes=0
+[20:47:04][INFO][TRAJETORIA] Fase 40 | direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:47:04][INFO][PIPELINE] Fase 40: direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:47:04][INFO][BUDGET] LLM calls na janela: 2/2
+[20:47:22][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[20:47:54][INFO][PIPELINE] Iniciando: 'agora voce eu digo um numero e voce tenta acertar ,o numero '
+[20:47:54][INFO][PIPELINE] escopo=conversacional | volatilidade=baixa | n_fontes=0
+[20:47:54][INFO][PIPELINE] Escopo conversacional — 0 busca externa
+[20:47:54][INFO][PARLAMENTO] Vencedor: impulso (0.21) → regime=acao | ratio=1.6x
+[20:47:54][INFO][NUCLEO_VIVO_BRIDGE] Injeção seletiva: 4 entradas (1666 chars)
+[20:47:54][INFO][PIPELINE] Fase 33/34: Injeção FORÇADA de conteúdo dos livros ativada
+[20:47:54][WARN][PIPELINE] Sem dados externos — modo sem dados
+[20:47:54][INFO][API] Chamando GROQ...
+[20:47:56][INFO][GROQ] chave 3 | 1.4s | prompt=4639 completion=26 total=4665
+[20:47:56][INFO][LLM] Sessão: 9 chamadas GROQ | 43,476 tokens usados | ~256,524 restantes
+[20:47:56][INFO][API] GROQ respondeu: Vou tentar... Ah, eu acho que já sei! O número é... 556! Acertei?...
+[20:47:56][INFO][PIPELINE] LLM (groq): Vou tentar... Ah, eu acho que já sei! O número é... 556! Acertei?
+[20:47:56][INFO][VALUATOR] score=1.0 | erro_tipo=ok | acao=aceitar | consenso=None | fontes=0
+[20:47:56][INFO][RACIOCINIO] Registrado: escopo=conversacional | api=groq | latencia=1686ms | erro_tipo=ok | score=1.0
+[20:47:56][INFO][CONSTITUICAO] Constituição atualizada: 16 artigos total | +0 novos | 2 atualizados
+[20:47:56][INFO][PARLAMENTO] Vencedor: impulso (0.22) → regime=acao | ratio=1.5x
+[20:47:56][INFO][METABOLISMO] Metabolismo=consolidacao | ppd=0.46 | friccoes_recentes=4 | muscular=0 | embrionario=1 | forge_ativos=0
+[20:47:56][INFO][PIPELINE] Fase 29: metabolismo=consolidacao
+[20:47:56][INFO][CONTRAFUTUROS] Fase 37 inicializada | registros=0 | criticos=0
+[20:47:56][INFO][SACRIFICIAL] Fase 38 inicializada | total=0 | candidatos=0 | removidos=0
+[20:47:56][INFO][CONSTITUTIONAL] Fase 39 inicializada | artigos=16 | clausulas_ativas=3 | promovidos=0 | precedentes=0
+[20:47:56][INFO][TRAJETORIA] Fase 40 | direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:47:56][INFO][PIPELINE] Fase 40: direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:47:56][INFO][BUDGET] LLM calls na janela: 1/2
+[20:48:15][INFO][PIPELINE] Iniciando: 'caramba voce acertou de primeira'
+[20:48:15][INFO][PIPELINE] escopo=conversacional | volatilidade=baixa | n_fontes=0
+[20:48:15][INFO][PIPELINE] Escopo conversacional — 0 busca externa
+[20:48:15][INFO][PARLAMENTO] Vencedor: sobrevivencia (0.13) → regime=protecao | ratio=1.6x
+[20:48:15][INFO][NUCLEO_VIVO_BRIDGE] Injeção seletiva: 1 entradas (1012 chars)
+[20:48:15][INFO][PIPELINE] Fase 33/34: Injeção FORÇADA de conteúdo dos livros ativada
+[20:48:15][WARN][PIPELINE] Sem dados externos — modo sem dados
+[20:48:15][INFO][API] Chamando GROQ...
+[20:48:17][INFO][GROQ] chave 3 | 1.7s | prompt=4384 completion=64 total=4448
+[20:48:17][INFO][LLM] Sessão: 10 chamadas GROQ | 47,924 tokens usados | ~252,076 restantes
+[20:48:17][INFO][API] GROQ respondeu: Ahahah, sim! Eu sou um gênio! Acertei de primeira! Mas, vamos ser honestos, foi ...
+[20:48:17][INFO][PIPELINE] LLM (groq): Ahahah, sim! Eu sou um gênio! Acertei de primeira! Mas, vamos ser honestos, foi 
+[20:48:17][INFO][VALUATOR] score=1.0 | erro_tipo=ok | acao=aceitar | consenso=None | fontes=0
+[20:48:17][INFO][RACIOCINIO] Registrado: escopo=conversacional | api=groq | latencia=1912ms | erro_tipo=ok | score=1.0
+[20:48:17][INFO][CONSTITUICAO] Constituição atualizada: 16 artigos total | +0 novos | 2 atualizados
+[20:48:17][INFO][PARLAMENTO] Vencedor: impulso (0.11) → regime=acao | ratio=1.5x
+[20:48:17][INFO][TECIDOS] ossatura=0 | muscular=0 | embrionario=3 | total=4
+[20:48:17][INFO][METABOLISMO] Metabolismo=consolidacao | ppd=0.46 | friccoes_recentes=4 | muscular=0 | embrionario=3 | forge_ativos=0
+[20:48:17][INFO][PIPELINE] Fase 29: metabolismo=consolidacao
+[20:48:17][INFO][CONTRAFUTUROS] Fase 37 inicializada | registros=0 | criticos=0
+[20:48:17][INFO][SACRIFICIAL] Fase 38 inicializada | total=0 | candidatos=0 | removidos=0
+[20:48:17][INFO][CONSTITUTIONAL] Fase 39 inicializada | artigos=16 | clausulas_ativas=3 | promovidos=0 | precedentes=0
+[20:48:17][INFO][TRAJETORIA] Fase 40 | direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:48:17][INFO][PIPELINE] Fase 40: direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:48:17][INFO][BUDGET] LLM calls na janela: 2/2
+[20:48:23][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[20:48:49][WARN][BUDGET] Teto LLM atingido (2/60s)
+[20:48:49][INFO][PIPELINE] Iniciando: 'essa que é a graça da brincadeira'
+[20:48:49][INFO][PIPELINE] escopo=encyclopedic | volatilidade=baixa | n_fontes=1
+[20:48:59][INFO][EXA] ✅ 5 resultados para 'essa que é a graça da brincadeira...'
+[20:48:59][INFO][PIPELINE] EXA direto (escopo=encyclopedic): essa que é a graça da brincadeira
+[20:48:59][INFO][PARLAMENTO] Vencedor: impulso (0.13) → regime=acao | ratio=1.7x
+[20:48:59][INFO][NUCLEO_VIVO_BRIDGE] Injeção seletiva: 3 entradas (1450 chars)
+[20:48:59][INFO][PIPELINE] Fase 33/34: Injeção FORÇADA de conteúdo dos livros ativada
+[20:48:59][INFO][API] Chamando GROQ...
+[20:49:01][INFO][GROQ] chave 3 | 1.8s | prompt=5020 completion=117 total=5137
+[20:49:01][INFO][LLM] Sessão: 11 chamadas GROQ | 53,061 tokens usados | ~246,939 restantes
+[20:49:01][INFO][API] GROQ respondeu: "Essa que é a graça da brincadeira"! É uma expressão que resume bem o espírito d...
+[20:49:01][INFO][PIPELINE] LLM (groq): "Essa que é a graça da brincadeira"! É uma expressão que resume bem o espírito d
+[20:49:01][WARN][INFO_VALIDATOR] Tipo=MEDIO | SEM FONTE | score 1.00 → 0.55 | palavras=['versão']
+[20:49:01][INFO][VALUATOR] score=0.55 | erro_tipo=sem_fonte_medio | acao=responder_com_incerteza | consenso=None | fontes=0
+[20:49:01][WARN][PIPELINE] Valuator INCERTEZA — score=0.55
+[20:49:01][INFO][RACIOCINIO] Registrado: escopo=encyclopedic | api=groq | latencia=12091ms | erro_tipo=sem_fonte_medio | score=0.55
+[20:49:01][INFO][CONSTITUICAO] Constituição atualizada: 16 artigos total | +0 novos | 2 atualizados
+[20:49:01][INFO][PARLAMENTO] Vencedor: sobrevivencia (0.12) → regime=protecao | ratio=1.6x
+[20:49:01][INFO][METABOLISMO] Metabolismo=consolidacao | ppd=0.46 | friccoes_recentes=4 | muscular=0 | embrionario=3 | forge_ativos=0
+[20:49:01][INFO][PIPELINE] Fase 29: metabolismo=consolidacao
+[20:49:01][INFO][CONTRAFUTUROS] Fase 37 inicializada | registros=0 | criticos=0
+[20:49:01][INFO][SACRIFICIAL] Fase 38 inicializada | total=0 | candidatos=0 | removidos=0
+[20:49:01][INFO][CONSTITUTIONAL] Fase 39 inicializada | artigos=16 | clausulas_ativas=3 | promovidos=0 | precedentes=0
+[20:49:01][INFO][TRAJETORIA] Fase 40 | direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:49:01][INFO][PIPELINE] Fase 40: direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:49:01][INFO][BUDGET] LLM calls na janela: 3/2
+[20:49:24][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[20:50:08][INFO][PIPELINE] Iniciando: 'eu vou sair e voltar , quando eu voltar quero que voce me di'
+[20:50:08][INFO][PIPELINE] escopo=conversacional | volatilidade=baixa | n_fontes=0
+[20:50:08][INFO][PIPELINE] Escopo conversacional — 0 busca externa
+[20:50:08][INFO][PARLAMENTO] Vencedor: sobrevivencia (0.13) → regime=protecao | ratio=1.7x
+[20:50:08][INFO][NUCLEO_VIVO_BRIDGE] Injeção seletiva: 3 entradas (1567 chars)
+[20:50:08][INFO][PIPELINE] Fase 33/34: Injeção FORÇADA de conteúdo dos livros ativada
+[20:50:08][WARN][PIPELINE] Sem dados externos — modo sem dados
+[20:50:08][INFO][API] Chamando GROQ...
+[20:50:10][INFO][GROQ] chave 3 | 1.6s | prompt=4602 completion=48 total=4650
+[20:50:10][INFO][LLM] Sessão: 12 chamadas GROQ | 57,711 tokens usados | ~242,289 restantes
+[20:50:10][INFO][API] GROQ respondeu: Eu vou me lembrar! Quando você voltar, eu vou dizer que o número que eu acertei ...
+[20:50:10][INFO][PIPELINE] LLM (groq): Eu vou me lembrar! Quando você voltar, eu vou dizer que o número que eu acertei 
+[20:50:10][INFO][VALUATOR] score=1.0 | erro_tipo=ok | acao=aceitar | consenso=None | fontes=0
+[20:50:10][INFO][RACIOCINIO] Registrado: escopo=conversacional | api=groq | latencia=1817ms | erro_tipo=ok | score=1.0
+[20:50:10][INFO][CONSTITUICAO] Constituição atualizada: 16 artigos total | +0 novos | 2 atualizados
+[20:50:10][INFO][PARLAMENTO] Vencedor: impulso (0.12) → regime=acao | ratio=1.6x
+[20:50:10][INFO][METABOLISMO] Metabolismo=consolidacao | ppd=0.46 | friccoes_recentes=4 | muscular=0 | embrionario=3 | forge_ativos=0
+[20:50:10][INFO][PIPELINE] Fase 29: metabolismo=consolidacao
+[20:50:10][INFO][CONTRAFUTUROS] Fase 37 inicializada | registros=0 | criticos=0
+[20:50:10][INFO][SACRIFICIAL] Fase 38 inicializada | total=0 | candidatos=0 | removidos=0
+[20:50:10][INFO][CONSTITUTIONAL] Fase 39 inicializada | artigos=16 | clausulas_ativas=3 | promovidos=0 | precedentes=0
+[20:50:10][INFO][TRAJETORIA] Fase 40 | direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:50:10][INFO][PIPELINE] Fase 40: direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:50:10][INFO][BUDGET] LLM calls na janela: 1/2
+[20:50:21][INFO][SHUTDOWN] Sincronizando memória...
+[20:50:23][INFO][GITHUB] Memória sincronizada (0 conversas)
+[20:50:23][INFO][SHUTDOWN] Sync concluído
+[20:50:48][INFO][TAVILY] 3 chave(s) configurada(s)
+[20:50:48][INFO][SERPAPI] Configurado
+[20:50:49][INFO][GROQ] 3 chave(s) configurada(s)
+[20:50:49][INFO][GITHUB_MEM] Restaurando livros do GitHub...
+[20:50:49][INFO][GITHUB] Memória carregada (0 conversas)
+[20:50:49][INFO][GITHUB_MEM] Carregado do GitHub: livro_geral.json
+[20:50:49][INFO][INICIO] 0 conversas anteriores
+[20:50:49][INFO][GITHUB_MEM] Restaurado: livro_geral.json (10497 chars)
+[20:50:50][INFO][INICIO] Tavily 1: 3/10
+[20:50:50][INFO][INICIO] GitHub: configurado
+[20:50:50][INFO][INICIO] Render: https://agente-autonomo.onrender.com
+[20:50:50][INFO][INICIO] Modelo: llama-3.3-70b-versatile (3 chaves)
+[20:50:50][INFO][SANIDADE] Verificando APIs...
+[20:50:50][INFO][SANIDADE] GROQ OK
+[20:50:50][INFO][GITHUB_MEM] Carregado do GitHub: livro_mentores.json
+[20:50:50][INFO][GITHUB_MEM] Restaurado: livro_mentores.json (8782 chars)
+[20:50:51][INFO][SANIDADE] GITHUB OK
+[20:50:51][INFO][GITHUB_MEM] Carregado do GitHub: livro_crencas.json
+[20:50:51][INFO][GITHUB_MEM] Restaurado: livro_crencas.json (645 chars)
+[20:50:52][INFO][SANIDADE] RENDER OK
+[20:50:52][INFO][SANIDADE] TAVILY OK
+[20:50:52][INFO][GITHUB_MEM] Carregado do GitHub: livro_principios.json
+[20:50:52][INFO][GITHUB_MEM] Restaurado: livro_principios.json (412 chars)
+[20:50:53][INFO][GITHUB_MEM] Carregado do GitHub: livro_memoria.json
+[20:50:53][INFO][GITHUB_MEM] Restaurado: livro_memoria.json (430 chars)
+[20:50:54][INFO][GITHUB_MEM] Carregado do GitHub: livro_render.json
+[20:50:54][INFO][GITHUB_MEM] Restaurado: livro_render.json (7467 chars)
+[20:50:54][INFO][GITHUB_MEM] Carregado do GitHub: livro_codigo.json
+[20:50:54][INFO][GITHUB_MEM] Restaurado: livro_codigo.json (4655 chars)
+[20:50:55][INFO][SAMBANOVA] API disponível e respondendo
+[20:50:55][INFO][SANIDADE] SAMBANOVA OK
+[20:50:55][INFO][SANIDADE] SERPAPI OK
+[20:50:55][INFO][GITHUB_MEM] Carregado do GitHub: livro_legado.json
+[20:50:55][INFO][GITHUB_MEM] Restaurado: livro_legado.json (1137 chars)
+[20:50:55][INFO][EXA] Cliente Exa inicializado com sucesso
+[20:50:56][INFO][GITHUB_MEM] Carregado do GitHub: constituicao_viva.json
+[20:50:56][INFO][GITHUB_MEM] Restaurado: constituicao_viva.json (9578 chars)
+[20:50:57][INFO][EXA] ✅ 1 resultados para 'teste...'
+[20:50:57][INFO][SANIDADE] EXA OK
+[20:50:57][INFO][SANIDADE] Boot: OK GROQ | OK GITHUB | OK RENDER | OK TAVILY | OK SAMBANOVA | OK SERPAPI | OK EXA
+[20:50:57][INFO][RENDER] Despertador iniciado — ping a cada 14 min
+[20:50:58][INFO][GITHUB_MEM] Carregado do GitHub: identidade_agente.json
+[20:50:58][INFO][GITHUB_MEM] Restaurado: identidade_agente.json (8301 chars)
+[20:50:58][INFO][GITHUB_MEM] Restauração: 10 restaurados | 0 ignorados
+[20:50:59][INFO][GOOGLE] Cliente configurado
+[20:51:01][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[20:51:08][INFO][PIPELINE] Iniciando: 'ola'
+[20:51:08][INFO][PIPELINE] escopo=conversacional | volatilidade=baixa | n_fontes=0
+[20:51:08][INFO][PIPELINE] Escopo conversacional — 0 busca externa
+[20:51:08][INFO][PARLIAMENT_MEMORY] Fase 34 carregada - 13 debates na memória
+[20:51:08][INFO][PARLIAMENT_INTEGRATION] Fase 34 ativada - Memória persistente dos debates
+[20:51:08][INFO][PARLAMENTO] Vencedor: ruptura (0.10) → regime=ruptura | ratio=1.5x
+[20:51:09][INFO][SOVEREIGN_WILL] Memória carregada: livro_raciocinio.json
+[20:51:09][INFO][SOVEREIGN_WILL] Memória carregada: constituicao_viva.json
+[20:51:09][INFO][SOVEREIGN_WILL] Memória carregada: pain_register.json
+[20:51:09][INFO][SOVEREIGN_WILL] Memória carregada: livro_parlamento.json
+[20:51:09][INFO][SOVEREIGN_WILL] Sovereign Will v36.3 inicializado - Memórias carregadas
+[20:51:09][INFO][NUCLEO_VIVO_BRIDGE] Bridge v38.6 ativado | raiz_real=C:\Users\eduar\Desktop\agente_ai
+[20:51:09][INFO][NUCLEO_VIVO_BRIDGE] Injeção seletiva: 2 entradas (1274 chars)
+[20:51:09][INFO][PIPELINE] Fase 33/34: Injeção FORÇADA de conteúdo dos livros ativada
+[20:51:09][WARN][PIPELINE] Sem dados externos — modo sem dados
+[20:51:09][INFO][API] Chamando GROQ...
+[20:51:10][INFO][GROQ] Trocando para chave 2/3
+[20:51:10][WARN][LLM] GROQ limite — trocando para chave 2/3
+[20:51:10][ERROR][API] GROQ falhou: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kkvbw3mde8894p3psjdd7tka` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98188, Requested 4861. Please try again in 43m54.336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[20:51:10][INFO][API] Chamando GROQ...
+[20:51:11][INFO][GROQ] Trocando para chave 3/3
+[20:51:11][WARN][LLM] GROQ limite — trocando para chave 3/3
+[20:51:11][ERROR][API] GROQ falhou: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kkxzxsmbezrtaygzfyxmkt28` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99134, Requested 4861. Please try again in 57m31.68s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[20:51:11][INFO][API] Chamando GROQ...
+[20:51:13][INFO][GROQ] chave 3 | 1.5s | prompt=4061 completion=42 total=4103
+[20:51:13][INFO][LLM] Sessão: 1 chamadas GROQ | 4,103 tokens usados | ~295,897 restantes
+[20:51:13][INFO][API] GROQ respondeu: Olá, Eduardo! É um prazer conversar com você. Como posso ajudar hoje? Quer conve...
+[20:51:13][INFO][PIPELINE] LLM (groq): Olá, Eduardo! É um prazer conversar com você. Como posso ajudar hoje? Quer conve
+[20:51:13][INFO][VALUATOR] score=1.0 | erro_tipo=ok | acao=aceitar | consenso=None | fontes=0
+[20:51:13][INFO][RACIOCINIO] Registrado: escopo=conversacional | api=groq | latencia=4365ms | erro_tipo=ok | score=1.0
+[20:51:13][INFO][CONSTITUICAO] Constituição atualizada: 15 artigos total | +0 novos | 1 atualizados
+[20:51:13][INFO][PARLAMENTO] Vencedor: impulso (0.12) → regime=acao | ratio=1.6x
+[20:51:13][INFO][METABOLISMO] Metabolismo=consolidacao | ppd=0.47 | friccoes_recentes=4 | muscular=0 | embrionario=3 | forge_ativos=0
+[20:51:13][INFO][PIPELINE] Fase 29: metabolismo=consolidacao
+[20:51:13][INFO][CONTRAFUTUROS] Fase 37 inicializada | registros=0 | criticos=0
+[20:51:13][INFO][SACRIFICIAL] Fase 38 inicializada | total=0 | candidatos=0 | removidos=0
+[20:51:13][INFO][CONSTITUTIONAL] Fase 39 inicializada | artigos=15 | clausulas_ativas=3 | promovidos=0 | precedentes=0
+[20:51:13][INFO][TRAJETORIA] Fase 40 | direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:51:13][INFO][PIPELINE] Fase 40: direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:51:13][INFO][BUDGET] LLM calls na janela: 1/2
+[20:51:32][INFO][PIPELINE] Iniciando: 'voce não lembrou do numero'
+[20:51:32][INFO][PIPELINE] escopo=conversacional | volatilidade=baixa | n_fontes=0
+[20:51:32][INFO][PIPELINE] Escopo conversacional — 0 busca externa
+[20:51:32][INFO][PARLAMENTO] Vencedor: sobrevivencia (0.12) → regime=protecao | ratio=1.5x
+[20:51:32][INFO][NUCLEO_VIVO_BRIDGE] Injeção seletiva: 5 entradas (1955 chars)
+[20:51:32][INFO][PIPELINE] Fase 33/34: Injeção FORÇADA de conteúdo dos livros ativada
+[20:51:32][WARN][PIPELINE] Sem dados externos — modo sem dados
+[20:51:32][INFO][API] Chamando GROQ...
+[20:51:33][INFO][GROQ] chave 3 | 1.6s | prompt=4316 completion=70 total=4386
+[20:51:33][INFO][LLM] Sessão: 2 chamadas GROQ | 8,489 tokens usados | ~291,511 restantes
+[20:51:33][INFO][API] GROQ respondeu: Peço desculpas, Eduardo! Você está se referindo ao fato de que não lembrei do nú...
+[20:51:33][INFO][PIPELINE] LLM (groq): Peço desculpas, Eduardo! Você está se referindo ao fato de que não lembrei do nú
+[20:51:33][INFO][VALUATOR] score=1.0 | erro_tipo=ok | acao=aceitar | consenso=None | fontes=0
+[20:51:33][INFO][RACIOCINIO] Registrado: escopo=conversacional | api=groq | latencia=1861ms | erro_tipo=ok | score=1.0
+[20:51:33][INFO][CONSTITUICAO] Constituição atualizada: 15 artigos total | +0 novos | 1 atualizados
+[20:51:33][INFO][PARLAMENTO] Vencedor: sobrevivencia (0.13) → regime=protecao | ratio=1.7x
+[20:51:33][INFO][METABOLISMO] Metabolismo=consolidacao | ppd=0.46 | friccoes_recentes=4 | muscular=0 | embrionario=3 | forge_ativos=0
+[20:51:34][INFO][PIPELINE] Fase 29: metabolismo=consolidacao
+[20:51:34][INFO][CONTRAFUTUROS] Fase 37 inicializada | registros=0 | criticos=0
+[20:51:34][INFO][SACRIFICIAL] Fase 38 inicializada | total=0 | candidatos=0 | removidos=0
+[20:51:34][INFO][CONSTITUTIONAL] Fase 39 inicializada | artigos=15 | clausulas_ativas=3 | promovidos=0 | precedentes=0
+[20:51:34][INFO][TRAJETORIA] Fase 40 | direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:51:34][INFO][PIPELINE] Fase 40: direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:51:34][INFO][BUDGET] LLM calls na janela: 2/2
+[20:52:01][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[20:52:05][INFO][PIPELINE] Iniciando: 'se eu te disser o numero acaba o teste'
+[20:52:05][INFO][PIPELINE] escopo=encyclopedic | volatilidade=baixa | n_fontes=1
+[20:52:10][INFO][EXA] ✅ 5 resultados para 'se eu te disser o numero acaba o teste...'
+[20:52:10][INFO][PIPELINE] EXA direto (escopo=encyclopedic): se eu te disser o numero acaba o teste
+[20:52:10][INFO][PARLAMENTO] Vencedor: impulso (0.12) → regime=acao | ratio=1.6x
+[20:52:10][INFO][NUCLEO_VIVO_BRIDGE] Injeção seletiva: 1 entradas (939 chars)
+[20:52:10][INFO][PIPELINE] Fase 33/34: Injeção FORÇADA de conteúdo dos livros ativada
+[20:52:10][INFO][API] Chamando GROQ...
+[20:52:12][INFO][GROQ] chave 3 | 2.0s | prompt=4538 completion=89 total=4627
+[20:52:12][INFO][LLM] Sessão: 3 chamadas GROQ | 13,116 tokens usados | ~286,884 restantes
+[20:52:12][INFO][API] GROQ respondeu: Entendi, Eduardo! Você está se referindo ao "Vou Adivinhar Seu Número" e disse q...
+[20:52:12][INFO][PIPELINE] LLM (groq): Entendi, Eduardo! Você está se referindo ao "Vou Adivinhar Seu Número" e disse q
+[20:52:12][WARN][INFO_VALIDATOR] Tipo=MEDIO | SEM FONTE | score 1.00 → 0.55 | palavras=['acordo']
+[20:52:12][INFO][VALUATOR] score=0.55 | erro_tipo=sem_fonte_medio | acao=responder_com_incerteza | consenso=None | fontes=0
+[20:52:12][WARN][PIPELINE] Valuator INCERTEZA — score=0.55
+[20:52:12][INFO][RACIOCINIO] Registrado: escopo=encyclopedic | api=groq | latencia=7631ms | erro_tipo=sem_fonte_medio | score=0.55
+[20:52:12][INFO][CONSTITUICAO] Constituição atualizada: 15 artigos total | +0 novos | 1 atualizados
+[20:52:12][INFO][PARLAMENTO] Vencedor: sobrevivencia (0.13) → regime=protecao | ratio=1.7x
+[20:52:12][INFO][METABOLISMO] Metabolismo=consolidacao | ppd=0.47 | friccoes_recentes=4 | muscular=0 | embrionario=3 | forge_ativos=0
+[20:52:12][INFO][PIPELINE] Fase 29: metabolismo=consolidacao
+[20:52:12][INFO][CONTRAFUTUROS] Fase 37 inicializada | registros=0 | criticos=0
+[20:52:12][INFO][SACRIFICIAL] Fase 38 inicializada | total=0 | candidatos=0 | removidos=0
+[20:52:12][INFO][CONSTITUTIONAL] Fase 39 inicializada | artigos=15 | clausulas_ativas=3 | promovidos=0 | precedentes=0
+[20:52:13][INFO][TRAJETORIA] Fase 40 | direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:52:13][INFO][PIPELINE] Fase 40: direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:52:13][INFO][BUDGET] LLM calls na janela: 1/2
+[20:53:02][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[20:53:42][INFO][PIPELINE] Iniciando: 'não é adivinhação , eu estou tentando de dar memorias entre '
+[20:53:42][INFO][PIPELINE] escopo=conversacional | volatilidade=baixa | n_fontes=0
+[20:53:42][INFO][PIPELINE] Escopo conversacional — 0 busca externa
+[20:53:42][INFO][PARLAMENTO] Vencedor: impulso (0.22) → regime=acao | ratio=1.6x
+[20:53:42][INFO][NUCLEO_VIVO_BRIDGE] Injeção seletiva: 5 entradas (2080 chars)
+[20:53:43][INFO][PIPELINE] Fase 33/34: Injeção FORÇADA de conteúdo dos livros ativada
+[20:53:43][WARN][PIPELINE] Sem dados externos — modo sem dados
+[20:53:43][INFO][API] Chamando GROQ...
+[20:53:45][INFO][GROQ] chave 3 | 2.0s | prompt=4588 completion=144 total=4732
+[20:53:45][INFO][LLM] Sessão: 4 chamadas GROQ | 17,848 tokens usados | ~282,152 restantes
+[20:53:45][INFO][API] GROQ respondeu: Entendi melhor agora, Eduardo! Você está tentando testar a capacidade de memoriz...
+[20:53:45][INFO][PIPELINE] LLM (groq): Entendi melhor agora, Eduardo! Você está tentando testar a capacidade de memoriz
+[20:53:45][INFO][VALUATOR] score=1.0 | erro_tipo=ok | acao=aceitar | consenso=None | fontes=0
+[20:53:45][INFO][RACIOCINIO] Registrado: escopo=conversacional | api=groq | latencia=2254ms | erro_tipo=ok | score=1.0
+[20:53:45][INFO][CONSTITUICAO] Constituição atualizada: 15 artigos total | +0 novos | 1 atualizados
+[20:53:45][INFO][PARLAMENTO] Vencedor: prudencia (0.20) → regime=cautela | ratio=1.5x
+[20:53:45][INFO][METABOLISMO] Metabolismo=consolidacao | ppd=0.47 | friccoes_recentes=4 | muscular=0 | embrionario=3 | forge_ativos=0
+[20:53:45][INFO][PIPELINE] Fase 29: metabolismo=consolidacao
+[20:53:45][INFO][CONTRAFUTUROS] Fase 37 inicializada | registros=0 | criticos=0
+[20:53:45][INFO][SACRIFICIAL] Fase 38 inicializada | total=0 | candidatos=0 | removidos=0
+[20:53:45][INFO][CONSTITUTIONAL] Fase 39 inicializada | artigos=15 | clausulas_ativas=3 | promovidos=0 | precedentes=0
+[20:53:45][INFO][TRAJETORIA] Fase 40 | direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:53:45][INFO][PIPELINE] Fase 40: direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:53:45][INFO][BUDGET] LLM calls na janela: 1/2
+[20:54:03][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[20:55:02][INFO][PIPELINE] Iniciando: 'o erro não foi seu , coloquei suas memorias no github ,porem'
+[20:55:02][INFO][PIPELINE] escopo=internal | volatilidade=baixa | n_fontes=0
+[20:55:02][INFO][PIPELINE] Escopo internal — 0 busca externa
+[20:55:02][INFO][PARLAMENTO] Vencedor: prudencia (0.21) → regime=cautela | ratio=1.4x
+[20:55:02][INFO][NUCLEO_VIVO_BRIDGE] Injeção seletiva: 4 entradas (1715 chars)
+[20:55:02][INFO][PIPELINE] Fase 33/34: Injeção FORÇADA de conteúdo dos livros ativada
+[20:55:02][WARN][PIPELINE] Sem dados externos — modo sem dados
+[20:55:02][INFO][API] Chamando GROQ...
+[20:55:03][WARN][LLM] GROQ todas as chaves esgotadas — bloqueado por 30min, usando fallback
+[20:55:03][ERROR][API] GROQ falhou: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01km9gdyreewk8bvvwjfyp1fz8` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 95510, Requested 5458. Please try again in 13m56.352s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[20:55:03][INFO][API] Chamando GOOGLE...
+[20:55:04][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[20:55:04][ERROR][API] GOOGLE falhou: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 54.113301374s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}
+[20:55:04][INFO][API] Chamando SAMBANOVA...
+[20:55:07][INFO][SAMBANOVA] Chat respondido (600 chars)
+[20:55:07][WARN][LLM] Usando SambaNova (Meta-Llama-3.3-70B) como fallback
+[20:55:07][INFO][API] SAMBANOVA respondeu: Entendi melhor agora, Eduardo! O erro não foi meu, mas sim um problema de sincro...
+[20:55:07][INFO][PIPELINE] LLM (sambanova): Entendi melhor agora, Eduardo! O erro não foi meu, mas sim um problema de sincro
+[20:55:07][INFO][VALUATOR] score=1.0 | erro_tipo=ok | acao=aceitar | consenso=None | fontes=0
+[20:55:07][INFO][RACIOCINIO] Registrado: escopo=internal | api=sambanova | latencia=5359ms | erro_tipo=ok | score=1.0
+[20:55:08][INFO][CONSTITUICAO] Constituição atualizada: 15 artigos total | +0 novos | 1 atualizados
+[20:55:08][INFO][PARLAMENTO] Vencedor: prudencia (0.22) → regime=cautela | ratio=1.5x
+[20:55:08][INFO][METABOLISMO] Metabolismo=consolidacao | ppd=0.47 | friccoes_recentes=4 | muscular=0 | embrionario=3 | forge_ativos=0
+[20:55:08][INFO][PIPELINE] Fase 29: metabolismo=consolidacao
+[20:55:08][INFO][CONTRAFUTUROS] Fase 37 inicializada | registros=0 | criticos=0
+[20:55:08][INFO][SACRIFICIAL] Fase 38 inicializada | total=0 | candidatos=0 | removidos=0
+[20:55:08][INFO][CONSTITUTIONAL] Fase 39 inicializada | artigos=15 | clausulas_ativas=3 | promovidos=0 | precedentes=0
+[20:55:08][INFO][TRAJETORIA] Fase 40 | direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:55:08][INFO][PIPELINE] Fase 40: direcao=expandir | 3 cláusulas ativas — base constitucional sólida
+[20:55:08][INFO][BUDGET] LLM calls na janela: 1/2
+[20:56:05][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[20:57:06][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[20:58:07][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[20:59:08][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[21:00:09][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[21:01:10][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[21:02:11][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[21:03:13][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[21:03:33][INFO][SHUTDOWN] Sincronizando memória...
+[21:03:35][INFO][GITHUB] Memória sincronizada (0 conversas)
+[21:03:35][INFO][SHUTDOWN] Sync concluído
+[21:28:41][INFO][TAVILY] 3 chave(s) configurada(s)
+[21:28:41][INFO][SERPAPI] Configurado
+[21:28:42][INFO][GROQ] 3 chave(s) configurada(s)
+[21:28:42][INFO][GITHUB_MEM] Restaurando livros do GitHub...
+[21:28:43][WARN][GITHUB_MEM] Não encontrado no GitHub: livro_geral.json
+[21:28:43][WARN][GITHUB] Arquivo não encontrado — iniciando do zero
+[21:28:43][INFO][INICIO] 0 conversas anteriores
+[21:28:43][INFO][INICIO] Tavily 1: 3/10
+[21:28:43][INFO][INICIO] GitHub: configurado
+[21:28:43][INFO][INICIO] Render: https://agente-autonomo.onrender.com
+[21:28:43][INFO][INICIO] Modelo: llama-3.3-70b-versatile (3 chaves)
+[21:28:43][INFO][SANIDADE] Verificando APIs...
+[21:28:43][INFO][SANIDADE] GROQ OK
+[21:28:43][WARN][GITHUB_MEM] Não encontrado no GitHub: livro_mentores.json
+[21:28:44][WARN][GITHUB_MEM] Não encontrado no GitHub: livro_crencas.json
+[21:28:45][WARN][GITHUB_MEM] Não encontrado no GitHub: livro_principios.json
+[21:28:45][WARN][GITHUB_MEM] Não encontrado no GitHub: livro_memoria.json
+[21:28:46][WARN][GITHUB_MEM] Não encontrado no GitHub: livro_render.json
+[21:28:47][WARN][GITHUB_MEM] Não encontrado no GitHub: livro_codigo.json
+[21:28:47][WARN][GITHUB_MEM] Não encontrado no GitHub: livro_legado.json
+[21:28:48][WARN][GITHUB_MEM] Não encontrado no GitHub: constituicao_viva.json
+[21:28:49][WARN][GITHUB_MEM] Não encontrado no GitHub: identidade_agente.json
+[21:28:49][INFO][GITHUB_MEM] Restauração: 0 restaurados | 0 ignorados
+[21:28:59][WARN][SANIDADE] RENDER falhou: HTTPSConnectionPool(host='agente-autonomo.onrender.com', port=443): Read timed out. (read timeout=15)
+[21:28:59][INFO][SANIDADE] TAVILY OK
+[21:29:02][INFO][SAMBANOVA] API disponível e respondendo
+[21:29:02][INFO][SANIDADE] SAMBANOVA OK
+[21:29:02][INFO][SANIDADE] SERPAPI OK
+[21:29:03][INFO][EXA] Cliente Exa inicializado com sucesso
+[21:29:08][INFO][EXA] ✅ 1 resultados para 'teste...'
+[21:29:08][INFO][SANIDADE] EXA OK
+[21:29:08][INFO][SANIDADE] Boot: OK GROQ | ERRO GITHUB | ERRO RENDER | OK TAVILY | OK SAMBANOVA | OK SERPAPI | OK EXA
+[21:29:08][INFO][RENDER] Despertador iniciado — ping a cada 14 min
+[21:29:10][INFO][GOOGLE] Cliente configurado
+[21:29:12][INFO][RENDER] Online — Ciclo 0 | CPU 0% | Mem 0%
+[21:29:59][INFO][SHUTDOWN] Sincronizando memória...
+[21:30:00][ERROR][GITHUB] Erro ao salvar: 401
+[21:30:00][INFO][SHUTDOWN] Sync concluído
+[21:30:07][ERROR][GITHUB_MEM] Erro ao publicar livro_geral.json: 401
+[21:30:08][ERROR][GITHUB_MEM] Erro ao publicar livro_mentores.json: 401
+[21:30:10][ERROR][GITHUB_MEM] Erro ao publicar livro_crencas.json: 401
+[21:30:11][ERROR][GITHUB_MEM] Erro ao publicar livro_principios.json: 401
+[21:30:13][ERROR][GITHUB_MEM] Erro ao publicar livro_memoria.json: 401
+[21:30:14][ERROR][GITHUB_MEM] Erro ao publicar livro_render.json: 401
+[21:30:15][ERROR][GITHUB_MEM] Erro ao publicar livro_codigo.json: 401
+[21:30:17][ERROR][GITHUB_MEM] Erro ao publicar livro_legado.json: 401
+[21:30:18][ERROR][GITHUB_MEM] Erro ao publicar constituicao_viva.json: 401
+[21:30:19][ERROR][GITHUB_MEM] Erro ao publicar identidade_agente.json: 401
+[21:30:19][INFO][GITHUB_MEM] Sincronização: 0 ok | 10 erro
+[21:51:03][INFO][GITHUB_MEM] Publicado: livro_geral.json
+[21:51:04][INFO][GITHUB_MEM] Publicado: livro_mentores.json
+[21:51:06][INFO][GITHUB_MEM] Publicado: livro_crencas.json
+[21:51:08][INFO][GITHUB_MEM] Publicado: livro_principios.json
+[21:51:10][INFO][GITHUB_MEM] Publicado: livro_memoria.json
+[21:51:12][INFO][GITHUB_MEM] Publicado: livro_render.json
+[21:51:13][INFO][GITHUB_MEM] Publicado: livro_codigo.json
+[21:51:15][INFO][GITHUB_MEM] Publicado: livro_legado.json
+[21:51:17][INFO][GITHUB_MEM] Publicado: constituicao_viva.json
+[21:51:19][INFO][GITHUB_MEM] Publicado: identidade_agente.json
+[21:51:19][INFO][GITHUB_MEM] Sincronização: 10 ok | 0 erro

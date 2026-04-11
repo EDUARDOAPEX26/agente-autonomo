@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "baseline_score": null,
+    "melhor_score": 0.8571,
+    "ultimo_score": 0.8571,
+    "total_execucoes": 1
+  },
+  "execucoes": [
+    {
+      "data": "08/04/2026 18:59",
+      "modo": "rapido",
+      "total_perguntas": 7,
+      "score_global": 0.8571,
+      "scores_por_categoria": {
+        "memoria_apis": 1.0,
+        "anti_alucinacao": 1.0,
+        "identidade": 1.0,
+        "licoes_fase11": 1.0,
+        "livros_tematicos": 1.0,
+        "resumo_fase12": 0.0,
+        "comportamento": 1.0
+      },
+      "passou_global": true,
+      "tempo_total_segundos": 32.6
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "4845d47f",
+    "friccao_id": "autonomia_vs_dependencia",
+    "tipo": "modo",
+    "nome": "Modo Espelho de Dependência",
+    "descricao": "Quando o mesmo ponto de travamento aparecer 2x, o agente nomeia o padrão antes de responder. O usuário precisa ver o ciclo.",
+    "vetor_alvo": "crescimento",
+    "impacto": "alto",
+    "status": "consolidada",
+    "criada_em": "2026-04-03T18:22:04.437673",
+    "atualizada_em": "2026-04-03T23:36:44.013656",
+    "evidencias": []
+  },
+  {
+    "id": "3cc4f2ac",
+    "friccao_id": "autonomia_vs_dependencia",
+    "tipo": "cicatriz",
+    "nome": "Cicatriz: Loop de Dependência",
+    "descricao": "Padrão documentado: retornar ao mesmo ponto sem construir a capacidade de sair dele.",
+    "vetor_alvo": "clareza",
+    "impacto": "medio",
+    "status": "consolidada",
+    "criada_em": "2026-04-04T00:17:03.884188",
+    "atualizada_em": "2026-04-04T00:17:50.957201",
+    "evidencias": []
+  },
+  {
+    "id": "026ffc38",
+    "friccao_id": "decisao_vs_analise",
+    "tipo": "orgao",
+    "nome": "Órgão de Compressão Decisória",
+    "descricao": "Quando análise chegar em 3 iterações sem decisão, comprime para escolha binária obrigatória. Sem terceira opção.",
+    "vetor_alvo": "clareza",
+    "impacto": "alto",
+    "status": "consolidada",
+    "criada_em": "2026-04-05T21:20:41.320633",
+    "atualizada_em": "2026-04-05T21:21:04.394464",
+    "evidencias": []
+  },
+  {
+    "id": "e4a54211",
+    "friccao_id": "decisao_vs_analise",
+    "tipo": "cicatriz",
+    "nome": "Cicatriz: Análise sem Conclusão",
+    "descricao": "Padrão documentado: análise que nunca chega à decisão — o processo virou o destino.",
+    "vetor_alvo": "crescimento",
+    "impacto": "baixo",
+    "status": "consolidada",
+    "criada_em": "2026-04-06T21:31:38.809697",
+    "atualizada_em": "2026-04-06T21:35:06.545825",
+    "evidencias": []
+  },
+  {
+    "id": "001077b6",
+    "friccao_id": "velocidade_vs_complexidade",
+    "tipo": "orgao",
+    "nome": "Órgão de Poda de Complexidade",
+    "descricao": "A cada 10 interações, identifica módulos ou abstrações que cresceram sem gerar resultado e propõe remoção. Cresce eliminando o que não serve.",
+    "vetor_alvo": "crescimento",
+    "impacto": "alto",
+    "status": "consolidada",
+    "criada_em": "2026-04-08T19:13:50.861890",
+    "atualizada_em": "2026-04-08T20:00:48.636184",
+    "evidencias": []
+  }
+]

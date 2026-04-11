@@ -1,0 +1,13 @@
+{
+  "deteccao_autoengano": {
+    "id": "deteccao_autoengano",
+    "nome": "Órgão de Detecção de Autoengano",
+    "funcao": "Identifica quando usuário se contradiz sem perceber",
+    "status": "ativo",
+    "ativacoes": 0,
+    "falhas": 0,
+    "taxa_aceitacao": 1.0,
+    "criado_em": "2026-04-04T18:33:43.725896",
+    "ultima_vez": "2026-04-04T18:34:54.475101"
+  }
+}
