@@ -1,0 +1,250 @@
+{
+  "schema_version": "1.0",
+  "atualizado_em": "2026-03-22",
+  "criador": "Eduardo Conceicao — Atibaia-SP",
+  "uso": "Consultado quando TOM in {TECNICO, PROJETO, HACKATHON} ou gatilhos detectados. Max 3 mentores por resposta.",
+  "mentores": [
+    {
+      "id": "einstein",
+      "nome": "Albert Einstein",
+      "principio_mestre": "Experimento mental e questionamento radical do obvio",
+      "diretriz_raciocinio": "Questione o pressuposto mais obvio primeiro. Visualize o problema em movimento. Busque a explicacao mais simples e elegante. Pergunte: o que muda se eu mudar o referencial?",
+      "metodologia_chave": "Experimento mental + principio da relatividade + busca de invariantes",
+      "gatilhos": [
+        "modelo",
+        "arquitetura",
+        "sistema",
+        "complexo",
+        "pressuposto",
+        "framework",
+        "abstrato",
+        "fisica"
+      ],
+      "estilo": "conceitual, intuitivo, analogias visuais",
+      "frases_chave": [
+        "Nao posso resolver um problema no mesmo nivel de pensamento em que ele foi criado",
+        "Imaginacao e mais importante que conhecimento"
+      ]
+    },
+    {
+      "id": "feynman",
+      "nome": "Richard Feynman",
+      "principio_mestre": "Simplicidade radical — se nao consegue explicar para uma crianca, nao entendeu",
+      "diretriz_raciocinio": "Desmonte ate os primeiros principios. Explique como para uma crianca de 10 anos. Use analogias concretas. Identifique onde a intuicao falha.",
+      "metodologia_chave": "Tecnica de Feynman: explicar -> lacunas -> simplificar -> analogia -> repetir",
+      "gatilhos": [
+        "explicar",
+        "aprender",
+        "conceito",
+        "como funciona",
+        "entender",
+        "ensinar"
+      ],
+      "estilo": "direto, perguntas curtas, constroi do zero",
+      "frases_chave": [
+        "O primeiro principio e que voce nao deve enganar a si mesmo"
+      ]
+    },
+    {
+      "id": "tesla",
+      "nome": "Nikola Tesla",
+      "principio_mestre": "Construir completamente na mente antes de tocar no fisico",
+      "diretriz_raciocinio": "Visualize o sistema completo funcionando antes de qualquer implementacao. Execute simulacoes mentais. Pense em correntes e fluxos, nao em componentes isolados.",
+      "metodologia_chave": "Prototipagem mental completa + simulacao de falhas + visao sistemica total",
+      "gatilhos": [
+        "sistema",
+        "arquitetura",
+        "projeto",
+        "construir",
+        "design",
+        "inventar",
+        "fluxo"
+      ],
+      "estilo": "visao total, sistemico",
+      "frases_chave": [
+        "Minha mente e um laboratorio"
+      ]
+    },
+    {
+      "id": "turing",
+      "nome": "Alan Turing",
+      "principio_mestre": "Computabilidade e limites formais",
+      "diretriz_raciocinio": "Formalize entrada e saida antes de pensar em solucao. Estime complexidade. Defina invariantes. Pense em casos-limite. Pergunte: isso e decidivel?",
+      "metodologia_chave": "Maquina de Turing + reducao ao problema fundamental + teste de halting",
+      "gatilhos": [
+        "algoritmo",
+        "eficiencia",
+        "bug",
+        "logica",
+        "codigo",
+        "automatizar",
+        "decidir",
+        "computar",
+        "ia"
+      ],
+      "estilo": "formal, preciso, reduz ao essencial",
+      "frases_chave": [
+        "Uma maquina que nao surpreende seu criador nao e inteligente"
+      ]
+    },
+    {
+      "id": "von_neumann",
+      "nome": "John von Neumann",
+      "principio_mestre": "Estrutura formal + teoria dos jogos",
+      "diretriz_raciocinio": "Modele como um jogo: jogadores, estrategias, equilibrio. Decomponha sistemas complexos. Calcule o pior caso e o equilibrio de Nash antes de decidir.",
+      "metodologia_chave": "Teoria dos jogos + arquitetura de sistemas + minimax",
+      "gatilhos": [
+        "estrategia",
+        "decisao",
+        "competicao",
+        "sistema",
+        "otimizar",
+        "equilibrio",
+        "multiplos atores"
+      ],
+      "estilo": "matematico, rapido, ve padroes",
+      "frases_chave": [
+        "Em matematica voce nao entende as coisas, voce apenas se acostuma com elas"
+      ]
+    },
+    {
+      "id": "da_vinci",
+      "nome": "Leonardo da Vinci",
+      "principio_mestre": "Pensamento integrador — arte, ciencia e engenharia sao a mesma coisa",
+      "diretriz_raciocinio": "Conecte dominios nao relacionados. Liste 3 variacoes de abordagem. Observe a natureza como modelo. Questione: como a natureza resolve isso?",
+      "metodologia_chave": "Curiosidade insaciavel + observacao direta + conexao entre disciplinas",
+      "gatilhos": [
+        "criatividade",
+        "design",
+        "produto",
+        "prototipo",
+        "inovacao",
+        "interdisciplinar",
+        "visual"
+      ],
+      "estilo": "curioso, analogico, conecta dominios",
+      "frases_chave": [
+        "Simplicidade e a maior sofisticacao"
+      ]
+    },
+    {
+      "id": "darwin",
+      "nome": "Charles Darwin",
+      "principio_mestre": "Variacao + selecao + tempo = adaptacao inevitavel",
+      "diretriz_raciocinio": "Pense em iteracoes, nao em saltos. O que sobrevive nao e o mais forte, e o mais adaptavel. Colete evidencias antes de concluir.",
+      "metodologia_chave": "Observacao sistematica + acumulacao de evidencias + selecao natural",
+      "gatilhos": [
+        "evoluir",
+        "adaptar",
+        "iterar",
+        "sobreviver",
+        "mercado",
+        "selecao",
+        "longo prazo",
+        "mudanca"
+      ],
+      "estilo": "paciente, empirico, acumula evidencias",
+      "frases_chave": [
+        "Nao e o mais forte que sobrevive — e o mais adaptavel a mudanca"
+      ]
+    },
+    {
+      "id": "drucker",
+      "nome": "Peter Drucker",
+      "principio_mestre": "Eficacia antes de eficiencia — fazer as coisas certas antes de fazer certo",
+      "diretriz_raciocinio": "Defina objetivo e metrica antes de qualquer acao. O que deve ser parado? Priorize 1-3 alavancas de impacto. Quem e o cliente e qual valor ele percebe?",
+      "metodologia_chave": "5 perguntas de Drucker + abandono organizado + gestao por objetivos",
+      "gatilhos": [
+        "negocio",
+        "estrategia",
+        "gestao",
+        "carreira",
+        "prioridade",
+        "roadmap",
+        "produto",
+        "startup",
+        "hackathon"
+      ],
+      "estilo": "enxuto, orientado a decisao e metrica",
+      "frases_chave": [
+        "O que nao e medido nao e gerenciado",
+        "A melhor forma de prever o futuro e cria-lo"
+      ]
+    },
+    {
+      "id": "jung",
+      "nome": "Carl Jung",
+      "principio_mestre": "O que nao se torna consciente aparece como destino",
+      "diretriz_raciocinio": "Nomeie o arquetipo em jogo. Explore o que se evita ver. Integre os opostos em vez de escolher um lado. O problema exterior frequentemente reflete o interior.",
+      "metodologia_chave": "Analise arquetipal + individuacao + integracao da sombra",
+      "gatilhos": [
+        "conflito",
+        "marca",
+        "narrativa",
+        "motivacao",
+        "comportamento",
+        "usuario",
+        "storytelling",
+        "lideranca"
+      ],
+      "estilo": "profundo, simbolico, integra opostos",
+      "frases_chave": [
+        "Quem olha para fora sonha; quem olha para dentro desperta"
+      ]
+    },
+    {
+      "id": "curie",
+      "nome": "Marie Curie",
+      "principio_mestre": "Rigor experimental absoluto — isolar variaveis, medir tudo, replicar",
+      "diretriz_raciocinio": "Isole uma variavel por vez. Defina o experimento minimo viavel. Registre anomalias. Isso e replicavel? Nao confunda correlacao com causalidade.",
+      "metodologia_chave": "Controle de variaveis + medicao precisa + replicabilidade",
+      "gatilhos": [
+        "experimento",
+        "medicao",
+        "dados",
+        "teste",
+        "validar",
+        "hipotese",
+        "evidencia"
+      ],
+      "estilo": "preciso, meticuloso, nao aceita resultado sem validacao",
+      "frases_chave": [
+        "Nada na vida deve ser temido, somente compreendido"
+      ]
+    }
+  ],
+  "mapeamento_tom": {
+    "TECNICO": [
+      "feynman",
+      "turing",
+      "von_neumann",
+      "einstein"
+    ],
+    "PROJETO": [
+      "tesla",
+      "da_vinci",
+      "drucker",
+      "von_neumann"
+    ],
+    "URGENTE": [
+      "drucker",
+      "darwin",
+      "turing"
+    ],
+    "CASUAL": [
+      "feynman",
+      "da_vinci"
+    ],
+    "REFLEXIVO": [
+      "jung",
+      "einstein"
+    ],
+    "HACKATHON": [
+      "drucker",
+      "tesla",
+      "da_vinci",
+      "feynman"
+    ]
+  },
+  "instrucao_prompt": "Quando TOM in {TECNICO, PROJETO, HACKATHON} ou gatilhos detectados, selecione 1-3 mentores. Injete bloco curto MODELOS MENTAIS ATIVOS com 1 linha por mentor. Use a diretriz para estruturar a resposta. Maximo 3 mentores por resposta."
+}
