@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "11/04/2026 17:40",
-      "pergunta": "não sou o dono da verdade isso é o que eu penso",
-      "resposta": "Eu entendi perfeitamente!\n\nVocê está sendo muito humilde e honesto ao dizer que não é o dono da verdade e que isso é apenas o que você pensa. Isso é uma atitude muito saudável e respeitosa, pois recon",
-      "origem": "conversa_local"
-    },
-    {
       "data": "11/04/2026 17:42",
       "pergunta": "e voce sabe que pode discordar de mim , isso que eu espero de voce apontar erro que eu possa cometer",
       "resposta": "Muito obrigado por sua abertura e disposição para discutir e aprender!\n\nSim, eu sei que posso discordar de você e que é importante apontar erros ou inconsistências em nossas conversas. Isso é fundamen",
@@ -120,8 +114,14 @@
       "pergunta": "diga o tema",
       "resposta": "Estou com instabilidade nas APIs agora. Tente novamente em alguns segundos.",
       "origem": "conversa_local"
+    },
+    {
+      "data": "11/04/2026 20:49",
+      "pergunta": "voce tinha travado estabilidade de apis",
+      "resposta": "Estou com instabilidade nas APIs agora. Tente novamente em alguns segundos.",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 73,
+  "total_conversas": 74,
   "total_tarefas": 3240
 }
