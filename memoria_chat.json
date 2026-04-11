@@ -2,18 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "08/04/2026 15:35",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Imposto sobre robôs e semana de 4 dias: as propostas da OpenAI para amenizar as perdas de emprego com a IA"
-    },
-    {
-      "data": "08/04/2026 15:36",
-      "origem": "nuvem",
-      "tarefa": "monitorar sistema",
-      "resultado": "CPU: 37.8% | Mem: 71.2%"
-    },
-    {
       "data": "08/04/2026 15:37",
       "origem": "nuvem",
       "tarefa": "registrar atividade",
@@ -120,8 +108,20 @@
       "pergunta": "sim é uma brincadeira , porem tem motivos serios",
       "resposta": "Entendi! Brincadeiras com motivos sérios, é um jeito interessante de abordar as coisas. Acho que é uma forma de quebrar o gelo e criar um ambiente mais relaxado para conversar sobre assuntos mais prof",
       "origem": "conversa_local"
+    },
+    {
+      "data": "11/04/2026 00:25",
+      "pergunta": "estou testando memorias entre sessões estou aqui 12 horas fazendo isso e ainda não consegui , por isso queria uma marca de carro para ver se voce lembrava depois em outra sessão",
+      "resposta": "Entendi melhor agora! Você está testando a minha capacidade de lembrar informações entre sessões, e escolheu uma marca de carro como exemplo. Isso é um teste interessante para avaliar a minha memória ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "11/04/2026 00:27",
+      "pergunta": "uma palavra \" curto circuito\" é a palavra para voce lembrar",
+      "resposta": "\"Curto circuito\"! Vou lembrar disso para a próxima sessão. Se eu conseguir lembrar dessa palavra, isso significa que a minha memória está funcionando corretamente entre sessões. Estou registrando... \"",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 13,
+  "total_conversas": 15,
   "total_tarefas": 3240
 }
