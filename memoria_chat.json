@@ -2,18 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "08/04/2026 15:37",
-      "origem": "nuvem",
-      "tarefa": "registrar atividade",
-      "resultado": "Atividade registrada as 15:37:51"
-    },
-    {
-      "data": "08/04/2026 15:38",
-      "origem": "nuvem",
-      "tarefa": "limpar memoria",
-      "resultado": "Memoria limpa"
-    },
-    {
       "data": "08/04/2026 15:39",
       "origem": "nuvem",
       "tarefa": "monitorar sistema",
@@ -120,8 +108,20 @@
       "pergunta": "uma palavra \" curto circuito\" é a palavra para voce lembrar",
       "resposta": "\"Curto circuito\"! Vou lembrar disso para a próxima sessão. Se eu conseguir lembrar dessa palavra, isso significa que a minha memória está funcionando corretamente entre sessões. Estou registrando... \"",
       "origem": "conversa_local"
+    },
+    {
+      "data": "11/04/2026 00:28",
+      "pergunta": "lembra de alguma palavra",
+      "resposta": "Lembro de uma conversa anterior sobre um sistema onde funções dependem umas das outras e quando uma falha, tudo quebra. Você quer saber como resolver esse problema?",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "11/04/2026 00:29",
+      "pergunta": "não ainda , a palavra teste era curto circuito",
+      "resposta": "Entendi! Sim, lembro agora. Curto circuito! É um termo interessante. Um curto circuito ocorre quando há um caminho inesperado de baixa resistência entre dois pontos de um circuito elétrico, causando u",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 15,
+  "total_conversas": 17,
   "total_tarefas": 3240
 }
