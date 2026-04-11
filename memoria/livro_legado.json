@@ -1,0 +1,43 @@
+{
+  "gerado_em": "2026-04-01T17:45:39.451961",
+  "versao": 1,
+  "score_integridade": 0.8,
+  "half_life_dias": -1.0,
+  "constituicao": {
+    "total": 0,
+    "versao": 1,
+    "atualizado": "",
+    "por_nivel": {},
+    "por_dominio": {}
+  },
+  "camadas": {
+    "observado": [],
+    "recorrente": [
+      {
+        "fonte": "crenca",
+        "texto": "\"prefiro autonomia e ser independente de prompts\"",
+        "dominio": "autonomia",
+        "nivel_verdade": "recorrente",
+        "confianca": 0.95,
+        "contagem": 4,
+        "ativa": true,
+        "id": "d78ca293"
+      },
+      {
+        "fonte": "crenca",
+        "texto": "prefiro autonomia e ser independente de prompts",
+        "dominio": "autonomia",
+        "nivel_verdade": "recorrente",
+        "confianca": 0.95,
+        "contagem": 4,
+        "ativa": true,
+        "id": "e3b6fc4f"
+      }
+    ],
+    "inferido": [],
+    "narrativo": []
+  },
+  "permanencias_core": [],
+  "grandes_mudancas": [],
+  "aviso": "Este retrato cognitivo contém afirmações classificadas por nível de verdade. Afirmações 'inferidas' e 'narrativas' são interpretações, não fatos verificados."
+}
