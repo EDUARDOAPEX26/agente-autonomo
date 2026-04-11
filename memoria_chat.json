@@ -2,18 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "08/04/2026 15:28",
-      "origem": "nuvem",
-      "tarefa": "buscar noticias tech",
-      "resultado": "Imposto sobre robôs e semana de 4 dias: as propostas da OpenAI para amenizar as perdas de emprego com a IA"
-    },
-    {
-      "data": "08/04/2026 15:29",
-      "origem": "nuvem",
-      "tarefa": "verificar sistema",
-      "resultado": "Nenhuma API disponível no momento."
-    },
-    {
       "data": "08/04/2026 15:30",
       "origem": "nuvem",
       "tarefa": "limpar memoria",
@@ -120,8 +108,20 @@
       "pergunta": "vou te perguntar depois",
       "resposta": "Ok, Eduardo! Não há pressa. Você pode me perguntar sobre o número 122 ou qualquer outra coisa quando quiser. Estou aqui para ajudar e responder às suas perguntas. Vamos continuar conversando!",
       "origem": "conversa_local"
+    },
+    {
+      "data": "10/04/2026 23:52",
+      "pergunta": "qual o numero que te passei?",
+      "resposta": "letra via sms para 35742 receba seu numero.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "10/04/2026 23:53",
+      "pergunta": "era 122",
+      "resposta": "Nao tenho registro disso. Nao recebi nenhum numero de voce. Somos apenas um chat, nao temos capacidade de receber mensagens de texto ou SMS. Estou aqui para conversar e ajudar com suas perguntas!",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 6,
+  "total_conversas": 8,
   "total_tarefas": 3240
 }
