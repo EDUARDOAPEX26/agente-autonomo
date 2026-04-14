@@ -1,0 +1,174 @@
+{
+  "autonomia_vs_dependencia": {
+    "id": "autonomia_vs_dependencia",
+    "contagem": 8,
+    "ultima_vez": "2026-04-08T14:26:25.736927",
+    "historico": [
+      {
+        "timestamp": "2026-04-02T07:41:03.763955",
+        "trecho": "quero autonomia mas nao sei como fazer isso de novo"
+      },
+      {
+        "timestamp": "2026-04-02T07:41:03.787846",
+        "trecho": "quero autonomia mas nao sei como fazer isso de novo"
+      },
+      {
+        "timestamp": "2026-04-02T07:41:03.808365",
+        "trecho": "quero autonomia mas nao sei como fazer isso de novo"
+      },
+      {
+        "timestamp": "2026-04-02T07:46:24.162630",
+        "trecho": "quero autonomia mas nao sei como fazer isso de novo"
+      },
+      {
+        "timestamp": "2026-04-02T07:46:24.185108",
+        "trecho": "quero autonomia mas nao sei como fazer isso de novo"
+      },
+      {
+        "timestamp": "2026-04-02T07:46:24.208512",
+        "trecho": "quero autonomia mas nao sei como fazer isso de novo"
+      },
+      {
+        "timestamp": "2026-04-07T01:12:54.103056",
+        "trecho": "Qual o sentido da vida?"
+      },
+      {
+        "timestamp": "2026-04-08T14:26:25.736927",
+        "trecho": "me diz então pois estou a 20 dias tentando descobrir isso"
+      }
+    ]
+  },
+  "decisao_vs_analise": {
+    "id": "decisao_vs_analise",
+    "contagem": 12,
+    "ultima_vez": "2026-04-11T19:14:20.400203",
+    "historico": [
+      {
+        "timestamp": "2026-04-05T09:57:58.268855",
+        "trecho": "Me ajude a decidir se devo trocar de emprego ou não"
+      },
+      {
+        "timestamp": "2026-04-05T10:11:13.093232",
+        "trecho": "Me ajude a decidir se devo trocar de emprego ou não"
+      },
+      {
+        "timestamp": "2026-04-05T21:20:41.268064",
+        "trecho": "Me ajude a decidir se devo trocar de emprego ou não"
+      },
+      {
+        "timestamp": "2026-04-05T22:28:05.645330",
+        "trecho": "Me ajude a decidir se devo trocar de emprego ou não"
+      },
+      {
+        "timestamp": "2026-04-05T22:33:21.970565",
+        "trecho": "Me ajude a decidir se devo trocar de emprego ou não"
+      },
+      {
+        "timestamp": "2026-04-06T07:55:04.562835",
+        "trecho": "Me ajude a decidir se devo trocar de emprego ou não"
+      },
+      {
+        "timestamp": "2026-04-07T01:01:55.369233",
+        "trecho": "Me ajude a decidir se devo trocar de emprego ou não"
+      },
+      {
+        "timestamp": "2026-04-07T01:22:52.770670",
+        "trecho": "Me ajude a decidir se devo trocar de emprego ou não"
+      },
+      {
+        "timestamp": "2026-04-08T14:40:19.188330",
+        "trecho": "se voce for autonamo sem ser idepentente , como saber se realmente é autonamo pois não tem independe"
+      },
+      {
+        "timestamp": "2026-04-08T17:17:09.320040",
+        "trecho": "sobre como ele equilibra a execução de ordens com a sua busca por autonomia.?"
+      },
+      {
+        "timestamp": "2026-04-11T17:30:42.946095",
+        "trecho": "que eu queria dizer é , uma pessoa so pode ser auto sustentavel e vicver de recursos naturais , por "
+      },
+      {
+        "timestamp": "2026-04-11T19:14:20.400203",
+        "trecho": "Se você tivesse que abrir uma empresa para pagar sua GPU 5090, qual seria o nome?\""
+      }
+    ]
+  },
+  "ousadia_vs_cautela": {
+    "id": "ousadia_vs_cautela",
+    "contagem": 2,
+    "ultima_vez": "2026-04-10T18:21:31.415334",
+    "historico": [
+      {
+        "timestamp": "2026-04-07T15:09:01.958247",
+        "trecho": "Se ainda não funcionar, me avise que vamos para o próximo nível (forçar no prompt do LLM diretamente"
+      },
+      {
+        "timestamp": "2026-04-10T18:21:31.415334",
+        "trecho": "me diz ; porque testamos coisas?"
+      }
+    ]
+  },
+  "velocidade_vs_complexidade": {
+    "id": "velocidade_vs_complexidade",
+    "contagem": 14,
+    "ultima_vez": "2026-04-11T18:58:49.092512",
+    "historico": [
+      {
+        "timestamp": "2026-04-07T19:27:58.394858",
+        "trecho": "{\n  \"schema_version\": \"1.0\",\n  \"atualizado_em\": \"2026-03-22\",\n  \"criador\": \"Eduardo Conceicao — Atib"
+      },
+      {
+        "timestamp": "2026-04-08T15:19:45.011101",
+        "trecho": "sim e agora estou mudando o railway para a Render"
+      },
+      {
+        "timestamp": "2026-04-08T19:13:50.837056",
+        "trecho": "\"Acesse agora o seu livro_mentores.json. Sem fazer buscas na internet, me diga: quem são os mentores"
+      },
+      {
+        "timestamp": "2026-04-09T11:31:08.928784",
+        "trecho": "análise técnica crítica: O livro 'Clean Architecture' prega o desacoplamento total. No entanto, esta"
+      },
+      {
+        "timestamp": "2026-04-09T12:50:19.786932",
+        "trecho": "\"Agente, o motor lógico está excelente. Agora, para podermos vender isso por R$ 1.500,00, precisamos"
+      },
+      {
+        "timestamp": "2026-04-09T12:55:07.973127",
+        "trecho": "Agente, o relatório está ficando profissional. Para fecharmos o MVP com chave de ouro e começarmos a"
+      },
+      {
+        "timestamp": "2026-04-09T18:48:54.292482",
+        "trecho": "MANUAL DO AGENTE AUTÔNOMO\nDocumentação Técnica Completa\nEduardo Conceição  |  Atibaia-SP  |  Abril 2"
+      },
+      {
+        "timestamp": "2026-04-09T18:50:32.986528",
+        "trecho": "esse manual é voce"
+      },
+      {
+        "timestamp": "2026-04-10T14:37:11.337027",
+        "trecho": "o que é dificil em voce , é isso ; se mudo um fichario aqui para ajustar um bug aqui ,acabo gerando "
+      },
+      {
+        "timestamp": "2026-04-10T14:40:45.051366",
+        "trecho": "é por isso que eu queria te dar a fase 41 onde voce mesmo pode se auto ajustar , iria usar o railway"
+      },
+      {
+        "timestamp": "2026-04-10T15:13:04.932575",
+        "trecho": "\"\"\"\ncore/internal_parliament.py\nFase 26 — Parlamento Interno com pesos dinâmicos reais.\n\nCORREÇÃO v4"
+      },
+      {
+        "timestamp": "2026-04-10T18:21:31.415334",
+        "trecho": "me diz ; porque testamos coisas?"
+      },
+      {
+        "timestamp": "2026-04-11T16:56:31.903033",
+        "trecho": "voce vai fazer analise de mercado , vai pesquisar  indeces se voce descobrir tendencias por exemplo "
+      },
+      {
+        "timestamp": "2026-04-11T18:58:49.092512",
+        "trecho": "agora vamos para o debate de fisica quantica esta preparado?"
+      }
+    ]
+  }
+}
