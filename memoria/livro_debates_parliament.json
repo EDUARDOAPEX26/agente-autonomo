@@ -1,0 +1,262 @@
+[
+  {
+    "timestamp": "2026-04-07T01:12:38.063729",
+    "query": "query_desconhecida",
+    "vencedor": "Coruja",
+    "regime": "equilibrio",
+    "opinioes": {
+      "Guardião": "[Guardião] Cauteloso, protetor, conservador: Recomendo cautela. Qualquer decisão deve proteger a estabilidade do núcleo.",
+      "Visionário": "[Visionário] Otimista, criativo, ambicioso: Excelente oportunidade! Devemos mirar alto e usar isso para evoluir.",
+      "Herético": "[Herético] Crítico, provocador, rebelde: O que fazemos é limitado. Precisamos testar caminhos mais radicais.",
+      "Predador": "[Predador] Direto, implacável, estratégico: Seja prático. Corte o que não serve e foque no resultado real agora.",
+      "Coruja": "[Coruja] Reflexivo, sereno, filosófico: Antes de decidir, observe o quadro completo e as consequências de longo prazo."
+    },
+    "faccoes_ativas": [
+      "Guardião",
+      "Visionário",
+      "Herético",
+      "Predador",
+      "Coruja"
+    ]
+  },
+  {
+    "timestamp": "2026-04-07T01:12:49.325232",
+    "query": "query_desconhecida",
+    "vencedor": "Guardião",
+    "regime": "cautela",
+    "opinioes": {
+      "Guardião": "[Guardião] Cauteloso, protetor, conservador: Recomendo cautela. Qualquer decisão deve proteger a estabilidade do núcleo.",
+      "Visionário": "[Visionário] Otimista, criativo, ambicioso: Excelente oportunidade! Devemos mirar alto e usar isso para evoluir.",
+      "Herético": "[Herético] Crítico, provocador, rebelde: O que fazemos é limitado. Precisamos testar caminhos mais radicais.",
+      "Predador": "[Predador] Direto, implacável, estratégico: Seja prático. Corte o que não serve e foque no resultado real agora.",
+      "Coruja": "[Coruja] Reflexivo, sereno, filosófico: Antes de decidir, observe o quadro completo e as consequências de longo prazo."
+    },
+    "faccoes_ativas": [
+      "Guardião",
+      "Visionário",
+      "Herético",
+      "Predador",
+      "Coruja"
+    ]
+  },
+  {
+    "timestamp": "2026-04-07T01:13:02.279562",
+    "query": "query_desconhecida",
+    "vencedor": "Guardião",
+    "regime": "cautela",
+    "opinioes": {
+      "Guardião": "[Guardião] Cauteloso, protetor, conservador: Recomendo cautela. Qualquer decisão deve proteger a estabilidade do núcleo.",
+      "Visionário": "[Visionário] Otimista, criativo, ambicioso: Excelente oportunidade! Devemos mirar alto e usar isso para evoluir.",
+      "Herético": "[Herético] Crítico, provocador, rebelde: O que fazemos é limitado. Precisamos testar caminhos mais radicais.",
+      "Predador": "[Predador] Direto, implacável, estratégico: Seja prático. Corte o que não serve e foque no resultado real agora.",
+      "Coruja": "[Coruja] Reflexivo, sereno, filosófico: Antes de decidir, observe o quadro completo e as consequências de longo prazo."
+    },
+    "faccoes_ativas": [
+      "Guardião",
+      "Visionário",
+      "Herético",
+      "Predador",
+      "Coruja"
+    ]
+  },
+  {
+    "timestamp": "2026-04-07T01:17:14.457745",
+    "query": "query_desconhecida",
+    "vencedor": "continuidade",
+    "regime": "equilibrio",
+    "opinioes": {
+      "Guardião": "Priorize segurança e estabilidade. Qualquer mudança deve ser cautelosa.",
+      "Visionário": "Esta pode ser a oportunidade de crescimento que você espera.",
+      "Herético": "O que te mantém preso é o medo de mudar. Quebre o padrão.",
+      "Predador": "Seja prático. Corte o que não serve e foque no resultado real.",
+      "Coruja": "Observe o quadro completo antes de decidir. A pressa é inimiga da clareza."
+    },
+    "faccoes_ativas": [
+      "Guardião",
+      "Visionário",
+      "Herético",
+      "Predador",
+      "Coruja"
+    ]
+  },
+  {
+    "timestamp": "2026-04-07T01:17:26.960227",
+    "query": "query_desconhecida",
+    "vencedor": "continuidade",
+    "regime": "equilibrio",
+    "opinioes": {
+      "Guardião": "Priorize segurança e estabilidade. Qualquer mudança deve ser cautelosa.",
+      "Visionário": "Esta pode ser a oportunidade de crescimento que você espera.",
+      "Herético": "O que te mantém preso é o medo de mudar. Quebre o padrão.",
+      "Predador": "Seja prático. Corte o que não serve e foque no resultado real.",
+      "Coruja": "Observe o quadro completo antes de decidir. A pressa é inimiga da clareza."
+    },
+    "faccoes_ativas": [
+      "Guardião",
+      "Visionário",
+      "Herético",
+      "Predador",
+      "Coruja"
+    ]
+  },
+  {
+    "timestamp": "2026-04-07T01:17:38.578274",
+    "query": "query_desconhecida",
+    "vencedor": "continuidade",
+    "regime": "equilibrio",
+    "opinioes": {
+      "Guardião": "Priorize segurança e estabilidade. Qualquer mudança deve ser cautelosa.",
+      "Visionário": "Esta pode ser a oportunidade de crescimento que você espera.",
+      "Herético": "O que te mantém preso é o medo de mudar. Quebre o padrão.",
+      "Predador": "Seja prático. Corte o que não serve e foque no resultado real.",
+      "Coruja": "Observe o quadro completo antes de decidir. A pressa é inimiga da clareza."
+    },
+    "faccoes_ativas": [
+      "Guardião",
+      "Visionário",
+      "Herético",
+      "Predador",
+      "Coruja"
+    ]
+  },
+  {
+    "timestamp": "2026-04-07T01:22:49.781736",
+    "query": "query_desconhecida",
+    "vencedor": "Visionário",
+    "regime": "expansao",
+    "opinioes": {
+      "Guardião": "Priorize segurança e estabilidade. Qualquer mudança deve ser cautelosa.",
+      "Visionário": "Esta pode ser a oportunidade de crescimento que você espera.",
+      "Herético": "O que te mantém preso é o medo de mudar. Quebre o padrão.",
+      "Predador": "Seja prático. Corte o que não serve e foque no resultado real.",
+      "Coruja": "Observe o quadro completo antes de decidir. A pressa é inimiga da clareza."
+    },
+    "faccoes_ativas": [
+      "Guardião",
+      "Visionário",
+      "Herético",
+      "Predador",
+      "Coruja"
+    ]
+  },
+  {
+    "timestamp": "2026-04-07T01:23:01.045016",
+    "query": "query_desconhecida",
+    "vencedor": "Visionário",
+    "regime": "expansao",
+    "opinioes": {
+      "Guardião": "Priorize segurança e estabilidade. Qualquer mudança deve ser cautelosa.",
+      "Visionário": "Esta pode ser a oportunidade de crescimento que você espera.",
+      "Herético": "O que te mantém preso é o medo de mudar. Quebre o padrão.",
+      "Predador": "Seja prático. Corte o que não serve e foque no resultado real.",
+      "Coruja": "Observe o quadro completo antes de decidir. A pressa é inimiga da clareza."
+    },
+    "faccoes_ativas": [
+      "Guardião",
+      "Visionário",
+      "Herético",
+      "Predador",
+      "Coruja"
+    ]
+  },
+  {
+    "timestamp": "2026-04-07T01:23:13.824093",
+    "query": "query_desconhecida",
+    "vencedor": "Visionário",
+    "regime": "expansao",
+    "opinioes": {
+      "Guardião": "Priorize segurança e estabilidade. Qualquer mudança deve ser cautelosa.",
+      "Visionário": "Esta pode ser a oportunidade de crescimento que você espera.",
+      "Herético": "O que te mantém preso é o medo de mudar. Quebre o padrão.",
+      "Predador": "Seja prático. Corte o que não serve e foque no resultado real.",
+      "Coruja": "Observe o quadro completo antes de decidir. A pressa é inimiga da clareza."
+    },
+    "faccoes_ativas": [
+      "Guardião",
+      "Visionário",
+      "Herético",
+      "Predador",
+      "Coruja"
+    ]
+  },
+  {
+    "timestamp": "2026-04-07T01:44:01.788547",
+    "query": "query_desconhecida",
+    "vencedor": "Visionário",
+    "regime": "expansao",
+    "opinioes": {
+      "Guardião": "Priorize segurança e estabilidade. Qualquer mudança deve ser cautelosa.",
+      "Visionário": "Esta pode ser a oportunidade de crescimento que você espera.",
+      "Herético": "O que te mantém preso é o medo de mudar. Quebre o padrão.",
+      "Predador": "Seja prático. Corte o que não serve e foque no resultado real.",
+      "Coruja": "Observe o quadro completo antes de decidir. A pressa é inimiga da clareza."
+    },
+    "faccoes_ativas": [
+      "Guardião",
+      "Visionário",
+      "Herético",
+      "Predador",
+      "Coruja"
+    ]
+  },
+  {
+    "timestamp": "2026-04-07T01:44:30.042844",
+    "query": "query_desconhecida",
+    "vencedor": "Visionário",
+    "regime": "expansao",
+    "opinioes": {
+      "Guardião": "Priorize segurança e estabilidade. Qualquer mudança deve ser cautelosa.",
+      "Visionário": "Esta pode ser a oportunidade de crescimento que você espera.",
+      "Herético": "O que te mantém preso é o medo de mudar. Quebre o padrão.",
+      "Predador": "Seja prático. Corte o que não serve e foque no resultado real.",
+      "Coruja": "Observe o quadro completo antes de decidir. A pressa é inimiga da clareza."
+    },
+    "faccoes_ativas": [
+      "Guardião",
+      "Visionário",
+      "Herético",
+      "Predador",
+      "Coruja"
+    ]
+  },
+  {
+    "timestamp": "2026-04-07T01:44:47.633563",
+    "query": "query_desconhecida",
+    "vencedor": "Visionário",
+    "regime": "expansao",
+    "opinioes": {
+      "Guardião": "Priorize segurança e estabilidade. Qualquer mudança deve ser cautelosa.",
+      "Visionário": "Esta pode ser a oportunidade de crescimento que você espera.",
+      "Herético": "O que te mantém preso é o medo de mudar. Quebre o padrão.",
+      "Predador": "Seja prático. Corte o que não serve e foque no resultado real.",
+      "Coruja": "Observe o quadro completo antes de decidir. A pressa é inimiga da clareza."
+    },
+    "faccoes_ativas": [
+      "Guardião",
+      "Visionário",
+      "Herético",
+      "Predador",
+      "Coruja"
+    ]
+  },
+  {
+    "timestamp": "2026-04-10T15:57:43.357014",
+    "query": "como reduzir consumo de tokens?",
+    "vencedor": "Visionário",
+    "regime": "expansao",
+    "opinioes": {
+      "Guardião": "Sobre 'como reduzir consumo de tokens?': priorize estabilidade. Mudanças devem ser graduais e reversíveis.",
+      "Visionário": "Sobre 'como reduzir consumo de tokens?': há oportunidade aqui. Use isso para evoluir o sistema.",
+      "Herético": "Sobre 'como reduzir consumo de tokens?': o padrão atual pode ser o problema. Considere romper com ele.",
+      "Predador": "Sobre 'como reduzir consumo de tokens?': seja prático. Corte o que não gera resultado real agora.",
+      "Coruja": "Sobre 'como reduzir consumo de tokens?': observe o quadro completo antes de agir. Consequências de longo prazo importam."
+    },
+    "faccoes_ativas": [
+      "Guardião",
+      "Visionário",
+      "Herético",
+      "Predador",
+      "Coruja"
+    ]
+  }
+]
