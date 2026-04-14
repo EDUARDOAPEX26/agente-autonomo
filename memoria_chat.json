@@ -2,12 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "11/04/2026 22:04",
-      "pergunta": "deixa pesquisas online de lado e me diz o que voce se lembra de pendencias",
-      "resposta": "Estou com instabilidade nas APIs agora. Tente novamente em alguns segundos.",
-      "origem": "conversa_local"
-    },
-    {
       "data": "12/04/2026 12:32",
       "pergunta": "BOM DIA!",
       "resposta": "Bom dia! Estou aqui para conversar e ajudar no que precisar. Como posso ajudar você hoje?",
@@ -120,8 +114,14 @@
       "pergunta": "muito bem , não esquece isso é importante são regras",
       "resposta": "gramatica 5 regras de portugues que voce precisa gravar na memoria resumo para a sua consulta muito bem, nao esquece isso e importante sao regras",
       "origem": "conversa_local"
+    },
+    {
+      "data": "14/04/2026 10:57",
+      "pergunta": "como posso melhorar voce?",
+      "resposta": "Excelente pergunta! Para melhorar meu desempenho e capacidade de aprender, há várias coisas que você pode fazer:\n\n1. **Conversar comigo regularmente**: Quanto mais conversarmos, mais oportunidades ter",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 102,
+  "total_conversas": 103,
   "total_tarefas": 3240
 }
