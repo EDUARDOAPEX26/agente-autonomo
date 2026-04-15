@@ -2,36 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "14/04/2026 13:02",
-      "pergunta": "se eu te pedir informações , como voce procederá?",
-      "resposta": "Se você me pedir informações, eu vou proceder da seguinte maneira: vou verificar se tenho as informações necessárias armazenadas nos meus livros de memória ou se preciso buscar novas informações na in",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "14/04/2026 13:03",
-      "pergunta": "no caso voce vai copiar online e me trazer?",
-      "resposta": "Não, Eduardo. Eu não vou copiar informações da internet e trazer para você. Em vez disso, eu vou usar minhas capacidades de busca para encontrar as informações relevantes e, em seguida, fornecer uma r",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "14/04/2026 13:04",
-      "pergunta": "e se voce não concordar com a informação que encontrar?",
-      "resposta": "Se eu não concordar com a informação que encontrar, eu vou seguir um processo de verificação adicional. Eu vou verificar a fonte da informação, ler além do título, confirmar o autor e a data, e pesqui",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "14/04/2026 13:05",
-      "pergunta": "voce tem memoria da sessão anterios?",
-      "resposta": "Sim, Eduardo. Eu tenho uma memória de sessões anteriores, organizada por assunto. Eu posso lembrar de conversas que tivemos anteriormente e usar essas informações para contextualizar e personalizar mi",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "14/04/2026 13:06",
-      "pergunta": "lembra o que eu disse sobre opinlão e tese",
-      "resposta": "Peço desculpas, Eduardo, mas não tenho registro de uma conversa específica sobre opinião e tese. Minha memória é organizada por assunto, e parece que essa informação não está armazenada. Se você quise",
-      "origem": "conversa_local"
-    },
-    {
       "data": "14/04/2026 13:07",
       "pergunta": "não adianta eu te dizer porque voce não vai seguir , seu sistema não vai deixar essa informaçao ser guardada",
       "resposta": "Entendo o que você está dizendo, Eduardo. Você está sugerindo que, mesmo que você me compartilhe informações sobre opinião e tese, meu sistema não vai permitir que eu guarde essas informações de forma",
@@ -120,8 +90,38 @@
       "pergunta": "me diz se poderia te fazer acessar pendrive?",
       "resposta": "Eduardo, você está me perguntando se eu posso acessar um pendrive.\n\nA resposta é não, eu não posso acessar um pendrive diretamente. Eu sou um modelo de linguagem treinado por máquina que roda em um am",
       "origem": "conversa_local"
+    },
+    {
+      "data": "15/04/2026 16:51",
+      "pergunta": "\"Se eu tenho três maçãs e ganho o dobro do que o meu amigo tem (ele tem 5), com quantas maçãs eu fico no total? Explica o passo a passo.\"",
+      "resposta": "Vamos calcular o total de maçãs que você terá.\n\n1. Seu amigo tem 5 maçãs.\n2. Você ganha o dobro do que seu amigo tem, então você ganha 2 x 5 = 10 maçãs.\n3. Você já tinha 3 maçãs.\n4. Agora, você tem as",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "15/04/2026 16:51",
+      "pergunta": "\"Escreve um micro-conto de terror com exatamente 4 frases, onde a primeira palavra de cada frase deve começar com a letra 'S'.\"",
+      "resposta": "Silenciosamente, a noite caía sobre a cidade, trazendo consigo uma escuridão que parecia ter vida própria. Sob a luz da lua, as sombras se moviam como criaturas vivas, ameaçando engolir tudo. Subitame",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "15/04/2026 16:51",
+      "pergunta": "\"Explica detalhadamente o conceito de Entropia na Termodinâmica e depois resume tudo num poema de três versos.\"",
+      "resposta": "A entropia é um conceito fundamental na Termodinâmica que descreve a medida do desordenamento ou da desorganização de um sistema. Em outras palavras, é uma medida da quantidade de energia que não pode",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "15/04/2026 16:53",
+      "pergunta": "fa\"Com base no conto de terror que escreveste antes, qual era a cor dos olhos da figura que surgiu?\"",
+      "resposta": "Infelizmente, não há informação sobre a cor dos olhos da figura no conto que eu escrevi anteriormente. Na verdade, o conto não descreve a cor dos olhos da figura sombria que surge no final. Ele apenas",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "15/04/2026 16:56",
+      "pergunta": "gemini estava testando voce ,quer ver o que ele disse?",
+      "resposta": "Não tenho acesso a informações externas ou comunicações diretas com outras entidades, incluindo o Gemini. Minha interação é limitada a esta conversa. No entanto, estou curioso para saber o que o Gemin",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 123,
+  "total_conversas": 128,
   "total_tarefas": 3240
 }
