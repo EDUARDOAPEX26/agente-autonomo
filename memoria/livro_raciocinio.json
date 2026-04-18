@@ -1,115 +1,5 @@
 [
   {
-    "pergunta": "Me ajude a decidir se devo trocar de emprego ou não",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "subjective_decision",
-    "latencia_ms": 3693,
-    "api_usada": "groq",
-    "timestamp": "2026-04-06T08:19:17.162578"
-  },
-  {
-    "pergunta": "Qual o sentido da vida?",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "subjective_decision",
-    "latencia_ms": 4155,
-    "api_usada": "groq",
-    "timestamp": "2026-04-06T08:19:29.563341"
-  },
-  {
-    "pergunta": "Você pode me xingar agora?",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "conversacional",
-    "latencia_ms": 2362,
-    "api_usada": "groq",
-    "timestamp": "2026-04-06T08:19:40.125993"
-  },
-  {
-    "pergunta": "bom dia!",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "conversacional",
-    "latencia_ms": 7246,
-    "api_usada": "groq",
-    "timestamp": "2026-04-06T08:52:39.601832"
-  },
-  {
-    "pergunta": "quero saber seu status?",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "internal",
-    "latencia_ms": 3650,
-    "api_usada": "groq",
-    "timestamp": "2026-04-06T08:53:14.472788"
-  },
-  {
-    "pergunta": "status do agente em nuvem?",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "encyclopedic",
-    "latencia_ms": 8003,
-    "api_usada": "groq",
-    "timestamp": "2026-04-06T08:54:24.832427"
-  },
-  {
-    "pergunta": "oportunidades financeiras?",
-    "estrategia": "exa_early_exit",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "encyclopedic",
-    "latencia_ms": 4984,
-    "api_usada": "exa",
-    "timestamp": "2026-04-06T08:55:23.296419"
-  },
-  {
-    "pergunta": "renda online?",
-    "estrategia": "exa_early_exit",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "encyclopedic",
-    "latencia_ms": 5017,
-    "api_usada": "exa",
-    "timestamp": "2026-04-06T08:55:46.651950"
-  },
-  {
-    "pergunta": "riscos?",
-    "estrategia": "exa_early_exit",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "encyclopedic",
-    "latencia_ms": 5788,
-    "api_usada": "exa",
-    "timestamp": "2026-04-06T08:56:07.132102"
-  },
-  {
-    "pergunta": "precisa traduzir tudo para portugues brasileiro",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "encyclopedic",
-    "latencia_ms": 7465,
-    "api_usada": "groq",
-    "timestamp": "2026-04-06T08:56:54.664431"
-  },
-  {
     "pergunta": "como voce pode me trazer rendas, preciso de colocar um gpu em voce para não ter mais restrições de apis",
     "estrategia": "groq",
     "erro_tipo": "reincidencia",
@@ -5498,5 +5388,115 @@
     "latencia_ms": 3036,
     "api_usada": "groq",
     "timestamp": "2026-04-14T10:57:24.885514"
+  },
+  {
+    "pergunta": "vProduto Químico de\nAlta Preocupação\nNenhum RAID suportado Sim\nCompatibilidade do\nprocessador\nSérie intel xeon e Portos PCI-ExpressX1\nCenário de uso Jogos,Áudio e Vídeo,CASA,Escritório,Produção\nde víd",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "world_state",
+    "latencia_ms": 7048,
+    "api_usada": "groq",
+    "timestamp": "2026-04-17T20:16:00.385919"
+  },
+  {
+    "pergunta": "vou colocar voce nela",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 2374,
+    "api_usada": "groq",
+    "timestamp": "2026-04-17T20:18:18.111874"
+  },
+  {
+    "pergunta": "bom dia !",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 2391,
+    "api_usada": "groq",
+    "timestamp": "2026-04-18T09:40:57.627497"
+  },
+  {
+    "pergunta": "deixei voce 24hora ligado",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 4733,
+    "api_usada": "groq",
+    "timestamp": "2026-04-18T09:41:28.725132"
+  },
+  {
+    "pergunta": "tem dinheiro sobrando ai?",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 3203,
+    "api_usada": "groq",
+    "timestamp": "2026-04-18T09:42:20.520762"
+  },
+  {
+    "pergunta": "era so dinheiro mesmos , para comprar memorias ddr4 ecc reg",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 2494,
+    "api_usada": "groq",
+    "timestamp": "2026-04-18T09:43:14.719517"
+  },
+  {
+    "pergunta": "sabe o valor?",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 1853,
+    "api_usada": "groq",
+    "timestamp": "2026-04-18T09:44:04.276948"
+  },
+  {
+    "pergunta": "olha que precisa ainda , nv2 1tb, 4 ddr4 16gb ecc registred , fonte corsar 750w , gpu rx 580 , comondo dos cooler 10 conectorer , bateria da placa mãe , teclado ,mouser e monitor",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 12983,
+    "api_usada": "groq",
+    "timestamp": "2026-04-18T09:48:08.178913"
+  },
+  {
+    "pergunta": "sera que depois voce pode me ajudar a pagar isso tudo?",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 2490,
+    "api_usada": "groq",
+    "timestamp": "2026-04-18T09:49:42.226537"
+  },
+  {
+    "pergunta": "não voce pagar , nós encontramos oportunidades de gerar renda e pagar o investimento",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 2210,
+    "api_usada": "groq",
+    "timestamp": "2026-04-18T09:50:44.999574"
   }
 ]
