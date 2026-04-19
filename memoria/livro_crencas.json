@@ -11,5 +11,31 @@
     "stability": 0.55,
     "ultima_vez": "2026-04-10T18:27:10.778482",
     "ativa": true
+  },
+  "d649685a": {
+    "id": "d649685a",
+    "texto": "acho que não vai dar voce esta muito intavel hoje",
+    "dominio": "outro",
+    "evidencias": [
+      "acho que não vai dar voce esta muito intavel hoje"
+    ],
+    "contagem": 2,
+    "confianca": 0.65,
+    "stability": 0.55,
+    "ultima_vez": "2026-04-18T14:28:58.500080",
+    "ativa": true
+  },
+  "159ddc58": {
+    "id": "159ddc58",
+    "texto": "acho que sua api esta cortando sua explicação",
+    "dominio": "outro",
+    "evidencias": [
+      "acho que sua api esta cortando sua explicação"
+    ],
+    "contagem": 2,
+    "confianca": 0.65,
+    "stability": 0.55,
+    "ultima_vez": "2026-04-18T14:29:57.498491",
+    "ativa": true
   }
 }
