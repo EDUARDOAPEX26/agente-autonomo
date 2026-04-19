@@ -237,9 +237,39 @@
       ],
       "revisoes": 0,
       "criado_em": "2026-04-10T18:27:10.778482",
-      "atualizado_em": "2026-04-18T09:50:45.021784"
+      "atualizado_em": "2026-04-18T22:24:08.961164"
+    },
+    {
+      "tipo": "crenca",
+      "texto": "acho que não vai dar voce esta muito intavel hoje",
+      "dominio": "outro",
+      "categoria": "outro",
+      "nivel_verdade": "inferido",
+      "confianca": 0.65,
+      "contagem": 2,
+      "evidencias": [
+        "acho que não vai dar voce esta muito intavel hoje"
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-18T14:28:58.500080",
+      "atualizado_em": "2026-04-18T22:24:08.961288"
+    },
+    {
+      "tipo": "crenca",
+      "texto": "acho que sua api esta cortando sua explicação",
+      "dominio": "outro",
+      "categoria": "outro",
+      "nivel_verdade": "inferido",
+      "confianca": 0.65,
+      "contagem": 2,
+      "evidencias": [
+        "acho que sua api esta cortando sua explicação"
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-04-18T14:29:57.498491",
+      "atualizado_em": "2026-04-18T22:24:08.961402"
     }
   ],
-  "atualizado_em": "2026-04-18T09:50:45.021875",
-  "versao": 303
+  "atualizado_em": "2026-04-18T22:24:08.961664",
+  "versao": 313
 }
