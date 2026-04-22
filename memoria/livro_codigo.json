@@ -2,26 +2,6 @@
   "assunto": "codigo",
   "entradas": [
     {
-      "data": "24/03/2026 10:23",
-      "pergunta": "python lista comprehension exemplo",
-      "resposta": "Uma lista comprehension em Python é uma forma concisa de criar listas. Aqui vai um exemplo:\n\n```python\n# Criar uma lista com os números de 1 a 10\nnumeros = [x for x in range(1, 11)]\nprint(numeros)  # "
-    },
-    {
-      "data": "25/03/2026 03:07",
-      "pergunta": "VOCE TEM ACESSO ALGUM CODIGO PY SEU?",
-      "resposta": "Sim, tenho acesso a alguns exemplos de código Python, incluindo listas de comprehension. Por exemplo, aqui vai um exemplo de como criar uma lista com os números de 1 a 10 usando lista de comprehension"
-    },
-    {
-      "data": "27/03/2026 20:51",
-      "pergunta": "\"Um mentor engenheiro resolveria esse bug: sistema quebra quando uma função depende da outra em cascata?\"",
-      "resposta": "Um mentor engenheiro provavelmente abordaria esse problema de várias maneiras. Aqui estão algumas estratégias que ele poderia usar:\n1. **Revisar a arquitetura do sistema**: O mentor engenheiro analisa"
-    },
-    {
-      "data": "28/03/2026 11:39",
-      "pergunta": "faz um script python para renomear arquivos",
-      "resposta": "Claro, aqui está um exemplo de script Python que renomeia arquivos em uma pasta especificada, adicionando um prefixo ou sufixo aos nomes dos arquivos. Este exemplo utiliza o módulo `os` para interagir"
-    },
-    {
       "data": "29/03/2026 15:58",
       "pergunta": "erro 500 o que é?",
       "resposta": "Um erro 500 é um código de erro HTTP que indica um problema interno no servidor. Quando um servidor web recebe uma requisição, ele pode retornar um código de erro para informar o cliente sobre o resul"
