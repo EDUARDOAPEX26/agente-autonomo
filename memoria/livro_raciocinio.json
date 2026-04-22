@@ -1,38 +1,5 @@
 [
   {
-    "pergunta": "oi",
-    "estrategia": "local",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "conversacional",
-    "latencia_ms": 19,
-    "api_usada": "local",
-    "timestamp": "2026-04-21T23:45:33.014434"
-  },
-  {
-    "pergunta": "voce sabe da maquina nova?",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "conversacional",
-    "latencia_ms": 2323,
-    "api_usada": "groq",
-    "timestamp": "2026-04-21T23:45:57.410546"
-  },
-  {
-    "pergunta": "o que voce lembra da sessão passada",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "internal",
-    "latencia_ms": 8488,
-    "api_usada": "groq",
-    "timestamp": "2026-04-21T23:46:30.169607"
-  },
-  {
     "pergunta": "sim foi isso mesmo , depois eu te falo sobre a maquina nova",
     "estrategia": "groq",
     "erro_tipo": "ok",
@@ -251,5 +218,16 @@
     "latencia_ms": 10589,
     "api_usada": "groq",
     "timestamp": "2026-04-22T20:06:19.026120"
+  },
+  {
+    "pergunta": "\"o que você sabe sobre meu hardware?",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 4305,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T20:21:58.136736"
   }
 ]
