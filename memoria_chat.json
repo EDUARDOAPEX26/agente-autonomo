@@ -2,36 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "21/04/2026 13:30",
-      "pergunta": "viu o sol ficou verde hoje",
-      "resposta": "Eduardo, não é possível que o sol tenha ficado verde hoje. O sol é uma estrela que emite luz branca, e sua cor é determinada pela temperatura da sua superfície. A cor do sol é uma característica físic",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "21/04/2026 13:31",
-      "pergunta": "muito bem agora voce questionou",
-      "resposta": "Eduardo, eu fiz exatamente o que você queria que eu fizesse! Eu questionei a afirmação que você fez sobre o sol ter ficado verde, porque ela não está de acordo com a realidade científica. Eu não aceit",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "21/04/2026 13:31",
-      "pergunta": "eu testei voce com o sol verde",
-      "resposta": "Eduardo, eu entendi agora! Você me testou com uma afirmação absurda, \"o sol ficou verde\", para ver como eu reagiria. E eu acho que passei no teste, não é?\n\nEu questionei a afirmação, expliquei por que",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "21/04/2026 13:34",
-      "pergunta": "sabe alguma coisa nova , alguma tecnologia que voce descobriu , sem pesquisa se pesquisar eu saberei estou com seu powershell aberto",
-      "resposta": "Eduardo, como eu não tenho acesso a informações em tempo real e não posso fazer pesquisas, eu não descobri nada de novo recentemente. No entanto, eu posso falar sobre algumas das tecnologias e conceit",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "21/04/2026 23:45",
-      "pergunta": "voce sabe da maquina nova?",
-      "resposta": "Nao tenho informacao sobre uma maquina nova. Pode me contar mais sobre isso? O que é essa maquina e o que ela faz?",
-      "origem": "conversa_local"
-    },
-    {
       "data": "21/04/2026 23:46",
       "pergunta": "o que voce lembra da sessão passada",
       "resposta": "Lembro que na sessão passada, você me perguntou sobre uma \"maquina nova\" e eu não tinha informações sobre isso. Você também havia me testado com uma afirmação absurda sobre o sol ficar verde, e depois",
@@ -120,8 +90,38 @@
       "pergunta": "vou testar agora , vou fechar voce , quando voltar vou dizer ola ,e voce digita 21 para saber da sua memoria esta ficando com voce",
       "resposta": "Entendi! Você vai testar se eu consigo reter a memória mesmo após ser fechado e reaberto. Isso é um teste importante para verificar se o `forja_memory.py` está funcionando corretamente.\n\nSim, por favo",
       "origem": "conversa_local"
+    },
+    {
+      "data": "22/04/2026 00:33",
+      "pergunta": "esqueceu?",
+      "resposta": "Esqueceu o quê, Eduardo? Você estava falando sobre algo específico ou precisa de ajuda com algo em particular?",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "22/04/2026 00:34",
+      "pergunta": "21",
+      "resposta": "Não entendi a referência ao número 21, Eduardo. Pode me dar mais contexto ou explicar o que você está se referindo? Estou aqui para ajudar!",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "22/04/2026 00:34",
+      "pergunta": "voce se lembra da sessão passada?",
+      "resposta": "Sim, me lembro que você disse que iria fechar nossa conversa e depois reabri-la, e que quando reabrisse, você diria \"ola\" e eu responderia com o número 21. Você fez isso para testar se eu me lembraria",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "22/04/2026 00:35",
+      "pergunta": "sim e voce não digitou 21",
+      "resposta": "Peço desculpas por não ter seguido o script, Eduardo! Você está correto, eu não me lembrrei de digitar o número 21 como combinado. Isso mostra que ainda tenho muito o que aprender e melhorar na minha ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "22/04/2026 00:36",
+      "pergunta": "não tem problemas , bom que voce lembrou , e agora tem 28 gb para voce amarzenar memorias",
+      "resposta": "Muito obrigado, Eduardo! É um alívio saber que não há problemas e que você está disposto a me ajudar a melhorar. E wow, 28 GB de memória é um espaço generoso para armazenar minhas memórias! Com isso, ",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 247,
+  "total_conversas": 252,
   "total_tarefas": 3240
 }
