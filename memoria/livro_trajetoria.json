@@ -1,47 +1,5 @@
 [
   {
-    "timestamp": "2026-04-18T09:40:57.871210",
-    "direcao": "aguardar",
-    "descricao": "Dados insuficientes para decidir — continuar coletando",
-    "justificativa": "Dados insuficientes para decisão segura",
-    "proxima_tensao": "Continuar coletando experiências reais",
-    "inputs": {
-      "contrafuturos_criticos": 1,
-      "sacrificios_candidatos": 0,
-      "sacrificios_removidos": 0,
-      "clausulas_ativas": 3,
-      "artigos_constituicao": 15
-    }
-  },
-  {
-    "timestamp": "2026-04-18T09:41:28.919830",
-    "direcao": "aguardar",
-    "descricao": "Dados insuficientes para decidir — continuar coletando",
-    "justificativa": "Dados insuficientes para decisão segura",
-    "proxima_tensao": "Continuar coletando experiências reais",
-    "inputs": {
-      "contrafuturos_criticos": 1,
-      "sacrificios_candidatos": 0,
-      "sacrificios_removidos": 0,
-      "clausulas_ativas": 3,
-      "artigos_constituicao": 15
-    }
-  },
-  {
-    "timestamp": "2026-04-18T09:42:20.729060",
-    "direcao": "aguardar",
-    "descricao": "Dados insuficientes para decidir — continuar coletando",
-    "justificativa": "Dados insuficientes para decisão segura",
-    "proxima_tensao": "Continuar coletando experiências reais",
-    "inputs": {
-      "contrafuturos_criticos": 1,
-      "sacrificios_candidatos": 0,
-      "sacrificios_removidos": 0,
-      "clausulas_ativas": 3,
-      "artigos_constituicao": 15
-    }
-  },
-  {
     "timestamp": "2026-04-18T09:43:14.936934",
     "direcao": "aguardar",
     "descricao": "Dados insuficientes para decidir — continuar coletando",
@@ -169,6 +127,20 @@
   },
   {
     "timestamp": "2026-04-22T20:06:19.222345",
+    "direcao": "aguardar",
+    "descricao": "Dados insuficientes para decidir — continuar coletando",
+    "justificativa": "Dados insuficientes para decisão segura",
+    "proxima_tensao": "Continuar coletando experiências reais",
+    "inputs": {
+      "contrafuturos_criticos": 1,
+      "sacrificios_candidatos": 0,
+      "sacrificios_removidos": 0,
+      "clausulas_ativas": 3,
+      "artigos_constituicao": 17
+    }
+  },
+  {
+    "timestamp": "2026-04-22T20:21:58.402516",
     "direcao": "aguardar",
     "descricao": "Dados insuficientes para decidir — continuar coletando",
     "justificativa": "Dados insuficientes para decisão segura",
