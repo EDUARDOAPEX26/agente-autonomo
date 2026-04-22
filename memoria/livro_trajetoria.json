@@ -1,33 +1,5 @@
 [
   {
-    "timestamp": "2026-04-11T00:59:13.648258",
-    "direcao": "expandir",
-    "descricao": "Momento de crescimento — novas capacidades são bem-vindas",
-    "justificativa": "3 cláusulas ativas — base constitucional sólida",
-    "proxima_tensao": "Novas capacidades podem ser adicionadas com segurança",
-    "inputs": {
-      "contrafuturos_criticos": 0,
-      "sacrificios_candidatos": 0,
-      "sacrificios_removidos": 0,
-      "clausulas_ativas": 3,
-      "artigos_constituicao": 15
-    }
-  },
-  {
-    "timestamp": "2026-04-11T00:59:56.981562",
-    "direcao": "expandir",
-    "descricao": "Momento de crescimento — novas capacidades são bem-vindas",
-    "justificativa": "3 cláusulas ativas — base constitucional sólida",
-    "proxima_tensao": "Novas capacidades podem ser adicionadas com segurança",
-    "inputs": {
-      "contrafuturos_criticos": 0,
-      "sacrificios_candidatos": 0,
-      "sacrificios_removidos": 0,
-      "clausulas_ativas": 3,
-      "artigos_constituicao": 15
-    }
-  },
-  {
     "timestamp": "2026-04-11T16:32:17.509465",
     "direcao": "expandir",
     "descricao": "Momento de crescimento — novas capacidades são bem-vindas",
@@ -1397,6 +1369,34 @@
       "sacrificios_removidos": 0,
       "clausulas_ativas": 3,
       "artigos_constituicao": 15
+    }
+  },
+  {
+    "timestamp": "2026-04-22T07:12:44.169335",
+    "direcao": "aguardar",
+    "descricao": "Dados insuficientes para decidir — continuar coletando",
+    "justificativa": "Dados insuficientes para decisão segura",
+    "proxima_tensao": "Continuar coletando experiências reais",
+    "inputs": {
+      "contrafuturos_criticos": 1,
+      "sacrificios_candidatos": 0,
+      "sacrificios_removidos": 0,
+      "clausulas_ativas": 3,
+      "artigos_constituicao": 17
+    }
+  },
+  {
+    "timestamp": "2026-04-22T07:13:04.959265",
+    "direcao": "aguardar",
+    "descricao": "Dados insuficientes para decidir — continuar coletando",
+    "justificativa": "Dados insuficientes para decisão segura",
+    "proxima_tensao": "Continuar coletando experiências reais",
+    "inputs": {
+      "contrafuturos_criticos": 1,
+      "sacrificios_candidatos": 0,
+      "sacrificios_removidos": 0,
+      "clausulas_ativas": 3,
+      "artigos_constituicao": 17
     }
   }
 ]
