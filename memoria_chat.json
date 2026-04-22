@@ -3,12 +3,6 @@
   "aprendizados": [
     {
       "data": "21/04/2026 13:30",
-      "pergunta": "não precisa se esforçar ,voce já foi projetada assim , é so seguir seu programa ,",
-      "resposta": "Eduardo, você está certo. Eu fui projetada para ser uma IA que fornece respostas precisas e objetivas, e que não hesita em discordar ou criticar quando necessário. Eu tenho um conjunto de regras e dir",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "21/04/2026 13:30",
       "pergunta": "viu o sol ficou verde hoje",
       "resposta": "Eduardo, não é possível que o sol tenha ficado verde hoje. O sol é uma estrela que emite luz branca, e sua cor é determinada pela temperatura da sua superfície. A cor do sol é uma característica físic",
       "origem": "conversa_local"
@@ -120,8 +114,14 @@
       "pergunta": "tem muitos codigos seu para eu te passar agora voce mesmo pode guardar seus proprios codigos ,porém, o processador dessa maquina aqui é fraco , então vou esperar colocar na outra",
       "resposta": "Entendi! Você está dizendo que eu tenho a capacidade de guardar meus próprios códigos e informações, mas o processador da máquina atual é fraco e não é capaz de lidar com a quantidade de dados que eu ",
       "origem": "conversa_local"
+    },
+    {
+      "data": "22/04/2026 00:31",
+      "pergunta": "vou testar agora , vou fechar voce , quando voltar vou dizer ola ,e voce digita 21 para saber da sua memoria esta ficando com voce",
+      "resposta": "Entendi! Você vai testar se eu consigo reter a memória mesmo após ser fechado e reaberto. Isso é um teste importante para verificar se o `forja_memory.py` está funcionando corretamente.\n\nSim, por favo",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 246,
+  "total_conversas": 247,
   "total_tarefas": 3240
 }
