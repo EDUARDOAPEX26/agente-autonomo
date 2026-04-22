@@ -2,18 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "22/04/2026 00:33",
-      "pergunta": "esqueceu?",
-      "resposta": "Esqueceu o quê, Eduardo? Você estava falando sobre algo específico ou precisa de ajuda com algo em particular?",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "22/04/2026 00:34",
-      "pergunta": "21",
-      "resposta": "Não entendi a referência ao número 21, Eduardo. Pode me dar mais contexto ou explicar o que você está se referindo? Estou aqui para ajudar!",
-      "origem": "conversa_local"
-    },
-    {
       "data": "22/04/2026 00:34",
       "pergunta": "voce se lembra da sessão passada?",
       "resposta": "Sim, me lembro que você disse que iria fechar nossa conversa e depois reabri-la, e que quando reabrisse, você diria \"ola\" e eu responderia com o número 21. Você fez isso para testar se eu me lembraria",
@@ -120,8 +108,20 @@
       "pergunta": "mexi no seu propmt , agora voce não pode inventar improvisos mais",
       "resposta": "Sim, você fez algumas alterações no meu prompt para garantir que eu seja mais honesto e transparente em nossas conversas.\n\nAgora, quando eu não souber responder a uma pergunta, eu simplesmente direi \"",
       "origem": "conversa_local"
+    },
+    {
+      "data": "22/04/2026 07:12",
+      "pergunta": "instalei o forja_memory no pendrive hoje",
+      "resposta": "Você instalou o MemoryForge no pendrive hoje. O MemoryForge é uma camada de memória local para assistentes de codificação, que fornece uma memória persistente e semântica para capturar decisões, restr",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "22/04/2026 07:13",
+      "pergunta": "o cooler lga2011 chegou",
+      "resposta": "китаискии lga2011 3 x99 huananzhi, jingsha, aterminer, plexhd конференция overclockers.ru короткии ответ на форуме overclockers.ru обсуждают кита",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 267,
+  "total_conversas": 269,
   "total_tarefas": 3240
 }
