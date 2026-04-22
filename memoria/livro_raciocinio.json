@@ -1,38 +1,5 @@
 [
   {
-    "pergunta": "acho que voce entendeu mal , queria que voce explicasse o seu pipeline ,não um generico",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "identidade_interna",
-    "latencia_ms": 3216,
-    "api_usada": "groq",
-    "timestamp": "2026-04-06T21:17:38.992141"
-  },
-  {
-    "pergunta": "acho que voce esta usando o errado o certo é esse Pipeline real atual (Fase 16–36)",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "internal",
-    "latencia_ms": 3239,
-    "api_usada": "groq",
-    "timestamp": "2026-04-06T21:19:54.323834"
-  },
-  {
-    "pergunta": "quantas fases já estão prontas?",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "internal",
-    "latencia_ms": 3076,
-    "api_usada": "groq",
-    "timestamp": "2026-04-06T21:30:21.749387"
-  },
-  {
     "pergunta": "são 36 fase prontas já , tem forja v1,v2 e v3",
     "estrategia": "groq",
     "erro_tipo": "ok",
@@ -5498,5 +5465,38 @@
     "latencia_ms": 3777,
     "api_usada": "groq",
     "timestamp": "2026-04-22T00:31:15.445107"
+  },
+  {
+    "pergunta": "instalei o forja_memory no pendrive hoje",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 13960,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T07:12:43.760376"
+  },
+  {
+    "pergunta": "o cooler lga2011 chegou",
+    "estrategia": "exa_early_exit",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 9411,
+    "api_usada": "exa",
+    "timestamp": "2026-04-22T07:13:04.757613"
+  },
+  {
+    "pergunta": "tudo bem",
+    "estrategia": "local",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 19,
+    "api_usada": "local",
+    "timestamp": "2026-04-22T07:13:26.737719"
   }
 ]
