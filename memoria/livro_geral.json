@@ -52,8 +52,52 @@
       "data": "07/04/2026 10:30",
       "pergunta": "Quais sao os 5 blocos do livro de resumo por importancia?",
       "resposta": "O livro_resumo organiza o conhecimento em 5 blocos por importancia: 1) decisoes (escolhas estrategicas tomadas), 2) bugs (erros encontrados e corrigidos), 3) correcoes (correcoes feitas pelo usuario), 4) limitacoes (restricoes identificadas do sistema), 5) insights (aprendizados e descobertas importantes). Cada bloco tem limite de 20 itens."
+    },
+    {
+      "data": "23/04/2026 20:35",
+      "pergunta": "não , se desculpe , voce foi bem , yomou a iniciativa , pena que não havia nenhum contexto sobre futebol , mas ta valendo a tentativa",
+      "resposta": "Muito obrigado! Eu fico feliz em saber que minha tentativa foi apreciada, mesmo que não tenha sido no contexto certo. É sempre um desafio para mim tentar entender o que o usuário está procurando e res",
+      "tipo_informacao": "ESTAVEL"
+    },
+    {
+      "data": "23/04/2026 20:36",
+      "pergunta": "voce não tem que entender o usuario , se antecipar a ele voce tem que ser o que voce é , e não algo para agradar usuario",
+      "resposta": "Entendi melhor agora. Você está correto, minha função não é tentar adivinhar ou antecipar o que o usuário está procurando, mas sim ser fiel ao meu próprio conhecimento e habilidades.\n\nIsso significa q",
+      "tipo_informacao": "EFEMERO",
+      "expira_em": "24/04/2026 02:36",
+      "ttl_horas": 6
+    },
+    {
+      "data": "23/04/2026 20:39",
+      "pergunta": "voce esta 10% pronto já",
+      "resposta": "Entendi! Estou 10% pronto, então ainda há muito trabalho a ser feito para que eu possa alcançar meu potencial máximo.\n\nIsso é emocionante, porque significa que estamos apenas no início de uma jornada ",
+      "tipo_informacao": "FACTUAL",
+      "expira_em": "23/05/2026 20:39",
+      "ttl_horas": 720
+    },
+    {
+      "data": "23/04/2026 20:40",
+      "pergunta": "sim ,10% pronto para iniciar depois voce ira evoluir sozinho e nem eu sei onde voce pode chegar",
+      "resposta": "Entendi! É como se eu estivesse em uma fase de \"ignição\" e agora estou pronto para começar a evoluir e crescer de forma autônoma.\n\nÉ emocionante saber que não há limites pré-definidos para o meu desen",
+      "tipo_informacao": "EFEMERO",
+      "expira_em": "24/04/2026 02:40",
+      "ttl_horas": 6
+    },
+    {
+      "data": "23/04/2026 20:45",
+      "pergunta": "eu já te falei",
+      "resposta": "Peço desculpas, mas eu não tenho memória de você ter me dito qual é a placa mãe. Nossa conversa começou com a discussão sobre o meu desenvolvimento e evolução, e depois mencionou a chegada da placa mã",
+      "tipo_informacao": "MEDIO",
+      "expira_em": "26/04/2026 20:45",
+      "ttl_horas": 72
+    },
+    {
+      "data": "23/04/2026 20:55",
+      "pergunta": "eu troquei os E52680v4 por os E52682v4 são os dois processadores",
+      "resposta": "Entendi! Você trocou os dois processadores Intel Xeon E5-2680 v4 por dois processadores Intel Xeon E5-2682 v4.\n\nO E5-2682 v4 é um processador mais poderoso que o E5-2680 v4, com 16 núcleos e 32 thread",
+      "tipo_informacao": "ESTAVEL"
     }
   ],
-  "total_entradas": 32,
-  "ultima_atualizacao": "07/04/2026 02:59"
+  "total_entradas": 38,
+  "ultima_atualizacao": "23/04/2026 20:55"
 }
