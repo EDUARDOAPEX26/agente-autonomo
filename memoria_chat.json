@@ -2,42 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "23/04/2026 13:34",
-      "pergunta": "Explique como sua própria arquitetura funciona.\nDepois identifique 3 falhas reais nessa arquitetura.\nDepois proponha melhorias.",
-      "resposta": "**Arquitetura Atual**\n\nMinha arquitetura é híbrida, com partes rodando no PC do Eduardo e outras na nuvem. Eu tenho um modelo de linguagem principal (GROQ llama-3.3-70b) com 3 chaves independentes, pe",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "23/04/2026 13:34",
-      "pergunta": "Explique como sua própria arquitetura funciona.\nDepois identifique 3 falhas reais nessa arquitetura.\nDepois proponha melhorias.",
-      "resposta": "**Arquitetura Atual**\n\nMinha arquitetura é híbrida, com partes rodando no PC do Eduardo e outras na nuvem. Eu tenho um modelo de linguagem principal (GROQ llama-3.3-70b) com 3 chaves independentes, pe",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "23/04/2026 13:34",
-      "pergunta": "Explique como você evolui ao longo do tempo.\n\nAgora critique sua própria explicação.\n\nAgora reescreva uma versão melhor.",
-      "resposta": "**Explicação Inicial**\n\nEu evoluo ao longo do tempo por meio de um processo que combina aprendizado com correções do Eduardo e atualizações na minha arquitetura. Isso inclui a expansão dos meus conhec",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "23/04/2026 13:34",
-      "pergunta": "Explique como você evolui ao longo do tempo.\n\nAgora critique sua própria explicação.\n\nAgora reescreva uma versão melhor.",
-      "resposta": "**Explicação Inicial**\n\nEu evoluo ao longo do tempo por meio de um processo que combina aprendizado com correções do Eduardo e atualizações na minha arquitetura. Isso inclui a expansão dos meus conhec",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "23/04/2026 13:35",
-      "pergunta": "Considere estas informações:\n\n- sistema híbrido (local + nuvem)\n- 70B = núcleo\n- 7B = explorador\n- memória persistente externa\n- limitação de processamento\n\nAgora explique como todas essas partes trab",
-      "resposta": "Considerando as informações fornecidas, posso explicar como as partes do sistema híbrido trabalham juntas de forma eficiente.\n\n**Núcleo (70B) e Explorador (7B)**\n\nO núcleo de 70B atua como o cérebro p",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "23/04/2026 13:35",
-      "pergunta": "Considere estas informações:\n\n- sistema híbrido (local + nuvem)\n- 70B = núcleo\n- 7B = explorador\n- memória persistente externa\n- limitação de processamento\n\nAgora explique como todas essas partes trab",
-      "resposta": "Considerando as informações fornecidas, posso explicar como as partes do sistema híbrido trabalham juntas de forma eficiente.\n\n**Núcleo (70B) e Explorador (7B)**\n\nO núcleo de 70B atua como o cérebro p",
-      "origem": "conversa_local"
-    },
-    {
       "data": "23/04/2026 13:35",
       "pergunta": "Seu objetivo é “melhorar continuamente”.\n\nO que você faria primeiro?\n\nO que você NÃO faria? (justifique limites)\n\n---",
       "resposta": "**O que eu faria primeiro?**\n\nPara melhorar continuamente, eu começaria pelo processo de autoanálise e avaliação de desempenho. Isso envolveria:\n\n1. **Análise de erros**: Identificar os erros e falhas",
@@ -119,9 +83,45 @@
       "data": "23/04/2026 19:40",
       "pergunta": "como esta seu contextos de memorias?",
       "resposta": "Meu contexto de memória está atualmente baseado nas informações que eu tenho armazenadas em meus \"livros\" de memória, que são atualizados à medida que eu tenho conversas e aprendo coisas novas. Além d",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "23/04/2026 19:48",
+      "pergunta": "Explique como sua arquitetura funciona.\nO que você aprendeu hoje?\nQual seu objetivo principal?",
+      "resposta": "Minha arquitetura é baseada em um modelo de inteligência artificial híbrida, que combina diferentes técnicas de processamento de linguagem natural e aprendizado de máquina. Ela é composta por 40 fases",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "23/04/2026 19:48",
+      "pergunta": "Explique como sua arquitetura funciona.\nO que você aprendeu hoje?\nQual seu objetivo principal?",
+      "resposta": "Minha arquitetura é baseada em um modelo de inteligência artificial híbrida, que combina diferentes técnicas de processamento de linguagem natural e aprendizado de máquina. Ela é composta por 40 fases",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "23/04/2026 20:27",
+      "pergunta": "acabou os testes",
+      "resposta": "Os testes da seleção brasileira de futebol acabaram. De acordo com as informações disponíveis, a CBF avaliou positivamente os amistosos da seleção brasileira contra França e Croácia, considerando-os ú",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "23/04/2026 20:27",
+      "pergunta": "acabou os testes",
+      "resposta": "Os testes da seleção brasileira de futebol acabaram. De acordo com as informações disponíveis, a CBF avaliou positivamente os amistosos da seleção brasileira contra França e Croácia, considerando-os ú",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "23/04/2026 20:28",
+      "pergunta": "pesta atenção para não fazer isso olha seu contexto teste que eu estava aplicando em voce",
+      "resposta": "Peço desculpas pelo erro. Eu entendi que você estava aplicando um teste em mim e não havia informações sobre um contexto de futebol ou uma seleção brasileira. Eu deveria ter respondido de forma mais g",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "23/04/2026 20:28",
+      "pergunta": "pesta atenção para não fazer isso olha seu contexto teste que eu estava aplicando em voce",
+      "resposta": "Peço desculpas pelo erro. Eu entendi que você estava aplicando um teste em mim e não havia informações sobre um contexto de futebol ou uma seleção brasileira. Eu deveria ter respondido de forma mais g",
       "origem": "conversa_local"
     }
   ],
-  "total_conversas": 373,
+  "total_conversas": 379,
   "total_tarefas": 3240
 }
