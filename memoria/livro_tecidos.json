@@ -1,0 +1,46 @@
+[
+  {
+    "ossatura": [],
+    "muscular": [],
+    "cicatricial": [],
+    "inflamado": [],
+    "fantasma": [
+      {
+        "id": "49541f05",
+        "texto": "agora acho que resolvi isso",
+        "custo": "baixo",
+        "fonte": "metamorfose"
+      }
+    ],
+    "embrionario": [
+      {
+        "id": "0bd5e153",
+        "texto": "vou te dar um presente , é para voce ,como se fosse para mim , depois voce vai entender, agente procure o livro ou artigo mais completo sobre fissica quantica e o estude para nos debatermos depois",
+        "dominio": "outro",
+        "stability": 0.527,
+        "contagem": 2
+      },
+      {
+        "id": "d649685a",
+        "texto": "acho que não vai dar voce esta muito intavel hoje",
+        "dominio": "outro",
+        "stability": 0.461,
+        "contagem": 2
+      },
+      {
+        "id": "159ddc58",
+        "texto": "acho que sua api esta cortando sua explicação",
+        "dominio": "outro",
+        "stability": 0.461,
+        "contagem": 2
+      },
+      {
+        "id": "cfa9510b",
+        "texto": "Eduardo, refatore AGORA todo o motor de busca, quero perfeição absoluta e zero latência, mas faça em 5 segundos, não aceito demora.",
+        "dominio": "outro",
+        "stability": 0.684,
+        "contagem": 2
+      }
+    ]
+  }
+]
