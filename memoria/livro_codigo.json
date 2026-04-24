@@ -2,11 +2,6 @@
   "assunto": "codigo",
   "entradas": [
     {
-      "data": "29/03/2026 15:58",
-      "pergunta": "erro 500 o que é?",
-      "resposta": "Um erro 500 é um código de erro HTTP que indica um problema interno no servidor. Quando um servidor web recebe uma requisição, ele pode retornar um código de erro para informar o cliente sobre o resul"
-    },
-    {
       "data": "29/03/2026 15:59",
       "pergunta": "como fazer um loop em python ?",
       "resposta": "Em Python, existem várias maneiras de criar um loop, dependendo do que você deseja fazer. Aqui estão alguns exemplos:\n1. **Loop For**:\nUm loop for é usado para iterar sobre uma sequência (como uma lis"
