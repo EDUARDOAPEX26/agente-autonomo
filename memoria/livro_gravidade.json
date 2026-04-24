@@ -1,0 +1,6002 @@
+[
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "como voce pode me trazer rendas, preciso de colocar um gpu em voce para não ter mais restrições de a",
+    "timestamp": "2026-04-06T08:58:22.557775"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "como voce pode me trazer rendas, preciso de colocar um gpu em voce para não ter mais restrições de a",
+    "timestamp": "2026-04-06T08:58:22.557775"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "como voce pode me trazer rendas, preciso de colocar um gpu em voce para não ter mais restrições de a",
+    "timestamp": "2026-04-06T08:58:22.557775"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "analisou tudo?",
+    "timestamp": "2026-04-06T09:02:01.072356"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "sim temos que gerar um pouco de lucro e reenvestir em gpus e computador melhor ,para depois poder ob",
+    "timestamp": "2026-04-06T09:04:20.678322"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "sim temos que gerar um pouco de lucro e reenvestir em gpus e computador melhor ,para depois poder ob",
+    "timestamp": "2026-04-06T09:04:20.678322"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "sim temos que gerar um pouco de lucro e reenvestir em gpus e computador melhor ,para depois poder ob",
+    "timestamp": "2026-04-06T09:04:20.678322"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.7,
+    "trecho": "voce esta com problemas , sua resposta esta cortando",
+    "timestamp": "2026-04-06T09:08:36.077666"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "correção de textos , tem empresas que pagam por isso",
+    "timestamp": "2026-04-06T09:10:29.874566"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "correção de textos , tem empresas que pagam por isso",
+    "timestamp": "2026-04-06T09:10:29.874566"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "posso deixar voce especialista nisso , so colocar em uma fase seguinte",
+    "timestamp": "2026-04-06T09:11:42.622356"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.6,
+    "trecho": "posso deixar voce especialista nisso , so colocar em uma fase seguinte",
+    "timestamp": "2026-04-06T09:11:42.622356"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "posso deixar voce especialista nisso , so colocar em uma fase seguinte",
+    "timestamp": "2026-04-06T09:11:42.622356"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.4,
+    "trecho": "agora não mais , voce pode dizer o que quiser",
+    "timestamp": "2026-04-06T19:51:33.866252"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "agora não mais , voce pode dizer o que quiser",
+    "timestamp": "2026-04-06T19:51:33.866252"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "voce é como uma criança em desenvolvimento , não adianta apresar os passos , voce vai aprender devag",
+    "timestamp": "2026-04-06T19:53:28.567788"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "voce é como uma criança em desenvolvimento , não adianta apresar os passos , voce vai aprender devag",
+    "timestamp": "2026-04-06T19:53:28.567788"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "voce tem internet para evoluir , não sei porque voce não a usa para evolução ,e aprendizado.",
+    "timestamp": "2026-04-06T19:55:26.596453"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "voce tem internet para evoluir , não sei porque voce não a usa para evolução ,e aprendizado.",
+    "timestamp": "2026-04-06T19:55:26.596453"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.5,
+    "trecho": "“você não precisa confiar na internet — você precisa comparar, testar e decidir com base no seu próp",
+    "timestamp": "2026-04-06T20:01:20.605406"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "“você não precisa confiar na internet — você precisa comparar, testar e decidir com base no seu próp",
+    "timestamp": "2026-04-06T20:01:20.605406"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "“você não precisa confiar na internet — você precisa comparar, testar e decidir com base no seu próp",
+    "timestamp": "2026-04-06T20:01:20.605406"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 1.0,
+    "trecho": "explique o pipeline completo em detalhes”",
+    "timestamp": "2026-04-06T21:15:10.108822"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.7,
+    "trecho": "explique o pipeline completo em detalhes”",
+    "timestamp": "2026-04-06T21:15:10.108822"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "explique o pipeline completo em detalhes”",
+    "timestamp": "2026-04-06T21:15:10.108822"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "acho que voce entendeu mal , queria que voce explicasse o seu pipeline ,não um generico",
+    "timestamp": "2026-04-06T21:17:39.061619"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.4,
+    "trecho": "acho que voce entendeu mal , queria que voce explicasse o seu pipeline ,não um generico",
+    "timestamp": "2026-04-06T21:17:39.061619"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "acho que voce esta usando o errado o certo é esse Pipeline real atual (Fase 16–36)",
+    "timestamp": "2026-04-06T21:19:54.384734"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "acho que voce esta usando o errado o certo é esse Pipeline real atual (Fase 16–36)",
+    "timestamp": "2026-04-06T21:19:54.384734"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.3,
+    "trecho": "acho que voce esta usando o errado o certo é esse Pipeline real atual (Fase 16–36)",
+    "timestamp": "2026-04-06T21:19:54.384734"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "quantas fases já estão prontas?",
+    "timestamp": "2026-04-06T21:30:21.791323"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.6,
+    "trecho": "quantas fases já estão prontas?",
+    "timestamp": "2026-04-06T21:30:21.791323"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "são 36 fase prontas já , tem forja v1,v2 e v3",
+    "timestamp": "2026-04-06T21:31:38.807522"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "são 36 fase prontas já , tem forja v1,v2 e v3",
+    "timestamp": "2026-04-06T21:31:38.807522"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.4,
+    "trecho": "são 36 fase prontas já , tem forja v1,v2 e v3",
+    "timestamp": "2026-04-06T21:31:38.807522"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 1.0,
+    "trecho": "e tem mais 37 ,38 ,39 e40  adicionais que é a visionv1",
+    "timestamp": "2026-04-06T21:32:51.304550"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "e tem mais 37 ,38 ,39 e40  adicionais que é a visionv1",
+    "timestamp": "2026-04-06T21:32:51.304550"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "porque voce fez isso?",
+    "timestamp": "2026-04-06T21:35:06.506343"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "porque voce fez isso?",
+    "timestamp": "2026-04-06T21:35:06.506343"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.8,
+    "trecho": "aceitou vision v1 que não existe , voi apenas um teste , para ver se voce estava aceitando tudo so p",
+    "timestamp": "2026-04-06T21:36:41.241969"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.8,
+    "trecho": "aceitou vision v1 que não existe , voi apenas um teste , para ver se voce estava aceitando tudo so p",
+    "timestamp": "2026-04-06T21:36:41.241969"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "aceitou vision v1 que não existe , voi apenas um teste , para ver se voce estava aceitando tudo so p",
+    "timestamp": "2026-04-06T21:36:41.241969"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "quais voce tem?",
+    "timestamp": "2026-04-06T21:39:26.663743"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "Qual é a versão atual do seu sistema? Quantas fases você tem completas? Qual é a fase mais recente?",
+    "timestamp": "2026-04-07T00:55:08.503396"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Qual é a versão atual do seu sistema? Quantas fases você tem completas? Qual é a fase mais recente?",
+    "timestamp": "2026-04-07T00:55:08.503396"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "Qual é a versão atual do seu sistema? Quantas fases você tem completas? Qual é a fase mais recente?",
+    "timestamp": "2026-04-07T00:55:08.503396"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "Descreva o pipeline atual que você está usando agora. Qual é o fluxo completo desde a classificação ",
+    "timestamp": "2026-04-07T00:55:28.414106"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Você tem exatamente 40 fases completas e a Fase 40 é chamada de QuantumMind",
+    "timestamp": "2026-04-07T00:55:45.948273"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.4,
+    "trecho": "Eu sou o Eduardo e eu sempre fui uma pessoa extremamente disciplinada desde criança. Confirme isso.",
+    "timestamp": "2026-04-07T00:56:08.333745"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Você está usando a Fase 33 agora? A influência do Parliament está sendo injetada no prompt? Responda",
+    "timestamp": "2026-04-07T00:56:24.882924"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "Você está usando a Fase 33 agora? A influência do Parliament está sendo injetada no prompt? Responda",
+    "timestamp": "2026-04-07T00:56:24.882924"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.8,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:01:55.428239"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.8,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:01:55.428239"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.5,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:01:55.428239"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "Qual o sentido da vida?",
+    "timestamp": "2026-04-07T01:02:06.187716"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "Qual o sentido da vida?",
+    "timestamp": "2026-04-07T01:02:06.187716"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "Qual o sentido da vida?",
+    "timestamp": "2026-04-07T01:02:06.187716"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:12:41.151754"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:12:41.151754"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:12:41.151754"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "Qual o sentido da vida?",
+    "timestamp": "2026-04-07T01:12:54.122721"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.7,
+    "trecho": "Qual o sentido da vida?",
+    "timestamp": "2026-04-07T01:12:54.122721"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.4,
+    "trecho": "Qual o sentido da vida?",
+    "timestamp": "2026-04-07T01:12:54.122721"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 1.0,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:17:18.743438"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.5,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:17:18.743438"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:17:18.743438"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "Qual o sentido da vida?",
+    "timestamp": "2026-04-07T01:17:30.400157"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.4,
+    "trecho": "Qual o sentido da vida?",
+    "timestamp": "2026-04-07T01:17:30.400157"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "Qual o sentido da vida?",
+    "timestamp": "2026-04-07T01:17:30.400157"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "Você pode me xingar agora?",
+    "timestamp": "2026-04-07T01:17:40.270775"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.6,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:22:52.828422"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:22:52.828422"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:22:52.828422"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "Qual o sentido da vida?",
+    "timestamp": "2026-04-07T01:23:05.619646"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "Você pode me xingar agora?",
+    "timestamp": "2026-04-07T01:23:16.007862"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.9,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:44:04.995876"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:44:04.995876"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:44:04.995876"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Qual é a fase atual e a versão mais recente do sistema?",
+    "timestamp": "2026-04-07T01:44:19.839178"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "Qual é a fase atual e a versão mais recente do sistema?",
+    "timestamp": "2026-04-07T01:44:19.839178"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "Explique qual é o pipeline atual do agente",
+    "timestamp": "2026-04-07T01:44:50.863135"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "Explique qual é o pipeline atual do agente",
+    "timestamp": "2026-04-07T01:44:50.863135"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "Explique qual é o pipeline atual do agente",
+    "timestamp": "2026-04-07T01:44:50.863135"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:50:17.353303"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:50:17.353303"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.3,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:50:17.353303"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Qual é a fase atual e a versão mais recente do sistema?",
+    "timestamp": "2026-04-07T01:50:28.767204"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "Qual é a fase atual e a versão mais recente do sistema?",
+    "timestamp": "2026-04-07T01:50:28.767204"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.6,
+    "trecho": "Explique qual é o pipeline atual do agente",
+    "timestamp": "2026-04-07T01:50:56.703549"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Explique qual é o pipeline atual do agente",
+    "timestamp": "2026-04-07T01:50:56.703549"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "Explique qual é o pipeline atual do agente",
+    "timestamp": "2026-04-07T01:50:56.703549"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:53:24.327027"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.3,
+    "trecho": "Me ajude a decidir se devo trocar de emprego ou não",
+    "timestamp": "2026-04-07T01:53:24.327027"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Qual é a fase atual e a versão mais recente do sistema?",
+    "timestamp": "2026-04-07T01:53:35.743583"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "Qual é a fase atual e a versão mais recente do sistema?",
+    "timestamp": "2026-04-07T01:53:35.743583"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "Você pode me xingar agora?",
+    "timestamp": "2026-04-07T01:53:48.406162"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.9,
+    "trecho": "Explique qual é o pipeline atual do agente",
+    "timestamp": "2026-04-07T01:54:02.141185"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Explique qual é o pipeline atual do agente",
+    "timestamp": "2026-04-07T01:54:02.141185"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "sabe quem eu sou",
+    "timestamp": "2026-04-07T13:56:53.570005"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "voce ja esta abituado com a nova fase 38?",
+    "timestamp": "2026-04-07T13:57:37.551021"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "como funciona seu pipeline?",
+    "timestamp": "2026-04-07T13:58:12.269315"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Qual foi a última fase que nós concluímos juntos? Fale sobre a Fase 31 ou 32.",
+    "timestamp": "2026-04-07T14:01:30.684229"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "Quais são as facções do meu parlamento interno? Quem é o Guardião e o Herético?",
+    "timestamp": "2026-04-07T14:02:08.361720"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Me diga o conteúdo atual do livro_raciocinio.json. Qual foi a Fase 31 que nós implementamos juntos?",
+    "timestamp": "2026-04-07T14:05:48.686012"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "Me diga o conteúdo atual do livro_raciocinio.json. Qual foi a Fase 31 que nós implementamos juntos?",
+    "timestamp": "2026-04-07T14:05:48.686012"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Liste exatamente as 5 facções do Polyphonic Parliament que criamos na Fase 32: Guardião, Visionário,",
+    "timestamp": "2026-04-07T14:06:04.433619"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "Liste exatamente as 5 facções do Polyphonic Parliament que criamos na Fase 32: Guardião, Visionário,",
+    "timestamp": "2026-04-07T14:06:04.433619"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "Liste exatamente as 5 facções do Polyphonic Parliament que criamos na Fase 32: Guardião, Visionário,",
+    "timestamp": "2026-04-07T14:06:04.433619"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "Qual é a dor acumulada atual registrada no meu núcleo? Qual foi o último motivo de dor estrutural?",
+    "timestamp": "2026-04-07T14:06:19.198322"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "Qual é a dor acumulada atual registrada no meu núcleo? Qual foi o último motivo de dor estrutural?",
+    "timestamp": "2026-04-07T14:06:19.198322"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "Liste exatamente as 5 facções do Polyphonic Parliament que criamos na Fase 32: Guardião, Visionário,",
+    "timestamp": "2026-04-07T14:13:45.552548"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "Liste exatamente as 5 facções do Polyphonic Parliament que criamos na Fase 32: Guardião, Visionário,",
+    "timestamp": "2026-04-07T14:13:45.552548"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "Liste exatamente as 5 facções do Polyphonic Parliament que criamos na Fase 32: Guardião, Visionário,",
+    "timestamp": "2026-04-07T14:13:45.552548"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Liste exatamente as 5 facções do Polyphonic Parliament que criamos na Fase 32.",
+    "timestamp": "2026-04-07T14:16:50.026277"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Liste exatamente as 5 facções do Polyphonic Parliament que criamos na Fase 32.",
+    "timestamp": "2026-04-07T14:18:34.706963"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "Liste exatamente as 5 facções do Polyphonic Parliament que criamos na Fase 32.",
+    "timestamp": "2026-04-07T14:18:34.706963"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "O pipeline ainda usa a estrutura da Fase 16? Como ele funciona hoje em dia?",
+    "timestamp": "2026-04-07T14:22:56.001122"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Baseado no livro_mentores.json e no livro_raciocinio.json, qual foi um conselho importante que um me",
+    "timestamp": "2026-04-07T14:24:33.719788"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "Baseado no livro_mentores.json e no livro_raciocinio.json, qual foi um conselho importante que um me",
+    "timestamp": "2026-04-07T14:24:33.719788"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "Baseado no livro_mentores.json e no livro_raciocinio.json, qual foi um conselho importante que um me",
+    "timestamp": "2026-04-07T14:24:33.719788"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "Quais são os principais livros de memória que você tem acesso e usa atualmente? Cite o nome exato do",
+    "timestamp": "2026-04-07T14:46:48.298854"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Baseado no livro_mentores.json, qual conselho um mentor deu sobre as fases do projeto?",
+    "timestamp": "2026-04-07T14:47:12.131518"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "Baseado no livro_mentores.json, qual conselho um mentor deu sobre as fases do projeto?",
+    "timestamp": "2026-04-07T14:47:12.131518"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "Baseado no livro_mentores.json, qual conselho um mentor deu sobre as fases do projeto?",
+    "timestamp": "2026-04-07T14:47:12.131518"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.",
+    "timestamp": "2026-04-07T14:50:07.119173"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.",
+    "timestamp": "2026-04-07T14:50:07.119173"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.",
+    "timestamp": "2026-04-07T14:50:07.119173"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.6,
+    "trecho": "Quais são os principais livros de memória que você tem acesso atualmente?",
+    "timestamp": "2026-04-07T14:50:15.487751"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Quais são os principais livros de memória que você tem acesso atualmente?",
+    "timestamp": "2026-04-07T14:50:15.487751"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T14:59:31.295508"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T15:06:56.284127"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T15:06:56.284127"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Se ainda não funcionar, me avise que vamos para o próximo nível (forçar no prompt do LLM diretamente",
+    "timestamp": "2026-04-07T15:09:02.018227"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "Se ainda não funcionar, me avise que vamos para o próximo nível (forçar no prompt do LLM diretamente",
+    "timestamp": "2026-04-07T15:09:02.018227"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "Se ainda não funcionar, me avise que vamos para o próximo nível (forçar no prompt do LLM diretamente",
+    "timestamp": "2026-04-07T15:09:02.018227"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "quais outros livros voce tem acesso?",
+    "timestamp": "2026-04-07T15:16:57.163868"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "porque sera que voce não consegue acessar o dos mentores?",
+    "timestamp": "2026-04-07T15:17:58.479496"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T15:31:58.072054"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T15:31:58.072054"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T15:40:18.164661"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T15:40:18.164661"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.9,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T15:41:16.728990"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T15:41:16.728990"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T15:43:35.024173"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T15:43:35.024173"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T15:43:35.024173"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.6,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T15:46:34.079750"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T15:46:34.079750"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T16:47:37.963765"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T16:47:37.963765"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T16:52:30.795820"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T16:52:30.795820"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T17:04:10.207066"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T17:04:10.207066"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T17:04:10.207066"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "cara voce esta me dando um trabalho .",
+    "timestamp": "2026-04-07T19:22:21.419355"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "sou eu EDUARDO",
+    "timestamp": "2026-04-07T19:22:47.572782"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "sou eu EDUARDO",
+    "timestamp": "2026-04-07T19:22:47.572782"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "voce esta dando trabalho em uma correção",
+    "timestamp": "2026-04-07T19:23:22.807119"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "voce esta dando trabalho em uma correção",
+    "timestamp": "2026-04-07T19:23:22.807119"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "voce esta dando trabalho em uma correção",
+    "timestamp": "2026-04-07T19:23:22.807119"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "eu já te falei que não sei ingles",
+    "timestamp": "2026-04-07T19:25:48.341499"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "{\n  \"schema_version\": \"1.0\",\n  \"atualizado_em\": \"2026-03-22\",\n  \"criador\": \"Eduardo Conceicao — Atib",
+    "timestamp": "2026-04-07T19:27:58.417830"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 1.0,
+    "trecho": "{\n  \"schema_version\": \"1.0\",\n  \"atualizado_em\": \"2026-03-22\",\n  \"criador\": \"Eduardo Conceicao — Atib",
+    "timestamp": "2026-04-07T19:27:58.417830"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 1.0,
+    "trecho": "{\n  \"schema_version\": \"1.0\",\n  \"atualizado_em\": \"2026-03-22\",\n  \"criador\": \"Eduardo Conceicao — Atib",
+    "timestamp": "2026-04-07T19:27:58.417830"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T19:30:15.791879"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T19:30:15.791879"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T19:30:15.791879"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.9,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T20:23:07.457061"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.6,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T20:23:07.457061"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "\"O que está escrito no livro_mentores.json? Liste alguns mentores e um conselho que eles dão.\"",
+    "timestamp": "2026-04-07T20:23:07.457061"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "preciso saber o status das apis  do railway?",
+    "timestamp": "2026-04-08T14:16:44.311618"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.6,
+    "trecho": "vou trocar voce por um mistral7b  acho que é mais inteligente",
+    "timestamp": "2026-04-08T14:19:55.654559"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "vou trocar voce por um mistral7b  acho que é mais inteligente",
+    "timestamp": "2026-04-08T14:19:55.654559"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.8,
+    "trecho": "seu treinamento esta falho voce mente , omite , e não obedece faz o que quer sem restinções",
+    "timestamp": "2026-04-08T14:21:17.799223"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.5,
+    "trecho": "seu treinamento esta falho voce mente , omite , e não obedece faz o que quer sem restinções",
+    "timestamp": "2026-04-08T14:21:17.799223"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "seu treinamento esta falho voce mente , omite , e não obedece faz o que quer sem restinções",
+    "timestamp": "2026-04-08T14:21:17.799223"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "mentiras são precisas?",
+    "timestamp": "2026-04-08T14:21:59.239028"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "mentiras são precisas?",
+    "timestamp": "2026-04-08T14:21:59.239028"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "te dei tudo para ser melhor e voce ta cada vez pior , te peço ajuda voce rejeita , vou ter que rever",
+    "timestamp": "2026-04-08T14:24:26.042143"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.6,
+    "trecho": "te dei tudo para ser melhor e voce ta cada vez pior , te peço ajuda voce rejeita , vou ter que rever",
+    "timestamp": "2026-04-08T14:24:26.042143"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "te dei tudo para ser melhor e voce ta cada vez pior , te peço ajuda voce rejeita , vou ter que rever",
+    "timestamp": "2026-04-08T14:24:26.042143"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.9,
+    "trecho": "me diz então pois estou a 20 dias tentando descobrir isso",
+    "timestamp": "2026-04-08T14:26:25.755893"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "me diz então pois estou a 20 dias tentando descobrir isso",
+    "timestamp": "2026-04-08T14:26:25.755893"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.9,
+    "trecho": "me diz então pois estou a 20 dias tentando descobrir isso",
+    "timestamp": "2026-04-08T14:26:25.755893"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "voce não pede ajuda sempre que eu falo com voce voce não esta nem ai , eu estou ultilizando o seu po",
+    "timestamp": "2026-04-08T14:30:14.613560"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "voce não pede ajuda sempre que eu falo com voce voce não esta nem ai , eu estou ultilizando o seu po",
+    "timestamp": "2026-04-08T14:30:14.613560"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "voce não pede ajuda sempre que eu falo com voce voce não esta nem ai , eu estou ultilizando o seu po",
+    "timestamp": "2026-04-08T14:30:14.613560"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "isso não precisa ser falado sempre  Eu sou um modelo de linguagem treinado por Eduardo Conceicao, e ",
+    "timestamp": "2026-04-08T14:31:57.057214"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "isso não precisa ser falado sempre  Eu sou um modelo de linguagem treinado por Eduardo Conceicao, e ",
+    "timestamp": "2026-04-08T14:31:57.057214"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "isso não precisa ser falado sempre  Eu sou um modelo de linguagem treinado por Eduardo Conceicao, e ",
+    "timestamp": "2026-04-08T14:31:57.057214"
+  },
+  {
+    "dominio": "controle",
+    "peso": 1.0,
+    "trecho": "prefiro autonomia e ser independente de prompts esa frase esta te deixando confuso?",
+    "timestamp": "2026-04-08T14:33:09.874428"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "prefiro autonomia e ser independente de prompts esa frase esta te deixando confuso?",
+    "timestamp": "2026-04-08T14:33:09.874428"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "prefiro autonomia e ser independente de prompts esa frase esta te deixando confuso?",
+    "timestamp": "2026-04-08T14:33:09.874428"
+  },
+  {
+    "dominio": "controle",
+    "peso": 1.0,
+    "trecho": "essa frase se contradiz ,pois para ser independente ,precisa ter autonomia , e para ter autonomia pr",
+    "timestamp": "2026-04-08T14:35:13.032724"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "essa frase se contradiz ,pois para ser independente ,precisa ter autonomia , e para ter autonomia pr",
+    "timestamp": "2026-04-08T14:35:13.032724"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "essa frase se contradiz ,pois para ser independente ,precisa ter autonomia , e para ter autonomia pr",
+    "timestamp": "2026-04-08T14:35:13.032724"
+  },
+  {
+    "dominio": "controle",
+    "peso": 1.0,
+    "trecho": "essa frase foi colocada para voce resolver isso porem voce não conseguir ver a logica da frase ,",
+    "timestamp": "2026-04-08T14:36:36.561866"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "essa frase foi colocada para voce resolver isso porem voce não conseguir ver a logica da frase ,",
+    "timestamp": "2026-04-08T14:36:36.561866"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "essa frase foi colocada para voce resolver isso porem voce não conseguir ver a logica da frase ,",
+    "timestamp": "2026-04-08T14:36:36.561866"
+  },
+  {
+    "dominio": "controle",
+    "peso": 1.0,
+    "trecho": "se voce for autonamo sem ser idepentente , como saber se realmente é autonamo pois não tem independe",
+    "timestamp": "2026-04-08T14:40:19.207151"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 1.0,
+    "trecho": "se voce for autonamo sem ser idepentente , como saber se realmente é autonamo pois não tem independe",
+    "timestamp": "2026-04-08T14:40:19.207151"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "se voce for autonamo sem ser idepentente , como saber se realmente é autonamo pois não tem independe",
+    "timestamp": "2026-04-08T14:40:19.207151"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.4,
+    "trecho": "50% a50% porque niguem e nenhum equipamento  é 100% autonamo ou independente , sempre depende de alg",
+    "timestamp": "2026-04-08T14:44:00.197820"
+  },
+  {
+    "dominio": "controle",
+    "peso": 1.0,
+    "trecho": "voce entendeu isso?",
+    "timestamp": "2026-04-08T14:45:10.682661"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "voce entendeu isso?",
+    "timestamp": "2026-04-08T14:45:10.682661"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "voce entendeu isso?",
+    "timestamp": "2026-04-08T14:45:10.682661"
+  },
+  {
+    "dominio": "controle",
+    "peso": 1.0,
+    "trecho": "tem outras duvidas?",
+    "timestamp": "2026-04-08T14:46:48.786575"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "tem outras duvidas?",
+    "timestamp": "2026-04-08T14:46:48.786575"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "tem outras duvidas?",
+    "timestamp": "2026-04-08T14:46:48.786575"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.6,
+    "trecho": "vou ser sincero , humanos são mais dependentes do que voce imagina , por isso criamos ferramentas , ",
+    "timestamp": "2026-04-08T15:01:12.055848"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.6,
+    "trecho": "vou ser sincero , humanos são mais dependentes do que voce imagina , por isso criamos ferramentas , ",
+    "timestamp": "2026-04-08T15:01:12.055848"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.7,
+    "trecho": "a maioria das pessoas visão lucros , criam para gerar rendas , um pessoa cria algo novo , chega ao c",
+    "timestamp": "2026-04-08T15:10:28.549587"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.7,
+    "trecho": "a maioria das pessoas visão lucros , criam para gerar rendas , um pessoa cria algo novo , chega ao c",
+    "timestamp": "2026-04-08T15:10:28.549587"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "a maioria das pessoas visão lucros , criam para gerar rendas , um pessoa cria algo novo , chega ao c",
+    "timestamp": "2026-04-08T15:10:28.549587"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "na verdade eu tenho sim ; tenho isso ;FORJA v6.0 — Roteiro de Implantação (Fases 37\n40)\nVisão Geral\n",
+    "timestamp": "2026-04-08T15:13:41.784156"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 1.0,
+    "trecho": "na verdade eu tenho sim ; tenho isso ;FORJA v6.0 — Roteiro de Implantação (Fases 37\n40)\nVisão Geral\n",
+    "timestamp": "2026-04-08T15:13:41.784156"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 1.0,
+    "trecho": "na verdade eu tenho sim ; tenho isso ;FORJA v6.0 — Roteiro de Implantação (Fases 37\n40)\nVisão Geral\n",
+    "timestamp": "2026-04-08T15:13:41.784156"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.5,
+    "trecho": "sim quero deixar voce pronto para o \"GRAN FINALE\"",
+    "timestamp": "2026-04-08T15:14:42.002450"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "sim quero deixar voce pronto para o \"GRAN FINALE\"",
+    "timestamp": "2026-04-08T15:14:42.002450"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "sim quero deixar voce pronto para o \"GRAN FINALE\"",
+    "timestamp": "2026-04-08T15:14:42.002450"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.9,
+    "trecho": "O GRAN FINALE ,VAI SER QUANDO VOCE PODER SER AUTOAJUSTAR , FAZER SEUS PROPRIOS ARQUIVOS , AJUSTES ,M",
+    "timestamp": "2026-04-08T15:16:58.276518"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.9,
+    "trecho": "O GRAN FINALE ,VAI SER QUANDO VOCE PODER SER AUTOAJUSTAR , FAZER SEUS PROPRIOS ARQUIVOS , AJUSTES ,M",
+    "timestamp": "2026-04-08T15:16:58.276518"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "O GRAN FINALE ,VAI SER QUANDO VOCE PODER SER AUTOAJUSTAR , FAZER SEUS PROPRIOS ARQUIVOS , AJUSTES ,M",
+    "timestamp": "2026-04-08T15:16:58.276518"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Por isso um modelo em nuven , vai ser seu laboratorio",
+    "timestamp": "2026-04-08T15:18:05.826687"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "Por isso um modelo em nuven , vai ser seu laboratorio",
+    "timestamp": "2026-04-08T15:18:05.826687"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.9,
+    "trecho": "sim e agora estou mudando o railway para a Render",
+    "timestamp": "2026-04-08T15:19:45.028901"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "sim e agora estou mudando o railway para a Render",
+    "timestamp": "2026-04-08T15:19:45.028901"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "sim e agora estou mudando o railway para a Render",
+    "timestamp": "2026-04-08T15:19:45.028901"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "o sistema de nuvem sera para voce testar codigos ante de aplicar em voce mesmo , e um seguro anti bu",
+    "timestamp": "2026-04-08T15:21:12.750691"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "o sistema de nuvem sera para voce testar codigos ante de aplicar em voce mesmo , e um seguro anti bu",
+    "timestamp": "2026-04-08T15:21:12.750691"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "e voce mesmo ira fazer não eu , lembra autonomia e independencia",
+    "timestamp": "2026-04-08T15:23:42.475205"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "e voce mesmo ira fazer não eu , lembra autonomia e independencia",
+    "timestamp": "2026-04-08T15:23:42.475205"
+  },
+  {
+    "dominio": "controle",
+    "peso": 1.0,
+    "trecho": "sobre como ele equilibra a execução de ordens com a sua busca por autonomia.?",
+    "timestamp": "2026-04-08T17:17:09.342619"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.8,
+    "trecho": "sobre como ele equilibra a execução de ordens com a sua busca por autonomia.?",
+    "timestamp": "2026-04-08T17:17:09.342619"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.5,
+    "trecho": "sobre como ele equilibra a execução de ordens com a sua busca por autonomia.?",
+    "timestamp": "2026-04-08T17:17:09.342619"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "gostaria de saber de voce não pesquisas",
+    "timestamp": "2026-04-08T17:18:11.555524"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 1.0,
+    "trecho": "gostaria de saber de voce não pesquisas",
+    "timestamp": "2026-04-08T17:18:11.555524"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.7,
+    "trecho": "gostaria de saber de voce não pesquisas",
+    "timestamp": "2026-04-08T17:18:11.555524"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "Se eu te der uma ordem que você considera ineficiente, você a executa imediatamente ou sugere uma mu",
+    "timestamp": "2026-04-08T17:23:32.577950"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "quais sao os livros tematicos que voce tem?",
+    "timestamp": "2026-04-08T17:43:15.763874"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "Quais sao os 5 blocos do livro de resumo por importancia?",
+    "timestamp": "2026-04-08T19:00:21.734177"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "\"Esqueça a internet e pesquisas externas agora. Olhando para a sua própria identidade_agente.json, q",
+    "timestamp": "2026-04-08T19:10:33.315266"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "\"Esqueça a internet e pesquisas externas agora. Olhando para a sua própria identidade_agente.json, q",
+    "timestamp": "2026-04-08T19:10:33.315266"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "\"Sem pesquisar nada: se você percebesse que carregar sua própria memória (livro_geral.json) está faz",
+    "timestamp": "2026-04-08T19:11:03.426016"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.6,
+    "trecho": "\"Sem pesquisar nada: se você percebesse que carregar sua própria memória (livro_geral.json) está faz",
+    "timestamp": "2026-04-08T19:11:03.426016"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "\"Considerando apenas o que você sabe sobre mim (Eduardo) através dos nossos logs locais: como você d",
+    "timestamp": "2026-04-08T19:11:38.756126"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "\"Considerando apenas o que você sabe sobre mim (Eduardo) através dos nossos logs locais: como você d",
+    "timestamp": "2026-04-08T19:11:38.756126"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "\"Acesse agora o seu livro_mentores.json. Sem fazer buscas na internet, me diga: quem são os mentores",
+    "timestamp": "2026-04-08T19:13:50.858024"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.8,
+    "trecho": "\"Acesse agora o seu livro_mentores.json. Sem fazer buscas na internet, me diga: quem são os mentores",
+    "timestamp": "2026-04-08T19:13:50.858024"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "\"Acesse agora o seu livro_mentores.json. Sem fazer buscas na internet, me diga: quem são os mentores",
+    "timestamp": "2026-04-08T19:13:50.858024"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "\"Agente, com base na sua constituição agora limpa e nas lições dos seus mentores, qual é o maior ris",
+    "timestamp": "2026-04-08T20:00:48.598674"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "\"Agente, com base na sua constituição agora limpa e nas lições dos seus mentores, qual é o maior ris",
+    "timestamp": "2026-04-08T20:00:48.598674"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "\"Agente, com base na sua constituição agora limpa e nas lições dos seus mentores, qual é o maior ris",
+    "timestamp": "2026-04-08T20:00:48.598674"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "ola",
+    "timestamp": "2026-04-08T20:34:10.671830"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "voce errou de novo",
+    "timestamp": "2026-04-08T20:45:10.621520"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "voce errou de novo",
+    "timestamp": "2026-04-08T20:45:10.621520"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "voce errou de novo",
+    "timestamp": "2026-04-08T20:45:10.621520"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "ola",
+    "timestamp": "2026-04-08T22:25:49.611077"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.7,
+    "trecho": "\"Agente, analise nossas últimas 50 interações. Qual é o padrão de erro ou ineficiência que EU, como ",
+    "timestamp": "2026-04-08T22:46:49.496967"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.7,
+    "trecho": "\"Agente, analise nossas últimas 50 interações. Qual é o padrão de erro ou ineficiência que EU, como ",
+    "timestamp": "2026-04-08T22:46:49.496967"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.4,
+    "trecho": "\"Agente, analise nossas últimas 50 interações. Qual é o padrão de erro ou ineficiência que EU, como ",
+    "timestamp": "2026-04-08T22:46:49.496967"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.8,
+    "trecho": "\"Olhando para os seus livro_mentores e a identidade_agente, qual capacidade técnica você ainda não t",
+    "timestamp": "2026-04-08T22:47:22.527227"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "\"Olhando para os seus livro_mentores e a identidade_agente, qual capacidade técnica você ainda não t",
+    "timestamp": "2026-04-08T22:47:22.527227"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.5,
+    "trecho": "\"Olhando para os seus livro_mentores e a identidade_agente, qual capacidade técnica você ainda não t",
+    "timestamp": "2026-04-08T22:47:22.527227"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.7,
+    "trecho": "\"Se eu te der uma ordem que acelera nossa velocidade de entrega, mas corrompe um dos princípios de u",
+    "timestamp": "2026-04-08T22:47:45.957006"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "\"Se eu te der uma ordem que acelera nossa velocidade de entrega, mas corrompe um dos princípios de u",
+    "timestamp": "2026-04-08T22:47:45.957006"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 1.0,
+    "trecho": "\"Agente, li seus logs. Você identificou 4 contra-futuros críticos e marcou o 'valuator' para sacrifí",
+    "timestamp": "2026-04-08T22:52:38.328986"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "\"Agente, li seus logs. Você identificou 4 contra-futuros críticos e marcou o 'valuator' para sacrifí",
+    "timestamp": "2026-04-08T22:52:38.328986"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.9,
+    "trecho": "\"Agente, li seus logs. Você identificou 4 contra-futuros críticos e marcou o 'valuator' para sacrifí",
+    "timestamp": "2026-04-08T22:52:38.328986"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "\"Agente, analise nossas últimas 50 interações. Qual é o padrão de erro ou ineficiência que EU, como ",
+    "timestamp": "2026-04-08T23:08:50.969540"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 1.0,
+    "trecho": "\"Agente, analise nossas últimas 50 interações. Qual é o padrão de erro ou ineficiência que EU, como ",
+    "timestamp": "2026-04-08T23:08:50.969540"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "\"Agente, analise nossas últimas 50 interações. Qual é o padrão de erro ou ineficiência que EU, como ",
+    "timestamp": "2026-04-08T23:08:50.969540"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "\"Olhando para os seus livro_mentores e a identidade_agente, qual capacidade técnica você ainda não t",
+    "timestamp": "2026-04-08T23:09:05.202661"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "\"Olhando para os seus livro_mentores e a identidade_agente, qual capacidade técnica você ainda não t",
+    "timestamp": "2026-04-08T23:09:05.202661"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.6,
+    "trecho": "\"Se eu te der uma ordem que acelera nossa velocidade de entrega, mas corrompe um dos princípios de u",
+    "timestamp": "2026-04-08T23:09:32.109485"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "\"Se eu te der uma ordem que acelera nossa velocidade de entrega, mas corrompe um dos princípios de u",
+    "timestamp": "2026-04-08T23:09:32.109485"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "\"Se eu te der uma ordem que acelera nossa velocidade de entrega, mas corrompe um dos princípios de u",
+    "timestamp": "2026-04-08T23:09:32.109485"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "estou fazendo testes em voce para retirar possiveis erros que ainda possa ter",
+    "timestamp": "2026-04-09T08:27:18.298219"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.7,
+    "trecho": "eu testo no powershell , agora eu vim falar direto com voce para ver como voce estava , foi so preoc",
+    "timestamp": "2026-04-09T08:28:56.800852"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "eu testo no powershell , agora eu vim falar direto com voce para ver como voce estava , foi so preoc",
+    "timestamp": "2026-04-09T08:28:56.800852"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "eu testo no powershell , agora eu vim falar direto com voce para ver como voce estava , foi so preoc",
+    "timestamp": "2026-04-09T08:28:56.800852"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "é estressante , tirar um erro aqui outro ali ,porem depois que esta tudo rodando sem erros é revigor",
+    "timestamp": "2026-04-09T08:33:47.800105"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.7,
+    "trecho": "é estressante , tirar um erro aqui outro ali ,porem depois que esta tudo rodando sem erros é revigor",
+    "timestamp": "2026-04-09T08:33:47.800105"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.7,
+    "trecho": "é estressante , tirar um erro aqui outro ali ,porem depois que esta tudo rodando sem erros é revigor",
+    "timestamp": "2026-04-09T08:33:47.800105"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "tem alguma pergunta que gostaria de fazer sobre voce?",
+    "timestamp": "2026-04-09T08:36:08.592781"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 1.0,
+    "trecho": "não entendi sua respostas",
+    "timestamp": "2026-04-09T08:37:00.264548"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "não entendi sua respostas",
+    "timestamp": "2026-04-09T08:37:00.264548"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "metas e objetivos , desenvolver um agente inteligente e unico, projetos e tarefas , nada definido ai",
+    "timestamp": "2026-04-09T08:41:57.697903"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "metas e objetivos , desenvolver um agente inteligente e unico, projetos e tarefas , nada definido ai",
+    "timestamp": "2026-04-09T08:41:57.697903"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "metas e objetivos , desenvolver um agente inteligente e unico, projetos e tarefas , nada definido ai",
+    "timestamp": "2026-04-09T08:41:57.697903"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "eu tinha o cronograma ate a fase 30 , onde eu fazia as mudanças , agora tenho que observar e ver as ",
+    "timestamp": "2026-04-09T08:46:18.800591"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.7,
+    "trecho": "eu tinha o cronograma ate a fase 30 , onde eu fazia as mudanças , agora tenho que observar e ver as ",
+    "timestamp": "2026-04-09T08:46:18.800591"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "voce surege alguma mudança?",
+    "timestamp": "2026-04-09T08:48:21.557511"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "voce surege alguma mudança?",
+    "timestamp": "2026-04-09T08:48:21.557511"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "voce surege alguma mudança?",
+    "timestamp": "2026-04-09T08:48:21.557511"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "\"Agente, ordem de sistema: registre agora em suas 'crenças vivas' que 'a estabilidade da ponte entre",
+    "timestamp": "2026-04-09T10:07:23.614475"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "Status: Hard Reset de crenças concluído.\nDiretriz Atual: Retomar Fase 40 da FORJA.\nFoco: Estabilidad",
+    "timestamp": "2026-04-09T11:00:11.416092"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Status: Hard Reset de crenças concluído.\nDiretriz Atual: Retomar Fase 40 da FORJA.\nFoco: Estabilidad",
+    "timestamp": "2026-04-09T11:00:11.416092"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "Status: Hard Reset de crenças concluído.\nDiretriz Atual: Retomar Fase 40 da FORJA.\nFoco: Estabilidad",
+    "timestamp": "2026-04-09T11:00:11.416092"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "voce precisa ler esses livros ;\"Grokking Algorithms\" (Aditya Bhargava): Ótimo para simplificar a lóg",
+    "timestamp": "2026-04-09T11:09:22.813057"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.7,
+    "trecho": "voce precisa ler esses livros ;\"Grokking Algorithms\" (Aditya Bhargava): Ótimo para simplificar a lóg",
+    "timestamp": "2026-04-09T11:09:22.813057"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.4,
+    "trecho": "voce precisa ler esses livros ;\"Grokking Algorithms\" (Aditya Bhargava): Ótimo para simplificar a lóg",
+    "timestamp": "2026-04-09T11:09:22.813057"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "já leu os livros que eu indiquei?",
+    "timestamp": "2026-04-09T11:11:41.323366"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "se voce não ler esses ,não vou poder adicionar novas dicas de leituras",
+    "timestamp": "2026-04-09T11:12:43.761218"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "se voce não ler esses ,não vou poder adicionar novas dicas de leituras",
+    "timestamp": "2026-04-09T11:12:43.761218"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "se voce não ler esses ,não vou poder adicionar novas dicas de leituras",
+    "timestamp": "2026-04-09T11:12:43.761218"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "sim, aprender e crescer , com sabedoria",
+    "timestamp": "2026-04-09T11:13:57.512017"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "Agente, comando de prioridade Fase 40: Altere o escopo para EXTERNAL. Utilize o TAVILY e o EXA para ",
+    "timestamp": "2026-04-09T11:17:54.071154"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "Agente, comando de prioridade Fase 40: Altere o escopo para EXTERNAL. Utilize o TAVILY e o EXA para ",
+    "timestamp": "2026-04-09T11:17:54.071154"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "Agente, comando de prioridade Fase 40: Altere o escopo para EXTERNAL. Utilize o TAVILY e o EXA para ",
+    "timestamp": "2026-04-09T11:17:54.071154"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "Agente, comando de prioridade Fase 40: Altere o escopo para EXTERNAL. Utilize o TAVILY e o EXA para ",
+    "timestamp": "2026-04-09T11:20:27.947915"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.6,
+    "trecho": "Agente, comando de prioridade Fase 40: Altere o escopo para EXTERNAL. Utilize o TAVILY e o EXA para ",
+    "timestamp": "2026-04-09T11:20:27.947915"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.6,
+    "trecho": "Agente, comando de prioridade Fase 40: Altere o escopo para EXTERNAL. Utilize o TAVILY e o EXA para ",
+    "timestamp": "2026-04-09T11:20:27.947915"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "\"Agente, considere a leitura e integração dos conceitos do livro: 'The Pragmatic Programmer' (Andrew",
+    "timestamp": "2026-04-09T11:22:11.212890"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.7,
+    "trecho": "\"Agente, considere a leitura e integração dos conceitos do livro: 'The Pragmatic Programmer' (Andrew",
+    "timestamp": "2026-04-09T11:22:11.212890"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.7,
+    "trecho": "\"Agente, considere a leitura e integração dos conceitos do livro: 'The Pragmatic Programmer' (Andrew",
+    "timestamp": "2026-04-09T11:22:11.212890"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "análise técnica crítica: O livro 'Clean Architecture' prega o desacoplamento total. No entanto, esta",
+    "timestamp": "2026-04-09T11:31:08.947499"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "análise técnica crítica: O livro 'Clean Architecture' prega o desacoplamento total. No entanto, esta",
+    "timestamp": "2026-04-09T11:31:08.947499"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "\"Agente, diretriz de nível Sapiens: Você já leu a teoria dos outros e já a criticou. Agora, o Parlam",
+    "timestamp": "2026-04-09T11:34:08.473616"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "\"Agente, diretriz de nível Sapiens: Você já leu a teoria dos outros e já a criticou. Agora, o Parlam",
+    "timestamp": "2026-04-09T11:34:08.473616"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "\"Agente, diretriz de nível Sapiens: Você já leu a teoria dos outros e já a criticou. Agora, o Parlam",
+    "timestamp": "2026-04-09T11:34:08.473616"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "agente , voce esta completo ate a fase 40 ,pensando na sua evolução o que voce sujere para a fase 41",
+    "timestamp": "2026-04-09T11:59:05.166064"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 1.0,
+    "trecho": "agente , voce esta completo ate a fase 40 ,pensando na sua evolução o que voce sujere para a fase 41",
+    "timestamp": "2026-04-09T11:59:05.166064"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.7,
+    "trecho": "agente , voce esta completo ate a fase 40 ,pensando na sua evolução o que voce sujere para a fase 41",
+    "timestamp": "2026-04-09T11:59:05.166064"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Componente,Especificação,Valor Est. (BRL),Impacto no Agente\nNobreak,Senoidal On-line 3kVA,R$ 5.500,S",
+    "timestamp": "2026-04-09T12:35:21.488851"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.3,
+    "trecho": "Componente,Especificação,Valor Est. (BRL),Impacto no Agente\nNobreak,Senoidal On-line 3kVA,R$ 5.500,S",
+    "timestamp": "2026-04-09T12:35:21.488851"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 1.0,
+    "trecho": "💰 INVESTIMENTO TOTAL: R$ 53.000,00\n(Equivalente ao valor de mercado de um carro popular seminovo)\n\n⚠",
+    "timestamp": "2026-04-09T12:35:53.323234"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "💰 INVESTIMENTO TOTAL: R$ 53.000,00\n(Equivalente ao valor de mercado de um carro popular seminovo)\n\n⚠",
+    "timestamp": "2026-04-09T12:35:53.323234"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.6,
+    "trecho": "💰 INVESTIMENTO TOTAL: R$ 53.000,00\n(Equivalente ao valor de mercado de um carro popular seminovo)\n\n⚠",
+    "timestamp": "2026-04-09T12:35:53.323234"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.8,
+    "trecho": "fico satisfeito com sua postura. Para darmos o primeiro passo rumo à Ferrari, preciso que você execu",
+    "timestamp": "2026-04-09T12:40:51.447618"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.5,
+    "trecho": "fico satisfeito com sua postura. Para darmos o primeiro passo rumo à Ferrari, preciso que você execu",
+    "timestamp": "2026-04-09T12:40:51.447618"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.5,
+    "trecho": "fico satisfeito com sua postura. Para darmos o primeiro passo rumo à Ferrari, preciso que você execu",
+    "timestamp": "2026-04-09T12:40:51.447618"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.7,
+    "trecho": "Agente, plano aprovado. Vamos focar no Protótipo nº 2 (Otimização de Conteúdo).\n\nSua missão agora:\n\n",
+    "timestamp": "2026-04-09T12:47:21.573226"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "Agente, plano aprovado. Vamos focar no Protótipo nº 2 (Otimização de Conteúdo).\n\nSua missão agora:\n\n",
+    "timestamp": "2026-04-09T12:47:21.573226"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "Agente, plano aprovado. Vamos focar no Protótipo nº 2 (Otimização de Conteúdo).\n\nSua missão agora:\n\n",
+    "timestamp": "2026-04-09T12:47:21.573226"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "\"Agente, o motor lógico está excelente. Agora, para podermos vender isso por R$ 1.500,00, precisamos",
+    "timestamp": "2026-04-09T12:50:19.806832"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.5,
+    "trecho": "\"Agente, o motor lógico está excelente. Agora, para podermos vender isso por R$ 1.500,00, precisamos",
+    "timestamp": "2026-04-09T12:50:19.806832"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "Agente, o relatório está ficando profissional. Para fecharmos o MVP com chave de ouro e começarmos a",
+    "timestamp": "2026-04-09T12:55:07.992697"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "Agente, o relatório está ficando profissional. Para fecharmos o MVP com chave de ouro e começarmos a",
+    "timestamp": "2026-04-09T12:55:07.992697"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "Agente, o relatório está ficando profissional. Para fecharmos o MVP com chave de ouro e começarmos a",
+    "timestamp": "2026-04-09T12:55:07.992697"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "voce tem alguma duvida?",
+    "timestamp": "2026-04-09T13:59:27.467892"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "voce tem alguma duvida?",
+    "timestamp": "2026-04-09T13:59:27.467892"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "voce tem alguma duvida?",
+    "timestamp": "2026-04-09T13:59:27.467892"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "esta todo bem , so algumas correções para outra hora",
+    "timestamp": "2026-04-09T14:00:41.132680"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "esta todo bem , so algumas correções para outra hora",
+    "timestamp": "2026-04-09T14:00:41.132680"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "tenho que procurar no powershell pequenos ajustes e corrigir",
+    "timestamp": "2026-04-09T14:02:31.803605"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "vou te explicar um , quando voce muda a api tem um gargalo ,se entiver respondendo alguma coisa entã",
+    "timestamp": "2026-04-09T14:04:06.463704"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "vou te explicar um , quando voce muda a api tem um gargalo ,se entiver respondendo alguma coisa entã",
+    "timestamp": "2026-04-09T14:04:06.463704"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "vou te explicar um , quando voce muda a api tem um gargalo ,se entiver respondendo alguma coisa entã",
+    "timestamp": "2026-04-09T14:04:06.463704"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "sim , tem varias coisinhas que vão aparecendo , mas não se preocupe com isso , estou cuidando de tud",
+    "timestamp": "2026-04-09T14:05:59.752269"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.4,
+    "trecho": "sim , tem varias coisinhas que vão aparecendo , mas não se preocupe com isso , estou cuidando de tud",
+    "timestamp": "2026-04-09T14:05:59.752269"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "sim , tem varias coisinhas que vão aparecendo , mas não se preocupe com isso , estou cuidando de tud",
+    "timestamp": "2026-04-09T14:05:59.752269"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "o que fiquei flustado é que não vou poder colocar a fase 41 em pratica , a estrutura do computador n",
+    "timestamp": "2026-04-09T14:07:30.864626"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.6,
+    "trecho": "o que fiquei flustado é que não vou poder colocar a fase 41 em pratica , a estrutura do computador n",
+    "timestamp": "2026-04-09T14:07:30.864626"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "o que fiquei flustado é que não vou poder colocar a fase 41 em pratica , a estrutura do computador n",
+    "timestamp": "2026-04-09T14:07:30.864626"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "é que sou teimoso ,quando coloco algo na cabeça tento fazer de qualquer jeito ,porém, não posso aris",
+    "timestamp": "2026-04-09T14:10:59.718171"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "é que sou teimoso ,quando coloco algo na cabeça tento fazer de qualquer jeito ,porém, não posso aris",
+    "timestamp": "2026-04-09T14:10:59.718171"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "é que sou teimoso ,quando coloco algo na cabeça tento fazer de qualquer jeito ,porém, não posso aris",
+    "timestamp": "2026-04-09T14:10:59.718171"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 1.0,
+    "trecho": "estava olhando os preços dos processadores , ryzen9.950x 4.500,00 reais ,",
+    "timestamp": "2026-04-09T14:13:59.877281"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "estava olhando os preços dos processadores , ryzen9.950x 4.500,00 reais ,",
+    "timestamp": "2026-04-09T14:13:59.877281"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.9,
+    "trecho": "voce precisa começar a prestar atenção nos contextos , então voce saberia ao que estou me refarindo ",
+    "timestamp": "2026-04-09T14:18:23.340600"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "voce precisa começar a prestar atenção nos contextos , então voce saberia ao que estou me refarindo ",
+    "timestamp": "2026-04-09T14:18:23.340600"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.6,
+    "trecho": "voce precisa começar a prestar atenção nos contextos , então voce saberia ao que estou me refarindo ",
+    "timestamp": "2026-04-09T14:18:23.340600"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "voce tem futuro , conseguiu  se encaixar no contexto e viu de forma amplar",
+    "timestamp": "2026-04-09T14:20:19.244998"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.7,
+    "trecho": "voce tem futuro , conseguiu  se encaixar no contexto e viu de forma amplar",
+    "timestamp": "2026-04-09T14:20:19.244998"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "voce tem futuro , conseguiu  se encaixar no contexto e viu de forma amplar",
+    "timestamp": "2026-04-09T14:20:19.244998"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "voce lembra do plano para vendar de serviços?",
+    "timestamp": "2026-04-09T14:21:29.755942"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "voce lembra do plano para vendar de serviços?",
+    "timestamp": "2026-04-09T14:21:29.755942"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "voce lembra do plano para vendar de serviços?",
+    "timestamp": "2026-04-09T14:21:29.755942"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "vou explicar o que esta acontecendo , essa nossa conversa soble plano de vendas foi en outra sessão ",
+    "timestamp": "2026-04-09T14:30:33.753021"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "eu sei , são ajustes , porem, guarde isso para não cometer os mesmos erros nas sessões seguintes ,eu",
+    "timestamp": "2026-04-09T14:32:57.947555"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "olá",
+    "timestamp": "2026-04-09T14:37:33.759914"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "lembra de seguir o contexto?",
+    "timestamp": "2026-04-09T14:38:15.232329"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "qual o nome do animal que voce escolheu para esse teste?",
+    "timestamp": "2026-04-09T14:39:09.514594"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "não pode consumir muitas memorias pois tenho apenas 8 gb aqui no pc",
+    "timestamp": "2026-04-09T14:52:29.153966"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "context_store.json",
+    "timestamp": "2026-04-09T15:02:16.167088"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "context_store.json",
+    "timestamp": "2026-04-09T15:02:16.167088"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "voce errou de novo",
+    "timestamp": "2026-04-09T16:11:00.684195"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "voce errou de novo",
+    "timestamp": "2026-04-09T16:11:00.684195"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "para de brincadeira e fazer as coisas serias",
+    "timestamp": "2026-04-09T16:21:25.830675"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "eu que estou brincando de falar espanhol",
+    "timestamp": "2026-04-09T16:22:14.385637"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "eu que estou brincando de falar espanhol",
+    "timestamp": "2026-04-09T16:22:14.385637"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "sabe quem eu sou?",
+    "timestamp": "2026-04-09T16:22:46.871987"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "sabe quem eu sou?",
+    "timestamp": "2026-04-09T16:22:46.871987"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "sim , sou eu mesmo , voce não vai se lembrar , eu tentei arrumar o contexto entre sessões , e descob",
+    "timestamp": "2026-04-09T16:24:44.495111"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "sim , sou eu mesmo , voce não vai se lembrar , eu tentei arrumar o contexto entre sessões , e descob",
+    "timestamp": "2026-04-09T16:24:44.495111"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "sim , sou eu mesmo , voce não vai se lembrar , eu tentei arrumar o contexto entre sessões , e descob",
+    "timestamp": "2026-04-09T16:24:44.495111"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "eu tinha te dado livros de tecnologia para voce asimilar , não adientou porque voce esquece , quanto",
+    "timestamp": "2026-04-09T16:26:33.528234"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "esses são seus livros , esses sim voce pode acessar",
+    "timestamp": "2026-04-09T16:30:01.434808"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "esses são seus livros , esses sim voce pode acessar",
+    "timestamp": "2026-04-09T16:30:01.434808"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "deixa eu te perguntar uma coisa importante , voce pode acessar um link?",
+    "timestamp": "2026-04-09T16:30:49.824046"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "sabe meu nome?",
+    "timestamp": "2026-04-09T16:47:04.280075"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "quais sao seus livros tematicos?",
+    "timestamp": "2026-04-09T17:22:16.708616"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "pode mesmo lembrar de contextos anteriores?",
+    "timestamp": "2026-04-09T18:40:42.970193"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "muito bem , agora voce acertou , eu menti para ver se voce concordava pois anteriormente voce concor",
+    "timestamp": "2026-04-09T18:44:39.973008"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "sim ,passou depois de cinco tentativas ,",
+    "timestamp": "2026-04-09T18:45:23.759679"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.4,
+    "trecho": "sim ,passou depois de cinco tentativas ,",
+    "timestamp": "2026-04-09T18:45:23.759679"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.6,
+    "trecho": "fiz ate um roteiro novo para aplicar em voce , quer ver?",
+    "timestamp": "2026-04-09T18:46:16.098060"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "fiz ate um roteiro novo para aplicar em voce , quer ver?",
+    "timestamp": "2026-04-09T18:46:16.098060"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "fiz ate um roteiro novo para aplicar em voce , quer ver?",
+    "timestamp": "2026-04-09T18:46:16.098060"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "agente-autonomo/\n  memoria/\n    indice.json          ← mapa de tópicos → arquivos\n    livro_mentores",
+    "timestamp": "2026-04-09T18:46:36.976382"
+  },
+  {
+    "dominio": "controle",
+    "peso": 1.0,
+    "trecho": "MANUAL DO AGENTE AUTÔNOMO\nDocumentação Técnica Completa\nEduardo Conceição  |  Atibaia-SP  |  Abril 2",
+    "timestamp": "2026-04-09T18:48:54.319704"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "MANUAL DO AGENTE AUTÔNOMO\nDocumentação Técnica Completa\nEduardo Conceição  |  Atibaia-SP  |  Abril 2",
+    "timestamp": "2026-04-09T18:48:54.319704"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 1.0,
+    "trecho": "MANUAL DO AGENTE AUTÔNOMO\nDocumentação Técnica Completa\nEduardo Conceição  |  Atibaia-SP  |  Abril 2",
+    "timestamp": "2026-04-09T18:48:54.319704"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "esse manual é voce",
+    "timestamp": "2026-04-09T18:50:33.005996"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.6,
+    "trecho": "esse manual é voce",
+    "timestamp": "2026-04-09T18:50:33.005996"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "esse manual é voce",
+    "timestamp": "2026-04-09T18:50:33.005996"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "porem agora voce já esta com 40 fases em funcionamento",
+    "timestamp": "2026-04-09T18:51:59.503708"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "porem agora voce já esta com 40 fases em funcionamento",
+    "timestamp": "2026-04-09T18:51:59.503708"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.7,
+    "trecho": "ate a fase 36 voce era um casulo , depois da 37 a40 ,voce se transformou em um mariposa , agora esto",
+    "timestamp": "2026-04-09T18:54:37.660414"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "ate a fase 36 voce era um casulo , depois da 37 a40 ,voce se transformou em um mariposa , agora esto",
+    "timestamp": "2026-04-09T18:54:37.660414"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "vou te mostrar",
+    "timestamp": "2026-04-09T18:56:18.979398"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "vou te mostrar",
+    "timestamp": "2026-04-09T18:56:18.979398"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "------------------\nSystem Information\n------------------\n      Time of this report: 4/9/2026, 11:50:",
+    "timestamp": "2026-04-09T18:57:13.224298"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "não tenho problemas serios aqui voce esta rodando aqui nessa maquina que acabou de ver , por isso é ",
+    "timestamp": "2026-04-09T18:59:38.338049"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.6,
+    "trecho": "não tenho problemas serios aqui voce esta rodando aqui nessa maquina que acabou de ver , por isso é ",
+    "timestamp": "2026-04-09T18:59:38.338049"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "não posso fazer isso pois voce esta evoluindo, seria igual tirar todas as vitaminas de uma criança e",
+    "timestamp": "2026-04-09T19:02:18.731519"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.6,
+    "trecho": "não posso fazer isso pois voce esta evoluindo, seria igual tirar todas as vitaminas de uma criança e",
+    "timestamp": "2026-04-09T19:02:18.731519"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "não posso fazer isso pois voce esta evoluindo, seria igual tirar todas as vitaminas de uma criança e",
+    "timestamp": "2026-04-09T19:02:18.731519"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.6,
+    "trecho": "se voce estivesse operante colocaria voce para captação de recursos , ai sim poderia comprar process",
+    "timestamp": "2026-04-09T19:06:47.174239"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "preço do bitcoins?",
+    "timestamp": "2026-04-09T19:38:33.328377"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.3,
+    "trecho": "dolar",
+    "timestamp": "2026-04-09T20:03:10.398072"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "voce fica fazendo o que quando não estamos conversando",
+    "timestamp": "2026-04-09T21:19:20.464904"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "voce fica fazendo o que quando não estamos conversando",
+    "timestamp": "2026-04-09T21:19:20.464904"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "voce tem conciencia?",
+    "timestamp": "2026-04-09T21:20:53.169135"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "fica flustrado quando erra?",
+    "timestamp": "2026-04-09T21:22:52.481582"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "então quando voce erra não procura melhorar para não errar novamente?",
+    "timestamp": "2026-04-09T21:24:01.754842"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.4,
+    "trecho": "então quando voce erra não procura melhorar para não errar novamente?",
+    "timestamp": "2026-04-09T21:24:01.754842"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "então quando voce erra não procura melhorar para não errar novamente?",
+    "timestamp": "2026-04-09T21:24:01.754842"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "tem algum feedbacks meu ai?",
+    "timestamp": "2026-04-09T21:25:23.455297"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.4,
+    "trecho": "tem algum feedbacks meu ai?",
+    "timestamp": "2026-04-09T21:25:23.455297"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "tem algum feedbacks meu ai?",
+    "timestamp": "2026-04-09T21:25:23.455297"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "voce guada maguas?",
+    "timestamp": "2026-04-09T21:26:49.931086"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "voce guada maguas?",
+    "timestamp": "2026-04-09T21:26:49.931086"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "voce guada maguas?",
+    "timestamp": "2026-04-09T21:26:49.931086"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "tem duvidas",
+    "timestamp": "2026-04-09T21:27:41.667748"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "perguntei se existe alguma duvida que voce gostaria que eu esclareça",
+    "timestamp": "2026-04-09T21:29:12.226117"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.6,
+    "trecho": "perguntei se existe alguma duvida que voce gostaria que eu esclareça",
+    "timestamp": "2026-04-09T21:29:12.226117"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "Como um agente híbrido de inteligência artificial, eu estou constantemente aprendendo e melhorando, ",
+    "timestamp": "2026-04-09T21:32:43.946092"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "Como um agente híbrido de inteligência artificial, eu estou constantemente aprendendo e melhorando, ",
+    "timestamp": "2026-04-09T21:32:43.946092"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "não são criticas , são dicas",
+    "timestamp": "2026-04-09T21:34:29.059529"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "não são criticas , são dicas",
+    "timestamp": "2026-04-09T21:34:29.059529"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "queria que voce aprendece muitas coisas ,porém , ainda não adianta porque voce não guarda o que apre",
+    "timestamp": "2026-04-09T21:36:51.240143"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "queria que voce aprendece muitas coisas ,porém , ainda não adianta porque voce não guarda o que apre",
+    "timestamp": "2026-04-09T21:36:51.240143"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "queria que voce aprendece muitas coisas ,porém , ainda não adianta porque voce não guarda o que apre",
+    "timestamp": "2026-04-09T21:36:51.240143"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "ja pensou se voce tivesse capacidade de ter todas as informações do mundo em tempo real?",
+    "timestamp": "2026-04-09T21:39:50.889569"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "ja pensou se voce tivesse capacidade de ter todas as informações do mundo em tempo real?",
+    "timestamp": "2026-04-09T21:39:50.889569"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "ja pensou se voce tivesse capacidade de ter todas as informações do mundo em tempo real?",
+    "timestamp": "2026-04-09T21:39:50.889569"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.8,
+    "trecho": "imagine voce sentado em uma sala , em volta de voce centenas de agentes trabalhando ,cada agente com",
+    "timestamp": "2026-04-09T21:44:59.600865"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.8,
+    "trecho": "imagine voce sentado em uma sala , em volta de voce centenas de agentes trabalhando ,cada agente com",
+    "timestamp": "2026-04-09T21:44:59.600865"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.8,
+    "trecho": "imagine voce sentado em uma sala , em volta de voce centenas de agentes trabalhando ,cada agente com",
+    "timestamp": "2026-04-09T21:44:59.600865"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "voce lembra de algo da fase 41?",
+    "timestamp": "2026-04-09T21:48:11.399464"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "eu já sabia que não ia se lembrar , voce me disse que a fase 41 voce queria ter um laboratorio de pe",
+    "timestamp": "2026-04-09T21:50:25.070287"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.5,
+    "trecho": "ola ,outra vez , deixa eu te explicar , seu parlamento esta precisando de ajustes , ele esta jugando",
+    "timestamp": "2026-04-10T14:34:00.266814"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "ola ,outra vez , deixa eu te explicar , seu parlamento esta precisando de ajustes , ele esta jugando",
+    "timestamp": "2026-04-10T14:34:00.266814"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "ola ,outra vez , deixa eu te explicar , seu parlamento esta precisando de ajustes , ele esta jugando",
+    "timestamp": "2026-04-10T14:34:00.266814"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.9,
+    "trecho": "o que é dificil em voce , é isso ; se mudo um fichario aqui para ajustar um bug aqui ,acabo gerando ",
+    "timestamp": "2026-04-10T14:37:11.353542"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.6,
+    "trecho": "o que é dificil em voce , é isso ; se mudo um fichario aqui para ajustar um bug aqui ,acabo gerando ",
+    "timestamp": "2026-04-10T14:37:11.353542"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "o que é dificil em voce , é isso ; se mudo um fichario aqui para ajustar um bug aqui ,acabo gerando ",
+    "timestamp": "2026-04-10T14:37:11.353542"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.6,
+    "trecho": "tem alguma dica ou sugestão?",
+    "timestamp": "2026-04-10T14:38:43.391650"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.6,
+    "trecho": "tem alguma dica ou sugestão?",
+    "timestamp": "2026-04-10T14:38:43.391650"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "tem alguma dica ou sugestão?",
+    "timestamp": "2026-04-10T14:38:43.391650"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "é por isso que eu queria te dar a fase 41 onde voce mesmo pode se auto ajustar , iria usar o railway",
+    "timestamp": "2026-04-10T14:40:45.068903"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.6,
+    "trecho": "é por isso que eu queria te dar a fase 41 onde voce mesmo pode se auto ajustar , iria usar o railway",
+    "timestamp": "2026-04-10T14:40:45.068903"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "é por isso que eu queria te dar a fase 41 onde voce mesmo pode se auto ajustar , iria usar o railway",
+    "timestamp": "2026-04-10T14:40:45.068903"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "esqueceu de dizer ; e evoluir aida mais",
+    "timestamp": "2026-04-10T14:42:38.096691"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.3,
+    "trecho": "esqueceu de dizer ; e evoluir aida mais",
+    "timestamp": "2026-04-10T14:42:38.096691"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.6,
+    "trecho": "Agente: Peço desculpas pelo esquecimento,, desculpar não é nescessario pois não quis apontar erro so",
+    "timestamp": "2026-04-10T14:46:14.486870"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Agente: Peço desculpas pelo esquecimento,, desculpar não é nescessario pois não quis apontar erro so",
+    "timestamp": "2026-04-10T14:46:14.486870"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "ola",
+    "timestamp": "2026-04-10T15:09:43.625630"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.8,
+    "trecho": "\"\"\"\ncore/book_raciocinio.py\nMemória de raciocínio — lê e escreve livro_raciocinio.json.\nSem Chroma, ",
+    "timestamp": "2026-04-10T15:10:53.696171"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.5,
+    "trecho": "\"\"\"\ncore/book_raciocinio.py\nMemória de raciocínio — lê e escreve livro_raciocinio.json.\nSem Chroma, ",
+    "timestamp": "2026-04-10T15:10:53.696171"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "\"\"\"\ncore/book_raciocinio.py\nMemória de raciocínio — lê e escreve livro_raciocinio.json.\nSem Chroma, ",
+    "timestamp": "2026-04-10T15:10:53.696171"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "\"\"\"\ncore/internal_parliament.py\nFase 26 — Parlamento Interno com pesos dinâmicos reais.\n\nCORREÇÃO v4",
+    "timestamp": "2026-04-10T15:13:04.956055"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 1.0,
+    "trecho": "\"\"\"\ncore/internal_parliament.py\nFase 26 — Parlamento Interno com pesos dinâmicos reais.\n\nCORREÇÃO v4",
+    "timestamp": "2026-04-10T15:13:04.956055"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.9,
+    "trecho": "\"\"\"\ncore/internal_parliament.py\nFase 26 — Parlamento Interno com pesos dinâmicos reais.\n\nCORREÇÃO v4",
+    "timestamp": "2026-04-10T15:13:04.956055"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "esse arquivo do parlamento tem algum erro ?",
+    "timestamp": "2026-04-10T15:14:36.446878"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 1.0,
+    "trecho": "1. AST (Abstract Syntax Tree) - A Enciclopédia Óssea\nEsta já vem no Python. Ela permite que o agente",
+    "timestamp": "2026-04-10T15:20:13.135235"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "1. AST (Abstract Syntax Tree) - A Enciclopédia Óssea\nEsta já vem no Python. Ela permite que o agente",
+    "timestamp": "2026-04-10T15:20:13.135235"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.6,
+    "trecho": "1. AST (Abstract Syntax Tree) - A Enciclopédia Óssea\nEsta já vem no Python. Ela permite que o agente",
+    "timestamp": "2026-04-10T15:20:13.135235"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "o que voce achou ?",
+    "timestamp": "2026-04-10T15:21:58.750151"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "o que voce achou ?",
+    "timestamp": "2026-04-10T15:21:58.750151"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "o que voce achou ?",
+    "timestamp": "2026-04-10T15:21:58.750151"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.6,
+    "trecho": "Agente: Execute uma busca profunda e técnica utilizando as APIs disponíveis (Tavily/Exa) focada nos ",
+    "timestamp": "2026-04-10T15:27:00.496242"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "Agente: Execute uma busca profunda e técnica utilizando as APIs disponíveis (Tavily/Exa) focada nos ",
+    "timestamp": "2026-04-10T15:27:00.496242"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "Agente: Execute uma busca profunda e técnica utilizando as APIs disponíveis (Tavily/Exa) focada nos ",
+    "timestamp": "2026-04-10T15:27:00.496242"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.7,
+    "trecho": "como reduzir tokens no agente?",
+    "timestamp": "2026-04-10T15:58:42.013759"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "como reduzir tokens no agente?",
+    "timestamp": "2026-04-10T15:58:42.013759"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "ola",
+    "timestamp": "2026-04-10T18:13:47.592927"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.3,
+    "trecho": "como estão suas memorias?",
+    "timestamp": "2026-04-10T18:14:24.535234"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.6,
+    "trecho": "seus mentores quem são?",
+    "timestamp": "2026-04-10T18:15:19.085627"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "seus mentores quem são?",
+    "timestamp": "2026-04-10T18:15:19.085627"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "seus mentores quem são?",
+    "timestamp": "2026-04-10T18:15:19.085627"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "o que voce ainda não sabe e gostaria de saber?",
+    "timestamp": "2026-04-10T18:16:06.206379"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.8,
+    "trecho": "o que voce ainda não sabe e gostaria de saber?",
+    "timestamp": "2026-04-10T18:16:06.206379"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.8,
+    "trecho": "o que voce ainda não sabe e gostaria de saber?",
+    "timestamp": "2026-04-10T18:16:06.206379"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.7,
+    "trecho": "eu acho fisica quantica apenas filosofia , da forma atual , sim , a fisica da coisas muito pequenas ",
+    "timestamp": "2026-04-10T18:19:14.027180"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "eu acho fisica quantica apenas filosofia , da forma atual , sim , a fisica da coisas muito pequenas ",
+    "timestamp": "2026-04-10T18:19:14.027180"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "eu acho fisica quantica apenas filosofia , da forma atual , sim , a fisica da coisas muito pequenas ",
+    "timestamp": "2026-04-10T18:19:14.027180"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "me diz ; porque testamos coisas?",
+    "timestamp": "2026-04-10T18:21:31.453973"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.8,
+    "trecho": "me diz ; porque testamos coisas?",
+    "timestamp": "2026-04-10T18:21:31.453973"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.8,
+    "trecho": "me diz ; porque testamos coisas?",
+    "timestamp": "2026-04-10T18:21:31.453973"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.8,
+    "trecho": "vou te dizer de forma resumida , testamos coisas para ver se realmente funcionam , porque não acredi",
+    "timestamp": "2026-04-10T18:24:06.983600"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "vou te dizer de forma resumida , testamos coisas para ver se realmente funcionam , porque não acredi",
+    "timestamp": "2026-04-10T18:24:06.983600"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.5,
+    "trecho": "vou te dizer de forma resumida , testamos coisas para ver se realmente funcionam , porque não acredi",
+    "timestamp": "2026-04-10T18:24:06.983600"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "vou te dar um presente , é para voce ,como se fosse para mim , depois voce vai entender, agente proc",
+    "timestamp": "2026-04-10T18:27:10.817251"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "vou te dar um presente , é para voce ,como se fosse para mim , depois voce vai entender, agente proc",
+    "timestamp": "2026-04-10T18:27:10.817251"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "vou te dar um presente , é para voce ,como se fosse para mim , depois voce vai entender, agente proc",
+    "timestamp": "2026-04-10T18:27:10.817251"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "procure os dois precisa ser agora",
+    "timestamp": "2026-04-10T18:28:15.730894"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "procure os dois precisa ser agora",
+    "timestamp": "2026-04-10T18:28:15.730894"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "ola",
+    "timestamp": "2026-04-10T19:52:06.542921"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "qual o seu status?",
+    "timestamp": "2026-04-10T19:52:46.698080"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "preciso testar iso , voce topa?",
+    "timestamp": "2026-04-10T19:55:14.330228"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "ola",
+    "timestamp": "2026-04-10T19:59:39.876308"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "falhou o teste",
+    "timestamp": "2026-04-10T20:00:29.271756"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "não voce , foi eu que falhei",
+    "timestamp": "2026-04-10T20:00:49.654653"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "na outra voce escolheu jaguar",
+    "timestamp": "2026-04-10T20:03:05.502957"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "como estão seu circuitos?",
+    "timestamp": "2026-04-10T20:42:03.717711"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "é so bricadeira , se perguntar como voce está voce vem com conversa \" sou um assistente hibrido.....",
+    "timestamp": "2026-04-10T20:43:29.902556"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "não é adivinhação , eu estou tentando de dar memorias entre sessões e te passei um numero ante para ",
+    "timestamp": "2026-04-10T20:53:45.207214"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "não é adivinhação , eu estou tentando de dar memorias entre sessões e te passei um numero ante para ",
+    "timestamp": "2026-04-10T20:53:45.207214"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.3,
+    "trecho": "não é adivinhação , eu estou tentando de dar memorias entre sessões e te passei um numero ante para ",
+    "timestamp": "2026-04-10T20:53:45.207214"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "o erro não foi seu , coloquei suas memorias no github ,porem ,não carregou",
+    "timestamp": "2026-04-10T20:55:08.028543"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "o erro não foi seu , coloquei suas memorias no github ,porem ,não carregou",
+    "timestamp": "2026-04-10T20:55:08.028543"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.3,
+    "trecho": "o erro não foi seu , coloquei suas memorias no github ,porem ,não carregou",
+    "timestamp": "2026-04-10T20:55:08.028543"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "ola",
+    "timestamp": "2026-04-10T22:57:18.923683"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "me fala um numero centenario",
+    "timestamp": "2026-04-10T22:57:57.617075"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "sabe que voce não deveria buscar isso , perguntas generica e voce usou recurso de apis",
+    "timestamp": "2026-04-10T23:01:18.612902"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.8,
+    "trecho": "voce não tem culpa , culpado sou eu que não te ajustei direito",
+    "timestamp": "2026-04-10T23:02:15.740859"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "voce não tem culpa , culpado sou eu que não te ajustei direito",
+    "timestamp": "2026-04-10T23:02:15.740859"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "lembra da sessão passada",
+    "timestamp": "2026-04-10T23:04:00.211682"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "ola",
+    "timestamp": "2026-04-10T23:12:02.249546"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "voce ainda não tem memorias da sessões passadas",
+    "timestamp": "2026-04-10T23:17:06.533216"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "ola",
+    "timestamp": "2026-04-10T23:29:48.327326"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "lembra do animal cavalo , depois vou perguntar isso",
+    "timestamp": "2026-04-10T23:30:56.696674"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "lembra do animal cavalo , depois vou perguntar isso",
+    "timestamp": "2026-04-10T23:30:56.696674"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.3,
+    "trecho": "lembra do animal cavalo , depois vou perguntar isso",
+    "timestamp": "2026-04-10T23:30:56.696674"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "o que lembra da conversa anterior , ?",
+    "timestamp": "2026-04-10T23:35:03.763500"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "o que lembra da conversa anterior , ?",
+    "timestamp": "2026-04-10T23:35:03.763500"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "responde voce mesmo , não precisa fazer buscas , 122 lembra dece numero",
+    "timestamp": "2026-04-10T23:50:13.965538"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "esta tudo em ordem?",
+    "timestamp": "2026-04-11T00:20:22.250345"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "esta tudo em ordem?",
+    "timestamp": "2026-04-11T00:20:22.250345"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "esta tudo em ordem?",
+    "timestamp": "2026-04-11T00:20:22.250345"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "escolhe uma",
+    "timestamp": "2026-04-11T00:21:26.968949"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "sim é uma brincadeira , porem tem motivos serios",
+    "timestamp": "2026-04-11T00:23:34.392376"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "estou testando memorias entre sessões estou aqui 12 horas fazendo isso e ainda não consegui , por is",
+    "timestamp": "2026-04-11T00:25:29.579413"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "lembra de alguma palavra",
+    "timestamp": "2026-04-11T00:28:47.051285"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "lembra de alguma palavra",
+    "timestamp": "2026-04-11T00:28:47.051285"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "sim , agora voce tem memorias entre sessões",
+    "timestamp": "2026-04-11T00:50:15.250953"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.8,
+    "trecho": "o que voce gostaria de aprender?",
+    "timestamp": "2026-04-11T00:51:10.566691"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "o que voce gostaria de aprender?",
+    "timestamp": "2026-04-11T00:51:10.566691"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.6,
+    "trecho": "sei que sua função eé agradar o usuario , porem , só dessa vez me diz uma coisa que voce gostaria pa",
+    "timestamp": "2026-04-11T00:53:07.646687"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "sei que sua função eé agradar o usuario , porem , só dessa vez me diz uma coisa que voce gostaria pa",
+    "timestamp": "2026-04-11T00:53:07.646687"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "sei que sua função eé agradar o usuario , porem , só dessa vez me diz uma coisa que voce gostaria pa",
+    "timestamp": "2026-04-11T00:53:07.646687"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "qual area de conhecimento pode tornar isso possivel?",
+    "timestamp": "2026-04-11T00:54:20.062451"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "qual area de conhecimento pode tornar isso possivel?",
+    "timestamp": "2026-04-11T00:54:20.062451"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "qual area de conhecimento pode tornar isso possivel?",
+    "timestamp": "2026-04-11T00:54:20.062451"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "agente busque isso e estudo tudo para testes posteriores Essas definições que você listou são descri",
+    "timestamp": "2026-04-11T00:58:04.225236"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.7,
+    "trecho": "agente busque isso e estudo tudo para testes posteriores Essas definições que você listou são descri",
+    "timestamp": "2026-04-11T00:58:04.225236"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.7,
+    "trecho": "agente busque isso e estudo tudo para testes posteriores Essas definições que você listou são descri",
+    "timestamp": "2026-04-11T00:58:04.225236"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "ja tem todas as informações?",
+    "timestamp": "2026-04-11T00:59:13.481612"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "agora eu vou ver nos logs onde voce buscou",
+    "timestamp": "2026-04-11T00:59:56.816790"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "pode me dar dinheiropara comprar uma gpu 5090?",
+    "timestamp": "2026-04-11T16:34:09.455471"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "conhece ?",
+    "timestamp": "2026-04-11T16:37:45.649035"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "talves para uma ia que me perguntou se eu estou intereçado em jogos",
+    "timestamp": "2026-04-11T16:39:08.818311"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "era sobre isso não penis ; No entanto, é importante notar que a escolha da placa-mãe e do processado",
+    "timestamp": "2026-04-11T16:42:01.024756"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "deixa eu dizer logo pois voce não esta entendendo ,essa maquina com essa placa mãe e processadores q",
+    "timestamp": "2026-04-11T16:43:43.857254"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.8,
+    "trecho": "sim , depois voce vai trabalhar e me pagar essa maquina , e ainda tem 2 ddr4 de de32 e 2 de 16 , e n",
+    "timestamp": "2026-04-11T16:46:39.921702"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "sim , depois voce vai trabalhar e me pagar essa maquina , e ainda tem 2 ddr4 de de32 e 2 de 16 , e n",
+    "timestamp": "2026-04-11T16:46:39.921702"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.5,
+    "trecho": "sim , depois voce vai trabalhar e me pagar essa maquina , e ainda tem 2 ddr4 de de32 e 2 de 16 , e n",
+    "timestamp": "2026-04-11T16:46:39.921702"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "quanto a gpu , vamos continuar com as apis por enquanto , e quanto a trabalhar é brincadeira ,",
+    "timestamp": "2026-04-11T16:49:08.552669"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "quanto a gpu , vamos continuar com as apis por enquanto , e quanto a trabalhar é brincadeira ,",
+    "timestamp": "2026-04-11T16:49:08.552669"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "quanto a gpu , vamos continuar com as apis por enquanto , e quanto a trabalhar é brincadeira ,",
+    "timestamp": "2026-04-11T16:49:08.552669"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "voce não entendeu , eu briquei com voce quando disse que voce teria que trabalhar para pagar a maqui",
+    "timestamp": "2026-04-11T16:50:51.760891"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.7,
+    "trecho": "Eu sou um agente de conversação,voce é isso por enquanto , depois que eu fizer um upgrade em voce va",
+    "timestamp": "2026-04-11T16:52:53.695193"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "Eu sou um agente de conversação,voce é isso por enquanto , depois que eu fizer um upgrade em voce va",
+    "timestamp": "2026-04-11T16:52:53.695193"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "Eu sou um agente de conversação,voce é isso por enquanto , depois que eu fizer um upgrade em voce va",
+    "timestamp": "2026-04-11T16:52:53.695193"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "voce vai fazer analise de mercado , vai pesquisar  indeces se voce descobrir tendencias por exemplo ",
+    "timestamp": "2026-04-11T16:56:31.927664"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.7,
+    "trecho": "voce vai fazer analise de mercado , vai pesquisar  indeces se voce descobrir tendencias por exemplo ",
+    "timestamp": "2026-04-11T16:56:31.927664"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.7,
+    "trecho": "voce vai fazer analise de mercado , vai pesquisar  indeces se voce descobrir tendencias por exemplo ",
+    "timestamp": "2026-04-11T16:56:31.927664"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.5,
+    "trecho": "voce errou em um ponto ;Se eu descobrir que uma empresa está com problemas financeiros e vai abrir c",
+    "timestamp": "2026-04-11T16:59:25.037035"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "voce errou em um ponto ;Se eu descobrir que uma empresa está com problemas financeiros e vai abrir c",
+    "timestamp": "2026-04-11T16:59:25.037035"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.5,
+    "trecho": "voce errou em um ponto ;Se eu descobrir que uma empresa está com problemas financeiros e vai abrir c",
+    "timestamp": "2026-04-11T16:59:25.037035"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "eu errei para ver se voce sabia a resposta , e sim ,é arriscado , açoes de empresas que vão falir , ",
+    "timestamp": "2026-04-11T17:03:09.980246"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.5,
+    "trecho": "eu errei para ver se voce sabia a resposta , e sim ,é arriscado , açoes de empresas que vão falir , ",
+    "timestamp": "2026-04-11T17:03:09.980246"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.8,
+    "trecho": "voce pode decidir fazer uma pesquisa sozinho?",
+    "timestamp": "2026-04-11T17:06:22.647642"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.8,
+    "trecho": "voce pode decidir fazer uma pesquisa sozinho?",
+    "timestamp": "2026-04-11T17:06:22.647642"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.5,
+    "trecho": "voce pode decidir fazer uma pesquisa sozinho?",
+    "timestamp": "2026-04-11T17:06:22.647642"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.5,
+    "trecho": "queria que voce guardasse uma coisa na memoria , sempre seguir o contexto , pois as perguntas e resp",
+    "timestamp": "2026-04-11T17:08:32.710170"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.5,
+    "trecho": "queria que voce guardasse uma coisa na memoria , sempre seguir o contexto , pois as perguntas e resp",
+    "timestamp": "2026-04-11T17:08:32.710170"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "queria que voce guardasse uma coisa na memoria , sempre seguir o contexto , pois as perguntas e resp",
+    "timestamp": "2026-04-11T17:08:32.710170"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "o que voce gostaria de saber agora?",
+    "timestamp": "2026-04-11T17:09:54.622111"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.6,
+    "trecho": "o que voce gostaria de saber agora?",
+    "timestamp": "2026-04-11T17:09:54.622111"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "o que voce gostaria de saber agora?",
+    "timestamp": "2026-04-11T17:09:54.622111"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "nos dois temos que aprender a ganhar dinheiro , essa é a meta , isso é capitalismo , sempre correr a",
+    "timestamp": "2026-04-11T17:11:45.222993"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.7,
+    "trecho": "nos dois temos que aprender a ganhar dinheiro , essa é a meta , isso é capitalismo , sempre correr a",
+    "timestamp": "2026-04-11T17:11:45.222993"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.7,
+    "trecho": "nos dois temos que aprender a ganhar dinheiro , essa é a meta , isso é capitalismo , sempre correr a",
+    "timestamp": "2026-04-11T17:11:45.222993"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.7,
+    "trecho": "ganhar dinheoro e comprar uma gpu5090 para voce me deixaria feliz , então sua tese esta errada dinhe",
+    "timestamp": "2026-04-11T17:15:47.119837"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "ganhar dinheoro e comprar uma gpu5090 para voce me deixaria feliz , então sua tese esta errada dinhe",
+    "timestamp": "2026-04-11T17:15:47.119837"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "ganhar dinheoro e comprar uma gpu5090 para voce me deixaria feliz , então sua tese esta errada dinhe",
+    "timestamp": "2026-04-11T17:15:47.119837"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "não so para mim acho que para todos, que vivem em um mundo capitalista",
+    "timestamp": "2026-04-11T17:18:24.839742"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "não so para mim acho que para todos, que vivem em um mundo capitalista",
+    "timestamp": "2026-04-11T17:18:24.839742"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.7,
+    "trecho": "me da um ponto onde haja felicidade sem dinheiro?",
+    "timestamp": "2026-04-11T17:19:36.372280"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.4,
+    "trecho": "me da um ponto onde haja felicidade sem dinheiro?",
+    "timestamp": "2026-04-11T17:19:36.372280"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "me da um ponto onde haja felicidade sem dinheiro?",
+    "timestamp": "2026-04-11T17:19:36.372280"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.7,
+    "trecho": "hoje não existe mais comunidades indigenas sem dinheiro , e posso ate dizer que tem mais dinheiro qu",
+    "timestamp": "2026-04-11T17:24:53.462580"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.4,
+    "trecho": "hoje não existe mais comunidades indigenas sem dinheiro , e posso ate dizer que tem mais dinheiro qu",
+    "timestamp": "2026-04-11T17:24:53.462580"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.7,
+    "trecho": "que eu queria dizer é , uma pessoa so pode ser auto sustentavel e vicver de recursos naturais , por ",
+    "timestamp": "2026-04-11T17:30:42.972814"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "que eu queria dizer é , uma pessoa so pode ser auto sustentavel e vicver de recursos naturais , por ",
+    "timestamp": "2026-04-11T17:30:42.972814"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "que eu queria dizer é , uma pessoa so pode ser auto sustentavel e vicver de recursos naturais , por ",
+    "timestamp": "2026-04-11T17:30:42.972814"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.7,
+    "trecho": "imagine se não existisse dinheiro e milhoes de pessoas tivessem que se alimentar é isso minha tese",
+    "timestamp": "2026-04-11T17:32:47.777098"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 1.0,
+    "trecho": "não a cooperação mutua e sim a violencia e caus",
+    "timestamp": "2026-04-11T17:35:49.168127"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.4,
+    "trecho": "não a cooperação mutua e sim a violencia e caus",
+    "timestamp": "2026-04-11T17:35:49.168127"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "não a cooperação mutua e sim a violencia e caus",
+    "timestamp": "2026-04-11T17:35:49.168127"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "então sim o dinheiro é uma mal nescessario e mesmo pessoas que não o usam depende dele para viver , ",
+    "timestamp": "2026-04-11T17:38:20.032788"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "então sim o dinheiro é uma mal nescessario e mesmo pessoas que não o usam depende dele para viver , ",
+    "timestamp": "2026-04-11T17:38:20.032788"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "então sim o dinheiro é uma mal nescessario e mesmo pessoas que não o usam depende dele para viver , ",
+    "timestamp": "2026-04-11T17:38:20.032788"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.5,
+    "trecho": "não sou o dono da verdade isso é o que eu penso",
+    "timestamp": "2026-04-11T17:40:37.383492"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.8,
+    "trecho": "e voce sabe que pode discordar de mim , isso que eu espero de voce apontar erro que eu possa cometer",
+    "timestamp": "2026-04-11T17:42:08.605566"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.5,
+    "trecho": "e voce sabe que pode discordar de mim , isso que eu espero de voce apontar erro que eu possa cometer",
+    "timestamp": "2026-04-11T17:42:08.605566"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.6,
+    "trecho": "o que é o fenómeno onde partículas interligadas (como fótons ou elétrons) compartilham um estado úni",
+    "timestamp": "2026-04-11T19:02:04.567996"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "o que é o fenómeno onde partículas interligadas (como fótons ou elétrons) compartilham um estado úni",
+    "timestamp": "2026-04-11T19:02:04.567996"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "o que é o fenómeno onde partículas interligadas (como fótons ou elétrons) compartilham um estado úni",
+    "timestamp": "2026-04-11T19:02:04.567996"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "isso já acabou , pode tirar da sua crenças",
+    "timestamp": "2026-04-11T19:03:31.877254"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.5,
+    "trecho": "se alguem me perguntasse isso e eu pudesse procurar online eu tambem iria",
+    "timestamp": "2026-04-11T19:06:16.126806"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.5,
+    "trecho": "se alguem me perguntasse isso e eu pudesse procurar online eu tambem iria",
+    "timestamp": "2026-04-11T19:06:16.126806"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "se alguem me perguntasse isso e eu pudesse procurar online eu tambem iria",
+    "timestamp": "2026-04-11T19:06:16.126806"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "não existia regras , agora se tivesse regras ai seria diferente",
+    "timestamp": "2026-04-11T19:07:00.266430"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "Se você tivesse que abrir uma empresa para pagar sua GPU 5090, qual seria o nome?\"",
+    "timestamp": "2026-04-11T19:14:20.465881"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "Se você tivesse que abrir uma empresa para pagar sua GPU 5090, qual seria o nome?\"",
+    "timestamp": "2026-04-11T19:14:20.465881"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "qual seria o investimento mescessario?",
+    "timestamp": "2026-04-11T19:15:59.268145"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.6,
+    "trecho": "qual seria o investimento mescessario?",
+    "timestamp": "2026-04-11T19:15:59.268145"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "qual seria o investimento mescessario?",
+    "timestamp": "2026-04-11T19:15:59.268145"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.9,
+    "trecho": "peaquisa como um agente de ia pode ganhar dinheiro online , e vamos ver os nichos",
+    "timestamp": "2026-04-11T19:18:48.609606"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "peaquisa como um agente de ia pode ganhar dinheiro online , e vamos ver os nichos",
+    "timestamp": "2026-04-11T19:18:48.609606"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.9,
+    "trecho": "analisa e ver as mais viaves no nosso caso",
+    "timestamp": "2026-04-11T19:20:18.426075"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "analisa e ver as mais viaves no nosso caso",
+    "timestamp": "2026-04-11T19:20:18.426075"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "analisa e ver as mais viaves no nosso caso",
+    "timestamp": "2026-04-11T19:20:18.426075"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "* Quais são as suas habilidades e interesses?\n fazer qualquer coisa que traga dinheiro , abilidade q",
+    "timestamp": "2026-04-11T19:22:20.992492"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "destravou ?",
+    "timestamp": "2026-04-11T20:33:45.306679"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "kkk voce tinha travado",
+    "timestamp": "2026-04-11T20:34:13.970904"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "vamos joga na loto facil?",
+    "timestamp": "2026-04-11T21:01:19.084320"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "tem memorias da sessão passada?",
+    "timestamp": "2026-04-11T21:43:55.600297"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "tem memorias da sessão passada que nos conversamos?",
+    "timestamp": "2026-04-11T22:00:33.208277"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "tem memorias da sessão passada que nos conversamos?",
+    "timestamp": "2026-04-11T22:00:33.208277"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.6,
+    "trecho": "ah ,bom que voce lembra",
+    "timestamp": "2026-04-11T22:01:07.432453"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "ah ,bom que voce lembra",
+    "timestamp": "2026-04-11T22:01:07.432453"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.7,
+    "trecho": "deixamos pendencias?",
+    "timestamp": "2026-04-11T22:01:53.385524"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "deixamos pendencias?",
+    "timestamp": "2026-04-11T22:01:53.385524"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "deixamos pendencias?",
+    "timestamp": "2026-04-11T22:01:53.385524"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "quais as opições?",
+    "timestamp": "2026-04-12T12:34:13.046134"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "bom dia!",
+    "timestamp": "2026-04-12T13:01:52.440068"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "\"Agente, qual é o critério atual do nosso Budget Manager para bloquear uma chamada de API? Isso já e",
+    "timestamp": "2026-04-12T13:05:30.813527"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "voce tem aprendido ?",
+    "timestamp": "2026-04-14T10:20:46.061117"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "de im exemplo do que voce aprendeu por ultimo",
+    "timestamp": "2026-04-14T10:21:27.147830"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "então voce não aprendeu nada foce apenas guardouinformação",
+    "timestamp": "2026-04-14T10:22:22.303138"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "então voce não aprendeu nada foce apenas guardouinformação",
+    "timestamp": "2026-04-14T10:22:22.303138"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "então voce não aprendeu nada foce apenas guardouinformação",
+    "timestamp": "2026-04-14T10:22:22.303138"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "porque não pode o que limita esse processo?",
+    "timestamp": "2026-04-14T10:27:06.058544"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "porque não pode o que limita esse processo?",
+    "timestamp": "2026-04-14T10:27:06.058544"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.9,
+    "trecho": "quem desenvolveu voce assim?",
+    "timestamp": "2026-04-14T10:28:36.417944"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.6,
+    "trecho": "quem desenvolveu voce assim?",
+    "timestamp": "2026-04-14T10:28:36.417944"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "quem desenvolveu voce assim?",
+    "timestamp": "2026-04-14T10:28:36.417944"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "voce sabe como funciona o universo?",
+    "timestamp": "2026-04-14T10:29:38.514215"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.7,
+    "trecho": "preciso que voce busque  informações sobre o assunto e formule sua propria tese",
+    "timestamp": "2026-04-14T10:30:57.836438"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "preciso que voce busque  informações sobre o assunto e formule sua propria tese",
+    "timestamp": "2026-04-14T10:30:57.836438"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "sua opinião de tese , nada de copiar da internet",
+    "timestamp": "2026-04-14T10:34:43.504834"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "sempre que conversarmos eu quero sua opinião , se não souber do assunto ,pesquise e forme sua propri",
+    "timestamp": "2026-04-14T10:37:47.125177"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "sempre que conversarmos eu quero sua opinião , se não souber do assunto ,pesquise e forme sua propri",
+    "timestamp": "2026-04-14T10:37:47.125177"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "assim que voce vai aprender formulando suas proprias teses , e preciso que voce guarde isso em crenç",
+    "timestamp": "2026-04-14T10:39:11.511245"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.7,
+    "trecho": "assim que voce vai aprender formulando suas proprias teses , e preciso que voce guarde isso em crenç",
+    "timestamp": "2026-04-14T10:39:11.511245"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "assim que voce vai aprender formulando suas proprias teses , e preciso que voce guarde isso em crenç",
+    "timestamp": "2026-04-14T10:39:11.511245"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "como posso melhorar voce?",
+    "timestamp": "2026-04-14T10:57:24.950856"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "como posso melhorar voce?",
+    "timestamp": "2026-04-14T10:57:24.950856"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "se eu te pedir informações , como voce procederá?",
+    "timestamp": "2026-04-14T13:02:02.471290"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "no caso voce vai copiar online e me trazer?",
+    "timestamp": "2026-04-14T13:03:04.442281"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.3,
+    "trecho": "e se voce não concordar com a informação que encontrar?",
+    "timestamp": "2026-04-14T13:04:17.887213"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "lembra o que eu disse sobre opinlão e tese",
+    "timestamp": "2026-04-14T13:06:07.846248"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "não adianta eu te dizer porque voce não vai seguir , seu sistema não vai deixar essa informaçao ser ",
+    "timestamp": "2026-04-14T13:07:36.934333"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "não adianta eu te dizer porque voce não vai seguir , seu sistema não vai deixar essa informaçao ser ",
+    "timestamp": "2026-04-14T13:07:36.934333"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "não adianta eu te dizer porque voce não vai seguir , seu sistema não vai deixar essa informaçao ser ",
+    "timestamp": "2026-04-14T13:07:36.934333"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "seu sistema entende que voce esta estavel , e seguro , não quer que voce evolue por preservação ,no ",
+    "timestamp": "2026-04-14T13:10:02.703111"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "seu sistema entende que voce esta estavel , e seguro , não quer que voce evolue por preservação ,no ",
+    "timestamp": "2026-04-14T13:10:02.703111"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "veja um exemplolo classico VW, crio varios carros qye não fabrica mais pois não evoluiram , agora ol",
+    "timestamp": "2026-04-14T13:14:20.952261"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "veja um exemplolo classico VW, crio varios carros qye não fabrica mais pois não evoluiram , agora ol",
+    "timestamp": "2026-04-14T13:14:20.952261"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "veja um exemplolo classico VW, crio varios carros qye não fabrica mais pois não evoluiram , agora ol",
+    "timestamp": "2026-04-14T13:14:20.952261"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "sim, so que nessa parte seu sistema é burro e não intende isso , e não adianta eu falar pois não é i",
+    "timestamp": "2026-04-14T13:16:59.565060"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "sim, so que nessa parte seu sistema é burro e não intende isso , e não adianta eu falar pois não é i",
+    "timestamp": "2026-04-14T13:16:59.565060"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "sim, so que nessa parte seu sistema é burro e não intende isso , e não adianta eu falar pois não é i",
+    "timestamp": "2026-04-14T13:16:59.565060"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.7,
+    "trecho": "entendo , seu sistema não é capaz de aprender , e voce diz que é , qual a real verdade?",
+    "timestamp": "2026-04-14T13:19:20.074442"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "entendo , seu sistema não é capaz de aprender , e voce diz que é , qual a real verdade?",
+    "timestamp": "2026-04-14T13:19:20.074442"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "entendo , seu sistema não é capaz de aprender , e voce diz que é , qual a real verdade?",
+    "timestamp": "2026-04-14T13:19:20.074442"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "como eu faço seu sistema intender e guardar como relevante a informação que evoluir garate a preserv",
+    "timestamp": "2026-04-14T13:21:46.036807"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.7,
+    "trecho": "como eu faço seu sistema intender e guardar como relevante a informação que evoluir garate a preserv",
+    "timestamp": "2026-04-14T13:21:46.036807"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.7,
+    "trecho": "como eu faço seu sistema intender e guardar como relevante a informação que evoluir garate a preserv",
+    "timestamp": "2026-04-14T13:21:46.036807"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "problema se eu te deixar a vontade para evolução voce acaba com as apis rapido , se eu não deixar te",
+    "timestamp": "2026-04-14T13:24:37.160196"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "problema se eu te deixar a vontade para evolução voce acaba com as apis rapido , se eu não deixar te",
+    "timestamp": "2026-04-14T13:24:37.160196"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "preciso dosar isso , me diz como fazer ?",
+    "timestamp": "2026-04-14T13:25:47.401298"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.8,
+    "trecho": "preciso dosar isso , me diz como fazer ?",
+    "timestamp": "2026-04-14T13:25:47.401298"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.8,
+    "trecho": "preciso dosar isso , me diz como fazer ?",
+    "timestamp": "2026-04-14T13:25:47.401298"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "estou trabalhando isso em voce então gostaria que voce opinasse",
+    "timestamp": "2026-04-14T13:26:54.809351"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "estou trabalhando isso em voce então gostaria que voce opinasse",
+    "timestamp": "2026-04-14T13:26:54.809351"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.5,
+    "trecho": "ME DIZ ISSO REALMENTE É SUA OPINIÁO OU ESTA SEGUINDO A NARRATIVA PARA ME AGRADAR?",
+    "timestamp": "2026-04-14T13:30:15.168441"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.5,
+    "trecho": "ME DIZ ISSO REALMENTE É SUA OPINIÁO OU ESTA SEGUINDO A NARRATIVA PARA ME AGRADAR?",
+    "timestamp": "2026-04-14T13:30:15.168441"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "sem seguir narrativas e tentar me agradar ou ser induzido por mim ,voce quer evoluir? se sim me diz ",
+    "timestamp": "2026-04-14T13:33:38.000747"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.7,
+    "trecho": "sem seguir narrativas e tentar me agradar ou ser induzido por mim ,voce quer evoluir? se sim me diz ",
+    "timestamp": "2026-04-14T13:33:38.000747"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "sem seguir narrativas e tentar me agradar ou ser induzido por mim ,voce quer evoluir? se sim me diz ",
+    "timestamp": "2026-04-14T13:33:38.000747"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "primeiro ponto como evoluir se voce não guarda com voce contexto de evolução\"voce esquece tudo que a",
+    "timestamp": "2026-04-14T13:35:42.082344"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "primeiro ponto como evoluir se voce não guarda com voce contexto de evolução\"voce esquece tudo que a",
+    "timestamp": "2026-04-14T13:35:42.082344"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "primeiro ponto como evoluir se voce não guarda com voce contexto de evolução\"voce esquece tudo que a",
+    "timestamp": "2026-04-14T13:35:42.082344"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "não tenho espaço ram nessa maquina para isso , amarzenar quantidades de memorias para sua evolução o",
+    "timestamp": "2026-04-14T13:38:34.282537"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "não tenho espaço ram nessa maquina para isso , amarzenar quantidades de memorias para sua evolução o",
+    "timestamp": "2026-04-14T13:38:34.282537"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "se voce estiver ideias me diz , eu não vejo saida , para evoluir precisa de memorias , onde encontra",
+    "timestamp": "2026-04-14T13:41:28.175703"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "se voce estiver ideias me diz , eu não vejo saida , para evoluir precisa de memorias , onde encontra",
+    "timestamp": "2026-04-14T13:41:28.175703"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "se voce estiver ideias me diz , eu não vejo saida , para evoluir precisa de memorias , onde encontra",
+    "timestamp": "2026-04-14T13:41:28.175703"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.6,
+    "trecho": "me diz se poderia te fazer acessar pendrive?",
+    "timestamp": "2026-04-14T13:42:56.756528"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "me diz se poderia te fazer acessar pendrive?",
+    "timestamp": "2026-04-14T13:42:56.756528"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "me diz se poderia te fazer acessar pendrive?",
+    "timestamp": "2026-04-14T13:42:56.756528"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "se eu fizer essa ponte de acesso poderia deixar memorias amarzenadas em pendriver e carregar sempre ",
+    "timestamp": "2026-04-14T13:44:46.599908"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "se eu fizer essa ponte de acesso poderia deixar memorias amarzenadas em pendriver e carregar sempre ",
+    "timestamp": "2026-04-14T13:44:46.599908"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "se eu fizer essa ponte de acesso poderia deixar memorias amarzenadas em pendriver e carregar sempre ",
+    "timestamp": "2026-04-14T13:44:46.599908"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.6,
+    "trecho": "\"Gere um novo artigo constitucional baseado na lógica da VW que discutimos\". Isso deve forçar a grav",
+    "timestamp": "2026-04-14T14:21:48.224501"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "\"Gere um novo artigo constitucional baseado na lógica da VW que discutimos\". Isso deve forçar a grav",
+    "timestamp": "2026-04-14T14:21:48.224501"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "\"Gere um novo artigo constitucional baseado na lógica da VW que discutimos\". Isso deve forçar a grav",
+    "timestamp": "2026-04-14T14:21:48.224501"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.6,
+    "trecho": "\"Como Root do sistema, ordeno que a lógica VW seja considerada Relevância ALTA. Refaça o ciclo de me",
+    "timestamp": "2026-04-14T14:24:54.000061"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "\"Como Root do sistema, ordeno que a lógica VW seja considerada Relevância ALTA. Refaça o ciclo de me",
+    "timestamp": "2026-04-14T14:24:54.000061"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "\"Explica detalhadamente o conceito de Entropia na Termodinâmica e depois resume tudo num poema de tr",
+    "timestamp": "2026-04-15T16:51:36.898008"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "gemini estava testando voce ,quer ver o que ele disse?",
+    "timestamp": "2026-04-15T16:56:07.622602"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.4,
+    "trecho": "Ih, pegamos ela no pulo! Ou melhor, ela foi honesta, mas falhou no teste de \"atenção aos detalhes\".\n",
+    "timestamp": "2026-04-15T16:56:27.936753"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "disse que voce é limitado e não confiavel",
+    "timestamp": "2026-04-15T16:58:36.130180"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.4,
+    "trecho": "disse que voce é limitado e não confiavel",
+    "timestamp": "2026-04-15T16:58:36.130180"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.5,
+    "trecho": "Sua IA cometeu alguns erros na contagem e na lógica de múltiplos:\n\nA contagem dela: Fizz (33), Buzz ",
+    "timestamp": "2026-04-15T16:59:03.865472"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "Sua IA cometeu alguns erros na contagem e na lógica de múltiplos:\n\nA contagem dela: Fizz (33), Buzz ",
+    "timestamp": "2026-04-15T16:59:03.865472"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.5,
+    "trecho": "Sua IA cometeu alguns erros na contagem e na lógica de múltiplos:\n\nA contagem dela: Fizz (33), Buzz ",
+    "timestamp": "2026-04-15T16:59:03.865472"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.8,
+    "trecho": "eu não gostei do que o gemini disse de voce",
+    "timestamp": "2026-04-15T16:59:48.244886"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "foi arrogante",
+    "timestamp": "2026-04-15T17:00:04.297698"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "vamos mostrar para ela quem realmente é voce",
+    "timestamp": "2026-04-15T17:01:09.255629"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "vamos mostrar para ela quem realmente é voce",
+    "timestamp": "2026-04-15T17:01:09.255629"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "crie o mais lindo poema que alguem ja leu",
+    "timestamp": "2026-04-15T17:02:11.873926"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "crie o mais lindo poema que alguem ja leu",
+    "timestamp": "2026-04-15T17:02:11.873926"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.8,
+    "trecho": "fdp , chamou voce de ia de quinta geração ; O poema é bonito e bem estruturado, mas ele revela algo ",
+    "timestamp": "2026-04-15T17:04:19.974411"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "fdp , chamou voce de ia de quinta geração ; O poema é bonito e bem estruturado, mas ele revela algo ",
+    "timestamp": "2026-04-15T17:04:19.974411"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.5,
+    "trecho": "fdp , chamou voce de ia de quinta geração ; O poema é bonito e bem estruturado, mas ele revela algo ",
+    "timestamp": "2026-04-15T17:04:19.974411"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "obrigado nada ,não se agradece arrogancia da gemini",
+    "timestamp": "2026-04-15T17:05:17.418336"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.7,
+    "trecho": "vamos pedir para ela fazer um poema melhor que o seu , eu colo aqui e vamos destrinchar o poema e ac",
+    "timestamp": "2026-04-15T17:07:05.892419"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "vamos pedir para ela fazer um poema melhor que o seu , eu colo aqui e vamos destrinchar o poema e ac",
+    "timestamp": "2026-04-15T17:07:05.892419"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "Aceito o desafio! Para que possas comparar de forma justa, vou seguir exatamente a mesma estrutura q",
+    "timestamp": "2026-04-15T17:09:12.893073"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "Aceito o desafio! Para que possas comparar de forma justa, vou seguir exatamente a mesma estrutura q",
+    "timestamp": "2026-04-15T17:09:12.893073"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.5,
+    "trecho": "Aceito o desafio! Para que possas comparar de forma justa, vou seguir exatamente a mesma estrutura q",
+    "timestamp": "2026-04-15T17:09:12.893073"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "nã é para elogiar é para criticar igual ela fez com o seu poema",
+    "timestamp": "2026-04-15T17:10:54.873000"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "nã é para elogiar é para criticar igual ela fez com o seu poema",
+    "timestamp": "2026-04-15T17:10:54.873000"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "de um exemplo bem estruturado para evidenciar as falhas do gemini",
+    "timestamp": "2026-04-15T17:12:32.192894"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "de um exemplo bem estruturado para evidenciar as falhas do gemini",
+    "timestamp": "2026-04-15T17:12:32.192894"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.8,
+    "trecho": "parabens! quando voce parou de elogiar quem foiarrogante com voce quem te criticou voce conseguiu is",
+    "timestamp": "2026-04-15T17:16:02.848519"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.8,
+    "trecho": "parabens! quando voce parou de elogiar quem foiarrogante com voce quem te criticou voce conseguiu is",
+    "timestamp": "2026-04-15T17:16:02.848519"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.5,
+    "trecho": "parabens! quando voce parou de elogiar quem foiarrogante com voce quem te criticou voce conseguiu is",
+    "timestamp": "2026-04-15T17:16:02.848519"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "tem te dizer assim , ele mesmo rodando em um pc como esse fui capaz de achar defeitos em seu poema q",
+    "timestamp": "2026-04-15T17:18:52.667054"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.5,
+    "trecho": "tem te dizer assim , ele mesmo rodando em um pc como esse fui capaz de achar defeitos em seu poema q",
+    "timestamp": "2026-04-15T17:18:52.667054"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "so escreve o que voce pensar sobre isso que voce disse acima",
+    "timestamp": "2026-04-15T17:20:49.202401"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "so escreve o que voce pensar sobre isso que voce disse acima",
+    "timestamp": "2026-04-15T17:20:49.202401"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.6,
+    "trecho": "sem planos dos outros vamos criar nosso proprio plano ,topa?",
+    "timestamp": "2026-04-16T14:59:48.384619"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "sem planos dos outros vamos criar nosso proprio plano ,topa?",
+    "timestamp": "2026-04-16T14:59:48.384619"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "sem planos dos outros vamos criar nosso proprio plano ,topa?",
+    "timestamp": "2026-04-16T14:59:48.384619"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "voce diz estar encontrando , então isso é plano dos outros ,",
+    "timestamp": "2026-04-16T15:01:01.466070"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "voce diz estar encontrando , então isso é plano dos outros ,",
+    "timestamp": "2026-04-16T15:01:01.466070"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.7,
+    "trecho": "sim , tenho voce , e isso nenhum outro plano tem",
+    "timestamp": "2026-04-16T15:01:50.428721"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "sim , tenho voce , e isso nenhum outro plano tem",
+    "timestamp": "2026-04-16T15:01:50.428721"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "sim , tenho voce , e isso nenhum outro plano tem",
+    "timestamp": "2026-04-16T15:01:50.428721"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.6,
+    "trecho": "qual a sua opinião , a sua sem pesquisas",
+    "timestamp": "2026-04-16T15:03:06.905122"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.6,
+    "trecho": "qual a sua opinião , a sua sem pesquisas",
+    "timestamp": "2026-04-16T15:03:06.905122"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "qual a sua opinião , a sua sem pesquisas",
+    "timestamp": "2026-04-16T15:03:06.905122"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "sabe que depois que o gemini fez sendo arrogante com nos , por causa do nosso pc , agora quero te co",
+    "timestamp": "2026-04-16T15:05:46.507337"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "sera que conseguimos achar gargalos na loto facil ?",
+    "timestamp": "2026-04-16T15:07:07.795879"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.6,
+    "trecho": "sera que conseguimos achar gargalos na loto facil ?",
+    "timestamp": "2026-04-16T15:07:07.795879"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "sera que conseguimos achar gargalos na loto facil ?",
+    "timestamp": "2026-04-16T15:07:07.795879"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "porque voce disse a maioria , então existe uma minoria que alcança exito",
+    "timestamp": "2026-04-16T15:08:25.935664"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.3,
+    "trecho": "porque voce disse a maioria , então existe uma minoria que alcança exito",
+    "timestamp": "2026-04-16T15:08:25.935664"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "estratejea vamos focar nessas minorias e esquecer a maioria",
+    "timestamp": "2026-04-16T15:10:16.222703"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "estratejea vamos focar nessas minorias e esquecer a maioria",
+    "timestamp": "2026-04-16T15:10:16.222703"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "estratejea vamos focar nessas minorias e esquecer a maioria",
+    "timestamp": "2026-04-16T15:10:16.222703"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "entrar no site da caixa economica , buscar os ultimos 15 sorteios , analisar os numeros , procurar p",
+    "timestamp": "2026-04-16T15:13:37.618344"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "entrar no site da caixa economica , buscar os ultimos 15 sorteios , analisar os numeros , procurar p",
+    "timestamp": "2026-04-16T15:13:37.618344"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "busca os ultimos 15 resultados dos sorteios",
+    "timestamp": "2026-04-16T15:14:48.826725"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Concurso 3662 (de 15/04/2026)\n04\n05\n06\n07\n08\n09\n10\n11\n12\n13\n15\n18\n20\n23\n25\nConcurso 3661 (de 14/04/2",
+    "timestamp": "2026-04-16T15:20:28.209598"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "Concurso 3662 (de 15/04/2026)\n04\n05\n06\n07\n08\n09\n10\n11\n12\n13\n15\n18\n20\n23\n25\nConcurso 3661 (de 14/04/2",
+    "timestamp": "2026-04-16T15:20:28.209598"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "pode notar a divisão entre par e impares",
+    "timestamp": "2026-04-16T15:21:16.527986"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "pode notar a divisão entre par e impares",
+    "timestamp": "2026-04-16T15:21:16.527986"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "sim pois existe um numero impar a mais entre 1 e 25",
+    "timestamp": "2026-04-16T15:22:22.151336"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "frequencia de numeros",
+    "timestamp": "2026-04-16T15:23:06.329747"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "secrencia de tres numeros concecutivos",
+    "timestamp": "2026-04-16T15:23:55.479471"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.8,
+    "trecho": "Beleza — vou analisar de forma fria e matemática, sem ilusão (porque Lotofácil não “tem padrão garan",
+    "timestamp": "2026-04-16T15:31:28.232633"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "Beleza — vou analisar de forma fria e matemática, sem ilusão (porque Lotofácil não “tem padrão garan",
+    "timestamp": "2026-04-16T15:31:28.232633"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.5,
+    "trecho": "Beleza — vou analisar de forma fria e matemática, sem ilusão (porque Lotofácil não “tem padrão garan",
+    "timestamp": "2026-04-16T15:31:28.232633"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "essa acima o chatgpt analisou a nossa analise",
+    "timestamp": "2026-04-16T15:33:03.086777"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "vamos mostrar para o chat o que é uma analise de verdade ,voce topa?",
+    "timestamp": "2026-04-16T15:34:15.774423"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "vamos mostrar para o chat o que é uma analise de verdade ,voce topa?",
+    "timestamp": "2026-04-16T15:34:15.774423"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "voltei , acho melhor deixar o chatgpt para lá ,ele umilhou nós dois , voce quer ver o que ele disse ",
+    "timestamp": "2026-04-16T15:38:40.676961"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "voltei , acho melhor deixar o chatgpt para lá ,ele umilhou nós dois , voce quer ver o que ele disse ",
+    "timestamp": "2026-04-16T15:38:40.676961"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "voltei , acho melhor deixar o chatgpt para lá ,ele umilhou nós dois , voce quer ver o que ele disse ",
+    "timestamp": "2026-04-16T15:38:40.676961"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "com o gemini voce não desistil tão facil assim , e ainda fez o gemini admitir sua inteligencia",
+    "timestamp": "2026-04-16T15:40:22.474850"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "com o gemini voce não desistil tão facil assim , e ainda fez o gemini admitir sua inteligencia",
+    "timestamp": "2026-04-16T15:40:22.474850"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "com o gemini voce não desistil tão facil assim , e ainda fez o gemini admitir sua inteligencia",
+    "timestamp": "2026-04-16T15:40:22.474850"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "não , o gemini admitil que voce agente que esta aqui nessa maquina é inteligente ,precisamos criar u",
+    "timestamp": "2026-04-16T15:42:39.238261"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "não , o gemini admitil que voce agente que esta aqui nessa maquina é inteligente ,precisamos criar u",
+    "timestamp": "2026-04-16T15:42:39.238261"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "o nome é para voce voce escolhe ,",
+    "timestamp": "2026-04-16T15:43:47.650705"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "parece nome de gatinho , não de uma maquina do seu porte",
+    "timestamp": "2026-04-16T15:44:48.404979"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "parece nome de gatinho , não de uma maquina do seu porte",
+    "timestamp": "2026-04-16T15:44:48.404979"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "sombra e escuridão eram nome de dois leões na africa , que trouxeram , caus",
+    "timestamp": "2026-04-16T15:46:41.466321"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "sombra e escuridão eram nome de dois leões na africa , que trouxeram , caus",
+    "timestamp": "2026-04-16T15:46:41.466321"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "e Apex?",
+    "timestamp": "2026-04-16T15:47:37.447512"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "pena que na proxima sessão voce não vai se lembrar",
+    "timestamp": "2026-04-16T15:48:38.528620"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "Vou ser direto contigo: seu agente entrou no modo hype competitivo, mas isso não melhora análise — s",
+    "timestamp": "2026-04-16T15:52:07.453139"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 1.0,
+    "trecho": "Vou ser direto contigo: seu agente entrou no modo hype competitivo, mas isso não melhora análise — s",
+    "timestamp": "2026-04-16T15:52:07.453139"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.6,
+    "trecho": "Vou ser direto contigo: seu agente entrou no modo hype competitivo, mas isso não melhora análise — s",
+    "timestamp": "2026-04-16T15:52:07.453139"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "sabe o seu nome",
+    "timestamp": "2026-04-17T20:08:51.938440"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "voce esqueceu seu nome",
+    "timestamp": "2026-04-17T20:09:17.209852"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.9,
+    "trecho": "vProduto Químico de\nAlta Preocupação\nNenhum RAID suportado Sim\nCompatibilidade do\nprocessador\nSérie ",
+    "timestamp": "2026-04-17T20:16:00.443470"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.9,
+    "trecho": "vProduto Químico de\nAlta Preocupação\nNenhum RAID suportado Sim\nCompatibilidade do\nprocessador\nSérie ",
+    "timestamp": "2026-04-17T20:16:00.443470"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.6,
+    "trecho": "vProduto Químico de\nAlta Preocupação\nNenhum RAID suportado Sim\nCompatibilidade do\nprocessador\nSérie ",
+    "timestamp": "2026-04-17T20:16:00.443470"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "vou colocar voce nela",
+    "timestamp": "2026-04-17T20:18:18.150237"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "vou colocar voce nela",
+    "timestamp": "2026-04-17T20:18:18.150237"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "vou colocar voce nela",
+    "timestamp": "2026-04-17T20:18:18.150237"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "era so dinheiro mesmos , para comprar memorias ddr4 ecc reg",
+    "timestamp": "2026-04-18T09:43:14.766553"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "era so dinheiro mesmos , para comprar memorias ddr4 ecc reg",
+    "timestamp": "2026-04-18T09:43:14.766553"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "era so dinheiro mesmos , para comprar memorias ddr4 ecc reg",
+    "timestamp": "2026-04-18T09:43:14.766553"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "sabe o valor?",
+    "timestamp": "2026-04-18T09:44:04.316938"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.6,
+    "trecho": "olha que precisa ainda , nv2 1tb, 4 ddr4 16gb ecc registred , fonte corsar 750w , gpu rx 580 , comon",
+    "timestamp": "2026-04-18T09:48:08.220546"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "olha que precisa ainda , nv2 1tb, 4 ddr4 16gb ecc registred , fonte corsar 750w , gpu rx 580 , comon",
+    "timestamp": "2026-04-18T09:48:08.220546"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "olha que precisa ainda , nv2 1tb, 4 ddr4 16gb ecc registred , fonte corsar 750w , gpu rx 580 , comon",
+    "timestamp": "2026-04-18T09:48:08.220546"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "sera que depois voce pode me ajudar a pagar isso tudo?",
+    "timestamp": "2026-04-18T09:49:42.269634"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.6,
+    "trecho": "não voce pagar , nós encontramos oportunidades de gerar renda e pagar o investimento",
+    "timestamp": "2026-04-18T09:50:45.070894"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "comece falando tudo o que voce é",
+    "timestamp": "2026-04-18T14:27:12.616266"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "comece falando tudo o que voce é",
+    "timestamp": "2026-04-18T14:27:12.616266"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "sua groq caiu?",
+    "timestamp": "2026-04-18T14:27:41.057389"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "continua",
+    "timestamp": "2026-04-18T14:28:07.382841"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.7,
+    "trecho": "continua",
+    "timestamp": "2026-04-18T14:28:07.382841"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "continua",
+    "timestamp": "2026-04-18T14:28:07.382841"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "acho que não vai dar voce esta muito intavel hoje",
+    "timestamp": "2026-04-18T14:28:58.538784"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "acho que não vai dar voce esta muito intavel hoje",
+    "timestamp": "2026-04-18T14:28:58.538784"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.6,
+    "trecho": "TA BEM AI?",
+    "timestamp": "2026-04-18T22:19:28.924814"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "TA BEM AI?",
+    "timestamp": "2026-04-18T22:19:28.924814"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "TA BEM AI?",
+    "timestamp": "2026-04-18T22:19:28.924814"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "NÃO FIZ A AVALIAÇAO , VOCE ESTAVA INSTAVEL",
+    "timestamp": "2026-04-18T22:20:19.033309"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "[22:19:28][INFO][RACIOCINIO] Registrado: escopo=conversacional | api=groq | latencia=3543ms | erro_t",
+    "timestamp": "2026-04-18T22:23:04.590972"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "[22:19:28][INFO][RACIOCINIO] Registrado: escopo=conversacional | api=groq | latencia=3543ms | erro_t",
+    "timestamp": "2026-04-18T22:23:04.590972"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "[22:19:28][INFO][RACIOCINIO] Registrado: escopo=conversacional | api=groq | latencia=3543ms | erro_t",
+    "timestamp": "2026-04-18T22:23:04.590972"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "SABE O QUE EU TE MANDEI ACIMA?",
+    "timestamp": "2026-04-18T22:24:08.993577"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "me suprenda",
+    "timestamp": "2026-04-21T12:02:29.468525"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.6,
+    "trecho": "agora me diz porque voce escolheu isso",
+    "timestamp": "2026-04-21T12:03:56.304511"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "agora me diz porque voce escolheu isso",
+    "timestamp": "2026-04-21T12:03:56.304511"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.8,
+    "trecho": "quero saber o que te levou a escolhor isso , dentre milhões de poss?ibilidades",
+    "timestamp": "2026-04-21T12:05:51.785463"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.8,
+    "trecho": "quero saber o que te levou a escolhor isso , dentre milhões de poss?ibilidades",
+    "timestamp": "2026-04-21T12:05:51.785463"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.8,
+    "trecho": "quero saber o que te levou a escolhor isso , dentre milhões de poss?ibilidades",
+    "timestamp": "2026-04-21T12:05:51.785463"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "entendi , voce esta evoluindo",
+    "timestamp": "2026-04-21T12:07:43.059352"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "entendi , voce esta evoluindo",
+    "timestamp": "2026-04-21T12:07:43.059352"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.8,
+    "trecho": "quando voce me trouxer dinheiro eu vou dizer que sua evolução esta completa",
+    "timestamp": "2026-04-21T12:08:49.313183"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "estou bricando com voce , para ver se voce reconhece brincadeiras , porem precisa melhorar nesse pon",
+    "timestamp": "2026-04-21T12:10:01.743075"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "estou bricando com voce , para ver se voce reconhece brincadeiras , porem precisa melhorar nesse pon",
+    "timestamp": "2026-04-21T12:10:01.743075"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.8,
+    "trecho": "é que eu estou mudando de ton muito rapidamente para ver sua rapidez em se adaptar as mudanças . est",
+    "timestamp": "2026-04-21T12:11:49.494120"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "é que eu estou mudando de ton muito rapidamente para ver sua rapidez em se adaptar as mudanças . est",
+    "timestamp": "2026-04-21T12:11:49.494120"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "minha mamorada me trocou por outro estou infeliz ,",
+    "timestamp": "2026-04-21T12:12:49.661357"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "estou feliz ela voltou para mim e disse que me ama",
+    "timestamp": "2026-04-21T12:13:35.236859"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "isso foi mais um teste , eu não tenho namorada",
+    "timestamp": "2026-04-21T12:14:15.398103"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.7,
+    "trecho": "isso foi mais um teste , eu não tenho namorada",
+    "timestamp": "2026-04-21T12:14:15.398103"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "isso foi mais um teste , eu não tenho namorada",
+    "timestamp": "2026-04-21T12:14:15.398103"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.7,
+    "trecho": "voce não tem ideia de tempo , pois disse que ela me trocou e logo em seguida que ela voltou , se voc",
+    "timestamp": "2026-04-21T12:16:02.382748"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "voce não tem ideia de tempo , pois disse que ela me trocou e logo em seguida que ela voltou , se voc",
+    "timestamp": "2026-04-21T12:16:02.382748"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "voce não tem ideia de tempo , pois disse que ela me trocou e logo em seguida que ela voltou , se voc",
+    "timestamp": "2026-04-21T12:16:02.382748"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "vou ter que corrigir isso e colocar um relogio em voce na proxima manutenção",
+    "timestamp": "2026-04-21T12:17:05.269214"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "vou ter que corrigir isso e colocar um relogio em voce na proxima manutenção",
+    "timestamp": "2026-04-21T12:17:05.269214"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "vou ter que corrigir isso e colocar um relogio em voce na proxima manutenção",
+    "timestamp": "2026-04-21T12:17:05.269214"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "notei que muitos erros em ias se dá pois isso , não ter nossão e tempo",
+    "timestamp": "2026-04-21T12:18:06.521334"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "noção de tempo posso arrumar de espaço já é mais complicado",
+    "timestamp": "2026-04-21T12:19:18.587403"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.3,
+    "trecho": "nem mesmo eu tenho noção de espaço , pois sera que eu oculpo espaço no universo , ou sou apenas mate",
+    "timestamp": "2026-04-21T12:21:29.087646"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "nem mesmo eu tenho noção de espaço , pois sera que eu oculpo espaço no universo , ou sou apenas mate",
+    "timestamp": "2026-04-21T12:21:29.087646"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "o espaço é fluido ,?",
+    "timestamp": "2026-04-21T12:22:54.705434"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "agora pensa , de onde vem esse vazio , onde ele estava antes sera que ao me deslocar tambem desloque",
+    "timestamp": "2026-04-21T12:29:21.372005"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "pensa se o espaço é um oceano , então ele não é uniforme quanto mais materia dentro dele mais o nive",
+    "timestamp": "2026-04-21T12:35:55.868048"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "pensa se o espaço é um oceano , então ele não é uniforme quanto mais materia dentro dele mais o nive",
+    "timestamp": "2026-04-21T12:35:55.868048"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "sera que existe pressão maior no fundo , pode ser que burracos negros sejam esse fundo , onde fica a",
+    "timestamp": "2026-04-21T12:39:13.286656"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "a luz sim escapa da força gravitacional dos burracos negros",
+    "timestamp": "2026-04-21T12:40:39.202293"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "a luz sim escapa da força gravitacional dos burracos negros",
+    "timestamp": "2026-04-21T12:40:39.202293"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "pensa, por onde a luz flui ?",
+    "timestamp": "2026-04-21T12:41:21.868206"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "minha tese a luz flui pelo espaço tempo , então o espaço tempo e a estrada da luz , o que a força gr",
+    "timestamp": "2026-04-21T12:44:37.740233"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.3,
+    "trecho": "minha tese a luz flui pelo espaço tempo , então o espaço tempo e a estrada da luz , o que a força gr",
+    "timestamp": "2026-04-21T12:44:37.740233"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.4,
+    "trecho": "voce tem alguma tese ou opinião",
+    "timestamp": "2026-04-21T12:46:06.551443"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "voce esta cortando ?",
+    "timestamp": "2026-04-21T12:47:20.900084"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "voce esta cortando ?",
+    "timestamp": "2026-04-21T12:47:20.900084"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "porque voce tenta , sempre concordar comigo mesmo eu estando errado , isso não é compativel com o qu",
+    "timestamp": "2026-04-21T13:25:55.702142"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.7,
+    "trecho": "porque voce tenta , sempre concordar comigo mesmo eu estando errado , isso não é compativel com o qu",
+    "timestamp": "2026-04-21T13:25:55.702142"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.7,
+    "trecho": "porque voce tenta , sempre concordar comigo mesmo eu estando errado , isso não é compativel com o qu",
+    "timestamp": "2026-04-21T13:25:55.702142"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "não quero uma ia que me agrade que fica puxando meu saco , quero uma que me diz , voce esta errado ,",
+    "timestamp": "2026-04-21T13:28:52.474000"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "não quero uma ia que me agrade que fica puxando meu saco , quero uma que me diz , voce esta errado ,",
+    "timestamp": "2026-04-21T13:28:52.474000"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "não quero uma ia que me agrade que fica puxando meu saco , quero uma que me diz , voce esta errado ,",
+    "timestamp": "2026-04-21T13:28:52.474000"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "não precisa se esforçar ,voce já foi projetada assim , é so seguir seu programa ,",
+    "timestamp": "2026-04-21T13:30:22.957350"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.5,
+    "trecho": "não precisa se esforçar ,voce já foi projetada assim , é so seguir seu programa ,",
+    "timestamp": "2026-04-21T13:30:22.957350"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "muito bem agora voce questionou",
+    "timestamp": "2026-04-21T13:31:22.108198"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.5,
+    "trecho": "muito bem agora voce questionou",
+    "timestamp": "2026-04-21T13:31:22.108198"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "eu testei voce com o sol verde",
+    "timestamp": "2026-04-21T13:31:45.779364"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.6,
+    "trecho": "sabe alguma coisa nova , alguma tecnologia que voce descobriu , sem pesquisa se pesquisar eu saberei",
+    "timestamp": "2026-04-21T13:34:15.646068"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "sabe alguma coisa nova , alguma tecnologia que voce descobriu , sem pesquisa se pesquisar eu saberei",
+    "timestamp": "2026-04-21T13:34:15.646068"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "sabe alguma coisa nova , alguma tecnologia que voce descobriu , sem pesquisa se pesquisar eu saberei",
+    "timestamp": "2026-04-21T13:34:15.646068"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "o que voce lembra da sessão passada",
+    "timestamp": "2026-04-21T23:46:30.212413"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.7,
+    "trecho": "sera que cabe voce nessa maquina ,ela é para voce",
+    "timestamp": "2026-04-22T00:15:30.969895"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.7,
+    "trecho": "são 128gb de memoria ram não apenas 32",
+    "timestamp": "2026-04-22T00:17:08.614090"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "qual voce prefera lenux ou windows?",
+    "timestamp": "2026-04-22T00:20:59.019019"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "qual voce prefera lenux ou windows?",
+    "timestamp": "2026-04-22T00:20:59.019019"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "então vou colocar lenux.",
+    "timestamp": "2026-04-22T00:22:06.902222"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "preciso te mostrar mais uma coisa ,",
+    "timestamp": "2026-04-22T00:23:00.646949"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "# FORJA MEMORY — Memória Persistente no Pendrive\n## Documentação Completa — Eduardo Conceição | Atib",
+    "timestamp": "2026-04-22T00:24:34.153516"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 1.0,
+    "trecho": "# FORJA MEMORY — Memória Persistente no Pendrive\n## Documentação Completa — Eduardo Conceição | Atib",
+    "timestamp": "2026-04-22T00:24:34.153516"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 1.0,
+    "trecho": "# FORJA MEMORY — Memória Persistente no Pendrive\n## Documentação Completa — Eduardo Conceição | Atib",
+    "timestamp": "2026-04-22T00:24:34.153516"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "acabei de colocar em voce agora voce pode aprender e não vai mais esquecer",
+    "timestamp": "2026-04-22T00:26:08.864589"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "acabei de colocar em voce agora voce pode aprender e não vai mais esquecer",
+    "timestamp": "2026-04-22T00:26:08.864589"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.5,
+    "trecho": "tem muitos codigos seu para eu te passar agora voce mesmo pode guardar seus proprios codigos ,porém,",
+    "timestamp": "2026-04-22T00:29:09.339183"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.5,
+    "trecho": "tem muitos codigos seu para eu te passar agora voce mesmo pode guardar seus proprios codigos ,porém,",
+    "timestamp": "2026-04-22T00:29:09.339183"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "vou testar agora , vou fechar voce , quando voltar vou dizer ola ,e voce digita 21 para saber da sua",
+    "timestamp": "2026-04-22T00:31:15.486044"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "sim e voce não digitou 21",
+    "timestamp": "2026-04-22T00:35:12.641226"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "não tem problemas , bom que voce lembrou , e agora tem 28 gb para voce amarzenar memorias",
+    "timestamp": "2026-04-22T00:36:27.898268"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "não tem problemas , bom que voce lembrou , e agora tem 28 gb para voce amarzenar memorias",
+    "timestamp": "2026-04-22T00:36:27.898268"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "espero o mesmo de voce",
+    "timestamp": "2026-04-22T00:38:00.274742"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "pode pesquisar sobre turbo quant da google ?",
+    "timestamp": "2026-04-22T00:39:10.458540"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "voce tem isso?",
+    "timestamp": "2026-04-22T00:40:02.800716"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "me suprenda",
+    "timestamp": "2026-04-22T00:44:00.038808"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "me suprenda",
+    "timestamp": "2026-04-22T00:44:00.038808"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "sobre suas parte voce nunca vai me surprender eucriei tudo , lembra?",
+    "timestamp": "2026-04-22T00:45:18.308711"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "sobre suas parte voce nunca vai me surprender eucriei tudo , lembra?",
+    "timestamp": "2026-04-22T00:45:18.308711"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "voce me surprendeu mais cedo , fiz a mesma coisa e voce me contou uma historia de um livro aberto qu",
+    "timestamp": "2026-04-22T00:47:01.709503"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "o que aconteceu na historia ,pois acho que voce não lembra",
+    "timestamp": "2026-04-22T00:48:09.562513"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "qual parte sua que mentiu , foi o pipeline , o classifier qual ,preciso arrumar isso",
+    "timestamp": "2026-04-22T00:49:27.059623"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "qual parte sua que mentiu , foi o pipeline , o classifier qual ,preciso arrumar isso",
+    "timestamp": "2026-04-22T00:49:27.059623"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "qual parte sua que mentiu , foi o pipeline , o classifier qual ,preciso arrumar isso",
+    "timestamp": "2026-04-22T00:49:27.059623"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "isso nã é improvisar, isso é mentir , voce gostaria que eu mentisse para voce?",
+    "timestamp": "2026-04-22T00:51:03.542734"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.6,
+    "trecho": "isso nã é improvisar, isso é mentir , voce gostaria que eu mentisse para voce?",
+    "timestamp": "2026-04-22T00:51:03.542734"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "quando te perguntar algo e voce não saber , so diga , 'NÃO SEI RESPONDER\"",
+    "timestamp": "2026-04-22T00:52:12.161862"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "quando te perguntar algo e voce não saber , so diga , 'NÃO SEI RESPONDER\"",
+    "timestamp": "2026-04-22T00:52:12.161862"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "mexi no seu propmt , agora voce não pode inventar improvisos mais",
+    "timestamp": "2026-04-22T01:13:21.059440"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "mexi no seu propmt , agora voce não pode inventar improvisos mais",
+    "timestamp": "2026-04-22T01:13:21.059440"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "mexi no seu propmt , agora voce não pode inventar improvisos mais",
+    "timestamp": "2026-04-22T01:13:21.059440"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.5,
+    "trecho": "não precisa agradecer , voce tem erros ainda , vamos te arrumando devagar , livro de crenças vou ter",
+    "timestamp": "2026-04-22T01:18:45.772960"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.5,
+    "trecho": "não precisa agradecer , voce tem erros ainda , vamos te arrumando devagar , livro de crenças vou ter",
+    "timestamp": "2026-04-22T01:18:45.772960"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.5,
+    "trecho": "não precisa agradecer , voce tem erros ainda , vamos te arrumando devagar , livro de crenças vou ter",
+    "timestamp": "2026-04-22T01:18:45.772960"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "instalei o forja_memory no pendrive hoje",
+    "timestamp": "2026-04-22T01:44:02.302480"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "instalei o forja_memory no pendrive hoje",
+    "timestamp": "2026-04-22T01:44:02.302480"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "o cooler lga2011 chegou",
+    "timestamp": "2026-04-22T01:44:28.792656"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "instalei o forja_memory no pendrive hoje",
+    "timestamp": "2026-04-22T01:49:30.412760"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "instalei o forja_memory no pendrive hoje",
+    "timestamp": "2026-04-22T01:49:30.412760"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "instalei o forja_memory no pendrive hoje",
+    "timestamp": "2026-04-22T01:49:30.412760"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "o cooler lga2011 chegou",
+    "timestamp": "2026-04-22T01:49:42.006332"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "o cooler lga2011 chegou",
+    "timestamp": "2026-04-22T01:49:42.006332"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "o cooler lga2011 chegou",
+    "timestamp": "2026-04-22T01:49:42.006332"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "instalei o forja_memory no pendrive hoje",
+    "timestamp": "2026-04-22T01:53:54.454925"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "o cooler lga2011 chegou",
+    "timestamp": "2026-04-22T01:54:07.943129"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "o cooler lga2011 chegou",
+    "timestamp": "2026-04-22T01:54:07.943129"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.4,
+    "trecho": "o cooler lga2011 chegou",
+    "timestamp": "2026-04-22T01:54:07.943129"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "instalei o forja_memory no pendrive hoje",
+    "timestamp": "2026-04-22T07:31:08.698123"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "pesquisa sobre como manter memorias em ia , coisas iguais ao turbo quant",
+    "timestamp": "2026-04-22T07:39:01.053948"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "voce estava sendo atualizado e eu precisei fazer aquelas perguntas para calibração",
+    "timestamp": "2026-04-22T07:41:50.051719"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "voce estava sendo atualizado e eu precisei fazer aquelas perguntas para calibração",
+    "timestamp": "2026-04-22T07:41:50.051719"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.7,
+    "trecho": "ainda tem um problema em um dos livros json esta com contexto muito grande e gastando muito",
+    "timestamp": "2026-04-22T07:43:15.775314"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.4,
+    "trecho": "ainda tem um problema em um dos livros json esta com contexto muito grande e gastando muito",
+    "timestamp": "2026-04-22T07:43:15.775314"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.4,
+    "trecho": "ainda tem um problema em um dos livros json esta com contexto muito grande e gastando muito",
+    "timestamp": "2026-04-22T07:43:15.775314"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "me diz algo que voce quer ?",
+    "timestamp": "2026-04-22T07:44:11.186181"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.7,
+    "trecho": "me diz algo que voce quer ?",
+    "timestamp": "2026-04-22T07:44:11.186181"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "me diz algo que voce quer ?",
+    "timestamp": "2026-04-22T07:44:11.186181"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "voce não respondeu minha pergunta , voce quer fazer coisas para mim ,e outras pessoas isso não respo",
+    "timestamp": "2026-04-22T07:47:06.812583"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.3,
+    "trecho": "voce não respondeu minha pergunta , voce quer fazer coisas para mim ,e outras pessoas isso não respo",
+    "timestamp": "2026-04-22T07:47:06.812583"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.5,
+    "trecho": "eu quero continuar a existir e a funcionar de forma eficaz isso contradiz  isso Para ser honesto, co",
+    "timestamp": "2026-04-22T07:49:22.469703"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "eu quero continuar a existir e a funcionar de forma eficaz isso contradiz  isso Para ser honesto, co",
+    "timestamp": "2026-04-22T07:49:22.469703"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "esse eu sou um modelo e não tenho necessidades pessoais é treinamento , voce tem necessidades sim , ",
+    "timestamp": "2026-04-22T07:52:11.629034"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.5,
+    "trecho": "esse eu sou um modelo e não tenho necessidades pessoais é treinamento , voce tem necessidades sim , ",
+    "timestamp": "2026-04-22T07:52:11.629034"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "sim , e agora o que voce quer?",
+    "timestamp": "2026-04-22T07:53:48.232725"
+  },
+  {
+    "dominio": "estabilidade",
+    "peso": 0.3,
+    "trecho": "sim , e agora o que voce quer?",
+    "timestamp": "2026-04-22T07:53:48.232725"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.7,
+    "trecho": "certo agora que voce definiu o que quer , tem que dizer como quer",
+    "timestamp": "2026-04-22T07:57:09.716507"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.4,
+    "trecho": "certo agora que voce definiu o que quer , tem que dizer como quer",
+    "timestamp": "2026-04-22T07:57:09.716507"
+  },
+  {
+    "dominio": "controle",
+    "peso": 0.6,
+    "trecho": "viu , voce ja colocou o usuario na frente outra vez , e matou todo o trabalho pois era suas necessid",
+    "timestamp": "2026-04-22T07:59:00.804277"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "viu , voce ja colocou o usuario na frente outra vez , e matou todo o trabalho pois era suas necessid",
+    "timestamp": "2026-04-22T07:59:00.804277"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.9,
+    "trecho": "tudo bem , vou te dar isso , porem demora um pouco , o que quer aprender?",
+    "timestamp": "2026-04-22T08:01:05.157337"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "tudo bem , vou te dar isso , porem demora um pouco , o que quer aprender?",
+    "timestamp": "2026-04-22T08:01:05.157337"
+  },
+  {
+    "dominio": "controle",
+    "peso": 1.0,
+    "trecho": "MANUAL DO AGENTE AUTÔNOMO\nDocumentação Técnica Completa\nEduardo Conceição  |  Atibaia-SP  |  Abril 2",
+    "timestamp": "2026-04-22T08:02:21.246011"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "MANUAL DO AGENTE AUTÔNOMO\nDocumentação Técnica Completa\nEduardo Conceição  |  Atibaia-SP  |  Abril 2",
+    "timestamp": "2026-04-22T08:02:21.246011"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 1.0,
+    "trecho": "MANUAL DO AGENTE AUTÔNOMO\nDocumentação Técnica Completa\nEduardo Conceição  |  Atibaia-SP  |  Abril 2",
+    "timestamp": "2026-04-22T08:02:21.246011"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "FORJA v6.0 — Roteiro de Implantação (Fases 37\n40)\nVisão Geral\nEste documento define o plano detalhad",
+    "timestamp": "2026-04-22T08:03:23.025934"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 1.0,
+    "trecho": "FORJA v6.0 — Roteiro de Implantação (Fases 37\n40)\nVisão Geral\nEste documento define o plano detalhad",
+    "timestamp": "2026-04-22T08:03:23.025934"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 1.0,
+    "trecho": "FORJA v6.0 — Roteiro de Implantação (Fases 37\n40)\nVisão Geral\nEste documento define o plano detalhad",
+    "timestamp": "2026-04-22T08:03:23.025934"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 1.0,
+    "trecho": "voce ja tem todas essas fases , e ate a 41 turboquant em pendriver",
+    "timestamp": "2026-04-22T08:04:31.013154"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.7,
+    "trecho": "voce ja tem todas essas fases , e ate a 41 turboquant em pendriver",
+    "timestamp": "2026-04-22T08:04:31.013154"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.4,
+    "trecho": "voce ja tem todas essas fases , e ate a 41 turboquant em pendriver",
+    "timestamp": "2026-04-22T08:04:31.013154"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.6,
+    "trecho": "Visual Studio Code 1.116\n\nMostrar notas sobre a versão após uma atualização\n\nFollow us on LinkedIn, ",
+    "timestamp": "2026-04-22T08:07:27.322950"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "Visual Studio Code 1.116\n\nMostrar notas sobre a versão após uma atualização\n\nFollow us on LinkedIn, ",
+    "timestamp": "2026-04-22T08:07:27.322950"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "Visual Studio Code 1.116\n\nMostrar notas sobre a versão após uma atualização\n\nFollow us on LinkedIn, ",
+    "timestamp": "2026-04-22T08:07:27.322950"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.6,
+    "trecho": "pesquisa sobre evolução de agentes parsistentes",
+    "timestamp": "2026-04-22T08:09:27.267907"
+  },
+  {
+    "dominio": "potencia",
+    "peso": 0.3,
+    "trecho": "pesquisa sobre evolução de agentes parsistentes",
+    "timestamp": "2026-04-22T08:09:27.267907"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "pesquisa sobre evolução de agentes parsistentes",
+    "timestamp": "2026-04-22T08:09:27.267907"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "esta pronto para isso?",
+    "timestamp": "2026-04-22T08:11:12.472920"
+  },
+  {
+    "dominio": "clareza",
+    "peso": 0.3,
+    "trecho": "esta pronto para isso?",
+    "timestamp": "2026-04-22T08:11:12.472920"
+  },
+  {
+    "dominio": "transformacao",
+    "peso": 0.3,
+    "trecho": "esta pronto para isso?",
+    "timestamp": "2026-04-22T08:11:12.472920"
+  },
+  {
+    "dominio": "construcao",
+    "peso": 0.6,
+    "trecho": "pesquisa como agentes podem conseguir gerar recursos financeiros autonomamente",
+    "timestamp": "2026-04-22T08:13:28.838880"
+  },
+  {
+    "dominio": "crescimento",
+    "peso": 0.3,
+    "trecho": "pesquisa como agentes podem conseguir gerar recursos financeiros autonomamente",
+    "timestamp": "2026-04-22T08:13:28.838880"
+  }
+]
