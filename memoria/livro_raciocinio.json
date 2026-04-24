@@ -218,5 +218,27 @@
     "latencia_ms": 3383,
     "api_usada": "sambanova",
     "timestamp": "2026-04-23T20:55:55.361917"
+  },
+  {
+    "pergunta": "oi",
+    "estrategia": "local",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 21,
+    "api_usada": "local",
+    "timestamp": "2026-04-24T06:45:02.103696"
+  },
+  {
+    "pergunta": "qual é a placa mãe gamer MOUGOl X99 Dual CPU com Intel Xeon E5 2680 especificações completas",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "world_state",
+    "latencia_ms": 7748,
+    "api_usada": "groq",
+    "timestamp": "2026-04-24T06:45:30.115336"
   }
 ]
