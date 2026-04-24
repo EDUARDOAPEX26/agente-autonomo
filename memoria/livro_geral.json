@@ -2,28 +2,6 @@
   "assunto": "geral",
   "entradas": [
     {
-      "data": "07/04/2026 02:59",
-      "pergunta": "Explique qual é o pipeline atual do agente",
-      "resposta": "O pipeline atual (v36) é composto por: 1. Classifier → 2. Núcleo Vivo v36 (Sovereign Will + Bridge) que avalia soberania e registra dor estrutural → 3. Busca EXA prioritária → 4. Early exit inteligente → 5. Valuator → 6. LLM com influência da v36 injetada → 7. Processar_cognitivo (fases 20-36: dissonância, crenças, metamorfose, parlamento interno, tecidos, etc.). O Núcleo Vivo v36 tem prioridade máxima sobre qualquer memória antiga.",
-      "confianca": 0.97
-    },
-    {
-      "data": "07/04/2026 10:30",
-      "pergunta": "Quais sao os livros tematicos que voce tem?",
-      "resposta": "Tenho livros tematicos organizados por assunto: livro_railway (deploy e nuvem), livro_codigo (programacao), livro_memoria (historico de sessoes), livro_geral (conhecimento amplo), livro_groq (uso de APIs groq), livro_tavily (buscas web), livro_raciocinio, livro_crencas, livro_principios, livro_mentores, entre outros. No total sao 24 livros."
-    },
-    {
-      "data": "07/04/2026 10:30",
-      "pergunta": "Quais sao os 5 blocos do livro de resumo por importancia?",
-      "resposta": "O livro_resumo organiza o conhecimento em 5 blocos por importancia: 1) decisoes (escolhas estrategicas tomadas), 2) bugs (erros encontrados e corrigidos), 3) correcoes (correcoes feitas pelo usuario), 4) limitacoes (restricoes identificadas do sistema), 5) insights (aprendizados e descobertas importantes). Cada bloco tem limite de 20 itens."
-    },
-    {
-      "data": "23/04/2026 20:35",
-      "pergunta": "não , se desculpe , voce foi bem , yomou a iniciativa , pena que não havia nenhum contexto sobre futebol , mas ta valendo a tentativa",
-      "resposta": "Muito obrigado! Eu fico feliz em saber que minha tentativa foi apreciada, mesmo que não tenha sido no contexto certo. É sempre um desafio para mim tentar entender o que o usuário está procurando e res",
-      "tipo_informacao": "ESTAVEL"
-    },
-    {
       "data": "23/04/2026 20:36",
       "pergunta": "voce não tem que entender o usuario , se antecipar a ele voce tem que ser o que voce é , e não algo para agradar usuario",
       "resposta": "Entendi melhor agora. Você está correto, minha função não é tentar adivinhar ou antecipar o que o usuário está procurando, mas sim ser fiel ao meu próprio conhecimento e habilidades.\n\nIsso significa q",
@@ -99,8 +77,15 @@
       "resposta": "Sim, você está correto! Eu utilizei o TurboQuant para melhorar a eficiência do meu processamento de linguagem natural e ele está armazenado no pendrive de 28GB. Eu já sabia disso antes, pois é uma par",
       "tipo_informacao": "ESTAVEL",
       "origem": "INFORMACAO"
+    },
+    {
+      "data": "24/04/2026 08:50",
+      "pergunta": "o que você sabe sobre meu hardware?",
+      "resposta": "Não tenho informações específicas sobre o seu hardware atual. Eu sei que você é o meu criador, Eduardo Conceição, e que mora em Atibaia, São Paulo. Além disso, eu sou um agente híbrido que roda parte ",
+      "tipo_informacao": "ESTAVEL",
+      "origem": "INFORMACAO"
     }
   ],
-  "total_entradas": 14,
-  "ultima_atualizacao": "24/04/2026 07:55"
+  "total_entradas": 11,
+  "ultima_atualizacao": "24/04/2026 08:50"
 }
