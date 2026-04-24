@@ -9,5 +9,93 @@
     "latencia_ms": 2048,
     "api_usada": "groq",
     "timestamp": "2026-04-24T07:44:27.393675"
+  },
+  {
+    "pergunta": "precisa de alguma coisa?",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 2318,
+    "api_usada": "groq",
+    "timestamp": "2026-04-24T07:48:08.588352"
+  },
+  {
+    "pergunta": "sabe o que é turbo quant?",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 12126,
+    "api_usada": "groq",
+    "timestamp": "2026-04-24T07:49:13.537636"
+  },
+  {
+    "pergunta": "faça isso",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 1837,
+    "api_usada": "groq",
+    "timestamp": "2026-04-24T07:50:15.384549"
+  },
+  {
+    "pergunta": "eu sei , essa pesquisa era so para voce saber",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "world_state",
+    "latencia_ms": 6000,
+    "api_usada": "groq",
+    "timestamp": "2026-04-24T07:51:24.962136"
+  },
+  {
+    "pergunta": "sabe que voce usa isso ?",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 1939,
+    "api_usada": "groq",
+    "timestamp": "2026-04-24T07:51:58.645082"
+  },
+  {
+    "pergunta": "AGENTE AUTÔNOMO\nInventário Completo do Sistema\n\nBackup — 24 de Abril de 2026\nVersão 5.4 — Fases 1 a 42 completas\n\nCriador: Eduardo Conceição — Atibaia-SP\n\n\n\nVisão Geral\nEste documento é o inventário c",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "mentoria_raciocinio",
+    "latencia_ms": 3879,
+    "api_usada": "groq",
+    "timestamp": "2026-04-24T07:53:12.746512"
+  },
+  {
+    "pergunta": "onde fica o seu turbo quant?",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 10744,
+    "api_usada": "groq",
+    "timestamp": "2026-04-24T07:54:44.838085"
+  },
+  {
+    "pergunta": "o seu fica no pendrive de 28gb e voce já sabia disso antes",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 2490,
+    "api_usada": "groq",
+    "timestamp": "2026-04-24T07:55:54.390590"
   }
 ]
