@@ -1,19 +1,5 @@
 [
   {
-    "timestamp": "2026-04-23T20:38:39.814929",
-    "direcao": "aguardar",
-    "descricao": "Dados insuficientes para decidir — continuar coletando",
-    "justificativa": "Dados insuficientes para decisão segura",
-    "proxima_tensao": "Continuar coletando experiências reais",
-    "inputs": {
-      "contrafuturos_criticos": 1,
-      "sacrificios_candidatos": 0,
-      "sacrificios_removidos": 0,
-      "clausulas_ativas": 3,
-      "artigos_constituicao": 17
-    }
-  },
-  {
     "timestamp": "2026-04-23T20:39:25.112519",
     "direcao": "aguardar",
     "descricao": "Dados insuficientes para decidir — continuar coletando",
@@ -141,6 +127,20 @@
   },
   {
     "timestamp": "2026-04-24T06:45:30.415722",
+    "direcao": "aguardar",
+    "descricao": "Dados insuficientes para decidir — continuar coletando",
+    "justificativa": "Dados insuficientes para decisão segura",
+    "proxima_tensao": "Continuar coletando experiências reais",
+    "inputs": {
+      "contrafuturos_criticos": 1,
+      "sacrificios_candidatos": 0,
+      "sacrificios_removidos": 0,
+      "clausulas_ativas": 3,
+      "artigos_constituicao": 17
+    }
+  },
+  {
+    "timestamp": "2026-04-24T07:44:27.611430",
     "direcao": "aguardar",
     "descricao": "Dados insuficientes para decidir — continuar coletando",
     "justificativa": "Dados insuficientes para decisão segura",
