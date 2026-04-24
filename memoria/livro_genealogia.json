@@ -1,0 +1,59 @@
+[
+  {
+    "nos": {
+      "autonomia_vs_dependencia": {
+        "id": "autonomia_vs_dependencia",
+        "tipo": "friccao",
+        "nome": "Autonomia Vs Dependencia",
+        "descricao": "Contagem: 6 | Última: 2026-04-02T07:46:24.208512",
+        "timestamp": "2026-04-02T07:46:24.208512"
+      },
+      "decisao_vs_analise": {
+        "id": "decisao_vs_analise",
+        "tipo": "friccao",
+        "nome": "Decisao Vs Analise",
+        "descricao": "Contagem: 6 | Última: 2026-04-06T07:55:04.562835",
+        "timestamp": "2026-04-06T07:55:04.562835"
+      },
+      "4845d47f": {
+        "id": "4845d47f",
+        "tipo": "mutacao",
+        "nome": "Modo Espelho de Dependência",
+        "descricao": "[consolidada] Quando o mesmo ponto de travamento aparecer 2x, o agente nomeia o padrão antes de responder. O usuário precisa ver o ciclo.",
+        "timestamp": "2026-04-03T18:22:04.437673"
+      },
+      "3cc4f2ac": {
+        "id": "3cc4f2ac",
+        "tipo": "mutacao",
+        "nome": "Cicatriz: Loop de Dependência",
+        "descricao": "[consolidada] Padrão documentado: retornar ao mesmo ponto sem construir a capacidade de sair dele.",
+        "timestamp": "2026-04-04T00:17:03.884188"
+      },
+      "026ffc38": {
+        "id": "026ffc38",
+        "tipo": "mutacao",
+        "nome": "Órgão de Compressão Decisória",
+        "descricao": "[consolidada] Quando análise chegar em 3 iterações sem decisão, comprime para escolha binária obrigatória. Sem terceira opção.",
+        "timestamp": "2026-04-05T21:20:41.320633"
+      }
+    },
+    "arestas": [
+      {
+        "origem": "autonomia_vs_dependencia",
+        "destino": "4845d47f",
+        "relacao": "gerou_mutacao"
+      },
+      {
+        "origem": "autonomia_vs_dependencia",
+        "destino": "3cc4f2ac",
+        "relacao": "gerou_mutacao"
+      },
+      {
+        "origem": "decisao_vs_analise",
+        "destino": "026ffc38",
+        "relacao": "gerou_mutacao"
+      }
+    ],
+    "orfaos": []
+  }
+]
