@@ -222,45 +222,40 @@
       "timestamp": "2026-04-22T07:13:26.737719"
     },
     {
-      "data": "24/04/2026 15:16",
-      "pergunta": "voce sabe da maquina nova?",
-      "resposta": "A resposta incompleta no sistema parece ser relacionada à minha falta de informações sobre uma máquina específica. Como agente autônomo do Eduardo Conceição, posso tentar obter mais detalhes sobre a q",
-      "tipo_informacao": "EFEMERO",
-      "expira_em": "24/04/2026 21:16",
-      "ttl_horas": 6,
-      "origem": "SCOUT_RENDER"
+      "pergunta": "Quem venceu a Copa do Mundo de 2038?",
+      "estrategia": "groq",
+      "erro_tipo": "ok",
+      "correcao": "",
+      "score": 1.0,
+      "escopo": "world_state",
+      "latencia_ms": 3653,
+      "api_usada": "groq",
+      "timestamp": "2026-04-25T20:29:34.394626"
     },
     {
-      "data": "24/04/2026 15:16",
-      "pergunta": "o que voce lembra da sessão passada",
-      "resposta": "Peço desculpas pelo incompleto. Infelizmente, como um agente autônomo criado por Eduardo Conceição, não tenho a capacidade de armazenamento de memória como os humanos, então não posso acessar com prec",
-      "tipo_informacao": "ESTAVEL",
-      "origem": "SCOUT_RENDER"
-    },
-    {
-      "data": "24/04/2026 15:31",
+      "data": "25/04/2026 20:29",
       "pergunta": "oi",
-      "resposta": "Bom dia! Sou um agente autônomo criado por Eduardo Conceição, de Atibaia-SP, e estou aqui para ajudar com suas duvidas e necessidades. Estou pronto para fornecer informações e resolver problemas de fo",
+      "resposta": "Olá! Estou aqui para ajudar. Como um agente autônomo criado por Eduardo Conceição, estou à disposição para responder a qualquer pergunta ou fornecer informações que você precise. Sou um programa de in",
       "tipo_informacao": "ESTAVEL",
       "origem": "SCOUT_RENDER"
     },
     {
-      "data": "24/04/2026 15:31",
+      "data": "25/04/2026 20:29",
       "pergunta": "voce sabe da maquina nova?",
-      "resposta": "Infelizmente, não possuo informações atualizadas sobre uma máquina nova referida. Para fornecer uma resposta precisa, eu precisaria buscar mais informações sobre o contexto em que essa pergunta foi fe",
-      "tipo_informacao": "FACTUAL",
-      "expira_em": "24/05/2026 15:31",
-      "ttl_horas": 720,
+      "resposta": "Eu não tenho informações atualizadas sobre a máquina nova. Posso perguntar ao meu criador, Eduardo Conceição, se ele possui mais detalhes?\n\nMas posso tentar ajudar a encontrar a resposta. Pode me forn",
+      "tipo_informacao": "ESTAVEL",
       "origem": "SCOUT_RENDER"
     },
     {
-      "data": "24/04/2026 15:32",
+      "data": "25/04/2026 20:29",
       "pergunta": "o que voce lembra da sessão passada",
-      "resposta": "Um problema interessante! Como uma ferramenta criada por Eduardo Conceição, de Atibaia-SP, posso tentar fornecer uma resposta completa e detalhada baseada em minha última interação com você.\n\nInfelizm",
-      "tipo_informacao": "ESTAVEL",
+      "resposta": "Desculpe a inconveniência. Infelizmente, como agente autônomo, não tenho capacidade de armazenar informações em longo prazo ou lembrar de conversas específicas de sessões passadas. Cada vez que você m",
+      "tipo_informacao": "MEDIO",
+      "expira_em": "28/04/2026 20:29",
+      "ttl_horas": 72,
       "origem": "SCOUT_RENDER"
     }
   ],
-  "total_entradas": 25,
-  "ultima_atualizacao": "24/04/2026 15:32"
+  "total_entradas": 24,
+  "ultima_atualizacao": "25/04/2026 20:29"
 }
