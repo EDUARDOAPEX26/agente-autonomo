@@ -2,18 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "25/04/2026 20:01",
-      "pergunta": "Resuma em duas linhas: \"O sol aquece a Terra, impulsiona o clima e torna possível a vida. Sem ele, a maioria dos ecossistemas colapsaria.\"",
-      "resposta": "O sol é essencial para a vida na Terra, pois aquece o planeta e impulsiona o clima. Sem o sol, a maioria dos ecossistemas não existiria.",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "25/04/2026 20:01",
-      "pergunta": "Resuma em duas linhas: \"O sol aquece a Terra, impulsiona o clima e torna possível a vida. Sem ele, a maioria dos ecossistemas colapsaria.\"",
-      "resposta": "O sol é essencial para a vida na Terra, pois aquece o planeta e impulsiona o clima. Sem o sol, a maioria dos ecossistemas não existiria.",
-      "origem": "conversa_local"
-    },
-    {
       "data": "25/04/2026 20:02",
       "pergunta": "Explique o que é aprendizado de máquina em no máximo 20 palavras.",
       "resposta": "Aprendizado de máquina: computadores aprendem com dados para prever e tomar decisões.",
@@ -119,9 +107,21 @@
       "data": "25/04/2026 20:05",
       "pergunta": "tem certeza?",
       "resposta": "Sim, estou certo. 25 x 25 é igual a 625. É uma multiplicação simples, onde você multiplica 25 por si mesmo, resultando em 625. Não há erro nessa conta.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "25/04/2026 20:29",
+      "pergunta": "Quem venceu a Copa do Mundo de 2038?",
+      "resposta": "Não sei. A data atual é 25 de abril de 2026, e o evento que você mencionou ainda não ocorreu. Portanto, não tenho informações sobre o resultado da Copa do Mundo de 2038.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "25/04/2026 20:29",
+      "pergunta": "Quem venceu a Copa do Mundo de 2038?",
+      "resposta": "Não sei. A data atual é 25 de abril de 2026, e o evento que você mencionou ainda não ocorreu. Portanto, não tenho informações sobre o resultado da Copa do Mundo de 2038.",
       "origem": "conversa_local"
     }
   ],
-  "total_conversas": 523,
+  "total_conversas": 525,
   "total_tarefas": 3240
 }
