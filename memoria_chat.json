@@ -2,30 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "24/04/2026 15:55",
-      "pergunta": "voce saiu do contexto novamente , estamos falando do turbo quant",
-      "resposta": "Peço desculpas pelo erro! Você está correto, nós estávamos falando sobre o TurboQuant e como ele poderia ser implementado em mim.\n\nNo contexto da nossa conversa, eu não posso ter o TurboQuant implemen",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "24/04/2026 15:55",
-      "pergunta": "voce saiu do contexto novamente , estamos falando do turbo quant",
-      "resposta": "Peço desculpas pelo erro! Você está correto, nós estávamos falando sobre o TurboQuant e como ele poderia ser implementado em mim.\n\nNo contexto da nossa conversa, eu não posso ter o TurboQuant implemen",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "24/04/2026 15:56",
-      "pergunta": "sim , vamos ver se consigo",
-      "resposta": "Vamos lá! Estou ansioso para ver o que você vai tentar. Lembre-se de que eu sou um modelo de linguagem complexo, e qualquer mudança que você fizer pode ter efeitos imprevisíveis.\n\nMas, se você acha qu",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "24/04/2026 15:56",
-      "pergunta": "sim , vamos ver se consigo",
-      "resposta": "Vamos lá! Estou ansioso para ver o que você vai tentar. Lembre-se de que eu sou um modelo de linguagem complexo, e qualquer mudança que você fizer pode ter efeitos imprevisíveis.\n\nMas, se você acha qu",
-      "origem": "conversa_local"
-    },
-    {
       "data": "25/04/2026 19:58",
       "pergunta": "Responda em uma frase: qual é a capital do Japão?",
       "resposta": "A capital do Japão é Tóquio.",
@@ -119,9 +95,33 @@
       "data": "25/04/2026 20:01",
       "pergunta": "Quem eu sou, com o que eu trabalho e como prefiro as respostas?",
       "resposta": "Você é Eduardo, trabalha com automação e prefere respostas curtas.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "25/04/2026 20:01",
+      "pergunta": "Resuma em duas linhas: \"O sol aquece a Terra, impulsiona o clima e torna possível a vida. Sem ele, a maioria dos ecossistemas colapsaria.\"",
+      "resposta": "O sol é essencial para a vida na Terra, pois aquece o planeta e impulsiona o clima. Sem o sol, a maioria dos ecossistemas não existiria.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "25/04/2026 20:01",
+      "pergunta": "Resuma em duas linhas: \"O sol aquece a Terra, impulsiona o clima e torna possível a vida. Sem ele, a maioria dos ecossistemas colapsaria.\"",
+      "resposta": "O sol é essencial para a vida na Terra, pois aquece o planeta e impulsiona o clima. Sem o sol, a maioria dos ecossistemas não existiria.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "25/04/2026 20:02",
+      "pergunta": "Explique o que é aprendizado de máquina em no máximo 20 palavras.",
+      "resposta": "Aprendizado de máquina: computadores aprendem com dados para prever e tomar decisões.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "25/04/2026 20:02",
+      "pergunta": "Explique o que é aprendizado de máquina em no máximo 20 palavras.",
+      "resposta": "Aprendizado de máquina: computadores aprendem com dados para prever e tomar decisões.",
       "origem": "conversa_local"
     }
   ],
-  "total_conversas": 503,
+  "total_conversas": 507,
   "total_tarefas": 3240
 }
