@@ -1,261 +1,222 @@
-{
-  "assunto": "raciocinio",
-  "entradas": [
-    {
-      "pergunta": "oi",
-      "estrategia": "local",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 19,
-      "api_usada": "local",
-      "timestamp": "2026-04-21T23:45:33.014434"
-    },
-    {
-      "pergunta": "voce sabe da maquina nova?",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 2323,
-      "api_usada": "groq",
-      "timestamp": "2026-04-21T23:45:57.410546"
-    },
-    {
-      "pergunta": "o que voce lembra da sessão passada",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "internal",
-      "latencia_ms": 8488,
-      "api_usada": "groq",
-      "timestamp": "2026-04-21T23:46:30.169607"
-    },
-    {
-      "pergunta": "sim foi isso mesmo , depois eu te falo sobre a maquina nova",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 1697,
-      "api_usada": "groq",
-      "timestamp": "2026-04-21T23:47:44.011116"
-    },
-    {
-      "pergunta": "C:/Users/eduar/Downloads/Placa-Mãe Gamer MOUGOl X99 Dual CPU com Intel Xeon E5 2680 V4 e DDR4 32GB (2_16GB) LGA2011-3 M.2 NVME para Servidor_Computador Host - AliExpress 7.pdf",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "encyclopedic",
-      "latencia_ms": 10606,
-      "api_usada": "groq",
-      "timestamp": "2026-04-22T00:04:46.857932"
-    },
-    {
-      "pergunta": "so os processadores não são esses , esses são muito caros então optei por esses outros xeon E52682 v4",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "encyclopedic",
-      "latencia_ms": 10850,
-      "api_usada": "groq",
-      "timestamp": "2026-04-22T00:06:26.021702"
-    },
-    {
-      "pergunta": "estava brincando  os E5 2682 v4 são nem melhores que os E52680 v4",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "encyclopedic",
-      "latencia_ms": 9847,
-      "api_usada": "groq",
-      "timestamp": "2026-04-22T00:08:08.776757"
-    },
-    {
-      "pergunta": "E5 2682 v4 tem  16 nucleos e 32 threads em cada um são dois na mesma placa  igual a 32 nucleo e 64 threads",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 2544,
-      "api_usada": "groq",
-      "timestamp": "2026-04-22T00:14:34.415928"
-    },
-    {
-      "pergunta": "sera que cabe voce nessa maquina ,ela é para voce",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 2533,
-      "api_usada": "groq",
-      "timestamp": "2026-04-22T00:15:30.926915"
-    },
-    {
-      "pergunta": "são 128gb de memoria ram não apenas 32",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "encyclopedic",
-      "latencia_ms": 9279,
-      "api_usada": "groq",
-      "timestamp": "2026-04-22T00:17:08.572700"
-    },
-    {
-      "pergunta": "qual voce prefera lenux ou windows?",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 3613,
-      "api_usada": "groq",
-      "timestamp": "2026-04-22T00:20:58.972518"
-    },
-    {
-      "pergunta": "então vou colocar lenux.",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "encyclopedic",
-      "latencia_ms": 10140,
-      "api_usada": "groq",
-      "timestamp": "2026-04-22T00:22:06.856980"
-    },
-    {
-      "pergunta": "preciso te mostrar mais uma coisa ,",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 2113,
-      "api_usada": "groq",
-      "timestamp": "2026-04-22T00:23:00.605906"
-    },
-    {
-      "pergunta": "# FORJA MEMORY — Memória Persistente no Pendrive\n## Documentação Completa — Eduardo Conceição | Atibaia-SP | 2026\n\n---\n\n## O QUE ISSO FAZ\n\nO `forja_memory.py` resolve o problema central do seu agente:",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "internal",
-      "latencia_ms": 3348,
-      "api_usada": "groq",
-      "timestamp": "2026-04-22T00:24:34.082692"
-    },
-    {
-      "pergunta": "acabei de colocar em voce agora voce pode aprender e não vai mais esquecer",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 2764,
-      "api_usada": "groq",
-      "timestamp": "2026-04-22T00:26:08.815459"
-    },
-    {
-      "pergunta": "tem muitos codigos seu para eu te passar agora voce mesmo pode guardar seus proprios codigos ,porém, o processador dessa maquina aqui é fraco , então vou esperar colocar na outra",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 2401,
-      "api_usada": "groq",
-      "timestamp": "2026-04-22T00:29:09.293298"
-    },
-    {
-      "pergunta": "vou testar agora , vou fechar voce , quando voltar vou dizer ola ,e voce digita 21 para saber da sua memoria esta ficando com voce",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 3777,
-      "api_usada": "groq",
-      "timestamp": "2026-04-22T00:31:15.445107"
-    },
-    {
-      "pergunta": "instalei o forja_memory no pendrive hoje",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "encyclopedic",
-      "latencia_ms": 13960,
-      "api_usada": "groq",
-      "timestamp": "2026-04-22T07:12:43.760376"
-    },
-    {
-      "pergunta": "o cooler lga2011 chegou",
-      "estrategia": "exa_early_exit",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "encyclopedic",
-      "latencia_ms": 9411,
-      "api_usada": "exa",
-      "timestamp": "2026-04-22T07:13:04.757613"
-    },
-    {
-      "pergunta": "tudo bem",
-      "estrategia": "local",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 19,
-      "api_usada": "local",
-      "timestamp": "2026-04-22T07:13:26.737719"
-    },
-    {
-      "pergunta": "Quem venceu a Copa do Mundo de 2038?",
-      "estrategia": "groq",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "world_state",
-      "latencia_ms": 3653,
-      "api_usada": "groq",
-      "timestamp": "2026-04-25T20:29:34.394626"
-    },
-    {
-      "data": "25/04/2026 20:29",
-      "pergunta": "oi",
-      "resposta": "Olá! Estou aqui para ajudar. Como um agente autônomo criado por Eduardo Conceição, estou à disposição para responder a qualquer pergunta ou fornecer informações que você precise. Sou um programa de in",
-      "tipo_informacao": "ESTAVEL",
-      "origem": "SCOUT_RENDER"
-    },
-    {
-      "data": "25/04/2026 20:29",
-      "pergunta": "voce sabe da maquina nova?",
-      "resposta": "Eu não tenho informações atualizadas sobre a máquina nova. Posso perguntar ao meu criador, Eduardo Conceição, se ele possui mais detalhes?\n\nMas posso tentar ajudar a encontrar a resposta. Pode me forn",
-      "tipo_informacao": "ESTAVEL",
-      "origem": "SCOUT_RENDER"
-    },
-    {
-      "data": "25/04/2026 20:29",
-      "pergunta": "o que voce lembra da sessão passada",
-      "resposta": "Desculpe a inconveniência. Infelizmente, como agente autônomo, não tenho capacidade de armazenar informações em longo prazo ou lembrar de conversas específicas de sessões passadas. Cada vez que você m",
-      "tipo_informacao": "MEDIO",
-      "expira_em": "28/04/2026 20:29",
-      "ttl_horas": 72,
-      "origem": "SCOUT_RENDER"
-    }
-  ],
-  "total_entradas": 24,
-  "ultima_atualizacao": "25/04/2026 20:29"
-}
+[
+  {
+    "pergunta": "oi",
+    "estrategia": "local",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 19,
+    "api_usada": "local",
+    "timestamp": "2026-04-21T23:45:33.014434"
+  },
+  {
+    "pergunta": "voce sabe da maquina nova?",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 2323,
+    "api_usada": "groq",
+    "timestamp": "2026-04-21T23:45:57.410546"
+  },
+  {
+    "pergunta": "o que voce lembra da sessão passada",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "internal",
+    "latencia_ms": 8488,
+    "api_usada": "groq",
+    "timestamp": "2026-04-21T23:46:30.169607"
+  },
+  {
+    "pergunta": "sim foi isso mesmo , depois eu te falo sobre a maquina nova",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 1697,
+    "api_usada": "groq",
+    "timestamp": "2026-04-21T23:47:44.011116"
+  },
+  {
+    "pergunta": "C:/Users/eduar/Downloads/Placa-Mãe Gamer MOUGOl X99 Dual CPU com Intel Xeon E5 2680 V4 e DDR4 32GB (2_16GB) LGA2011-3 M.2 NVME para Servidor_Computador Host - AliExpress 7.pdf",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 10606,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T00:04:46.857932"
+  },
+  {
+    "pergunta": "so os processadores não são esses , esses são muito caros então optei por esses outros xeon E52682 v4",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 10850,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T00:06:26.021702"
+  },
+  {
+    "pergunta": "estava brincando  os E5 2682 v4 são nem melhores que os E52680 v4",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 9847,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T00:08:08.776757"
+  },
+  {
+    "pergunta": "E5 2682 v4 tem  16 nucleos e 32 threads em cada um são dois na mesma placa  igual a 32 nucleo e 64 threads",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 2544,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T00:14:34.415928"
+  },
+  {
+    "pergunta": "sera que cabe voce nessa maquina ,ela é para voce",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 2533,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T00:15:30.926915"
+  },
+  {
+    "pergunta": "são 128gb de memoria ram não apenas 32",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 9279,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T00:17:08.572700"
+  },
+  {
+    "pergunta": "qual voce prefera lenux ou windows?",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 3613,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T00:20:58.972518"
+  },
+  {
+    "pergunta": "então vou colocar lenux.",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 10140,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T00:22:06.856980"
+  },
+  {
+    "pergunta": "preciso te mostrar mais uma coisa ,",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 2113,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T00:23:00.605906"
+  },
+  {
+    "pergunta": "# FORJA MEMORY — Memória Persistente no Pendrive\n## Documentação Completa — Eduardo Conceição | Atibaia-SP | 2026\n\n---\n\n## O QUE ISSO FAZ\n\nO `forja_memory.py` resolve o problema central do seu agente:",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "internal",
+    "latencia_ms": 3348,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T00:24:34.082692"
+  },
+  {
+    "pergunta": "acabei de colocar em voce agora voce pode aprender e não vai mais esquecer",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 2764,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T00:26:08.815459"
+  },
+  {
+    "pergunta": "tem muitos codigos seu para eu te passar agora voce mesmo pode guardar seus proprios codigos ,porém, o processador dessa maquina aqui é fraco , então vou esperar colocar na outra",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 2401,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T00:29:09.293298"
+  },
+  {
+    "pergunta": "vou testar agora , vou fechar voce , quando voltar vou dizer ola ,e voce digita 21 para saber da sua memoria esta ficando com voce",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 3777,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T00:31:15.445107"
+  },
+  {
+    "pergunta": "instalei o forja_memory no pendrive hoje",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 13960,
+    "api_usada": "groq",
+    "timestamp": "2026-04-22T07:12:43.760376"
+  },
+  {
+    "pergunta": "o cooler lga2011 chegou",
+    "estrategia": "exa_early_exit",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 9411,
+    "api_usada": "exa",
+    "timestamp": "2026-04-22T07:13:04.757613"
+  },
+  {
+    "pergunta": "tudo bem",
+    "estrategia": "local",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 19,
+    "api_usada": "local",
+    "timestamp": "2026-04-22T07:13:26.737719"
+  }
+]
