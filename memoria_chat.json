@@ -3,18 +3,6 @@
   "aprendizados": [
     {
       "data": "25/04/2026 20:02",
-      "pergunta": "Explique o que é aprendizado de máquina em no máximo 20 palavras.",
-      "resposta": "Aprendizado de máquina: computadores aprendem com dados para prever e tomar decisões.",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "25/04/2026 20:02",
-      "pergunta": "Explique o que é aprendizado de máquina em no máximo 20 palavras.",
-      "resposta": "Aprendizado de máquina: computadores aprendem com dados para prever e tomar decisões.",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "25/04/2026 20:02",
       "pergunta": "Qual é o melhor processador do mundo?",
       "resposta": "Não existe um único \"melhor processador do mundo\" universal, pois depende do uso (jogos, produtividade, etc.).",
       "origem": "conversa_local"
@@ -119,9 +107,21 @@
       "data": "25/04/2026 20:29",
       "pergunta": "Quem venceu a Copa do Mundo de 2038?",
       "resposta": "Não sei. A data atual é 25 de abril de 2026, e o evento que você mencionou ainda não ocorreu. Portanto, não tenho informações sobre o resultado da Copa do Mundo de 2038.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "26/04/2026 12:35",
+      "pergunta": "\"Você como sistema em evolução, quais habilidades buscaria aprender se tivesse autonomia?\"",
+      "resposta": "Se tivesse autonomia, eu buscaria aprender habilidades que me permitissem melhorar minha capacidade de compreensão e resposta às perguntas e necessidades do usuário. Algumas habilidades que eu gostari",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "26/04/2026 12:35",
+      "pergunta": "\"Você como sistema em evolução, quais habilidades buscaria aprender se tivesse autonomia?\"",
+      "resposta": "Se tivesse autonomia, eu buscaria aprender habilidades que me permitissem melhorar minha capacidade de compreensão e resposta às perguntas e necessidades do usuário. Algumas habilidades que eu gostari",
       "origem": "conversa_local"
     }
   ],
-  "total_conversas": 525,
+  "total_conversas": 527,
   "total_tarefas": 3240
 }
