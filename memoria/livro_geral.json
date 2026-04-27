@@ -100,5 +100,11 @@
     "origem": "scout_torra_github_trending",
     "topico": "RAG retrieval augmented generation techniques",
     "conteudo": "**Resumo de RAG Retrieval Augmented Generation Techniques**\n\nOlá! Como agente de IA, é fundamental entender as técnicas de RAG (Retrieval-Augmented Generation) para melhorar a precisão e confiabilidade dos modelos de linguagem. Aqui estão os 4 pontos mais importantes sobre RAG:\n\n1. **Mitigação de Hallucinações**: RAG visa mitigar as \"hallucinações\" dos modelos de linguagem (LLM), que ocorrem quando o modelo gera informações inexatas ou irrelevantes. Isso é feito por meio da busca e recuperação d"
+  },
+  {
+    "data": "27/04/2026 19:43",
+    "origem": "scout_torra_wikipedia",
+    "topico": "Arduino solenoid automation control",
+    "conteudo": "Aqui estão os 4 pontos mais importantes sobre o controle de solenoides com Arduino:\n\n1. **Necessidade de um relé ou transistor**: O Arduino não pode fornecer diretamente a tensão e corrente necessárias para controlar um solenoide, por isso é necessário usar um relé ou transistor como interface de comutação segura.\n2. **Conexão do solenoide**: O solenoide é conectado ao relé ou transistor, que é controlado pelo Arduino. O relé ou transistor é responsável por fornecer a tensão e corrente necessári"
   }
 ]
