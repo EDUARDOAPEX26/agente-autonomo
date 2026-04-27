@@ -418,5 +418,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Xeon E5-2682 V4 memory bandwidth optimization",
     "conteudo": "Aqui estão 3 pontos para otimizar a largura de banda de memória do Xeon E5-2682 V4:\n\n1. **Configuração de DIMMs**: Use 6 DIMMs para sistemas de CPU único ou 12 DIMMs para sistemas de CPU duplo para otimizar a largura de banda de memória.\n2. **Distribuição equilibrada de módulos de memória**: Distribua os módulos de memória de forma equilibrada para maximizar o desempenho.\n3. **Controle de canais de memória**: O Xeon E5-2682 V4 tem 2 controladores de memória, cada um com 3 canais (total de 6 cana"
+  },
+  {
+    "data": "27/04/2026 20:25",
+    "origem": "scout_torra_github_trending",
+    "topico": "persistent agent memory architecture design",
+    "conteudo": "Aqui estão 3 pontos que resumem a arquitetura de memória persistente para agentes de IA:\n\n1. **Armazenamento de memória**: A arquitetura de memória persistente é um sistema de banco de dados unificado que armazena eventos episódicos, conhecimento semântico e estado procedimental, permitindo que os agentes de IA recall o que é importante e esqueçam o que não é.\n2. **Componentes chave**: A arquitetura inclui um repositório de conhecimento persistente (memória durável), uma camada de indexação de m"
   }
 ]
