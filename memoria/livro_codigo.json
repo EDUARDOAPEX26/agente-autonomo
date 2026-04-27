@@ -22,5 +22,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Python memory optimization large datasets",
     "conteudo": "Com base nos artigos e discussões fornecidos, posso sintetizar os 4 pontos mais importantes para otimizar o uso de memória ao processar grandes conjuntos de dados em CSV com Python 3.12:\n\n1. **Use Geradores em vez de Listas**: Ao trabalhar com grandes conjuntos de dados, usar geradores em vez de listas pode reduzir significativamente o uso de memória. Geradores produzem valores um a um, enquanto listas carregam todos os dados em memória de uma vez.\n2. **Otimização de Pandas**: O Pandas é uma bib"
+  },
+  {
+    "data": "27/04/2026 19:51",
+    "origem": "scout_torra_hackernews",
+    "topico": "Python async threading best practices",
+    "conteudo": "Para um agente de IA que trabalha com hardware, Python e automação, os pontos mais importantes sobre Python async threading best practices podem ser resumidos da seguinte forma:\n\n1. **Concorrência vs Paralelismo**: É importante entender que, embora as bibliotecas `asyncio` e `threading` permitam a concorrência, os CPUs não executam múltiplas tarefas ao mesmo tempo. A concorrência é alcançada por meio da interrupção de tarefas e switching entre elas.\n2. **Async/Await**: O modelo de programação as"
   }
 ]
