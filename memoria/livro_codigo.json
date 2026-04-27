@@ -16,5 +16,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Python async threading best practices",
     "conteudo": "**Concorrência em Python: Práticas Recomendadas**\n\nAo trabalhar com aplicações concorrentes em Python, é fundamental entender as diferenças entre as bibliotecas `asyncio` e `threading`. Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Asyncio vs Threading**: Embora tanto `asyncio` quanto `threading` permitam a aparência de concorrência, os CPUs não executam múltiplas tarefas ao mesmo tempo. A escolha entre as duas depende do tipo d"
+  },
+  {
+    "data": "27/04/2026 19:45",
+    "origem": "scout_torra_hackernews",
+    "topico": "Python memory optimization large datasets",
+    "conteudo": "Com base nos artigos e discussões fornecidos, posso sintetizar os 4 pontos mais importantes para otimizar o uso de memória ao processar grandes conjuntos de dados em CSV com Python 3.12:\n\n1. **Use Geradores em vez de Listas**: Ao trabalhar com grandes conjuntos de dados, usar geradores em vez de listas pode reduzir significativamente o uso de memória. Geradores produzem valores um a um, enquanto listas carregam todos os dados em memória de uma vez.\n2. **Otimização de Pandas**: O Pandas é uma bib"
   }
 ]
