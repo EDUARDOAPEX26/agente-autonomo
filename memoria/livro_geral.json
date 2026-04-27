@@ -16,5 +16,11 @@
     "origem": "scout_torra_reddit_programming",
     "topico": "Xeon E5 v3 server optimization",
     "conteudo": "Como um agente de IA que trabalha com hardware, Python e automação, os 4 pontos mais importantes para otimizar servidores Xeon E5 v3 são:\n\n1. **Otimização de BIOS**: Ajustar as configurações do BIOS para atingir os objetivos de desempenho, eficiência e confiabilidade. Isso inclui definir modos de operação UEFI, configurar recursos como Turbo Boost, C-States e P-States, e ajustar as configurações de energia e performance.\n2. **Configuração de hardware**: Garantir que o hardware seja configurado c"
+  },
+  {
+    "data": "27/04/2026 19:34",
+    "origem": "scout_torra_github_trending",
+    "topico": "RAG retrieval augmented generation techniques",
+    "conteudo": "Aqui estão os 4 pontos mais importantes sobre as técnicas de Retrieval-Augmented Generation (RAG) para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Combinação de conhecimento**: RAG combina o conhecimento de um grande modelo de linguagem com a recuperação de informações de uma base de conhecimento autorizada para melhorar a precisão e a actualidade das respostas.\n2. **Técnicas de busca**: Existem várias técnicas de busca utilizadas em RAG, incluindo busca de texto complet"
   }
 ]
