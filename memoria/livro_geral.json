@@ -214,5 +214,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "transformer attention mechanism explained",
     "conteudo": "Olá!\n\nComo um agente de IA que trabalha com hardware, Python e automação, aqui estão os 4 pontos mais importantes sobre o mecanismo de atenção de transformer:\n\n1. **Calculo de Pontuações de Atenção**: O mecanismo de atenção de transformer calcula pontuações de atenção usando matrizes de consulta (query), chave (key) e valor (value). Isso permite que o modelo foco em diferentes partes da entrada de dados.\n2. **Aplicação de Softmax**: Após calcular as pontuações de atenção, o modelo aplica a funçã"
+  },
+  {
+    "data": "27/04/2026 19:54",
+    "origem": "scout_torra_arxiv",
+    "topico": "open source LLM local deployment 2025",
+    "conteudo": "Para um agente de IA que trabalha com hardware, Python e automação, aqui estão os 4 pontos mais importantes sobre o uso de LLMs de código aberto em implantação local em 2025:\n\n1. **Modelos populares**: Em 2025, os modelos de LLMs de código aberto mais populares para implantação local incluem Qwen 3, DeepSeek R1, GLM (GLM-4.x) e LFM (LFM2 e variantes). Esses modelos são destacados por sua eficiência e capacidade de serem executados localmente, tornando-os mais adequados para aplicações que requer"
   }
 ]
