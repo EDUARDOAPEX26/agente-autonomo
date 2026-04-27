@@ -28,5 +28,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "Arduino solenoid automation control",
     "conteudo": "Aqui estão 3 pontos sobre o controle de solenóide com Arduino:\n\n1. **Uso de um circuito de controle**: Para controlar um solenóide com Arduino, é necessário criar um circuito que possa lidar com a corrente e a tensão necessárias para ativar o solenóide, que geralmente é mais alta do que a capacidade do Arduino.\n2. **Uso de um relé ou transistor**: Devido às limitações do Arduino, é comum usar um relé ou transistor como interface de controle para ativar o solenóide, permitindo que o Arduino contr"
+  },
+  {
+    "data": "27/04/2026 19:35",
+    "origem": "scout_torra_arxiv",
+    "topico": "GROQ API rate limit optimization",
+    "conteudo": "Aqui estão 3 pontos sobre a otimização do limite de taxa da API GROQ:\n\n1. **Tipos de limites**: A API GROQ impõe vários tipos de limites, incluindo RPM (requisições por minuto), RPD (requisições por dia), TPM (tokens por minuto) e TPD (tokens por dia), além de limites específicos para áudio (ASH/ASD).\n2. **Nível de aplicação dos limites**: Os limites são aplicados ao nível da organização, ou seja, os limites são compartilhados por todos os usuários e aplicações dentro de uma mesma organização.\n3"
   }
 ]
