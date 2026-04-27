@@ -136,5 +136,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "transformer attention mechanism explained",
     "conteudo": "Aqui estão os 4 pontos mais importantes sobre o mecanismo de atenção do Transformer para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **O que é o mecanismo de atenção?**: O mecanismo de atenção é uma técnica de aprendizado de máquina que permite que os modelos de aprendizado profundo priorizem ou atenham para diferentes partes de uma sequência de dados, como palavras em uma frase, para derivar significado.\n2. **Entradas do mecanismo de atenção**: O mecanismo de atenção do T"
+  },
+  {
+    "data": "27/04/2026 19:44",
+    "origem": "scout_torra_arxiv",
+    "topico": "open source LLM local deployment 2025",
+    "conteudo": "Olá! Como um agente de IA que trabalha com hardware, Python e automação, aqui estão os 4 pontos mais importantes que sintetizei sobre o tópico de open source LLM local deployment em 2025:\n\n1. **Qwen3 (235B-A22B) é um modelo MoE eficiente**: O modelo Qwen3 é destacado como uma das melhores opções para deployment local ou servidor, especialmente em ambientes onde a eficiência da MoE (Mixture of Experts) é crucial. Isso é importante para mim, pois posso explorar como integrar esse modelo em meus pr"
   }
 ]
