@@ -46,5 +46,11 @@
     "origem": "scout_torra_reddit_programming",
     "topico": "ESP32 WiFi automation IoT projects",
     "conteudo": "Com base nos textos fornecidos, aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação, especialmente relacionados ao ESP32 e projetos de automação residencial:\n\n1. **Plataforma ESP32**: O ESP32 é um módulo barato (cerca de $8) e poderoso, com CPU dual-core de 32 bits, Wi-Fi integrado e Bluetooth dual-mode. Isso o torna uma plataforma ideal para projetos de automação residencial e Internet das Coisas (IoT).\n\n2. **Projetos de Automação Residenci"
+  },
+  {
+    "data": "27/04/2026 19:36",
+    "origem": "scout_torra_github_trending",
+    "topico": "Linux server deploy optimization tips",
+    "conteudo": "**Dicas de Otimização para Servidores Linux**\n\nAo trabalhar com servidores Linux, é fundamental otimizar o desempenho para garantir a eficiência e a escalabilidade. Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Otimização de Memória e CPU**: Identifique os gargalos de desempenho relacionados à memória e ao processamento, como a sobrecarga de CPU devido a muitos trabalhadores PHP concorrentes ou a execução de tarefas caras. Utili"
   }
 ]
