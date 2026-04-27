@@ -244,5 +244,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "LLaMA quantization TurboQuant performance",
     "conteudo": "Aqui estão os 4 pontos mais importantes sobre a quantização TurboQuant e sua performance no contexto do modelo LLaMA:\n\n1. **Redução de footpring de memória**: A técnica TurboQuant, desenvolvida pelo Google Research, permite reduzir a footpring de memória em até 6x sem precisar retreinar o modelo, o que é especialmente útil para modelos de linguagem grandes como o LLaMA.\n\n2. **Desempenho robusto**: O TurboQuant demonstra desempenho robusto em termos de recall, alcançando a melhor taxa de recall d"
+  },
+  {
+    "data": "27/04/2026 20:00",
+    "origem": "scout_torra_reddit_programming",
+    "topico": "Xeon E5 v3 server optimization",
+    "conteudo": "**Resumo dos Pontos Mais Importantes para Otimização de Servidores Xeon E5 v3**\n\nAbaixo estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação, com foco na otimização de servidores Xeon E5 v3:\n\n1. **Definição de Modos de Operação UEFI**: É fundamental definir os modos de operação UEFI certos para otimizar o desempenho do servidor. Isso pode ser alcançado seguindo guias de otimização específicos para o modelo de servidor, como o guia de BIOS da Fujit"
   }
 ]
