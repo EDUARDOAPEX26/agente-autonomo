@@ -394,5 +394,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Xeon E5-2682 V4 memory bandwidth optimization",
     "conteudo": "Aqui estão 3 pontos principais para otimizar a largura de banda de memória do Xeon E5-2682 V4:\n\n1. **Uso de DIMMs**: Use 6 DIMMs para sistemas de CPU única ou 12 DIMMs para sistemas de CPU dupla para otimizar a largura de banda de memória.\n2. **Balanceamento de módulos de memória**: É importante balancear os módulos de memória para maximizar o desempenho, pois o uso de mais módulos pode reduzir a largura de banda.\n3. **Configuração de canais de memória**: O Xeon Scalable tem 2 controladores de m"
+  },
+  {
+    "data": "27/04/2026 20:18",
+    "origem": "scout_torra_reddit_programming",
+    "topico": "local LLM inference optimization techniques",
+    "conteudo": "Aqui estão 2 pontos sobre técnicas de otimização de inferência de LLM local:\n\n1. **Técnicas de otimização**: Técnicas como atenção com gate, embeddings por camada, atenção bulging e híbrida MoE são fundamentais para otimizar a inferência de LLM local. Além disso, a quantização e o gerenciamento eficiente do cache KV também melhoram significativamente o desempenho.\n2. **Referência abrangente**: Existem mais de 600 técnicas de otimização de inferência de LLM catalogadas, abrangendo áreas de pesqui"
   }
 ]
