@@ -10,5 +10,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Python memory optimization large datasets",
     "conteudo": "**Técnicas para Otimizar o Uso de Memória em Python com Conjuntos de Dados Grandes**\n\nAo trabalhar com conjuntos de dados grandes em Python, é fundamental otimizar o uso de memória para evitar problemas de desempenho e crashes. Aqui estão 4 pontos importantes para considerar:\n\n1. **Use Geradores em vez de Listas**: Geradores produzem valores um a um, enquanto listas carregam todos os dados em memória de uma vez. Isso pode fazer uma grande diferença ao trabalhar com conjuntos de dados grandes, po"
+  },
+  {
+    "data": "27/04/2026 19:43",
+    "origem": "scout_torra_hackernews",
+    "topico": "Python async threading best practices",
+    "conteudo": "**Concorrência em Python: Práticas Recomendadas**\n\nAo trabalhar com aplicações concorrentes em Python, é fundamental entender as diferenças entre as bibliotecas `asyncio` e `threading`. Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Asyncio vs Threading**: Embora tanto `asyncio` quanto `threading` permitam a aparência de concorrência, os CPUs não executam múltiplas tarefas ao mesmo tempo. A escolha entre as duas depende do tipo d"
   }
 ]
