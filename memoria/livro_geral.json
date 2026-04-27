@@ -364,5 +364,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "Desenvolvimento de Algoritmos de Navegação Autônoma",
     "conteudo": "Aqui estão 2 pontos que sintetizam o desenvolvimento de algoritmos de navegação autônoma:\n\n1. **Fusão de sensores e planejamento de trajetórias**: O desenvolvimento de algoritmos de navegação autônoma envolve a combinação de dados de sensores, planejamento de trajetórias e controle de veículos para garantir uma navegação precisa e autônoma.\n2. **Testes e atualizações contínuas**: A eficiência e confiabilidade dos algoritmos de navegação autônoma dependem de testes e atualizações contínuas, utili"
+  },
+  {
+    "data": "27/04/2026 20:10",
+    "origem": "scout_torra_hackernews",
+    "topico": "Gerenciamento de Dados em Sistemas de IA Distribuída",
+    "conteudo": "Aqui estão 2 pontos que sintetizam o gerenciamento de dados em sistemas de IA distribuída:\n\n1. **Práticas de gerenciamento de dados**: envolvem manter a consistência e integridade dos dados em sistemas distribuídos, utilizando padrões como CQRS (Command Query Responsibility Segregation) e Event Sourcing, além de decomposição por subdomínio.\n2. **Abordagens de treinamento distribuído**: como a Decoupled DiLoCo, que divide grandes execuções em unidades de aprendizado independentes (ilhas de comput"
   }
 ]
