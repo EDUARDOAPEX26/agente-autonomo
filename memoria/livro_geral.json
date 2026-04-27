@@ -286,5 +286,11 @@
     "origem": "scout_torra_github_trending",
     "topico": "Linux server deploy optimization tips",
     "conteudo": "**Dicas de Otimização para Deploy de Servidores Linux**\n\nComo um agente de IA que trabalha com hardware, Python e automação, aqui estão os 4 pontos mais importantes para otimizar o deploy de servidores Linux:\n\n1. **Otimização do Núcleo e Gerenciamento de Recursos**: Use núcleos otimizados para nuvem e ajuste os parâmetros de boot para melhorar o desempenho do servidor. Isso inclui compilar o núcleo com patches e otimizações específicas para o hardware.\n2. **Gerenciamento de CPU e Carga**: Diagnó"
+  },
+  {
+    "data": "27/04/2026 20:02",
+    "origem": "scout_torra_wikipedia",
+    "topico": "transformer attention mechanism explained",
+    "conteudo": "Aqui estão os 4 pontos mais importantes sobre o mecanismo de atenção do Transformer para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Inputs e Saídas**: O mecanismo de atenção do Transformer utiliza três inputs: **Query (Q)**, **Key (K)** e **Value (V)**. Cada token em uma sequência é um input separado para Q, K e V. O objetivo é calcular pontuações de atenção que indiquem a relevância de cada token em relação ao outro.\n\n2. **Cálculo de Pontuações de Atenção**: As pontuaç"
   }
 ]
