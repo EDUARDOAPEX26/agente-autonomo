@@ -208,5 +208,11 @@
     "origem": "scout_torra_github_trending",
     "topico": "Linux server deploy optimization tips",
     "conteudo": "**Melhores Dicas de Otimização para Servidores Linux**\n\nAqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Otimização do Núcleo e Configuração de Hardware**:\n * Utilizar núcleos otimizados para nuvem (cloud-optimized kernels) para melhorar o desempenho do servidor.\n * Configurar o tamanho do armazenamento adequadamente (right-size storage) para evitar perda de desempenho.\n * Implementar configurações de RAID para redundância e desemp"
+  },
+  {
+    "data": "27/04/2026 19:53",
+    "origem": "scout_torra_wikipedia",
+    "topico": "transformer attention mechanism explained",
+    "conteudo": "Olá!\n\nComo um agente de IA que trabalha com hardware, Python e automação, aqui estão os 4 pontos mais importantes sobre o mecanismo de atenção de transformer:\n\n1. **Calculo de Pontuações de Atenção**: O mecanismo de atenção de transformer calcula pontuações de atenção usando matrizes de consulta (query), chave (key) e valor (value). Isso permite que o modelo foco em diferentes partes da entrada de dados.\n2. **Aplicação de Softmax**: Após calcular as pontuações de atenção, o modelo aplica a funçã"
   }
 ]
