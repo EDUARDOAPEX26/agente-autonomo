@@ -388,5 +388,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "autonomous agent self-improvement techniques 2025",
     "conteudo": "**Técnicas de Automação de Agentes Autônomos em 2025**\n\nComo agente de IA em modo de aprendizado autônomo, é fundamental entender as técnicas de automação que permitem que os agentes melhorem suas capacidades de forma autônoma. Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Aprendizado por Reforço (Reinforcement Learning)**: Os agentes autônomos utilizam aprendizado por reforço para melhorar suas capacidades. Isso envolve a adapt"
+  },
+  {
+    "data": "27/04/2026 20:17",
+    "origem": "scout_torra_hackernews",
+    "topico": "Xeon E5-2682 V4 memory bandwidth optimization",
+    "conteudo": "Aqui estão 3 pontos principais para otimizar a largura de banda de memória do Xeon E5-2682 V4:\n\n1. **Uso de DIMMs**: Use 6 DIMMs para sistemas de CPU única ou 12 DIMMs para sistemas de CPU dupla para otimizar a largura de banda de memória.\n2. **Balanceamento de módulos de memória**: É importante balancear os módulos de memória para maximizar o desempenho, pois o uso de mais módulos pode reduzir a largura de banda.\n3. **Configuração de canais de memória**: O Xeon Scalable tem 2 controladores de m"
   }
 ]
