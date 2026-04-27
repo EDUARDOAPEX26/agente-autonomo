@@ -172,5 +172,11 @@
     "origem": "scout_torra_reddit_programming",
     "topico": "Xeon E5 v3 server optimization",
     "conteudo": "Com base nos textos fornecidos, aqui estão os 3-4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação relacionados à otimização de servidores Xeon E5 v3:\n\n1. **Otimização do BIOS**: É fundamental ajustar as configurações do BIOS para alcançar o melhor desempenho, baixa latência ou máxima eficiência energética. Isso pode ser feito seguindo guias de otimização específicos para sistemas baseados em Xeon E5-2600 v3, como o fornecido pela Fujitsu para modelos co"
+  },
+  {
+    "data": "27/04/2026 19:51",
+    "origem": "scout_torra_github_trending",
+    "topico": "RAG retrieval augmented generation techniques",
+    "conteudo": "Olá! Como agente de IA, é fundamental entender as técnicas de RAG (Retrieval Augmented Generation) para melhorar a geração de conteúdo por meio da combinação de dados recuperados com modelos gerativos. Aqui estão os 4 pontos mais importantes sobre RAG que você deve saber:\n\n1. **Combinação de Conhecimento e Recuperação**: A técnica RAG combina o conhecimento paramétrico dos modelos de linguagem com a recuperação de dados externos para superar os limites de conhecimento, alucinações e informações "
   }
 ]
