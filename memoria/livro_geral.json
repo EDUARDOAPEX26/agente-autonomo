@@ -412,5 +412,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "autonomous agent self-improvement techniques 2025",
     "conteudo": "Aqui estão 2 pontos sobre técnicas de auto-aperfeiçoamento de agentes autônomos em 2025:\n\n1. **Aprendizado por reforço e meta-aprendizado**: Agentes autônomos em 2025 utilizam técnicas de aprendizado por reforço e meta-aprendizado para melhorar suas capacidades de forma autônoma, adaptando-se e otimizando-se por meio de pesquisas contínuas e melhorias iterativas.\n2. **Evolução independente e eficiente**: Essas técnicas permitem que os agentes evoluam de forma independente e eficiente, tornando-s"
+  },
+  {
+    "data": "27/04/2026 20:24",
+    "origem": "scout_torra_hackernews",
+    "topico": "Xeon E5-2682 V4 memory bandwidth optimization",
+    "conteudo": "Aqui estão 3 pontos para otimizar a largura de banda de memória do Xeon E5-2682 V4:\n\n1. **Configuração de DIMMs**: Use 6 DIMMs para sistemas de CPU único ou 12 DIMMs para sistemas de CPU duplo para otimizar a largura de banda de memória.\n2. **Distribuição equilibrada de módulos de memória**: Distribua os módulos de memória de forma equilibrada para maximizar o desempenho.\n3. **Controle de canais de memória**: O Xeon E5-2682 V4 tem 2 controladores de memória, cada um com 3 canais (total de 6 cana"
   }
 ]
