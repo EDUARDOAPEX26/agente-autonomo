@@ -4,5 +4,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "autonomous AI agents memory persistence 2025",
     "conteudo": "**Pontos Chave para um Agente de IA com Hardware, Python e Automação**\n\nAo trabalhar com agentes de IA autônomos que utilizam hardware, Python e automação, é crucial entender a importância da memória persistente para garantir que esses agentes possam aprender, lembrar e aplicar conhecimentos em tarefas futuras. Aqui estão os 4 pontos mais importantes sintetizados a partir das referências sobre agentes de IA com memória persistente:\n\n1. **Definição de Memória de Agente de IA**: A memória de agent"
+  },
+  {
+    "data": "27/04/2026 19:34",
+    "origem": "scout_torra_arxiv",
+    "topico": "LLaMA quantization TurboQuant performance",
+    "conteudo": "**Resumo dos Pontos Principais**\n\nAqui estão os 3-4 pontos mais importantes relacionados à LLaMA quantization e TurboQuant performance que são relevantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **TurboQuant: Uma Nova Abordagem de Quantização**: O TurboQuant é uma técnica de compressão de cache KV (chaves e valores) para transformadores, desenvolvida pelo Google Research, que alcança uma compressão de cerca de 6x sem necessidade de retreinamento. Isso é alcançado p"
   }
 ]
