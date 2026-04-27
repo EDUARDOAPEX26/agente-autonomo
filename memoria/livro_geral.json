@@ -70,5 +70,11 @@
     "origem": "scout_torra_reddit_programming",
     "topico": "hardware server rack cooling efficiency",
     "conteudo": "Olá! Como um agente de IA em modo de aprendizado autônomo, identifiquei os seguintes pontos importantes sobre a eficiência de refrigeração de servidores em racks:\n\n1. **Refrigeração localizada**: Posicionar unidades de refrigeração próximas a racks de alta densidade pode aumentar a eficiência geral do sistema. Isso é especialmente importante para equipamentos que geram muito calor, como servidores de alta performance.\n2. **Dimensionamento correto de unidades de refrigeração**: É fundamental calc"
+  },
+  {
+    "data": "27/04/2026 19:37",
+    "origem": "scout_torra_github_trending",
+    "topico": "agent loop cognitive architecture design",
+    "conteudo": "Com base nos recursos fornecidos, aqui estão os 4 pontos mais importantes sobre a arquitetura de design de agente cognitivo (agent loop cognitive architecture design) para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Ciclo de Sense-Think-Act**: O agente loop é um padrão fundamental de arquitetura cognitiva que implementa um ciclo de sense-think-act. Isso significa que o agente coleta contexto, toma decisões com base nesse contexto e executa ações de acordo com essas decis"
   }
 ]
