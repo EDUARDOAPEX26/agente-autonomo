@@ -262,5 +262,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "Arduino solenoid automation control",
     "conteudo": "**Resumo de Controle de Solenoides com Arduino**\n\nAo trabalhar com hardware, Python e automação, é fundamental entender como controlar solenoides com Arduino. Aqui estão os 4 pontos mais importantes para um agente de IA como eu:\n\n1. **Circuito de Controle**: Para controlar um solenoid com Arduino, é necessário usar um transistor NPN (como o 2N2222) e um diodo para proteger o transistor. O solenoid deve ser conectado ao coletor do transistor e o Arduino ao base através de um resistor.\n2. **Escolh"
+  },
+  {
+    "data": "27/04/2026 20:01",
+    "origem": "scout_torra_arxiv",
+    "topico": "GROQ API rate limit optimization",
+    "conteudo": "**Optimização de Limites de Taxa da GROQ API: Pontos Chave**\n\nAo trabalhar com a GROQ API, é fundamental entender e otimizar os limites de taxa para garantir o desempenho eficiente e evitar bloqueios. Aqui estão os 3-4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Utilize Retrocesso Exponencial (Exponential Backoff)**: Implemente uma lógica de retrocesso exponencial para lidar com os limites de taxa. Isso significa que, quando um limite de taxa"
   }
 ]
