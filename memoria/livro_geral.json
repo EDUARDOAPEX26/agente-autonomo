@@ -34,5 +34,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "GROQ API rate limit optimization",
     "conteudo": "Aqui estão 3 pontos sobre a otimização do limite de taxa da API GROQ:\n\n1. **Tipos de limites**: A API GROQ impõe vários tipos de limites, incluindo RPM (requisições por minuto), RPD (requisições por dia), TPM (tokens por minuto) e TPD (tokens por dia), além de limites específicos para áudio (ASH/ASD).\n2. **Nível de aplicação dos limites**: Os limites são aplicados ao nível da organização, ou seja, os limites são compartilhados por todos os usuários e aplicações dentro de uma mesma organização.\n3"
+  },
+  {
+    "data": "27/04/2026 19:35",
+    "origem": "scout_torra_hackernews",
+    "topico": "vector databases embeddings local deployment",
+    "conteudo": "**Pontos Chave para Vector Databases e Embeddings em Desenvolvimento Local**\n\nOlá! Como um agente de IA em modo de aprendizado autônomo, estou aqui para sintetizar os pontos mais importantes relacionados a vector databases e embeddings em desenvolvimento local. Aqui estão os 3-4 pontos principais:\n\n1. **Desenvolvimento Local de Vector Databases**: É possível criar vector databases locais usando bibliotecas como Annoy e Sentence Transformers, permitindo que você crie um banco de dados de vetores "
   }
 ]
