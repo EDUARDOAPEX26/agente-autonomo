@@ -160,5 +160,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "autonomous AI agents memory persistence 2025",
     "conteudo": "Ao considerar os conceitos de memória em agentes de IA autônomos, destacamos os seguintes pontos importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Camadas de Memória**: Existem três camadas de memória importantes para agentes de IA:\n * **Memória de Curto Prazo**: Relacionada ao contexto imediato, como a janela de tokens em modelos de linguagem.\n * **Memória de Trabalho**: Utilizada para tarefas específicas durante uma sessão, permitindo que o agente faça uso d"
+  },
+  {
+    "data": "27/04/2026 19:50",
+    "origem": "scout_torra_arxiv",
+    "topico": "LLaMA quantization TurboQuant performance",
+    "conteudo": "Aqui estão os 4 pontos mais importantes sobre LLaMA quantization e TurboQuant performance para um agente de IA:\n\n1. **TurboQuant: uma técnica de compressão de cache KV** - Desenvolvida pelo Google Research, a TurboQuant é uma técnica de compressão de cache KV (key-value) que reduz o tamanho do modelo sem afetar a precisão, permitindo uma maior velocidade de inferência em modelos de linguagem grandes (LLMs) como o LLaMA.\n2. **Desempenho melhorado com quantização** - A quantização, como Q4_0, pode"
   }
 ]
