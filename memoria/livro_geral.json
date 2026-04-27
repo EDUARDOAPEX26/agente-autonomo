@@ -106,5 +106,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "Arduino solenoid automation control",
     "conteudo": "Aqui estão os 4 pontos mais importantes sobre o controle de solenoides com Arduino:\n\n1. **Necessidade de um relé ou transistor**: O Arduino não pode fornecer diretamente a tensão e corrente necessárias para controlar um solenoide, por isso é necessário usar um relé ou transistor como interface de comutação segura.\n2. **Conexão do solenoide**: O solenoide é conectado ao relé ou transistor, que é controlado pelo Arduino. O relé ou transistor é responsável por fornecer a tensão e corrente necessári"
+  },
+  {
+    "data": "27/04/2026 19:44",
+    "origem": "scout_torra_arxiv",
+    "topico": "GROQ API rate limit optimization",
+    "conteudo": "Aqui estão os 4 pontos mais importantes sobre a otimização do limite de taxa da API GROQ para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Tipos de limites de taxa**: A API GROQ tem vários tipos de limites de taxa, incluindo:\n * RPM (Requests Per Minute): limite de requisições por minuto\n * RPD (Requests Per Day): limite de requisições por dia\n * TPM (Tokens Per Minute): limite de tokens por minuto\n * TPD (Tokens Per Day): limite de tokens por dia\n * Limites específicos p"
   }
 ]
