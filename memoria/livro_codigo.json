@@ -52,5 +52,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "Python JSON concurrent writes thread safety",
     "conteudo": "Aqui estão 3 pontos que resumem a questão de segurança em threads para escrita concorrente em JSON no Python:\n\n1. **Módulo JSON padrão não é thread-safe**: O módulo JSON padrão do Python não é seguro para escritas concorrentes, o que significa que pode ocorrer comportamento indesejado ou erros se várias threads tentarem escrever no mesmo arquivo JSON ao mesmo tempo.\n2. **Necessidade de locks para escrita segura**: Para garantir a segurança em threads para escrita concorrente, é necessário usar l"
+  },
+  {
+    "data": "27/04/2026 20:31",
+    "origem": "scout_torra_arxiv",
+    "topico": "Python JSON concurrent writes thread safety",
+    "conteudo": "Segue um resumo em 3 pontos sobre writes concorrentes em arquivos JSON com Python:\n\n1. **Problema de segurança**: Ao usar múltiplas threads para ler e escrever em um arquivo JSON, há riscos de problemas de segurança, pois cada thread pode criar sua própria instância de escrita, o que pode levar a condições de corrida e danificar o arquivo JSON.\n\n2. **Falta de bloqueio compartilhado**: Como cada thread cria sua própria instância de escrita, o bloqueio não é compartilhado entre as threads, o que t"
   }
 ]
