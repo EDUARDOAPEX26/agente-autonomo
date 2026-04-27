@@ -1,61 +1,8 @@
-{
-  "assunto": "codigo",
-  "entradas": [
-    {
-      "data": "29/03/2026 15:59",
-      "pergunta": "como fazer um loop em python ?",
-      "resposta": "Em Python, existem várias maneiras de criar um loop, dependendo do que você deseja fazer. Aqui estão alguns exemplos:\n1. **Loop For**:\nUm loop for é usado para iterar sobre uma sequência (como uma lis"
-    },
-    {
-      "data": "29/03/2026 16:12",
-      "pergunta": "erro 500 o que é?",
-      "resposta": "Um erro 500 é um código de erro HTTP que indica um problema interno no servidor. Quando um servidor web recebe uma requisição, ele pode retornar um código de erro para informar o cliente sobre o resul"
-    },
-    {
-      "data": "29/03/2026 16:13",
-      "pergunta": "como fazer um loop em python ?",
-      "resposta": "Em Python, existem várias maneiras de criar um loop, dependendo do que você deseja fazer. Aqui estão alguns exemplos:\n1. **Loop For**: Um loop for é usado para iterar sobre uma sequência (como uma lis"
-    },
-    {
-      "data": "29/03/2026 16:22",
-      "pergunta": "erro 500 o que é",
-      "resposta": "Um erro 500 é um código de erro HTTP que indica um problema interno no servidor. Quando um servidor web recebe uma requisição, ele pode retornar um código de erro para informar o cliente sobre o resul"
-    },
-    {
-      "data": "29/03/2026 16:22",
-      "pergunta": "como fazer um loop em python",
-      "resposta": "Em Python, existem várias maneiras de criar um loop, dependendo do que você deseja fazer. Aqui estão alguns exemplos:\n1. **Loop For**: Um loop for é usado para iterar sobre uma sequência (como uma lis"
-    },
-    {
-      "data": "29/03/2026 16:36",
-      "pergunta": "\"como fazer um loop em python?\"",
-      "resposta": "Em Python, existem várias maneiras de criar um loop, dependendo do que você deseja fazer. Um loop for é usado para iterar sobre uma sequência (como uma lista, tupla ou string). Você pode usar a sintax"
-    },
-    {
-      "data": "29/03/2026 16:41",
-      "pergunta": "\"o que é um erro 500?\"",
-      "resposta": "Um erro 500 é um código de erro HTTP que indica um problema interno no servidor. Quando um servidor web recebe uma requisição, ele pode retornar um código de erro para informar o cliente sobre o resul"
-    },
-    {
-      "data": "29/03/2026 16:43",
-      "pergunta": "\"como fazer um loop em python?\"",
-      "resposta": "Em Python, existem várias maneiras de criar um loop, dependendo do que você deseja fazer. Um loop for é usado para iterar sobre uma sequência (como uma lista, tupla ou string). Você pode usar a sintax"
-    },
-    {
-      "data": "29/03/2026 16:53",
-      "pergunta": "\"o que é um erro 500?\"",
-      "resposta": "Um erro 500 é um código de erro HTTP que indica um problema interno no servidor. Quando um servidor web recebe uma requisição, ele pode retornar um código de erro para informar o cliente sobre o resul"
-    },
-    {
-      "data": "24/04/2026 07:53",
-      "pergunta": "AGENTE AUTÔNOMO\nInventário Completo do Sistema\n\nBackup — 24 de Abril de 2026\nVersão 5.4 — Fases 1 a 42 completas\n\nCriador: Eduardo Conceição — Atibaia-SP\n\n\n\nVisão Geral\nEste documento é o inventário c",
-      "resposta": "Agora que tenho acesso ao inventário completo do sistema, posso responder às suas perguntas de forma mais precisa.\n\nParece que o sistema foi atualizado para a versão 5.4, com 40 fases cognitivas compl",
-      "tipo_informacao": "EFEMERO",
-      "expira_em": "24/04/2026 13:53",
-      "ttl_horas": 6,
-      "origem": "APRENDIZADO"
-    }
-  ],
-  "total_entradas": 11,
-  "ultima_atualizacao": "24/04/2026 07:53"
-}
+[
+  {
+    "data": "27/04/2026 19:34",
+    "origem": "scout_torra_hackernews",
+    "topico": "Python async threading best practices",
+    "conteudo": "Aqui estão os 4 pontos mais importantes sobre as melhores práticas de programação concorrente em Python com asyncio e threading:\n\n1. **Entenda a diferença entre concorrência e paralelismo**: Em Python, tanto a biblioteca `asyncio` quanto a `threading` permitem a concorrência, mas não o paralelismo real. Isso significa que o CPU não executa múltiplas tarefas ao mesmo tempo, mas sim, alterna entre elas para criar a ilusão de concorrência.\n2. **Use asyncio para aplicações I/O-bound**: A biblioteca "
+  }
+]
