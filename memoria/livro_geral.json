@@ -370,5 +370,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Gerenciamento de Dados em Sistemas de IA Distribuída",
     "conteudo": "Aqui estão 2 pontos que sintetizam o gerenciamento de dados em sistemas de IA distribuída:\n\n1. **Práticas de gerenciamento de dados**: envolvem manter a consistência e integridade dos dados em sistemas distribuídos, utilizando padrões como CQRS (Command Query Responsibility Segregation) e Event Sourcing, além de decomposição por subdomínio.\n2. **Abordagens de treinamento distribuído**: como a Decoupled DiLoCo, que divide grandes execuções em unidades de aprendizado independentes (ilhas de comput"
+  },
+  {
+    "data": "27/04/2026 20:11",
+    "origem": "scout_torra_reddit_programming",
+    "topico": "Aplicação de Técnicas de Visão Computacional em Automação",
+    "conteudo": "Aqui estão 2 pontos que sintetizam a aplicação de técnicas de visão computacional em automação:\n\n1. **Melhoria de processos industriais**: A visão computacional é uma tecnologia que automatiza análises de imagens para melhorar processos industriais, permitindo o monitoramento e identificação automática de objetos e condições, o que melhora a eficiência e a qualidade.\n2. **Retrofitting de robôs industriais**: A visão computacional pode ser aplicada para retrofitar robôs industriais legados, permi"
   }
 ]
