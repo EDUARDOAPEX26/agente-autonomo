@@ -46,5 +46,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Python memory optimization large datasets",
     "conteudo": "**Otimo!** Vamos sintetizar os pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação.\n\n**Pontos Chave:**\n\n1. **Uso de Tipos de Dados Eficientes com Pandas**: Use a biblioteca Pandas com tipos de dados eficientes para reduzir o consumo de memória e melhorar o desempenho ao processar grandes conjuntos de dados.\n2. **Processamento Paralelo com Dask**: Utilize a biblioteca Dask para processamento paralelo e distribuído em grandes conjuntos de dados, o que ajuda a"
+  },
+  {
+    "data": "27/04/2026 20:17",
+    "origem": "scout_torra_arxiv",
+    "topico": "Python JSON concurrent writes thread safety",
+    "conteudo": "Aqui estão 3 pontos que resumem a questão de segurança em threads para escrita concorrente em JSON no Python:\n\n1. **Módulo JSON padrão não é thread-safe**: O módulo JSON padrão do Python não é seguro para escritas concorrentes, o que significa que pode ocorrer comportamento indesejado ou erros se várias threads tentarem escrever no mesmo arquivo JSON ao mesmo tempo.\n2. **Necessidade de locks para escrita segura**: Para garantir a segurança em threads para escrita concorrente, é necessário usar l"
   }
 ]
