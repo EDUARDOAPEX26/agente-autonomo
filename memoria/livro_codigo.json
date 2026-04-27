@@ -40,5 +40,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Python async threading best practices",
     "conteudo": "**Resumo de Melhores Práticas para Concorrência em Python**\n\nAo trabalhar com concorrência em Python, é fundamental entender as diferenças entre as bibliotecas `asyncio` e `threading`. Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Diferença entre `asyncio` e `threading`**: Embora ambas as bibliotecas permitam a aparência de concorrência, elas têm objetivos diferentes. `asyncio` é mais adequada para tarefas I/O-bound, como leitur"
+  },
+  {
+    "data": "27/04/2026 20:02",
+    "origem": "scout_torra_hackernews",
+    "topico": "Python memory optimization large datasets",
+    "conteudo": "**Otimo!** Vamos sintetizar os pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação.\n\n**Pontos Chave:**\n\n1. **Uso de Tipos de Dados Eficientes com Pandas**: Use a biblioteca Pandas com tipos de dados eficientes para reduzir o consumo de memória e melhorar o desempenho ao processar grandes conjuntos de dados.\n2. **Processamento Paralelo com Dask**: Utilize a biblioteca Dask para processamento paralelo e distribuído em grandes conjuntos de dados, o que ajuda a"
   }
 ]
