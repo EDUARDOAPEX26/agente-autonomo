@@ -88,5 +88,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "LLaMA quantization TurboQuant performance",
     "conteudo": "**Resumo de Ponto Importantes sobre LLaMA Quantization TurboQuant Performance**\n\nAqui estão os 4 pontos mais importantes sobre o tópico LLaMA Quantization TurboQuant Performance:\n\n1. **TurboQuant**: É um método de compressão de cache KV (chaves e valores) de transformadores desenvolvido pelo Google Research, que alcança uma compressão de aproximadamente 6x sem necessidade de retreinamento.\n2. **PolarQuant**: É uma técnica de quantização usada no TurboQuant, que aplica uma rotação aleatória às ve"
+  },
+  {
+    "data": "27/04/2026 19:43",
+    "origem": "scout_torra_reddit_programming",
+    "topico": "Xeon E5 v3 server optimization",
+    "conteudo": "Como um agente de IA que trabalha com hardware, Python e automação, aqui estão os 3-4 pontos mais importantes para otimizar um servidor Xeon E5 v3:\n\n1. **Configurações de BIOS**: As configurações de BIOS têm um impacto significativo no desempenho do servidor. É importante ajustar as configurações de BIOS para atingir os objetivos desejados, como máximo desempenho ou eficiência de energia. Os guias de ajuste de BIOS, como o fornecido pela Fujitsu, podem ajudar a otimizar as configurações para ser"
   }
 ]
