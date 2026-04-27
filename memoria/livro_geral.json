@@ -304,5 +304,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "Distributed Training em Rede de Servidores Xeon",
     "conteudo": "**Pontos Chave para um Agente de IA**\n\nAqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Distributed Training em Rede de Servidores Xeon**: O treinamento distribuído em servidores Xeon pode reduzir significativamente o tempo de treinamento de modelos de IA. Isso é alcançado por meio da utilização de frameworks como o Horovod, que permite a partição do treinamento em vários servidores, aumentando a velocidade e a eficiência do proces"
+  },
+  {
+    "data": "27/04/2026 20:04",
+    "origem": "scout_torra_arxiv",
+    "topico": "Gerenciamento de Energia em Hardware de IA",
+    "conteudo": "Aqui estão 3 pontos importantes sobre Gerenciamento de Energia em Hardware de IA:\n\n1. **Otimização de Desempenho e Conservação**: O gerenciamento de energia em hardware de IA envolve a configuração de modos de energia para otimizar o desempenho e conservar energia, com ferramentas como as oferecidas pela IBM e Windows.\n2. **Ferramentas de Estimativa de Consumo de Energia**: Ferramentas como a \"EnergAIzer\", desenvolvida pelo MIT e pelo MIT-IBM Watson AI Lab, permitem estimar rapidamente o consumo"
   }
 ]
