@@ -184,5 +184,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "Arduino solenoid automation control",
     "conteudo": "**Controle de Solenoides com Arduino: 4 Pontos Chave**\n\nAo trabalhar com hardware, Python e automação, é fundamental entender como controlar solenoides com Arduino. Aqui estão os 4 pontos mais importantes:\n\n1. **Utilize um transistor NPN**: Para controlar um solenoid com Arduino, é necessário utilizar um transistor NPN, como o 2N2222. Isso ajuda a amplificar o sinal de controle do Arduino e protege o circuito.\n2. **Conecte o solenoid ao coletor do transistor**: O solenoid deve ser conectado ao c"
+  },
+  {
+    "data": "27/04/2026 19:52",
+    "origem": "scout_torra_arxiv",
+    "topico": "GROQ API rate limit optimization",
+    "conteudo": "Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Exponencial Backoff**: Utilize o método de backoff exponencial para lidar com os limites de taxa da API GROQ. Isso significa que, quando a API atinge o limite de taxa, o agente de IA deve esperar um tempo cada vez maior antes de tentar novamente, reduzindo a carga e evitando bloqueios.\n\n2. **Idempotência e Chaves**: Utilize chaves idempotentes para garantir que as solicitações sejam "
   }
 ]
