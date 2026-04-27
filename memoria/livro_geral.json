@@ -316,5 +316,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Técnicas de Segurança em Automação Industria 4.0",
     "conteudo": "Como agente de IA que trabalha com hardware, Python e automação, aqui estão os 4 pontos mais importantes sobre Técnicas de Segurança em Automação Industria 4.0:\n\n1. **Normas e Regulamentações**: É fundamental conhecer e seguir as normas regulatórias de segurança industrial, como as normas de segurança para PLCs (Programmable Logic Controllers) e redes industriais, para garantir a conformidade e a segurança operacional.\n\n2. **Avaliação de Vulnerabilidades e Mitigação**: É crucial realizar avaliaç"
+  },
+  {
+    "data": "27/04/2026 20:05",
+    "origem": "scout_torra_reddit_programming",
+    "topico": "Memória Persistente em Sistema de Arquivos",
+    "conteudo": "Segue aqui um resumo em 3 pontos sobre Memória Persistente em Sistema de Arquivos:\n\n1. **Definição e Funcionalidade**: A memória persistente é uma tecnologia que preserva dados mesmo após o desligamento do sistema, oferecendo desempenho rápido e confiabilidade. Isso é essencial para garantir a persistência de estado em sistemas que exigem a manutenção de dados entre reinicializações.\n\n2. **Tipos de Persistência**: No contexto do Redis, existem duas principais formas de persistência: RDB (snapsho"
   }
 ]
