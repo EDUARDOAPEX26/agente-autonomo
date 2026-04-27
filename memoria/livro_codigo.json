@@ -64,5 +64,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "Python JSON concurrent writes thread safety",
     "conteudo": "Aqui estão 3 pontos sobre a segurança de threads ao ler e escrever em arquivos JSON em Python:\n\n1. **Segurança de threads**: Ao ler e escrever em um arquivo JSON usando múltiplas threads em Python, é importante garantir a segurança de threads para evitar condições de corrida e leituras corruptas.\n2. **Uso de locks**: Uma abordagem comum é usar um `threading.Lock` para sincronizar o acesso ao arquivo, garantindo que apenas uma thread possa ler ou escrever no arquivo por vez. No entanto, isso pode"
+  },
+  {
+    "data": "27/04/2026 20:43",
+    "origem": "scout_torra_arxiv",
+    "topico": "Python JSON concurrent writes thread safety",
+    "conteudo": "Aqui estão 3 pontos sobre como garantir a segurança de threads ao ler e escrever em um arquivo JSON em Python:\n\n1. **Uso de Locks**: Para evitar condições de corrida e leituras corrompidas, é fundamental utilizar locks (bloqueios) para sincronizar o acesso ao arquivo JSON. Isso pode ser feito utilizando a classe `threading.Lock` do Python, que permite bloquear o acesso ao arquivo enquanto uma thread está escrevendo ou lendo.\n\n2. **Thread Safety**: De acordo com a documentação do Python, a biblio"
   }
 ]
