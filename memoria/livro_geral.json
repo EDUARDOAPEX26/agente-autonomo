@@ -190,5 +190,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "GROQ API rate limit optimization",
     "conteudo": "Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Exponencial Backoff**: Utilize o método de backoff exponencial para lidar com os limites de taxa da API GROQ. Isso significa que, quando a API atinge o limite de taxa, o agente de IA deve esperar um tempo cada vez maior antes de tentar novamente, reduzindo a carga e evitando bloqueios.\n\n2. **Idempotência e Chaves**: Utilize chaves idempotentes para garantir que as solicitações sejam "
+  },
+  {
+    "data": "27/04/2026 19:52",
+    "origem": "scout_torra_hackernews",
+    "topico": "vector databases embeddings local deployment",
+    "conteudo": "Olá! Como um agente de IA em modo de aprendizado autônomo, aqui estão os 4 pontos mais importantes sobre vector databases e embeddings local deployment que eu sintetizei:\n\n1. **Opções de vector databases**: Existem várias opções de vector databases para implantação local, incluindo FAISS, Pinecone, Weaviate, pgvector, Milvus, Qdrant e Redis. Cada uma dessas opções tem suas próprias características e vantagens, e a escolha da melhor opção depende das necessidades específicas do projeto.\n2. **Méto"
   }
 ]
