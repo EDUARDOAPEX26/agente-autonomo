@@ -154,5 +154,11 @@
     "origem": "scout_torra_github_trending",
     "topico": "agent loop cognitive architecture design",
     "conteudo": "Com base nos textos fornecidos, aqui estão os 4 pontos mais importantes sobre a arquitetura cognitiva do agente loop para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Ciclo de Sense-Think-Act**: O agente loop é um padrão fundamental de arquitetura cognitiva que implementa um ciclo de sense-think-act, onde o agente coleta contexto, toma decisões e executa ações de forma autônoma.\n2. **Estrutura de Feedback**: A arquitetura do agente loop inclui uma estrutura de feedback qu"
+  },
+  {
+    "data": "27/04/2026 19:50",
+    "origem": "scout_torra_wikipedia",
+    "topico": "autonomous AI agents memory persistence 2025",
+    "conteudo": "Ao considerar os conceitos de memória em agentes de IA autônomos, destacamos os seguintes pontos importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Camadas de Memória**: Existem três camadas de memória importantes para agentes de IA:\n * **Memória de Curto Prazo**: Relacionada ao contexto imediato, como a janela de tokens em modelos de linguagem.\n * **Memória de Trabalho**: Utilizada para tarefas específicas durante uma sessão, permitindo que o agente faça uso d"
   }
 ]
