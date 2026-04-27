@@ -112,5 +112,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "GROQ API rate limit optimization",
     "conteudo": "Aqui estão os 4 pontos mais importantes sobre a otimização do limite de taxa da API GROQ para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Tipos de limites de taxa**: A API GROQ tem vários tipos de limites de taxa, incluindo:\n * RPM (Requests Per Minute): limite de requisições por minuto\n * RPD (Requests Per Day): limite de requisições por dia\n * TPM (Tokens Per Minute): limite de tokens por minuto\n * TPD (Tokens Per Day): limite de tokens por dia\n * Limites específicos p"
+  },
+  {
+    "data": "27/04/2026 19:44",
+    "origem": "scout_torra_hackernews",
+    "topico": "vector databases embeddings local deployment",
+    "conteudo": "Com base nas informações fornecidas, aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Desenvolvimento de bancos de dados vetoriais locais**: É possível criar bancos de dados vetoriais locais personalizados usando bibliotecas como Annoy e Sentence Transformers em Python. Isso permite que os modelos de embeddings sejam executados localmente, melhorando a eficiência e a velocidade de busca.\n2. **Opções de bancos de dados vetoriais**: "
   }
 ]
