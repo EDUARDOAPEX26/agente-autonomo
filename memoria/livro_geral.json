@@ -10,5 +10,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "LLaMA quantization TurboQuant performance",
     "conteudo": "**Resumo dos Pontos Principais**\n\nAqui estão os 3-4 pontos mais importantes relacionados à LLaMA quantization e TurboQuant performance que são relevantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **TurboQuant: Uma Nova Abordagem de Quantização**: O TurboQuant é uma técnica de compressão de cache KV (chaves e valores) para transformadores, desenvolvida pelo Google Research, que alcança uma compressão de cerca de 6x sem necessidade de retreinamento. Isso é alcançado p"
+  },
+  {
+    "data": "27/04/2026 19:34",
+    "origem": "scout_torra_reddit_programming",
+    "topico": "Xeon E5 v3 server optimization",
+    "conteudo": "Como um agente de IA que trabalha com hardware, Python e automação, os 4 pontos mais importantes para otimizar servidores Xeon E5 v3 são:\n\n1. **Otimização de BIOS**: Ajustar as configurações do BIOS para atingir os objetivos de desempenho, eficiência e confiabilidade. Isso inclui definir modos de operação UEFI, configurar recursos como Turbo Boost, C-States e P-States, e ajustar as configurações de energia e performance.\n2. **Configuração de hardware**: Garantir que o hardware seja configurado c"
   }
 ]
