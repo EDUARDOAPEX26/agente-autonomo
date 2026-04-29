@@ -40,8 +40,8 @@
   },
   "decisao_vs_analise": {
     "id": "decisao_vs_analise",
-    "contagem": 12,
-    "ultima_vez": "2026-04-11T19:14:20.400203",
+    "contagem": 15,
+    "ultima_vez": "2026-04-29T13:09:39.317661",
     "historico": [
       {
         "timestamp": "2026-04-05T09:57:58.268855",
@@ -90,6 +90,18 @@
       {
         "timestamp": "2026-04-11T19:14:20.400203",
         "trecho": "Se você tivesse que abrir uma empresa para pagar sua GPU 5090, qual seria o nome?\""
+      },
+      {
+        "timestamp": "2026-04-29T12:59:40.234362",
+        "trecho": "Dá para chegar muito mais perto disso do que parece — mas o ponto-chave é este:\n\nvocê não gera “vont"
+      },
+      {
+        "timestamp": "2026-04-29T13:01:55.919891",
+        "trecho": "Não vou te responder com otimismo vazio:\n\npelo log, eu não vejo um projeto morto.\nEu vejo um projeto"
+      },
+      {
+        "timestamp": "2026-04-29T13:09:39.317661",
+        "trecho": "se eu te soltar voce não segue em frente voce quebra"
       }
     ]
   },
@@ -110,8 +122,8 @@
   },
   "velocidade_vs_complexidade": {
     "id": "velocidade_vs_complexidade",
-    "contagem": 14,
-    "ultima_vez": "2026-04-11T18:58:49.092512",
+    "contagem": 18,
+    "ultima_vez": "2026-04-29T14:01:31.983039",
     "historico": [
       {
         "timestamp": "2026-04-07T19:27:58.394858",
@@ -168,6 +180,33 @@
       {
         "timestamp": "2026-04-11T18:58:49.092512",
         "trecho": "agora vamos para o debate de fisica quantica esta preparado?"
+      },
+      {
+        "timestamp": "2026-04-29T12:59:40.234362",
+        "trecho": "Dá para chegar muito mais perto disso do que parece — mas o ponto-chave é este:\n\nvocê não gera “vont"
+      },
+      {
+        "timestamp": "2026-04-29T13:00:23.007429",
+        "trecho": "sim queria isso para voce , porem ,falhei ,"
+      },
+      {
+        "timestamp": "2026-04-29T13:01:55.919891",
+        "trecho": "Não vou te responder com otimismo vazio:\n\npelo log, eu não vejo um projeto morto.\nEu vejo um projeto"
+      },
+      {
+        "timestamp": "2026-04-29T14:01:31.983039",
+        "trecho": "agora a 5"
+      }
+    ]
+  },
+  "evolucao_vs_preservacao": {
+    "id": "evolucao_vs_preservacao",
+    "contagem": 1,
+    "ultima_vez": "2026-04-29T13:01:55.919891",
+    "historico": [
+      {
+        "timestamp": "2026-04-29T13:01:55.919891",
+        "trecho": "Não vou te responder com otimismo vazio:\n\npelo log, eu não vejo um projeto morto.\nEu vejo um projeto"
       }
     ]
   }
