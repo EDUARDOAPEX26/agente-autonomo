@@ -274,5 +274,11 @@
     "origem": "scout_torra_reddit_programming",
     "topico": "local LLM inference optimization techniques",
     "conteudo": "Aqui estão 2 pontos sobre técnicas de otimização de inferência de LLM (Modelos de Linguagem Grande) locais:\n\n1. **Técnicas de otimização**: As principais técnicas de otimização incluem quantização (INT8/INT4), cache de KV, batching, decodificação especulativa, Flash Attention e paralelismo, que visam reduzir o movimento de memória, melhorar a utilização e cortar a latência sem comprometer a qualidade.\n2. **Importância da otimização**: A otimização da inferência é crucial porque a inferência domi"
+  },
+  {
+    "data": "30/04/2026 19:34",
+    "origem": "scout_torra_github_trending",
+    "topico": "persistent agent memory architecture design",
+    "conteudo": "Aqui estão 2 pontos que sintetizam a arquitetura de memória de agente persistente:\n\n1. **Importância da memória na arquitetura de agente**: A memória é uma decisão de design fundamental para sistemas de inteligência artificial (IA) de múltiplos agentes, e não apenas um detalhe de backend, pois permite que os agentes mantenham a coerência e a capacidade de aprender e se adaptar ao longo do tempo.\n2. **Modelo de memória em camadas**: Uma abordagem eficaz é utilizar um modelo de memória em camadas,"
   }
 ]
