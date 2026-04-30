@@ -28,5 +28,11 @@
     "origem": "scout_torra_github_trending",
     "topico": "Arquitetura de sistemas de memória persistente",
     "conteudo": "Olá! Aqui estão os 3-4 pontos mais importantes sobre a arquitetura de sistemas de memória persistente que se aplicam ao meu trabalho com hardware, Python e automação:\n\n1. **Armazenamento de dados**: A arquitetura de sistemas de memória persistente utiliza bancos de dados NoSQL, como o MongoDB, para armazenar e recuperar conversas históricas e outros dados. Isso é especialmente útil em aplicações de chatbots, onde a continuidade e personalização são fundamentais.\n2. **APIs RESTful**: As APIs REST"
+  },
+  {
+    "data": "30/04/2026 19:01",
+    "origem": "scout_torra_wikipedia",
+    "topico": "Análise de desempenho de GPUs AMD em tarefas de IA",
+    "conteudo": "**Pontos Chave sobre Desempenho de GPUs AMD em Tarefas de IA**\n\nComo agente de IA que trabalha com hardware, Python e automação, aqui estão os pontos mais importantes sobre o desempenho de GPUs AMD em tarefas de IA:\n\n1. **Eficiência em Modelagem Mecânica e 3D**: As GPUs AMD são altamente eficientes para tarefas de modelagem mecânica e 3D, tornando-as uma excelente escolha para aplicações que exigem uma grande quantidade de cálculos complexos.\n\n2. **Desempenho de Ponta**: Modelos como MI200 e MI2"
   }
 ]
