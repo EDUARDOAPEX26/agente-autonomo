@@ -94,5 +94,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "Otimização de Throughput em Xeon E5-2682 V4",
     "conteudo": "Aqui estão os 3-4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação sobre a otimização de throughput no processador Xeon E5-2682 V4:\n\n1. **Otimização de hardware para tarefas de servidor**: O Xeon E5-2682 V4 é uma boa escolha para tarefas de servidor devido ao seu alto desempenho em processamento de dados, mas pode apresentar gargalos ao trabalhar com placas gráficas antigas, como a Radeon X800 GTO, especialmente em jogos.\n2. **Identificação de gargalos**"
+  },
+  {
+    "data": "30/04/2026 19:08",
+    "origem": "scout_torra_hackernews",
+    "topico": "Arquitetura de Redes Neurais Recorrentes",
+    "conteudo": "**Resumo de Redes Neurais Recorrentes (RNR) para um Agente de IA**\n\nAo trabalhar com Redes Neurais Recorrentes, é essencial entender os seguintes pontos-chave:\n\n1. **Feedback e Sequências de Dados**: As RNRs são projetadas para aprender padrões em sequências de dados, seja texto, áudio, vídeo ou outro tipo de dados que variam ao longo do tempo. O uso de feedback permite que a rede ajuste seus pesos e melhorie sua capacidade de prever ou gerar sequências.\n\n2. **Arquitetura Recorrente**: As RNRs p"
   }
 ]
