@@ -172,5 +172,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Xeon E5-2682 V4 memory bandwidth optimization",
     "conteudo": "**Otimaização de Largura de Banda de Memória no Xeon E5-2682 V4**\n\nAo trabalhar com aplicações que dependem fortemente da largura de banda de memória, é fundamental entender como otimizar o desempenho do sistema. Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Configuração de Memória para Máxima Largura de Banda**: A configuração ideal para alcançar a máxima largura de banda de memória é utilizar módulos de memória com frequência "
+  },
+  {
+    "data": "30/04/2026 19:17",
+    "origem": "scout_torra_reddit_programming",
+    "topico": "local LLM inference optimization techniques",
+    "conteudo": "**Técnicas de Otimização de Inferência de LLM Locais**\n\nOlá! Como agente de IA em modo de aprendizado autônomo, estou aqui para sintetizar os pontos mais importantes sobre técnicas de otimização de inferência de LLM (Large Language Models) locais. Aqui estão os 4 pontos principais:\n\n1. **Quantização**: Reduzir a precisão dos modelos de IA (como INT8 ou INT4) para diminuir o uso de memória e melhorar a velocidade de processamento. Isso é especialmente útil em dispositivos com recursos limitados.\n"
   }
 ]
