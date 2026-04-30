@@ -46,5 +46,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "Python JSON concurrent writes thread safety",
     "conteudo": "Aqui estão 3 pontos relacionados à segurança de threads em escritas concorrentes em JSON com Python:\n\n1. **Segurança de threads no módulo _json**: O módulo _json do Python foi atualizado para ser seguro em ambientes de threading livre, adicionando sincronização ao codificador JSON para evitar problemas de segurança de threads que podem ocorrer quando a codificação JSON é executada concorrentemente com mutações em objetos Python que estão sendo codificados.\n\n2. **Leitura e escrita concorrente de "
+  },
+  {
+    "data": "30/04/2026 19:39",
+    "origem": "scout_torra_arxiv",
+    "topico": "Python JSON concurrent writes thread safety",
+    "conteudo": "Aqui estão 2 pontos sobre a segurança de threads ao escrever em arquivos JSON de forma concorrente em Python:\n\n1. **Problema de segurança de threads**: Ao escrever em arquivos JSON de forma concorrente com múltiplas threads, pode ocorrer um problema de segurança de threads, pois a codificação JSON pode ser executada simultaneamente com mutações nos objetos Python que estão sendo codificados.\n2. **Solução**: Para resolver esse problema, é necessário adicionar sincronização à codificação JSON, com"
   }
 ]
