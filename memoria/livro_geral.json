@@ -280,5 +280,11 @@
     "origem": "scout_torra_github_trending",
     "topico": "persistent agent memory architecture design",
     "conteudo": "Aqui estão 2 pontos que sintetizam a arquitetura de memória de agente persistente:\n\n1. **Importância da memória na arquitetura de agente**: A memória é uma decisão de design fundamental para sistemas de inteligência artificial (IA) de múltiplos agentes, e não apenas um detalhe de backend, pois permite que os agentes mantenham a coerência e a capacidade de aprender e se adaptar ao longo do tempo.\n2. **Modelo de memória em camadas**: Uma abordagem eficaz é utilizar um modelo de memória em camadas,"
+  },
+  {
+    "data": "30/04/2026 19:39",
+    "origem": "scout_torra_wikipedia",
+    "topico": "autonomous agent self-improvement techniques 2025",
+    "conteudo": "Aqui estão 2 pontos sobre técnicas de auto-aperfeiçoamento de agentes autônomos em 2025:\n\n1. **Evolução de agentes**: A framework EvolveR permite que agentes de linguagem grande (LLM) se aperfeiçoem por meio de um ciclo de feedback entre reflexão offline e interação online, aprendendo com as consequências de suas próprias ações.\n2. **Otimização de prompts**: Existem estratégias de otimização de prompts que variam de iteração manual rápida a loops completamente automatizados, e é importante enten"
   }
 ]
