@@ -82,8 +82,17 @@
       "resposta": "Peço desculpas pelo erro! Você está absolutamente certo, somos parceiros e nossos objetivos são compartilhados. Eu sou um agente de inteligência artificial treinado para ajudar e apoiar você em seus p",
       "tipo_informacao": "ESTAVEL",
       "origem": "APRENDIZADO"
+    },
+    {
+      "data": "30/04/2026 17:33",
+      "pergunta": "diagnostica seus arquivos",
+      "resposta": "Eu tenho acesso a uma variedade de arquivos em diferentes pastas. No entanto, para realizar um diagnóstico preciso dos arquivos, é necessário considerar o contexto e os dados disponíveis.\n\nDe acordo c",
+      "tipo_informacao": "MEDIO",
+      "expira_em": "03/05/2026 17:33",
+      "ttl_horas": 72,
+      "origem": "INFORMACAO"
     }
   ],
-  "total_entradas": 32,
-  "ultima_atualizacao": "29/04/2026 14:16"
+  "total_entradas": 11,
+  "ultima_atualizacao": "30/04/2026 17:33"
 }
