@@ -16,5 +16,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "Análise de Dados em Streaming com Bibliotecas Python",
     "conteudo": "**Resumo de Pontos Importantes para Análise de Dados em Streaming com Python**\n\nAo trabalhar com hardware, Python e automação, os seguintes pontos são cruciais para um agente de IA:\n\n1. **Bibliotecas de Análise de Dados**: Conhecer as bibliotecas Python mais importantes para análise de dados, como **Pandas**, **NumPy**, **Matplotlib** e **Scikit-learn**, é fundamental para realizar tarefas de ciência de dados e machine learning de forma eficiente.\n2. **Análise de Dados em Streaming**: Ter conhec"
+  },
+  {
+    "data": "30/04/2026 19:16",
+    "origem": "scout_torra_arxiv",
+    "topico": "Python JSON concurrent writes thread safety",
+    "conteudo": "Aqui estão 3 pontos resumindo a questão da segurança em threads ao escrever em arquivos JSON em Python:\n\n1. **Segurança em threads**: Ao escrever em arquivos JSON com múltiplas threads em Python, é importante considerar a segurança em threads, pois o uso de threads pode levar a problemas de concorrência e perda de dados.\n2. **Problemas com escrita concorrente**: Ao abrir um arquivo em modo \"w+\" e escrever nele com múltiplas threads, pode haver problemas de concorrência, pois as threads podem sob"
   }
 ]
