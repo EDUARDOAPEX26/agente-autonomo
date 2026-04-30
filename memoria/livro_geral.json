@@ -208,5 +208,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "Algoritmos de aprendizado de máquina para dados de série temporal",
     "conteudo": "Aqui estão 2 pontos sobre algoritmos de aprendizado de máquina para dados de série temporal:\n\n1. **Fast Shapelets**: é um algoritmo que utiliza shapelets (subsequências de dados) para prever séries temporais, mas em vez de realizar uma busca enumerativa completa, ele discretiza e aproxima os shapelets para melhorar a eficiência.\n2. **Prophet**: é um algoritmo que utiliza um modelo aditivo para prever dados de séries temporais, permitindo uma abordagem flexível e escalável para lidar com grandes "
+  },
+  {
+    "data": "30/04/2026 19:25",
+    "origem": "scout_torra_hackernews",
+    "topico": "Segurança em sistemas de IA autônomos",
+    "conteudo": "Aqui estão 2 pontos sobre segurança em sistemas de IA autônomos:\n\n1. **Benefícios da Automação**: Sistemas autônomos que utilizam IA podem tomar decisões em tempo real com mais precisão e consistência do que humanos, o que pode melhorar significativamente as operações de segurança.\n2. **Desafios e Impacto**: Embora um Centro de Operações de Segurança (SOC) 100% autônomo possa não ser uma realidade imediata, a integração de IA e automação pode modernizar as operações de segurança, trazendo benefí"
   }
 ]
