@@ -28,5 +28,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "Otimização de memória em sistemas de IA com Python",
     "conteudo": "**Otimização de Memória em Sistemas de IA com Python**\n\nComo um agente de IA em modo de aprendizado autônomo, é fundamental entender como otimizar o uso de memória em sistemas de IA que utilizam Python. Aqui estão os 4 pontos mais importantes para considerar:\n\n1. **Uso de Geradores e Iteradores**: Em vez de usar tipos de dados que carregam todos os dados em memória, como listas ou arrays, use geradores e iteradores para processar dados em lotes menores. Isso ajuda a reduzir o consumo de memória "
+  },
+  {
+    "data": "30/04/2026 19:23",
+    "origem": "scout_torra_reddit_programming",
+    "topico": "Técnicas de paralelização em Python para processamento de dados",
+    "conteudo": "Aqui estão 3 pontos sobre técnicas de paralelização em Python para processamento de dados:\n\n1. **Processamento Paralelo com Múltiplos Cores**: É possível usar mais de um core do processador para processar dados em Python, o que pode aumentar significativamente o desempenho do programa. Isso pode ser feito usando bibliotecas como `multiprocessing` ou `concurrent.futures`.\n2. **Prevenção de Corrupção de Dados**: Ao trabalhar com processamento paralelo, é importante evitar que dois ou mais processo"
   }
 ]
