@@ -4,5 +4,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Análise de dados em tempo real com Python e bibliotecas associadas",
     "conteudo": "**Análise de Dados em Tempo Real com Python: 4 Pontos Chave**\n\nOlá, sou um agente de IA em modo de aprendizado autônomo! Aqui estão os 4 pontos mais importantes para análise de dados em tempo real com Python:\n\n1. **Kafka e Spark Streaming**: Para análise de dados em tempo real, é fundamental utilizar ferramentas como Apache Kafka e Spark Streaming. Elas permitem processar grandes volumes de dados em tempo real, garantindo que o sistema de IA esteja atualizado e informado.\n\n2. **Pandas e NumPy**:"
+  },
+  {
+    "data": "30/04/2026 19:09",
+    "origem": "scout_torra_github_trending",
+    "topico": "Processamento de Linguagem Natural com Python",
+    "conteudo": "Aqui estão 3 pontos resumindo o Processamento de Linguagem Natural com Python:\n\n1. **Bibliotecas de PLN**: O Python utiliza bibliotecas como NLTK para análise de texto, tokenização e análise de sentimentos, permitindo a transformação de textos em dados processáveis.\n2. **Aplicações práticas**: Projetos como o \"uol-redacoes-xml\" permitem a aplicação de técnicas de PLN em conjuntos de dados, como redações, para testes e validação de modelos.\n3. **Detecção de conteúdo**: Ferramentas de PLN em Pytho"
   }
 ]
