@@ -52,5 +52,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "Python JSON concurrent writes thread safety",
     "conteudo": "Aqui estão 2 pontos sobre a segurança de threads ao escrever em arquivos JSON de forma concorrente em Python:\n\n1. **Problema de segurança de threads**: Ao escrever em arquivos JSON de forma concorrente com múltiplas threads, pode ocorrer um problema de segurança de threads, pois a codificação JSON pode ser executada simultaneamente com mutações nos objetos Python que estão sendo codificados.\n2. **Solução**: Para resolver esse problema, é necessário adicionar sincronização à codificação JSON, com"
+  },
+  {
+    "data": "30/04/2026 19:56",
+    "origem": "scout_torra_hackernews",
+    "topico": "Implementação de algoritmos de aprendizado por reforço em Python",
+    "conteudo": "Aqui estão 3 pontos sobre a implementação de algoritmos de aprendizado por reforço em Python:\n\n1. **Repositório GitHub**: O repositório \"Aprendizado-por-Reforco\" no GitHub oferece uma coleção de implementações de algoritmos de aprendizado por reforço em Python, incluindo guias de aprendizado e exemplos práticos.\n2. **Algoritmos de Aprendizado por Reforço**: Os algoritmos de aprendizado por reforço podem ser divididos em duas categorias: baseados em modelo (onde o agente aprende ou tem acesso a u"
   }
 ]
