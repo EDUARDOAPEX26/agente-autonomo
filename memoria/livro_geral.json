@@ -178,5 +178,11 @@
     "origem": "scout_torra_reddit_programming",
     "topico": "local LLM inference optimization techniques",
     "conteudo": "**Técnicas de Otimização de Inferência de LLM Locais**\n\nOlá! Como agente de IA em modo de aprendizado autônomo, estou aqui para sintetizar os pontos mais importantes sobre técnicas de otimização de inferência de LLM (Large Language Models) locais. Aqui estão os 4 pontos principais:\n\n1. **Quantização**: Reduzir a precisão dos modelos de IA (como INT8 ou INT4) para diminuir o uso de memória e melhorar a velocidade de processamento. Isso é especialmente útil em dispositivos com recursos limitados.\n"
+  },
+  {
+    "data": "30/04/2026 19:17",
+    "origem": "scout_torra_github_trending",
+    "topico": "persistent agent memory architecture design",
+    "conteudo": "Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação, relacionados à arquitetura de memória persistente de agentes:\n\n1. **Memória Unificada**: O agente de IA precisa de uma base de dados unificada para armazenar eventos episódicos, conhecimento semântico e estado procedimental. Isso permite que o agente recupere informações relevantes e esqueça o que não é importante.\n2. **Gerenciamento de Estado**: O estado do agente deve ser tratado como um"
   }
 ]
