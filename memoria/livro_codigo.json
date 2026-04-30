@@ -40,5 +40,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "Comunicação entre processos em Python para sistemas distribuídos",
     "conteudo": "Aqui estão 2 pontos sobre comunicação entre processos em Python para sistemas distribuídos:\n\n1. **MPI (Message Passing Interface)**: é uma biblioteca que permite a comunicação entre processos em diferentes nós em uma rede, sendo amplamente utilizada na computação distribuída.\n2. **Comunicação entre objetos distribuídos**: pode ser modelada como invocação remota de métodos, utilizando mecanismos como sockets para estabelecer ligações entre dois nós e permitir a comunicação entre eles."
+  },
+  {
+    "data": "30/04/2026 19:33",
+    "origem": "scout_torra_arxiv",
+    "topico": "Python JSON concurrent writes thread safety",
+    "conteudo": "Aqui estão 3 pontos relacionados à segurança de threads em escritas concorrentes em JSON com Python:\n\n1. **Segurança de threads no módulo _json**: O módulo _json do Python foi atualizado para ser seguro em ambientes de threading livre, adicionando sincronização ao codificador JSON para evitar problemas de segurança de threads que podem ocorrer quando a codificação JSON é executada concorrentemente com mutações em objetos Python que estão sendo codificados.\n\n2. **Leitura e escrita concorrente de "
   }
 ]
