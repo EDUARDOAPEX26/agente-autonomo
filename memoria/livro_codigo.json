@@ -34,5 +34,11 @@
     "origem": "scout_torra_reddit_programming",
     "topico": "Técnicas de paralelização em Python para processamento de dados",
     "conteudo": "Aqui estão 3 pontos sobre técnicas de paralelização em Python para processamento de dados:\n\n1. **Processamento Paralelo com Múltiplos Cores**: É possível usar mais de um core do processador para processar dados em Python, o que pode aumentar significativamente o desempenho do programa. Isso pode ser feito usando bibliotecas como `multiprocessing` ou `concurrent.futures`.\n2. **Prevenção de Corrupção de Dados**: Ao trabalhar com processamento paralelo, é importante evitar que dois ou mais processo"
+  },
+  {
+    "data": "30/04/2026 19:24",
+    "origem": "scout_torra_wikipedia",
+    "topico": "Comunicação entre processos em Python para sistemas distribuídos",
+    "conteudo": "Aqui estão 2 pontos sobre comunicação entre processos em Python para sistemas distribuídos:\n\n1. **MPI (Message Passing Interface)**: é uma biblioteca que permite a comunicação entre processos em diferentes nós em uma rede, sendo amplamente utilizada na computação distribuída.\n2. **Comunicação entre objetos distribuídos**: pode ser modelada como invocação remota de métodos, utilizando mecanismos como sockets para estabelecer ligações entre dois nós e permitir a comunicação entre eles."
   }
 ]
