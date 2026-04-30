@@ -268,5 +268,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Xeon E5-2682 V4 memory bandwidth optimization",
     "conteudo": "Aqui está um resumo em 3 pontos sobre a otimização da largura de banda de memória do Xeon E5-2682 V4:\n\n1. **Arquitetura de memória**: A arquitetura de memória do Xeon E5-2682 V4, incluindo a escolha de DIMM e topologia, tem um impacto significativo na largura de banda de memória.\n2. **Cache e mecanismos de coerência**: O uso de caches compartilhados L3 grandes e mecanismos de coerência avançados no Xeon E5-2682 V4 ajuda a otimizar a largura de banda de memória.\n3. **Recursos de monitoramento**: "
+  },
+  {
+    "data": "30/04/2026 19:34",
+    "origem": "scout_torra_reddit_programming",
+    "topico": "local LLM inference optimization techniques",
+    "conteudo": "Aqui estão 2 pontos sobre técnicas de otimização de inferência de LLM (Modelos de Linguagem Grande) locais:\n\n1. **Técnicas de otimização**: As principais técnicas de otimização incluem quantização (INT8/INT4), cache de KV, batching, decodificação especulativa, Flash Attention e paralelismo, que visam reduzir o movimento de memória, melhorar a utilização e cortar a latência sem comprometer a qualidade.\n2. **Importância da otimização**: A otimização da inferência é crucial porque a inferência domi"
   }
 ]
