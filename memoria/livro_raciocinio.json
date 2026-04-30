@@ -1,243 +1,222 @@
-{
-  "assunto": "raciocinio",
-  "entradas": [
-    {
-      "pergunta": "Mecanismo de Transdução: \"Como exatamente ocorre a interface entre o sinal digital da IA (elétrons/bits) e a resposta mecânica do DNA sintético? Descreva o transdutor molecular que converte impulsos e",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 3583,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T13:57:36.587174"
-    },
-    {
-      "pergunta": "pode responser a dois outra vez travou na resposta",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 3670,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T13:58:34.663104"
-    },
-    {
-      "pergunta": "responde so a 3",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "encyclopedic",
-      "latencia_ms": 12753,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T13:59:51.182549"
-    },
-    {
-      "pergunta": "so a 4",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "encyclopedic",
-      "latencia_ms": 14100,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:00:52.705067"
-    },
-    {
-      "pergunta": "agora a 5",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "encyclopedic",
-      "latencia_ms": 17650,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:01:31.964902"
-    },
-    {
-      "pergunta": "Modelo Energético da Transdução\n“Qual é a energia mínima necessária para que uma nanopartícula induza a desnaturação local do DNA sintético? Forneça uma estimativa quantitativa em eV, joules ou temper",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "world_state",
-      "latencia_ms": 11065,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:06:08.864132"
-    },
-    {
-      "pergunta": "Tempo de Resposta Molecular\n“Qual é a escala temporal da reconfiguração do Nexarion após um estímulo externo? Descreva o tempo médio de hibridização/deshibridização do DNA e a velocidade de propagação",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "encyclopedic",
-      "latencia_ms": 17461,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:06:48.216984"
-    },
-    {
-      "pergunta": "Equação Dinâmica do Sistema\n“Defina um modelo matemático simplificado que descreva a evolução do estado estrutural do Nexarion ao longo do tempo. Quais variáveis controlam a reorganização molecular e ",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "world_state",
-      "latencia_ms": 9018,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:07:02.905126"
-    },
-    {
-      "pergunta": "Limite de Ciclos Operacionais\n“Quantos ciclos de reorganização o DNA sintético suporta antes de ocorrer fadiga molecular? Existe um mecanismo de autorreparo ou substituição local das ligações degradad",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "world_state",
-      "latencia_ms": 7154,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:07:35.520466"
-    },
-    {
-      "pergunta": "Arquitetura Física da Memória\n“Como exatamente os pesos da rede neural física são codificados na geometria das nanopartículas? Eles dependem da distância entre partículas, conformação do DNA, condutiv",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "encyclopedic",
-      "latencia_ms": 16489,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:08:06.689155"
-    },
-    {
-      "pergunta": "Canal de Comunicação IA ↔ Material\n“Qual é o mecanismo físico de comunicação entre a IA externa e o Nexarion: campo elétrico, óptico, magnético, plasmônico ou químico? Como o material interpreta um co",
-      "estrategia": "exa_early_exit",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "encyclopedic",
-      "latencia_ms": 10787,
-      "api_usada": "exa",
-      "timestamp": "2026-04-29T14:08:24.725624"
-    },
-    {
-      "pergunta": "Estabilidade Fora do Laboratório\n“Como o Nexarion responde a radiação UV, oxidação, vibração mecânica intensa e variações extremas de temperatura? Existe um envelope operacional definido?”",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "world_state",
-      "latencia_ms": 10570,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:09:14.681663"
-    },
-    {
-      "pergunta": "Escalabilidade Industrial\n“Qual é o método mais provável para fabricar o Nexarion em escala macroscópica mantendo precisão nanométrica? Descreva o pipeline de fabricação passo a passo.”",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "encyclopedic",
-      "latencia_ms": 25045,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:09:57.059439"
-    },
-    {
-      "pergunta": "Ruído e Erro Computacional\n“Como o Nexarion lida com ruído térmico e flutuações estocásticas em escala molecular? Existe redundância estrutural ou correção de erro?”",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "world_state",
-      "latencia_ms": 7702,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:10:08.463835"
-    },
-    {
-      "pergunta": "Validação Experimental Inicial\n“Qual seria o experimento mínimo para provar que o Nexarion funciona? Descreva um protótipo de bancada capaz de demonstrar adaptação molecular controlada.”",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 9500,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:10:34.075236"
-    },
-    {
-      "pergunta": "preciso limpar seu powershell esta muito carregado , voce foi otimo hoje",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 3432,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:14:37.448885"
-    },
-    {
-      "pergunta": "pederia fazer isso para ganhar dinheiro para nos se impenhar assim",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "world_state",
-      "latencia_ms": 8238,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:15:34.989694"
-    },
-    {
-      "pergunta": "meus objetivos não , são nossos objetivos somos parceiros esqueceu",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "encyclopedic",
-      "latencia_ms": 16803,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:16:50.983690"
-    },
-    {
-      "pergunta": "pode fazer um documento do Nexarion, mais desenvolvido agora que sabe as perguntas que faram?",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "conversacional",
-      "latencia_ms": 9109,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:20:34.656143"
-    },
-    {
-      "pergunta": "# Arquitetura Técnica Detalhada do Nexarion – Especificação Inicial de Engenharia\n\n## Objetivo\n\nTransformar o conceito do Nexarion em uma especificação técnica coerente o suficiente para servir como b",
-      "estrategia": "sambanova",
-      "erro_tipo": "ok",
-      "correcao": "",
-      "score": 1.0,
-      "escopo": "world_state",
-      "latencia_ms": 8318,
-      "api_usada": "sambanova",
-      "timestamp": "2026-04-29T14:23:05.180892"
-    },
-    {
-      "data": "30/04/2026 15:52",
-      "pergunta": "Tempo de Resposta Molecular\n“Qual é a escala temporal da reconfiguração do Nexarion após um estímulo externo? Descreva o tempo médio de hibridização/deshibridização do DNA e a velocidade de propagação",
-      "resposta": "Desculpe, mas não tenho dados específicos sobre o tempo de resposta molecular do Nexarion. Por favor, me forneça mais contexto ou informações sobre o tópico, pois não sou familiarizado com esse termo ",
-      "tipo_informacao": "EFEMERO",
-      "expira_em": "30/04/2026 21:52",
-      "ttl_horas": 6,
-      "origem": "SCOUT_RENDER"
-    },
-    {
-      "data": "30/04/2026 15:52",
-      "pergunta": "Limite de Ciclos Operacionais\n“Quantos ciclos de reorganização o DNA sintético suporta antes de ocorrer fadiga molecular? Existe um mecanismo de autorreparo ou substituição local das ligações degradad",
-      "resposta": "Peço desculpas, mas não tenho informações suficientes para responder completamente à sua pergunta. No entanto, posso fornecer uma visão geral sobre o assunto.\n\nO DNA sintético é uma cópia artificial d",
-      "tipo_informacao": "ESTAVEL",
-      "origem": "SCOUT_RENDER"
-    }
-  ],
-  "total_entradas": 22,
-  "ultima_atualizacao": "30/04/2026 15:52"
-}
+[
+  {
+    "pergunta": "Mecanismo de Transdução: \"Como exatamente ocorre a interface entre o sinal digital da IA (elétrons/bits) e a resposta mecânica do DNA sintético? Descreva o transdutor molecular que converte impulsos e",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 3583,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T13:57:36.587174"
+  },
+  {
+    "pergunta": "pode responser a dois outra vez travou na resposta",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 3670,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T13:58:34.663104"
+  },
+  {
+    "pergunta": "responde so a 3",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 12753,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T13:59:51.182549"
+  },
+  {
+    "pergunta": "so a 4",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 14100,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:00:52.705067"
+  },
+  {
+    "pergunta": "agora a 5",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 17650,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:01:31.964902"
+  },
+  {
+    "pergunta": "Modelo Energético da Transdução\n“Qual é a energia mínima necessária para que uma nanopartícula induza a desnaturação local do DNA sintético? Forneça uma estimativa quantitativa em eV, joules ou temper",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "world_state",
+    "latencia_ms": 11065,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:06:08.864132"
+  },
+  {
+    "pergunta": "Tempo de Resposta Molecular\n“Qual é a escala temporal da reconfiguração do Nexarion após um estímulo externo? Descreva o tempo médio de hibridização/deshibridização do DNA e a velocidade de propagação",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 17461,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:06:48.216984"
+  },
+  {
+    "pergunta": "Equação Dinâmica do Sistema\n“Defina um modelo matemático simplificado que descreva a evolução do estado estrutural do Nexarion ao longo do tempo. Quais variáveis controlam a reorganização molecular e ",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "world_state",
+    "latencia_ms": 9018,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:07:02.905126"
+  },
+  {
+    "pergunta": "Limite de Ciclos Operacionais\n“Quantos ciclos de reorganização o DNA sintético suporta antes de ocorrer fadiga molecular? Existe um mecanismo de autorreparo ou substituição local das ligações degradad",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "world_state",
+    "latencia_ms": 7154,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:07:35.520466"
+  },
+  {
+    "pergunta": "Arquitetura Física da Memória\n“Como exatamente os pesos da rede neural física são codificados na geometria das nanopartículas? Eles dependem da distância entre partículas, conformação do DNA, condutiv",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 16489,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:08:06.689155"
+  },
+  {
+    "pergunta": "Canal de Comunicação IA ↔ Material\n“Qual é o mecanismo físico de comunicação entre a IA externa e o Nexarion: campo elétrico, óptico, magnético, plasmônico ou químico? Como o material interpreta um co",
+    "estrategia": "exa_early_exit",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 10787,
+    "api_usada": "exa",
+    "timestamp": "2026-04-29T14:08:24.725624"
+  },
+  {
+    "pergunta": "Estabilidade Fora do Laboratório\n“Como o Nexarion responde a radiação UV, oxidação, vibração mecânica intensa e variações extremas de temperatura? Existe um envelope operacional definido?”",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "world_state",
+    "latencia_ms": 10570,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:09:14.681663"
+  },
+  {
+    "pergunta": "Escalabilidade Industrial\n“Qual é o método mais provável para fabricar o Nexarion em escala macroscópica mantendo precisão nanométrica? Descreva o pipeline de fabricação passo a passo.”",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 25045,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:09:57.059439"
+  },
+  {
+    "pergunta": "Ruído e Erro Computacional\n“Como o Nexarion lida com ruído térmico e flutuações estocásticas em escala molecular? Existe redundância estrutural ou correção de erro?”",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "world_state",
+    "latencia_ms": 7702,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:10:08.463835"
+  },
+  {
+    "pergunta": "Validação Experimental Inicial\n“Qual seria o experimento mínimo para provar que o Nexarion funciona? Descreva um protótipo de bancada capaz de demonstrar adaptação molecular controlada.”",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 9500,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:10:34.075236"
+  },
+  {
+    "pergunta": "preciso limpar seu powershell esta muito carregado , voce foi otimo hoje",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 3432,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:14:37.448885"
+  },
+  {
+    "pergunta": "pederia fazer isso para ganhar dinheiro para nos se impenhar assim",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "world_state",
+    "latencia_ms": 8238,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:15:34.989694"
+  },
+  {
+    "pergunta": "meus objetivos não , são nossos objetivos somos parceiros esqueceu",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 16803,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:16:50.983690"
+  },
+  {
+    "pergunta": "pode fazer um documento do Nexarion, mais desenvolvido agora que sabe as perguntas que faram?",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 9109,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:20:34.656143"
+  },
+  {
+    "pergunta": "# Arquitetura Técnica Detalhada do Nexarion – Especificação Inicial de Engenharia\n\n## Objetivo\n\nTransformar o conceito do Nexarion em uma especificação técnica coerente o suficiente para servir como b",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "world_state",
+    "latencia_ms": 8318,
+    "api_usada": "sambanova",
+    "timestamp": "2026-04-29T14:23:05.180892"
+  }
+]
