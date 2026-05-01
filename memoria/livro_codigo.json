@@ -70,5 +70,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Análise de dados em tempo real com bibliotecas Python em ambientes distribuídos",
     "conteudo": "Aqui estão 2 pontos sobre análise de dados em tempo real com bibliotecas Python em ambientes distribuídos:\n\n1. **Ferramentas para análise em tempo real**: Utilize ferramentas como Kafka, Spark e Flink para realizar streaming e processamento eficiente de dados em tempo real com Python.\n2. **Visualização de resultados**: Utilize dashboards para visualizar os resultados da análise de dados em tempo real, permitindo uma compreensão mais clara e rápida dos dados."
+  },
+  {
+    "data": "01/05/2026 19:23",
+    "origem": "scout_torra_arxiv",
+    "topico": "Python JSON concurrent writes thread safety",
+    "conteudo": "Aqui estão 2 pontos sobre thread safety em escritas concorrentes de JSON em Python:\n\n* O módulo `json` do Python não é thread-safe para escritas concorrentes, o que pode causar corrupção de dados.\n* Para garantir a segurança de operações JSON concorrentes, é necessário usar locks de threading, como `threading.Lock`, para evitar que várias threads acessem e modifiquem o arquivo JSON ao mesmo tempo."
   }
 ]
