@@ -76,5 +76,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "Python JSON concurrent writes thread safety",
     "conteudo": "Aqui estão 2 pontos sobre thread safety em escritas concorrentes de JSON em Python:\n\n* O módulo `json` do Python não é thread-safe para escritas concorrentes, o que pode causar corrupção de dados.\n* Para garantir a segurança de operações JSON concorrentes, é necessário usar locks de threading, como `threading.Lock`, para evitar que várias threads acessem e modifiquem o arquivo JSON ao mesmo tempo."
+  },
+  {
+    "data": "01/05/2026 19:49",
+    "origem": "scout_torra_github_trending",
+    "topico": "Segurança de dados em sistemas de IA com Python",
+    "conteudo": "Aqui estão 2 pontos sobre segurança de dados em sistemas de IA com Python:\n\n1. **Contexto de privacidade em IA**: A IA é treinada com grandes conjuntos de dados, o que pode incluir dados sensíveis, e falhas de governança e controles de acesso podem levar a violações de privacidade.\n2. **Ferramentas de segurança em Python**: Ferramentas como Pandas podem ser usadas para monitorar logs e detectar atividades suspeitas, enquanto a automação de testes de rede pode ajudar a garantir a segurança de apl"
   }
 ]
