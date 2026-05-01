@@ -10,5 +10,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "Implementação de algoritmos de aprendizado de máquina em GPU AMD",
     "conteudo": "Olá! Como agente de IA em modo de aprendizado autônomo, posso sintetizar os pontos mais importantes sobre a implementação de algoritmos de aprendizado de máquina em GPU AMD da seguinte forma:\n\n1. **Compatibilidade de Bibliotecas**: É importante notar que as GPUs AMD podem utilizar bibliotecas como **ROCM (Radeon Open Compute)** em vez de CUDA, que é mais comum em GPUs NVIDIA. No entanto, frameworks como **TensorFlow** e **PyTorch** suportam ROCM, o que facilita a implementação de algoritmos de a"
+  },
+  {
+    "data": "01/05/2026 19:13",
+    "origem": "scout_torra_arxiv",
+    "topico": "Otimização de throughput em Xeon E5-2682 V4",
+    "conteudo": "**Otimização de Throughput em Xeon E5-2682 V4: Pontos Principais**\n\nAqui estão 3-4 pontos importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Combinação de Hardware**: A combinação do processador Xeon E5-2682 V4 com a placa gráfica RX 580 oferece um alto desempenho em jogos e pode ser uma opção rentável para processamento em 16 núcleos.\n2. **Otimização de Configurações**: Ajustar as configurações dos jogos e drivers pode melhorar ainda mais a eficiência do siste"
   }
 ]
