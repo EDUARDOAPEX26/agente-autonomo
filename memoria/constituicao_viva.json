@@ -1,1 +1,36 @@
-[]
+{
+  "artigos": [
+    {
+      "tipo": "principio",
+      "texto": "\"Minha regra: sempre testo antes de fazer deploy\"",
+      "dominio": "outro",
+      "categoria": "trabalho",
+      "nivel_verdade": "recorrente",
+      "confianca": 0.98,
+      "contagem": 10,
+      "evidencias": [],
+      "revisoes": 0,
+      "criado_em": "2026-05-01T18:43:06.548525",
+      "atualizado_em": "2026-05-01T18:45:16.076212",
+      "clausula_ativa": true
+    },
+    {
+      "tipo": "crenca",
+      "texto": "\"Prefiro qualidade a velocidade em código\"",
+      "dominio": "velocidade",
+      "categoria": "outro",
+      "nivel_verdade": "recorrente",
+      "confianca": 0.95,
+      "contagem": 10,
+      "evidencias": [
+        "\"Prefiro qualidade a velocidade em código\""
+      ],
+      "revisoes": 0,
+      "criado_em": "2026-05-01T18:41:54.635422",
+      "atualizado_em": "2026-05-01T18:45:16.076271",
+      "clausula_ativa": true
+    }
+  ],
+  "versao": 15,
+  "atualizado_em": "2026-05-01T18:45:16.076298"
+}
