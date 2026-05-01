@@ -64,5 +64,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Gerenciamento de memória em sistemas de IA com Python",
     "conteudo": "Aqui estão 3 pontos resumindo o gerenciamento de memória em sistemas de IA com Python:\n\n1. **Gerenciamento Automático**: O Python utiliza um gerenciamento automático de memória, o que significa que o programa não precisa se preocupar explicitamente em liberar ou alocar memória.\n2. **Coleta de Lixo**: O Python utiliza um mecanismo de coleta de lixo (garbage collector) para liberar memória quando objetos são desatribuídos, o que ajuda a evitar vazamentos de memória.\n3. **Configuração Automática**:"
+  },
+  {
+    "data": "01/05/2026 19:15",
+    "origem": "scout_torra_hackernews",
+    "topico": "Análise de dados em tempo real com bibliotecas Python em ambientes distribuídos",
+    "conteudo": "Aqui estão 2 pontos sobre análise de dados em tempo real com bibliotecas Python em ambientes distribuídos:\n\n1. **Ferramentas para análise em tempo real**: Utilize ferramentas como Kafka, Spark e Flink para realizar streaming e processamento eficiente de dados em tempo real com Python.\n2. **Visualização de resultados**: Utilize dashboards para visualizar os resultados da análise de dados em tempo real, permitindo uma compreensão mais clara e rápida dos dados."
   }
 ]
