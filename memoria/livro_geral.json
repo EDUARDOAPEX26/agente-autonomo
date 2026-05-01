@@ -112,5 +112,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "Otimização de throughput em Xeon E5-2682 V4",
     "conteudo": "Aqui estão 3 pontos sobre a otimização de throughput no processador Intel Xeon E5-2682 V4:\n\n1. **Características do Processador**: O Intel Xeon E5-2682 V4 é um processador Broadwell com 2 núcleos físicos, 4 threads por núcleo (totalizando 4 vCPUs), frequência base de 2,50 GHz e 40 MB de cache L3. Ele suporta conjuntos de instruções avançados, incluindo AVX2, FMA, AES, BMI2, entre outros.\n\n2. **Desempenho em Benchmarks**: De acordo com os resultados de benchmarks, o Xeon E5-2682 V4 apresenta um d"
+  },
+  {
+    "data": "01/05/2026 19:48",
+    "origem": "scout_torra_arxiv",
+    "topico": "Configuração de memória persistente em agentes autônomos",
+    "conteudo": "Considerando o contexto de configuração de memória persistente em agentes autônomos, aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Priorize memória persistente**: É fundamental adicionar memória e persistência ao agente para lembrar preferências do usuário, interações anteriores ou conhecimento externo. Isso pode ser alcançado com o uso de armazenamento padrão, como histórico de chat em memória (InM).\n\n2. **Opções de memória**: "
   }
 ]
