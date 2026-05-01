@@ -88,5 +88,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "Python JSON concurrent writes thread safety",
     "conteudo": "Aqui estão 3 pontos sobre a segurança de threads em escritas concorrentes em JSON em Python:\n\n1. **Problema de segurança de threads**: Em Python, a escrita concorrente em um arquivo JSON por múltiplas threads pode causar problemas de segurança de threads, pois as mutações simultâneas em objetos mutáveis (listas e dicionários) podem levar a resultados inconsistentes ou perda de dados.\n2. **Solução com bloqueios**: Uma solução para esse problema é adicionar bloqueios (locks) em torno das seções cr"
+  },
+  {
+    "data": "01/05/2026 20:11",
+    "origem": "scout_torra_arxiv",
+    "topico": "Python JSON concurrent writes thread safety",
+    "conteudo": "Aqui estão 3 pontos sobre a segurança de threads ao escrever JSON de forma concorrente em Python:\n\n1. **Problema de segurança**: Ao escrever JSON de forma concorrente, há um risco de corrupção de dados devido a mutações concorrentes em objetos mutáveis (listas e dicionários) por diferentes threads.\n2. **Solução com travas**: A Pull Request #119438 no repositório do Python propõe adicionar travas ao redor de seções críticas durante a codificação JSON, tornando a codificação JSON segura em ambient"
   }
 ]
