@@ -94,5 +94,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Xeon E5-2682 V4 memory bandwidth optimization",
     "conteudo": "Aqui estão 3 pontos sobre a otimização da largura de banda de memória do processador Xeon E5-2682 V4:\n\n1. **Máximo de 24 DIMMs**: O processador Xeon E5-2682 V4 suporta até 24 módulos de memória (DIMMs) para maximizar a largura de banda de memória.\n2. **Frequência de 2.666 MHz**: As DIMMs podem operar em uma frequência de 2.666 MHz para melhorar a performance da memória.\n3. **Largura de banda de pico de 76,8 GB/s**: Com até 1,5 TB de memória DDR4, o processador pode alcançar uma largura de banda "
+  },
+  {
+    "data": "01/05/2026 19:23",
+    "origem": "scout_torra_reddit_programming",
+    "topico": "local LLM inference optimization techniques",
+    "conteudo": "Aqui estão 2 pontos sobre técnicas de otimização de inferência de LLM (Large Language Model) em dispositivos locais:\n\n1. **Otimizações de nível de modelo**: Técnicas como quantização (por exemplo, FP32 para INT8), esparsidade e destilação de conhecimento podem reduzir a memória e o processamento necessário, mantendo a precisão do modelo.\n2. **Técnicas de otimização de desempenho**: O uso de batching, paralelismo, caching (como KV cache) e outras técnicas de otimização de inferência podem melhora"
   }
 ]
