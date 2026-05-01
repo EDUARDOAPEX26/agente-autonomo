@@ -100,5 +100,11 @@
     "origem": "scout_torra_reddit_programming",
     "topico": "local LLM inference optimization techniques",
     "conteudo": "Aqui estão 2 pontos sobre técnicas de otimização de inferência de LLM (Large Language Model) em dispositivos locais:\n\n1. **Otimizações de nível de modelo**: Técnicas como quantização (por exemplo, FP32 para INT8), esparsidade e destilação de conhecimento podem reduzir a memória e o processamento necessário, mantendo a precisão do modelo.\n2. **Técnicas de otimização de desempenho**: O uso de batching, paralelismo, caching (como KV cache) e outras técnicas de otimização de inferência podem melhora"
+  },
+  {
+    "data": "01/05/2026 19:23",
+    "origem": "scout_torra_github_trending",
+    "topico": "persistent agent memory architecture design",
+    "conteudo": "Aqui estão 2 pontos que sintetizam a arquitetura de memória de agente persistente:\n\n1. **Armazenamento unificado**: A arquitetura utiliza um sistema de banco de dados unificado (como PostgreSQL) para armazenar eventos episódicos, conhecimento semântico e estado procedural, garantindo a retenção de contexto e escalabilidade eficiente.\n2. **Desenvolvimento de sistemas autônomos**: A arquitetura permite o desenvolvimento de sistemas de inteligência artificial (IA) autônomos e persistentes, que pode"
   }
 ]
