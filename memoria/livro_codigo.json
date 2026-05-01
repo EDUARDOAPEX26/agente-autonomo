@@ -82,5 +82,11 @@
     "origem": "scout_torra_github_trending",
     "topico": "Segurança de dados em sistemas de IA com Python",
     "conteudo": "Aqui estão 2 pontos sobre segurança de dados em sistemas de IA com Python:\n\n1. **Contexto de privacidade em IA**: A IA é treinada com grandes conjuntos de dados, o que pode incluir dados sensíveis, e falhas de governança e controles de acesso podem levar a violações de privacidade.\n2. **Ferramentas de segurança em Python**: Ferramentas como Pandas podem ser usadas para monitorar logs e detectar atividades suspeitas, enquanto a automação de testes de rede pode ajudar a garantir a segurança de apl"
+  },
+  {
+    "data": "01/05/2026 20:05",
+    "origem": "scout_torra_arxiv",
+    "topico": "Python JSON concurrent writes thread safety",
+    "conteudo": "Aqui estão 3 pontos sobre a segurança de threads em escritas concorrentes em JSON em Python:\n\n1. **Problema de segurança de threads**: Em Python, a escrita concorrente em um arquivo JSON por múltiplas threads pode causar problemas de segurança de threads, pois as mutações simultâneas em objetos mutáveis (listas e dicionários) podem levar a resultados inconsistentes ou perda de dados.\n2. **Solução com bloqueios**: Uma solução para esse problema é adicionar bloqueios (locks) em torno das seções cr"
   }
 ]
