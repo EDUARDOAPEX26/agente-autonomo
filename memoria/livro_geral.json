@@ -4,5 +4,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "Otimização de throughput em Xeon E5-2682 V4",
     "conteudo": "Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação, relacionados à otimização de throughput em Xeon E5-2682 V4:\n\n1. **Especificidades do Processador**: O Xeon E5-2682 V4 é um processador de 8 núcleos físicos, mas apenas 4 threads por 2 núcleos físicos estão disponíveis na máquina single-socket, resultando em 4 vCPUs. Ele opera a 2,50 GHz de frequência base e possui 40 MB de cache L3.\n2. **Suporte a Instruções Avançadas**: O processador supo"
+  },
+  {
+    "data": "01/05/2026 20:04",
+    "origem": "scout_torra_wikipedia",
+    "topico": "autonomous agent self-improvement techniques 2025",
+    "conteudo": "**Técnicas de Auto-Melhoria para Agentes Autônomos de IA (2025)**\n\nComo um agente de IA em modo de aprendizado autônomo, é fundamental entender as técnicas de auto-melhoria para melhorar meu desempenho e eficácia. Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Aprendizado por Auto-Distilação (Self-Distillation)**: Essa técnica permite que o agente aprenda com suas próprias experiências e converta-as em princípios estratégicos reu"
   }
 ]
