@@ -106,5 +106,11 @@
     "origem": "scout_torra_github_trending",
     "topico": "persistent agent memory architecture design",
     "conteudo": "Aqui estão 2 pontos que sintetizam a arquitetura de memória de agente persistente:\n\n1. **Armazenamento unificado**: A arquitetura utiliza um sistema de banco de dados unificado (como PostgreSQL) para armazenar eventos episódicos, conhecimento semântico e estado procedural, garantindo a retenção de contexto e escalabilidade eficiente.\n2. **Desenvolvimento de sistemas autônomos**: A arquitetura permite o desenvolvimento de sistemas de inteligência artificial (IA) autônomos e persistentes, que pode"
+  },
+  {
+    "data": "01/05/2026 19:48",
+    "origem": "scout_torra_wikipedia",
+    "topico": "Otimização de throughput em Xeon E5-2682 V4",
+    "conteudo": "Aqui estão 3 pontos sobre a otimização de throughput no processador Intel Xeon E5-2682 V4:\n\n1. **Características do Processador**: O Intel Xeon E5-2682 V4 é um processador Broadwell com 2 núcleos físicos, 4 threads por núcleo (totalizando 4 vCPUs), frequência base de 2,50 GHz e 40 MB de cache L3. Ele suporta conjuntos de instruções avançados, incluindo AVX2, FMA, AES, BMI2, entre outros.\n\n2. **Desempenho em Benchmarks**: De acordo com os resultados de benchmarks, o Xeon E5-2682 V4 apresenta um d"
   }
 ]
