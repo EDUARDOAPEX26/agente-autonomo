@@ -118,5 +118,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "Configuração de memória persistente em agentes autônomos",
     "conteudo": "Considerando o contexto de configuração de memória persistente em agentes autônomos, aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Priorize memória persistente**: É fundamental adicionar memória e persistência ao agente para lembrar preferências do usuário, interações anteriores ou conhecimento externo. Isso pode ser alcançado com o uso de armazenamento padrão, como histórico de chat em memória (InM).\n\n2. **Opções de memória**: "
+  },
+  {
+    "data": "01/05/2026 19:49",
+    "origem": "scout_torra_hackernews",
+    "topico": "Técnicas de compressão de dados para armazenamento em pendrive",
+    "conteudo": "Aqui estão 3 pontos sobre técnicas de compressão de dados para armazenamento em pendrive:\n\n1. **Compressão NTFS**: O sistema de arquivos NTFS oferece compressão automática de dados, o que pode ajudar a economizar espaço em unidades compatíveis, como pendrives.\n2. **Aplicação da compressão**: A compressão pode ser aplicada de duas formas: compressão de arquivos/pastas individuais ou compressão do disco inteiro, marcando a opção \"Compactar este disco\" nas propriedades do pendrive.\n3. **Formatar e "
   }
 ]
