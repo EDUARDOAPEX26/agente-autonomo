@@ -58,5 +58,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Implementação de algoritmos de aprendizado por reforço em Python",
     "conteudo": "Aqui estão 3 pontos sobre a implementação de algoritmos de aprendizado por reforço em Python:\n\n1. **Repositório GitHub**: O repositório \"Aprendizado-por-Reforco\" no GitHub oferece uma coleção de implementações de algoritmos de aprendizado por reforço em Python, incluindo guias de aprendizado e exemplos práticos.\n2. **Algoritmos de Aprendizado por Reforço**: Os algoritmos de aprendizado por reforço podem ser divididos em duas categorias: baseados em modelo (onde o agente aprende ou tem acesso a u"
+  },
+  {
+    "data": "01/05/2026 19:13",
+    "origem": "scout_torra_hackernews",
+    "topico": "Gerenciamento de memória em sistemas de IA com Python",
+    "conteudo": "Aqui estão 3 pontos resumindo o gerenciamento de memória em sistemas de IA com Python:\n\n1. **Gerenciamento Automático**: O Python utiliza um gerenciamento automático de memória, o que significa que o programa não precisa se preocupar explicitamente em liberar ou alocar memória.\n2. **Coleta de Lixo**: O Python utiliza um mecanismo de coleta de lixo (garbage collector) para liberar memória quando objetos são desatribuídos, o que ajuda a evitar vazamentos de memória.\n3. **Configuração Automática**:"
   }
 ]
