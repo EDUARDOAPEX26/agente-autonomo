@@ -14,8 +14,15 @@
       "expira_em": "30/05/2026 19:38",
       "ttl_horas": 720,
       "origem": "APRENDIZADO"
+    },
+    {
+      "data": "01/05/2026 23:15",
+      "pergunta": "tem memorias da outra sessão?",
+      "resposta": "Sim, eu tenho registros das nossas interações anteriores. No entanto, é importante notar que a minha capacidade de memorizar e lembrar de informações é limitada ao contexto da nossa conversa atual e à",
+      "tipo_informacao": "ESTAVEL",
+      "origem": "INFORMACAO"
     }
   ],
-  "total_entradas": 2,
-  "ultima_atualizacao": "30/04/2026 19:38"
+  "total_entradas": 3,
+  "ultima_atualizacao": "01/05/2026 23:15"
 }
