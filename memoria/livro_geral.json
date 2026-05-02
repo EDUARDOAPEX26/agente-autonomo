@@ -238,5 +238,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "Técnicas de criptografia para proteção de dados em agentes autônomos",
     "conteudo": "Aqui estão os 4 pontos mais importantes sobre técnicas de criptografia para proteção de dados em agentes autônomos:\n\n1. **Segregação de Funções**: É fundamental separar as funções de um agente de IA para evitar que um único ponto de falha comprometa todo o sistema. Isso pode ser alcançado mediante a implementação de diferentes módulos ou componentes para cada função, como processamento de dados, comunicação e armazenamento.\n\n2. **Controle de Acesso Granular**: O controle de acesso é essencial pa"
+  },
+  {
+    "data": "02/05/2026 19:45",
+    "origem": "scout_torra_arxiv",
+    "topico": "Desenvolvimento de algoritmos de aprendizado de máquina para detecção de anomalias",
+    "conteudo": "Aqui estão 3 pontos principais sobre o desenvolvimento de algoritmos de aprendizado de máquina para detecção de anomalias:\n\n1. **Introdução prática à detecção de anomalias**: O Isolation Forest (iForest) é um algoritmo de aprendizado de máquina que pode ser usado para detectar anomalias em dados complexos, especialmente quando não há variável de resposta e o objetivo é identificar comportamentos atípicos.\n2. **Detecção de anomalias em tempo real**: Algoritmos de aprendizado de máquina podem ser "
   }
 ]
