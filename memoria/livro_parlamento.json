@@ -1,28 +1,28 @@
 {
   "impulso": {
     "peso": 0.05,
-    "vitorias": 252,
-    "ultima_vitoria": "2026-05-01T23:42:44.268339"
+    "vitorias": 253,
+    "ultima_vitoria": "2026-05-02T00:20:55.307647"
   },
   "prudencia": {
     "peso": 0.05,
-    "vitorias": 90,
-    "ultima_vitoria": "2026-05-01T23:16:30.845974"
+    "vitorias": 92,
+    "ultima_vitoria": "2026-05-02T00:16:32.522137"
   },
   "ruptura": {
-    "peso": 0.05,
-    "vitorias": 42,
-    "ultima_vitoria": "2026-04-29T14:09:14.712553"
+    "peso": 0.06,
+    "vitorias": 44,
+    "ultima_vitoria": "2026-05-02T00:22:46.965266"
   },
   "continuidade": {
-    "peso": 0.084,
-    "vitorias": 264,
-    "ultima_vitoria": "2026-05-01T23:45:18.782160"
+    "peso": 0.086,
+    "vitorias": 271,
+    "ultima_vitoria": "2026-05-02T00:22:44.576218"
   },
   "elegancia": {
     "peso": 0.05,
-    "vitorias": 143,
-    "ultima_vitoria": "2026-05-01T23:34:15.590983"
+    "vitorias": 144,
+    "ultima_vitoria": "2026-05-02T00:13:42.126009"
   },
   "sobrevivencia": {
     "peso": 0.05,
@@ -30,8 +30,8 @@
     "ultima_vitoria": "2026-05-01T23:43:19.620881"
   },
   "ambicao": {
-    "peso": 0.064,
-    "vitorias": 130,
-    "ultima_vitoria": "2026-05-01T23:44:28.522917"
+    "peso": 0.05,
+    "vitorias": 133,
+    "ultima_vitoria": "2026-05-02T00:14:14.397858"
   }
 }
