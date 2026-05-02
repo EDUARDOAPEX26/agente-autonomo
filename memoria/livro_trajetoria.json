@@ -140,7 +140,7 @@
     }
   },
   {
-    "timestamp": "2026-05-01T23:40:56.816345",
+    "timestamp": "2026-05-02T00:12:54.722716",
     "direcao": "aguardar",
     "descricao": "Dados insuficientes para decidir — continuar coletando",
     "justificativa": "Dados insuficientes para decisão segura",
@@ -154,7 +154,7 @@
     }
   },
   {
-    "timestamp": "2026-05-01T23:42:06.751899",
+    "timestamp": "2026-05-02T00:13:49.013060",
     "direcao": "aguardar",
     "descricao": "Dados insuficientes para decidir — continuar coletando",
     "justificativa": "Dados insuficientes para decisão segura",
@@ -168,7 +168,7 @@
     }
   },
   {
-    "timestamp": "2026-05-01T23:42:47.796890",
+    "timestamp": "2026-05-02T00:14:14.566872",
     "direcao": "aguardar",
     "descricao": "Dados insuficientes para decidir — continuar coletando",
     "justificativa": "Dados insuficientes para decisão segura",
@@ -182,7 +182,7 @@
     }
   },
   {
-    "timestamp": "2026-05-01T23:43:19.777745",
+    "timestamp": "2026-05-02T00:16:32.690641",
     "direcao": "aguardar",
     "descricao": "Dados insuficientes para decidir — continuar coletando",
     "justificativa": "Dados insuficientes para decisão segura",
@@ -196,7 +196,7 @@
     }
   },
   {
-    "timestamp": "2026-05-01T23:43:53.037604",
+    "timestamp": "2026-05-02T00:19:33.922598",
     "direcao": "aguardar",
     "descricao": "Dados insuficientes para decidir — continuar coletando",
     "justificativa": "Dados insuficientes para decisão segura",
@@ -210,7 +210,7 @@
     }
   },
   {
-    "timestamp": "2026-05-01T23:44:33.349177",
+    "timestamp": "2026-05-02T00:20:55.465598",
     "direcao": "aguardar",
     "descricao": "Dados insuficientes para decidir — continuar coletando",
     "justificativa": "Dados insuficientes para decisão segura",
@@ -224,7 +224,21 @@
     }
   },
   {
-    "timestamp": "2026-05-01T23:45:18.949730",
+    "timestamp": "2026-05-02T00:22:29.729024",
+    "direcao": "aguardar",
+    "descricao": "Dados insuficientes para decidir — continuar coletando",
+    "justificativa": "Dados insuficientes para decisão segura",
+    "proxima_tensao": "Continuar coletando experiências reais",
+    "inputs": {
+      "contrafuturos_criticos": 1,
+      "sacrificios_candidatos": 1,
+      "sacrificios_removidos": 0,
+      "clausulas_ativas": 2,
+      "artigos_constituicao": 2
+    }
+  },
+  {
+    "timestamp": "2026-05-02T00:22:47.128567",
     "direcao": "aguardar",
     "descricao": "Dados insuficientes para decidir — continuar coletando",
     "justificativa": "Dados insuficientes para decisão segura",
