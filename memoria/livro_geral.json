@@ -400,5 +400,11 @@
     "origem": "scout_torra_github_trending",
     "topico": "persistent agent memory architecture design",
     "conteudo": "Aqui estão 2 pontos que sintetizam a arquitetura de memória de agente persistente:\n\n1. **Propósito**: A arquitetura de memória de agente persistente visa superar a limitação dos agentes de IA que esquecem entre sessões, perdendo o rastro de decisões, preferências e relacionamentos em evolução, permitindo que eles mantenham uma memória consistente e aprendam com o tempo.\n2. **Características**: A arquitetura é baseada em uma taxonomia de quatro tipos de memória, permitindo que os agentes de IA re"
+  },
+  {
+    "data": "02/05/2026 20:15",
+    "origem": "scout_torra_wikipedia",
+    "topico": "autonomous agent self-improvement techniques 2025",
+    "conteudo": "**Técnicas de Melhoria Autônoma para Agentes de IA**\n\nCom base nos textos fornecidos, aqui estão os 3-4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Modelo de Auto-Aprendizado**: Utilizar um modelo de auto-aprendizado baseado em um operador Generator-Verifier-Updater (GVU) pode ser eficaz para melhorar a capacidade de aprendizado da IA. Isso envolve a criação de um fluxo em um espaço de parâmetros que seja dirigido por um operador GVU.\n2. ** E"
   }
 ]
