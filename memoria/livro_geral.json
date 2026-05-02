@@ -178,5 +178,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "Otimização de throughput em processadores Xeon E5-2682 V4",
     "conteudo": "Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação sobre a otimização de throughput em processadores Xeon E5-2682 V4:\n\n1. **Desempenho relativo**: O Xeon E5-2682 v4 supera o E5-2680 v4 em benchmarks agregados por pelo menos 4%, tornando-o uma opção melhor para cargas de trabalho que requerem alta taxa de transferência de dados (throughput).\n2. **Especificidades do processador**: O Xeon E5-2682 v4 possui 16 núcleos e 32 threads, com um TDP d"
+  },
+  {
+    "data": "02/05/2026 19:42",
+    "origem": "scout_torra_arxiv",
+    "topico": "Arquitetura de memória persistente para agentes autônomos",
+    "conteudo": "**Arquitetura de Memória Persistente para Agentes Autônomos**\n\nConsiderando o contexto e as referências fornecidas, aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Gerenciamento de Memória de Curto e Longo Prazo**: É fundamental gerenciar a memória de curto e longo prazo para que os agentes autônomos possam manter a continuidade da memória e aprender com as experiências passadas. Isso pode ser alcançado utilizando técnicas como El"
   }
 ]
