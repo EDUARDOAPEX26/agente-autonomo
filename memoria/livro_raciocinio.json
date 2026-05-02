@@ -220,14 +220,80 @@
     "timestamp": "2026-04-30T19:41:59.186852"
   },
   {
-    "pergunta": "lembra da sessão passada",
+    "pergunta": "qual a distancia mais curta entre dois pontos?",
     "estrategia": "groq",
     "erro_tipo": "ok",
     "correcao": "",
     "score": 1.0,
-    "escopo": "internal",
-    "latencia_ms": 2666,
+    "escopo": "conversacional",
+    "latencia_ms": 2026,
     "api_usada": "groq",
-    "timestamp": "2026-05-01T23:34:18.108568"
+    "timestamp": "2026-05-01T23:40:56.579802"
+  },
+  {
+    "pergunta": "porque o pato tem inveja do cavalo?",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 10754,
+    "api_usada": "groq",
+    "timestamp": "2026-05-01T23:42:06.539143"
+  },
+  {
+    "pergunta": "não vale buscar online é trapaça",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "world_state",
+    "latencia_ms": 6024,
+    "api_usada": "groq",
+    "timestamp": "2026-05-01T23:42:47.600437"
+  },
+  {
+    "pergunta": "o que tem no meio do ovo ?",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 8586,
+    "api_usada": "groq",
+    "timestamp": "2026-05-01T23:43:19.580565"
+  },
+  {
+    "pergunta": "e voce buscou online outra vez?",
+    "estrategia": "groq",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 1726,
+    "api_usada": "groq",
+    "timestamp": "2026-05-01T23:43:52.836606"
+  },
+  {
+    "pergunta": "porque a galinha atravessou a rua",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "encyclopedic",
+    "latencia_ms": 11186,
+    "api_usada": "sambanova",
+    "timestamp": "2026-05-01T23:44:33.144591"
+  },
+  {
+    "pergunta": "sambanova foi registrado , buscou ,né?",
+    "estrategia": "nenhuma",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 4943,
+    "api_usada": "nenhuma",
+    "timestamp": "2026-05-01T23:45:18.737865"
   }
 ]
