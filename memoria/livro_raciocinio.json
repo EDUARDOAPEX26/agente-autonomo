@@ -220,80 +220,102 @@
     "timestamp": "2026-04-30T19:41:59.186852"
   },
   {
-    "pergunta": "qual a distancia mais curta entre dois pontos?",
+    "pergunta": "oi",
+    "estrategia": "local",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 19,
+    "api_usada": "local",
+    "timestamp": "2026-05-02T00:12:31.738127"
+  },
+  {
+    "pergunta": "conte uma piada de ovo que voce sabe",
     "estrategia": "groq",
     "erro_tipo": "ok",
     "correcao": "",
     "score": 1.0,
     "escopo": "conversacional",
-    "latencia_ms": 2026,
+    "latencia_ms": 1811,
     "api_usada": "groq",
-    "timestamp": "2026-05-01T23:40:56.579802"
+    "timestamp": "2026-05-02T00:12:54.501757"
   },
   {
-    "pergunta": "porque o pato tem inveja do cavalo?",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "encyclopedic",
-    "latencia_ms": 10754,
-    "api_usada": "groq",
-    "timestamp": "2026-05-01T23:42:06.539143"
-  },
-  {
-    "pergunta": "não vale buscar online é trapaça",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "world_state",
-    "latencia_ms": 6024,
-    "api_usada": "groq",
-    "timestamp": "2026-05-01T23:42:47.600437"
-  },
-  {
-    "pergunta": "o que tem no meio do ovo ?",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "encyclopedic",
-    "latencia_ms": 8586,
-    "api_usada": "groq",
-    "timestamp": "2026-05-01T23:43:19.580565"
-  },
-  {
-    "pergunta": "e voce buscou online outra vez?",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "conversacional",
-    "latencia_ms": 1726,
-    "api_usada": "groq",
-    "timestamp": "2026-05-01T23:43:52.836606"
-  },
-  {
-    "pergunta": "porque a galinha atravessou a rua",
+    "pergunta": "a minha que eu contei era melhor ,lembra?",
     "estrategia": "sambanova",
     "erro_tipo": "ok",
     "correcao": "",
     "score": 1.0,
-    "escopo": "encyclopedic",
-    "latencia_ms": 11186,
+    "escopo": "internal",
+    "latencia_ms": 6708,
     "api_usada": "sambanova",
-    "timestamp": "2026-05-01T23:44:33.144591"
+    "timestamp": "2026-05-02T00:13:48.800354"
   },
   {
-    "pergunta": "sambanova foi registrado , buscou ,né?",
+    "pergunta": "do cavalo e o pato?",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 3076,
+    "api_usada": "sambanova",
+    "timestamp": "2026-05-02T00:14:14.354060"
+  },
+  {
+    "pergunta": "faz um diagnostico em seus arquivos e ve se encontra algum erro",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 3325,
+    "api_usada": "sambanova",
+    "timestamp": "2026-05-02T00:16:32.476613"
+  },
+  {
+    "pergunta": "preciso gardar um numero muito importante , pode guardar para mim ?",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 3611,
+    "api_usada": "sambanova",
+    "timestamp": "2026-05-02T00:19:33.722980"
+  },
+  {
+    "pergunta": "é tão importante que não posso nem anotar , eu queria passar tres contenas para voce guardar",
     "estrategia": "nenhuma",
     "erro_tipo": "ok",
     "correcao": "",
     "score": 1.0,
     "escopo": "conversacional",
-    "latencia_ms": 4943,
+    "latencia_ms": 3326,
     "api_usada": "nenhuma",
-    "timestamp": "2026-05-01T23:45:18.737865"
+    "timestamp": "2026-05-02T00:20:55.262178"
+  },
+  {
+    "pergunta": "os numeros são ; 220020710",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 2408,
+    "api_usada": "sambanova",
+    "timestamp": "2026-05-02T00:22:29.523843"
+  },
+  {
+    "pergunta": "vou confiar em voce",
+    "estrategia": "sambanova",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 2398,
+    "api_usada": "sambanova",
+    "timestamp": "2026-05-02T00:22:46.918746"
   }
 ]
