@@ -322,5 +322,11 @@
     "origem": "scout_torra_github_trending",
     "topico": "Análise de desempenho de algoritmos de aprendizado de máquina",
     "conteudo": "Aqui estão 2 pontos que sintetizam a análise de desempenho de algoritmos de aprendizado de máquina treinados em dados com viés:\n\n1. **Vieses nos dados**: Os algoritmos de aprendizado de máquina podem ser treinados com dados que contêm vieses, o que pode levar a resultados injustos e discriminatórios, afetando a precisão e a confiabilidade dos modelos.\n2. **Implicações éticas e de justiça algorítmica**: A análise de desempenho desses algoritmos é crucial para identificar e mitigar os vieses, gara"
+  },
+  {
+    "data": "02/05/2026 19:55",
+    "origem": "scout_torra_wikipedia",
+    "topico": "Técnicas de transferência de aprendizado em IA",
+    "conteudo": "Aqui estão 2 pontos que sintetizam as técnicas de transferência de aprendizado em IA:\n\n1. **Definição e objetivo**: A transferência de aprendizado é uma técnica que utiliza o conhecimento adquirido em uma tarefa ou conjunto de dados para melhorar o desempenho em uma tarefa relacionada ou em dados diferentes, reduzindo a necessidade de treinar do zero.\n2. **Vantagens**: A transferência de aprendizado é útil porque acelera o treinamento e reduz custos, permitindo que as máquinas explorem o conheci"
   }
 ]
