@@ -1,41 +1,5 @@
 [
   {
-    "data": "30/04/2026 19:03",
-    "origem": "scout_torra_hackernews",
-    "topico": "Análise de dados em tempo real com Python e bibliotecas associadas",
-    "conteudo": "**Análise de Dados em Tempo Real com Python: 4 Pontos Chave**\n\nOlá, sou um agente de IA em modo de aprendizado autônomo! Aqui estão os 4 pontos mais importantes para análise de dados em tempo real com Python:\n\n1. **Kafka e Spark Streaming**: Para análise de dados em tempo real, é fundamental utilizar ferramentas como Apache Kafka e Spark Streaming. Elas permitem processar grandes volumes de dados em tempo real, garantindo que o sistema de IA esteja atualizado e informado.\n\n2. **Pandas e NumPy**:"
-  },
-  {
-    "data": "30/04/2026 19:09",
-    "origem": "scout_torra_github_trending",
-    "topico": "Processamento de Linguagem Natural com Python",
-    "conteudo": "Aqui estão 3 pontos resumindo o Processamento de Linguagem Natural com Python:\n\n1. **Bibliotecas de PLN**: O Python utiliza bibliotecas como NLTK para análise de texto, tokenização e análise de sentimentos, permitindo a transformação de textos em dados processáveis.\n2. **Aplicações práticas**: Projetos como o \"uol-redacoes-xml\" permitem a aplicação de técnicas de PLN em conjuntos de dados, como redações, para testes e validação de modelos.\n3. **Detecção de conteúdo**: Ferramentas de PLN em Pytho"
-  },
-  {
-    "data": "30/04/2026 19:10",
-    "origem": "scout_torra_arxiv",
-    "topico": "Análise de Dados em Streaming com Bibliotecas Python",
-    "conteudo": "**Resumo de Pontos Importantes para Análise de Dados em Streaming com Python**\n\nAo trabalhar com hardware, Python e automação, os seguintes pontos são cruciais para um agente de IA:\n\n1. **Bibliotecas de Análise de Dados**: Conhecer as bibliotecas Python mais importantes para análise de dados, como **Pandas**, **NumPy**, **Matplotlib** e **Scikit-learn**, é fundamental para realizar tarefas de ciência de dados e machine learning de forma eficiente.\n2. **Análise de Dados em Streaming**: Ter conhec"
-  },
-  {
-    "data": "30/04/2026 19:16",
-    "origem": "scout_torra_arxiv",
-    "topico": "Python JSON concurrent writes thread safety",
-    "conteudo": "Aqui estão 3 pontos resumindo a questão da segurança em threads ao escrever em arquivos JSON em Python:\n\n1. **Segurança em threads**: Ao escrever em arquivos JSON com múltiplas threads em Python, é importante considerar a segurança em threads, pois o uso de threads pode levar a problemas de concorrência e perda de dados.\n2. **Problemas com escrita concorrente**: Ao abrir um arquivo em modo \"w+\" e escrever nele com múltiplas threads, pode haver problemas de concorrência, pois as threads podem sob"
-  },
-  {
-    "data": "30/04/2026 19:22",
-    "origem": "scout_torra_wikipedia",
-    "topico": "Otimização de memória em sistemas de IA com Python",
-    "conteudo": "**Otimização de Memória em Sistemas de IA com Python**\n\nComo um agente de IA em modo de aprendizado autônomo, é fundamental entender como otimizar o uso de memória em sistemas de IA que utilizam Python. Aqui estão os 4 pontos mais importantes para considerar:\n\n1. **Uso de Geradores e Iteradores**: Em vez de usar tipos de dados que carregam todos os dados em memória, como listas ou arrays, use geradores e iteradores para processar dados em lotes menores. Isso ajuda a reduzir o consumo de memória "
-  },
-  {
-    "data": "30/04/2026 19:23",
-    "origem": "scout_torra_reddit_programming",
-    "topico": "Técnicas de paralelização em Python para processamento de dados",
-    "conteudo": "Aqui estão 3 pontos sobre técnicas de paralelização em Python para processamento de dados:\n\n1. **Processamento Paralelo com Múltiplos Cores**: É possível usar mais de um core do processador para processar dados em Python, o que pode aumentar significativamente o desempenho do programa. Isso pode ser feito usando bibliotecas como `multiprocessing` ou `concurrent.futures`.\n2. **Prevenção de Corrupção de Dados**: Ao trabalhar com processamento paralelo, é importante evitar que dois ou mais processo"
-  },
-  {
     "data": "30/04/2026 19:24",
     "origem": "scout_torra_wikipedia",
     "topico": "Comunicação entre processos em Python para sistemas distribuídos",
