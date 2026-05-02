@@ -4,5 +4,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Desenvolvimento de modelos de aprendizado de máquina com Python",
     "conteudo": "Com base nos recursos fornecidos, aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Definição e Categorização do Aprendizado de Máquina**: É fundamental entender o que é Machine Learning (ML) e suas três categorias básicas: Aprendizado Supervisionado, Aprendizado Não Supervisionado e Aprendizado por Reforço. Essa compreensão serve como base para o desenvolvimento de modelos de aprendizado de máquina.\n\n2. **Uso de Bibliotecas Essenci"
+  },
+  {
+    "data": "02/05/2026 20:03",
+    "origem": "scout_torra_arxiv",
+    "topico": "Python JSON concurrent writes thread safety",
+    "conteudo": "Aqui estão 3 pontos resumindo a questão de segurança de threads em escritas concorrentes de JSON em Python:\n\n1. **Problema de segurança de threads**: Em Python, a escrita de JSON em um arquivo por múltiplos threads pode causar problemas de segurança de threads, pois a codificação JSON não é thread-safe quando outros threads modificam os dados sendo codificados, o que pode causar crashes do interpretador.\n2. **Solução para o problema**: A PR #119438 no repositório CPython visa tornar o módulo `_j"
   }
 ]
