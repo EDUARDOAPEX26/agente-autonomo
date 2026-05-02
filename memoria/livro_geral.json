@@ -370,5 +370,11 @@
     "origem": "scout_torra_reddit_programming",
     "topico": "local LLM inference optimization techniques",
     "conteudo": "Aqui estão 2 pontos sobre técnicas de otimização de inferência de LLM (Large Language Model) locais:\n\n1. **Técnicas de otimização de cache**: incluem estratégias de evicção de cache, como descartar tokens menos importantes do passado, e otimização de KV (chave-valor) para reduzir a pegada de memória e aumentar a taxa de transferência, preservando a precisão do modelo.\n2. **Técnicas de processamento eficiente**: incluem batching, caching de KV, kernels de atenção e decodificação especulativa, alé"
+  },
+  {
+    "data": "02/05/2026 20:04",
+    "origem": "scout_torra_github_trending",
+    "topico": "persistent agent memory architecture design",
+    "conteudo": "Aqui estão 2 pontos que sintetizam a arquitetura de memória de agente persistente:\n\n1. **Propósito**: A arquitetura de memória de agente persistente visa superar a limitação dos agentes de IA que esquecem entre sessões e perdem o rastro de decisões, preferências e relacionamentos em evolução.\n2. **Características**: Ela fornece aos agentes de IA uma memória persistente, permitindo que eles lembrem o que é importante, esqueçam o que não é e se tornem mais inteligentes com o tempo, utilizando uma "
   }
 ]
