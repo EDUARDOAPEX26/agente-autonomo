@@ -364,5 +364,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Xeon E5-2682 V4 memory bandwidth optimization",
     "conteudo": "Aqui estão 3 pontos sobre a otimização da largura de banda de memória do Xeon E5-2682 V4:\n\n1. **Arquitetura de memória e configuração de DIMMs**: A largura de banda de memória pode ser afetada pela arquitetura de memória, configuração de DIMMs e controladores de memória, e pela interleaving entre canais.\n2. **Configuração de 24 DIMMs**: A largura de banda de memória máxima pode ser alcançada com módulos de memória com até 2.666 MHz em uma configuração com 24 DIMMs.\n3. **Recomendações para otimiz"
+  },
+  {
+    "data": "02/05/2026 20:04",
+    "origem": "scout_torra_reddit_programming",
+    "topico": "local LLM inference optimization techniques",
+    "conteudo": "Aqui estão 2 pontos sobre técnicas de otimização de inferência de LLM (Large Language Model) locais:\n\n1. **Técnicas de otimização de cache**: incluem estratégias de evicção de cache, como descartar tokens menos importantes do passado, e otimização de KV (chave-valor) para reduzir a pegada de memória e aumentar a taxa de transferência, preservando a precisão do modelo.\n2. **Técnicas de processamento eficiente**: incluem batching, caching de KV, kernels de atenção e decodificação especulativa, alé"
   }
 ]
