@@ -220,47 +220,14 @@
     "timestamp": "2026-04-30T19:41:59.186852"
   },
   {
-    "pergunta": "pode me mostrar seu nucleo vivo bridge.py",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "conversacional",
-    "latencia_ms": 2739,
-    "api_usada": "groq",
-    "timestamp": "2026-05-01T23:15:05.865040"
-  },
-  {
-    "pergunta": "tem memorias da outra sessão?",
+    "pergunta": "lembra da sessão passada",
     "estrategia": "groq",
     "erro_tipo": "ok",
     "correcao": "",
     "score": 1.0,
     "escopo": "internal",
-    "latencia_ms": 2854,
+    "latencia_ms": 2666,
     "api_usada": "groq",
-    "timestamp": "2026-05-01T23:15:48.532810"
-  },
-  {
-    "pergunta": "da historia do rio sem final",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "encyclopedic",
-    "latencia_ms": 12447,
-    "api_usada": "groq",
-    "timestamp": "2026-05-01T23:16:30.800988"
-  },
-  {
-    "pergunta": "não é isso ,",
-    "estrategia": "groq",
-    "erro_tipo": "ok",
-    "correcao": "",
-    "score": 1.0,
-    "escopo": "conversacional",
-    "latencia_ms": 1728,
-    "api_usada": "groq",
-    "timestamp": "2026-05-01T23:17:04.762657"
+    "timestamp": "2026-05-01T23:34:18.108568"
   }
 ]
