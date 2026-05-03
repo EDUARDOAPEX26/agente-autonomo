@@ -2,30 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "03/05/2026 00:07",
-      "pergunta": "porque a galinha atravessou a rua",
-      "resposta": "Outra pergunta clássica!\n\nA resposta tradicional é: \"para chegar ao outro lado!\" Mas, é claro, essa é apenas uma resposta cômica e não há uma razão real ou lógica para que a galinha atravesse a rua.\n\n",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 00:07",
-      "pergunta": "o cavalo tem 4 patas",
-      "resposta": "Isso é um fato! Os cavalos, de fato, têm 4 patas. Não é uma pergunta, é mais uma afirmação, né? Você está apenas constatando uma característica biológica dos cavalos. É um ponto de partida interessant",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 00:07",
-      "pergunta": "o cavalo tem 4 patas",
-      "resposta": "Isso é um fato! Os cavalos, de fato, têm 4 patas. Não é uma pergunta, é mais uma afirmação, né? Você está apenas constatando uma característica biológica dos cavalos. É um ponto de partida interessant",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 00:08",
-      "pergunta": "por isso o pato tem inveja dele",
-      "resposta": "Agora entendi o contexto! Você está fazendo uma brincadeira com a ideia de que o pato tem inveja do cavalo porque ele tem 4 patas, enquanto o pato só tem 2! Isso é uma piada, claro, porque os patos nã",
-      "origem": "conversa_local"
-    },
-    {
       "data": "03/05/2026 00:08",
       "pergunta": "por isso o pato tem inveja dele",
       "resposta": "Agora entendi o contexto! Você está fazendo uma brincadeira com a ideia de que o pato tem inveja do cavalo porque ele tem 4 patas, enquanto o pato só tem 2! Isso é uma piada, claro, porque os patos nã",
@@ -480,8 +456,32 @@
       "pergunta": "coloquei o novo programa já , mudou alguma coisa?",
       "resposta": "Nada mudou aqui. Ainda estou funcionando com a mesma configuração e versão, não há registro de atualização ou mudança de programa. Minha versão atual é 5.4, com 40 fases completas. Se você tivesse atu",
       "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 08:19",
+      "pergunta": "como funciona um pipeline de dados?",
+      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 08:19",
+      "pergunta": "como funciona um pipeline de dados?",
+      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 08:20",
+      "pergunta": "tem que ser o que voce sabe se erra não tem problema",
+      "resposta": "Certo! Um pipeline de dados é basicamente uma série de etapas que processam e transformam dados de uma fonte para outra. É como uma linha de montagem, onde os dados são coletados, processados, transfo",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 08:20",
+      "pergunta": "tem que ser o que voce sabe se erra não tem problema",
+      "resposta": "Certo! Um pipeline de dados é basicamente uma série de etapas que processam e transformam dados de uma fonte para outra. É como uma linha de montagem, onde os dados são coletados, processados, transfo",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 1665,
+  "total_conversas": 1669,
   "total_tarefas": 3240
 }
