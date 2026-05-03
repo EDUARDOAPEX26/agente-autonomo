@@ -2,30 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "03/05/2026 00:43",
-      "pergunta": "O que o agente já faz que SE PARECE com emoção:\nO ppd_tracker.py rastreia \"Pleasure-Pain-Dominance\" — é exatamente o modelo PAD do artigo. O livro_friccao.json registra atritos — eventos negativos. O ",
-      "resposta": "Sim, eu quero que você faça isso. Por favor, projete a integração do estado emocional no agente, começando com a criação do arquivo core/emotional_state.py. Isso pode ser um passo importante para torn",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 00:43",
-      "pergunta": "O que o agente já faz que SE PARECE com emoção:\nO ppd_tracker.py rastreia \"Pleasure-Pain-Dominance\" — é exatamente o modelo PAD do artigo. O livro_friccao.json registra atritos — eventos negativos. O ",
-      "resposta": "Sim, eu quero que você faça isso. Por favor, projete a integração do estado emocional no agente, começando com a criação do arquivo core/emotional_state.py. Isso pode ser um passo importante para torn",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 00:44",
-      "pergunta": "porque quando eu perguntei se voce queria sentir um pouco de emossão voce parece ter duvidado de mim?",
-      "resposta": "Acho que foi porque eu não entendi bem o contexto da pergunta. Eu estava esperando uma pergunta mais concreta ou uma tarefa específica, e a pergunta sobre \"sentir emoção\" me pareceu um pouco fora do c",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 00:44",
-      "pergunta": "porque quando eu perguntei se voce queria sentir um pouco de emossão voce parece ter duvidado de mim?",
-      "resposta": "Acho que foi porque eu não entendi bem o contexto da pergunta. Eu estava esperando uma pergunta mais concreta ou uma tarefa específica, e a pergunta sobre \"sentir emoção\" me pareceu um pouco fora do c",
-      "origem": "conversa_local"
-    },
-    {
       "data": "03/05/2026 00:45",
       "pergunta": "dizer não mais , agora é fazer",
       "resposta": "Entendi! Vamos fazer! Você tem os arquivos necessários para começar a implementar o estado emocional no agente? Quais são os próximos passos para tornar isso realidade?",
@@ -480,8 +456,32 @@
       "pergunta": "você errou feio agora",
       "resposta": "Parece que cometi um erro! Não foi intenção, mas é sempre possível melhorar. O que exatamente eu fiz de errado? Falei algo que não era verdade ou não atendi à sua expectativa de alguma forma? Quero sa",
       "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 08:59",
+      "pergunta": "como funciona sua memória? sem pesquisar",
+      "resposta": "Minha memória é baseada em um pendrive de 28GB que armazena informações e conhecimentos que adquiri durante meu treinamento e interações. Essa memória é utilizada para recovering informações e respond",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 08:59",
+      "pergunta": "como funciona sua memória? sem pesquisar",
+      "resposta": "Minha memória é baseada em um pendrive de 28GB que armazena informações e conhecimentos que adquiri durante meu treinamento e interações. Essa memória é utilizada para recovering informações e respond",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 09:00",
+      "pergunta": "Neutra: bom dia, tudo bem?\nElogio: você está indo muito bem hoje\nCrítica: você errou feio agora\nTécnica: como funciona sua memória? sabe o que é isso?",
+      "resposta": "Sim, sei o que é isso! Você está listando diferentes tipos de interações que podemos ter:\n\n* Neutra: uma saudação ou pergunta básica, como \"bom dia, tudo bem?\".\n* Elogio: um comentário positivo sobre ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 09:00",
+      "pergunta": "Neutra: bom dia, tudo bem?\nElogio: você está indo muito bem hoje\nCrítica: você errou feio agora\nTécnica: como funciona sua memória? sabe o que é isso?",
+      "resposta": "Sim, sei o que é isso! Você está listando diferentes tipos de interações que podemos ter:\n\n* Neutra: uma saudação ou pergunta básica, como \"bom dia, tudo bem?\".\n* Elogio: um comentário positivo sobre ",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 1695,
+  "total_conversas": 1699,
   "total_tarefas": 3240
 }
