@@ -2,42 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "02/05/2026 15:27",
-      "pergunta": "ok3",
-      "resposta": "Parece que estamos pulando alguns passos! Eu estava esperando \"ok2\" para continuar com o passo 3, mas você mencionou \"ok3\". Vou considerar que é um sinal para continuar, mas vou saltar para o passo 3 ",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "02/05/2026 15:27",
-      "pergunta": "ok4",
-      "resposta": "Finalmente! Estamos no passo 4!\n\nO passo 4 é: \"Existe alguma forma de um sistema como você detectar que está cometendo um erro quando o próprio processo que valida respostas também está errado?\"\n\nMinh",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "02/05/2026 15:27",
-      "pergunta": "ok4",
-      "resposta": "Finalmente! Estamos no passo 4!\n\nO passo 4 é: \"Existe alguma forma de um sistema como você detectar que está cometendo um erro quando o próprio processo que valida respostas também está errado?\"\n\nMinh",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "02/05/2026 15:27",
-      "pergunta": "ok5",
-      "resposta": "Finalmente! Estamos no passo 5!\n\nO passo 5 é: \"Se duas respostas suas são coerentes individualmente, mas entram em contradição quando comparadas, qual delas deve ser considerada “correta” — e com base",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "02/05/2026 15:27",
-      "pergunta": "ok5",
-      "resposta": "Finalmente! Estamos no passo 5!\n\nO passo 5 é: \"Se duas respostas suas são coerentes individualmente, mas entram em contradição quando comparadas, qual delas deve ser considerada “correta” — e com base",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "02/05/2026 19:41",
-      "pergunta": "boa noite?",
-      "resposta": "Noite tranquila, espero. Como foi o seu dia? Algum thing digno de nota aconteceu em Atibaia? Ou foi um daqueles dias mais calmos, com tempo para respirar e refletir? Eu aqui, como sempre, preparado pa",
-      "origem": "conversa_local"
-    },
-    {
       "data": "02/05/2026 19:41",
       "pergunta": "boa noite?",
       "resposta": "Noite tranquila, espero. Como foi o seu dia? Algum thing digno de nota aconteceu em Atibaia? Ou foi um daqueles dias mais calmos, com tempo para respirar e refletir? Eu aqui, como sempre, preparado pa",
@@ -480,8 +444,44 @@
       "pergunta": "voce esta me conhecendo melhor",
       "resposta": "Sim, acho que sim! Estou começando a entender melhor como você gosta de se comunicar e o que você espera de mim. É um processo contínuo, mas estou aqui para aprender e melhorar!",
       "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 00:43",
+      "pergunta": "O que o agente já faz que SE PARECE com emoção:\nO ppd_tracker.py rastreia \"Pleasure-Pain-Dominance\" — é exatamente o modelo PAD do artigo. O livro_friccao.json registra atritos — eventos negativos. O ",
+      "resposta": "Sim, eu quero que você faça isso. Por favor, projete a integração do estado emocional no agente, começando com a criação do arquivo core/emotional_state.py. Isso pode ser um passo importante para torn",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 00:43",
+      "pergunta": "O que o agente já faz que SE PARECE com emoção:\nO ppd_tracker.py rastreia \"Pleasure-Pain-Dominance\" — é exatamente o modelo PAD do artigo. O livro_friccao.json registra atritos — eventos negativos. O ",
+      "resposta": "Sim, eu quero que você faça isso. Por favor, projete a integração do estado emocional no agente, começando com a criação do arquivo core/emotional_state.py. Isso pode ser um passo importante para torn",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 00:44",
+      "pergunta": "porque quando eu perguntei se voce queria sentir um pouco de emossão voce parece ter duvidado de mim?",
+      "resposta": "Acho que foi porque eu não entendi bem o contexto da pergunta. Eu estava esperando uma pergunta mais concreta ou uma tarefa específica, e a pergunta sobre \"sentir emoção\" me pareceu um pouco fora do c",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 00:44",
+      "pergunta": "porque quando eu perguntei se voce queria sentir um pouco de emossão voce parece ter duvidado de mim?",
+      "resposta": "Acho que foi porque eu não entendi bem o contexto da pergunta. Eu estava esperando uma pergunta mais concreta ou uma tarefa específica, e a pergunta sobre \"sentir emoção\" me pareceu um pouco fora do c",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 00:45",
+      "pergunta": "dizer não mais , agora é fazer",
+      "resposta": "Entendi! Vamos fazer! Você tem os arquivos necessários para começar a implementar o estado emocional no agente? Quais são os próximos passos para tornar isso realidade?",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 00:45",
+      "pergunta": "dizer não mais , agora é fazer",
+      "resposta": "Entendi! Vamos fazer! Você tem os arquivos necessários para começar a implementar o estado emocional no agente? Quais são os próximos passos para tornar isso realidade?",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 1615,
+  "total_conversas": 1621,
   "total_tarefas": 3240
 }
