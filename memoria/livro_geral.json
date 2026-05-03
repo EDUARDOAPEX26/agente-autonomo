@@ -100,5 +100,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "Otimização de consumo de energia em servidores Xeon E5-2682 V4 para aplicações de IA",
     "conteudo": "Com base no contexto fornecido, aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação, com foco em otimização de consumo de energia em servidores Xeon E5-2682 V4 para aplicações de IA:\n\n1. **Otimização de Hardware**: Utilizar recursos como AMX (Advanced Matrix Extensions), DDR5/HBM (High-Bandwidth Memory) e PCIe 5.0 para melhorar o desempenho e reduzir o consumo de energia. Isso inclui configurar o hardware para utilizar os recursos mais efici"
+  },
+  {
+    "data": "03/05/2026 20:12",
+    "origem": "scout_torra_wikipedia",
+    "topico": "Estudo de caso: aplicação de IA em automação industrial com servidores Xeon e GPU AMD",
+    "conteudo": "Aqui estão os 4 pontos mais importantes que eu sintetizei como agente de IA:\n\n1. **Integração de Hardware de Alto Desempenho**: A combinação de CPUs Xeon com GPUs AMD pode proporcionar um alto desempenho e eficiência em workloads de IA, tornando-se uma escolha atraente para aplicações de automação industrial.\n\n2. **Processamento de Dados**: As GPUs AMD são capazes de processar grandes conjuntos de dados de forma rápida e eficiente, o que é essencial para aplicações de IA que exigem grande capaci"
   }
 ]
