@@ -11,7 +11,7 @@
       "evidencias": [],
       "revisoes": 0,
       "criado_em": "2026-05-01T18:43:06.548525",
-      "atualizado_em": "2026-05-02T00:33:06.306052",
+      "atualizado_em": "2026-05-03T09:08:18.972736",
       "clausula_ativa": true
     },
     {
@@ -29,8 +29,22 @@
       "criado_em": "2026-05-01T18:41:54.635422",
       "atualizado_em": "2026-05-01T18:45:16.076271",
       "clausula_ativa": true
+    },
+    {
+      "tipo": "principio",
+      "texto": "então nunca vou pedir para voce sebr chines kkkk",
+      "dominio": "outro",
+      "categoria": "outro",
+      "nivel_verdade": "inferido",
+      "confianca": 0.8500000000000001,
+      "contagem": 2,
+      "evidencias": [],
+      "revisoes": 0,
+      "criado_em": "2026-05-02T10:49:35.835701",
+      "atualizado_em": "2026-05-02T10:49:35.874643",
+      "clausula_ativa": true
     }
   ],
-  "versao": 73,
-  "atualizado_em": "2026-05-02T00:33:06.306080"
+  "versao": 255,
+  "atualizado_em": "2026-05-03T09:08:18.972764"
 }
