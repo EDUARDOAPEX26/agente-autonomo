@@ -94,5 +94,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "Desenvolvimento de algoritmos de tomada de decisão para agentes autônomos em ambientes incertos",
     "conteudo": "**Pontos Chave para um Agente de IA em Automação**\n\nCom base nos textos fornecidos, aqui estão os 3-4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Modelagem de Ambientes Incertos**: É fundamental lidar com ambientes incertos e informação incompleta. Isso pode ser alcançado utilizando técnicas como Partially Observable Markov Decision Process (POMDP), que permitem que o agente tome decisões baseadas em probabilidades e incertezas.\n\n2. **Aprendi"
+  },
+  {
+    "data": "03/05/2026 20:10",
+    "origem": "scout_torra_arxiv",
+    "topico": "Otimização de consumo de energia em servidores Xeon E5-2682 V4 para aplicações de IA",
+    "conteudo": "Com base no contexto fornecido, aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação, com foco em otimização de consumo de energia em servidores Xeon E5-2682 V4 para aplicações de IA:\n\n1. **Otimização de Hardware**: Utilizar recursos como AMX (Advanced Matrix Extensions), DDR5/HBM (High-Bandwidth Memory) e PCIe 5.0 para melhorar o desempenho e reduzir o consumo de energia. Isso inclui configurar o hardware para utilizar os recursos mais efici"
   }
 ]
