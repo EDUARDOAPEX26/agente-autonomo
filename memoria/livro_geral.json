@@ -58,5 +58,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "autonomous agent self-improvement techniques 2025",
     "conteudo": "Aqui estão 2 pontos sobre técnicas de auto-aperfeiçoamento de agentes autônomos em 2025:\n\n1. **Evolução de agentes**: A framework EvolveR permite que agentes de linguagem grande (LLM) se aperfeiçoem por meio de um ciclo de feedback entre reflexão offline e interação online, aprendendo com as consequências de suas próprias ações.\n2. **Otimização de prompts**: Existem estratégias de otimização de prompts que variam de iteração manual rápida a loops completamente automatizados, e é importante enten"
+  },
+  {
+    "data": "03/05/2026 19:29",
+    "origem": "scout_torra_arxiv",
+    "topico": "Otimização de throughput em servidores Xeon E5-2682 V4 para aplicações de IA",
+    "conteudo": "**Otimização de Throughput em Servidores Xeon E5-2682 V4 para Aplicações de IA**\n\nAo trabalhar com servidores Xeon E5-2682 V4 para aplicações de IA, é fundamental otimizar o throughput para maximizar o desempenho. Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Tarefas Paralelas**: O servidor Xeon E5-2682 V4 oferece 16 núcleos e 32 threads, o que permite executar múltiplas tarefas paralelas. Aproveitar essa capacidade de paralleli"
   }
 ]
