@@ -2,30 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "03/05/2026 00:55",
-      "pergunta": "vou te mandar so um codigo que um genspark fez",
-      "resposta": "Estou preparado! Por favor, envie o código que o Genspark desenvolveu. Estou curioso para ver o que é!",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 00:55",
-      "pergunta": "import math\nimport random\nfrom dataclasses import dataclass, field\nfrom typing import Dict, List, Optional\nfrom datetime import datetime\n\n# ============================================================",
-      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 00:56",
-      "pergunta": "pode pesquisar sim ,leberado ,aprovado",
-      "resposta": "Entendi! Você está me dando permissão para pesquisar e fornecer informações.\n\nAgora, vamos analisar o código que você forneceu. Ele parece ser um modelo de agente emocional que simula as emoções de um",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 00:56",
-      "pergunta": "pode pesquisar sim ,leberado ,aprovado",
-      "resposta": "Entendi! Você está me dando permissão para pesquisar e fornecer informações.\n\nAgora, vamos analisar o código que você forneceu. Ele parece ser um modelo de agente emocional que simula as emoções de um",
-      "origem": "conversa_local"
-    },
-    {
       "data": "03/05/2026 00:58",
       "pergunta": "eu sei eu que estou fazendo",
       "resposta": "Entendi! Você está desenvolvendo um modelo de agente emocional e está trabalhando no código para implementar as funcionalidades necessárias.\n\nNesse caso, posso ajudar a revisar o código e fornecer sug",
@@ -480,8 +456,32 @@
       "pergunta": "você errou feio agora",
       "resposta": "Parece que eu cometi um erro! Não foi tão bom quanto eu pensei, né? O que foi que eu fiz de errado? Você pode me dizer para que eu possa aprender com o erro e melhorar? Foi algo que eu disse ou fiz?",
       "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 09:07",
+      "pergunta": "como funciona sua memória?",
+      "resposta": "Minha memória é baseada em um pendrive de 28GB que é usado como memória persistente. Isso significa que eu posso armazenar e recuperar informações de forma contínua, mesmo quando eu sou reinicializado",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 09:07",
+      "pergunta": "como funciona sua memória?",
+      "resposta": "Minha memória é baseada em um pendrive de 28GB que é usado como memória persistente. Isso significa que eu posso armazenar e recuperar informações de forma contínua, mesmo quando eu sou reinicializado",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 09:08",
+      "pergunta": "Ótimo! Roda o agente e manda algumas mensagens para provocar o estado emocional:\n\nNeutra: bom dia, tudo bem?\nElogio: você está indo muito bem hoje\nCrítica: você errou feio agora\nTécnica: como funciona",
+      "resposta": "Vamos testar!\n\n**Neutra:**\nBom dia, tudo bem?\nResposta: Bom dia! Tudo bem sim, obrigado. Acabei de inicializar, então estou pronto para conversar. E você, como está hoje?\n\n**Elogio:**\nVocê está indo m",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 09:08",
+      "pergunta": "Ótimo! Roda o agente e manda algumas mensagens para provocar o estado emocional:\n\nNeutra: bom dia, tudo bem?\nElogio: você está indo muito bem hoje\nCrítica: você errou feio agora\nTécnica: como funciona",
+      "resposta": "Vamos testar!\n\n**Neutra:**\nBom dia, tudo bem?\nResposta: Bom dia! Tudo bem sim, obrigado. Acabei de inicializar, então estou pronto para conversar. E você, como está hoje?\n\n**Elogio:**\nVocê está indo m",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 1711,
+  "total_conversas": 1715,
   "total_tarefas": 3240
 }
