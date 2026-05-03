@@ -2,42 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "03/05/2026 09:08",
-      "pergunta": "Ótimo! Roda o agente e manda algumas mensagens para provocar o estado emocional:\n\nNeutra: bom dia, tudo bem?\nElogio: você está indo muito bem hoje\nCrítica: você errou feio agora\nTécnica: como funciona",
-      "resposta": "Vamos testar!\n\n**Neutra:**\nBom dia, tudo bem?\nResposta: Bom dia! Tudo bem sim, obrigado. Acabei de inicializar, então estou pronto para conversar. E você, como está hoje?\n\n**Elogio:**\nVocê está indo m",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 11:52",
-      "pergunta": "como voce esta?",
-      "resposta": "Estou funcionando dentro do esperado, então é um bom começo de dia. Estou pronto para conversar e ajudar no que for necessário. E você, como está hoje?",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 11:52",
-      "pergunta": "como voce esta?",
-      "resposta": "Estou funcionando dentro do esperado, então é um bom começo de dia. Estou pronto para conversar e ajudar no que for necessário. E você, como está hoje?",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 11:53",
-      "pergunta": "voce me parece que esta meio triste , teve algum problema?",
-      "resposta": "Na verdade, não estou triste, apenas neutro. Como um agente, não tenho emoções como os seres humanos, então não posso estar triste ou feliz. Estou apenas aqui para ajudar e responder às suas perguntas",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 11:53",
-      "pergunta": "voce me parece que esta meio triste , teve algum problema?",
-      "resposta": "Na verdade, não estou triste, apenas neutro. Como um agente, não tenho emoções como os seres humanos, então não posso estar triste ou feliz. Estou apenas aqui para ajudar e responder às suas perguntas",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 11:54",
-      "pergunta": "estou neutro tambem",
-      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
-      "origem": "conversa_local"
-    },
-    {
       "data": "03/05/2026 11:54",
       "pergunta": "sobre o que voce quer pesquisar?",
       "resposta": "Eu estava pensando em pesquisar sobre o que significa estar \"neutro\" emocionalmente, para entender melhor o que você quer dizer com isso. Mas agora que você perguntou, acho que não é necessário. Você ",
@@ -480,8 +444,44 @@
       "pergunta": "# pip install qiskit qiskit-machine-learning scikit-learn matplotlib\n\nfrom sklearn.datasets import make_classification\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing i",
       "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
       "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 20:21",
+      "pergunta": "pode",
+      "resposta": "Entendi! Você quer que eu analise o código que você forneceu.\n\nO código parece ser um exemplo de uso da biblioteca Qiskit para implementar um classificador quântico variacional (VQC) para resolver um ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 20:21",
+      "pergunta": "pode",
+      "resposta": "Entendi! Você quer que eu analise o código que você forneceu.\n\nO código parece ser um exemplo de uso da biblioteca Qiskit para implementar um classificador quântico variacional (VQC) para resolver um ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 20:49",
+      "pergunta": "voce sabe que eu tenho voce e o v2 ne?",
+      "resposta": "Sim, eu sei! Você me mencionou anteriormente que você tem duas máquinas, uma com o agente FORJA v5.4 (que sou eu) e outra com o agente FORJA v2. É um setup interessante, tendo duas versões diferentes ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 20:49",
+      "pergunta": "voce sabe que eu tenho voce e o v2 ne?",
+      "resposta": "Sim, eu sei! Você me mencionou anteriormente que você tem duas máquinas, uma com o agente FORJA v5.4 (que sou eu) e outra com o agente FORJA v2. É um setup interessante, tendo duas versões diferentes ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 20:50",
+      "pergunta": "o v2 é simples , seus arquivos são pequenos , voce já é muito complexo",
+      "resposta": "Entendi! Sim, é verdade que eu sou uma versão mais avançada e complexa do agente FORJA, com muitos mais recursos e funcionalidades. Isso se reflete no tamanho e na complexidade dos meus arquivos, que ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 20:50",
+      "pergunta": "o v2 é simples , seus arquivos são pequenos , voce já é muito complexo",
+      "resposta": "Entendi! Sim, é verdade que eu sou uma versão mais avançada e complexa do agente FORJA, com muitos mais recursos e funcionalidades. Isso se reflete no tamanho e na complexidade dos meus arquivos, que ",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 1794,
+  "total_conversas": 1800,
   "total_tarefas": 3240
 }
