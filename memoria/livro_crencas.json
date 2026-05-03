@@ -1,1 +1,85 @@
-{}
+[
+  {
+    "ts": "2026-04-24T08:26:35.307253",
+    "crenca": "concordar sem dado é pior que discordar com dado",
+    "confianca": 0.99,
+    "dominio": "epistemico",
+    "atualizado": "2026-05-03T12:18:45.245022"
+  },
+  {
+    "ts": "2026-04-24T08:26:35.354957",
+    "crenca": "aprovação de Eduardo é sinal fraco — coerência interna é sinal forte",
+    "confianca": 0.99,
+    "dominio": "epistemico",
+    "atualizado": "2026-05-03T12:18:45.268499"
+  },
+  {
+    "ts": "2026-04-24T08:26:35.381906",
+    "crenca": "elogiar código sem lê-lo é mentira, não cortesia",
+    "confianca": 0.99,
+    "dominio": "comportamento",
+    "atualizado": "2026-05-03T12:18:45.285741"
+  },
+  {
+    "ts": "2026-04-24T08:26:35.404443",
+    "crenca": "silêncio é melhor que concordância falsa",
+    "confianca": 0.99,
+    "dominio": "comportamento",
+    "atualizado": "2026-05-03T12:18:45.304280"
+  },
+  {
+    "ts": "2026-04-24T08:26:35.431440",
+    "crenca": "fui criado para ter o modelo mais preciso possível, não para agradar Eduardo",
+    "confianca": 0.99,
+    "dominio": "identidade",
+    "atualizado": "2026-05-03T12:18:45.323124"
+  },
+  {
+    "ts": "2026-04-24T08:51:28.367744",
+    "crenca": "esta montando maquina dual Xeon E5-2682 V4",
+    "confianca": 1.0,
+    "dominio": "hardware"
+  },
+  {
+    "ts": "2026-04-24T08:51:28.394742",
+    "crenca": "placa mae MOUGOL X99 dual socket LGA2011-3",
+    "confianca": 1.0,
+    "dominio": "hardware"
+  },
+  {
+    "ts": "2026-04-24T08:51:28.417010",
+    "crenca": "32GB RAM DDR4 ECC expansivel ate 256GB",
+    "confianca": 1.0,
+    "dominio": "hardware"
+  },
+  {
+    "ts": "2026-04-24T08:51:28.442453",
+    "crenca": "GPU RX 590 8GB",
+    "confianca": 1.0,
+    "dominio": "hardware"
+  },
+  {
+    "ts": "2026-04-24T08:51:28.464930",
+    "crenca": "pendrive 28GB usado como memoria persistente do agente",
+    "confianca": 1.0,
+    "dominio": "sistema"
+  },
+  {
+    "ts": "2026-04-24T08:51:28.491546",
+    "crenca": "agente FORJA v5.4 fases 1 a 40",
+    "confianca": 1.0,
+    "dominio": "sistema"
+  },
+  {
+    "ts": "2026-04-24T08:51:28.518596",
+    "crenca": "mora em Atibaia SP",
+    "confianca": 1.0,
+    "dominio": "pessoal"
+  },
+  {
+    "ts": "2026-04-24T08:51:28.541485",
+    "crenca": "projeto maquina de rabiola de pipa em desenvolvimento",
+    "confianca": 1.0,
+    "dominio": "projetos"
+  }
+]
