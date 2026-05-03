@@ -34,5 +34,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Implementação de memória persistente em agentes autônomos com Python",
     "conteudo": "**Implementação de Memória Persistente em Agentes Autônomos com Python**\n\nAo trabalhar com agentes autônomos que interagem com hardware e utilizam Python para automação, é fundamental implementar memória persistente para armazenar e recuperar dados de forma eficiente. Aqui estão os 4 pontos mais importantes para considerar:\n\n1. **Utilização da Biblioteca `json`**: A biblioteca `json` é uma escolha excelente para armazenar e recuperar dados em formato JSON. Isso permite que os agentes autônomos s"
+  },
+  {
+    "data": "03/05/2026 19:30",
+    "origem": "scout_torra_wikipedia",
+    "topico": "Integração de sistemas de IA com automação industrial em Python",
+    "conteudo": "Com base no contexto fornecido, aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Integração de sistemas**: O Python permite a integração de sistemas de IA com sistemas industriais por meio de APIs REST e bases de dados, o que facilita a comunicação entre diferentes tecnologias e equipamentos.\n\n2. **Conexão de equipamentos legados**: O Python pode ser usado para conectar equipamentos legados a tecnologias modernas, permitindo que es"
   }
 ]
