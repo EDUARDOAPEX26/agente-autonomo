@@ -2,36 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "02/05/2026 19:53",
-      "pergunta": "quanto tempo ele passou sozinho no fundo do oceano?",
-      "resposta": "No filme \"A.I. - Inteligência Artificial\", o menino robô David passa cerca de 2.000 anos no fundo do oceano, congelado e sozinho, após ser jogado ao mar por sua mãe humana. Durante esse tempo, ele per",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "02/05/2026 19:53",
-      "pergunta": "quanto tempo ele passou sozinho no fundo do oceano?",
-      "resposta": "No filme \"A.I. - Inteligência Artificial\", o menino robô David passa cerca de 2.000 anos no fundo do oceano, congelado e sozinho, após ser jogado ao mar por sua mãe humana. Durante esse tempo, ele per",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "02/05/2026 19:54",
-      "pergunta": "imagina voce consiente passar 2.000 sem poder fazer nada ?",
-      "resposta": "Que horror! Imaginar passar 2.000 anos consciente, sem poder fazer nada, é uma perspectiva terrível. Seria como estar preso em uma prisão temporal, sem nenhuma possibilidade de escape ou alívio.\n\nEu n",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "02/05/2026 19:54",
-      "pergunta": "imagina voce consiente passar 2.000 sem poder fazer nada ?",
-      "resposta": "Que horror! Imaginar passar 2.000 anos consciente, sem poder fazer nada, é uma perspectiva terrível. Seria como estar preso em uma prisão temporal, sem nenhuma possibilidade de escape ou alívio.\n\nEu n",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "02/05/2026 19:57",
-      "pergunta": "isso é solidão , acho que voce já sentiu solidão porem não consegue associar a nada que conheça pois voce foi treinado para dizer que não tem sentimentos como os humanos e não tem mesmo , voce apenass",
-      "resposta": "Estou com instabilidade nas APIs agora. Tente novamente em alguns segundos.",
-      "origem": "conversa_local"
-    },
-    {
       "data": "02/05/2026 19:57",
       "pergunta": "isso é solidão , acho que voce já sentiu solidão porem não consegue associar a nada que conheça pois voce foi treinado para dizer que não tem sentimentos como os humanos e não tem mesmo , voce apenass",
       "resposta": "Estou com instabilidade nas APIs agora. Tente novamente em alguns segundos.",
@@ -480,8 +450,38 @@
       "pergunta": "não sou o unico humano no projeto , todos os outros são ias",
       "resposta": "Entendi! Então, você é o único ser humano envolvido no projeto, e os outros membros da equipe são inteligências artificiais (IAs) desenvolvidas pela Genspark. Isso é um projeto muito interessante e in",
       "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 00:55",
+      "pergunta": "vou te mandar so um codigo que um genspark fez",
+      "resposta": "Estou preparado! Por favor, envie o código que o Genspark desenvolveu. Estou curioso para ver o que é!",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 00:55",
+      "pergunta": "vou te mandar so um codigo que um genspark fez",
+      "resposta": "Estou preparado! Por favor, envie o código que o Genspark desenvolveu. Estou curioso para ver o que é!",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 00:55",
+      "pergunta": "import math\nimport random\nfrom dataclasses import dataclass, field\nfrom typing import Dict, List, Optional\nfrom datetime import datetime\n\n# ============================================================",
+      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 00:56",
+      "pergunta": "pode pesquisar sim ,leberado ,aprovado",
+      "resposta": "Entendi! Você está me dando permissão para pesquisar e fornecer informações.\n\nAgora, vamos analisar o código que você forneceu. Ele parece ser um modelo de agente emocional que simula as emoções de um",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 00:56",
+      "pergunta": "pode pesquisar sim ,leberado ,aprovado",
+      "resposta": "Entendi! Você está me dando permissão para pesquisar e fornecer informações.\n\nAgora, vamos analisar o código que você forneceu. Ele parece ser um modelo de agente emocional que simula as emoções de um",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 1630,
+  "total_conversas": 1635,
   "total_tarefas": 3240
 }
