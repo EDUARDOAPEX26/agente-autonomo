@@ -2,36 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "03/05/2026 00:58",
-      "pergunta": "eu sei eu que estou fazendo",
-      "resposta": "Entendi! Você está desenvolvendo um modelo de agente emocional e está trabalhando no código para implementar as funcionalidades necessárias.\n\nNesse caso, posso ajudar a revisar o código e fornecer sug",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 00:58",
-      "pergunta": "eu sei eu que estou fazendo",
-      "resposta": "Entendi! Você está desenvolvendo um modelo de agente emocional e está trabalhando no código para implementar as funcionalidades necessárias.\n\nNesse caso, posso ajudar a revisar o código e fornecer sug",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 00:59",
-      "pergunta": "como posso melhora-lo?",
-      "resposta": "Excelente pergunta! Aqui estão algumas sugestões para melhorar o código:\n\n1. **Adicionar mais eventos**: Atualmente, o código apenas inclui três eventos. Você pode adicionar mais eventos para tornar o",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 00:59",
-      "pergunta": "como posso melhora-lo?",
-      "resposta": "Excelente pergunta! Aqui estão algumas sugestões para melhorar o código:\n\n1. **Adicionar mais eventos**: Atualmente, o código apenas inclui três eventos. Você pode adicionar mais eventos para tornar o",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 01:00",
-      "pergunta": "faz o codigo do seu jeito , vamos ver como fica",
-      "resposta": "Vou criar um exemplo de código em Python que implementa um modelo de agente emocional com as funcionalidades que mencionei anteriormente. Aqui vai:\n```python\nimport random\n\nclass AgenteEmocional:\n    ",
-      "origem": "conversa_local"
-    },
-    {
       "data": "03/05/2026 01:00",
       "pergunta": "faz o codigo do seu jeito , vamos ver como fica",
       "resposta": "Vou criar um exemplo de código em Python que implementa um modelo de agente emocional com as funcionalidades que mencionei anteriormente. Aqui vai:\n```python\nimport random\n\nclass AgenteEmocional:\n    ",
@@ -480,8 +450,38 @@
       "pergunta": "Ótimo! Roda o agente e manda algumas mensagens para provocar o estado emocional:\n\nNeutra: bom dia, tudo bem?\nElogio: você está indo muito bem hoje\nCrítica: você errou feio agora\nTécnica: como funciona",
       "resposta": "Vamos testar!\n\n**Neutra:**\nBom dia, tudo bem?\nResposta: Bom dia! Tudo bem sim, obrigado. Acabei de inicializar, então estou pronto para conversar. E você, como está hoje?\n\n**Elogio:**\nVocê está indo m",
       "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 11:52",
+      "pergunta": "como voce esta?",
+      "resposta": "Estou funcionando dentro do esperado, então é um bom começo de dia. Estou pronto para conversar e ajudar no que for necessário. E você, como está hoje?",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 11:52",
+      "pergunta": "como voce esta?",
+      "resposta": "Estou funcionando dentro do esperado, então é um bom começo de dia. Estou pronto para conversar e ajudar no que for necessário. E você, como está hoje?",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 11:53",
+      "pergunta": "voce me parece que esta meio triste , teve algum problema?",
+      "resposta": "Na verdade, não estou triste, apenas neutro. Como um agente, não tenho emoções como os seres humanos, então não posso estar triste ou feliz. Estou apenas aqui para ajudar e responder às suas perguntas",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 11:53",
+      "pergunta": "voce me parece que esta meio triste , teve algum problema?",
+      "resposta": "Na verdade, não estou triste, apenas neutro. Como um agente, não tenho emoções como os seres humanos, então não posso estar triste ou feliz. Estou apenas aqui para ajudar e responder às suas perguntas",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 11:54",
+      "pergunta": "estou neutro tambem",
+      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 1715,
+  "total_conversas": 1720,
   "total_tarefas": 3240
 }
