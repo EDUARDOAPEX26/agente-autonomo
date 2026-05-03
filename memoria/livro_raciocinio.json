@@ -218,5 +218,27 @@
     "latencia_ms": 347,
     "api_usada": "nenhuma",
     "timestamp": "2026-04-30T19:41:59.186852"
+  },
+  {
+    "pergunta": "ola",
+    "estrategia": "local",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 43,
+    "api_usada": "local",
+    "timestamp": "2026-05-03T15:49:31.996183"
+  },
+  {
+    "pergunta": "não",
+    "estrategia": "local",
+    "erro_tipo": "ok",
+    "correcao": "",
+    "score": 1.0,
+    "escopo": "conversacional",
+    "latencia_ms": 51,
+    "api_usada": "local",
+    "timestamp": "2026-05-03T15:51:29.782204"
   }
 ]
