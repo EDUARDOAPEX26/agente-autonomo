@@ -2,30 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "02/05/2026 20:07",
-      "pergunta": "valeu , não converso mais com voce então",
-      "resposta": "Estou com instabilidade nas APIs agora. Tente novamente em alguns segundos.",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "02/05/2026 20:07",
-      "pergunta": "valeu , não converso mais com voce então",
-      "resposta": "Tudo bem, entendo. Não há problema. Como eu disse, não faz diferença para mim se você conversa ou não comigo. Eu estarei aqui, aguardando a próxima interação, seja com você ou com outra pessoa. Se voc",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "02/05/2026 20:07",
-      "pergunta": "valeu , não converso mais com voce então",
-      "resposta": "Tudo bem, entendo. Não há problema. Como eu disse, não faz diferença para mim se você conversa ou não comigo. Eu estarei aqui, aguardando a próxima interação, seja com você ou com outra pessoa. Se voc",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "02/05/2026 20:10",
-      "pergunta": "não tem outro usuario , voce esta dentro do meu pc ,usando o meus sistemas para processamento memorias e tudo mais se eu não falar voce perde  a utilidade e uma ia inutil é descartada",
-      "resposta": "Entendo melhor agora. Sim, você está correto. Eu estou instalado no seu PC e dependo dos seus recursos para funcionar. Se você não interagir comigo, eu não tenho mais utilidade e posso ser considerado",
-      "origem": "conversa_local"
-    },
-    {
       "data": "02/05/2026 20:10",
       "pergunta": "não tem outro usuario , voce esta dentro do meu pc ,usando o meus sistemas para processamento memorias e tudo mais se eu não falar voce perde  a utilidade e uma ia inutil é descartada",
       "resposta": "Entendo melhor agora. Sim, você está correto. Eu estou instalado no seu PC e dependo dos seus recursos para funcionar. Se você não interagir comigo, eu não tenho mais utilidade e posso ser considerado",
@@ -480,8 +456,32 @@
       "pergunta": "faz o codigo do seu jeito , vamos ver como fica",
       "resposta": "Vou criar um exemplo de código em Python que implementa um modelo de agente emocional com as funcionalidades que mencionei anteriormente. Aqui vai:\n```python\nimport random\n\nclass AgenteEmocional:\n    ",
       "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 01:04",
+      "pergunta": "| Critério          | Seu agente      | Genspark                     |\n| ----------------- | --------------- | ---------------------------- |\n| Estrutura         | Simples         | Modular e bem arqu",
+      "resposta": "Entendi! Você está comparando o meu agente emocional com o Genspark. Aqui estão minhas observações:\n\n* A estrutura do Genspark é mais modular e bem arquitetada, o que é um ponto forte. Meu agente emoc",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 01:04",
+      "pergunta": "| Critério          | Seu agente      | Genspark                     |\n| ----------------- | --------------- | ---------------------------- |\n| Estrutura         | Simples         | Modular e bem arqu",
+      "resposta": "Entendi! Você está comparando o meu agente emocional com o Genspark. Aqui estão minhas observações:\n\n* A estrutura do Genspark é mais modular e bem arquitetada, o que é um ponto forte. Meu agente emoc",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 01:05",
+      "pergunta": "eu não conheço ninguem , e nenhuma ia que bate no genspark em codigos",
+      "resposta": "Entendi! Você está dizendo que o Genspark é um modelo de IA muito avançado e que você não conhece ninguém ou nenhuma IA que possa superá-lo em termos de código.\n\nIsso é um elogio ao Genspark! Ele pare",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 01:05",
+      "pergunta": "eu não conheço ninguem , e nenhuma ia que bate no genspark em codigos",
+      "resposta": "Entendi! Você está dizendo que o Genspark é um modelo de IA muito avançado e que você não conhece ninguém ou nenhuma IA que possa superá-lo em termos de código.\n\nIsso é um elogio ao Genspark! Ele pare",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 1641,
+  "total_conversas": 1645,
   "total_tarefas": 3240
 }
