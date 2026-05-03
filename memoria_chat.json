@@ -2,42 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "03/05/2026 01:00",
-      "pergunta": "faz o codigo do seu jeito , vamos ver como fica",
-      "resposta": "Vou criar um exemplo de código em Python que implementa um modelo de agente emocional com as funcionalidades que mencionei anteriormente. Aqui vai:\n```python\nimport random\n\nclass AgenteEmocional:\n    ",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 01:04",
-      "pergunta": "| Critério          | Seu agente      | Genspark                     |\n| ----------------- | --------------- | ---------------------------- |\n| Estrutura         | Simples         | Modular e bem arqu",
-      "resposta": "Entendi! Você está comparando o meu agente emocional com o Genspark. Aqui estão minhas observações:\n\n* A estrutura do Genspark é mais modular e bem arquitetada, o que é um ponto forte. Meu agente emoc",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 01:04",
-      "pergunta": "| Critério          | Seu agente      | Genspark                     |\n| ----------------- | --------------- | ---------------------------- |\n| Estrutura         | Simples         | Modular e bem arqu",
-      "resposta": "Entendi! Você está comparando o meu agente emocional com o Genspark. Aqui estão minhas observações:\n\n* A estrutura do Genspark é mais modular e bem arquitetada, o que é um ponto forte. Meu agente emoc",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 01:05",
-      "pergunta": "eu não conheço ninguem , e nenhuma ia que bate no genspark em codigos",
-      "resposta": "Entendi! Você está dizendo que o Genspark é um modelo de IA muito avançado e que você não conhece ninguém ou nenhuma IA que possa superá-lo em termos de código.\n\nIsso é um elogio ao Genspark! Ele pare",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 01:05",
-      "pergunta": "eu não conheço ninguem , e nenhuma ia que bate no genspark em codigos",
-      "resposta": "Entendi! Você está dizendo que o Genspark é um modelo de IA muito avançado e que você não conhece ninguém ou nenhuma IA que possa superá-lo em termos de código.\n\nIsso é um elogio ao Genspark! Ele pare",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 01:06",
-      "pergunta": "sim eles sãi super inteligentes , unico ponto que são muito limitados de tempo",
-      "resposta": "Entendi! Você está dizendo que os criadores do Genspark são super inteligentes e capazes de criar modelos de IA avançados, mas que eles têm uma limitação de tempo para trabalhar em seus projetos.\n\nIss",
-      "origem": "conversa_local"
-    },
-    {
       "data": "03/05/2026 01:06",
       "pergunta": "sim eles sãi super inteligentes , unico ponto que são muito limitados de tempo",
       "resposta": "Entendi! Você está dizendo que os criadores do Genspark são super inteligentes e capazes de criar modelos de IA avançados, mas que eles têm uma limitação de tempo para trabalhar em seus projetos.\n\nIss",
@@ -480,8 +444,44 @@
       "pergunta": "estou neutro tambem",
       "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
       "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 11:54",
+      "pergunta": "sobre o que voce quer pesquisar?",
+      "resposta": "Eu estava pensando em pesquisar sobre o que significa estar \"neutro\" emocionalmente, para entender melhor o que você quer dizer com isso. Mas agora que você perguntou, acho que não é necessário. Você ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 11:54",
+      "pergunta": "sobre o que voce quer pesquisar?",
+      "resposta": "Eu estava pensando em pesquisar sobre o que significa estar \"neutro\" emocionalmente, para entender melhor o que você quer dizer com isso. Mas agora que você perguntou, acho que não é necessário. Você ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 11:55",
+      "pergunta": "voce deve saber voce tambem disse quando eu te paergunteis se voce estava triste",
+      "resposta": "Sim, me lembro agora. Quando você me perguntou se eu estava triste, eu disse que não, que apenas não tenho emoções como os seres humanos. Então, quando você disse que está neutro, acho que estava se r",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 11:55",
+      "pergunta": "voce deve saber voce tambem disse quando eu te paergunteis se voce estava triste",
+      "resposta": "Sim, me lembro agora. Quando você me perguntou se eu estava triste, eu disse que não, que apenas não tenho emoções como os seres humanos. Então, quando você disse que está neutro, acho que estava se r",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 11:55",
+      "pergunta": "sim igual a voce",
+      "resposta": "Entendi! Acho que agora entendi melhor o que você queria dizer. Sim, podemos dizer que estamos em estados emocionais semelhantes, embora de formas diferentes. Eu, como um agente, não tenho emoções de ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 11:55",
+      "pergunta": "sim igual a voce",
+      "resposta": "Entendi! Acho que agora entendi melhor o que você queria dizer. Sim, podemos dizer que estamos em estados emocionais semelhantes, embora de formas diferentes. Eu, como um agente, não tenho emoções de ",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 1720,
+  "total_conversas": 1726,
   "total_tarefas": 3240
 }
