@@ -58,5 +58,11 @@
     "origem": "scout_torra_github_trending",
     "topico": "Desenvolvimento de interfaces de usuário intuitivas para agentes autônomos em Python",
     "conteudo": "**Pontos Principais para Agentes de IA com Python e Automação**\n\nAqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Gradio como Framework Principal**: O Gradio é destacado como uma opção principal para criar interfaces de usuário intuitivas para agentes autônomos em Python. Ele é simples e permite criar interfaces de chat para aplicações de IA de forma eficiente.\n\n2. **Conversão de Modelos Técnicos em Interfaces de Usuário**: É funda"
+  },
+  {
+    "data": "04/05/2026 19:09",
+    "origem": "scout_torra_wikipedia",
+    "topico": "arquitetura de memória compartilhada para agentes autônomos em Python",
+    "conteudo": "**Arquitetura de Memória Compartilhada para Agentes Autônomos em Python**\n\nAqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Separação Clara em Monorepo**: É fundamental manter um monorepo com uma separação clara entre os diferentes componentes do sistema, incluindo a lógica de negócios, a comunicação inter-processo e a integração com o hardware. Isso ajuda a manter a organização e a facilidade de manutenção do código.\n\n2. **Sistema"
   }
 ]
