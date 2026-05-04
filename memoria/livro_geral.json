@@ -118,5 +118,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Eficiência de escalabilidade em clusters de servidores Xeon E5-2682 V4 para treinamento de modelos d",
     "conteudo": "Aqui estão 3 pontos resumindo a eficiência de escalabilidade em clusters de servidores Xeon E5-2682 V4 para treinamento de modelos de IA:\n\n1. **Treinamento distribuído**: O uso de tecnologias como TensorFlow + Horovod e oneDNN permite treinar modelos de IA de forma distribuída em clusters de servidores Xeon E5-2682 V4, melhorando a eficiência e escalabilidade do treinamento.\n2. **Divisão de cargas de trabalho e sincronização**: A divisão de cargas de trabalho e sincronização das GPUs em clusters"
+  },
+  {
+    "data": "04/05/2026 19:10",
+    "origem": "scout_torra_arxiv",
+    "topico": "técnicas de compressão de dados para armazenamento eficiente em pendrives",
+    "conteudo": "**Técnicas de Compressão de Dados para Armazenamento Eficiente em Pendrives**\n\nAqui estão os 4 pontos mais importantes sobre técnicas de compressão de dados para armazenamento eficiente em pendrives:\n\n1. **Métodos de Compressão**: Utilize métodos de compressão como ZIP ou RAR para reduzir o tamanho dos dados armazenados em pendrives, melhorando assim a eficiência de armazenamento.\n2. **Ferramentas Nativas**: Ferramentas nativas do sistema operacional também podem ser utilizadas para compressão d"
   }
 ]
