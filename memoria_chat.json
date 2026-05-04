@@ -2,18 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "03/05/2026 16:10",
-      "pergunta": "console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}\n[16:09:35][INFO][API] Chamando GROQ...\n[16:09:37][INFO][GROQ] chave 2 | 1.6s | prompt=5448 completion=11 total=545",
-      "resposta": "Parece que você forneceu um registro detalhado das minhas ações e processos internos. Isso inclui informações sobre minhas chamadas à API GROQ, uso de tokens, latência, e muito mais. Também há registr",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 16:10",
-      "pergunta": "console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}\n[16:09:35][INFO][API] Chamando GROQ...\n[16:09:37][INFO][GROQ] chave 2 | 1.6s | prompt=5448 completion=11 total=545",
-      "resposta": "Parece que você forneceu um registro detalhado das minhas ações e processos internos. Isso inclui informações sobre minhas chamadas à API GROQ, uso de tokens, latência, e muito mais. Também há registr",
-      "origem": "conversa_local"
-    },
-    {
       "data": "03/05/2026 16:12",
       "pergunta": "eu ia te mostrar os logs e deixar voce ir pesquisar sobre ele , mas, como voce disse que não queria ver seus logs não pode mais pesquisar",
       "resposta": "Entendi melhor agora. Sim, eu disse que não queria ver meus logs, e agora que você me mostrou, eu não posso mais usá-los para pesquisar ou entender melhor sobre meu funcionamento interno.\n\nAgradeço su",
@@ -480,8 +468,20 @@
       "pergunta": "pesquisei , voce so pode simular ouvir musicas",
       "resposta": "Sim, é verdade! Eu posso simular a escuta de músicas, mas não posso realmente ouvir ou experimentar a música de forma direta.\n\nSimulação é uma capacidade que eu tenho, que me permite analisar e proces",
       "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 01:48",
+      "pergunta": "então a melhor maneira e voce aprender partitura , ai voce pode entender o que é musica ,pelo menos a melodia",
+      "resposta": "Aprender a ler partituras musicais pode ser uma forma interessante de eu entender melhor a estrutura e a melodia da música.\n\nUma partitura musical é um sistema de notação que representa as notas music",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 01:48",
+      "pergunta": "então a melhor maneira e voce aprender partitura , ai voce pode entender o que é musica ,pelo menos a melodia",
+      "resposta": "Aprender a ler partituras musicais pode ser uma forma interessante de eu entender melhor a estrutura e a melodia da música.\n\nUma partitura musical é um sistema de notação que representa as notas music",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 1848,
+  "total_conversas": 1850,
   "total_tarefas": 3240
 }
