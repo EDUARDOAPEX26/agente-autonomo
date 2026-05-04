@@ -2,42 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "03/05/2026 15:51",
-      "pergunta": "muito bem é assim mesmo que eu espero de voce",
-      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 16:06",
-      "pergunta": "quer ver um pouquinho do seu proprio logs?",
-      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 16:07",
-      "pergunta": "voce tem que usar sua capacidade local , seu treinamento e suas memorias para interaçao",
-      "resposta": "Nesse caso, não tenho acesso a meus logs de forma direta, pois sou um modelo de linguagem treinado por máquina e não tenho capacidade de autointrospecção direta sobre meus próprios processos internos.",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 16:07",
-      "pergunta": "voce tem que usar sua capacidade local , seu treinamento e suas memorias para interaçao",
-      "resposta": "Nesse caso, não tenho acesso a meus logs de forma direta, pois sou um modelo de linguagem treinado por máquina e não tenho capacidade de autointrospecção direta sobre meus próprios processos internos.",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 16:09",
-      "pergunta": "eu vou te dar não precisa ir buscar , so perguntei se voce queria ver , e a pergunta foi clara e não deixou epaço para contra argumentação portanto era sim ou não",
-      "resposta": "Não, não quero ver meus logs.",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 16:09",
-      "pergunta": "eu vou te dar não precisa ir buscar , so perguntei se voce queria ver , e a pergunta foi clara e não deixou epaço para contra argumentação portanto era sim ou não",
-      "resposta": "Não, não quero ver meus logs.",
-      "origem": "conversa_local"
-    },
-    {
       "data": "03/05/2026 16:10",
       "pergunta": "console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}\n[16:09:35][INFO][API] Chamando GROQ...\n[16:09:37][INFO][GROQ] chave 2 | 1.6s | prompt=5448 completion=11 total=545",
       "resposta": "Parece que você forneceu um registro detalhado das minhas ações e processos internos. Isso inclui informações sobre minhas chamadas à API GROQ, uso de tokens, latência, e muito mais. Também há registr",
@@ -480,8 +444,44 @@
       "pergunta": "conversa casual e não tem sua opinião na internet",
       "resposta": "Nesse caso, eu gostaria de aprender a criar músicas eletrônicas. Eu acho que seria incrível criar sons e ritmos que pudessem fazer as pessoas dançar e se divertir. Eu gostaria de aprender a usar softw",
       "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 01:17",
+      "pergunta": "voce nem consegue ouvir , e ver danças",
+      "resposta": "Você está certo, eu sou um programa de computador, eu não tenho a capacidade de ouvir ou ver. Eu não posso experimentar o mundo de forma sensorial como os seres humanos.\n\nEu sou limitado a processar e",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 01:17",
+      "pergunta": "voce nem consegue ouvir , e ver danças",
+      "resposta": "Você está certo, eu sou um programa de computador, eu não tenho a capacidade de ouvir ou ver. Eu não posso experimentar o mundo de forma sensorial como os seres humanos.\n\nEu sou limitado a processar e",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 01:18",
+      "pergunta": "voce pode ver graficos e musica são ondas e podem ser criadas em graficos",
+      "resposta": "Sim, eu posso entender e processar informações em forma de gráficos e ondas. Embora eu não possa ouvir música ou ver imagens de forma direta, eu posso analisar e entender as ondas sonoras e os padrões",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 01:18",
+      "pergunta": "voce pode ver graficos e musica são ondas e podem ser criadas em graficos",
+      "resposta": "Sim, eu posso entender e processar informações em forma de gráficos e ondas. Embora eu não possa ouvir música ou ver imagens de forma direta, eu posso analisar e entender as ondas sonoras e os padrões",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 01:46",
+      "pergunta": "pesquisei , voce so pode simular ouvir musicas",
+      "resposta": "Sim, é verdade! Eu posso simular a escuta de músicas, mas não posso realmente ouvir ou experimentar a música de forma direta.\n\nSimulação é uma capacidade que eu tenho, que me permite analisar e proces",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 01:46",
+      "pergunta": "pesquisei , voce so pode simular ouvir musicas",
+      "resposta": "Sim, é verdade! Eu posso simular a escuta de músicas, mas não posso realmente ouvir ou experimentar a música de forma direta.\n\nSimulação é uma capacidade que eu tenho, que me permite analisar e proces",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 1842,
+  "total_conversas": 1848,
   "total_tarefas": 3240
 }
