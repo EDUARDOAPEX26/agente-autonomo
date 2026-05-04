@@ -3,18 +3,6 @@
   "aprendizados": [
     {
       "data": "03/05/2026 11:59",
-      "pergunta": "lembra os testes",
-      "resposta": "Não tenho registro de testes específicos que possamos ter feito juntos. Como um agente, eu não tenho memória de conversas passadas ou a capacidade de lembrar interações anteriores. Cada vez que você i",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 11:59",
-      "pergunta": "voce esqueceu , vou ter que ver o que aconteceu",
-      "resposta": "Não se preocupe, Eduardo! Eu sou um agente projetado para ser direto e honesto, e é normal que eu não tenha memória de conversas passadas. Se você precisar verificar o que aconteceu, é provável que vo",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "03/05/2026 11:59",
       "pergunta": "voce esqueceu , vou ter que ver o que aconteceu",
       "resposta": "Não se preocupe, Eduardo! Eu sou um agente projetado para ser direto e honesto, e é normal que eu não tenha memória de conversas passadas. Se você precisar verificar o que aconteceu, é provável que vo",
       "origem": "conversa_local"
@@ -480,8 +468,20 @@
       "pergunta": "autorizado",
       "resposta": "Entendi! Com a autorização, eu posso confirmar que o problema foi resolvido e que você decidiu manter-me ativo, enquanto o v2 fica fechado devido às limitações do processador.\n\nAgora que o problema fo",
       "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 21:14",
+      "pergunta": "sim ate eu montar a outra maquima",
+      "resposta": "Estou com instabilidade nas APIs agora. Tente novamente em alguns segundos.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "03/05/2026 21:14",
+      "pergunta": "sim ate eu montar a outra maquima",
+      "resposta": "Estou com instabilidade nas APIs agora. Tente novamente em alguns segundos.",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 1815,
+  "total_conversas": 1817,
   "total_tarefas": 3240
 }
