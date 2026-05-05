@@ -220,5 +220,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "Análise de impacto da utilização de GPU AMD RX 590 em algoritmos de aprendizado de máquina",
     "conteudo": "Aqui estão os 4 pontos mais importantes sobre o impacto da utilização de GPU AMD RX 590 em algoritmos de aprendizado de máquina:\n\n1. **Limitações de VRAM**: A AMD RX 590 tem apenas 8 GB de VRAM, o que é insuficiente para rodar grandes modelos de linguagem (LLMs) locais de forma eficiente. Isso limita a capacidade de processamento de grandes conjuntos de dados e modelos complexos.\n2. **Arquitetura RDNA1**: A arquitetura RDNA1 da AMD RX 590 é uma limitação para workloads modernos de LLM, pois não "
+  },
+  {
+    "data": "05/05/2026 19:36",
+    "origem": "scout_torra_reddit_programming",
+    "topico": "Otimização de uso de recursos de hardware em servidores Xeon E5-2682 V4 para aplicações de IA",
+    "conteudo": "Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação, relacionados à otimização de uso de recursos de hardware em servidores Xeon E5-2682 V4 para aplicações de IA:\n\n1. **Otimização de uso de recursos de hardware**: É fundamental entender como utilizar os recursos de hardware disponíveis nos servidores Xeon E5-2682 V4 de forma eficiente para aplicações de IA. Isso inclui otimizar o uso de memória, processamento e armazenamento para minimizar o"
   }
 ]
