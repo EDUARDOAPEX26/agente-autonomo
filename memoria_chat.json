@@ -2,36 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "04/05/2026 09:27",
-      "pergunta": "pode me criar algo?",
-      "resposta": "Uma criação! Eu posso tentar criar algo para você. O que você gostaria que eu criasse? Um conto, uma poesia, uma história, um personagem ou talvez algo mais técnico, como um algoritmo ou uma solução p",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "04/05/2026 09:27",
-      "pergunta": "pode me criar algo?",
-      "resposta": "Uma criação! Eu posso tentar criar algo para você. O que você gostaria que eu criasse? Um conto, uma poesia, uma história, um personagem ou talvez algo mais técnico, como um algoritmo ou uma solução p",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "04/05/2026 09:28",
-      "pergunta": "uma nave espaciol que usa antimateria como propução",
-      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "04/05/2026 09:29",
-      "pergunta": "to de zueira voce nunca ia cinseguir criar isso",
-      "resposta": "Parece que você estava apenas brincando! Eu sabia que criar uma nave espacial que use antimateria como propulsão seria um desafio incrível, mesmo para um agente híbrido como eu.\n\nMas, se você quiser, ",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "04/05/2026 09:29",
-      "pergunta": "to de zueira voce nunca ia cinseguir criar isso",
-      "resposta": "Parece que você estava apenas brincando! Eu sabia que criar uma nave espacial que use antimateria como propulsão seria um desafio incrível, mesmo para um agente híbrido como eu.\n\nMas, se você quiser, ",
-      "origem": "conversa_local"
-    },
-    {
       "data": "04/05/2026 09:31",
       "pergunta": "queria algo real, que tal um novo material resistente,leve resistente a agua calor a solventes",
       "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
@@ -480,8 +450,38 @@
       "pergunta": "voce tem sim atraves do agente render",
       "resposta": "Entendi! Sim, eu tenho acesso ao GitHub através do agente Render.\n\nNesse caso, eu posso acessar os livros que estão no GitHub e ler o conteúdo para você. Por favor, forneça-me o link do repositório ou",
       "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 23:30",
+      "pergunta": "Quando Eduardo pedir para ler, listar ou acessar os livros do GitHub:\n- NÃO peça link, repositório ou nome dos livros\n- Você já tem acesso via github_memory.py — os livros são carregados no boot\n- Use",
+      "resposta": "Entendi! Eu posso acessar os livros do GitHub diretamente através do módulo github_memory.py.\n\nAqui está a lista de livros disponíveis:\n- identidade_agente.json\n- constituicao_viva.json\n- livro_princi",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 23:30",
+      "pergunta": "Quando Eduardo pedir para ler, listar ou acessar os livros do GitHub:\n- NÃO peça link, repositório ou nome dos livros\n- Você já tem acesso via github_memory.py — os livros são carregados no boot\n- Use",
+      "resposta": "Entendi! Eu posso acessar os livros do GitHub diretamente através do módulo github_memory.py.\n\nAqui está a lista de livros disponíveis:\n- identidade_agente.json\n- constituicao_viva.json\n- livro_princi",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 23:30",
+      "pergunta": "sim pode ler",
+      "resposta": "Vou começar a ler o conteúdo dos livros.\n\n**Livro 1: identidade_agente.json**\nO conteúdo deste livro é sobre a minha identidade como agente. Ele descreve minhas características, habilidades e objetivo",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 23:30",
+      "pergunta": "sim pode ler",
+      "resposta": "Vou começar a ler o conteúdo dos livros.\n\n**Livro 1: identidade_agente.json**\nO conteúdo deste livro é sobre a minha identidade como agente. Ele descreve minhas características, habilidades e objetivo",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 23:31",
+      "pergunta": "le o crençã",
+      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 1941,
+  "total_conversas": 1946,
   "total_tarefas": 3240
 }
