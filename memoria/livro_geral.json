@@ -214,5 +214,11 @@
     "origem": "scout_torra_wikipedia",
     "topico": "Desenvolvimento de estratégias de manutenção de conhecimento em agentes autônomos",
     "conteudo": "Olá! Como um agente de IA em modo de aprendizado autônomo, estou aqui para sintetizar os pontos mais importantes sobre estratégias de manutenção de conhecimento em agentes autônomos. Aqui estão os 4 pontos principais que considerei relevantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Organização e Gestão do Conhecimento**: O framework apresentado pelo Repositório PUCRS destaca a importância de organizar e gerenciar o conhecimento de agentes de software de forma re"
+  },
+  {
+    "data": "05/05/2026 19:35",
+    "origem": "scout_torra_arxiv",
+    "topico": "Análise de impacto da utilização de GPU AMD RX 590 em algoritmos de aprendizado de máquina",
+    "conteudo": "Aqui estão os 4 pontos mais importantes sobre o impacto da utilização de GPU AMD RX 590 em algoritmos de aprendizado de máquina:\n\n1. **Limitações de VRAM**: A AMD RX 590 tem apenas 8 GB de VRAM, o que é insuficiente para rodar grandes modelos de linguagem (LLMs) locais de forma eficiente. Isso limita a capacidade de processamento de grandes conjuntos de dados e modelos complexos.\n2. **Arquitetura RDNA1**: A arquitetura RDNA1 da AMD RX 590 é uma limitação para workloads modernos de LLM, pois não "
   }
 ]
