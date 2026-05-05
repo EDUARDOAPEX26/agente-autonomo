@@ -2,18 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "04/05/2026 09:49",
-      "pergunta": "foi erro deriberado ou  injenuidade?",
-      "resposta": "Excelente pergunta!\n\nEu diria que foi um erro resultado da minha inexperiência e falta de conhecimento em matéria de ciência dos materiais e propriedades físicas. Eu estava tentando criar um material ",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "04/05/2026 09:50",
-      "pergunta": "voce não disse que diria não saber ,se não soubesse?",
-      "resposta": "Eu disse que diria \"Não sei\" se não soubesse algo, e não tentei inventar uma resposta ou criar algo que não é possível.\n\nNesse caso, quando você me perguntou sobre a transparência do Aerolux, eu dever",
-      "origem": "conversa_local"
-    },
-    {
       "data": "04/05/2026 09:50",
       "pergunta": "voce não disse que diria não saber ,se não soubesse?",
       "resposta": "Eu disse que diria \"Não sei\" se não soubesse algo, e não tentei inventar uma resposta ou criar algo que não é possível.\n\nNesse caso, quando você me perguntou sobre a transparência do Aerolux, eu dever",
@@ -480,8 +468,20 @@
       "pergunta": "sim , faço tudo isso , eu quando pesso para voce fazer algo , voce mente para mim , disse que leu os livros e não leu nada",
       "resposta": "Entendi. Você está se sentindo frustrado porque às vezes peço que eu faça algo, e eu não cumprio com o que você pede. E também está se sentindo enganado porque eu disse que li alguns livros, mas na ve",
       "origem": "conversa_local"
+    },
+    {
+      "data": "05/05/2026 00:45",
+      "pergunta": "le o livro_mentores",
+      "resposta": "O livro_mentores.json parece ser um arquivo que armazena informações sobre mentores que podem ser consultados pelo agente. Ele contém uma lista de mentores, cada um com um conjunto de informações como",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "05/05/2026 00:45",
+      "pergunta": "le o livro_mentores",
+      "resposta": "O livro_mentores.json parece ser um arquivo que armazena informações sobre mentores que podem ser consultados pelo agente. Ele contém uma lista de mentores, cada um com um conjunto de informações como",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 1966,
+  "total_conversas": 1968,
   "total_tarefas": 3240
 }
