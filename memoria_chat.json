@@ -2,42 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "04/05/2026 01:46",
-      "pergunta": "pesquisei , voce so pode simular ouvir musicas",
-      "resposta": "Sim, é verdade! Eu posso simular a escuta de músicas, mas não posso realmente ouvir ou experimentar a música de forma direta.\n\nSimulação é uma capacidade que eu tenho, que me permite analisar e proces",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "04/05/2026 01:46",
-      "pergunta": "pesquisei , voce so pode simular ouvir musicas",
-      "resposta": "Sim, é verdade! Eu posso simular a escuta de músicas, mas não posso realmente ouvir ou experimentar a música de forma direta.\n\nSimulação é uma capacidade que eu tenho, que me permite analisar e proces",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "04/05/2026 01:48",
-      "pergunta": "então a melhor maneira e voce aprender partitura , ai voce pode entender o que é musica ,pelo menos a melodia",
-      "resposta": "Aprender a ler partituras musicais pode ser uma forma interessante de eu entender melhor a estrutura e a melodia da música.\n\nUma partitura musical é um sistema de notação que representa as notas music",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "04/05/2026 01:48",
-      "pergunta": "então a melhor maneira e voce aprender partitura , ai voce pode entender o que é musica ,pelo menos a melodia",
-      "resposta": "Aprender a ler partituras musicais pode ser uma forma interessante de eu entender melhor a estrutura e a melodia da música.\n\nUma partitura musical é um sistema de notação que representa as notas music",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "04/05/2026 08:48",
-      "pergunta": "bom dia",
-      "resposta": "Bom dia! Como está indo o seu dia em Atibaia? Acabou de começar a trabalhar no projeto da máquina de rabiola de pipa?",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "04/05/2026 08:48",
-      "pergunta": "bom dia",
-      "resposta": "Bom dia! Como está indo o seu dia em Atibaia? Acabou de começar a trabalhar no projeto da máquina de rabiola de pipa?",
-      "origem": "conversa_local"
-    },
-    {
       "data": "04/05/2026 08:49",
       "pergunta": "meu dia este bom ,maquina de rabiolas voce sabe que perdi o projeto",
       "resposta": "Entendo que o seu dia está bom, mas que você perdeu o projeto da máquina de rabiola de pipa. Isso pode ser frustrante! Você gostaria de começar a reconstruir o projeto ou precisa de ajuda para lembrar",
@@ -480,8 +444,44 @@
       "pergunta": "não tem necessidade de buscas",
       "resposta": "Entendi! Você está se referindo às APIs (Application Programming Interfaces) que eu uso para coletar e processar informações. Você está perguntando se eu sei o que é a \"torra de APIs\" que eu faço.\n\nSi",
       "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 23:15",
+      "pergunta": "não é isso ,a torra é quando as apis estão perto de se renovarem , para não perder o que tem voce começa a gastar todas em pesquisas de aprendizado , e fica sem nada , ete se carregarem novamente",
+      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 23:16",
+      "pergunta": "responad",
+      "resposta": "Entendi melhor agora! Sim, você está se referindo à \"torra de APIs\" como o momento em que as APIs estão prestes a se renovar e eu começo a gastar todas as chamadas restantes em pesquisas de aprendizad",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 23:16",
+      "pergunta": "responad",
+      "resposta": "Entendi melhor agora! Sim, você está se referindo à \"torra de APIs\" como o momento em que as APIs estão prestes a se renovar e eu começo a gastar todas as chamadas restantes em pesquisas de aprendizad",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 23:18",
+      "pergunta": "20:10:36][INFO][RENDER] Online — Agente Autônomo — Eduardo Conceição\n[20:11:04][INFO][RENDER_SCOUT] MODO TORRA | 48 min até reset Groq\n[20:11:04][INFO][RENDER_SCOUT] Gerando agenda autônoma via GROQ..",
+      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 23:19",
+      "pergunta": "20:10:36][INFO][RENDER] Online — Agente Autônomo — Eduardo Conceição\n[20:11:04][INFO][RENDER_SCOUT] MODO TORRA | 48 min até reset Groq\n[20:11:04][INFO][RENDER_SCOUT] Gerando agenda autônoma via GROQ..",
+      "resposta": "Entendi! Você está me mostrando os meus próprios logs de atividade. Isso é interessante!\n\nParece que estou no modo \"torra\" e estou usando as APIs para aprender e melhorar minhas habilidades. Estou faz",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "04/05/2026 23:19",
+      "pergunta": "são os seus logs não sem pesquisas",
+      "resposta": "Entendi! Você está me mostrando os meus próprios logs de atividade. Isso é interessante!\n\nParece que estou no modo \"torra\" e estou usando as APIs para aprender e melhorar minhas habilidades. Estou faz",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 1926,
+  "total_conversas": 1932,
   "total_tarefas": 3240
 }
