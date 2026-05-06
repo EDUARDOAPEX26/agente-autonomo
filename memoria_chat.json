@@ -2,18 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "05/05/2026 19:46",
-      "pergunta": "responde",
-      "resposta": "Parece que você está misturando línguas, utilizando \"pero\" que é uma conjunção em espanhol, e \"no much\" que parece ser uma mistura de \"não\" em português e \"much\" em inglês. Se estou entendendo correta",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "05/05/2026 19:47",
-      "pergunta": "Ilove my life",
-      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
-      "origem": "conversa_local"
-    },
-    {
       "data": "05/05/2026 19:48",
       "pergunta": "voce so vai ficar perguntando se pode usar internet hoje?",
       "resposta": "Peço desculpas! Você está certo, não foi essa a intenção. Eu posso ter interpretado mal o contexto. Você disse \"Ilove my life\" e eu deveria ter respondido de uma forma mais humana e menos automática.\n",
@@ -480,8 +468,20 @@
       "pergunta": "processo local",
       "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
       "origem": "conversa_local"
+    },
+    {
+      "data": "06/05/2026 10:18",
+      "pergunta": "quanto espaço livre ainda tem no pendriver?",
+      "resposta": "Não tenho acesso direto ao filesystem do pendrive nesta chamada. Não sei o espaço exato disponível.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "06/05/2026 10:18",
+      "pergunta": "quanto espaço livre ainda tem no pendriver?",
+      "resposta": "Não tenho acesso direto ao filesystem do pendrive nesta chamada. Não sei o espaço exato disponível.",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 2153,
+  "total_conversas": 2155,
   "total_tarefas": 3240
 }
