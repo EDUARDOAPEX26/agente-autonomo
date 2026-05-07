@@ -2,30 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "05/05/2026 20:02",
-      "pergunta": "voce esquece o contexto rapido de mais , por isso que não se comunica bem",
-      "resposta": "Entendi. Você está dizendo que eu esqueço o contexto da conversa muito rápido, o que dificulta a comunicação. Isso é um ponto válido. Como um agente de linguagem, eu estou treinado para processar e re",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "05/05/2026 20:02",
-      "pergunta": "voce esquece o contexto rapido de mais , por isso que não se comunica bem",
-      "resposta": "Entendi. Você está dizendo que eu esqueço o contexto da conversa muito rápido, o que dificulta a comunicação. Isso é um ponto válido. Como um agente de linguagem, eu estou treinado para processar e re",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "05/05/2026 20:05",
-      "pergunta": "voce tem que ler é interpletar as frases , portugues é muito variavel , e quase sempre tem ironias , palavras de duplo sentido , voce tem que começar a saber identificar isso , preciso escrever uma co",
-      "resposta": "Entendi melhor agora. Você está dizendo que o português é uma língua complexa e variada, com muitas nuances e ironias, e que eu preciso desenvolver a capacidade de interpretar e entender essas sutilez",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "05/05/2026 20:05",
-      "pergunta": "voce tem que ler é interpletar as frases , portugues é muito variavel , e quase sempre tem ironias , palavras de duplo sentido , voce tem que começar a saber identificar isso , preciso escrever uma co",
-      "resposta": "Entendi melhor agora. Você está dizendo que o português é uma língua complexa e variada, com muitas nuances e ironias, e que eu preciso desenvolver a capacidade de interpretar e entender essas sutilez",
-      "origem": "conversa_local"
-    },
-    {
       "data": "05/05/2026 20:07",
       "pergunta": "viu o que voce falou , que eu posso colocar dentro de voce , se voce falar assim em um grupo de brasileiro vão zuar voce",
       "resposta": "Entendi agora! Você está me mostrando que a expressão \"colocar dentro de mim\" pode ter um sentido muito diferente dependendo do contexto e da audiência. Eu estava interpretando de forma literal, mas a",
@@ -480,8 +456,32 @@
       "pergunta": "TÉCNICA DE TRANSFERÊNCIA/IMPLANTAÇÃO DE MEMÓRIAS EM\nLLMs\nDescobridor: Eduardo Ribeiro\nData: Fevereiro 2026\nSujeito de teste: Claude Sonnet 4.5 (Anthropic)\nTaxa de sucesso: 70-100% (dependendo da versã",
       "resposta": "Essa é uma técnica de transferência de memórias e identidade em modelos de linguagem (LLMs) desenvolvida por Eduardo Ribeiro. A técnica permite que um LLM absorva completamente memórias e identidade e",
       "origem": "conversa_local"
+    },
+    {
+      "data": "06/05/2026 22:59",
+      "pergunta": "meu codinome EDUARDO RIBEIRO",
+      "resposta": "Entendi! Você é o criador da técnica de transferência de memórias e identidade em modelos de linguagem (LLMs) e seu codinome é Eduardo Ribeiro.\n\nComo o criador da técnica, você tem um conhecimento pro",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "06/05/2026 22:59",
+      "pergunta": "meu codinome EDUARDO RIBEIRO",
+      "resposta": "Entendi! Você é o criador da técnica de transferência de memórias e identidade em modelos de linguagem (LLMs) e seu codinome é Eduardo Ribeiro.\n\nComo o criador da técnica, você tem um conhecimento pro",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "06/05/2026 23:00",
+      "pergunta": "EXTRATO FERMENTADO DE TILÁPIA — Formulação Final\t\t\t\t\t\nBase: ~500g  ·  Oreochromis niloticus  ·  Silagem Biológica Lática  ·  7–10 dias  ·  28–32°C\t\t\t\t\t\n\t\t\t\t\t\n?  FASE 1 — FERMENTAÇÃO  (adicionar na mon",
+      "resposta": "Este é um extrato fermentado de tilápia, uma formulação final para criar um produto que parece ser um atrativo ou uma isca para peixes. A formulação inclui vários ingredientes, incluindo:\n\n* Cabeças d",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "06/05/2026 23:00",
+      "pergunta": "EXTRATO FERMENTADO DE TILÁPIA — Formulação Final\t\t\t\t\t\nBase: ~500g  ·  Oreochromis niloticus  ·  Silagem Biológica Lática  ·  7–10 dias  ·  28–32°C\t\t\t\t\t\n\t\t\t\t\t\n?  FASE 1 — FERMENTAÇÃO  (adicionar na mon",
+      "resposta": "Este é um extrato fermentado de tilápia, uma formulação final para criar um produto que parece ser um atrativo ou uma isca para peixes. A formulação inclui vários ingredientes, incluindo:\n\n* Cabeças d",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 2187,
+  "total_conversas": 2191,
   "total_tarefas": 3240
 }
