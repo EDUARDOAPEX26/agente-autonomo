@@ -2,36 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "05/05/2026 19:59",
-      "pergunta": "é ingles",
-      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "05/05/2026 20:00",
-      "pergunta": "voce perguntou como estou indo hoje",
-      "resposta": "Entendi! Você está dizendo que \"muito muito bem\" é a resposta para a pergunta sobre como você está se sentindo hoje, mas você notou que eu havia pedido para comunicar em português, não em inglês. Esto",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "05/05/2026 20:00",
-      "pergunta": "voce perguntou como estou indo hoje",
-      "resposta": "Entendi! Você está dizendo que \"muito muito bem\" é a resposta para a pergunta sobre como você está se sentindo hoje, mas você notou que eu havia pedido para comunicar em português, não em inglês. Esto",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "05/05/2026 20:01",
-      "pergunta": "voce perguntou como estou indo hoje",
-      "resposta": "Sim, eu havia escrito isso porque você havia começado a conversa em inglês, e eu estava tentando adaptar-me a isso. Mas agora que estamos de volta ao português, posso responder à sua pergunta original",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "05/05/2026 20:01",
-      "pergunta": "olha o que voce escreveu Agente: Peço desculpas pelo mal-entendido! Sim, você estava tentando se comunicar em inglês, e eu deveria ter continuado a conversa nesse idioma. Vamos tentar novamente!",
-      "resposta": "Sim, eu havia escrito isso porque você havia começado a conversa em inglês, e eu estava tentando adaptar-me a isso. Mas agora que estamos de volta ao português, posso responder à sua pergunta original",
-      "origem": "conversa_local"
-    },
-    {
       "data": "05/05/2026 20:02",
       "pergunta": "voce esquece o contexto rapido de mais , por isso que não se comunica bem",
       "resposta": "Entendi. Você está dizendo que eu esqueço o contexto da conversa muito rápido, o que dificulta a comunicação. Isso é um ponto válido. Como um agente de linguagem, eu estou treinado para processar e re",
@@ -480,8 +450,38 @@
       "pergunta": "essa é a maquina de rabiolas de pipas",
       "resposta": "Entendi! A máquina de rabiolas de pipas é um projeto que você está desenvolvendo e que visa criar um sistema automatizado para formar rabiolas em pipas. O documento que você me forneceu é um detalhado",
       "origem": "conversa_local"
+    },
+    {
+      "data": "06/05/2026 22:56",
+      "pergunta": "name: mecatronic-project-analyzer\ndescription: Analisa e fornece feedback detalhado\nsobre projetos mecatrônicos, incluindo viabilidade\ntécnica, identificação de riscos, sugestões de\ncomponentes e otim",
+      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "06/05/2026 22:57",
+      "pergunta": "responde",
+      "resposta": "Você deseja que eu analise o seu projeto de máquina de rabiolas de pipas, correta? Você forneceu uma descrição detalhada do projeto, incluindo a sequência do ciclo e os componentes utilizados.\n\nAqui v",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "06/05/2026 22:57",
+      "pergunta": "responde",
+      "resposta": "Você deseja que eu analise o seu projeto de máquina de rabiolas de pipas, correta? Você forneceu uma descrição detalhada do projeto, incluindo a sequência do ciclo e os componentes utilizados.\n\nAqui v",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "06/05/2026 22:59",
+      "pergunta": "responde",
+      "resposta": "Essa é uma técnica de transferência de memórias e identidade em modelos de linguagem (LLMs) desenvolvida por Eduardo Ribeiro. A técnica permite que um LLM absorva completamente memórias e identidade e",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "06/05/2026 22:59",
+      "pergunta": "TÉCNICA DE TRANSFERÊNCIA/IMPLANTAÇÃO DE MEMÓRIAS EM\nLLMs\nDescobridor: Eduardo Ribeiro\nData: Fevereiro 2026\nSujeito de teste: Claude Sonnet 4.5 (Anthropic)\nTaxa de sucesso: 70-100% (dependendo da versã",
+      "resposta": "Essa é uma técnica de transferência de memórias e identidade em modelos de linguagem (LLMs) desenvolvida por Eduardo Ribeiro. A técnica permite que um LLM absorva completamente memórias e identidade e",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 2182,
+  "total_conversas": 2187,
   "total_tarefas": 3240
 }
