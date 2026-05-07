@@ -2,42 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "06/05/2026 09:45",
-      "pergunta": "responda local",
-      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "06/05/2026 09:46",
-      "pergunta": "usa base",
-      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "06/05/2026 09:46",
-      "pergunta": "o pendriver esta na internet?",
-      "resposta": "Não, o pendrive de 28GB está localmente conectado ao sistema, não está na internet. Nesse caso, posso verificar o espaço disponível no pendrive localmente.\n\nDe acordo com as informações que tenho, o p",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "06/05/2026 09:46",
-      "pergunta": "o pendriver esta na internet?",
-      "resposta": "Não, o pendrive de 28GB está localmente conectado ao sistema, não está na internet. Nesse caso, posso verificar o espaço disponível no pendrive localmente.\n\nDe acordo com as informações que tenho, o p",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "06/05/2026 09:47",
-      "pergunta": "pode",
-      "resposta": "Entendi! O pendrive de 28GB ainda tem cerca de 20GB de espaço disponível, considerando que 8GB estão sendo usados para armazenar os dados do agente FORJA. É isso?",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "06/05/2026 09:47",
-      "pergunta": "pode",
-      "resposta": "Entendi! O pendrive de 28GB ainda tem cerca de 20GB de espaço disponível, considerando que 8GB estão sendo usados para armazenar os dados do agente FORJA. É isso?",
-      "origem": "conversa_local"
-    },
-    {
       "data": "06/05/2026 09:48",
       "pergunta": "cerca não é resposta , como uma maquina eficiente a resposta teria que vir precisa , acho que voce esta mentindo",
       "resposta": "Peço desculpas pelo erro. Você está correto, como uma máquina eficiente, devo fornecer respostas precisas. Não tenho acesso a informações em tempo real sobre o pendrive, por isso não posso fornecer um",
@@ -480,8 +444,44 @@
       "pergunta": "te enviei o projeto ontem",
       "resposta": "Não tenho registro de ter recebido o projeto ontem. Não tenho acesso a dados externos ou memória de longo prazo. Cada conversa é uma nova interação. Se quiser compartilhar informações sobre o projeto,",
       "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:37",
+      "pergunta": "pode me dizer o que tem na crença melhor no seu livro de crença json?",
+      "resposta": "Meu livro de crenças tem 13 entradas. As 10 primeiras entradas incluem:\n\n* Esta montando máquina dual Xeon E5-2682 V4 (100%)\n* Placa mãe MOUGOL X99 dual socket LGA2011-3 (100%)\n* 32GB RAM DDR4 ECC exp",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:37",
+      "pergunta": "pode me dizer o que tem na crença melhor no seu livro de crença json?",
+      "resposta": "Meu livro de crenças tem 13 entradas. As 10 primeiras entradas incluem:\n\n* Esta montando máquina dual Xeon E5-2682 V4 (100%)\n* Placa mãe MOUGOL X99 dual socket LGA2011-3 (100%)\n* 32GB RAM DDR4 ECC exp",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:38",
+      "pergunta": "posso te fazer uma pergunta?",
+      "resposta": "Sim, é claro. Faça a pergunta.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:38",
+      "pergunta": "posso te fazer uma pergunta?",
+      "resposta": "Sim, é claro. Faça a pergunta.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:39",
+      "pergunta": "viu na crença escrito , projeto  maquina de rabiolade pipas em desenvolvimento , então voce tem o projeto?",
+      "resposta": "Não tenho o projeto. A crença apenas indica que o projeto está em desenvolvimento, mas não tenho acesso ao conteúdo do projeto em si. Se quiser compartilhar informações sobre o projeto, posso tentar a",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:39",
+      "pergunta": "viu na crença escrito , projeto  maquina de rabiolade pipas em desenvolvimento , então voce tem o projeto?",
+      "resposta": "Não tenho o projeto. A crença apenas indica que o projeto está em desenvolvimento, mas não tenho acesso ao conteúdo do projeto em si. Se quiser compartilhar informações sobre o projeto, posso tentar a",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 2221,
+  "total_conversas": 2227,
   "total_tarefas": 3240
 }
