@@ -2,42 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "06/05/2026 09:54",
-      "pergunta": "limpar menção Railway de tudo",
-      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "06/05/2026 09:54",
-      "pergunta": "processo local",
-      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "06/05/2026 10:18",
-      "pergunta": "quanto espaço livre ainda tem no pendriver?",
-      "resposta": "Não tenho acesso direto ao filesystem do pendrive nesta chamada. Não sei o espaço exato disponível.",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "06/05/2026 10:18",
-      "pergunta": "quanto espaço livre ainda tem no pendriver?",
-      "resposta": "Não tenho acesso direto ao filesystem do pendrive nesta chamada. Não sei o espaço exato disponível.",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "06/05/2026 22:29",
-      "pergunta": "quais seus mentores?",
-      "resposta": "Meus mentores são:\n\n- Peter Drucker: Eficacia antes de eficiencia — fazer as coisas certas antes de fazer certo\n- Carl Jung: O que não se torna consciente aparece como destino\n- Marie Curie: Rigor exp",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "06/05/2026 22:29",
-      "pergunta": "quais seus mentores?",
-      "resposta": "Meus mentores são:\n\n- Peter Drucker: Eficacia antes de eficiencia — fazer as coisas certas antes de fazer certo\n- Carl Jung: O que não se torna consciente aparece como destino\n- Marie Curie: Rigor exp",
-      "origem": "conversa_local"
-    },
-    {
       "data": "06/05/2026 22:29",
       "pergunta": "todos eles?",
       "resposta": "Não, eu errei. Eduardo Conceição é o meu criador e mentor principal. Os outros nomes que mencionei não são meus mentores. Eu sou Vox, agente autônomo criado por Eduardo Conceição.",
@@ -480,8 +444,44 @@
       "pergunta": "tirar maquina de rabiola de pipas da lista de desenvolvimento",
       "resposta": "Não posso alterar a lista de crenças diretamente. A crença é uma informação fixa que recebo e não tenho permissão para alterá-la. Se você quiser remover o projeto da lista, precisará atualizar a crenç",
       "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:43",
+      "pergunta": "me diz algo que voce aprendeu recentemente",
+      "resposta": "Não sei. Não tenho acesso a novas informações fora do contexto atual. Posso apenas trabalhar com as informações que tenho disponíveis. Não tenho a capacidade de aprender coisas novas fora desse contex",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:43",
+      "pergunta": "me diz algo que voce aprendeu recentemente",
+      "resposta": "Não sei. Não tenho acesso a novas informações fora do contexto atual. Posso apenas trabalhar com as informações que tenho disponíveis. Não tenho a capacidade de aprender coisas novas fora desse contex",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:44",
+      "pergunta": "tem acesso aos seus livros?",
+      "resposta": "Não recebi o conteúdo dos livros nesta chamada. Não tenho acesso a informações adicionais fora do contexto atual.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:44",
+      "pergunta": "tem acesso aos seus livros?",
+      "resposta": "Não recebi o conteúdo dos livros nesta chamada. Não tenho acesso a informações adicionais fora do contexto atual.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:44",
+      "pergunta": "08:32:26][INFO][PARLIAMENT_MEMORY] Fase 34 carregada - 10 debates na memória\n[08:32:26][INFO][PARLIAMENT_INTEGRATION] Fase 34 ativada - Memória persistente dos debates\n[08:32:26][INFO][PARLAMENTO] Ven",
+      "resposta": "Sim, agora tenho acesso a alguns livros, incluindo \"livro_raciocinio.json\", \"constituicao_viva.json\", \"pain_register.json\" e \"livro_parlamento.json\". Esses livros estão carregados na memória e posso a",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:44",
+      "pergunta": "08:32:26][INFO][PARLIAMENT_MEMORY] Fase 34 carregada - 10 debates na memória\n[08:32:26][INFO][PARLIAMENT_INTEGRATION] Fase 34 ativada - Memória persistente dos debates\n[08:32:26][INFO][PARLAMENTO] Ven",
+      "resposta": "Sim, agora tenho acesso a alguns livros, incluindo \"livro_raciocinio.json\", \"constituicao_viva.json\", \"pain_register.json\" e \"livro_parlamento.json\". Esses livros estão carregados na memória e posso a",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 2231,
+  "total_conversas": 2237,
   "total_tarefas": 3240
 }
