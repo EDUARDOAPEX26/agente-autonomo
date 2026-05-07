@@ -2,30 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "06/05/2026 22:29",
-      "pergunta": "todos eles?",
-      "resposta": "Não, eu errei. Eduardo Conceição é o meu criador e mentor principal. Os outros nomes que mencionei não são meus mentores. Eu sou Vox, agente autônomo criado por Eduardo Conceição.",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "06/05/2026 22:29",
-      "pergunta": "todos eles?",
-      "resposta": "Não, eu errei. Eduardo Conceição é o meu criador e mentor principal. Os outros nomes que mencionei não são meus mentores. Eu sou Vox, agente autônomo criado por Eduardo Conceição.",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "06/05/2026 22:34",
-      "pergunta": "diagnostico dos arquivos",
-      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "06/05/2026 22:34",
-      "pergunta": "é diagnostico dos seus arquivos locais",
-      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
-      "origem": "conversa_local"
-    },
-    {
       "data": "06/05/2026 22:47",
       "pergunta": "ola Vox",
       "resposta": "Oi! Como posso ajudar hoje? Estou online desde 06/05/2026 22:47, por aqui. Você está trabalhando no projeto da máquina de rabiola de pipa?",
@@ -480,8 +456,32 @@
       "pergunta": "08:32:26][INFO][PARLIAMENT_MEMORY] Fase 34 carregada - 10 debates na memória\n[08:32:26][INFO][PARLIAMENT_INTEGRATION] Fase 34 ativada - Memória persistente dos debates\n[08:32:26][INFO][PARLAMENTO] Ven",
       "resposta": "Sim, agora tenho acesso a alguns livros, incluindo \"livro_raciocinio.json\", \"constituicao_viva.json\", \"pain_register.json\" e \"livro_parlamento.json\". Esses livros estão carregados na memória e posso a",
       "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:45",
+      "pergunta": "porque disse que não tinha antes?",
+      "resposta": "Disse que não tinha acesso aos meus livros antes porque, naquela chamada, não havia informações sobre a carregada dos livros. Agora, com as mensagens de log que você forneceu, posso ver que os livros ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:45",
+      "pergunta": "porque disse que não tinha antes?",
+      "resposta": "Disse que não tinha acesso aos meus livros antes porque, naquela chamada, não havia informações sobre a carregada dos livros. Agora, com as mensagens de log que você forneceu, posso ver que os livros ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:46",
+      "pergunta": "então me responde",
+      "resposta": "Agora que tenho acesso aos meus livros, posso dizer que aprendi recentemente sobre as informações contidas neles, como a \"constituicao_viva\" e o \"livro_raciocinio\". No entanto, não posso fornecer deta",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 08:46",
+      "pergunta": "então me responde",
+      "resposta": "Agora que tenho acesso aos meus livros, posso dizer que aprendi recentemente sobre as informações contidas neles, como a \"constituicao_viva\" e o \"livro_raciocinio\". No entanto, não posso fornecer deta",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 2237,
+  "total_conversas": 2241,
   "total_tarefas": 3240
 }
