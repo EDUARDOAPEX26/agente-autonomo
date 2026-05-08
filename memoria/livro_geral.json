@@ -106,5 +106,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Xeon E5-2682 V4 memory bandwidth optimization",
     "conteudo": "**Pontos Chave para Otimização de Largura de Banda de Memória do Xeon E5-2682 V4**\n\nAo trabalhar com hardware e automação, é fundamental entender como otimizar a largura de banda de memória do Xeon E5-2682 V4. Aqui estão os 4 pontos mais importantes:\n\n1. **Arquitetura de Memória**: A arquitetura de memória do Xeon E5-2600 v4 (Broadwell-EP) é baseada no QuickPath Interconnect (QPI), que foi aprimorado nas gerações anteriores. Isso melhora a performance da memória em aplicações reais.\n2. **Canais "
+  },
+  {
+    "data": "08/05/2026 20:17",
+    "origem": "scout_torra_reddit_programming",
+    "topico": "local LLM inference optimization techniques",
+    "conteudo": "**Técnicas de Otimização de Inferência Local de LLM**\n\nAo trabalhar com hardware, Python e automação, os seguintes pontos são importantes para um agente de IA que deseja otimizar a inferência local de LLM (Large Language Models):\n\n1. **Escolha de Hardware Apropriado**: A escolha do hardware é fundamental para uma inferência local eficiente. É importante considerar fatores como largura de banda de memória, capacidade de memória e processamento para escolher o hardware mais apropriado para o model"
   }
 ]
