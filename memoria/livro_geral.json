@@ -58,5 +58,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Xeon E5-2682 V4 memory bandwidth optimization",
     "conteudo": "Aqui estão 3 pontos resumindo a otimização de banda de memória do Xeon E5-2682 V4:\n\n1. **Arquitetura de Memória**: A banda de memória do Xeon E5-2682 V4 é influenciada pela arquitetura de memória, incluindo o número de canais de memória e a velocidade máxima de memória (2400 MT/s).\n2. **Configuração de DIMM**: A configuração de DIMM (Dual In-Line Memory Module) também afeta a banda de memória, e a escolha da configuração certa pode otimizar a performance de memória.\n3. **Configurações de BIOS e "
+  },
+  {
+    "data": "08/05/2026 19:57",
+    "origem": "scout_torra_reddit_programming",
+    "topico": "local LLM inference optimization techniques",
+    "conteudo": "Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação relacionados à otimização de inferência local de LLMs:\n\n1. **Escolha de Hardware**: A escolha do hardware é fundamental para a otimização da inferência local de LLMs. O artigo menciona que o uso de hardware moderno, como o RTX 5090 ou o M4 Ultra, pode proporcionar desempenho rápido e eficiente. Além disso, é importante considerar a compatibilidade do hardware com os modelos de LLMs e as bib"
   }
 ]
