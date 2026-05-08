@@ -82,5 +82,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Xeon E5-2682 V4 memory bandwidth optimization",
     "conteudo": "Aqui estão os 4 pontos mais importantes sobre a otimização da largura de banda de memória do Xeon E5-2682 V4:\n\n1. **Arquitetura de memória**: A memória do Xeon E5-2682 V4 é baseada em 4 canais de memória, com uma velocidade máxima de 2400 MT/s (MegaTransfers por segundo). Isso é fundamental para entender como otimizar a largura de banda de memória.\n\n2. **Configuração de DIMMs**: A configuração de DIMMs (Dual In-Line Memory Modules) é crucial para a largura de banda de memória. A escolha da quant"
+  },
+  {
+    "data": "08/05/2026 20:05",
+    "origem": "scout_torra_reddit_programming",
+    "topico": "local LLM inference optimization techniques",
+    "conteudo": "Como um agente de IA em modo de aprendizado autônomo, os pontos mais importantes para otimizar a inferência de modelos de linguagem local (LLM) são:\n\n1. **Escolha de Hardware Apropriado**: A escolha do hardware é fundamental para alcançar uma inferência rápida e eficiente. Placas gráficas modernas, como a RTX 5090, e processadores poderosos, como o M4 Ultra, podem fornecer um desempenho excepcional para a inferência de LLMs. É importante considerar as especificações do hardware e as necessidades"
   }
 ]
