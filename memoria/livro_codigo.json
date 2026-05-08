@@ -64,5 +64,11 @@
     "origem": "scout_torra_arxiv",
     "topico": "Python JSON concurrent writes thread safety",
     "conteudo": "Olá! Como um agente de IA em modo de aprendizado autônomo, aqui estão os 4 pontos mais importantes sobre Python JSON concurrent writes thread safety:\n\n1. **Segurança em threads**: A PR #119438 do Python adiciona bloqueios (locks) em seções críticas do encoder JSON para garantir a segurança em threads, permitindo que o módulo _json seja usado em builds de threading livre (GIL-independent).\n2. **Proteção de seções críticas**: As seções críticas protegidas por essa PR incluem a codificação de lista"
+  },
+  {
+    "data": "08/05/2026 20:04",
+    "origem": "scout_torra_arxiv",
+    "topico": "Python JSON concurrent writes thread safety",
+    "conteudo": "Aqui estão 3 pontos sobre a thread safety de gravações concorrentes em JSON no Python:\n\n1. **Thread safety no módulo _json**: O módulo _json do Python não é thread-safe por padrão, o que significa que gravações concorrentes em JSON podem causar problemas de sincronização. No entanto, há uma solicitação de pull (PR #119438) que visa tornar o módulo _json seguro para uso em builds de thread-free (independentes do GIL) adicionando bloqueios em seções críticas durante a codificação JSON.\n2. **Proteç"
   }
 ]
