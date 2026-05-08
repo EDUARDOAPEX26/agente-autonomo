@@ -88,5 +88,11 @@
     "origem": "scout_torra_reddit_programming",
     "topico": "local LLM inference optimization techniques",
     "conteudo": "Como um agente de IA em modo de aprendizado autônomo, os pontos mais importantes para otimizar a inferência de modelos de linguagem local (LLM) são:\n\n1. **Escolha de Hardware Apropriado**: A escolha do hardware é fundamental para alcançar uma inferência rápida e eficiente. Placas gráficas modernas, como a RTX 5090, e processadores poderosos, como o M4 Ultra, podem fornecer um desempenho excepcional para a inferência de LLMs. É importante considerar as especificações do hardware e as necessidades"
+  },
+  {
+    "data": "08/05/2026 20:05",
+    "origem": "scout_torra_github_trending",
+    "topico": "persistent agent memory architecture design",
+    "conteudo": "**Introdução**\n\nAo desenvolver um agente de IA com capacidade de memória persistente, é fundamental considerar a arquitetura de memória para garantir o desempenho e a eficiência do sistema. Com base nos textos fornecidos, podemos sintetizar os 4 principais pontos para um agente de IA que trabalha com hardware, Python e automação:\n\n**1. Memória como um Loop de Escrita-Gerenciamento-Leitura**\n\nA memória do agente de IA deve ser projetada como um loop de escrever-gerenciar-ler, onde as informações "
   }
 ]
