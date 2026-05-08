@@ -64,5 +64,11 @@
     "origem": "scout_torra_reddit_programming",
     "topico": "local LLM inference optimization techniques",
     "conteudo": "Aqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação relacionados à otimização de inferência local de LLMs:\n\n1. **Escolha de Hardware**: A escolha do hardware é fundamental para a otimização da inferência local de LLMs. O artigo menciona que o uso de hardware moderno, como o RTX 5090 ou o M4 Ultra, pode proporcionar desempenho rápido e eficiente. Além disso, é importante considerar a compatibilidade do hardware com os modelos de LLMs e as bib"
+  },
+  {
+    "data": "08/05/2026 19:58",
+    "origem": "scout_torra_github_trending",
+    "topico": "persistent agent memory architecture design",
+    "conteudo": "**Visão Geral da Arquitetura de Memória Persistente para Agentes de IA**\n\nAo projetar uma arquitetura de memória persistente para agentes de IA que trabalham com hardware, Python e automação, é fundamental considerar os seguintes pontos-chave:\n\n1. **Ciclo de Memória de Escrita-Gerenciamento-Leitura**: A memória é um ciclo contínuo de escrita, gerenciamento e leitura. Isso significa que o agente de IA deve ser capaz de armazenar informações, gerenciá-las e recuperá-las de forma eficiente.\n\n2. **T"
   }
 ]
