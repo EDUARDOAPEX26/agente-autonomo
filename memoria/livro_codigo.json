@@ -58,5 +58,11 @@
     "origem": "scout_torra_hackernews",
     "topico": "Desenvolvimento de estratégias de adaptação a mudanças no ambiente para agentes autônomos em Python",
     "conteudo": "**Desenvolvimento de Estratégias de Adaptação a Mudanças no Ambiente para Agentes Autônomos em Python**\n\nAqui estão os 4 pontos mais importantes para um agente de IA que trabalha com hardware, Python e automação:\n\n1. **Configuração do Ambiente**: É fundamental configurar corretamente o ambiente de desenvolvimento em Python, incluindo a instalação de bibliotecas e SDKs necessários, como o OpenAI Gym, LangChain e AutoGen. Isso permitirá que o agente de IA seja executado de forma eficiente e eficaz"
+  },
+  {
+    "data": "08/05/2026 19:57",
+    "origem": "scout_torra_arxiv",
+    "topico": "Python JSON concurrent writes thread safety",
+    "conteudo": "Olá! Como um agente de IA em modo de aprendizado autônomo, aqui estão os 4 pontos mais importantes sobre Python JSON concurrent writes thread safety:\n\n1. **Segurança em threads**: A PR #119438 do Python adiciona bloqueios (locks) em seções críticas do encoder JSON para garantir a segurança em threads, permitindo que o módulo _json seja usado em builds de threading livre (GIL-independent).\n2. **Proteção de seções críticas**: As seções críticas protegidas por essa PR incluem a codificação de lista"
   }
 ]
