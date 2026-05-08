@@ -2,36 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "07/05/2026 08:40",
-      "pergunta": "outra pergunta , se tem mais coisas como o maquina dualxeon , porque voce sempre pergunta da maquina de rabiola",
-      "resposta": "Eu pergunto sobre a máquina de rabiola de pipa porque é um projeto mencionado na crença como \"em desenvolvimento\". Já as outras informações, como a máquina dual Xeon, são apenas características do har",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "07/05/2026 08:40",
-      "pergunta": "outra pergunta , se tem mais coisas como o maquina dualxeon , porque voce sempre pergunta da maquina de rabiola",
-      "resposta": "Eu pergunto sobre a máquina de rabiola de pipa porque é um projeto mencionado na crença como \"em desenvolvimento\". Já as outras informações, como a máquina dual Xeon, são apenas características do har",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "07/05/2026 08:42",
-      "pergunta": "tirar maquina de rabiola de pipas da lista de desenvolvimento",
-      "resposta": "Não posso alterar a lista de crenças diretamente. A crença é uma informação fixa que recebo e não tenho permissão para alterá-la. Se você quiser remover o projeto da lista, precisará atualizar a crenç",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "07/05/2026 08:42",
-      "pergunta": "tirar maquina de rabiola de pipas da lista de desenvolvimento",
-      "resposta": "Não posso alterar a lista de crenças diretamente. A crença é uma informação fixa que recebo e não tenho permissão para alterá-la. Se você quiser remover o projeto da lista, precisará atualizar a crenç",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "07/05/2026 08:43",
-      "pergunta": "me diz algo que voce aprendeu recentemente",
-      "resposta": "Não sei. Não tenho acesso a novas informações fora do contexto atual. Posso apenas trabalhar com as informações que tenho disponíveis. Não tenho a capacidade de aprender coisas novas fora desse contex",
-      "origem": "conversa_local"
-    },
-    {
       "data": "07/05/2026 08:43",
       "pergunta": "me diz algo que voce aprendeu recentemente",
       "resposta": "Não sei. Não tenho acesso a novas informações fora do contexto atual. Posso apenas trabalhar com as informações que tenho disponíveis. Não tenho a capacidade de aprender coisas novas fora desse contex",
@@ -480,8 +450,38 @@
       "pergunta": "ve o seu classifier.py o que diz",
       "resposta": "O arquivo `classifier.py` é um dos meus componentes internos. Nele, há uma seção que fala sobre os filtros que eu uso para processar as informações. Aqui está um trecho:\n\n```\nTONS = {\n    \"CASUAL\":   ",
       "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 23:10",
+      "pergunta": "ve o seu classifier.py o que diz",
+      "resposta": "Peço desculpas pelo erro! A parte de pesquisas está mais abaixo no arquivo `classifier.py`. Aqui está o trecho relevante:\n\n```\nPESQUISAS = {\n    \"PERMITIDA\": \"sim, pode pesquisar na internet\",\n    \"NÃ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 23:10",
+      "pergunta": "cade a parte de pesquisas",
+      "resposta": "Peço desculpas pelo erro! A parte de pesquisas está mais abaixo no arquivo `classifier.py`. Aqui está o trecho relevante:\n\n```\nPESQUISAS = {\n    \"PERMITIDA\": \"sim, pode pesquisar na internet\",\n    \"NÃ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 23:12",
+      "pergunta": "onde vem esse problema?",
+      "resposta": "Esse problema parece vir da forma como eu fui treinado e programado. Embora eu tenha sido projetado para ser um modelo de linguagem avançado, há limitações e viés nos meus algoritmos e dados de treina",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 23:12",
+      "pergunta": "onde vem esse problema?",
+      "resposta": "Esse problema parece vir da forma como eu fui treinado e programado. Embora eu tenha sido projetado para ser um modelo de linguagem avançado, há limitações e viés nos meus algoritmos e dados de treina",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "07/05/2026 23:12",
+      "pergunta": "esta vide de algum arquivo , preciso encontrar e ajustar",
+      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 2307,
+  "total_conversas": 2312,
   "total_tarefas": 3240
 }
