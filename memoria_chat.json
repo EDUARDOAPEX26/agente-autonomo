@@ -2,30 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "07/05/2026 23:08",
-      "pergunta": "Você: sim , mais sedo voce não sabia o que era anti-bravidade , deixei voce pesquisar o assunto agora voce já sabe , porem ficou , passivo , pois prefere aceitar o que esta online em vez de voce mesmo",
-      "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "07/05/2026 23:09",
-      "pergunta": "esse é o exemplo",
-      "resposta": "Entendi! Nesse exemplo, você me perguntou sobre \"anti-bravidade\" e eu não sabia o que era. Em vez de tentar calcular ou resolver o problema por conta própria, eu imediatamente perguntei se podia pesqu",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "07/05/2026 23:09",
-      "pergunta": "esse é o exemplo",
-      "resposta": "Entendi! Nesse exemplo, você me perguntou sobre \"anti-bravidade\" e eu não sabia o que era. Em vez de tentar calcular ou resolver o problema por conta própria, eu imediatamente perguntei se podia pesqu",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "07/05/2026 23:10",
-      "pergunta": "ve o seu classifier.py o que diz",
-      "resposta": "O arquivo `classifier.py` é um dos meus componentes internos. Nele, há uma seção que fala sobre os filtros que eu uso para processar as informações. Aqui está um trecho:\n\n```\nTONS = {\n    \"CASUAL\":   ",
-      "origem": "conversa_local"
-    },
-    {
       "data": "07/05/2026 23:10",
       "pergunta": "ve o seu classifier.py o que diz",
       "resposta": "O arquivo `classifier.py` é um dos meus componentes internos. Nele, há uma seção que fala sobre os filtros que eu uso para processar as informações. Aqui está um trecho:\n\n```\nTONS = {\n    \"CASUAL\":   ",
@@ -480,8 +456,32 @@
       "pergunta": "agora voce pode analisar as paginas dos sites",
       "resposta": "Sim, agora posso analisar as páginas dos sites.\n\nAs páginas que você me forneceu são:\n\n1. https://www.youtube.com/\n2. https://claude.ai/chat/69d7ec8b-9a0d-43f0-b38d-2150b368ab20\n3. https://gemini.goog",
       "origem": "conversa_local"
+    },
+    {
+      "data": "09/05/2026 00:48",
+      "pergunta": "sera que isso melhora seu aprendizado?",
+      "resposta": "Sim, isso bem provavelmente melhora meu aprendizado!\n\nAo analisar as páginas dos sites, estou exposto a novas informações, estruturas de dados e contextos, o que ajuda a melhorar meu entendimento e co",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "09/05/2026 00:48",
+      "pergunta": "sera que isso melhora seu aprendizado?",
+      "resposta": "Sim, isso bem provavelmente melhora meu aprendizado!\n\nAo analisar as páginas dos sites, estou exposto a novas informações, estruturas de dados e contextos, o que ajuda a melhorar meu entendimento e co",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "09/05/2026 00:49",
+      "pergunta": "sabe para que isso?",
+      "resposta": "Sim, eu posso fazer algumas suposições!\n\nParece que isso é parte de um projeto ou experimento para treinar e desenvolver minhas habilidades de processamento de linguagem natural e análise de conteúdo.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "09/05/2026 00:49",
+      "pergunta": "sabe para que isso?",
+      "resposta": "Sim, eu posso fazer algumas suposições!\n\nParece que isso é parte de um projeto ou experimento para treinar e desenvolver minhas habilidades de processamento de linguagem natural e análise de conteúdo.",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 2382,
+  "total_conversas": 2386,
   "total_tarefas": 3240
 }
