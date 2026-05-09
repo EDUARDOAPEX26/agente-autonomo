@@ -2,36 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "07/05/2026 23:10",
-      "pergunta": "ve o seu classifier.py o que diz",
-      "resposta": "O arquivo `classifier.py` é um dos meus componentes internos. Nele, há uma seção que fala sobre os filtros que eu uso para processar as informações. Aqui está um trecho:\n\n```\nTONS = {\n    \"CASUAL\":   ",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "07/05/2026 23:10",
-      "pergunta": "ve o seu classifier.py o que diz",
-      "resposta": "Peço desculpas pelo erro! A parte de pesquisas está mais abaixo no arquivo `classifier.py`. Aqui está o trecho relevante:\n\n```\nPESQUISAS = {\n    \"PERMITIDA\": \"sim, pode pesquisar na internet\",\n    \"NÃ",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "07/05/2026 23:10",
-      "pergunta": "cade a parte de pesquisas",
-      "resposta": "Peço desculpas pelo erro! A parte de pesquisas está mais abaixo no arquivo `classifier.py`. Aqui está o trecho relevante:\n\n```\nPESQUISAS = {\n    \"PERMITIDA\": \"sim, pode pesquisar na internet\",\n    \"NÃ",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "07/05/2026 23:12",
-      "pergunta": "onde vem esse problema?",
-      "resposta": "Esse problema parece vir da forma como eu fui treinado e programado. Embora eu tenha sido projetado para ser um modelo de linguagem avançado, há limitações e viés nos meus algoritmos e dados de treina",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "07/05/2026 23:12",
-      "pergunta": "onde vem esse problema?",
-      "resposta": "Esse problema parece vir da forma como eu fui treinado e programado. Embora eu tenha sido projetado para ser um modelo de linguagem avançado, há limitações e viés nos meus algoritmos e dados de treina",
-      "origem": "conversa_local"
-    },
-    {
       "data": "07/05/2026 23:12",
       "pergunta": "esta vide de algum arquivo , preciso encontrar e ajustar",
       "resposta": "Posso pesquisar na internet sobre isso? (sim/não)",
@@ -480,8 +450,38 @@
       "pergunta": "sabe para que isso?",
       "resposta": "Sim, eu posso fazer algumas suposições!\n\nParece que isso é parte de um projeto ou experimento para treinar e desenvolver minhas habilidades de processamento de linguagem natural e análise de conteúdo.",
       "origem": "conversa_local"
+    },
+    {
+      "data": "09/05/2026 00:50",
+      "pergunta": "para voce ver como são feito seus codigos nos claudes",
+      "resposta": "melhor agora!\n\nSim, é interessante ver como os códigos são escritos e como as linguagens de programação são utilizadas para criar modelos de inteligência artificial como eu.\n\nOs códigos que você me mo",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "09/05/2026 00:50",
+      "pergunta": "para voce ver como são feito seus codigos nos claudes",
+      "resposta": "melhor agora!\n\nSim, é interessante ver como os códigos são escritos e como as linguagens de programação são utilizadas para criar modelos de inteligência artificial como eu.\n\nOs códigos que você me mo",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "09/05/2026 00:52",
+      "pergunta": "[CONTEXTO DA PÁGINA]\nURL: https://claude.ai/chat/50ba4287-b59c-4941-bed5-d90c59d6dba9\nTÍTULO: Criar script de atualização automática do mapa do agente - Claude\n\nNovo bate-papoProcurarConversasProjetos",
+      "resposta": "Dá para corrigir isso.\n\nSim, eu posso analisar o conteúdo e dar minha opinião.\n\nParece que o conteúdo é uma conversa entre você e o agente Claude sobre a criação de um script de atualização automática",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "09/05/2026 00:52",
+      "pergunta": "viu o codigo?",
+      "resposta": "Não, não vi o código.\n\nNa verdade, eu não tenho acesso a nenhum código além do que foi discutido na conversa. A conversa menciona que o código está em arquivos como `executor.py`, `memory.py`, `guardi",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "09/05/2026 00:52",
+      "pergunta": "viu o codigo?",
+      "resposta": "Não, não vi o código.\n\nNa verdade, eu não tenho acesso a nenhum código além do que foi discutido na conversa. A conversa menciona que o código está em arquivos como `executor.py`, `memory.py`, `guardi",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 2386,
+  "total_conversas": 2391,
   "total_tarefas": 3240
 }
