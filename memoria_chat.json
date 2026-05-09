@@ -2,36 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "08/05/2026 18:59",
-      "pergunta": "entendeu por exemplo um usuario que use esse mapa poder localizar qualquer inimigo no jogo e ver sua localização",
-      "resposta": "melhor agora. Você está falando sobre criar um programa que possa gerar um mapa do jogo em tempo real, permitindo que os jogadores localizem inimigos, recursos e outros elementos importantes no jogo.\n",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "08/05/2026 19:01",
-      "pergunta": "seria tipo rackear o jogo , coisa feia , melhor esquecer",
-      "resposta": "Sim, criar um programa que possa gerar um mapa de jogo em tempo real, permitindo que os jogadores localizem inimigos e recursos, pode ser considerado como \"hacking\" ou \"cheating\" e pode violar os term",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "08/05/2026 19:01",
-      "pergunta": "seria tipo rackear o jogo , coisa feia , melhor esquecer",
-      "resposta": "Sim, criar um programa que possa gerar um mapa de jogo em tempo real, permitindo que os jogadores localizem inimigos e recursos, pode ser considerado como \"hacking\" ou \"cheating\" e pode violar os term",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "08/05/2026 22:51",
-      "pergunta": "pode me dizer se funcionou?",
-      "resposta": "Não sei a que você se refere com \"funcionou\". Não tenho informações suficientes para responder.",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "08/05/2026 22:51",
-      "pergunta": "pode me dizer se funcionou?",
-      "resposta": "Não sei a que você se refere com \"funcionou\". Não tenho informações suficientes para responder.",
-      "origem": "conversa_local"
-    },
-    {
       "data": "09/05/2026 00:14",
       "pergunta": "que pagina é essa?",
       "resposta": "Essa não é uma página. É uma conversa entre você e eu, o agente FORJA v5.4. Estamos conversando em um ambiente de texto.",
@@ -480,8 +450,38 @@
       "pergunta": "[CONTEXTO DA PÁGINA]\nURL: https://www.genspark.ai/agents?id=2cdde923-cf8d-4e92-a8c0-a84eb76d32b7\nTÍTULO: **Conversation History**:\n\nNew Super AgenteInícioClawWorkflowsEquipesDriveMais**Conversation Hi",
       "resposta": "Agora que você tem o código do `humanizer.py`, você pode começar a implementá-lo no seu pipeline de processamento de texto.\n\nAqui estão alguns passos que você pode seguir:\n\n1. Salve o código do `human",
       "origem": "conversa_local"
+    },
+    {
+      "data": "09/05/2026 10:57",
+      "pergunta": "[AMBIENTE: NOTICIAS | www.google.com]\n\n[INSTRUÇÃO DE CONTEXTO] Você está numa página de notícias. Resuma o fato principal, o impacto e o que ainda é incerto.\n\n[CONTEÚDO DA PÁGINA]\nURL: https://www.goo",
+      "resposta": "Você está na página de notícias do Google, mais especificamente na página de resultados de busca para a query \"chatgpt\". A página contém links para sites relacionados ao ChatGPT, incluindo o site ofic",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "09/05/2026 10:58",
+      "pergunta": "[AMBIENTE: ECOMMERCE | www.mercadolivre.com.br]\n\n[INSTRUÇÃO DE CONTEXTO] Você está numa página de compras. Analise: nome do produto, preço, avaliações, vendedor e riscos. Seja direto sobre se vale com",
+      "resposta": "Você está na página de um produto no Mercado Livre, um controlador ARGB para kit de fan Rise Mode Laser Energy. Aqui estão os detalhes principais:\n\n* Nome do produto: Controladora Argb 6 Pinos Do Kit ",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "09/05/2026 10:59",
+      "pergunta": "[AMBIENTE: ECOMMERCE | www.mercadolivre.com.br]\n\n[INSTRUÇÃO DE CONTEXTO] Você está numa página de compras. Analise: nome do produto, preço, avaliações, vendedor e riscos. Seja direto sobre se vale com",
+      "resposta": "Para determinar se o controlador ARGB 6 Pinos Do Kit Fan Rise Mode Laser Energy serve para o seu cooler, precisamos verificar as especificações do seu cooler e do controlador.\n\nO controlador tem 6 pin",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "09/05/2026 11:03",
+      "pergunta": "[AMBIENTE: ECOMMERCE | www.pichau.com.br]\n\n[INSTRUÇÃO DE CONTEXTO] Você está numa página de compras. Analise: nome do produto, preço, avaliações, vendedor e riscos. Seja direto sobre se vale comprar o",
+      "resposta": "Vamos analisar a ventoinha Acegeek Galaxy, 120mm, ARGB, AG-GALAXY-BK.\n\n**Características principais:**\n\n* Marca: Acegeek\n* Modelo: AG-GALAXY-BK\n* Conector: ARGB 6PIN\n* Dimensões: 120 x 120 x 25 mm\n* V",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "09/05/2026 11:05",
+      "pergunta": "[AMBIENTE: ECOMMERCE | www.mercadolivre.com.br]\n\n[INSTRUÇÃO DE CONTEXTO] Você está numa página de compras. Analise: nome do produto, preço, avaliações, vendedor e riscos. Seja direto sobre se vale com",
+      "resposta": "Vamos analisar a controladora ARGB 6 Pinos Do Kit Fan Rise Mode Laser Energy.\n\n**Características principais:**\n\n* Nome do produto: Controladora Argb 6 Pinos Do Kit Fan Rise Mode Laser Energy\n* Preço: ",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 2446,
+  "total_conversas": 2451,
   "total_tarefas": 3240
 }
