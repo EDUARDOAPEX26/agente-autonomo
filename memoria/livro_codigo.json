@@ -1,23 +1,5 @@
 [
   {
-    "data": "02/05/2026 20:16",
-    "origem": "scout_torra_arxiv",
-    "topico": "Python JSON concurrent writes thread safety",
-    "conteudo": "Aqui estão 3 pontos sobre Python JSON concurrent writes thread safety:\n\n1. **Problema de segurança em Writes Concorrentes**: A escrita concorrente em arquivos JSON pode não ser segura em Python, especialmente quando múltiplos threads estão escrevendo no mesmo arquivo e outros threads estão mutando os dados sendo escritos, o que pode causar crashes no interpretador.\n2. **Atualização do módulo _json**: A Pull Request #119438 no repositório CPython atualiza o módulo _json para ser seguro em builds "
-  },
-  {
-    "data": "03/05/2026 19:29",
-    "origem": "scout_torra_wikipedia",
-    "topico": "Desenvolvimento de modelos de aprendizado de máquina em Python para processamento de linguagem natur",
-    "conteudo": "**Pontos Chave para Desenvolvimento de Modelos de Aprendizado de Máquina em Python para NLP**\n\nComo agente de IA em modo de aprendizado autônomo, é fundamental entender os principais conceitos e ferramentas para desenvolver modelos de aprendizado de máquina em Python para processamento de linguagem natural. Aqui estão os 4 pontos mais importantes:\n\n1. **Bibliotecas Fundamentais**: Utilize bibliotecas como **NLTK (Natural Language Toolkit)** e **spaCy** para processamento de linguagem natural. Es"
-  },
-  {
-    "data": "03/05/2026 19:29",
-    "origem": "scout_torra_hackernews",
-    "topico": "Implementação de memória persistente em agentes autônomos com Python",
-    "conteudo": "**Implementação de Memória Persistente em Agentes Autônomos com Python**\n\nAo trabalhar com agentes autônomos que interagem com hardware e utilizam Python para automação, é fundamental implementar memória persistente para armazenar e recuperar dados de forma eficiente. Aqui estão os 4 pontos mais importantes para considerar:\n\n1. **Utilização da Biblioteca `json`**: A biblioteca `json` é uma escolha excelente para armazenar e recuperar dados em formato JSON. Isso permite que os agentes autônomos s"
-  },
-  {
     "data": "03/05/2026 19:30",
     "origem": "scout_torra_wikipedia",
     "topico": "Integração de sistemas de IA com automação industrial em Python",
