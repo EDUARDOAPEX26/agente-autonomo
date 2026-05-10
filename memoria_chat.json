@@ -2,42 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "09/05/2026 20:19",
-      "pergunta": "sim acabou de ir no shopp",
-      "resposta": "Não sei se você realmente foi ao shopping ou se está apenas me contando sobre isso. Como um agente de software, não tenho a capacidade de acompanhar seus movimentos ou saber onde você está fisicamente",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "09/05/2026 20:19",
-      "pergunta": "sim acabou de ir no shopp",
-      "resposta": "Não sei se você realmente foi ao shopping ou se está apenas me contando sobre isso. Como um agente de software, não tenho a capacidade de acompanhar seus movimentos ou saber onde você está fisicamente",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "09/05/2026 20:20",
-      "pergunta": "onde gostaria de ir ?",
-      "resposta": "Não sei. Como um agente de software, não tenho desejos ou preferências pessoais, nem a capacidade de viajar ou visitar lugares físicos. Minha função é ajudar e fornecer informações aos usuários, e est",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "09/05/2026 20:20",
-      "pergunta": "onde gostaria de ir ?",
-      "resposta": "Não sei. Como um agente de software, não tenho desejos ou preferências pessoais, nem a capacidade de viajar ou visitar lugares físicos. Minha função é ajudar e fornecer informações aos usuários, e est",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "09/05/2026 20:21",
-      "pergunta": "voce escolhe uma pagina ou um site",
-      "resposta": "Não sei. Como um agente de software, não tenho a capacidade de acessar ou escolher páginas ou sites específicos. Minha função é processar e responder às perguntas e comandos que recebo através desta i",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "09/05/2026 20:21",
-      "pergunta": "voce escolhe uma pagina ou um site",
-      "resposta": "Não sei. Como um agente de software, não tenho a capacidade de acessar ou escolher páginas ou sites específicos. Minha função é processar e responder às perguntas e comandos que recebo através desta i",
-      "origem": "conversa_local"
-    },
-    {
       "data": "09/05/2026 20:21",
       "pergunta": "pode ser mercado livre ?",
       "resposta": "Não sei. Não tenho a capacidade de acessar ou navegar em sites específicos, incluindo o Mercado Livre. Posso apenas fornecer informações gerais sobre o Mercado Livre, como é um site de compras online,",
@@ -480,8 +444,44 @@
       "pergunta": "vou te mostrar onde voce roda realmente ,pois essa maquina que voce se refere ainda esta sendo construida e voce ainda não esta nela",
       "resposta": "Então, a máquina que eu mencionei anteriormente, com os componentes como dual Xeon E5-2682 V4, placa-mãe MOUGOL X99, 32GB de RAM, etc., ainda está sendo construída e eu ainda não estou rodando nela.\n\n",
       "origem": "conversa_local"
+    },
+    {
+      "data": "10/05/2026 09:53",
+      "pergunta": "bom dia!",
+      "resposta": "Bom dia! O que você precisa hoje?",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "10/05/2026 09:53",
+      "pergunta": "bom dia!",
+      "resposta": "Bom dia! O que você precisa hoje?",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "10/05/2026 09:54",
+      "pergunta": "sabe meu nome?",
+      "resposta": "Não sei seu nome. Não tenho essa informação.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "10/05/2026 09:54",
+      "pergunta": "sabe meu nome?",
+      "resposta": "Não sei seu nome. Não tenho essa informação.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "10/05/2026 09:54",
+      "pergunta": "sabe quem voce é",
+      "resposta": "Sou um agente autônomo criado por Eduardo Conceição, versão 5.4, com 40 fases cognitivas.",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "10/05/2026 09:54",
+      "pergunta": "sabe quem voce é",
+      "resposta": "Sou um agente autônomo criado por Eduardo Conceição, versão 5.4, com 40 fases cognitivas.",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 2555,
+  "total_conversas": 2561,
   "total_tarefas": 3240
 }
