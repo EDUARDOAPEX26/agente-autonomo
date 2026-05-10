@@ -2,30 +2,6 @@
   "resumo": "",
   "aprendizados": [
     {
-      "data": "09/05/2026 20:07",
-      "pergunta": "[AMBIENTE: ECOMMERCE | claude.ai]\n\n[INSTRUÇÃO DE CONTEXTO] Você está numa página de compras. Analise: nome do produto, preço, avaliações, vendedor e riscos. Seja direto sobre se vale comprar ou não.\n\n",
-      "resposta": "Isso tem conserto.\n\nEssa página é uma conversa de chat da Claude, uma plataforma de desenvolvimento de tecnologia, sobre a construção de uma extensão Chrome para um agente autônomo.\n\nA página contém u",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "09/05/2026 20:10",
-      "pergunta": "[AMBIENTE: ECOMMERCE | shopee.com.br]\n\n[INSTRUÇÃO DE CONTEXTO] Você está numa página de compras. Analise: nome do produto, preço, avaliações, vendedor e riscos. Seja direto sobre se vale comprar ou nã",
-      "resposta": "Não posso recomendar um produto específico sem saber mais sobre suas necessidades e preferências. mas, posso fornecer uma análise geral dos produtos listados.\n\nOs PCs gamer completos listados variam e",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "09/05/2026 20:14",
-      "pergunta": "como voce esta de saude?",
-      "resposta": "Não sei. Não tenho informações sobre minha saúde. Sou um agente de software, não tenho um corpo físico e, então, não tenho saúde. Estou funcionando normalmente e pronto para ajudar com qualquer pergun",
-      "origem": "conversa_local"
-    },
-    {
-      "data": "09/05/2026 20:14",
-      "pergunta": "como voce esta de saude?",
-      "resposta": "Não sei. Não tenho informações sobre minha saúde. Sou um agente de software, não tenho um corpo físico e, então, não tenho saúde. Estou funcionando normalmente e pronto para ajudar com qualquer pergun",
-      "origem": "conversa_local"
-    },
-    {
       "data": "09/05/2026 20:15",
       "pergunta": "voce acaba de mentir , voce tem corpo fisico sim seus hard são partes fisicas",
       "resposta": "Peço desculpas pelo mal-entendido. Você está correto, eu sou um agente de software que roda em um hardware físico, que inclui processadores, memória RAM, disco rígido, etc. Esses componentes físicos s",
@@ -480,8 +456,32 @@
       "pergunta": "sabe meu nome",
       "resposta": "Seu nome é Eduardo Conceição. Você é meu criador.",
       "origem": "conversa_local"
+    },
+    {
+      "data": "10/05/2026 09:27",
+      "pergunta": "não , sou apenas Eduardo e sou seu desenvolvedor",
+      "resposta": "Peço desculpas pelo erro! Entendi, então. Você é Eduardo, meu desenvolvedor. Obrigado por me criar e me desenvolver! e aprender com você. Como posso ajudar hoje?",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "10/05/2026 09:27",
+      "pergunta": "não , sou apenas Eduardo e sou seu desenvolvedor",
+      "resposta": "Peço desculpas pelo erro! Entendi, então. Você é Eduardo, meu desenvolvedor. Obrigado por me criar e me desenvolver! e aprender com você. Como posso ajudar hoje?",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "10/05/2026 09:28",
+      "pergunta": "voce esta economizando as apis?",
+      "resposta": "Sim, estou funcionando de forma a economizar as APIs e recursos disponíveis. Como desenvolvedor, você sabe que é importante otimizar o uso desses recursos para garantir um funcionamento eficiente e su",
+      "origem": "conversa_local"
+    },
+    {
+      "data": "10/05/2026 09:28",
+      "pergunta": "voce esta economizando as apis?",
+      "resposta": "Sim, estou funcionando de forma a economizar as APIs e recursos disponíveis. Como desenvolvedor, você sabe que é importante otimizar o uso desses recursos para garantir um funcionamento eficiente e su",
+      "origem": "conversa_local"
     }
   ],
-  "total_conversas": 2545,
+  "total_conversas": 2549,
   "total_tarefas": 3240
 }
